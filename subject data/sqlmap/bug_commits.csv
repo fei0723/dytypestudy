@@ -1,0 +1,622 @@
+commit,author,date,title,faultID,file
+b6584c8,Miroslav Stampar,2017-12-28 13:25:26,Fixes #2853,2853,lib/core/common.py
+b6584c8,Miroslav Stampar,2017-12-28 13:25:26,Fixes #2853,2853,lib/core/settings.py
+cad6cfe,Miroslav Stampar,2017-12-24 04:03:32,Fixes #2843,2843,lib/core/common.py
+cad6cfe,Miroslav Stampar,2017-12-24 04:03:32,Fixes #2843,2843,lib/core/settings.py
+7ade3aa,Miroslav Stampar,2017-12-22 01:25:03,Fixes #2841,2841,lib/core/common.py
+7ade3aa,Miroslav Stampar,2017-12-22 01:25:03,Fixes #2841,2841,lib/core/settings.py
+acd764f,Miroslav Stampar,2017-12-13 10:46:46,Fixes #2828,2828,lib/core/settings.py
+acd764f,Miroslav Stampar,2017-12-13 10:46:46,Fixes #2828,2828,lib/request/comparison.py
+b9efdb2,Miroslav Stampar,2017-12-11 11:26:09,Fixes #2824,2824,lib/core/settings.py
+b9efdb2,Miroslav Stampar,2017-12-11 11:26:09,Fixes #2824,2824,lib/techniques/blind/inference.py
+a90b5f7,Miroslav Stampar,2017-12-05 11:33:30,Fixes #2766,2766,lib/core/agent.py
+a90b5f7,Miroslav Stampar,2017-12-05 11:33:30,Fixes #2766,2766,lib/core/common.py
+a90b5f7,Miroslav Stampar,2017-12-05 11:33:30,Fixes #2766,2766,lib/core/settings.py
+370884d,Miroslav Stampar,2017-12-04 14:59:05,Fixes #2811,2811,lib/core/settings.py
+370884d,Miroslav Stampar,2017-12-04 14:59:05,Fixes #2811,2811,lib/techniques/union/test.py
+e7268ff,Miroslav Stampar,2017-12-01 10:32:44,Fixes #2809,2809,lib/core/settings.py
+e7268ff,Miroslav Stampar,2017-12-01 10:32:44,Fixes #2809,2809,lib/utils/hash.py
+7c5b051,Miroslav Stampar,2017-11-29 15:59:00,Fixes #2808,2808,lib/controller/checks.py
+7c5b051,Miroslav Stampar,2017-11-29 15:59:00,Fixes #2808,2808,lib/core/settings.py
+d7677f3,Miroslav Stampar,2017-11-22 13:07:04,Fixes #2793,2793,lib/core/settings.py
+d7677f3,Miroslav Stampar,2017-11-22 13:07:04,Fixes #2793,2793,lib/request/connect.py
+ec83837,Miroslav Stampar,2017-11-19 02:51:29,Fixes #2786,2786,lib/core/settings.py
+ec83837,Miroslav Stampar,2017-11-19 02:51:29,Fixes #2786,2786,lib/request/connect.py
+2333903,Miroslav Stampar,2017-11-19 02:16:52,Fixes #2785,2785,lib/core/common.py
+2333903,Miroslav Stampar,2017-11-19 02:16:52,Fixes #2785,2785,lib/core/settings.py
+a651c8a,Miroslav Stampar,2017-11-15 10:36:32,Fixes #2779,2779,lib/core/settings.py
+a651c8a,Miroslav Stampar,2017-11-15 10:36:32,Fixes #2779,2779,sqlmap.py
+b608c21,Miroslav Stampar,2017-11-15 09:51:20,Fixes #2778,2778,lib/core/settings.py
+b608c21,Miroslav Stampar,2017-11-15 09:51:20,Fixes #2778,2778,plugins/generic/filesystem.py
+323f128,Miroslav Stampar,2017-11-13 14:07:12,Fixes #2774,2774,lib/core/settings.py
+323f128,Miroslav Stampar,2017-11-13 14:07:12,Fixes #2774,2774,lib/request/connect.py
+26b81f5,Miroslav Stampar,2017-11-13 11:19:25,Fixes #2772,2772,lib/controller/controller.py
+26b81f5,Miroslav Stampar,2017-11-13 11:19:25,Fixes #2772,2772,lib/core/settings.py
+26b81f5,Miroslav Stampar,2017-11-13 11:19:25,Fixes #2772,2772,lib/core/target.py
+e5f9610,Miroslav Stampar,2017-11-06 10:53:50,Fixes #2763,2763,lib/core/common.py
+e5f9610,Miroslav Stampar,2017-11-06 10:53:50,Fixes #2763,2763,lib/core/settings.py
+0d1ea50,Miroslav Stampar,2017-11-06 10:00:29,Fixes #2762,2762,lib/core/settings.py
+0d1ea50,Miroslav Stampar,2017-11-06 10:00:29,Fixes #2762,2762,lib/utils/search.py
+ce8d0be,Miroslav Stampar,2017-11-02 11:49:36,Fixes #2755,2755,lib/core/settings.py
+4e61113,Miroslav Stampar,2017-10-17 16:34:09,Fixes #2747,2747,lib/request/basic.py
+7de63a7,Miroslav Stampar,2017-09-12 10:32:22,Fixes #2694,2694,lib/core/option.py
+7de63a7,Miroslav Stampar,2017-09-12 10:32:22,Fixes #2694,2694,lib/core/settings.py
+96f8087,Miroslav Stampar,2017-09-06 23:41:56,Fixes #2688,2688,lib/core/common.py
+96f8087,Miroslav Stampar,2017-09-06 23:41:56,Fixes #2688,2688,lib/core/settings.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,lib/core/convert.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,lib/core/settings.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,lib/takeover/web.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,lib/takeover/xp_cmdshell.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,plugins/dbms/mssqlserver/filesystem.py
+96b9950,Miroslav Stampar,2017-09-05 13:13:08,Fixes #2684,2684,plugins/generic/users.py
+7c41bc5,Miroslav Stampar,2017-09-05 10:51:58,Fixes #2683,2683,lib/core/convert.py
+7c41bc5,Miroslav Stampar,2017-09-05 10:51:58,Fixes #2683,2683,lib/core/settings.py
+e609bd0,Miroslav Stampar,2017-09-04 23:00:16,Fixes #2678,2678,lib/core/common.py
+e609bd0,Miroslav Stampar,2017-09-04 23:00:16,Fixes #2678,2678,lib/core/settings.py
+e609bd0,Miroslav Stampar,2017-09-04 23:00:16,Fixes #2678,2678,plugins/generic/databases.py
+d4170f1,Miroslav Stampar,2017-08-28 17:29:46,Patch for #2654,2654,lib/core/agent.py
+d4170f1,Miroslav Stampar,2017-08-28 17:29:46,Patch for #2654,2654,lib/core/settings.py
+3e4130c,Miroslav Stampar,2017-08-28 11:08:36,Update for #2665,2665,lib/core/settings.py
+3e4130c,Miroslav Stampar,2017-08-28 11:08:36,Update for #2665,2665,lib/request/connect.py
+400339a,Miroslav Stampar,2017-08-23 13:52:51,Fixes #2665,2665,lib/core/settings.py
+400339a,Miroslav Stampar,2017-08-23 13:52:51,Fixes #2665,2665,lib/request/connect.py
+b8f88a0,Miroslav Stampar,2017-08-20 10:00:04,Fixes #2659,2659,lib/core/settings.py
+b8f88a0,Miroslav Stampar,2017-08-20 10:00:04,Fixes #2659,2659,lib/request/connect.py
+a761e1d,Miroslav Stampar,2017-08-16 03:08:58,Fixes #2656,2656,lib/core/settings.py
+a761e1d,Miroslav Stampar,2017-08-16 03:08:58,Fixes #2656,2656,lib/request/basic.py
+a761e1d,Miroslav Stampar,2017-08-16 03:08:58,Fixes #2656,2656,lib/request/connect.py
+5b6926a,Miroslav Stampar,2017-08-11 11:48:05,Fixes #2654,2654,lib/core/common.py
+5b6926a,Miroslav Stampar,2017-08-11 11:48:05,Fixes #2654,2654,lib/core/settings.py
+1ac0704,Miroslav Stampar,2017-08-09 16:52:36,Fixes #2651,2651,lib/core/settings.py
+1ac0704,Miroslav Stampar,2017-08-09 16:52:36,Fixes #2651,2651,plugins/dbms/maxdb/enumeration.py
+b6b51be,Miroslav Stampar,2017-08-07 11:27:22,Fixes #2649,2649,lib/core/settings.py
+b6b51be,Miroslav Stampar,2017-08-07 11:27:22,Fixes #2649,2649,lib/core/target.py
+68ee1f3,Miroslav Stampar,2017-07-31 14:20:59,Fixes #2640,2640,lib/core/common.py
+68ee1f3,Miroslav Stampar,2017-07-31 14:20:59,Fixes #2640,2640,lib/core/settings.py
+68ee1f3,Miroslav Stampar,2017-07-31 14:20:59,Fixes #2640,2640,lib/request/connect.py
+f071c85,Miroslav Stampar,2017-07-29 03:18:49,Fixes #2634,2634,lib/core/settings.py
+f071c85,Miroslav Stampar,2017-07-29 03:18:49,Fixes #2634,2634,plugins/dbms/mssqlserver/fingerprint.py
+5745d65,Miroslav Stampar,2017-07-29 02:42:20,Fixes #2635,2635,lib/controller/handler.py
+5745d65,Miroslav Stampar,2017-07-29 02:42:20,Fixes #2635,2635,lib/core/settings.py
+de8ea53,Miroslav Stampar,2017-07-28 00:37:33,Fixes #2628,2628,lib/core/settings.py
+de8ea53,Miroslav Stampar,2017-07-28 00:37:33,Fixes #2628,2628,lib/core/target.py
+23081f8,Miroslav Stampar,2017-07-28 00:16:06,Fixes #2626,2626,lib/core/settings.py
+23081f8,Miroslav Stampar,2017-07-28 00:16:06,Fixes #2626,2626,lib/request/redirecthandler.py
+1745bac,Miroslav Stampar,2017-07-26 00:54:29,Fixes #2625,2625,lib/core/agent.py
+1745bac,Miroslav Stampar,2017-07-26 00:54:29,Fixes #2625,2625,lib/core/settings.py
+1745bac,Miroslav Stampar,2017-07-26 00:54:29,Fixes #2625,2625,lib/core/target.py
+1745bac,Miroslav Stampar,2017-07-26 00:54:29,Fixes #2625,2625,lib/request/connect.py
+1745bac,Miroslav Stampar,2017-07-26 00:54:29,Fixes #2625,2625,lib/takeover/abstraction.py
+7d147f6,Miroslav Stampar,2017-07-17 22:24:51,Fixes #2611,2611,lib/core/settings.py
+7d147f6,Miroslav Stampar,2017-07-17 22:24:51,Fixes #2611,2611,lib/takeover/web.py
+591a60b,Miroslav Stampar,2017-07-11 14:48:22,Fixes #2606,2606,lib/core/settings.py
+591a60b,Miroslav Stampar,2017-07-11 14:48:22,Fixes #2606,2606,sqlmap.py
+3f40bf1,Miroslav Stampar,2017-07-06 11:44:18,Fixes #2387,2387,lib/core/agent.py
+3f40bf1,Miroslav Stampar,2017-07-06 11:44:18,Fixes #2387,2387,lib/core/settings.py
+ba369b7,Miroslav Stampar,2017-07-05 11:31:42,Fixes #2601,2601,lib/core/settings.py
+ba369b7,Miroslav Stampar,2017-07-05 11:31:42,Fixes #2601,2601,plugins/dbms/oracle/enumeration.py
+ba369b7,Miroslav Stampar,2017-07-05 11:31:42,Fixes #2601,2601,plugins/generic/users.py
+b622c25,Miroslav Stampar,2017-07-03 14:17:11,Fixes #2598,2598,lib/core/common.py
+b622c25,Miroslav Stampar,2017-07-03 14:17:11,Fixes #2598,2598,lib/core/settings.py
+b622c25,Miroslav Stampar,2017-07-03 14:17:11,Fixes #2598,2598,plugins/generic/connector.py
+e07ff71,Miroslav Stampar,2017-07-02 00:03:34,Fixes #2599,2599,lib/core/settings.py
+e07ff71,Miroslav Stampar,2017-07-02 00:03:34,Fixes #2599,2599,lib/core/target.py
+f93c19b,Miroslav Stampar,2017-06-29 15:29:54,Fixes #2596,2596,lib/core/settings.py
+f93c19b,Miroslav Stampar,2017-06-29 15:29:54,Fixes #2596,2596,lib/core/target.py
+a297329,Miroslav Stampar,2017-06-29 14:26:25,Fixes #2595,2595,lib/core/settings.py
+0961f6a,Miroslav Stampar,2017-06-23 23:46:25,Fixes #2592,2592,lib/core/common.py
+0961f6a,Miroslav Stampar,2017-06-23 23:46:25,Fixes #2592,2592,lib/core/settings.py
+0961f6a,Miroslav Stampar,2017-06-23 23:46:25,Fixes #2592,2592,lib/request/connect.py
+e2d3187,Miroslav Stampar,2017-06-18 15:00:12,Fixes #2576,2576,lib/core/settings.py
+e2d3187,Miroslav Stampar,2017-06-18 15:00:12,Fixes #2576,2576,lib/utils/api.py
+b498077,Miroslav Stampar,2017-06-18 14:07:48,Fixes #2577,2577,lib/core/settings.py
+b498077,Miroslav Stampar,2017-06-18 14:07:48,Fixes #2577,2577,lib/techniques/blind/inference.py
+71457fe,Miroslav Stampar,2017-06-18 13:19:11,Fixes #2585,2585,lib/core/settings.py
+71457fe,Miroslav Stampar,2017-06-18 13:19:11,Fixes #2585,2585,lib/request/connect.py
+c41c93a,Miroslav Stampar,2017-06-07 22:43:28,Fixes #2568,2568,lib/core/optiondict.py
+c41c93a,Miroslav Stampar,2017-06-07 22:43:28,Fixes #2568,2568,lib/core/settings.py
+9a7343e,Miroslav Stampar,2017-06-07 16:07:27,Fixes #2566,2566,lib/core/settings.py
+9a7343e,Miroslav Stampar,2017-06-07 16:07:27,Fixes #2566,2566,plugins/generic/entries.py
+6d48df2,Miroslav Stampar,2017-06-05 10:38:05,Fixes #2562,2562,lib/core/settings.py
+6d48df2,Miroslav Stampar,2017-06-05 10:38:05,Fixes #2562,2562,lib/request/connect.py
+eb26dd8,Miroslav Stampar,2017-06-02 00:44:01,Fixes #2556,2556,lib/core/agent.py
+eb26dd8,Miroslav Stampar,2017-06-02 00:44:01,Fixes #2556,2556,lib/core/settings.py
+5f3235e,Miroslav Stampar,2017-05-30 11:40:06,Fixes #2551,2551,lib/core/common.py
+5f3235e,Miroslav Stampar,2017-05-30 11:40:06,Fixes #2551,2551,lib/core/settings.py
+dfe4261,Miroslav Stampar,2017-05-29 10:57:27,Fixes #2549,2549,lib/core/settings.py
+dfe4261,Miroslav Stampar,2017-05-29 10:57:27,Fixes #2549,2549,plugins/generic/users.py
+6dd9d5b,Miroslav Stampar,2017-05-26 14:34:32,Fixes #2547,2547,lib/core/settings.py
+6dd9d5b,Miroslav Stampar,2017-05-26 14:34:32,Fixes #2547,2547,lib/request/basic.py
+071132c,Miroslav Stampar,2017-05-21 22:52:27,Fixes #2543,2543,lib/core/settings.py
+071132c,Miroslav Stampar,2017-05-21 22:52:27,Fixes #2543,2543,lib/request/connect.py
+2ca5ddc,Miroslav Stampar,2017-05-15 17:03:05,Fixes #2534,2534,lib/core/settings.py
+2ca5ddc,Miroslav Stampar,2017-05-15 17:03:05,Fixes #2534,2534,plugins/dbms/mysql/connector.py
+4736a52,Miroslav Stampar,2017-05-13 17:28:28,Fixes #2532,2532,lib/core/settings.py
+4736a52,Miroslav Stampar,2017-05-13 17:28:28,Fixes #2532,2532,lib/core/target.py
+ee5b5cd,Miroslav Stampar,2017-05-04 15:50:34,Fixes #2514,2514,lib/core/settings.py
+ee5b5cd,Miroslav Stampar,2017-05-04 15:50:34,Fixes #2514,2514,lib/request/connect.py
+1e8df40,Miroslav Stampar,2017-05-01 23:21:12,Fixes #2499,2499,lib/core/settings.py
+1e8df40,Miroslav Stampar,2017-05-01 23:21:12,Fixes #2499,2499,sqlmap.py
+3891336,Miroslav Stampar,2017-05-01 23:06:37,Fixes #2508,2508,lib/core/option.py
+3891336,Miroslav Stampar,2017-05-01 23:06:37,Fixes #2508,2508,lib/core/settings.py
+347ce87,Miroslav Stampar,2017-05-01 22:53:12,Fixes #2511,2511,lib/core/agent.py
+347ce87,Miroslav Stampar,2017-05-01 22:53:12,Fixes #2511,2511,lib/core/settings.py
+ff5a954,Miroslav Stampar,2017-04-30 08:32:26,Fixes #2508,2508,lib/core/option.py
+ff5a954,Miroslav Stampar,2017-04-30 08:32:26,Fixes #2508,2508,lib/core/settings.py
+1a8de2a,Miroslav Stampar,2017-04-27 13:18:29,Fixes #2504,2504,lib/core/common.py
+1a8de2a,Miroslav Stampar,2017-04-27 13:18:29,Fixes #2504,2504,lib/core/settings.py
+ab08273,Miroslav Stampar,2017-04-23 23:50:30,Fixes #2501,2501,lib/core/settings.py
+ab08273,Miroslav Stampar,2017-04-23 23:50:30,Fixes #2501,2501,lib/utils/crawler.py
+fbb845a,Miroslav Stampar,2017-04-23 23:30:51,Fixes #2500,2500,lib/core/option.py
+fbb845a,Miroslav Stampar,2017-04-23 23:30:51,Fixes #2500,2500,lib/core/settings.py
+15a1d55,Miroslav Stampar,2017-04-23 23:14:05,Fixes #2500,2500,lib/core/option.py
+15a1d55,Miroslav Stampar,2017-04-23 23:14:05,Fixes #2500,2500,lib/core/settings.py
+4643bd6,Miroslav Stampar,2017-04-21 17:44:51,Quick patch for #2498,2498,lib/core/agent.py
+4643bd6,Miroslav Stampar,2017-04-21 17:44:51,Quick patch for #2498,2498,lib/core/common.py
+4643bd6,Miroslav Stampar,2017-04-21 17:44:51,Quick patch for #2498,2498,lib/core/settings.py
+1c5f01e,Miroslav Stampar,2017-04-20 11:54:27,Fixes #2487,2487,lib/core/settings.py
+1c5f01e,Miroslav Stampar,2017-04-20 11:54:27,Fixes #2487,2487,lib/techniques/error/use.py
+1c5f01e,Miroslav Stampar,2017-04-20 11:54:27,Fixes #2487,2487,lib/techniques/union/use.py
+ebbc688,Miroslav Stampar,2017-04-20 10:48:04,Fixes #2496,2496,lib/core/settings.py
+ebbc688,Miroslav Stampar,2017-04-20 10:48:04,Fixes #2496,2496,lib/techniques/error/use.py
+3140fd0,Miroslav Stampar,2017-04-20 10:29:05,Fixes #2495,2495,lib/core/settings.py
+3140fd0,Miroslav Stampar,2017-04-20 10:29:05,Fixes #2495,2495,lib/utils/hash.py
+5bcbf63,Miroslav Stampar,2017-04-19 16:13:31,Fixes #2491,2491,lib/core/settings.py
+5bcbf63,Miroslav Stampar,2017-04-19 16:13:31,Fixes #2491,2491,lib/core/target.py
+01fbda4,Miroslav Stampar,2017-04-19 16:13:05,Fixes #2490,2490,lib/core/common.py
+01fbda4,Miroslav Stampar,2017-04-19 16:13:05,Fixes #2490,2490,lib/core/settings.py
+c8a0c52,Miroslav Stampar,2017-04-19 14:19:39,Fixes #2489,2489,lib/controller/controller.py
+c8a0c52,Miroslav Stampar,2017-04-19 14:19:39,Fixes #2489,2489,lib/core/settings.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/controller/controller.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/core/common.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/core/dump.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/core/option.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/core/settings.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/techniques/blind/inference.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/techniques/brute/use.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/techniques/error/use.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/techniques/union/use.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/utils/api.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,lib/utils/hash.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,plugins/dbms/hsqldb/fingerprint.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,plugins/dbms/mysql/fingerprint.py
+9b3d229,Miroslav Stampar,2017-04-10 19:21:22,Fixes #2471,2471,sqlmap.py
+4458a44,Miroslav Stampar,2017-03-30 11:58:03,Fixes #1664,1664,lib/core/settings.py
+4458a44,Miroslav Stampar,2017-03-30 11:58:03,Fixes #1664,1664,lib/takeover/metasploit.py
+16bd3a1,Miroslav Stampar,2017-03-30 11:42:34,Fixes #2453,2453,lib/core/settings.py
+16bd3a1,Miroslav Stampar,2017-03-30 11:42:34,Fixes #2453,2453,lib/takeover/metasploit.py
+f82c049,Miroslav Stampar,2017-03-27 22:36:04,Fixes #2447,2447,lib/core/settings.py
+f82c049,Miroslav Stampar,2017-03-27 22:36:04,Fixes #2447,2447,lib/request/redirecthandler.py
+7157638,Miroslav Stampar,2017-03-24 14:20:18,Fixes #2306,2306,lib/core/settings.py
+7157638,Miroslav Stampar,2017-03-24 14:20:18,Fixes #2306,2306,lib/takeover/metasploit.py
+4aae5d9,Miroslav Stampar,2017-03-19 21:34:47,Fixes #2444,2444,lib/core/settings.py
+4aae5d9,Miroslav Stampar,2017-03-19 21:34:47,Fixes #2444,2444,lib/request/connect.py
+c29e47f,Miroslav Stampar,2017-03-15 16:04:38,Fixes #2440,2440,lib/core/common.py
+c29e47f,Miroslav Stampar,2017-03-15 16:04:38,Fixes #2440,2440,lib/core/settings.py
+5dba32b,Miroslav Stampar,2017-03-12 09:52:37,Fixes #2431,2431,lib/core/settings.py
+5dba32b,Miroslav Stampar,2017-03-12 09:52:37,Fixes #2431,2431,lib/request/connect.py
+e2fb16c,Miroslav Stampar,2017-03-06 12:05:58,Fixes #2425,2425,lib/core/settings.py
+e2fb16c,Miroslav Stampar,2017-03-06 12:05:58,Fixes #2425,2425,plugins/generic/entries.py
+7960045,Miroslav Stampar,2017-02-27 13:58:07,Fixes #2277 and #2300,2277,lib/controller/handler.py
+7960045,Miroslav Stampar,2017-02-27 13:58:07,Fixes #2277 and #2300,2277,lib/core/common.py
+7960045,Miroslav Stampar,2017-02-27 13:58:07,Fixes #2277 and #2300,2277,lib/core/settings.py
+2a3014b,Miroslav Stampar,2017-01-24 18:07:06,Fixes #2367,2367,lib/core/option.py
+2a3014b,Miroslav Stampar,2017-01-24 18:07:06,Fixes #2367,2367,lib/core/settings.py
+16d5e22,Miroslav Stampar,2017-01-21 23:58:37,Fixes #2358,2358,lib/core/common.py
+16d5e22,Miroslav Stampar,2017-01-21 23:58:37,Fixes #2358,2358,lib/core/settings.py
+dd5ac6f,Miroslav Stampar,2017-01-18 10:33:54,Fixes #2357,2357,lib/core/settings.py
+dd5ac6f,Miroslav Stampar,2017-01-18 10:33:54,Fixes #2357,2357,lib/parse/configfile.py
+1e7a453,Miroslav Stampar,2017-01-18 10:19:23,Fixes #2356,2356,lib/core/settings.py
+1e7a453,Miroslav Stampar,2017-01-18 10:19:23,Fixes #2356,2356,lib/core/threads.py
+9a86365,Miroslav Stampar,2017-01-08 01:21:31,Fixes #2333,2333,lib/core/settings.py
+9a86365,Miroslav Stampar,2017-01-08 01:21:31,Fixes #2333,2333,lib/request/basic.py
+f794d9d,Miroslav Stampar,2017-01-02 15:26:32,Fixes #2328,2328,lib/core/common.py
+f794d9d,Miroslav Stampar,2017-01-02 15:26:32,Fixes #2328,2328,lib/core/settings.py
+6ff07f0,Miroslav Stampar,2016-12-31 13:39:22,Fixes #2326,2326,lib/core/option.py
+6ff07f0,Miroslav Stampar,2016-12-31 13:39:22,Fixes #2326,2326,lib/core/settings.py
+1c737d7,Miroslav Stampar,2016-12-28 22:11:14,Fixes #2322,2322,lib/core/option.py
+1c737d7,Miroslav Stampar,2016-12-28 22:11:14,Fixes #2322,2322,lib/core/settings.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,lib/core/common.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,lib/core/settings.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,plugins/dbms/hsqldb/enumeration.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,plugins/dbms/maxdb/enumeration.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,plugins/dbms/mssqlserver/enumeration.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,plugins/dbms/oracle/enumeration.py
+44b00d6,Miroslav Stampar,2016-12-21 10:33:35,Fixes #2312,2312,plugins/dbms/sybase/enumeration.py
+c54c220,Miroslav Stampar,2016-12-12 10:47:05,Fixes #2303,2303,lib/core/agent.py
+c54c220,Miroslav Stampar,2016-12-12 10:47:05,Fixes #2303,2303,lib/core/settings.py
+f6815df,Miroslav Stampar,2016-12-09 23:10:14,Fixes #2302,2302,lib/core/settings.py
+f6815df,Miroslav Stampar,2016-12-09 23:10:14,Fixes #2302,2302,lib/request/connect.py
+ea96167,Miroslav Stampar,2016-11-11 10:28:50,Fixes #2273,2273,lib/core/common.py
+ea96167,Miroslav Stampar,2016-11-11 10:28:50,Fixes #2273,2273,lib/core/settings.py
+eb098f6,Miroslav Stampar,2016-11-09 12:27:10,Fixes #2268,2268,lib/core/settings.py
+5772d89,Miroslav Stampar,2016-11-09 12:20:54,Fixes #2266,2266,lib/core/replication.py
+5772d89,Miroslav Stampar,2016-11-09 12:20:54,Fixes #2266,2266,lib/core/settings.py
+5772d89,Miroslav Stampar,2016-11-09 12:20:54,Fixes #2266,2266,lib/utils/hashdb.py
+ce19525,Miroslav Stampar,2016-11-05 22:36:58,Fixes #2262,2262,lib/core/option.py
+ce19525,Miroslav Stampar,2016-11-05 22:36:58,Fixes #2262,2262,lib/core/settings.py
+6da2e49,Miroslav Stampar,2016-11-04 15:04:38,Fixes #2261,2261,lib/core/settings.py
+6da2e49,Miroslav Stampar,2016-11-04 15:04:38,Fixes #2261,2261,lib/request/httpshandler.py
+10097dd,Miroslav Stampar,2016-10-29 00:13:04,Fixes #2253,2253,lib/core/convert.py
+10097dd,Miroslav Stampar,2016-10-29 00:13:04,Fixes #2253,2253,lib/core/option.py
+10097dd,Miroslav Stampar,2016-10-29 00:13:04,Fixes #2253,2253,lib/core/settings.py
+c557637,Miroslav Stampar,2016-10-26 08:49:27,Fixes #2248,2248,plugins/dbms/mysql/connector.py
+044f05e,Miroslav Stampar,2016-10-24 23:52:33,Fixes #2246,2246,lib/core/common.py
+044f05e,Miroslav Stampar,2016-10-24 23:52:33,Fixes #2246,2246,lib/core/settings.py
+6f34308,Miroslav Stampar,2016-10-24 23:33:49,Fixes #2245,2245,lib/core/settings.py
+6f34308,Miroslav Stampar,2016-10-24 23:33:49,Fixes #2245,2245,thirdparty/magic/magic.py
+25c34c7,Miroslav Stampar,2016-10-24 23:29:18,Fixes #2244,2244,lib/core/option.py
+25c34c7,Miroslav Stampar,2016-10-24 23:29:18,Fixes #2244,2244,lib/core/settings.py
+d2bbe80,Miroslav Stampar,2016-10-22 22:07:29,Fixes #2243,2243,lib/core/common.py
+d2bbe80,Miroslav Stampar,2016-10-22 22:07:29,Fixes #2243,2243,lib/core/settings.py
+d2bbe80,Miroslav Stampar,2016-10-22 22:07:29,Fixes #2243,2243,lib/request/dns.py
+d2bbe80,Miroslav Stampar,2016-10-22 22:07:29,Fixes #2243,2243,thirdparty/socks/socks.py
+d605b3a,Miroslav Stampar,2016-10-21 13:01:28,Revisiting banner xmls (Issue #2239),2239,lib/core/settings.py
+5c80e98,Miroslav Stampar,2016-10-20 00:47:53,Fixes #2238,2238,lib/core/settings.py
+5c80e98,Miroslav Stampar,2016-10-20 00:47:53,Fixes #2238,2238,lib/request/connect.py
+10ffcb8,Miroslav Stampar,2016-10-20 00:19:16,Fixes #2237,2237,lib/core/settings.py
+10ffcb8,Miroslav Stampar,2016-10-20 00:19:16,Fixes #2237,2237,lib/request/connect.py
+1db6953,Miroslav Stampar,2016-10-18 20:17:51,Proper fix for #2236,2236,lib/core/option.py
+1db6953,Miroslav Stampar,2016-10-18 20:17:51,Proper fix for #2236,2236,lib/core/settings.py
+1db6953,Miroslav Stampar,2016-10-18 20:17:51,Proper fix for #2236,2236,lib/utils/api.py
+d431c7d,Miroslav Stampar,2016-10-18 20:07:19,Fixes #2236,2236,lib/core/settings.py
+d431c7d,Miroslav Stampar,2016-10-18 20:07:19,Fixes #2236,2236,lib/utils/api.py
+877d46e,Miroslav Stampar,2016-10-18 13:46:56,Fixes #2234,2234,lib/core/option.py
+877d46e,Miroslav Stampar,2016-10-18 13:46:56,Fixes #2234,2234,lib/core/settings.py
+877d46e,Miroslav Stampar,2016-10-18 13:46:56,Fixes #2234,2234,thirdparty/wininetpton/__init__.py
+877d46e,Miroslav Stampar,2016-10-18 13:46:56,Fixes #2234,2234,thirdparty/wininetpton/win_inet_pton.py
+7e69cc1,Miroslav Stampar,2016-10-18 13:37:36,Fixes #2235,2235,lib/core/settings.py
+7e69cc1,Miroslav Stampar,2016-10-18 13:37:36,Fixes #2235,2235,lib/core/threads.py
+d6255de,Miroslav Stampar,2016-10-17 12:33:07,Fixes #2231,2231,lib/core/option.py
+75c9f91,Miroslav Stampar,2016-10-15 00:51:35,Fixes #2226,2226,lib/core/settings.py
+75c9f91,Miroslav Stampar,2016-10-15 00:51:35,Fixes #2226,2226,lib/utils/hashdb.py
+9ff2dcf,Miroslav Stampar,2016-10-15 00:16:53,Fixes #2228,2228,lib/core/settings.py
+9ff2dcf,Miroslav Stampar,2016-10-15 00:16:53,Fixes #2228,2228,lib/techniques/blind/inference.py
+2b27923,Miroslav Stampar,2016-10-09 14:19:40,Fixes #2219,2219,lib/core/profiling.py
+2b27923,Miroslav Stampar,2016-10-09 14:19:40,Fixes #2219,2219,lib/core/settings.py
+c83d417,Miroslav Stampar,2016-10-05 23:02:20,Fixes #2212,2212,lib/core/common.py
+c83d417,Miroslav Stampar,2016-10-05 23:02:20,Fixes #2212,2212,lib/core/settings.py
+c69cb79,Miroslav Stampar,2016-10-04 10:39:28,Fixes #2208,2208,lib/core/option.py
+c69cb79,Miroslav Stampar,2016-10-04 10:39:28,Fixes #2208,2208,lib/core/settings.py
+d8dd375,Miroslav Stampar,2016-10-01 21:02:40,Fixes #2202,2202,lib/core/option.py
+e5a758b,Miroslav Stampar,2016-09-28 09:55:14,Fixes #2192,2192,lib/core/settings.py
+e5a758b,Miroslav Stampar,2016-09-28 09:55:14,Fixes #2192,2192,lib/techniques/blind/inference.py
+23afeb4,Miroslav Stampar,2016-09-23 13:37:44,Fixes #2176,2176,lib/core/agent.py
+23afeb4,Miroslav Stampar,2016-09-23 13:37:44,Fixes #2176,2176,lib/core/settings.py
+b387fb2,Miroslav Stampar,2016-09-23 12:45:06,Fixes #2175,2175,lib/core/settings.py
+b387fb2,Miroslav Stampar,2016-09-23 12:45:06,Fixes #2175,2175,lib/utils/xrange.py
+e3c3c2c,Miroslav Stampar,2016-09-06 14:25:29,Fixes #2148,2148,lib/core/option.py
+e3c3c2c,Miroslav Stampar,2016-09-06 14:25:29,Fixes #2148,2148,lib/core/settings.py
+577e346,Miroslav Stampar,2016-09-02 14:14:17,Fixes #2144,2144,lib/core/option.py
+577e346,Miroslav Stampar,2016-09-02 14:14:17,Fixes #2144,2144,lib/core/settings.py
+577e346,Miroslav Stampar,2016-09-02 14:14:17,Fixes #2144,2144,lib/request/connect.py
+577e346,Miroslav Stampar,2016-09-02 14:14:17,Fixes #2144,2144,thirdparty/multipart/multipartpost.py
+72e5a79,Miroslav Stampar,2016-08-19 11:07:42,Fixes #2106,2106,lib/core/settings.py
+72e5a79,Miroslav Stampar,2016-08-19 11:07:42,Fixes #2106,2106,thirdparty/clientform/clientform.py
+d82f20a,Miroslav Stampar,2016-07-28 17:02:27,Fixes #2068,2068,lib/core/option.py
+d82f20a,Miroslav Stampar,2016-07-28 17:02:27,Fixes #2068,2068,lib/core/settings.py
+9105f25,Miroslav Stampar,2016-07-23 15:27:25,Fixes #2060 (ParseError has been added in Python 2.7),2060,lib/core/settings.py
+9105f25,Miroslav Stampar,2016-07-23 15:27:25,Fixes #2060 (ParseError has been added in Python 2.7),2060,lib/techniques/union/use.py
+7cca56e,Miroslav Stampar,2016-07-21 09:38:52,Fixes #2052,2052,lib/core/settings.py
+7cca56e,Miroslav Stampar,2016-07-21 09:38:52,Fixes #2052,2052,lib/techniques/union/use.py
+e21d751,Miroslav Stampar,2016-07-20 20:04:44,Fixes #2049,2049,lib/core/settings.py
+e21d751,Miroslav Stampar,2016-07-20 20:04:44,Fixes #2049,2049,lib/request/connect.py
+ebb73b7,Miroslav Stampar,2016-07-20 16:49:27,Fixes #2045,2045,lib/core/settings.py
+ebb73b7,Miroslav Stampar,2016-07-20 16:49:27,Fixes #2045,2045,lib/techniques/union/use.py
+1ca633a,Miroslav Stampar,2016-07-17 23:30:40,Fixes #2031,2031,lib/core/settings.py
+1ca633a,Miroslav Stampar,2016-07-17 23:30:40,Fixes #2031,2031,thirdparty/clientform/clientform.py
+e485531,Miroslav Stampar,2016-07-17 00:04:30,Adding integrity checks in case of unhandled exceptions,1278,lib/core/common.py
+e485531,Miroslav Stampar,2016-07-17 00:04:30,Adding integrity checks in case of unhandled exceptions,1278,lib/core/settings.py
+e485531,Miroslav Stampar,2016-07-17 00:04:30,Adding integrity checks in case of unhandled exceptions,1278,sqlmap.py
+7fea8d6,Miroslav Stampar,2016-07-16 22:42:15,Fixes #2028,2028,lib/core/agent.py
+7fea8d6,Miroslav Stampar,2016-07-16 22:42:15,Fixes #2028,2028,lib/core/settings.py
+1e6191e,Miroslav Stampar,2016-07-16 15:51:09,Fixes #2026,2026,lib/core/settings.py
+1e6191e,Miroslav Stampar,2016-07-16 15:51:09,Fixes #2026,2026,lib/techniques/union/use.py
+cb43c03,Miroslav Stampar,2016-06-30 14:57:56,Definite patch for MemoryError(s) (fixes #1991),1991,lib/controller/checks.py
+cb43c03,Miroslav Stampar,2016-06-30 14:57:56,Definite patch for MemoryError(s) (fixes #1991),1991,lib/core/option.py
+cb43c03,Miroslav Stampar,2016-06-30 14:57:56,Definite patch for MemoryError(s) (fixes #1991),1991,lib/core/settings.py
+cb43c03,Miroslav Stampar,2016-06-30 14:57:56,Definite patch for MemoryError(s) (fixes #1991),1991,lib/request/comparison.py
+dd6287a,Miroslav Stampar,2016-06-20 09:59:50,Fixes #1972,1972,lib/core/common.py
+dd6287a,Miroslav Stampar,2016-06-20 09:59:50,Fixes #1972,1972,lib/core/settings.py
+7d011bc,Miroslav Stampar,2016-06-17 17:07:44,Fixes #1964,1964,lib/core/settings.py
+7d011bc,Miroslav Stampar,2016-06-17 17:07:44,Fixes #1964,1964,lib/utils/hash.py
+b2c4a3b,Miroslav Stampar,2016-06-17 16:54:23,Fixes #1960,1960,lib/core/option.py
+b2c4a3b,Miroslav Stampar,2016-06-17 16:54:23,Fixes #1960,1960,lib/core/settings.py
+9d9592a,Miroslav Stampar,2016-06-17 16:51:23,Fixes #1963,1963,lib/core/settings.py
+9d9592a,Miroslav Stampar,2016-06-17 16:51:23,Fixes #1963,1963,lib/request/connect.py
+494b9d1,Miroslav Stampar,2016-06-13 15:30:38,Fixes #1943,1943,lib/core/settings.py
+494b9d1,Miroslav Stampar,2016-06-13 15:30:38,Fixes #1943,1943,lib/request/inject.py
+46736ca,Miroslav Stampar,2016-06-10 18:41:41,Fixes #1931,1931,lib/core/settings.py
+46736ca,Miroslav Stampar,2016-06-10 18:41:41,Fixes #1931,1931,lib/parse/cmdline.py
+041213f,Miroslav Stampar,2016-06-10 18:18:48,Fixes #1935,1935,lib/core/common.py
+041213f,Miroslav Stampar,2016-06-10 18:18:48,Fixes #1935,1935,lib/core/settings.py
+8ca45c5,Miroslav Stampar,2016-06-10 18:02:24,Fixes #1936,1936,lib/core/settings.py
+8ca45c5,Miroslav Stampar,2016-06-10 18:02:24,Fixes #1936,1936,lib/core/threads.py
+c6eec8d,Miroslav Stampar,2016-06-10 17:52:22,Fixes #1938,1938,lib/core/settings.py
+c6eec8d,Miroslav Stampar,2016-06-10 17:52:22,Fixes #1938,1938,lib/request/basic.py
+98fdc49,Miroslav Stampar,2016-06-10 17:42:11,"Proper patch for #1923 (Fixes #1940, #1941)",1923,lib/core/common.py
+98fdc49,Miroslav Stampar,2016-06-10 17:42:11,"Proper patch for #1923 (Fixes #1940, #1941)",1923,lib/core/settings.py
+91372bf,Miroslav Stampar,2016-06-08 08:20:54,Fixes #1932,1932,lib/core/settings.py
+91372bf,Miroslav Stampar,2016-06-08 08:20:54,Fixes #1932,1932,plugins/dbms/firebird/fingerprint.py
+f034122,Miroslav Stampar,2016-06-05 12:14:01,Fixes #1920,1920,lib/core/settings.py
+f034122,Miroslav Stampar,2016-06-05 12:14:01,Fixes #1920,1920,lib/utils/pivotdumptable.py
+0df2456,Miroslav Stampar,2016-06-03 16:06:29,Fixes #1923,1923,lib/core/common.py
+0df2456,Miroslav Stampar,2016-06-03 16:06:29,Fixes #1923,1923,lib/core/settings.py
+77dea38,Miroslav Stampar,2016-06-03 00:37:18,Fixes #1918,1918,lib/core/common.py
+77dea38,Miroslav Stampar,2016-06-03 00:37:18,Fixes #1918,1918,lib/core/settings.py
+77f0b5d,Miroslav Stampar,2016-06-01 10:56:42,Fixes #1919,1919,lib/core/settings.py
+77f0b5d,Miroslav Stampar,2016-06-01 10:56:42,Fixes #1919,1919,lib/request/connect.py
+17a4dda,Miroslav Stampar,2016-05-30 13:10:25,Fixes #1916,1916,lib/core/agent.py
+17a4dda,Miroslav Stampar,2016-05-30 13:10:25,Fixes #1916,1916,lib/core/settings.py
+1de6996,Miroslav Stampar,2016-05-25 15:43:39,Fixes #1893,1893,lib/core/option.py
+1de6996,Miroslav Stampar,2016-05-25 15:43:39,Fixes #1893,1893,lib/core/settings.py
+a5f8cae,Miroslav Stampar,2016-05-24 17:58:35,Fixes #1892,1892,lib/controller/controller.py
+a5f8cae,Miroslav Stampar,2016-05-24 17:58:35,Fixes #1892,1892,lib/core/settings.py
+6f97f47,Miroslav Stampar,2016-05-24 16:34:07,Fixes #1891,1891,lib/core/common.py
+6f97f47,Miroslav Stampar,2016-05-24 16:34:07,Fixes #1891,1891,lib/core/settings.py
+c395958,Miroslav Stampar,2016-05-24 14:55:19,Fixes #1888,1888,lib/controller/checks.py
+c395958,Miroslav Stampar,2016-05-24 14:55:19,Fixes #1888,1888,lib/core/datatype.py
+c395958,Miroslav Stampar,2016-05-24 14:55:19,Fixes #1888,1888,lib/core/settings.py
+70cf8ed,Miroslav Stampar,2016-05-24 14:17:00,Fixes #1887,1887,lib/core/common.py
+70cf8ed,Miroslav Stampar,2016-05-24 14:17:00,Fixes #1887,1887,lib/core/settings.py
+a81ea88,Miroslav Stampar,2016-05-24 13:59:34,Fixes #1889,1889,lib/core/agent.py
+a81ea88,Miroslav Stampar,2016-05-24 13:59:34,Fixes #1889,1889,lib/core/settings.py
+dbbe4c6,Miroslav Stampar,2016-05-22 11:44:21,Fixes #1884,1884,lib/core/settings.py
+dbbe4c6,Miroslav Stampar,2016-05-22 11:44:21,Fixes #1884,1884,plugins/dbms/mssqlserver/connector.py
+dbbe4c6,Miroslav Stampar,2016-05-22 11:44:21,Fixes #1884,1884,plugins/dbms/sybase/connector.py
+633e4df,Miroslav Stampar,2016-05-22 11:37:27,Fixes #1886,1886,lib/core/settings.py
+633e4df,Miroslav Stampar,2016-05-22 11:37:27,Fixes #1886,1886,lib/utils/pivotdumptable.py
+5e8b105,Miroslav Stampar,2016-05-19 19:46:12,Fixes #1880,1880,lib/controller/checks.py
+5e8b105,Miroslav Stampar,2016-05-19 19:46:12,Fixes #1880,1880,lib/core/settings.py
+94091cd,Miroslav Stampar,2016-05-15 09:37:45,Fixes #1871,1871,lib/core/convert.py
+94091cd,Miroslav Stampar,2016-05-15 09:37:45,Fixes #1871,1871,lib/core/settings.py
+75478c1,Miroslav Stampar,2016-05-14 14:18:34,Fixes #1868,1868,lib/core/decorators.py
+75478c1,Miroslav Stampar,2016-05-14 14:18:34,Fixes #1868,1868,lib/core/settings.py
+ad0ca69,Miroslav Stampar,2016-05-13 15:14:56,Fixes #1865,1865,lib/core/option.py
+ad0ca69,Miroslav Stampar,2016-05-13 15:14:56,Fixes #1865,1865,lib/core/settings.py
+1e07269,Miroslav Stampar,2016-05-12 16:42:12,Patch for an Issue #1860,1860,lib/controller/controller.py
+1e07269,Miroslav Stampar,2016-05-12 16:42:12,Patch for an Issue #1860,1860,lib/core/settings.py
+f09072b,Miroslav Stampar,2016-05-09 13:13:02,Fixes #1853,1853,lib/core/settings.py
+f09072b,Miroslav Stampar,2016-05-09 13:13:02,Fixes #1853,1853,sqlmap.py
+5d09f7b,Miroslav Stampar,2016-05-06 10:32:16,Fixes #1822,1822,lib/core/settings.py
+5d09f7b,Miroslav Stampar,2016-05-06 10:32:16,Fixes #1822,1822,lib/takeover/metasploit.py
+263730f,Miroslav Stampar,2016-05-04 13:23:59,Fixes #1840,1840,lib/core/option.py
+263730f,Miroslav Stampar,2016-05-04 13:23:59,Fixes #1840,1840,lib/core/settings.py
+34c2172,Miroslav Stampar,2016-05-03 11:38:47,Fixes #1837,1837,lib/core/settings.py
+34c2172,Miroslav Stampar,2016-05-03 11:38:47,Fixes #1837,1837,lib/utils/hash.py
+c797129,Miroslav Stampar,2016-05-02 11:10:12,Fixes #1833,1833,lib/controller/controller.py
+c797129,Miroslav Stampar,2016-05-02 11:10:12,Fixes #1833,1833,lib/core/settings.py
+66061e8,Miroslav Stampar,2016-04-15 12:04:54,Fixes #1811,1811,lib/controller/controller.py
+66061e8,Miroslav Stampar,2016-04-15 12:04:54,Fixes #1811,1811,lib/core/settings.py
+c4b74c2,Miroslav Stampar,2016-04-12 22:37:14,Fixes #1810,1810,lib/core/settings.py
+c4b74c2,Miroslav Stampar,2016-04-12 22:37:14,Fixes #1810,1810,lib/takeover/icmpsh.py
+55b23e7,Miroslav Stampar,2016-04-12 22:10:26,Fixes #1809,1809,lib/core/settings.py
+55b23e7,Miroslav Stampar,2016-04-12 22:10:26,Fixes #1809,1809,lib/utils/hash.py
+31d7021,Miroslav Stampar,2016-04-04 12:25:07,Fixes #1794,1794,lib/core/common.py
+31d7021,Miroslav Stampar,2016-04-04 12:25:07,Fixes #1794,1794,lib/core/dump.py
+31d7021,Miroslav Stampar,2016-04-04 12:25:07,Fixes #1794,1794,lib/core/settings.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,lib/core/settings.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/__init__.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/ansi.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/ansitowin32.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/initialise.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/win32.py
+e83d8f6,Miroslav Stampar,2016-03-30 15:11:34,Updating colorama (Issue #1784),1784,thirdparty/colorama/winterm.py
+0245ce6,Miroslav Stampar,2016-03-28 19:55:33,Fixes #1782,1782,lib/controller/controller.py
+0245ce6,Miroslav Stampar,2016-03-28 19:55:33,Fixes #1782,1782,lib/utils/hashdb.py
+6c2f985,Miroslav Stampar,2016-03-23 10:26:22,Potential patch for #1773,1773,lib/core/settings.py
+6c2f985,Miroslav Stampar,2016-03-23 10:26:22,Potential patch for #1773,1773,plugins/generic/entries.py
+d496d99,Miroslav Stampar,2016-03-22 13:24:54,Fixes #1774,1774,lib/core/settings.py
+d496d99,Miroslav Stampar,2016-03-22 13:24:54,Fixes #1774,1774,lib/core/threads.py
+d20e9fe,Miroslav Stampar,2016-03-19 17:40:05,Fixes #1770,1770,lib/core/settings.py
+d20e9fe,Miroslav Stampar,2016-03-19 17:40:05,Fixes #1770,1770,thirdparty/colorama/ansitowin32.py
+a4f2139,Miroslav Stampar,2016-03-17 16:23:28,Fixes #1760,1760,lib/core/common.py
+a4f2139,Miroslav Stampar,2016-03-17 16:23:28,Fixes #1760,1760,lib/core/settings.py
+13366ae,Miroslav Stampar,2016-03-12 12:26:30,Fixes #1752,1752,lib/core/settings.py
+13366ae,Miroslav Stampar,2016-03-12 12:26:30,Fixes #1752,1752,lib/techniques/dns/use.py
+e1ce161,Miroslav Stampar,2016-03-10 15:42:01,Fixes #1753,1753,lib/core/session.py
+e1ce161,Miroslav Stampar,2016-03-10 15:42:01,Fixes #1753,1753,lib/core/settings.py
+e1ce161,Miroslav Stampar,2016-03-10 15:42:01,Fixes #1753,1753,lib/core/target.py
+3307918,Miroslav Stampar,2016-03-10 14:48:05,Fixes #1750,1750,lib/core/common.py
+3307918,Miroslav Stampar,2016-03-10 14:48:05,Fixes #1750,1750,lib/core/dump.py
+3307918,Miroslav Stampar,2016-03-10 14:48:05,Fixes #1750,1750,lib/core/settings.py
+c508497,Miroslav Stampar,2016-03-08 14:35:16,Fixes #1748,1748,lib/core/agent.py
+c508497,Miroslav Stampar,2016-03-08 14:35:16,Fixes #1748,1748,lib/core/settings.py
+06296bd,Miroslav Stampar,2016-03-06 20:04:45,Fixes #1743,1743,lib/core/settings.py
+06296bd,Miroslav Stampar,2016-03-06 20:04:45,Fixes #1743,1743,lib/request/connect.py
+0f6e529,Miroslav Stampar,2016-03-06 12:14:20,Fixes #1745,1745,lib/core/common.py
+0f6e529,Miroslav Stampar,2016-03-06 12:14:20,Fixes #1745,1745,lib/core/settings.py
+679f0cf,Miroslav Stampar,2016-03-01 15:36:00,Fixes #1738,1738,lib/core/settings.py
+679f0cf,Miroslav Stampar,2016-03-01 15:36:00,Fixes #1738,1738,lib/request/basic.py
+2188502,Miroslav Stampar,2016-02-25 13:34:41,Fixes #1731,1731,plugins/dbms/mssqlserver/connector.py
+2188502,Miroslav Stampar,2016-02-25 13:34:41,Fixes #1731,1731,plugins/dbms/sybase/connector.py
+a90913c,Miroslav Stampar,2016-02-23 11:46:04,Proper patch for #1723,1723,lib/core/option.py
+a90913c,Miroslav Stampar,2016-02-23 11:46:04,Proper patch for #1723,1723,lib/parse/configfile.py
+256b198,Miroslav Stampar,2016-02-23 11:06:45,Fixes #1726,1726,thirdparty/clientform/clientform.py
+82abf1f,Miroslav Stampar,2016-02-16 09:56:53,Fixes #1714,1714,lib/core/option.py
+4cd3813,Miroslav Stampar,2016-02-16 09:15:57,Patch to include traceback into the sqlmapapi based unhandled exception messages,1278,sqlmap.py
+8d42a93,Miroslav Stampar,2016-01-16 08:13:56,Fixes #1665,1665,lib/core/settings.py
+87676eb,Miroslav Stampar,2016-01-13 23:05:28,Minor update for #1660,1660,lib/core/option.py
+c410f16,Miroslav Stampar,2016-01-13 23:02:11,Fixes #1660,1660,lib/core/option.py
+0c8c4fa,Miroslav Stampar,2016-01-13 14:38:59,Fixes #1663,1663,lib/core/dump.py
+2280cd1,Miroslav Stampar,2016-01-10 23:15:43,Fixes #1654,1654,lib/request/connect.py
+3c9be94,Miroslav Stampar,2016-01-09 00:15:05,Fixes #1649,1649,lib/core/common.py
+3c9be94,Miroslav Stampar,2016-01-09 00:15:05,Fixes #1649,1649,lib/core/option.py
+3c9be94,Miroslav Stampar,2016-01-09 00:15:05,Fixes #1649,1649,plugins/generic/entries.py
+de06ae6,Miroslav Stampar,2016-01-08 23:10:32,Fixes #1647,1647,lib/core/convert.py
+c7ea3d6,Miroslav Stampar,2016-01-08 15:33:14,Fixes #1644,1644,lib/core/option.py
+e365034,Miroslav Stampar,2016-01-08 11:47:12,Fixes #1639,1639,lib/core/convert.py
+e365034,Miroslav Stampar,2016-01-08 11:47:12,Fixes #1639,1639,lib/techniques/error/use.py
+59ff811,Miroslav Stampar,2016-01-04 12:09:08,Fixes #1635,1635,lib/utils/hash.py
+03160d9,Miroslav Stampar,2015-12-30 13:39:08,Fixes #1630,1630,lib/utils/hashdb.py
+fc5802f,Miroslav Stampar,2015-12-29 13:19:25,Fixes #1628,1628,plugins/dbms/maxdb/enumeration.py
+fc5802f,Miroslav Stampar,2015-12-29 13:19:25,Fixes #1628,1628,plugins/dbms/sybase/enumeration.py
+fc5802f,Miroslav Stampar,2015-12-29 13:19:25,Fixes #1628,1628,plugins/generic/databases.py
+24d95ab,Miroslav Stampar,2015-12-24 10:34:42,Fixes #1624,1624,lib/request/basic.py
+3454e35,Miroslav Stampar,2015-12-23 08:55:45,Fixes #1621,1621,lib/parse/payloads.py
+d7d786d,Miroslav Stampar,2015-12-15 11:29:37,Fixes #1607,1607,lib/request/connect.py
+b269e84,Miroslav Stampar,2015-12-15 10:46:37,Fixes #1608,1608,lib/core/common.py
+b269e84,Miroslav Stampar,2015-12-15 10:46:37,Fixes #1608,1608,plugins/dbms/mysql/takeover.py
+663c976,Miroslav Stampar,2015-12-09 19:53:48,Fixes #1600,1600,lib/core/convert.py
+663c976,Miroslav Stampar,2015-12-09 19:53:48,Fixes #1600,1600,lib/core/settings.py
+31d250f,Miroslav Stampar,2015-12-09 12:00:34,Fixes #1592,1592,lib/core/convert.py
+efc91b0,Miroslav Stampar,2015-12-09 10:07:37,Fixes #1589,1589,lib/core/dump.py
+af60f11,Miroslav Stampar,2015-12-07 16:17:28,Fixes #1584 (hello @w3af looking for the patch of this one ;),1584,lib/core/profiling.py
+af60f11,Miroslav Stampar,2015-12-07 16:17:28,Fixes #1584 (hello @w3af looking for the patch of this one ;),1584,thirdparty/xdot/xdot.py
+b5b3411,Miroslav Stampar,2015-12-06 23:49:22,Fixes #1574,1574,lib/core/option.py
+b5b3411,Miroslav Stampar,2015-12-06 23:49:22,Fixes #1574,1574,lib/request/httpshandler.py
+d5e6be4,Miroslav Stampar,2015-12-06 23:24:09,Fixes #1582,1582,lib/utils/pivotdumptable.py
+d50c0b7,Miroslav Stampar,2015-12-03 12:16:00,Fixes #1581,1581,lib/core/optiondict.py
+a219ff9,Miroslav Stampar,2015-11-29 19:40:14,Fixes #1572,1572,lib/core/wordlist.py
+a219ff9,Miroslav Stampar,2015-11-29 19:40:14,Fixes #1572,1572,lib/utils/hash.py
+a18c69d,Miroslav Stampar,2015-11-25 10:21:32,Fixes #1564,1564,lib/techniques/union/use.py
+436d87d,Miroslav Stampar,2015-11-24 09:18:46,Fixes #1560,1560,sqlmap.py
+bdb496e,Miroslav Stampar,2015-11-23 09:24:30,Fixes #1558,1558,lib/utils/purge.py
+b2dc443,Miroslav Stampar,2015-11-23 09:20:35,Fixes #1559,1559,plugins/generic/custom.py
+4d57692,Miroslav Stampar,2015-11-22 16:05:48,Fixes #1554,1554,lib/request/connect.py
+763b72a,Miroslav Stampar,2015-11-20 17:01:41,Fixes #1551,1551,plugins/generic/filesystem.py
+a548951,Miroslav Stampar,2015-11-20 16:52:59,Fixes #1550,1550,lib/core/option.py
+efe41fb,Miroslav Stampar,2015-11-20 11:32:54,Fixes #1547,1547,lib/techniques/error/use.py
+efe41fb,Miroslav Stampar,2015-11-20 11:32:54,Fixes #1547,1547,lib/techniques/union/use.py
+ca933fc,Miroslav Stampar,2015-11-16 14:08:43,Another patch for #1539,1539,lib/core/common.py
+a212f0c,Miroslav Stampar,2015-11-16 12:56:15,Another patch for #1539,1539,lib/core/common.py
+9c69f56,Miroslav Stampar,2015-11-16 11:59:09,Proper patch for an Issue #1539,1539,lib/core/common.py
+fb2cb25,Miroslav Stampar,2015-11-16 11:56:06,Bug fix for an Issue #1539,1539,lib/core/common.py
+d772e7e,Miroslav Stampar,2015-11-11 16:07:11,Fixes #1529,1529,lib/techniques/union/test.py
+3451372,Miroslav Stampar,2015-11-04 14:48:40,Fixes #1521,1521,lib/core/agent.py
+6adb6ea,Miroslav Stampar,2015-11-03 14:53:41,Fixes #1517,1517,lib/request/connect.py
+064c2a7,Miroslav Stampar,2015-11-01 22:56:26,Fixes #1510,1510,lib/request/connect.py
+4dc0c05,Miroslav Stampar,2015-10-31 10:16:44,Fixes #1505,1505,lib/core/common.py
+04aaa59,Miroslav Stampar,2015-10-29 17:02:47,Fixes #1497,1497,lib/core/common.py
+0b64cf8,Miroslav Stampar,2015-10-29 16:52:17,Fixes #1496,1496,lib/request/basic.py
+caafa37,Miroslav Stampar,2015-10-28 10:29:12,Fixes #1495,1495,lib/core/option.py
+89e3639,Miroslav Stampar,2015-10-25 15:32:02,Fixes #1486,1486,lib/core/common.py
+1b81084,Miroslav Stampar,2015-10-23 23:48:41,Fixes #1484,1484,lib/utils/hashdb.py
+5fb8ae9,Miroslav Stampar,2015-10-22 19:59:16,Fixes #1479,1479,lib/request/comparison.py
+8aada25,Miroslav Stampar,2015-10-19 11:08:58,Fixes #1471,1471,lib/request/basic.py
+3dc8820,Miroslav Stampar,2015-10-19 10:38:38,Fixes #1474,1474,lib/request/inject.py
+441196f,Miroslav Stampar,2015-10-16 23:59:39,Fixes #1470,1470,lib/core/update.py
+e3ae026,Miroslav Stampar,2015-10-14 15:19:44,Fixes #1467,1467,lib/request/connect.py
+c4df6f3,Miroslav Stampar,2015-10-13 13:31:28,Fixes #1465,1465,lib/request/connect.py
+48619d9,Miroslav Stampar,2015-10-12 10:05:49,Fixes #1464,1464,sqlmap.py
+b9a4455,Miroslav Stampar,2015-10-11 15:20:10,Fixes #1462,1462,lib/request/inject.py
+47a42c2,Miroslav Stampar,2015-10-10 19:19:50,Fixes #1459,1459,lib/core/agent.py
+d424d4c,Miroslav Stampar,2015-10-09 11:54:28,Fixes #1457,1457,lib/core/agent.py
+eb7c18d,Miroslav Stampar,2015-10-07 09:25:14,Fixes #1452,1452,lib/request/connect.py
+657d711,Miroslav Stampar,2015-10-07 09:22:11,Fixes #1453,1453,lib/utils/google.py
+78bbf5d,Miroslav Stampar,2015-10-06 14:17:35,Fixes #1451,1451,lib/controller/controller.py
+95ce5a4,Miroslav Stampar,2015-10-05 16:33:10,Fixes #1444,1444,lib/utils/crawler.py
+b98f84a,Miroslav Stampar,2015-10-05 16:26:12,Fixes #1443,1443,lib/utils/hash.py
+1c6e288,Miroslav Stampar,2015-10-05 15:33:29,Fixes #1447,1447,lib/core/common.py
+acd6b77,Miroslav Stampar,2015-10-05 15:18:54,Fixes #1446,1446,lib/core/common.py
+29edb4f,Miroslav Stampar,2015-09-30 11:26:56,Fixes #1440,1440,lib/core/common.py
+a1a7161,Miroslav Stampar,2015-09-30 10:13:19,Fixes #1441,1441,lib/request/comparison.py
+5ce4d4d,Miroslav Stampar,2015-09-29 10:10:39,Fixes #1439,1439,lib/utils/hash.py
+ac467bc,Miroslav Stampar,2015-09-28 09:54:41,Fixes #1437,1437,lib/techniques/blind/inference.py
+ef22f31,Miroslav Stampar,2015-09-27 16:17:58,Fixes #1433,1433,lib/request/connect.py
+5bade79,Miroslav Stampar,2015-09-27 16:09:02,Fixes #1435,1435,lib/utils/google.py
+5ed106e,Miroslav Stampar,2015-09-27 15:59:17,Patch for an Issue #1434,1434,lib/core/dicts.py
+5ed106e,Miroslav Stampar,2015-09-27 15:59:17,Patch for an Issue #1434,1434,lib/core/option.py
+5ed106e,Miroslav Stampar,2015-09-27 15:59:17,Patch for an Issue #1434,1434,lib/core/optiondict.py
+5ed106e,Miroslav Stampar,2015-09-27 15:59:17,Patch for an Issue #1434,1434,lib/parse/cmdline.py
+5ed106e,Miroslav Stampar,2015-09-27 15:59:17,Patch for an Issue #1434,1434,lib/request/pkihandler.py
+4774795,Miroslav Stampar,2015-09-25 14:59:21,Fixes #1429,1429,lib/core/common.py
+29bdcf0,Miroslav Stampar,2015-09-23 15:31:25,Fixes #1425,1425,thirdparty/multipart/multipartpost.py
+27707be,Miroslav Stampar,2015-09-17 17:09:36,Fixes #1416,1416,lib/request/connect.py
+2cea977,Miroslav Stampar,2015-09-17 14:58:01,Fixes #1415,1415,lib/core/common.py
+ee38574,Miroslav Stampar,2015-09-15 13:26:25,Fixes #1411,1411,lib/core/common.py
+ee38574,Miroslav Stampar,2015-09-15 13:26:25,Fixes #1411,1411,lib/core/replication.py
+5de1825,Miroslav Stampar,2015-09-15 10:48:23,Fixes #1412,1412,lib/request/connect.py
+f89ce21,Miroslav Stampar,2015-09-12 15:13:30,Fixes #1404,1404,lib/request/connect.py
+72cf904,Miroslav Stampar,2015-09-09 14:46:06,Fixes #1401,1401,plugins/generic/databases.py
+e59a220,Miroslav Stampar,2015-09-08 11:10:47,Fixes #1393,1393,lib/core/threads.py
+924e31c,Miroslav Stampar,2015-09-08 11:04:36,Fixes #1394,1394,lib/utils/api.py
+28a60f5,Miroslav Stampar,2015-09-06 20:22:07,Fixes #1391,1391,lib/utils/google.py
+aee4c93,Miroslav Stampar,2015-09-03 10:32:45,Fixes #1384,1384,lib/takeover/icmpsh.py
+7511023,Miroslav Stampar,2015-09-03 10:11:36,Fixes #1385,1385,lib/core/common.py
+50d39d0,Miroslav Stampar,2015-08-30 23:15:50,Closes #1372,1372,lib/core/option.py
+89292ce,Miroslav Stampar,2015-08-30 22:52:24,Closes #1376,1376,lib/core/wordlist.py
+6a01d2e,Miroslav Stampar,2015-08-30 02:13:07,Fixes #1366,1366,lib/request/connect.py
+737a37b,Miroslav Stampar,2015-08-30 01:58:43,Fixes #1367,1367,lib/core/common.py
+06c8704,Miroslav Stampar,2015-08-28 15:30:28,Fixes #1365,1365,lib/core/option.py
+43f3900,Miroslav Stampar,2015-08-27 12:25:25,Fixes #1362,1362,lib/core/common.py
+1f5e660,Miroslav Stampar,2015-08-25 02:03:56,Fixes #1357,1357,lib/request/connect.py
+337eb98,Miroslav Stampar,2015-08-23 22:11:59,Fixes #1347,1347,lib/core/common.py
+1204141,Miroslav Stampar,2015-08-23 21:09:20,Fixes #1350,1350,lib/core/common.py
+8806ce7,Miroslav Stampar,2015-08-18 22:03:42,Patch for an Issue #1341,1341,lib/core/option.py
+023def3,Miroslav Stampar,2015-08-16 23:47:11,Fixes #1336,1336,lib/techniques/blind/inference.py
+c9d1c4d,Miroslav Stampar,2015-08-16 23:29:39,Fixes #1337,1337,lib/core/common.py
+c9d1c4d,Miroslav Stampar,2015-08-16 23:29:39,Fixes #1337,1337,lib/core/option.py
+713d538,Miroslav Stampar,2015-08-16 23:15:04,Potential patch for an Issue #1337,1337,lib/core/common.py
+ce64d97,Miroslav Stampar,2015-08-04 11:10:15,Fixes #1322,1322,sqlmap.py
+c5f3c0c,Miroslav Stampar,2015-08-03 17:21:35,Fixes #1324,1324,lib/takeover/web.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/controller/checks.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/core/common.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/core/dump.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/core/option.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/parse/cmdline.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/parse/configfile.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,lib/utils/hash.py
+e623ee6,Miroslav Stampar,2015-07-30 23:29:31,Better approach for #1320,1320,plugins/generic/entries.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/core/common.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/core/dump.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/core/option.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/core/replication.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/parse/cmdline.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,lib/utils/hash.py
+bcb2582,Miroslav Stampar,2015-07-30 23:19:38,Fixes #1320,1320,plugins/generic/entries.py
+301aca5,Miroslav Stampar,2015-07-29 10:00:15,Fixes #1319,1319,lib/core/common.py
+ba86153,Miroslav Stampar,2015-07-28 09:33:40,Fixes #1318,1318,plugins/dbms/mssqlserver/enumeration.py
+64b45f2,Miroslav Stampar,2015-07-26 16:34:11,Fixes #1316,1316,plugins/generic/filesystem.py
+b0bc314,Miroslav Stampar,2015-07-26 16:18:41,Fixes #1315,1315,lib/core/option.py
+b0bc314,Miroslav Stampar,2015-07-26 16:18:41,Fixes #1315,1315,lib/request/connect.py
+314df09,Miroslav Stampar,2015-07-26 16:06:01,Fixes #1314,1314,lib/request/connect.py
+358651b,Miroslav Stampar,2015-07-23 00:41:03,Fixes #1313,1313,lib/core/common.py
+75ed5f7,Miroslav Stampar,2015-07-20 17:03:20,Fixes #1309,1309,lib/takeover/udf.py
+2afb568,Miroslav Stampar,2015-07-20 15:47:27,Fixes #1307,1307,lib/core/target.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,lib/controller/checks.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,lib/controller/controller.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,lib/request/connect.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,lib/request/inject.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,lib/techniques/union/test.py
+21e8182,Miroslav Stampar,2015-07-18 17:01:34,Fixes #1305,1305,plugins/generic/databases.py
+a7c4400,Miroslav Stampar,2015-07-17 14:20:51,Fixes #1304,1304,lib/core/dicts.py
+00f190f,Miroslav Stampar,2015-07-17 10:14:35,Fixes #1303,1303,lib/controller/controller.py
+00f190f,Miroslav Stampar,2015-07-17 10:14:35,Fixes #1303,1303,lib/core/option.py
+00f190f,Miroslav Stampar,2015-07-17 10:14:35,Fixes #1303,1303,lib/core/target.py
+49212ec,Miroslav Stampar,2015-07-17 09:56:24,Fixes #1302,1302,lib/core/common.py
+1aafe85,Miroslav Stampar,2015-07-15 11:15:06,Fixes #1299,1299,lib/core/common.py
+1aafe85,Miroslav Stampar,2015-07-15 11:15:06,Fixes #1299,1299,plugins/generic/filesystem.py
+96327b6,Miroslav Stampar,2015-07-05 01:47:01,Fixes #1290,1290,lib/controller/checks.py
+96327b6,Miroslav Stampar,2015-07-05 01:47:01,Fixes #1290,1290,lib/core/agent.py
+1f71d80,Miroslav Stampar,2015-07-03 08:55:33,Fixes #1288,1288,lib/controller/checks.py
+97244f5,Miroslav Stampar,2015-06-29 00:20:35,Fixes #1279,1279,lib/core/agent.py
+b212321,Miroslav Stampar,2015-06-26 10:30:53,Fixes #1278,1278,lib/core/agent.py
+b02be96,Miroslav Stampar,2015-06-26 10:11:34,Fixes #1277,1277,lib/core/agent.py
+9e5ef09,Miroslav Stampar,2015-06-16 22:20:21,Closes #1270,1270,lib/core/agent.py
+9e5ef09,Miroslav Stampar,2015-06-16 22:20:21,Closes #1270,1270,lib/core/settings.py
+04c1d43,Miroslav Stampar,2015-06-05 17:18:21,Minor patch for #1260,1260,lib/request/basic.py
+8d7e915,Miroslav Stampar,2015-06-05 17:02:56,Minor patch for #1260,1260,lib/core/common.py
+8d7e915,Miroslav Stampar,2015-06-05 17:02:56,Minor patch for #1260,1260,lib/request/connect.py
+699c965,Miroslav Stampar,2015-05-19 18:40:45,Fixes #1248,1248,lib/takeover/web.py
+4b2ff43,Miroslav Stampar,2015-05-07 12:36:23,Fixes #1243,1243,lib/utils/api.py
+18e62fd,Miroslav Stampar,2015-05-05 14:36:21,Fix for an Issue #1240,1240,lib/utils/api.py
+5ee7fd7,Miroslav Stampar,2015-05-01 00:48:08,Fixes #1235,1235,lib/core/settings.py
+fd632e5,Miroslav Stampar,2015-01-26 09:09:38,Update for unhandled exception mechanism (BADA),1278,lib/core/common.py
+fd632e5,Miroslav Stampar,2015-01-26 09:09:38,Update for unhandled exception mechanism (BADA),1278,lib/core/settings.py
+d0afa7f,Miroslav Stampar,2014-11-12 11:53:42,Bug fix for not displaying proper version in unhandled exception win cases,1278,lib/core/common.py
+5e9c73f,Miroslav Stampar,2014-11-08 21:44:46,Just in case update (for unhandled exceptions happening too soon),1278,lib/core/common.py
+258a700,Miroslav Stampar,2014-10-28 15:14:41,More anonymization of unhandled exception messages,1278,lib/core/common.py
+fdef53a,Miroslav Stampar,2014-10-01 14:23:45,Minor update of unhandled exception message,1278,lib/core/common.py
+fdef53a,Miroslav Stampar,2014-10-01 14:23:45,Minor update of unhandled exception message,1278,lib/core/settings.py
+b04e1a0,Bernardo Damele,2011-01-31 21:23:40,More detailed message for unhandled exception,1278,lib/core/common.py
+ddd2960,Miroslav Stampar,2011-01-28 16:15:45,added some more info to unhandled exception message(s),1278,lib/core/common.py
+ddd2960,Miroslav Stampar,2011-01-28 16:15:45,added some more info to unhandled exception message(s),1278,lib/core/exception.py
+ddd2960,Miroslav Stampar,2011-01-28 16:15:45,added some more info to unhandled exception message(s),1278,lib/techniques/blind/inference.py
+ddd2960,Miroslav Stampar,2011-01-28 16:15:45,added some more info to unhandled exception message(s),1278,sqlmap.py
+264e0a6,Miroslav Stampar,2010-10-19 08:55:14,added support for displaying revision number at unhandled exception message,1278,lib/core/dump.py
+264e0a6,Miroslav Stampar,2010-10-19 08:55:14,added support for displaying revision number at unhandled exception message,1278,lib/core/exception.py
+264e0a6,Miroslav Stampar,2010-10-19 08:55:14,added support for displaying revision number at unhandled exception message,1278,lib/core/revision.py
+264e0a6,Miroslav Stampar,2010-10-19 08:55:14,added support for displaying revision number at unhandled exception message,1278,lib/core/settings.py
+13f76cf,Bernardo Damele,2008-11-11 14:08:40,Adjusted unhandled exception error message,1278,lib/core/exception.py
+962d63e,Bernardo Damele,2008-10-16 14:00:39,Improved the message to display in case of unhandled exception,1278,lib/core/exception.py

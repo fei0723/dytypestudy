@@ -1,0 +1,738 @@
+commit,author,date,title,faultID,file
+714c9dc,Anton Fedchin,2017-11-10 10:32:41,utils: winreg module may not exist like on windows universal platform.,4380,requests/utils.py
+acd2645,Mingyuan Xia,2017-11-21 04:01:04,"#4373, fix possible winreg value type difference (#4377)",4373,requests/utils.py
+acd2645,Mingyuan Xia,2017-11-21 04:01:04,"#4373, fix possible winreg value type difference (#4377)",4373,tests/test_utils.py
+9a8a826,Nehal J Wani,2017-10-26 10:33:05,Check if host is invalid for proxy,4353,requests/adapters.py
+9a8a826,Nehal J Wani,2017-10-26 10:33:05,Check if host is invalid for proxy,4353,requests/exceptions.py
+9a8a826,Nehal J Wani,2017-10-26 10:33:05,Check if host is invalid for proxy,4353,tests/test_requests.py
+c86b09b,Arthur Vigil,2017-11-05 10:50:35,support extraction of certificate bundle from a zip archive,4371,requests/adapters.py
+c86b09b,Arthur Vigil,2017-11-05 10:50:35,support extraction of certificate bundle from a zip archive,4371,requests/utils.py
+c86b09b,Arthur Vigil,2017-11-05 10:50:35,support extraction of certificate bundle from a zip archive,4371,tests/test_utils.py
+ec5804c,Hugo,2017-10-15 20:04:51,Python 3.3 has already been dropped (#4231),4231,requests/sessions.py
+ac9a3e5,Pascal Van Acker,2017-08-28 11:14:05,fixed syntax for code block for prepared requests,4265
+f78a579,Cory Benfield,2017-08-09 18:56:40,Merge pull request #4229 from NikosVlagoidis/issue#3863,3863
+2189786,NikosVlagoidis,2017-08-09 20:18:43,Fix issue #3863,3863
+963c788,Nikolaos Vlagoidis,2017-08-09 15:38:45,Fixes issue #3863,3863
+be8ce36,Nik Nyby,2017-08-02 10:26:41,fix typo in changelog,4217
+9e0fb37,Cory Benfield,2017-07-29 12:13:55,Changelog for #4209,4209
+8b3f20c,Cory Benfield,2017-07-29 12:09:04,Add failing test for #4209,4209,tests/test_requests.py
+e2f5a13,Mark Szymanski,2017-07-26 19:21:45,remove legacy super() call,4207,requests/models.py
+667896c,jonathan vanasco,2017-07-26 15:29:32,some docs on request redirect detection,4206,requests/sessions.py
+761e39b,mlcrazy,2017-06-09 14:16:32,Adds changelog entry for #4134,4134
+4847f5b,Ed Morley,2017-06-06 23:26:07,Allow Requests.Response to be used as a context manager,4136,requests/models.py
+4847f5b,Ed Morley,2017-06-06 23:26:07,Allow Requests.Response to be used as a context manager,4136,tests/test_requests.py
+1278ecd,Ryan Pineo,2017-05-29 17:25:56,Fix requests.packages not having package attributes,4104,requests/packages.py
+1278ecd,Ryan Pineo,2017-05-29 17:25:56,Fix requests.packages not having package attributes,4104,tests/test_packages.py
+588e8f7,Markus Unterwaditzer,2017-05-29 21:41:58,Preserve identity of unbundled deps,4102,requests/packages.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,requests/auth.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,requests/models.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,requests/sessions.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,requests/utils.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,tests/test_lowlevel.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,tests/test_requests.py
+7f14db1,Kenneth Reitz,2017-05-29 12:11:43,new requests namespace,4099,tests/test_utils.py
+55014bc,Kenneth Reitz,2017-05-28 12:51:27,try this travis file,4086
+874bca9,Cory Benfield,2017-05-24 10:03:48,Disable pytest messing with warnings.,2430
+00c6ad5,Jonas Laursen,2017-05-17 11:27:15,Simplify fix for #4025,4025,requests/adapters.py
+af66521,Jonas Laursen,2017-05-17 07:29:21,Fix #4025,4025,requests/adapters.py
+af66521,Jonas Laursen,2017-05-17 07:29:21,Fix #4025,4025,tests/test_requests.py
+8db8a7d,Thomas Grainger,2017-04-21 11:37:38,configure sudo: false on travis,3982
+047056c,Thomas Grainger,2017-04-21 11:37:38,configure sudo: false on travis,3982
+af383b3,Thomas Grainger,2017-04-21 11:21:59,enable travis pip cache,3981
+fcb272c,Thomas Grainger,2017-04-18 10:52:34,remove seemingly redundant pyflakes references,3978,requests/cookies.py
+fcb272c,Thomas Grainger,2017-04-18 10:52:34,remove seemingly redundant pyflakes references,3978,requests/utils.py
+b8674db,Cory Benfield,2017-04-18 12:20:22,Merge pull request #3969 from shmuelamar/master,3888
+a3e597c,shmuelamar,2017-04-12 19:31:27,fix unicode decode error on py2 when handling redirect without scheme,3963,requests/sessions.py
+a3e597c,shmuelamar,2017-04-12 19:31:27,fix unicode decode error on py2 when handling redirect without scheme,3963,tests/test_lowlevel.py
+ead8fba,Ruben Dura Tari,2017-04-05 15:51:58,Fixes DeprecationWarnings in Python 3.6 due to invalid escape sequences. Fixes #3954,3954,requests/api.py
+ead8fba,Ruben Dura Tari,2017-04-05 15:51:58,Fixes DeprecationWarnings in Python 3.6 due to invalid escape sequences. Fixes #3954,3954,requests/models.py
+ead8fba,Ruben Dura Tari,2017-04-05 15:51:58,Fixes DeprecationWarnings in Python 3.6 due to invalid escape sequences. Fixes #3954,3954,requests/sessions.py
+42ec8b0,Bastien Gérard,2017-03-19 23:04:41,#3927 fixes based on review,3927,requests/adapters.py
+7d8b87c,Bastien Gérard,2017-03-17 22:59:47,#3926 raise IOError when providing an invalid path to a CA bundle or certificate files,3926,requests/adapters.py
+7d8b87c,Bastien Gérard,2017-03-17 22:59:47,#3926 raise IOError when providing an invalid path to a CA bundle or certificate files,3926,tests/test_requests.py
+8e6e47a,Ian Cordasco,2017-03-04 09:03:03,Update implementation of TimedCache object,3885,requests/structures.py
+21972c4,Gary Wu,2017-03-01 13:04:11,fix #3902 Add proposed documentation change for post data,3902
+3f3df8b,Cory Benfield,2017-03-01 15:30:36,Merge pull request #3900 from lutzhorn/master,3894
+3d22f9f,Lutz Horn,2017-03-01 16:00:08,fixed #3894 by mentioning form-encoding of dict,3894,requests/api.py
+2aaf6ac,Victor Pfautz,2017-02-27 17:25:10,Fixed some typos (#3892),3892,requests/utils.py
+2aaf6ac,Victor Pfautz,2017-02-27 17:25:10,Fixed some typos (#3892),3892,tests/test_requests.py
+3664682,Mislav Cimperšak,2017-02-16 10:06:28,added docstring for response.ok property,3876,requests/models.py
+f47aff6,Nate Prewitt,2017-02-14 07:45:41,properly handled failed seek,3873,requests/utils.py
+f47aff6,Nate Prewitt,2017-02-14 07:45:41,properly handled failed seek,3873,tests/test_requests.py
+70f31a3,jonathan vanasco,2017-02-10 13:53:23,* initial attempt at `get_redirect_target` * removing the `i` from the redirect detection while-loop,3846,requests/sessions.py
+70f31a3,jonathan vanasco,2017-02-10 13:53:23,* initial attempt at `get_redirect_target` * removing the `i` from the redirect detection while-loop,3846,tests/test_requests.py
+85400d8,John L. Villalovos,2016-09-06 16:24:35,Allow use of 'no_proxy' in the proxies argument,2817,requests/sessions.py
+85400d8,John L. Villalovos,2016-09-06 16:24:35,Allow use of 'no_proxy' in the proxies argument,2817,requests/utils.py
+85400d8,John L. Villalovos,2016-09-06 16:24:35,Allow use of 'no_proxy' in the proxies argument,2817,tests/test_utils.py
+8a58427,Matthew Medal,2017-01-27 12:56:50,Only send HTTPDigestAuth on 4xx challenges,3772,requests/auth.py
+8a58427,Matthew Medal,2017-01-27 12:56:50,Only send HTTPDigestAuth on 4xx challenges,3772,tests/test_lowlevel.py
+d3c97dd,Cory Benfield,2017-01-27 20:55:06,Merge pull request #3836 from nateprewitt/pin_pipenv,90
+808e4c6,Nate Prewitt,2017-01-27 13:42:22,pin pipenv until kennethreitz/pipenv#90 is resolved,90
+795106c,Nate Prewitt,2017-01-24 21:28:14,fixing codecov with pipenv,3832
+f5c5536,Nate Prewitt,2017-01-04 15:23:23,updating https demo urls,3796
+5aa6661,John Dingee,2016-12-21 13:08:45,fix urllib3 documentation link (#3785),3785,requests/packages/urllib3/contrib/appengine.py
+bc8b290,Marcin Płonka,2016-12-21 17:59:34,updating idna.uts46data from upstream project (#3781),3781
+576b447,Nate Prewitt,2016-12-08 15:00:37,adding string casting for non-bytes values,3758,requests/auth.py
+576b447,Nate Prewitt,2016-12-08 15:00:37,adding string casting for non-bytes values,3758,tests/test_requests.py
+4f42822,Nicola Soranzo,2016-11-23 21:15:07,Make Response.content() return None if status_code is None,3698,requests/models.py
+4f9d0e0,Nate Prewitt,2016-11-21 14:17:28,streaming doc clarification,3717
+5562c0f,Aidan Feldman,2016-11-17 12:21:58,clarify that the `chunk_size` is optional when streaming to a file,3704
+7e138f9,Rakib Hasan,2016-11-17 03:23:57,Adding 'import requests' to readme code snippet. (#3700),3700
+1e198f9,Cory Benfield,2016-11-16 18:32:59,Merge pull request #3697 from hussaintamboli/master,3696
+248d3e9,Hussain,2016-11-16 22:48:45,Fixed issue #3696. Added a test for it as well.,3696,requests/models.py
+248d3e9,Hussain,2016-11-16 22:48:45,Fixed issue #3696. Added a test for it as well.,3696,tests/test_requests.py
+623d9e7,hootnot,2016-11-03 11:10:59,documentation line added for consistency with the post method,3666,requests/api.py
+c97a530,Pawel Miech,2016-10-31 14:42:01,[httpAdapter] allow empty password in proxy credentials,3659,requests/adapters.py
+c97a530,Pawel Miech,2016-10-31 14:42:01,[httpAdapter] allow empty password in proxy credentials,3659,tests/test_requests.py
+9deb603,Ian Cordasco,2016-10-27 11:51:29,Merge pull request #3652 from gardiac2002/master,3649
+d587533,lovedboy,2016-10-21 16:37:46,little modification  in consume_socket_content,3631,tests/testserver/server.py
+022e23c,Cory Benfield,2016-09-29 08:09:22,Merge pull request #3606 from bbamsch/httpbinTestFix,3597
+ed0570b,Om Prakash,2016-09-28 16:38:32,updates authors,3603
+06920cc,Om Prakash,2016-09-28 16:25:19,fixes broken link on documentation page,3604
+5eabcb7,Cory Benfield,2016-09-28 08:56:38,Merge pull request #3598 from bbamsch/bytestringHostFix,3597
+31b35ab,Nate Prewitt,2016-09-21 10:19:44,removing redundant logic from prepare_content_length,3545,requests/models.py
+31b35ab,Nate Prewitt,2016-09-21 10:19:44,removing redundant logic from prepare_content_length,3545,tests/test_requests.py
+c121229,Cory Benfield,2016-09-17 08:18:59,Merge pull request #3580 from rbcarson/idna-thread-embedded-3578,3578
+f5ff345,Ian Cordasco,2016-08-12 06:24:36,Merge pull request #3493 from nateprewitt/3490_drop_headers,3490
+c69e3ee,Ian Cordasco,2016-07-30 07:16:18,Close and then release the connection,3461,requests/models.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/auth.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/cookies.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/hooks.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/models.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/sessions.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/status_codes.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/structures.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,requests/utils.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,tests/test_lowlevel.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,tests/test_requests.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,tests/test_testserver.py
+2d4a89f,Nate Prewitt,2016-07-19 15:23:11,adding in pep8 fixes,3428,tests/test_utils.py
+d262df9,Nate Prewitt,2016-07-14 21:53:10,removing redundant test,3415,tests/test_requests.py
+5d9b9ff,Ian Cordasco,2016-07-07 09:56:08,Merge pull request #3388 from nateprewitt/header_doc_update,3386
+1cb3b79,Nate Prewitt,2016-07-06 15:10:46,updating documentation to reflect decision of #3386,3386
+7700eca,Andrii Kostenko,2016-07-05 17:01:19,Support responses like `HTTP/1.1 404 Unicode chars` (#3385),3385,requests/models.py
+7700eca,Andrii Kostenko,2016-07-05 17:01:19,Support responses like `HTTP/1.1 404 Unicode chars` (#3385),3385,tests/test_requests.py
+71050e9,Nate Prewitt,2016-07-02 14:56:20,adding in slice_length fix and test for chunk_size=None (#3370),3370,requests/utils.py
+71050e9,Nate Prewitt,2016-07-02 14:56:20,adding in slice_length fix and test for chunk_size=None (#3370),3370,tests/test_utils.py
+0bcf634,Joy Zheng,2016-06-30 17:11:01,Allow None value for chunk_size again (#3368),3368,requests/models.py
+0bcf634,Joy Zheng,2016-06-30 17:11:01,Allow None value for chunk_size again (#3368),3368,tests/test_requests.py
+92fe51c,Nate Prewitt,2016-06-28 13:22:00,adding asserted_encoding check on None type encoding to match text() behavior (#3362),3362,requests/utils.py
+92fe51c,Nate Prewitt,2016-06-28 13:22:00,adding asserted_encoding check on None type encoding to match text() behavior (#3362),3362,tests/test_requests.py
+cf3c998,Nate Prewitt,2016-06-27 18:47:34,added in type check for chunk_size,3365,requests/models.py
+cf3c998,Nate Prewitt,2016-06-27 18:47:34,added in type check for chunk_size,3365,tests/test_requests.py
+400d27f,John Vandenberg,2016-06-17 20:00:05,Test security warnings (#3289),3289,tests/__init__.py
+400d27f,John Vandenberg,2016-06-17 20:00:05,Test security warnings (#3289),3289,tests/test_requests.py
+7a404cf,Cory Benfield,2016-06-08 09:44:33,Document header ordering. (#3295),3295
+de4c75b,Ian Cordasco,2016-06-01 11:00:33,Update documentation of Session.max_redirects,3250,requests/sessions.py
+9e9d2c6,Seppo Yli-Olli,2016-05-24 21:23:16,Make BaseAdapter describe the mandatory adapter interface (#3216),3216,requests/adapters.py
+1121f8b,Brett Higgins,2016-05-10 10:24:10,Support ALL_PROXY environment variable,3183,requests/sessions.py
+1121f8b,Brett Higgins,2016-05-10 10:24:10,Support ALL_PROXY environment variable,3183,tests/test_requests.py
+ecebf33,Ian Cordasco,2016-04-29 11:05:19,Merge pull request #3139 from markshannon/fix/3138,3138
+abe02ed,Mark Shannon,2016-04-29 16:49:24,"Initialize hash_utf8 to None, preventing NameError. Fixes #3138.",3138,requests/auth.py
+4e7beef,John R. Lenton,2016-04-26 11:21:54,utils: let select_proxy not raise an exception when url has no hostname,3132,requests/utils.py
+4e7beef,John R. Lenton,2016-04-26 11:21:54,utils: let select_proxy not raise an exception when url has no hostname,3132,tests/test_utils.py
+ae1ac2d,Kevin Burke,2016-04-21 08:12:05,Flip conditional in session.send(),1489,requests/sessions.py
+ae1ac2d,Kevin Burke,2016-04-21 08:12:05,Flip conditional in session.send(),1489,tests/test_requests.py
+b8a5770,Alexander Hermes,2016-03-29 11:57:47,Update docstring and API doc to document ability to add per-file headers in multipart POST,1640,requests/api.py
+b8a5770,Alexander Hermes,2016-03-29 11:57:47,Update docstring and API doc to document ability to add per-file headers in multipart POST,1640,requests/models.py
+f24d56a,Ben,2016-03-17 23:16:39,Consolidate logic for changing method during redirects,1325,requests/sessions.py
+f24d56a,Ben,2016-03-17 23:16:39,Consolidate logic for changing method during redirects,1325,tests/test_requests.py
+4f378b0,Cory Benfield,2016-03-06 18:07:59,Merge pull request #3032 from davidsoncasey/master,3028
+f74a670,Casey Davidson,2016-03-05 20:37:56,"Verify that cookie can be properly accessed if domain is specified, and that error is raised otherwise. Refs #3028.",3028,tests/test_requests.py
+b9517a5,Casey Davidson,2016-03-04 15:59:13,Assert that both cookies were added in test. Refs #3028.,3028,tests/test_requests.py
+d8b36c1,Casey Davidson,2016-03-04 15:52:13,Override __contains__ method of RequestsCookieJar to catch CookieConflictError. Refs #3028,3028,requests/cookies.py
+1185d65,Casey Davidson,2016-03-04 15:17:55,Add tests to specify when CookieConflicError should be raised. References #3028.,3028,tests/test_requests.py
+fc512d8,Kenneth Reitz,2016-02-05 17:51:09,Don't use redirect_cache if allow_redirects=False,2997,requests/sessions.py
+90688c6,Kenneth Reitz,2016-02-03 03:37:52,cleanup setup.py from #2991,2991,setup.py
+458cb64,Kenneth Reitz,2016-02-03 03:35:51,cleanup tests from merge of #2991,2991
+f14f308,Vincent Bernat,2015-12-28 16:21:53,"advanced: use ""client.*"" to designate client certificate",2948
+fcb8c8d,Isa Hassen,2015-12-20 21:53:47,Docs: clarify the precedence of `auth=` over `netrc`,2062
+b32c3bc,Ian Cordasco,2015-12-16 09:20:26,Merge pull request #2931 from Lukasa/uploading_bytes,2844
+fc8fa1a,Cory Benfield,2015-12-16 14:56:13,Fix regression from #2844 regarding binary bodies.,2844,requests/models.py
+fc8fa1a,Cory Benfield,2015-12-16 14:56:13,Fix regression from #2844 regarding binary bodies.,2844,test_requests.py
+5c19d3e,Matt Jordan,2015-12-05 09:47:00,requests/auth: Handle an empty 'qop' attribute in a Authenticate challenge,2916,requests/auth.py
+5397ef7,Ian Cordasco,2015-11-10 21:22:24,Fix super_len for partially read files,2872,requests/utils.py
+0a1aaca,Ian Cordasco,2015-11-10 21:15:29,Add failing test for #2872,2872,test_requests.py
+a25a641,vienno,2015-11-10 12:36:36,unnest deep loop,2869,requests/cookies.py
+1dff6c9,Cory Benfield,2015-10-23 13:24:36,Merge pull request #2845 from gagoman/fix-2844,2844
+edc68a0,Alex Khomchenko,2015-10-23 15:22:36,fix issue #2844,2844,requests/models.py
+edc68a0,Alex Khomchenko,2015-10-23 15:22:36,fix issue #2844,2844,test_requests.py
+13ea739,Cory Benfield,2015-10-16 13:21:45,Merge pull request #2831 from shagunsodhani/proposed-fix-for-#2826,2826
+b675377,shagun Sodhani,2015-10-16 17:01:36,added fix for #2826,2826
+b071c49,Cory Benfield,2015-10-12 10:48:57,Failing test for issue #2818,2818,test_requests.py
+ba7d093,Cory Benfield,2015-10-05 15:57:05,Changelog for #2785.,2785
+96e9490,Ian Cordasco,2015-10-05 09:54:17,Merge pull request #2803 from asieira/master,2785
+4e44c2a,Alexandre Sieira,2015-10-05 11:36:21,Removing change to .gitignore (#2785),2785
+f6afa71,Cory Benfield,2015-10-05 15:27:53,Merge pull request #2763 from ravipra/json_supersedes,2756
+2a635ba,Alexandre Sieira,2015-10-05 11:18:23,Update default user-agent (#2785),2785,requests/utils.py
+443d07e,Hosam Aly,2015-10-02 23:58:48,Fix #2799: Update Quickstart documentation of Response.json(),2799
+610fbd0,Cory Benfield,2015-10-02 10:08:23,Merge pull request #2797 from sumitbinnani/DocumentationCorrection,2756
+3703760,Ravi Prakash Putchala,2015-09-08 14:45:46,Fixed issue #2756,2756,requests/models.py
+3703760,Ravi Prakash Putchala,2015-09-08 14:45:46,Fixed issue #2756,2756,test_requests.py
+f4eaefa,Maximilian Hils,2015-09-05 12:07:49,fix rfc quotation,2758
+48fe344,Jason Grout,2015-08-20 21:59:57,Implement per-host proxies,2722,requests/adapters.py
+3cf4ec4,Cory Benfield,2015-08-15 14:42:21,Merge pull request #2729 from smiley/patch-1,2724
+2411b1f,Smiley Barry,2015-08-15 21:00:13,Added name to AUTHORS after PR #2724,2724
+98a59e4,Cory Benfield,2015-08-14 15:30:00,Merge pull request #2724 from smiley/master,2686
+b8a297b,Ian Cordasco,2015-07-18 10:47:23,Remove broken CaseInsensitiveDict repr test,2668,test_requests.py
+5ec7576,Susan Tan,2015-07-17 01:18:02,Catch and wrap ClosedPoolError,1572,requests/adapters.py
+5ec7576,Susan Tan,2015-07-17 01:18:02,Catch and wrap ClosedPoolError,1572,test_requests.py
+a560e09,David Pursehouse,2015-06-29 10:56:51,Allow get_netrc_auth to raise parse/permission errors to caller,2654,requests/utils.py
+e3bdec5,Marc Abramowitz,2015-06-22 13:22:59,Display URL as part of HTTP error messages,404,requests/models.py
+2e62df4,Cory Benfield,2015-06-13 08:10:53,Avoid double releasing chunked upload connections,2636,requests/adapters.py
+fd31453,colin,2015-05-25 17:08:06,fix unittest typo,2614,test_requests.py
+1da62a6,colin,2015-05-24 09:59:35,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),2593,requests/models.py
+1da62a6,colin,2015-05-24 09:59:35,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),2593,test_requests.py
+8d0889b,colin,2015-05-24 09:59:35,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),2593,requests/models.py
+8d0889b,colin,2015-05-24 09:59:35,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),2593,test_requests.py
+c6c8d64,Thomas Weißschuh,2015-05-12 23:21:03,do not blindly catch all AttributeErrors,618,requests/models.py
+773e730,Ian Cordasco,2015-04-24 19:28:01,Add new release process to docs,2569
+b7fc3a1,Markus Unterwaditzer,2015-04-24 12:05:18,Import aliases for Debian,2375,requests/packages/__init__.py
+ca66267,Ian Cordasco,2015-04-23 11:29:10,Add release notes for 2.6.2,2561,requests/__init__.py
+35045e8,Ian Cordasco,2015-04-20 20:13:57,Simplify PreparedRequest.prepare API,2552,requests/models.py
+35045e8,Ian Cordasco,2015-04-20 20:13:57,Simplify PreparedRequest.prepare API,2552,test_requests.py
+5478dd6,Ian Cordasco,2015-04-10 21:59:13,Merge pull request #2547 from sh1buy/bug_2540,2540
+e3c7b43,Smiley Barry,2015-04-06 21:00:51,"#2532: Documented strange behaviour in ""PreparedRequest.prepare_cookies"", caused by cookielib. Also documented a workaround if absolutely necessary.",2532,requests/models.py
+36093e6,Ian Cordasco,2015-04-05 21:27:33,Copy a PreparedRequest's CookieJar reliably,2527,requests/cookies.py
+36093e6,Ian Cordasco,2015-04-05 21:27:33,Copy a PreparedRequest's CookieJar reliably,2527,requests/models.py
+dacf69a,Ian Cordasco,2015-04-05 21:49:10,Fix build version number in metadata,2530,requests/__init__.py
+1b5bfe6,Ian Cordasco,2015-04-05 20:48:35,Place VendorAlias first in meta_path,2465,requests/packages/__init__.py
+18e678c,Cory Benfield,2015-04-05 23:33:29,Merge pull request #2531 from benjaminran/issue2062,2062
+5a69137,exvito,2015-04-04 14:25:08,Issue #2334 - HTTPDigestAuth - Renamed thread local attribute,2334,requests/auth.py
+36dea43,exvito,2015-04-03 17:04:33,Issue #2334 - HTTPDigestAuth - Improved per-thread state init,2334,requests/auth.py
+d294de3,Cory Benfield,2015-04-03 16:57:54,Merge pull request #2525 from benjaminran/issue2062,2062
+e8d9bc5,exvito,2015-04-03 14:21:29,Issue #2334 - HTTPDigestAuth - All state now in thread local storage,2334,requests/auth.py
+e65360d,exvito,2015-04-02 21:29:51,Issue #2334 - HTTPDigestAuth - Replace getattr utilization,2334,requests/auth.py
+845e8f9,exvito,2015-04-02 14:24:54,Issue #2334 - HTTPAuthDigest - Making it thread-safe,2334,requests/auth.py
+587eb19,Paul van der Linden,2015-03-18 11:29:18,fix resolve redirect to pass all original arguments,2504,requests/sessions.py
+ce234d5,deronnax,2015-03-25 18:21:34,shorter and faster version extraction from __init__.py,2518,setup.py
+dfa0a29,M.Yasoob Ullah Khalid ☺,2015-03-17 01:29:33,added myself to authors.rst,2501
+6e2f1eb,M.Yasoob Ullah Khalid ☺,2015-03-15 01:02:09,made the quickstart more reader friendly. Closes #2418,2418
+573d460,Ulrich Petri,2015-03-12 13:54:29,Add return type field to entry-point docstrings,2483,requests/api.py
+1acc499,Ian Cordasco,2015-03-13 21:47:29,Parse version number out of requests/__init__.py,2462,setup.py
+c4bd6ea,Ian Cordasco,2015-03-11 20:52:12,Import urllib3's Retry location from the right place,567,requests/adapters.py
+6ea3f2a,Ian Cordasco,2015-02-28 20:13:45,Only alias the imports for vendored dependencies,2465,requests/packages/__init__.py
+ed73d9e,requiredfield,2015-02-20 12:20:18,document combination of repeated response headers,2453
+80aee7a,Colin Dickson,2015-02-04 21:05:03,add a timeout value to connection_error_invalid_port test to accelerate failure,2438,test_requests.py
+53f33eb,Tom S,2015-02-03 09:16:38,quickstart: using a list as a value in query params,2437
+74d85d0,Chris Kuehl,2015-01-22 19:37:33,HISTORY: replace n-dash to workaround pip bug,443
+eec44db,Ian Cordasco,2015-01-18 21:51:49,Check that a filename is a basestring instance,2411,requests/compat.py
+eec44db,Ian Cordasco,2015-01-18 21:51:49,Check that a filename is a basestring instance,2411,requests/utils.py
+eec44db,Ian Cordasco,2015-01-18 21:51:49,Check that a filename is a basestring instance,2411,test_requests.py
+677bbe3,Ian Cordasco,2015-01-19 18:50:50,Move noncebit to the only place it is used,2408,requests/auth.py
+751b35c,Ian Cordasco,2014-12-26 20:02:16,Attempt to quote anyway if unquoting fails,2356,requests/utils.py
+751b35c,Ian Cordasco,2014-12-26 20:02:16,Attempt to quote anyway if unquoting fails,2356,test_requests.py
+925e975,daftshady,2014-12-16 16:55:13,catch exception more specifically in Response.ok,2382,requests/models.py
+e8d02ea,Arthur Darcet,2014-12-12 16:11:32,utils.guess_filename fails if the given parameter looks like a file object but has a non-string name attribute,2379,requests/utils.py
+e8d02ea,Arthur Darcet,2014-12-12 16:11:32,utils.guess_filename fails if the given parameter looks like a file object but has a non-string name attribute,2379,test_requests.py
+2a5364c,Matt Robenolt,2014-11-23 17:54:44,"url was already parsed, don't urlparse twice",2353,requests/sessions.py
+c8baf88,Ian Cordasco,2014-11-17 22:13:35,Properly serialize RecentlyUsedContainers for cache,2345,requests/sessions.py
+087a27a,ContinuousFunction,2014-11-15 16:58:25,Partially addresses Issue #1572,1572,requests/models.py
+087a27a,ContinuousFunction,2014-11-15 16:58:25,Partially addresses Issue #1572,1572,test_requests.py
+3155bc9,Ian Cordasco,2014-11-07 08:55:17,Close sessions created in the functional API,1882,requests/api.py
+122c92e,Kenneth Reitz,2014-11-01 10:04:29,Merge pull request #2253 from yossigo/digest_redirect_fix,1979
+29ef108,Ian Cordasco,2014-10-31 21:20:04,Use to_native_string instead of builtin_str,2316,requests/sessions.py
+29ef108,Ian Cordasco,2014-10-31 21:20:04,Use to_native_string instead of builtin_str,2316,test_requests.py
+d505b94,Ian Cordasco,2014-10-26 19:24:37,Add DeprecationWarnings to inform users of plans,2266,requests/utils.py
+6b58a35,Cory Benfield,2014-10-19 10:42:28,Merge pull request #2290 from syedsuhail/fix-2282,2279
+96efb5e,syedsuhail,2014-10-19 14:06:02,Fix #2279. Update layout css,2279
+e1e1855,Cory Benfield,2014-10-19 08:56:36,Merge pull request #2289 from syedsuhail/fix-2288,2288
+3a6348d,syedsuhail,2014-10-19 13:18:26,Fix #2288. Change urllib3 and chardet workflow,2288
+4d498db,morganthrapp,2014-10-14 10:56:05,Update sidebarintro.html,2279
+2ac771b,Ian Cordasco,2014-10-10 13:30:18,Merge pull request #2271 from mikecool1000/fix-2250,2250
+589f2f6,Ian Cordasco,2014-10-09 21:07:01,Add Release History to the sidebar,2269
+ce1ac88,mikecool1000,2014-10-09 12:22:18,Fixed #2250,2250,requests/utils.py
+5850b1f,Kenneth Reitz,2014-10-05 13:19:14,Merge pull request #2249 from t-8ch/fix_2247,2247
+c28da22,Yossi Gottlieb,2014-09-27 20:42:58,A fix for #1979 repeat HTTP digest authentication after redirect.,1979,requests/auth.py
+6e1db21,Thomas Weißschuh,2014-09-25 19:47:56,fix #2247,2247,requests/adapters.py
+6e1db21,Thomas Weißschuh,2014-09-25 19:47:56,fix #2247,2247,requests/utils.py
+9b41308,Ian Cordasco,2014-09-12 11:54:40,Merge pull request #2223 from blueyed/doc-followup-2222,2222
+bff8b91,Daniel Hahler,2014-09-12 17:13:43,Document skipping in PreparedRequest; followup to #2222,2222,requests/models.py
+bff8b91,Daniel Hahler,2014-09-12 17:13:43,Document skipping in PreparedRequest; followup to #2222,2222,test_requests.py
+5e94c81,Cory Benfield,2014-09-09 15:24:24,Merge pull request #2210 from sigmavirus24/bug/2207,2207
+27c83f7,Ian Cordasco,2014-09-07 12:02:23,Fix #2207,2207,requests/sessions.py
+0df32de,Kenneth Reitz,2014-09-04 11:41:46,Merge pull request #2199 from mtorromeo/patch-1,2196
+226b5c7,Massimiliano Torromeo,2014-09-03 09:40:27,Open README and HISTORY as utf-8 encoded files (fixes #2196),2196,setup.py
+59f5a10,Kevin Burke,2014-08-29 12:06:58,add trailing comma,2191,requests/utils.py
+7e24176,Kenneth Reitz,2014-08-26 15:41:44,Merge pull request #2183 from Lukasa/docupdate,2180
+35d083e,Kenneth Reitz,2014-08-01 21:33:55,Merge pull request #2153 from jschneier/master,2045
+47d0517,Josh Schneier,2014-07-29 23:27:38,handle urllib3 api changes; closes #2045,2045,requests/compat.py
+47d0517,Josh Schneier,2014-07-29 23:27:38,handle urllib3 api changes; closes #2045,2045,requests/models.py
+47d0517,Josh Schneier,2014-07-29 23:27:38,handle urllib3 api changes; closes #2045,2045,test_requests.py
+6dc13f2,Udi Oron,2014-07-15 19:56:47,removed unneeded parentheses from if clause,2134
+b9bbfa6,Kenneth Reitz,2014-06-23 12:11:13,Merge pull request #2049 from codedstructure/adapter-proxy_manager_for,2048
+07d9b73,Eric L Frederich,2014-06-10 16:30:17,handle 308 redirection the same as 301 and 302,2090,requests/models.py
+e2c4da7,Jeff Knupp,2014-06-10 09:06:22,various pep-8 cleanups; remove unsused imports; remove unused variables,2088,test_requests.py
+3faff0b,Ian Cordasco,2014-05-27 20:29:44,"Check for basestring, not just str",2071,requests/models.py
+3b0fcb6,Martin Geisler,2014-05-26 00:44:09,compat: handle SyntaxError when importing simplejson,710,requests/compat.py
+f97e787,Ben Bass,2014-05-17 23:15:51,Factor out HTTPAdapter.proxy_manager_for for #2048,2048,requests/adapters.py
+8a23dd9,Benjamin Peterson,2014-04-04 23:58:18,replace reference to crate.io,1991
+24819e8,Feng Liu,2014-03-14 16:24:25,support request tuple data,1959,requests/models.py
+24819e8,Feng Liu,2014-03-14 16:24:25,support request tuple data,1959,test_requests.py
+b8128d6,Kenneth Reitz,2014-03-24 11:45:06,Merge pull request #1962 from sigmavirus24/fix-history-type,1960
+5f48e4a,Kenneth Reitz,2014-03-24 11:44:14,Merge pull request #1963 from sigmavirus24/fix-redirect-methods,1955
+8d693a2,Ian Cordasco,2014-03-15 11:38:13,Fix #1955: Do not use original request in redirect,1955,requests/sessions.py
+8d693a2,Ian Cordasco,2014-03-15 11:38:13,Fix #1955: Do not use original request in redirect,1955,test_requests.py
+daf56b3,Ian Cordasco,2014-03-15 10:33:00,Fix #1960: A Response's history should be a list,1960,requests/sessions.py
+daf56b3,Ian Cordasco,2014-03-15 10:33:00,Fix #1960: A Response's history should be a list,1960,test_requests.py
+5f404a0,cjstapleton,2014-02-28 19:06:59,Fix styling issues with add timeout to stream with testing,1935,test_requests.py
+930f03c,cjstapleton,2014-02-28 10:08:57,Add timeout to stream with testing,1803,requests/adapters.py
+930f03c,cjstapleton,2014-02-28 10:08:57,Add timeout to stream with testing,1803,test_requests.py
+d2f647c,Ian Cordasco,2014-02-14 16:15:21,Do not set headers with None value,1920,requests/sessions.py
+d2f647c,Ian Cordasco,2014-02-14 16:15:21,Do not set headers with None value,1920,test_requests.py
+3443c17,Martijn Pieters,2014-02-05 17:29:09,Document the `Response.reason` attribute.,1225,requests/models.py
+5ee8b34,Martijn Pieters,2014-02-03 12:00:14,Reinstate falling back to self.text for JSON responses,1674,requests/models.py
+8b792be,Konstantinos Koukopoulos,2014-01-28 09:11:23,on redirect pass URL as bytes. Fixes: #1887,1887,requests/sessions.py
+b6e1679,Konstantinos Koukopoulos,2014-01-28 09:08:16,test pyopenssl redirect (unit test for #1887),1887,test_requests.py
+87abd9c,Ian Cordasco,2014-01-12 14:27:45,Use calendar.timegm when calculating cookie expiration,1859,requests/cookies.py
+0b41cec,Chris Adams,2014-01-07 11:34:51,get_netrc_auth: handle os.path.expanduser failure,1846,requests/utils.py
+9e84346,Pepijn de Vos,2013-12-24 11:14:04,use adapter pool size for proxies,1827,requests/adapters.py
+0eb6dc3,Kenneth Reitz,2013-12-18 07:56:30,Merge pull request #1808 from kennethreitz/fix-cookies-saved-on-redirect,1805
+642bbf6,Ian Cordasco,2013-12-17 22:52:48,Fixes #1805,1805,requests/sessions.py
+2dae61c,Kenneth Reitz,2013-12-05 14:26:58,Merge pull request #1776 from sigmavirus24/fix-1728,1729
+e851efb,Kenneth Reitz,2013-12-05 14:00:58,Merge pull request #1781 from Lukasa/ucliteral,1779
+e8bdcdb,Ian Cordasco,2013-12-04 06:45:18,Address feedback from #1729,1729,requests/auth.py
+e8bdcdb,Ian Cordasco,2013-12-04 06:45:18,Address feedback from #1729,1729,requests/models.py
+e8bdcdb,Ian Cordasco,2013-12-04 06:45:18,Address feedback from #1729,1729,requests/sessions.py
+8bfe0d8,Chase Sterling,2013-11-06 21:52:21,Store the request cookiejar in PreparedRequest.cookies fix #1728,1728,requests/auth.py
+8bfe0d8,Chase Sterling,2013-11-06 21:52:21,Store the request cookiejar in PreparedRequest.cookies fix #1728,1728,requests/models.py
+8bfe0d8,Chase Sterling,2013-11-06 21:52:21,Store the request cookiejar in PreparedRequest.cookies fix #1728,1728,requests/sessions.py
+5b30e96,Chase Sterling,2013-11-06 19:39:56,Add a test case for request cookies persisting to session. refs #1728,1728,test_requests.py
+8b88549,Kenneth Reitz,2013-12-03 17:33:33,Merge pull request #1713 from daftshady/master,1711
+4f786e4,Cory Benfield,2013-12-01 10:23:09,Tests for #1767.,1767,test_requests.py
+e3c771f,daftshady,2013-10-30 01:58:01,added test case related to #1711,1711,test_requests.py
+2bbd7ba,daftshady,2013-10-29 23:18:03,Fixed #1711,1711,requests/sessions.py
+3327652,Kenneth Reitz,2013-11-20 01:05:15,Merge pull request #1747 from daftshady/lowercase,1746
+8c8938e,daftshady,2013-11-19 18:59:22,issue #1746 : Don't lowercase the whole URL!,1746,requests/adapters.py
+8c8938e,daftshady,2013-11-19 18:59:22,issue #1746 : Don't lowercase the whole URL!,1746,requests/sessions.py
+afaed33,Pengfei Xue,2013-11-15 18:00:18,add coverage make target,1738
+7ccbcd2,Kenneth Reitz,2013-11-04 13:58:12,Merge pull request #1724 from daftshady/dev3,1723
+495f873,daftshady,2013-11-04 18:32:45,fixed #1723,1723,requests/api.py
+2c1f51b,Kenneth Reitz,2013-10-28 13:36:04,fix @lukasa's lack of taste :),1702
+55ad389,Kenneth Reitz,2013-10-28 10:32:21,Merge pull request #1706 from daftshady/dev2,1623
+3488f3a,Alex Gaynor,2013-10-26 16:43:08,close files in setup.py,1708,setup.py
+6931bd6,daftshady,2013-10-26 18:14:19,second commit : Fixed #1623. Added 'MD5-sess' algorithm to HTTPDigestAuth,1623,requests/auth.py
+3d0a1eb,Qingping Hou,2013-10-16 16:59:22,fix doc for redirction and history,1675
+318ca10,Kenneth Reitz,2013-10-07 16:22:49,Merge pull request #1635 from daftshady/dev,1630
+66339b2,Randy Morris,2013-10-07 10:43:48,update verbiage about streaming requests,952
+d22eaf9,daftshady,2013-09-28 23:44:27,Fixed #1630,1630,requests/cookies.py
+d22eaf9,daftshady,2013-09-28 23:44:27,Fixed #1630,1630,requests/sessions.py
+39fe006,daftshady,2013-09-28 16:33:05,"Fixed #1630, added test case for cookie persistence.",1630,requests/sessions.py
+39fe006,daftshady,2013-09-28 16:33:05,"Fixed #1630, added test case for cookie persistence.",1630,test_requests.py
+3501ea4,daftshady,2013-09-26 15:40:12,Fixed #1623. Added 'MD5-sess' algorithm to HTTPDigestAuth,1623,requests/auth.py
+10b6d77,homm,2013-09-12 10:20:47,remove extra mention of dangerous `r.raw`,1592
+852de11,Dieter Verfaillie,2013-07-31 09:29:24,remove duplicate comment,1508,requests/models.py
+73635df,Ian Ross and Ian Cordasco,2013-07-19 15:13:28,Start work on sending cookies back,1336,requests/auth.py
+73635df,Ian Ross and Ian Cordasco,2013-07-19 15:13:28,Start work on sending cookies back,1336,test_requests.py
+012cc33,David Pursehouse,2013-07-24 11:58:43,Rewrite `test_mixed_case_scheme_acceptable` to work with local httpbin,1485,test_requests.py
+62f0df4,David Pursehouse,2013-07-22 09:09:26,Add a simple example of custom authentication in the documentation,1471
+3229365,Cory Benfield,2013-07-19 01:19:55,Merge pull request #1464 from dpursehouse/document-none-not-sent,1322
+07ad75e,David Pursehouse,2013-07-19 17:00:46,Fix #1322: Add note in docs about None not being sent as data,1322
+cdab4fa,Flavio Curella,2013-07-01 13:49:43,unquote double-quotes cookie values,1440,requests/cookies.py
+cdab4fa,Flavio Curella,2013-07-01 13:49:43,unquote double-quotes cookie values,1440,test_requests.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/connectionpool.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/contrib/ntlmpool.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/contrib/pyopenssl.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/filepost.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/poolmanager.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/request.py
+2ed976e,Thomas Weißschuh,2013-06-08 08:22:15,update urllib3 to 60ba176f5d,1412,requests/packages/urllib3/response.py
+2a34335,papaeye,2013-05-22 04:30:19,Fix #1374,1374,test_requests.py
+5943afa,Kenneth Reitz,2013-05-16 23:23:04,Merge pull request #1363 from dave-shawley/master,1362
+6e76ab7,Dave Shawley,2013-05-16 11:22:35,Fix for #1362.,1362,requests/models.py
+6e76ab7,Dave Shawley,2013-05-16 11:22:35,Fix for #1362.,1362,test_requests.py
+eacb91a,Kenneth Reitz,2013-05-15 09:43:57,Merge pull request #1327 from ambv/adapter_order,1320
+4c8af1f,Łukasz Langa,2013-05-15 13:34:09,Fixes #1320: transport adapters stored in ordered form,1320,requests/sessions.py
+4c8af1f,Łukasz Langa,2013-05-15 13:34:09,Fixes #1320: transport adapters stored in ordered form,1320,test_requests.py
+50e5922,Kenneth Reitz,2013-05-04 13:11:46,Merge pull request #1347 from hobarrera/master,749
+18857a0,Hugo Osvaldo Barrera,2013-05-03 20:55:48,Issue #749: Add optional SNI support for python2.,749,requests/__init__.py
+18857a0,Hugo Osvaldo Barrera,2013-05-03 20:55:48,Issue #749: Add optional SNI support for python2.,749,setup.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,requests/structures.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,requests/utils.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,test_requests.py
+1866f75,Chase Sterling,2013-04-25 22:32:03,Add test for session cookiejars other than RequestsCookieJar,1489,test_requests.py
+770c3d7,Kenneth Reitz,2013-04-17 12:39:03,Merge pull request #1313 from iurisilvio/fix_max_redirects_docs,1301
+736e8cd,Iuri de Silvio,2013-04-17 12:27:06,Fix max_redirects docs issue #1301,1301,requests/sessions.py
+9df4501,Kenneth Reitz,2013-04-13 20:25:47,Merge pull request #1302 from ssbarnea/master,1297
+082029f,Kenneth Reitz,2013-04-13 15:26:49,switch streaming requests to httpbin,952
+c5d0a09,Ian Cordasco,2013-04-13 12:30:05,Change the method when it isn't already GET/HEAD,1303,requests/sessions.py
+17ecb68,Sorin Sbarnea,2013-04-10 16:15:28,"* Documented the logging, requested in #1297 * Added build directory and *.egg to .gitignore * Added sphinx as setup requirement in order to be able to build documentation with `pyhton setup.py build_sphinx`",1297,setup.py
+fa9234d,Kenneth Reitz,2013-04-06 17:27:23,Merge pull request #1295 from sigmavirus24/issue1293,1293
+afcc883,Ian Cordasco,2013-04-06 11:26:52,Fix #1293,1293,requests/models.py
+848f2c2,Kenneth Reitz,2013-04-04 20:22:38,Merge pull request #1290 from gazpachoking/#1287,1287
+d22ac00,Chase Sterling,2013-04-04 22:11:38,fix #1287: Make sure expired cookies get removed from session.cookies,1287,requests/sessions.py
+dccfc5b,Kenneth Reitz,2013-04-03 18:04:40,Merge pull request #1283 from sigmavirus24/master,1280
+1abd137,Ian Cordasco,2013-04-02 09:27:25,Closes #1280,1280,requests/sessions.py
+39acf1d,Alex Gaynor,2013-03-31 23:20:46,is should not be used for comparing numbers,1276,requests/models.py
+75703d5,Kenneth Reitz,2013-03-31 08:22:44,fix syntax error,2986,requests/sessions.py
+d7908a9,Thomas Weißschuh,2013-03-28 12:48:50,update vendored urllib3,1268,requests/packages/urllib3/connectionpool.py
+d7908a9,Thomas Weißschuh,2013-03-28 12:48:50,update vendored urllib3,1268,requests/packages/urllib3/contrib/pyopenssl.py
+d7908a9,Thomas Weißschuh,2013-03-28 12:48:50,update vendored urllib3,1268,requests/packages/urllib3/poolmanager.py
+d7908a9,Thomas Weißschuh,2013-03-28 12:48:50,update vendored urllib3,1268,requests/packages/urllib3/util.py
+aca91e0,Ian Cordasco,2013-03-27 23:46:21,Restore Session.request docstring,1251,requests/sessions.py
+88177ec,Ian Cordasco,2013-03-27 23:30:00,Finally resolve #1084,1084,requests/sessions.py
+1d5c4f3,Ian Cordasco,2013-03-27 23:26:11,This should take care of #1266,1266,requests/models.py
+478d490,Ian Cordasco,2013-03-27 23:17:34,Add correct defaults in Session.send(),1258,requests/sessions.py
+478d490,Ian Cordasco,2013-03-27 23:17:34,Add correct defaults in Session.send(),1258,test_requests.py
+c63472e,Kenneth Reitz,2013-03-25 12:48:45,Merge pull request #1263 from justin-factual/master,1260
+13aeb9c,Kenneth Reitz,2013-03-21 21:06:23,Merge pull request #1254 from jkakar/url-authentication,1254
+5bb2be9,Miikka Koskinen,2013-03-09 12:53:38,Use session cookies when following redirects,1228,requests/sessions.py
+e958511,Miikka Koskinen,2013-03-09 09:16:33,Add failing test case for #1228,1228,test_requests.py
+e706d18,Darjus Loktevic,2013-03-11 18:12:34,Pickling of Session and HTTPAdapter + a test,1088,requests/adapters.py
+e706d18,Darjus Loktevic,2013-03-11 18:12:34,Pickling of Session and HTTPAdapter + a test,1088,requests/sessions.py
+e706d18,Darjus Loktevic,2013-03-11 18:12:34,Pickling of Session and HTTPAdapter + a test,1088,test_requests.py
+25dc07e,Piotr Staroszczyk,2013-03-08 11:17:17,cleanup (remove max_retries test),1238,test_requests.py
+13de692,Kenneth Reitz,2013-03-05 07:31:10,Merge pull request #1234 from Vassius/issue-1225,1225
+90e109c,Markus Wiik,2013-03-05 16:18:24,Fix issue #1225 (Documentation: response object status/reason),1225
+b14584f,Kenneth Reitz,2013-03-03 12:01:47,"Revert ""[kennethreitz/requests#1208] adding unit test for max_retries""",1208,test_requests.py
+23d8522,Kenneth Reitz,2013-03-03 12:01:38,"Revert ""[kennethreitz/requests#1208] adding a max_retries argument""",1208,requests/adapters.py
+23d8522,Kenneth Reitz,2013-03-03 12:01:38,"Revert ""[kennethreitz/requests#1208] adding a max_retries argument""",1208,requests/api.py
+23d8522,Kenneth Reitz,2013-03-03 12:01:38,"Revert ""[kennethreitz/requests#1208] adding a max_retries argument""",1208,requests/sessions.py
+18b29ea,Wilfred Hughes,2013-02-27 16:01:36,[kennethreitz/requests#1208] adding unit test for max_retries,1208,test_requests.py
+796d322,Wilfred Hughes,2013-02-27 16:01:23,[kennethreitz/requests#1208] adding a max_retries argument,1208,requests/adapters.py
+796d322,Wilfred Hughes,2013-02-27 16:01:23,[kennethreitz/requests#1208] adding a max_retries argument,1208,requests/api.py
+796d322,Wilfred Hughes,2013-02-27 16:01:23,[kennethreitz/requests#1208] adding a max_retries argument,1208,requests/sessions.py
+a788cb7,Ian Cordasco,2013-02-20 08:57:37,Missing line was allowing redirects with HEAD,1203,requests/api.py
+b539753,Thomas Weißschuh,2013-02-15 16:32:50,use explicit scheme for proxies in the docs,1199
+4dfd6f3,Ian Cordasco,2013-02-12 23:00:06,Dispatch hooks before following redirects,1183,requests/sessions.py
+1da1490,Kenneth Reitz,2013-02-10 17:43:58,urllib3 update,1053,requests/packages/urllib3/poolmanager.py
+3299771,Ian Cordasco,2013-02-07 21:08:20,Fix the potential issue mentioned in #1151,1151,requests/sessions.py
+544d08d,Ian Cordasco,2013-02-01 11:55:02,"If Content-Length is already set, don't override",1159,requests/models.py
+b07c1eb,Yehuda Sadeh,2013-01-31 10:32:00,Fix POST 303 redirect resonse handling,1156,requests/sessions.py
+a95bfd3,Ian Cordasco,2013-01-29 23:50:37,Fix the elapsed test and #1133,1133,requests/sessions.py
+a95bfd3,Ian Cordasco,2013-01-29 23:50:37,Fix the elapsed test and #1133,1133,test_requests.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/auth.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/certs.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/compat.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/hooks.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/models.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/sessions.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/structures.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,requests/utils.py
+40a060c,oczkers,2013-01-27 02:04:12,it`s more pep8 now,1146,test_requests.py
+44b1e7e,Johnny Goodnow,2013-01-24 21:10:12,Remove default Content-Length from GET requests.,1051,requests/models.py
+44b1e7e,Johnny Goodnow,2013-01-24 21:10:12,Remove default Content-Length from GET requests.,1051,test_requests.py
+ccea28d,Steve Klabnik,2013-01-23 20:31:05,introduce a test for link headers.,1136,test_requests.py
+0af8ff9,Steve Klabnik,2013-01-23 20:03:43,remove silly assert,1134,test_requests.py
+1a87f15,Kenneth Reitz,2013-01-22 18:48:31,Merge pull request #1117 from sigmavirus24/issue1106,1106
+3bf4660,Kenneth Reitz,2013-01-22 05:11:14,Merge pull request #1097 from matthewlmcclure/issues/1096,1096
+e1c4fe2,Ian Cordasco,2013-01-19 11:49:52,Fix #1106,1106,requests/adapters.py
+e1c4fe2,Ian Cordasco,2013-01-19 11:49:52,Fix #1106,1106,requests/sessions.py
+985a906,Shivaram Lingamneni,2013-01-17 20:40:28,Remove support for certifi,1105,requests/certs.py
+985a906,Shivaram Lingamneni,2013-01-17 20:40:28,Remove support for certifi,1105,requests/utils.py
+b66427e,Shivaram Lingamneni,2013-01-17 02:02:49,"remove the TURKTRUST root certificates, as per #1102",1102
+628e393,Matt McClure,2013-01-11 15:04:47,Resolves the parts of #1096 in requests proper.,1096,requests/models.py
+9d33629,Kenneth Reitz,2013-01-10 01:58:46,don't supply params for directs,1070,requests/sessions.py
+b450528,Kenneth Reitz,2013-01-07 10:42:30,Merge pull request #1080 from sigmavirus24/master,1079
+5264c71,Ian Cordasco,2013-01-02 14:25:33,Fix #1079,1079,requests/adapters.py
+8cb904b,Cory Benfield,2012-12-19 20:11:17,Correctly identify cert files.,1046,requests/adapters.py
+4966d9c,Kenneth Reitz,2012-12-18 10:09:33,Merge pull request #1037 from sigmavirus24/master,1036
+14da5cf,Ian Cordasco,2012-12-18 09:43:55,A possible fix for #1036,1036,requests/sessions.py
+027fbd3,Kenneth Reitz,2012-12-17 21:45:49,Merge pull request #1030 from bboe/cookie_fix,1027
+e355d6a,Bryce Boe,2012-12-17 17:13:18,Fix issue 1027. Always persist cookies.,1027,requests/sessions.py
+5152c98,Kenneth Reitz,2012-12-17 13:52:44,fix for #1017,1017,requests/adapters.py
+910b231,Kenneth Reitz,2012-12-17 13:38:38,fix verify bug,1019,requests/adapters.py
+7fc9378,Kenneth Reitz,2012-12-17 02:42:34,iter_json,1015,requests/models.py
+4a9f357,Kenneth Reitz,2012-12-14 23:51:53,logging handlers,971,requests/__init__.py
+4a9f357,Kenneth Reitz,2012-12-14 23:51:53,logging handlers,971,requests/defaults.py
+4a9f357,Kenneth Reitz,2012-12-14 23:51:53,logging handlers,971,requests/models.py
+4a9f357,Kenneth Reitz,2012-12-14 23:51:53,logging handlers,971,tests/test_cookies.py
+f69934f,Matt McClure,2012-12-12 10:45:00,Import oauthlib without the obsolete wrapper.,1000,requests/auth.py
+d74bd7e,Kenneth Reitz,2012-12-12 00:09:43,Merge pull request #998 from jamshid/master,996
+500dc78,Jamshid Afshar,2012-12-11 18:14:13,Issue #996 Location should not be followed unless 30X response.,996,requests/models.py
+93b2be4,Cory Benfield,2012-12-04 18:10:33,Prefetch must be false to use response.raw.,979,requests/models.py
+8f86ff6,Kenneth Reitz,2012-11-28 08:40:09,Merge pull request #973 from sigmavirus24/fix_972,972
+fd6b1f0,Ian Cordasco,2012-11-27 22:14:09,Fix #972,972,setup.py
+24ed8c9,Ian Cordasco,2012-11-26 13:23:38,Add a bit more to the developer's documentation,601
+f003025,Ian Cordasco,2012-11-24 21:47:47,Attach Content-Length to everything.,223,requests/models.py
+31f74bd,Cory Benfield,2012-11-24 21:17:29,Make OAuth handle less-common body data better.,910,requests/auth.py
+36c32ae,Kenneth Reitz,2012-11-23 02:01:20,Merge pull request #948 from mwielgoszewski/develop,630
+18be26f,Marcin Wielgoszewski,2012-11-22 11:10:22,"Back to issue #630, .isalnum() was sufficient in addressing the issue. Adding a try/except block just masks any issues that are raised here, issues that the developer should definitely be made aware of.",630,requests/utils.py
+8da100f,Cory Benfield,2012-11-18 12:06:33,Respect the no_proxy environment variable.,879,requests/models.py
+8da100f,Cory Benfield,2012-11-18 12:06:33,Respect the no_proxy environment variable.,879,requests/utils.py
+8da100f,Cory Benfield,2012-11-18 12:06:33,Respect the no_proxy environment variable.,879,tests/test_utils.py
+0792acc,Cory Benfield,2012-11-17 10:57:26,Update documentation on Sessions.,870,requests/sessions.py
+c8b2f7a,Cory Benfield,2012-11-16 23:05:35,Update docs to reflect use of params,917,requests/models.py
+b36863b,Lasse Vang Gravesen,2012-10-22 23:58:49,"quote_plus, unquote_plus added",906,requests/compat.py
+b36863b,Lasse Vang Gravesen,2012-10-22 23:58:49,"quote_plus, unquote_plus added",906,requests/utils.py
+cfa83f6,Kenneth Reitz,2012-10-21 08:52:03,Merge pull request #903 from building39/issue-901,901
+4778bdb,Kenneth Reitz,2012-10-21 08:49:38,Merge pull request #904 from g2p/develop,858
+c03553e,Gabriel,2012-10-21 16:49:50,Remove path hacks that break chardet in Python 3. Closes #858.,858,requests/_oauth.py
+4dfa51a,mmartin,2012-10-19 14:17:32,Issue 901: Make value of Contents-Encoding header case insensitive per RFC 2616.,901,requests/utils.py
+6a4062a,Kenneth Reitz,2012-09-22 18:49:19,Merge pull request #863 from sigmavirus24/fix_hooks,785
+4dd3d1a,Ian Cordasco,2012-09-20 11:43:00,Fix #785 & add regression test.,785,requests/models.py
+4dd3d1a,Ian Cordasco,2012-09-20 11:43:00,Fix #785 & add regression test.,785,tests/test_requests.py
+106bae6,Kenneth Reitz,2012-09-12 10:58:03,Merge pull request #850 from SecurityForUs/fix_proxies_2.7-3,849
+aed5bf7,Ian Cordasco,2012-09-10 23:09:41,As per the discussion on #841.,841,setup.py
+91a9c39,Ian Cordasco,2012-09-06 10:22:40,Reset PYTHONDONTWRITEBYTECODE after installation,839,setup.py
+2ae7c5a,Kenneth Reitz,2012-09-10 20:05:07,Merge pull request #833 from sigmavirus24/fix_key_val_args,817
+861e63c,Alan Hamlett,2012-09-09 01:56:32,fixed typo in docs,845,requests/defaults.py
+c73646d,Shivaram Lingamneni,2012-09-06 16:31:01,fix some tests to correctly cover the API,831,tests/test_requests.py
+8081d7b,Ian Cordasco,2012-09-02 23:09:43,Fixes #817.,817,requests/compat.py
+8081d7b,Ian Cordasco,2012-09-02 23:09:43,Fixes #817.,817,requests/models.py
+8081d7b,Ian Cordasco,2012-09-02 23:09:43,Fixes #817.,817,requests/sessions.py
+8081d7b,Ian Cordasco,2012-09-02 23:09:43,Fixes #817.,817,requests/structures.py
+8081d7b,Ian Cordasco,2012-09-02 23:09:43,Fixes #817.,817,requests/utils.py
+77cf995,Shivaram Lingamneni,2012-08-16 00:09:27,permissive implementation of iter_content,781,requests/models.py
+77cf995,Shivaram Lingamneni,2012-08-16 00:09:27,permissive implementation of iter_content,781,requests/utils.py
+77cf995,Shivaram Lingamneni,2012-08-16 00:09:27,permissive implementation of iter_content,781,tests/test_requests.py
+f431126,Richard Jones,2012-08-28 09:36:00,improve top-level docstring,818,requests/__init__.py
+fc9b8a0,asapo,2012-08-27 01:30:04,import cchardet if available,813,requests/compat.py
+f65b790,Kenneth Reitz,2012-08-25 10:44:53,Cleanup #800,800,requests/auth.py
+fa44921,Kenneth Reitz,2012-08-25 07:41:15,Merge pull request #800 from ayanamist/develop,790
+b781acc,Cory Benfield,2012-08-22 21:37:19,Add a failing test for Issue #378.,378,tests/test_requests.py
+f18733d,Andrew Tolbert,2012-08-22 09:49:40,"Fix for #804 - Session params ommited in 0.13.8.  If default_kwarg is a list, attempt to convert to dictionary",804,requests/sessions.py
+d8dcd35,Kenneth Reitz,2012-08-21 01:06:33,Fixes #711!,711,requests/models.py
+a320336,Kenneth Reitz,2012-08-20 07:54:48,Merge pull request #801 from rhyselsmore/develop,711
+f3159ed,Rhys Elsmore,2012-08-21 00:47:19,Added in a link handler as per issue #711,711,requests/utils.py
+301d1a8,ayanamist,2012-08-20 17:18:26,Fix kennethreitz/requests#790,790,requests/auth.py
+f48c78c,Ian Cordasco,2012-08-19 15:48:12,Change ordering of data + params back.,795,requests/models.py
+cfa627a,Jakub Roztocil,2012-07-27 17:08:16,Fixed encoding of fields with the same name.,737,requests/models.py
+cfa627a,Jakub Roztocil,2012-07-27 17:08:16,Fixed encoding of fields with the same name.,737,tests/test_requests.py
+e624ae8,Cory Benfield,2012-08-08 11:59:00,Add test for Issue #423.,423,tests/test_requests.py
+bc7b2f9,Kenneth Reitz,2012-08-06 16:13:59,Merge pull request #764 from slingamn/regressions,760
+857d8ed,Shivaram Lingamneni,2012-08-06 13:57:04,red tests derived from @dhagrow's examples in #760,760,tests/test_requests.py
+b13c24d,Kenneth Reitz,2012-08-05 21:38:12,Merge pull request #760 from slingamn/fix_leak.release,520
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/api.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/models.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/sessions.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,tests/informal/test_leaked_connections.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,tests/test_requests.py
+f60579d,Marcus McCurdy,2012-08-04 09:35:32,Moved fix for #747 to compat module,747,requests/compat.py
+f60579d,Marcus McCurdy,2012-08-04 09:35:32,Moved fix for #747 to compat module,747,requests/models.py
+493ea93,Marcus McCurdy,2012-08-03 23:13:17,Fixed issue #747,747,requests/models.py
+493ea93,Marcus McCurdy,2012-08-03 23:13:17,Fixed issue #747,747,tests/test_requests.py
+2110f7d,Marcus McCurdy,2012-08-03 23:05:37,Fixed test for issue #747 to check for '' instead of 'text/plain',747,tests/test_requests.py
+12328d6,Marcus McCurdy,2012-08-03 20:09:56,Added a test to expose issue #747,747,tests/test_requests.py
+2b33bc2,Ian Cordasco,2012-07-31 21:50:44,Tests written for _encode_files new capability.,179,tests/test_requests.py
+02dcc40,Cory Benfield,2012-07-27 09:26:04,Failing test for Issue #737.,737,tests/test_requests.py
+e0fed46,Kenneth Reitz,2012-07-27 01:48:25,Solves #722,722,requests/auth.py
+31e768f,Kenneth Reitz,2012-07-26 22:33:51,Merge pull request #729 from vickimo/issue_661,661
+73815e2,Kenneth Reitz,2012-07-14 15:48:07,Merge pull request #727 from vickimo/issue_547,541
+f9c0ddf,Victoria Mo,2012-07-14 18:26:38,Added needed cast for when POSTing data and files (Issue #661),661,requests/models.py
+5296b8b,Victoria Mo,2012-07-14 16:09:13,Fix infinite loop on wrong Digest Authentication (Issue #547),547,requests/auth.py
+c089993,Kenneth Reitz,2012-07-08 00:27:26,#710,710
+f8c9871,Kenneth Reitz,2012-07-08 00:24:24,simplify #710,710,requests/compat.py
+f8c9871,Kenneth Reitz,2012-07-08 00:24:24,simplify #710,710,requests/models.py
+c7514fa,Kenneth Reitz,2012-06-15 14:37:33,add response.reason,588,requests/models.py
+d3acb78,Kenneth Reitz,2012-06-15 14:31:19,urllib3 update,664,requests/packages/urllib3/connectionpool.py
+d3acb78,Kenneth Reitz,2012-06-15 14:31:19,urllib3 update,664,requests/packages/urllib3/filepost.py
+d3acb78,Kenneth Reitz,2012-06-15 14:31:19,urllib3 update,664,requests/packages/urllib3/packages/mimetools_choose_boundary/__init__.py
+d3acb78,Kenneth Reitz,2012-06-15 14:31:19,urllib3 update,664,requests/packages/urllib3/util.py
+6b1e81c,Kenneth Reitz,2012-06-14 12:51:28,cleanup #676,676
+1d19313,Kenneth Reitz,2012-06-10 06:37:07,Merge pull request #670 from piotr-dobrogost/#669,669
+8d75cdf,Piotr Dobrogost,2012-06-10 15:27:54,Fixes issue #669 NamedTemporaryFile was being automatically deleted on Windows thus couldn't be opened later for reading,669,tests/test_requests.py
+404585c,Kenneth Reitz,2012-06-07 22:07:26,+= AUTHORS #659,659
+843672f,Kenneth Reitz,2012-06-07 21:55:07,make empty body text responses work,660,requests/models.py
+c0ae3dd,Kenneth Reitz,2012-06-07 03:09:19,more examples,657
+1c0abbd,Kenneth Reitz,2012-05-29 19:53:22,cleanup #633,633,requests/utils.py
+7813bd8,Kenneth Reitz,2012-05-29 16:51:48,Merge pull request #633 from tzuryby/develop,630
+400b456,Kenneth Reitz,2012-05-29 16:41:39,Merge pull request #632 from amalakar/develop,505
+b8561cd,Mher Movsisyan,2012-05-27 22:21:26,no_proxy support,638,requests/models.py
+7125fe5,Tzury Bar Yochay,2012-05-24 06:17:21,this try catch is a poor man's patch for issue #630 see https://github.com/kennethreitz/requests/issues/630,630,requests/utils.py
+b286733,Arup Malakar,2012-05-23 14:12:18,"Issue #505: Changed the store_cookie configuration to be part of the config dict, instead of being a new argument",505,requests/api.py
+b286733,Arup Malakar,2012-05-23 14:12:18,"Issue #505: Changed the store_cookie configuration to be part of the config dict, instead of being a new argument",505,requests/defaults.py
+b286733,Arup Malakar,2012-05-23 14:12:18,"Issue #505: Changed the store_cookie configuration to be part of the config dict, instead of being a new argument",505,requests/models.py
+b286733,Arup Malakar,2012-05-23 14:12:18,"Issue #505: Changed the store_cookie configuration to be part of the config dict, instead of being a new argument",505,requests/sessions.py
+b286733,Arup Malakar,2012-05-23 14:12:18,"Issue #505: Changed the store_cookie configuration to be part of the config dict, instead of being a new argument",505,tests/test_cookies.py
+36fd8da,Cory Benfield,2012-05-17 19:25:35,Correctly reflect redirection behaviour.,504
+45506d1,Cory Benfield,2012-05-17 10:16:42,Rewrite quickstart docs.,503
+c501784,Arup Malakar,2012-05-16 15:07:15,Issue #505: Allow disabling of cookie persistence/sending,505,requests/api.py
+c501784,Arup Malakar,2012-05-16 15:07:15,Issue #505: Allow disabling of cookie persistence/sending,505,requests/models.py
+c501784,Arup Malakar,2012-05-16 15:07:15,Issue #505: Allow disabling of cookie persistence/sending,505,requests/sessions.py
+c501784,Arup Malakar,2012-05-16 15:07:15,Issue #505: Allow disabling of cookie persistence/sending,505,tests/test_cookies.py
+f25827c,Shivaram Lingamneni,2012-05-01 18:20:44,replace utils.randombytes with os.urandom,562,requests/auth.py
+f25827c,Shivaram Lingamneni,2012-05-01 18:20:44,replace utils.randombytes with os.urandom,562,requests/utils.py
+6b09e6e,Kenneth Reitz,2012-05-08 01:14:17,redirects clear files also,575,requests/models.py
+e627c1f,Kenneth Reitz,2012-05-07 21:58:20,Merge pull request #559 from barberj/issue_526,526
+fe7348c,Kenneth Reitz,2012-05-08 00:57:46,yay json,593,requests/models.py
+c84012e,Kenneth Reitz,2012-05-04 11:49:49,Merge pull request #585 from chazapis/develop,515
+3d373e2,Kenneth Reitz,2012-05-03 23:29:04,Merge pull request #579 from slingamn/pyflakes.release,574
+1adaba3,Kenneth Reitz,2012-05-03 21:33:42,Merge pull request #580 from slingamn/keepalive,458
+35ec6bb,Shivaram Lingamneni,2012-05-03 21:16:56,fix for #458,458,requests/models.py
+3d4d5ab,Shivaram Lingamneni,2012-05-03 21:16:46,test for #458,458,tests/test_requests.py
+317f64a,Kenneth Reitz,2012-05-03 01:36:12,Merge pull request #577 from slingamn/redirects_537,537
+8ac6b26,Kenneth Reitz,2012-05-02 19:09:18,pre-send hook,516,requests/hooks.py
+8ac6b26,Kenneth Reitz,2012-05-02 19:09:18,pre-send hook,516,requests/models.py
+efe5d13,Kenneth Reitz,2012-05-02 15:58:08,Merge pull request #516 from EnTeQuAk/move_pre_request,382
+c333bd1,Antony Chazapis,2012-05-02 16:51:19,Fix out-of-range issue with iter_lines (#515).,515,requests/models.py
+45be14e,Kenneth Reitz,2012-05-01 17:22:37,Merge pull request #565 from slingamn/cookiejar,281
+2f6b5fe,Kenneth Reitz,2012-04-14 03:19:10,Merge pull request #550 from reclosedev/develop,549
+d569a2d,Roman Haritonov,2012-04-13 19:25:10,fix #549 Add 'prefetch' to Session.__attrs__ and Requests.__init__,549,requests/models.py
+d569a2d,Roman Haritonov,2012-04-13 19:25:10,fix #549 Add 'prefetch' to Session.__attrs__ and Requests.__init__,549,requests/sessions.py
+d569a2d,Roman Haritonov,2012-04-13 19:25:10,fix #549 Add 'prefetch' to Session.__attrs__ and Requests.__init__,549,tests/test_requests.py
+f3ad56f,Pierre Chapuis,2012-04-12 17:49:48,Encode Multipart Post data at Request creation,298,requests/models.py
+365c64f,Kenneth Reitz,2012-04-10 23:00:25,#539,539,requests/models.py
+f8798ae,Kenneth Reitz,2012-04-08 20:13:38,Merge pull request #542 from newmaniese/develop,377
+b92feb3,Michael Newman,2012-04-08 18:39:44,If there is no content in a response don't throw an error the second time that content is attempted to be read. This addresses issue #377 <https://github.com/kennethreitz/requests/issues/377>,377,requests/models.py
+b92feb3,Michael Newman,2012-04-08 18:39:44,If there is no content in a response don't throw an error the second time that content is attempted to be read. This addresses issue #377 <https://github.com/kennethreitz/requests/issues/377>,377,tests/test_requests.py
+a364395,Kenneth Reitz,2012-04-02 00:44:00,Merge pull request #530 from Osmose/sidebar_donate,506
+48396f9,Michael Kelly,2012-04-02 00:40:20,"Fix #506: Change ""Support Requests"" to ""Donate"".",506
+2bae0d2,Kenneth Reitz,2012-03-31 17:39:26,new urllib3 version,498,requests/packages/urllib3/__init__.py
+2bae0d2,Kenneth Reitz,2012-03-31 17:39:26,new urllib3 version,498,requests/packages/urllib3/connectionpool.py
+171b370,Kenneth Reitz,2012-03-31 03:08:12,app engine #498,498,requests/utils.py
+b20d171,Kenneth Reitz,2012-03-30 23:28:07,POST redirect => GET,269,requests/models.py
+fff5269,Kenneth Reitz,2012-03-30 23:15:43,Fix app engine error for #498,498,requests/utils.py
+e831947,Kenneth Reitz,2012-03-30 23:15:31,strict mode for #269,269,requests/defaults.py
+13060f8,pulpe,2012-03-28 10:45:21,little correction of curl in docs,519
+f259018,Christopher Grebs,2012-03-27 15:38:56,"Move pre_request to a more usable place, followup to #382",382,requests/models.py
+6e26f57,Kenneth Reitz,2012-03-22 15:00:47,#508,508
+76bf523,Kenneth Reitz,2012-03-18 22:15:05,Merge #491,491,requests/models.py
+3c2f52d,Steve Pulec,2012-03-18 23:06:42,Fixes issues #496 by having Response.ok catch all Requests exceptions.,496,requests/models.py
+9cf9d76,Kenneth Reitz,2012-03-15 18:15:27,Merge pull request #477 from maxcountryman/develop,338
+d6827a3,Michael Newman,2012-03-15 14:41:45,Excluding select from the monkey patching that gevent does to allow select.poll and requests.async in the same project,487,requests/async.py
+d6827a3,Michael Newman,2012-03-15 14:41:45,Excluding select from the monkey patching that gevent does to allow select.poll and requests.async in the same project,487,tests/test_requests_async.py
+5b7a79b,Kenneth Reitz,2012-03-14 20:08:17,Merge pull request #486 from Pinkerton/patch-1,484
+ee861f4,Pinkerton,2012-03-14 19:54:06,Fix issue #484,484,requests/packages/oreos/monkeys.py
+8f80627,Max Countryman,2012-03-13 20:10:32,removing unused import,483,requests/utils.py
+bc5cc0d,Max Countryman,2012-03-09 17:26:57,potentially fixes #338,338,requests/models.py
+9451ae2,Kenneth Reitz,2012-03-09 08:26:12,iter_lines py3 compatibility,470,requests/models.py
+fba77fc,Chris Dary,2012-03-08 13:10:18,Potential fix for #436,436,requests/models.py
+fba77fc,Chris Dary,2012-03-08 13:10:18,Potential fix for #436,436,tests/test_requests.py
+21c2146,Johannes Gorset,2012-03-08 12:38:00,Facilitate proxy configuration by environment variables,473,requests/models.py
+1532eff,Max Countryman,2012-03-01 17:20:01,fixing a capitalization error in the send() method doc string,466,requests/models.py
+835053c,Kenneth Reitz,2012-02-25 23:15:33,#452,452
+bdcbabb,Kenneth Reitz,2012-02-25 20:14:11,Merge pull request #450 from Lukasa/issue_440,440
+f5b0043,Kenneth Reitz,2012-02-25 22:40:18,#457,457
+531dc35,asciimoo,2012-02-26 04:04:33,[enh] async.imap added -- generator object handling,457,requests/async.py
+ea1d5f3,Kenneth Reitz,2012-02-24 18:42:33,Fix content-length: 0,454,requests/models.py
+ea1d5f3,Kenneth Reitz,2012-02-24 18:42:33,Fix content-length: 0,454,tests/test_requests.py
+1661bf6,Honza Javorek,2012-02-23 17:28:56,get_unicode_from_response returned str instead of unicode,452,requests/utils.py
+80fe5dc,Kenneth Reitz,2012-02-20 12:31:52,none headers test,433,tests/test_requests.py
+4f75f1f,Kenneth Reitz,2012-02-20 12:30:12,Values can be none #433,433,requests/utils.py
+cf37f63,Kenneth Reitz,2012-02-20 12:22:11,#435,435
+590ce29,Shrikant Sharat,2012-02-19 15:11:19,Implemented #439. Added supporting test.,439,requests/sessions.py
+590ce29,Shrikant Sharat,2012-02-19 15:11:19,Implemented #439. Added supporting test.,439,tests/test_requests.py
+d339b0f,Cory Benfield,2012-02-16 18:21:32,Added failing test for issue #380.,380,tests/test_requests.py
+75b0c4b,Kenneth Reitz,2012-02-15 02:01:36,"latin1, remove unicode_literals",407,requests/auth.py
+3bd5406,Matt Giuca,2012-02-15 12:00:47,"Now requotes the entire URL, not just the path (Issue #429).",429,requests/models.py
+3ae0ff3,Matt Giuca,2012-02-15 11:47:02,Added test cases for URI cleaning in the query part (Issue #429).,429,test_requests.py
+fcac1c3,Matt Giuca,2012-02-14 12:51:03,Fixed URI encoding of reserved characters (Issue #369).,369,requests/utils.py
+08bc119,Matt Giuca,2012-02-14 12:15:32,Added test case for Issue #369.,369,test_requests.py
+cf54f60,Matt Giuca,2012-02-14 11:50:02,Fixed URI re-encoding on Python 3 (Issue #369).,369,requests/models.py
+cf54f60,Matt Giuca,2012-02-14 11:50:02,Fixed URI re-encoding on Python 3 (Issue #369).,369,requests/utils.py
+329efca,Matt Giuca,2012-02-14 11:47:14,Added test case for quoted and illegal characters in the URL.,369,test_requests.py
+5a2a78f,Kenneth Reitz,2012-02-13 16:14:39,Merge pull request #425 from Lukasa/develop,335
+0a17bad,Chris Adams,2012-02-13 10:52:25,header_expand: handle Unicode strings (closes #400),400,requests/utils.py
+0a17bad,Chris Adams,2012-02-13 10:52:25,header_expand: handle Unicode strings (closes #400),400,test_requests.py
+b47effe,Kenneth Reitz,2012-02-01 13:35:34,test #2,2,requests/__init__.py
+4516bd4,Kenneth Reitz,2012-01-29 18:00:33,Release redirected connections.,239,requests/models.py
+f478c34,David Kemp (Work),2012-01-26 18:45:38,add failing test for unicode headers (python 2.x only),390,test_requests.py
+80eafe3,David Kemp (Work),2012-01-25 16:21:07,fix problem with path being double escaped,387,requests/models.py
+80eafe3,David Kemp (Work),2012-01-25 16:21:07,fix problem with path being double escaped,387,test_requests.py
+02f6555,Ben,2012-01-24 09:59:41,added myself to authors.rst,2501
+4493acc,Kenneth Reitz,2012-01-23 02:01:53,fix 26,26,test_requests.py
+5f44d79,Kenneth Reitz,2012-01-21 07:14:26,move digest to new register_hook,372,requests/auth.py
+a3b26c7,Kenneth Reitz,2012-01-21 07:13:58,Provide new register_hook system.,372,requests/models.py
+3873121,Piotr Dobrogost,2012-01-20 21:42:25,tiny map() refactoring,370,requests/async.py
+b37fbf3,Johannes Gorset,2012-01-20 00:34:06,Decode response URL to a unicode string.,182,requests/models.py
+b37fbf3,Johannes Gorset,2012-01-20 00:34:06,Decode response URL to a unicode string.,182,test_requests.py
+9e953f3,Kenneth Reitz,2012-01-10 11:07:45,Merge pull request #350 from piotr-dobrogost/develop,349
+bbbeedb,Piotr Dobrogost,2012-01-10 16:47:21,fixes issue #349,349,requests/models.py
+49140d6,Kenneth Reitz,2012-01-01 00:44:20,:sparkles: 2012 :sparkles:,2012,docs/conf.py
+49140d6,Kenneth Reitz,2012-01-01 00:44:20,:sparkles: 2012 :sparkles:,2012,requests/__init__.py
+49140d6,Kenneth Reitz,2012-01-01 00:44:20,:sparkles: 2012 :sparkles:,2012,requests/api.py
+f80984f,Chase Sterling,2011-12-30 18:55:56,Implement automatic deflating when using response.iter_content. refs #327 Refactor response.iter_lines to use responset.iter_content.,327,requests/models.py
+f80984f,Chase Sterling,2011-12-30 18:55:56,Implement automatic deflating when using response.iter_content. refs #327 Refactor response.iter_lines to use responset.iter_content.,327,requests/utils.py
+716d29c,Ori Livneh,2011-12-22 21:10:43,fix iteration on null responses in safe_mode,317,requests/models.py
+716d29c,Ori Livneh,2011-12-22 21:10:43,fix iteration on null responses in safe_mode,317,test_requests.py
+2c0ff95,Ori Livneh,2011-12-22 17:50:43,"Revert ""Revert ""Make safe_mode play nice with timeout (fixes #312)""""",312,requests/models.py
+2c0ff95,Ori Livneh,2011-12-22 17:50:43,"Revert ""Revert ""Make safe_mode play nice with timeout (fixes #312)""""",312,test_requests.py
+9176654,Ori Livneh,2011-12-22 17:36:09,"Revert ""Make safe_mode play nice with timeout (fixes #312)""",312,requests/models.py
+9176654,Ori Livneh,2011-12-22 17:36:09,"Revert ""Make safe_mode play nice with timeout (fixes #312)""",312,test_requests.py
+12f3c65,Ori Livneh,2011-12-22 16:52:29,Make safe_mode play nice with timeout (fixes #312),312,requests/models.py
+12f3c65,Ori Livneh,2011-12-22 16:52:29,Make safe_mode play nice with timeout (fixes #312),312,test_requests.py
+f5e421e,Kenneth Reitz,2011-12-22 11:55:55,1 instead of True,313,requests/models.py
+75dc012,Kenneth Reitz,2011-12-22 11:54:07,AUTHORS += 'Ori Livneh',313
+f214b91,Ori Livneh,2011-12-20 02:01:37,fix bug that causes iter_lines to truncate content,313,requests/models.py
+f214b91,Ori Livneh,2011-12-20 02:01:37,fix bug that causes iter_lines to truncate content,313,test_requests.py
+5be6c21,Kenneth Reitz,2011-12-18 19:17:51,added @chrisguitarguy to authors.,309
+a5f7971,Kenneth Reitz,2011-12-11 11:26:13,Fix for #303,303,requests/models.py
+c71ac79,Kenneth Reitz,2011-12-11 11:22:33,Test for #303,303,test_requests.py
+c7b99f7,Kenneth Reitz,2011-11-27 11:29:52,Set Response.sent to True,291,requests/models.py
+6bb4c4e,Kenneth Reitz,2011-11-27 11:24:59,Added test for Request.sent.,291,test_requests.py
+296d8cc,Kenneth Reitz,2011-11-19 16:09:20,new (elegant) request decoding model.,282,requests/models.py
+c165255,Rolando Espinoza La fuente,2011-11-18 18:19:27,use session's hooks as defaults for every requests.,278,requests/sessions.py
+7fdb09b,Idan Gazit,2011-11-17 13:44:13,Converted auth to use callable objects instead of tuples.,275,requests/auth.py
+7fdb09b,Idan Gazit,2011-11-17 13:44:13,Converted auth to use callable objects instead of tuples.,275,requests/models.py
+7fdb09b,Idan Gazit,2011-11-17 13:44:13,Converted auth to use callable objects instead of tuples.,275,test_requests.py
+4504953,Kenneth Reitz,2011-11-15 09:52:27,Only send URL path to servers,256,requests/models.py
+2ccc68c,Kenneth Reitz,2011-11-15 05:58:10,Merge pull request #268 from benmao/develop,301
+7c66e6f,ben,2011-11-15 15:53:38,fixed: 301 request does not use proxy.,301,requests/models.py
+8a1b0e1,Kenneth Reitz,2011-11-14 13:42:18,Merge pull request #264 from pennersr/patch-1,263
+f0edd4a,Raymond Penners,2011-11-14 10:04:07,Pass along timeout when following redirects (closes #263),263,requests/models.py
+0086f97,Kenneth Reitz,2011-11-13 00:36:22,Guess filename.,192,requests/models.py
+0086f97,Kenneth Reitz,2011-11-13 00:36:22,Guess filename.,192,requests/utils.py
+8c90c61,Kenneth Reitz,2011-11-07 14:20:32,v0.7.6,237,requests/__init__.py
+6fefffd,Juan Riaza,2011-11-06 22:02:14,#GH-241,241,requests/async.py
+f7968b6,Kenneth Reitz,2011-11-04 23:24:38,r.content is None of there's an invalid response.,236,requests/models.py
+f7968b6,Kenneth Reitz,2011-11-04 23:24:38,r.content is None of there's an invalid response.,236,test_requests.py
+6ac1e02,Kenneth Reitz,2011-10-26 18:35:01,hooks fix #227,227,requests/sessions.py
+194ff1a,Kenneth Reitz,2011-10-20 22:09:08,#160,160,requests/api.py
+ad6a8d5,Fredrik Möllerstrand,2011-10-20 11:50:27,docs: fix pip-compared-to-easy-install url.,213
+24ffc36,Pat Nakajima,2011-10-10 15:56:58,just fixed a typo,191
+03babaf,Kenneth Reitz,2011-10-09 08:34:13,Weakrefs for Reuqest/Response.,186,requests/models.py
+0b475dd,Kenneth Reitz,2011-10-01 20:51:41,Test improvements,180,requests/packages/urllib3/connectionpool.py
+0b475dd,Kenneth Reitz,2011-10-01 20:51:41,Test improvements,180,requests/packages/urllib3/poolmanager.py
+0b475dd,Kenneth Reitz,2011-10-01 20:51:41,Test improvements,180,tests/integration/test_requests.py
+0b475dd,Kenneth Reitz,2011-10-01 20:51:41,Test improvements,180,tests/unit/test_requests_api.py
+62d29d5,Jérémy Bethmont,2011-09-26 10:57:45,Fixed #174 and refactored urls quoting/concatenation in one function in utils.py.,174,requests/models.py
+62d29d5,Jérémy Bethmont,2011-09-26 10:57:45,Fixed #174 and refactored urls quoting/concatenation in one function in utils.py.,174,requests/utils.py
+ed160f2,Kenneth Reitz,2011-09-25 21:02:50,rework session argument,141,requests/sessions.py
+2a9ae4b,Jérémy Bethmont,2011-09-15 11:57:10,Fixed #161 (quoting issue).,161,requests/models.py
+34e3c7b,Kenneth Reitz,2011-09-14 08:34:36,fix for #160,160,requests/api.py
+2aa32c1,Mike Waldner,2011-09-03 20:54:55,Updated unit tests #139,139,test_requests.py
+41876fd,Armin Ronacher,2011-09-03 17:59:30,Implemented content streaming for responses.,202,requests/models.py
+41876fd,Armin Ronacher,2011-09-03 17:59:30,Implemented content streaming for responses.,202,requests/utils.py
+e46351c,Mike Waldner,2011-08-28 23:31:43,Unit Tests for curl_from_request #139,139,test_requests.py
+58d63d5,Mike Waldner,2011-08-28 21:19:51,Sphinx Documentation #139,139,requests/utils.py
+3f98034,Mike Waldner,2011-08-25 23:57:56,Trailing whitespace #139,139,requests/utils.py
+3d448f8,Mike Waldner,2011-08-25 23:55:24,Adding cookies #139,139,requests/utils.py
+7fa4fda,Mike Waldner,2011-08-24 22:01:06,Adding in file support #139,139,requests/utils.py
+71195bb,Mike Waldner,2011-08-24 01:50:06,Adding myself to Authors. Small cleanup #139,139,requests/utils.py
+ec0b708,Mike Waldner,2011-08-24 01:40:44,Removing trailing whitespace #139,139,requests/utils.py
+cfee830,Mike Waldner,2011-08-24 01:39:43,Renaming vars. String formatting #139,139,requests/utils.py
+3dd2235,Mike Waldner,2011-08-24 01:30:38,Adding basic authentication. Also string formatting #139,139,requests/utils.py
+2dfcc0b,Kenneth Reitz,2011-08-24 00:04:18,string formatting #139,139,requests/utils.py
+256c86f,Kenneth Reitz,2011-08-23 23:52:43,moving curl into utils #139,139,requests/models.py
+256c86f,Kenneth Reitz,2011-08-23 23:52:43,moving curl into utils #139,139,requests/utils.py
+a94541d,Kenneth Reitz,2011-08-23 23:03:18,"Only decode unicode from http headers HTTP client, not HTML #115",115,requests/utils.py
+17c5515,Den Shabalin,2011-08-19 19:20:54,Merge branch 'master' of github.com:densh/requests into issue-128,128
+2f55393,Den Shabalin,2011-08-19 19:18:26,Fixes an issue #128: ``Response not working with lxml''. This error happend due to lxml's attempt to do .geturl() call on the response object. __getattr__ didn't raise AttributeError so ``response.geturl'' returned None and ``response.geturl()'' resulted into ``TypeError: 'NoneType' object is not callable'' seen in the issue.,128,requests/models.py
+efbbb84,Kenneth Reitz,2011-08-17 20:17:22,Added Mikko Ohtamaa to AUTHORS #124,124
+96e7a60,Kenneth Reitz,2011-08-17 20:13:44,"Allow any method, if so inclined #124",124,requests/models.py
+d9e5717,Kenneth Reitz,2011-08-17 01:29:58,cookiejar_from_dict #12,12,requests/utils.py
+7e25517,Kenneth Reitz,2011-08-17 01:23:49,get cookies from response #116,116,requests/models.py
+7e25517,Kenneth Reitz,2011-08-17 01:23:49,get cookies from response #116,116,requests/utils.py
+d0cb569,Kenneth Reitz,2011-08-16 23:57:44,new hooks system #118,118,requests/api.py
+d0cb569,Kenneth Reitz,2011-08-16 23:57:44,new hooks system #118,118,requests/hooks.py
+647cdd3,JensDiemer,2011-08-15 16:51:33,Use socket.setdefaulttimeout(timeout) only if timeout argument doesn't exist (Python <2.6) - https://github.com/kennethreitz/requests/issues/112,112,requests/models.py
+d50742f,Kenneth Reitz,2011-08-14 22:07:15,massive documentation update,714
+c3c90bb,Kenneth Reitz,2011-07-23 22:35:46,default headers and content encoding settings Closes #78,78,requests/config.py
+c3c90bb,Kenneth Reitz,2011-07-23 22:35:46,default headers and content encoding settings Closes #78,78,requests/models.py
+1e1fb1e,Kenneth Reitz,2011-07-23 22:11:54,Redirect history fix (Closes #91),91,requests/models.py
+891e52d,Jérémy Bethmont,2011-06-29 11:10:39,Added the possibility to access headers without fetching the whole body (fixes #86).,86,requests/models.py
+d2ff0f4,Xu Pan,2011-06-26 13:32:19,add doseq to urlencode in model._encode_params to enable list as dict value,81,requests/models.py
+868cd3d,Jérémy Bethmont,2011-06-24 12:21:25,Implemented idna (fixes #76).,76,requests/models.py
+868cd3d,Jérémy Bethmont,2011-06-24 12:21:25,Implemented idna (fixes #76).,76,test_requests.py
+e635690,Kenneth Reitz,2011-05-27 08:02:57,Update AUTHORS Refs #46,46
+52bedf4,Kenneth Reitz,2011-05-27 07:59:28,default post data to empty byte string Refs #45,45,requests/api.py
+9b2d738,Johannes,2011-05-26 20:04:17,Conform api.* arguments to api.request arguments.,40,requests/api.py
+8aa6fab,Johannes,2011-05-22 11:39:49,Support relative redirects. Fixes #36,36,requests/models.py
+cd8ce63,Kenneth Reitz,2011-05-14 23:00:40,Custom RedirectHandler and .history support. Closes #23,23,requests/models.py
+cd8ce63,Kenneth Reitz,2011-05-14 23:00:40,Custom RedirectHandler and .history support. Closes #23,23,requests/monkeys.py
+1421ffa,Kenneth Reitz,2011-05-14 14:02:36,HTTP Basic recursion. Fixes #31,31,requests/core.py
+1421ffa,Kenneth Reitz,2011-05-14 14:02:36,HTTP Basic recursion. Fixes #31,31,test_requests.py
+1971bdb,megane murayama,2011-05-12 12:50:09,fix for post non-dict data,29,requests/core.py
+1971bdb,megane murayama,2011-05-12 12:50:09,fix for post non-dict data,29,test_requests.py
+b6f6048,Kenneth Reitz,2011-05-12 03:14:09,Encode incoming data. Closes #27.,27,requests/core.py
+45ca6d8,Kenneth Reitz,2011-04-21 17:24:43,Merge pull request #26 from jgorset/requests,25
+2814664,Kenneth Reitz,2011-04-15 17:18:58,Fixes #20.,20,requests/core.py
+7a62b10,Kenneth Reitz,2011-04-14 19:44:29,Automatically decompress gzipped responses if content-type is set. fixes #19,19,requests/core.py
+9fdee25,Kenneth Reitz,2011-03-06 18:48:44,Better POSTER header compatibility (Fixes #13),13,requests/core.py
+6f5b64b,Flavio Percoco Premoli,2011-02-23 08:49:08,small workaround for issue #7,7,requests/core.py
+6f5b64b,Flavio Percoco Premoli,2011-02-23 08:49:08,small workaround for issue #7,7,requests/packages/poster/streaminghttp.py
+f70e89a,Kenneth Reitz,2011-02-14 11:45:50,eventlet support.,3,requests/core.py
+10280c6,Kenneth Reitz,2011-02-14 11:31:06,Handles request in event of HTTPError. Fixes Issue #2 Building of internal request object refactor,2,requests/core.py
+908d7de,Kenneth Reitz,2011-02-14 01:11:27,Request documentation update,714
+4a3bee6,Kenneth Reitz,2011-02-14 01:10:44,documentation update,714

@@ -1,0 +1,827 @@
+file,method,params,startlineno,endlineno
+fabfile\__init__.py,test,args=None,12,24
+fabric\auth.py,get_password,"user, host, port",6,10
+fabric\auth.py,set_password,"user, host, port, password",13,17
+fabric\colors.py,_wrap_with,code,28,35
+fabric\colors.py,inner,"text, bold=False",30,34
+fabric\context_managers.py,_set_output,"groups, which",50,64
+fabric\context_managers.py,documented_contextmanager,func,67,70
+fabric\context_managers.py,show,*groups,73,94
+fabric\context_managers.py,hide,*groups,97,114
+fabric\context_managers.py,_setenv,variables,117,157
+fabric\context_managers.py,settings,"*args, **kwargs",160,243
+fabric\context_managers.py,cd,path,246,306
+fabric\context_managers.py,lcd,path,309,327
+fabric\context_managers.py,_change_cwd,"which, path",330,336
+fabric\context_managers.py,path,"path, behavior='append'",339,367
+fabric\context_managers.py,prefix,command,370,422
+fabric\context_managers.py,char_buffered,pipe,425,440
+fabric\context_managers.py,shell_env,**kw,443,465
+fabric\context_managers.py,_forwarder,"chan, sock",468,483
+fabric\context_managers.py,remote_tunnel,"remote_port, local_port=None, local_host='localhost', remote_bind_address='127.0.0.1'",486,565
+fabric\context_managers.py,accept,"channel, (src_addr, src_port), (dest_addr, dest_port)",535,552
+fabric\decorators.py,task,"*args, **kwargs",15,41
+fabric\decorators.py,wrapper,func,38,39
+fabric\decorators.py,_wrap_as_new,"original, new",43,46
+fabric\decorators.py,_list_annotating_decorator,"attribute, *values",49,63
+fabric\decorators.py,attach_list,func,50,62
+fabric\decorators.py,inner_decorator,"*args, **kwargs",51,53
+fabric\decorators.py,hosts,*host_list,66,89
+fabric\decorators.py,roles,*role_list,92,119
+fabric\decorators.py,runs_once,func,122,143
+fabric\decorators.py,decorated,"*args, **kwargs",136,140
+fabric\decorators.py,serial,func,146,159
+fabric\decorators.py,parallel,pool_size=None,162,191
+fabric\decorators.py,real_decorator,func,174,185
+fabric\decorators.py,inner,"*args, **kwargs",175,181
+fabric\decorators.py,with_settings,"*arg_settings, **kw_settings",194,218
+fabric\decorators.py,outer,func,212,217
+fabric\decorators.py,inner,"*args, **kwargs",213,216
+fabric\docs.py,unwrap_tasks,"module, hide_nontasks=False",4,57
+fabric\exceptions.py,__init__,"self, message=None, wrapped=None",13,15
+fabric\exceptions.py,__str__,self,17,18
+fabric\exceptions.py,__repr__,self,20,22
+fabric\exceptions.py,__init__,"self, timeout",27,32
+fabric\io.py,_endswith,"char_list, substring",21,24
+fabric\io.py,_has_newline,bytelist,27,28
+fabric\io.py,output_loop,"*args, **kwargs",31,32
+fabric\io.py,__init__,"self, chan, attr, stream, capture, timeout",36,50
+fabric\io.py,_flush,"self, text",52,59
+fabric\io.py,loop,self,61,172
+fabric\io.py,prompt,self,174,207
+fabric\io.py,try_again,self,209,213
+fabric\io.py,_get_prompt_response,self,215,223
+fabric\io.py,input_loop,"chan, using_pty",226,243
+fabric\job_queue.py,__init__,"self, max_running, comms_queue",36,48
+fabric\job_queue.py,_all_alive,self,50,58
+fabric\job_queue.py,__len__,self,60,64
+fabric\job_queue.py,close,self,66,74
+fabric\job_queue.py,append,"self, process",76,91
+fabric\job_queue.py,run,self,93,182
+fabric\job_queue.py,_advance_the_queue,,108,123
+fabric\job_queue.py,_fill_results,"self, results",184,194
+fabric\job_queue.py,try_using,parallel_type,199,232
+fabric\job_queue.py,print_number,number,205,209
+fabric\main.py,__init__,self,43,44
+fabric\main.py,__contains__,"self, value",46,47
+fabric\main.py,add,"self, value",49,50
+fabric\main.py,clear,self,52,53
+fabric\main.py,load_settings,path,58,70
+fabric\main.py,_is_package,path,73,79
+fabric\main.py,find_fabfile,names=None,83,114
+fabric\main.py,is_classic_task,tup,118,132
+fabric\main.py,load_fabfile,"path, importer=None",135,179
+fabric\main.py,load_tasks_from_module,imported,182,197
+fabric\main.py,extract_tasks,imported_vars,200,236
+fabric\main.py,is_task_module,a,239,249
+fabric\main.py,is_task_object,a,252,259
+fabric\main.py,parse_options,,262,349
+fabric\main.py,_is_task,"name, value",352,356
+fabric\main.py,_sift_tasks,mapping,359,368
+fabric\main.py,_task_names,mapping,371,385
+fabric\main.py,_print_docstring,"docstrings, name",388,393
+fabric\main.py,_normal_list,docstrings=True,396,419
+fabric\main.py,_nested_list,"mapping, level='1'",422,433
+fabric\main.py,list_commands,"docstring, format_",439,463
+fabric\main.py,display_command,name,466,488
+fabric\main.py,_escape_split,"sep, argstr",491,515
+fabric\main.py,parse_arguments,arguments,518,556
+fabric\main.py,parse_remainder,arguments,559,563
+fabric\main.py,update_output_levels,"show, hide",566,580
+fabric\main.py,show_commands,"docstring, format, code='0'",583,585
+fabric\main.py,main,fabfile_locations=None,588,761
+fabric\network.py,direct_tcpip,"client, host, port",40,44
+fabric\network.py,is_key_load_error,e,48,51
+fabric\network.py,_tried_enough,tries,55,57
+fabric\network.py,get_gateway,"host, port, cache, replace=False",60,101
+fabric\network.py,connect,"self, key",138,151
+fabric\network.py,__getitem__,"self, key",153,160
+fabric\network.py,__setitem__,"self, key, value",166,167
+fabric\network.py,__delitem__,"self, key",169,170
+fabric\network.py,__contains__,"self, key",172,173
+fabric\network.py,ssh_config,host_string=None,176,203
+fabric\network.py,key_filenames,,206,226
+fabric\network.py,key_from_env,passphrase=None,229,254
+fabric\network.py,parse_host_string,host_string,257,276
+fabric\network.py,normalize,"host_string, omit_port=False",279,319
+fabric\network.py,to_dict,host_string,322,325
+fabric\network.py,from_dict,arg,329,330
+fabric\network.py,denormalize,host_string,333,351
+fabric\network.py,join_host_strings,"user, host, port=None",354,371
+fabric\network.py,normalize_to_string,host_string,374,378
+fabric\network.py,connect,"user, host, port, cache, seek_gateway=True",381,580
+fabric\network.py,_password_prompt,"prompt, stream",583,586
+fabric\network.py,prompt_for_password,"prompt=None, no_colon=False, stream=None",588,620
+fabric\network.py,needs_host,func,623,651
+fabric\network.py,host_prompting_wrapper,"*args, **kwargs",642,649
+fabric\network.py,disconnect_all,,654,671
+fabric\operations.py,_shell_escape,string,36,49
+fabric\operations.py,stdout,self,56,58
+fabric\operations.py,require,"*keys, **kwargs",70,136
+fabric\operations.py,prompt,"text, key=None, default='', validate=None",139,250
+fabric\operations.py,put,"local_path=None, remote_path=None, use_sudo=False, mirror_local_mode=False, mode=None, use_glob=True, temp_dir=''",253,414
+fabric\operations.py,get,"remote_path, local_path=None, use_sudo=False, temp_dir=''",417,600
+fabric\operations.py,_sudo_prefix_argument,"argument, value",603,608
+fabric\operations.py,_sudo_prefix,"user, group=None",611,621
+fabric\operations.py,_shell_wrap,"command, shell_escape, shell=True, sudo_prefix=None",624,647
+fabric\operations.py,_prefix_commands,"command, which",650,675
+fabric\operations.py,_prefix_env_vars,"command, local=False",678,721
+fabric\operations.py,_execute,"channel, command, pty=True, combine_stderr=None, invoke_shell=False, stdout=None, stderr=None, timeout=None",724,848
+fabric\operations.py,open_shell,command=None,851,882
+fabric\operations.py,_noop,,885,887
+fabric\operations.py,_run_command,"command, shell=True, pty=True, combine_stderr=True, sudo=False, user=None, quiet=False, warn_only=False, stdout=None, stderr=None, group=None, timeout=None, shell_escape=None",890,961
+fabric\operations.py,run,"command, shell=True, pty=True, combine_stderr=None, quiet=False, warn_only=False, stdout=None, stderr=None, timeout=None, shell_escape=None",964,1065
+fabric\operations.py,sudo,"command, shell=True, pty=True, combine_stderr=None, user=None, quiet=False, warn_only=False, stdout=None, stderr=None, group=None, timeout=None, shell_escape=None",1068,1118
+fabric\operations.py,local,"command, capture=False, shell=None",1122,1212
+fabric\operations.py,reboot,"wait='120', command='reboot'",1215,1261
+fabric\sftp.py,_format_local,"local_path, local_is_path",18,25
+fabric\sftp.py,__init__,"self, host_string",32,33
+fabric\sftp.py,__getattr__,"self, attr",37,38
+fabric\sftp.py,isdir,"self, path",40,44
+fabric\sftp.py,islink,"self, path",46,50
+fabric\sftp.py,exists,"self, path",52,57
+fabric\sftp.py,glob,"self, path",59,71
+fabric\sftp.py,walk,"self, top, topdown=True, onerror=None, followlinks=False",73,106
+fabric\sftp.py,mkdir,"self, path, use_sudo",108,114
+fabric\sftp.py,get,"self, remote_path, local_path, use_sudo, local_is_path, rremote=None, temp_dir=''",116,191
+fabric\sftp.py,get_dir,"self, remote_path, local_path, use_sudo, temp_dir",193,230
+fabric\sftp.py,put,"self, local_path, remote_path, use_sudo, mirror_local_mode, mode, local_is_path, temp_dir",232,292
+fabric\sftp.py,put_dir,"self, local_path, remote_path, use_sudo, mirror_local_mode, mode, temp_dir",294,324
+fabric\state.py,_get_system_username,,31,52
+fabric\state.py,_rc_path,,54,68
+fabric\state.py,_open_session,,388,389
+fabric\state.py,default_channel,,392,407
+fabric\tasks.py,__init__,"self, args, varargs, keywords, defaults",20,25
+fabric\tasks.py,__getitem__,"self, idx",27,28
+fabric\tasks.py,patched_get_argspec,func,30,31
+fabric\tasks.py,get_task_details,task,37,57
+fabric\tasks.py,_get_list,env,60,63
+fabric\tasks.py,inner,key,61,62
+fabric\tasks.py,__init__,"self, alias=None, aliases=None, default=False, name=None, *args, **kwargs",85,93
+fabric\tasks.py,__details__,self,95,96
+fabric\tasks.py,run,self,98,99
+fabric\tasks.py,get_hosts_and_effective_roles,"self, arg_hosts, arg_roles, arg_exclude_hosts, env=None",101,127
+fabric\tasks.py,get_pool_size,"self, hosts, default",129,142
+fabric\tasks.py,__init__,"self, callable, *args, **kwargs",155,168
+fabric\tasks.py,__call__,"self, *args, **kwargs",170,171
+fabric\tasks.py,run,"self, *args, **kwargs",173,174
+fabric\tasks.py,__getattr__,"self, k",176,177
+fabric\tasks.py,__details__,self,179,183
+fabric\tasks.py,requires_parallel,task,186,198
+fabric\tasks.py,_parallel_tasks,commands_to_run,202,205
+fabric\tasks.py,_is_network_error_ignored,,209,210
+fabric\tasks.py,_execute,"task, host, my_env, args, kwargs, jobs, queue, multiprocessing",213,277
+fabric\tasks.py,inner,"args, kwargs, queue, name, env",236,259
+fabric\tasks.py,submit,result,238,239
+fabric\tasks.py,_is_task,task,279,280
+fabric\tasks.py,execute,"task, *args, **kwargs",282,430
+fabric\task_utils.py,_crawl,"name, mapping",10,18
+fabric\task_utils.py,crawl,"name, mapping",21,33
+fabric\task_utils.py,merge,"hosts, roles, exclude, roledefs",36,76
+fabric\task_utils.py,parse_kwargs,kwargs,79,97
+fabric\thread_handling.py,__init__,"self, name, callable, *args, **kwargs",6,20
+fabric\thread_handling.py,wrapper,"*args, **kwargs",10,14
+fabric\thread_handling.py,raise_if_needed,self,22,25
+fabric\utils.py,_encode,"msg, stream",11,15
+fabric\utils.py,isatty,stream,18,26
+fabric\utils.py,abort,msg,29,62
+fabric\utils.py,warn,msg,65,83
+fabric\utils.py,indent,"text, spaces='4', strip=False",86,111
+fabric\utils.py,puts,"text, show_prefix=None, end='\n', flush=False",114,144
+fabric\utils.py,fastprint,"text, show_prefix=False, end='', flush=True",147,170
+fabric\utils.py,handle_prompt_abort,prompt_for,173,183
+fabric\utils.py,__getattr__,"self, key",208,213
+fabric\utils.py,__setattr__,"self, key, value",215,216
+fabric\utils.py,first,"self, *names",218,222
+fabric\utils.py,__init__,"self, arg=None, aliases=None",255,262
+fabric\utils.py,__setitem__,"self, key, value",264,270
+fabric\utils.py,expand_aliases,"self, keys",272,279
+fabric\utils.py,_pty_size,,282,318
+fabric\utils.py,error,"message, func=None, exception=None, stdout=None, stderr=None",321,358
+fabric\utils.py,_format_error_output,"header, body",361,367
+fabric\utils.py,__init__,"self, value, maxlen",373,377
+fabric\utils.py,_free,self,379,380
+fabric\utils.py,append,"self, value",382,385
+fabric\utils.py,extend,"self, values",387,391
+fabric\utils.py,insert,"self, index, value",394,395
+fabric\utils.py,__setslice__,"self, i, j, sequence",397,398
+fabric\utils.py,__setitem__,"self, key, value",400,404
+fabric\utils.py,apply_lcwd,"path, env",407,411
+fabric\version.py,git_sha,,15,28
+fabric\version.py,get_version,form='short',31,99
+fabric\contrib\console.py,confirm,"question, default=True",8,38
+fabric\contrib\django.py,settings_module,module,61,80
+fabric\contrib\django.py,project,name,83,94
+fabric\contrib\files.py,exists,"path, use_sudo=False, verbose=False",18,37
+fabric\contrib\files.py,is_link,"path, use_sudo=False, verbose=False",40,55
+fabric\contrib\files.py,first,"*args, **kwargs",58,66
+fabric\contrib\files.py,upload_template,"filename, destination, context=None, use_jinja=False, template_dir=None, use_sudo=False, backup=True, mirror_local_mode=False, mode=None, pty=None",69,161
+fabric\contrib\files.py,sed,"filename, before, after, limit='', use_sudo=False, backup='.bak', flags='', shell=False",165,233
+fabric\contrib\files.py,uncomment,"filename, regex, use_sudo=False, char='#', backup='.bak', shell=False",236,263
+fabric\contrib\files.py,comment,"filename, regex, use_sudo=False, char='#', backup='.bak', shell=False",267,316
+fabric\contrib\files.py,contains,"filename, text, exact=False, use_sudo=False, escape=True, shell=False",320,361
+fabric\contrib\files.py,append,"filename, text, use_sudo=False, partial=False, escape=True, shell=False",364,413
+fabric\contrib\files.py,_escape_for_regex,text,415,424
+fabric\contrib\files.py,_expand_path,path,426,427
+fabric\contrib\project.py,rsync_project,"remote_dir, local_dir=None, exclude=(), delete=False, extra_opts='', ssh_opts='', capture=False, upload=True, default_opts='-pthrvz'",18,153
+fabric\contrib\project.py,upload_project,"local_dir=None, remote_dir='', use_sudo=False",156,204
+integration\test_contrib.py,tildify,path,12,14
+integration\test_contrib.py,expect,path,16,17
+integration\test_contrib.py,expect_contains,"path, value",19,20
+integration\test_contrib.py,escape,path,22,23
+integration\test_contrib.py,setup,self,27,29
+integration\test_contrib.py,teardown,self,31,36
+integration\test_contrib.py,test_append,self,40,44
+integration\test_contrib.py,test_exists,self,46,50
+integration\test_contrib.py,test_sed,self,52,57
+integration\test_contrib.py,test_upload_template,self,59,69
+integration\test_contrib.py,test_is_link_is_true_on_symlink,self,74,78
+integration\test_contrib.py,test_is_link_is_false_on_non_link,self,80,83
+integration\test_contrib.py,rsync,"self, id_, **kwargs",94,103
+integration\test_contrib.py,test_existing_default_args,self,106,112
+integration\test_contrib.py,test_overriding_default_args,self,114,120
+integration\test_contrib.py,test_allows_pty_disable,self,124,132
+integration\test_operations.py,assert_mode,"path, mode",16,18
+integration\test_operations.py,setup,self,26,28
+integration\test_operations.py,teardown,self,30,36
+integration\test_operations.py,test_no_trailing_space_in_shell_path_in_run,self,38,41
+integration\test_operations.py,test_string_put_mode_arg_doesnt_error,self,43,45
+integration\test_operations.py,test_int_put_mode_works_ok_too,self,47,49
+integration\test_operations.py,_chown,"self, target",51,52
+integration\test_operations.py,_put_via_sudo,"self, source=None, target_suffix='myfile', **kwargs",54,64
+integration\test_operations.py,test_put_with_use_sudo,self,67,68
+integration\test_operations.py,test_put_with_dir_and_use_sudo,self,70,73
+integration\test_operations.py,test_put_with_use_sudo_and_custom_temp_dir,self,75,81
+integration\test_operations.py,test_put_with_use_sudo_dir_and_custom_temp_dir,self,83,85
+integration\test_operations.py,test_put_use_sudo_and_explicit_mode,self,87,102
+integration\test_operations.py,test_put_file_to_dir_with_use_sudo_and_mirror_mode,self,104,117
+integration\test_operations.py,test_put_directory_use_sudo_and_spaces,self,119,131
+integration\test_operations.py,test_agent_forwarding_functions,self,133,136
+integration\test_operations.py,test_get_with_use_sudo_unowned_file,self,138,151
+integration\test_operations.py,test_get_with_use_sudo_groupowned_file,self,153,173
+integration\test_operations.py,test_get_from_unreadable_dir,self,175,186
+integration\utils.py,setup,self,14,16
+integration\utils.py,teardown,self,18,20
+tests\fake_filesystem.py,__init__,"self, value=None, path=None",11,25
+tests\fake_filesystem.py,__str__,self,27,28
+tests\fake_filesystem.py,write,"self, value",30,32
+tests\fake_filesystem.py,close,self,34,38
+tests\fake_filesystem.py,__cmp__,"self, other",40,42
+tests\fake_filesystem.py,__init__,"self, d=None",46,50
+tests\fake_filesystem.py,__setitem__,"self, key, value",52,55
+tests\fake_filesystem.py,normalize,"self, path",57,68
+tests\fake_filesystem.py,__getitem__,"self, key",70,71
+tests\mock_streams.py,__init__,"self, buffer='', cc=None",14,25
+tests\mock_streams.py,write,"self, s",27,30
+tests\mock_streams.py,mock_streams,which,33,83
+tests\mock_streams.py,mocked_streams_decorator,func,60,82
+tests\mock_streams.py,inner_wrapper,"*args, **kwargs",61,81
+tests\Python26SocketServer.py,__init__,"self, server_address, RequestHandlerClass",195,200
+tests\Python26SocketServer.py,server_activate,self,202,208
+tests\Python26SocketServer.py,serve_forever,"self, poll_interval='0.5'",210,227
+tests\Python26SocketServer.py,shutdown,self,229,237
+tests\Python26SocketServer.py,handle_request,self,250,266
+tests\Python26SocketServer.py,_handle_request_noblock,self,268,284
+tests\Python26SocketServer.py,handle_timeout,self,286,291
+tests\Python26SocketServer.py,verify_request,"self, request, client_address",293,299
+tests\Python26SocketServer.py,process_request,"self, request, client_address",301,308
+tests\Python26SocketServer.py,server_close,self,310,316
+tests\Python26SocketServer.py,finish_request,"self, request, client_address",318,320
+tests\Python26SocketServer.py,close_request,"self, request",322,324
+tests\Python26SocketServer.py,handle_error,"self, request, client_address",326,336
+tests\Python26SocketServer.py,__init__,"self, server_address, RequestHandlerClass, bind_and_activate=True",393,401
+tests\Python26SocketServer.py,server_bind,self,403,412
+tests\Python26SocketServer.py,server_activate,self,414,420
+tests\Python26SocketServer.py,server_close,self,422,428
+tests\Python26SocketServer.py,fileno,self,430,436
+tests\Python26SocketServer.py,get_request,self,438,444
+tests\Python26SocketServer.py,close_request,"self, request",446,448
+tests\Python26SocketServer.py,get_request,self,461,463
+tests\Python26SocketServer.py,server_activate,self,465,467
+tests\Python26SocketServer.py,close_request,"self, request",469,471
+tests\Python26SocketServer.py,collect_children,self,481,514
+tests\Python26SocketServer.py,handle_timeout,self,516,521
+tests\Python26SocketServer.py,process_request,"self, request, client_address",523,544
+tests\Python26SocketServer.py,process_request_thread,"self, request, client_address",554,565
+tests\Python26SocketServer.py,process_request,"self, request, client_address",567,573
+tests\Python26SocketServer.py,__init__,"self, request, client_address, server",625,634
+tests\Python26SocketServer.py,setup,self,636,637
+tests\Python26SocketServer.py,handle,self,639,640
+tests\Python26SocketServer.py,finish,self,642,643
+tests\Python26SocketServer.py,setup,self,668,671
+tests\Python26SocketServer.py,finish,self,673,677
+tests\Python26SocketServer.py,setup,self,687,694
+tests\Python26SocketServer.py,finish,self,696,697
+tests\server.py,_local_file,filename,80,81
+tests\server.py,_equalize,"lists, fillval=None",89,99
+tests\server.py,__init__,"self, passwords, home, pubkeys, files",112,118
+tests\server.py,check_channel_request,"self, kind, chanid",120,123
+tests\server.py,check_channel_exec_request,"self, channel, command",125,128
+tests\server.py,check_channel_pty_request,"self, *args",130,131
+tests\server.py,check_channel_shell_request,"self, channel",133,135
+tests\server.py,check_auth_password,"self, username, password",137,140
+tests\server.py,check_auth_publickey,"self, username, key",142,144
+tests\server.py,get_allowed_auths,"self, username",146,147
+tests\server.py,_socket_info,"self, addr_tup",154,175
+tests\server.py,__init__,"self, server_address, RequestHandlerClass, bind_and_activate=True",177,188
+tests\server.py,chattr,"self, attr",195,197
+tests\server.py,stat,self,199,200
+tests\server.py,prepend,"self, val",204,205
+tests\server.py,expand,path,208,224
+tests\server.py,contains,"folder, path",227,232
+tests\server.py,missing_folders,paths,235,248
+tests\server.py,canonicalize,"path, home",251,255
+tests\server.py,__init__,"self, server, *args, **kwargs",259,265
+tests\server.py,canonicalize,"self, path",267,271
+tests\server.py,list_folder,"self, path",273,285
+tests\server.py,open,"self, path, flags, attr",287,303
+tests\server.py,stat,"self, path",305,311
+tests\server.py,chattr,"self, path, attr",316,328
+tests\server.py,mkdir,"self, path, attr",330,332
+tests\server.py,serve_responses,"responses, files, passwords, home, pubkeys, port",335,452
+tests\server.py,handle,self,348,389
+tests\server.py,init_transport,self,391,399
+tests\server.py,split_sudo_prompt,self,401,404
+tests\server.py,response,self,406,425
+tests\server.py,sudo_password,self,427,442
+tests\server.py,respond,self,444,450
+tests\server.py,server,"responses=RESPONSES, files=FILES, passwords=PASSWORDS, home=HOME, pubkeys=False, port=PORT",455,494
+tests\server.py,run_server,func,468,493
+tests\server.py,inner,"*args, **kwargs",469,492
+tests\test_context_managers.py,test_error_handling,,21,36
+tests\test_context_managers.py,test_cwd_with_absolute_paths,,39,50
+tests\test_context_managers.py,test_cd_home_dir,,53,59
+tests\test_context_managers.py,test_cd_nested_home_abs_dirs,,62,96
+tests\test_context_managers.py,test_nested_prefix,,103,111
+tests\test_context_managers.py,test_cd_prefix,,117,125
+tests\test_context_managers.py,test_hide_show_exception_handling,,147,159
+tests\test_context_managers.py,test_setting_new_env_dict_key_should_work,,166,174
+tests\test_context_managers.py,test_settings,,177,184
+tests\test_context_managers.py,test_settings_with_multiple_kwargs,,187,197
+tests\test_context_managers.py,test_settings_with_other_context_managers,,200,213
+tests\test_context_managers.py,test_settings_clean_revert,,216,233
+tests\test_context_managers.py,test_shell_env,,240,247
+tests\test_context_managers.py,test_quiet_hides_all_output,self,251,268
+tests\test_context_managers.py,test_quiet_sets_warn_only_to_true,self,270,281
+tests\test_context_managers.py,test_warn_only_is_same_as_settings_warn_only,self,283,287
+tests\test_context_managers.py,test_warn_only_does_not_imply_hide_everything,self,289,294
+tests\test_context_managers.py,setup,self,300,302
+tests\test_context_managers.py,via_local,self,304,306
+tests\test_context_managers.py,test_lack_of_path_has_default_local_path,self,308,312
+tests\test_context_managers.py,test_use_of_path_appends_by_default,self,314,319
+tests\test_contrib.py,test_upload_template_uses_correct_remote_filename,self,18,26
+tests\test_contrib.py,test_upload_template_handles_file_destination,self,28,40
+tests\test_contrib.py,test_upload_template_handles_template_dir,self,42,58
+tests\test_contrib.py,test_contains_checks_only_succeeded_flag,self,61,74
+tests\test_contrib.py,test_upload_template_handles_jinja_template,self,76,91
+tests\test_contrib.py,test_upload_template_jinja_and_no_template_dir,self,93,103
+tests\test_contrib.py,test_upload_template_obeys_lcd,self,106,109
+tests\test_contrib.py,_upload_template_obeys_lcd,"self, jinja, mirror",111,130
+tests\test_decorators.py,fake_function,"*args, **kwargs",23,35
+tests\test_decorators.py,test_task_returns_an_instance_of_wrappedfunctask_object,,43,47
+tests\test_decorators.py,foo,,44,45
+tests\test_decorators.py,test_task_will_invoke_provided_class,,50,59
+tests\test_decorators.py,foo,,51,51
+tests\test_decorators.py,test_task_passes_args_to_the_task_class,,62,72
+tests\test_decorators.py,foo,,64,64
+tests\test_decorators.py,test_passes_kwargs_to_the_task_class,,75,88
+tests\test_decorators.py,foo,,80,80
+tests\test_decorators.py,test_integration_tests_for_invoked_decorator_with_no_args,,91,97
+tests\test_decorators.py,foo,,93,95
+tests\test_decorators.py,test_integration_tests_for_decorator,,100,106
+tests\test_decorators.py,foo,,102,104
+tests\test_decorators.py,test_original_non_invoked_style_task,,109,115
+tests\test_decorators.py,foo,,111,113
+tests\test_decorators.py,test_runs_once_runs_only_once,,123,131
+tests\test_decorators.py,test_runs_once_returns_same_value_each_run,,134,141
+tests\test_decorators.py,single_run,,144,146
+tests\test_decorators.py,test_runs_once,,148,152
+tests\test_decorators.py,serial,,161,163
+tests\test_decorators.py,serial2,,165,168
+tests\test_decorators.py,serial3,,170,173
+tests\test_decorators.py,parallel,,175,177
+tests\test_decorators.py,parallel2,,179,181
+tests\test_decorators.py,parallel_task_helper,"actual_tasks, expected",191,194
+tests\test_decorators.py,test_parallel_tasks,,196,209
+tests\test_decorators.py,test_parallel_wins_vs_serial,,211,216
+tests\test_decorators.py,test_global_parallel_honors_runs_once,,218,230
+tests\test_decorators.py,mytask,,223,225
+tests\test_decorators.py,use_roles,,237,239
+tests\test_decorators.py,test_roles,,241,243
+tests\test_decorators.py,use_hosts,,251,253
+tests\test_decorators.py,test_hosts,,255,257
+tests\test_decorators.py,test_with_settings_passes_env_vars_into_decorated_function,,265,272
+tests\test_decorators.py,some_task,,268,269
+tests\test_decorators.py,test_with_settings_with_other_context_managers,,274,293
+tests\test_decorators.py,some_task,,282,284
+tests\test_io.py,test_request_prompts,,9,28
+tests\test_io.py,run,"txt, prompts",13,18
+tests\test_main.py,load_fabfile,"*args, **kwargs",28,29
+tests\test_main.py,test_argument_parsing,,36,64
+tests\test_main.py,test_escaped_task_arg_split,,67,74
+tests\test_main.py,test_escaped_task_kwarg_split,,78,87
+tests\test_main.py,get_hosts_and_effective_roles,"command, *args",97,98
+tests\test_main.py,eq_hosts,"command, expected_hosts, cli_hosts=None, excluded_hosts=None, env=None, func=set",100,102
+tests\test_main.py,eq_effective_roles,"command, expected_effective_roles, cli_roles=None, env=None, func=set",104,106
+tests\test_main.py,test_hosts_decorator_by_itself,,110,120
+tests\test_main.py,command,,116,118
+tests\test_main.py,test_roles_decorator_by_itself,,128,136
+tests\test_main.py,command,,132,134
+tests\test_main.py,test_roles_decorator_overrides_env_roles,,138,146
+tests\test_main.py,command,,142,144
+tests\test_main.py,test_cli_roles_override_decorator_roles,,148,155
+tests\test_main.py,command,,152,154
+tests\test_main.py,test_hosts_and_roles_together,,158,167
+tests\test_main.py,command,,162,165
+tests\test_main.py,test_host_role_merge_deduping,,169,178
+tests\test_main.py,command,,173,176
+tests\test_main.py,test_host_role_merge_deduping_off,,180,194
+tests\test_main.py,command,,184,187
+tests\test_main.py,test_roles_as_tuples,,203,211
+tests\test_main.py,command,,207,209
+tests\test_main.py,test_hosts_as_tuples,,214,220
+tests\test_main.py,command,,218,219
+tests\test_main.py,test_hosts_decorator_overrides_env_hosts,,223,230
+tests\test_main.py,command,,227,229
+tests\test_main.py,test_hosts_decorator_overrides_env_hosts_with_task_decorator_first,,232,240
+tests\test_main.py,command,,236,239
+tests\test_main.py,test_hosts_decorator_overrides_env_hosts_with_task_decorator_last,,242,247
+tests\test_main.py,command,,243,246
+tests\test_main.py,test_hosts_stripped_env_hosts,,249,256
+tests\test_main.py,command,,253,254
+tests\test_main.py,test_roles_stripped_env_hosts,,264,271
+tests\test_main.py,command,,268,270
+tests\test_main.py,test_hosts_in_role_dict,,279,286
+tests\test_main.py,command,,283,285
+tests\test_main.py,test_hosts_decorator_expands_single_iterable,,289,299
+tests\test_main.py,command,,295,297
+tests\test_main.py,test_roles_decorator_expands_single_iterable,,301,311
+tests\test_main.py,command,,307,309
+tests\test_main.py,dummy,,318,318
+tests\test_main.py,test_get_hosts_excludes_cli_exclude_hosts_from_cli_hosts,,320,321
+tests\test_main.py,test_get_hosts_excludes_cli_exclude_hosts_from_decorator_hosts,,323,327
+tests\test_main.py,command,,324,326
+tests\test_main.py,test_get_hosts_excludes_global_exclude_hosts_from_global_hosts,,329,331
+tests\test_main.py,test_aborts_on_nonexistent_roles,,339,344
+tests\test_main.py,test_accepts_non_list_hosts,,346,350
+tests\test_main.py,test_lazy_roles,,355,362
+tests\test_main.py,command,,359,361
+tests\test_main.py,run_load_fabfile,"path, sys_path",369,382
+tests\test_main.py,test_load_fabfile_should_not_remove_real_path_elements,,384,398
+tests\test_main.py,test_flat_alias,self,406,412
+tests\test_main.py,test_nested_alias,self,414,421
+tests\test_main.py,test_flat_aliases,self,423,430
+tests\test_main.py,test_nested_aliases,self,432,440
+tests\test_main.py,setup,self,444,451
+tests\test_main.py,test_implicit_discovery,self,453,462
+tests\test_main.py,test_explicit_discovery,self,464,473
+tests\test_main.py,test_should_load_decorated_tasks_only_if_one_is_found,self,475,483
+tests\test_main.py,test_class_based_tasks_are_found_with_proper_name,self,485,494
+tests\test_main.py,test_class_based_tasks_are_found_with_variable_name,self,496,507
+tests\test_main.py,test_recursion_steps_into_nontask_modules,self,509,517
+tests\test_main.py,test_newstyle_task_presence_skips_classic_task_modules,self,519,527
+tests\test_main.py,test_task_decorator_plays_well_with_others,self,529,537
+tests\test_main.py,eq_output,"docstring, format_, expected",544,547
+tests\test_main.py,list_output,"module, format_, expected",550,555
+tests\test_main.py,test_list_output,,557,579
+tests\test_main.py,name_to_task,name,582,585
+tests\test_main.py,strings_to_tasks,d,587,595
+tests\test_main.py,test_task_names,,597,628
+tests\test_main.py,test_crawl,,631,640
+tests\test_main.py,test_mapping_task_classes,,643,648
+tests\test_main.py,test_default_task_listings,,651,667
+tests\test_main.py,test_default_task_loading,,670,675
+tests\test_main.py,test_aliases_appear_in_fab_list,,678,683
+tests\test_network.py,test_host_string_normalization,self,34,48
+tests\test_network.py,test_normalization_for_ipv6,self,50,71
+tests\test_network.py,test_normalization_without_port,self,73,79
+tests\test_network.py,test_ipv6_host_strings_join,self,82,96
+tests\test_network.py,test_nonword_character_in_username,self,99,105
+tests\test_network.py,test_at_symbol_in_username,self,108,114
+tests\test_network.py,test_normalization_of_empty_input,self,116,125
+tests\test_network.py,test_host_string_denormalization,self,127,143
+tests\test_network.py,check_connection_calls,"host_strings, num_calls",148,165
+tests\test_network.py,test_connection_caching,self,167,179
+tests\test_network.py,test_connection_cache_deletion,self,181,197
+tests\test_network.py,test_saved_authentication_returns_client_object,self,203,206
+tests\test_network.py,test_prompts_for_password_without_good_authentication,self,208,214
+tests\test_network.py,test_aborts_on_prompt_with_abort_on_prompt,self,217,223
+tests\test_network.py,test_aborts_on_password_prompt_with_abort_on_prompt,self,226,236
+tests\test_network.py,test_does_not_abort_with_password_and_host_with_abort_on_prompt,self,239,248
+tests\test_network.py,test_trailing_newline_line_drop,self,251,269
+tests\test_network.py,test_sudo_prompt_kills_capturing,self,271,278
+tests\test_network.py,test_password_memory_on_user_switch,self,280,314
+tests\test_network.py,_to_user,user,285,286
+tests\test_network.py,test_password_prompt_displays_host_string,self,316,328
+tests\test_network.py,test_passphrase_prompt_displays_host_string,self,330,343
+tests\test_network.py,test_sudo_prompt_display_passthrough,self,345,349
+tests\test_network.py,test_sudo_prompt_display_directly,self,351,355
+tests\test_network.py,_prompt_display,display_output,357,390
+tests\test_network.py,test_consecutive_sudos_should_not_have_blank_line,self,392,422
+tests\test_network.py,test_silent_commands_should_not_have_blank_line,self,424,454
+tests\test_network.py,test_io_should_print_prefix_if_ouput_prefix_is_true,self,456,482
+tests\test_network.py,test_io_should_not_print_prefix_if_ouput_prefix_is_false,self,484,511
+tests\test_network.py,test_env_host_set_when_host_prompt_used,self,513,527
+tests\test_network.py,subtask,,530,531
+tests\test_network.py,test_should_abort_when_cannot_connect,self,534,540
+tests\test_network.py,test_should_warn_when_skip_bad_hosts_is_True,self,542,547
+tests\test_network.py,parallel_subtask,,550,552
+tests\test_network.py,test_should_abort_when_cannot_connect,self,555,561
+tests\test_network.py,test_should_warn_when_skip_bad_hosts_is_True,self,563,568
+tests\test_network.py,env_setup,self,572,578
+tests\test_network.py,test_global_user_with_default_env,self,580,584
+tests\test_network.py,test_global_user_with_nondefault_env,self,586,591
+tests\test_network.py,test_specific_user_with_default_env,self,593,597
+tests\test_network.py,test_user_vs_host_string_value,self,599,604
+tests\test_network.py,test_global_port_with_default_env,self,606,610
+tests\test_network.py,test_global_port_with_nondefault_env,self,612,617
+tests\test_network.py,test_specific_port_with_default_env,self,619,623
+tests\test_network.py,test_port_vs_host_string_value,self,625,630
+tests\test_network.py,test_hostname_alias,self,632,637
+tests\test_network.py,test_warns_with_bad_config_file_path,self,639,644
+tests\test_network.py,test_real_connection,self,646,656
+tests\test_network.py,test_empty_everything,self,660,668
+tests\test_network.py,test_just_env,self,670,678
+tests\test_network.py,test_just_ssh_config,self,680,687
+tests\test_network.py,test_both,self,689,698
+tests\test_operations.py,test_require_single_existing_key,,27,32
+tests\test_operations.py,test_require_multiple_existing_keys,,35,39
+tests\test_operations.py,test_require_single_missing_key,,42,47
+tests\test_operations.py,test_require_multiple_missing_keys,,50,55
+tests\test_operations.py,test_require_mixed_state_keys,,58,63
+tests\test_operations.py,test_require_mixed_state_keys_prints_missing_only,,66,76
+tests\test_operations.py,test_require_iterable_provided_by_key,,79,87
+tests\test_operations.py,fake_providing_function,,85,86
+tests\test_operations.py,test_require_noniterable_provided_by_key,,90,98
+tests\test_operations.py,fake_providing_function,,96,97
+tests\test_operations.py,test_require_key_exists_empty_list,,101,108
+tests\test_operations.py,test_require_key_exists_empty_dict,,111,118
+tests\test_operations.py,test_require_key_exists_empty_tuple,,121,128
+tests\test_operations.py,test_require_key_exists_empty_set,,131,138
+tests\test_operations.py,test_require_key_exists_false_primitive_values,,141,147
+tests\test_operations.py,test_require_complex_non_empty_values,,150,156
+tests\test_operations.py,p,x,163,164
+tests\test_operations.py,test_prompt_appends_space,,167,175
+tests\test_operations.py,test_prompt_with_default,,178,187
+tests\test_operations.py,test_sudo_prefix_with_user,,194,200
+tests\test_operations.py,test_sudo_prefix_without_user,,204,208
+tests\test_operations.py,test_sudo_prefix_with_group,,211,217
+tests\test_operations.py,test_sudo_prefix_with_user_and_group,,221,227
+tests\test_operations.py,test_shell_wrap,,231,247
+tests\test_operations.py,test_shell_wrap_escapes_command_if_shell_is_true,,250,258
+tests\test_operations.py,test_shell_wrap_does_not_escape_command_if_shell_is_true_and_shell_escape_is_false,,262,270
+tests\test_operations.py,test_shell_wrap_does_not_escape_command_if_shell_is_false,,274,279
+tests\test_operations.py,test_shell_escape_escapes_doublequotes,,282,287
+tests\test_operations.py,test_shell_escape_escapes_dollar_signs,,290,295
+tests\test_operations.py,test_shell_escape_escapes_backticks,,298,303
+tests\test_operations.py,test_local_none_global_true,self,307,317
+tests\test_operations.py,test_local_none_global_false,self,319,328
+tests\test_operations.py,test_local_true_global_false,self,330,339
+tests\test_operations.py,test_local_false_global_true,self,341,350
+tests\test_operations.py,test_quiet_implies_warn_only,self,354,357
+tests\test_operations.py,test_quiet_implies_hide_everything,self,359,364
+tests\test_operations.py,test_warn_only_is_same_as_settings_warn_only,self,366,369
+tests\test_operations.py,test_warn_only_does_not_imply_hide_everything,self,371,375
+tests\test_operations.py,test_expand_to_include_1,self,379,382
+tests\test_operations.py,test_command_timeout_via_env_var,self,392,396
+tests\test_operations.py,test_command_timeout_via_kwarg,self,398,401
+tests\test_operations.py,test_command_timeout_via_env_var_in_sudo,self,403,407
+tests\test_operations.py,test_command_timeout_via_kwarg_of_sudo,self,409,412
+tests\test_operations.py,test_get_relative_remote_dir_uses_home,self,423,430
+tests\test_operations.py,test_get_single_file,self,432,441
+tests\test_operations.py,test_get_file_from_relative_path_with_spaces,self,443,451
+tests\test_operations.py,test_get_sibling_globs,self,453,462
+tests\test_operations.py,test_get_single_file_in_folder,self,464,472
+tests\test_operations.py,test_get_tree,self,474,483
+tests\test_operations.py,test_get_tree_with_implicit_local_path,self,485,502
+tests\test_operations.py,test_get_absolute_path_should_save_relative,self,504,514
+tests\test_operations.py,test_path_formatstr_nonrecursively_is_just_filename,self,516,525
+tests\test_operations.py,_invalid_file_obj_situations,"self, remote_path",527,532
+tests\test_operations.py,test_glob_and_file_object_invalid,self,534,538
+tests\test_operations.py,test_directory_and_file_object_invalid,self,540,544
+tests\test_operations.py,test_get_single_file_absolutely,self,546,554
+tests\test_operations.py,test_get_file_with_nonexistent_target,self,556,565
+tests\test_operations.py,test_get_file_with_existing_file_target,self,567,580
+tests\test_operations.py,test_get_file_to_directory,self,582,593
+tests\test_operations.py,test_get_from_multiple_servers,self,595,616
+tests\test_operations.py,test_get_from_empty_directory_uses_cwd,self,619,629
+tests\test_operations.py,_get_to_cwd,"self, arg",631,645
+tests\test_operations.py,test_get_to_empty_string_uses_default_format_string,self,647,651
+tests\test_operations.py,test_get_to_None_uses_default_format_string,self,653,657
+tests\test_operations.py,test_get_should_accept_file_like_objects,self,659,668
+tests\test_operations.py,test_get_interpolation_without_host,self,670,684
+tests\test_operations.py,test_get_returns_list_of_local_paths,self,686,695
+tests\test_operations.py,test_get_returns_none_for_stringio,self,697,703
+tests\test_operations.py,test_get_return_value_failed_attribute,self,705,714
+tests\test_operations.py,test_get_should_not_use_windows_slashes_in_remote_paths,self,716,724
+tests\test_operations.py,test_get_use_sudo,self,726,751
+tests\test_operations.py,test_get_use_sudo_temp_dir,self,753,778
+tests\test_operations.py,test_put_file_to_existing_directory,self,784,795
+tests\test_operations.py,test_put_to_empty_directory_uses_cwd,self,797,813
+tests\test_operations.py,test_put_from_empty_directory_uses_cwd,self,815,838
+tests\test_operations.py,test_put_should_accept_file_like_objects,self,840,855
+tests\test_operations.py,test_put_should_raise_exception_for_nonexistent_local_path,self,857,863
+tests\test_operations.py,test_put_returns_list_of_remote_paths,self,865,876
+tests\test_operations.py,test_put_returns_list_of_remote_paths_with_stringio,self,878,885
+tests\test_operations.py,test_put_return_value_failed_attribute,self,887,896
+tests\test_operations.py,test_put_sends_all_files_with_glob,self,898,911
+tests\test_operations.py,test_put_sends_correct_file_with_globbing_off,self,913,924
+tests\test_operations.py,test_put_use_sudo,self,926,945
+tests\test_operations.py,test_put_use_sudo_temp_dir,self,947,966
+tests\test_operations.py,test_cd_should_apply_to_put,self,973,985
+tests\test_operations.py,test_cd_should_apply_to_get,self,987,995
+tests\test_operations.py,test_cd_should_not_apply_to_absolute_put,self,997,1008
+tests\test_operations.py,test_cd_should_not_apply_to_absolute_get,self,1010,1018
+tests\test_operations.py,test_lcd_should_apply_to_put,self,1020,1033
+tests\test_operations.py,test_lcd_should_apply_to_get,self,1035,1044
+tests\test_operations.py,test_stringio_without_name,self,1046,1051
+tests\test_operations.py,test_stringio_with_name,self,1053,1060
+tests\test_operations.py,test_local_output_and_capture,,1071,1090
+tests\test_operations.py,test_returns_command_given,self,1094,1100
+tests\test_operations.py,test_returns_fully_wrapped_command,self,1102,1114
+tests\test_parallel.py,test_parallel,self,14,23
+tests\test_parallel.py,test_env_host_no_user_or_port,self,25,39
+tests\test_parallel.py,_task,,31,35
+tests\test_parallel.py,test_parallel_failures_abort,self,41,55
+tests\test_parallel.py,mytask,,49,53
+tests\test_parallel.py,test_parallel_failures_honor_warn_only,self,57,74
+tests\test_parallel.py,mytask,,65,69
+tests\test_parallel.py,test_parallel_implies_linewise,self,77,93
+tests\test_parallel.py,mytask,,85,88
+tests\test_project.py,setUp,self,16,50
+tests\test_project.py,tearDown,self,54,59
+tests\test_project.py,test_temp_folder_is_used,self,62,67
+tests\test_project.py,test_project_is_archived_locally,self,70,79
+tests\test_project.py,test_current_directory_is_uploaded_by_default,self,82,95
+tests\test_project.py,test_path_to_local_project_can_be_specified,self,98,111
+tests\test_project.py,test_path_to_local_project_can_end_in_separator,self,114,128
+tests\test_project.py,test_default_remote_folder_is_home,self,131,144
+tests\test_project.py,test_path_to_remote_folder_can_be_specified,self,146,160
+tests\test_server.py,test_list_folder,,22,98
+tests\test_state.py,test_dict_aliasing,,6,23
+tests\test_state.py,test_nested_dict_aliasing,,26,41
+tests\test_state.py,test_dict_alias_expansion,,44,52
+tests\test_tasks.py,test_base_task_provides_undefined_name,,21,23
+tests\test_tasks.py,test_base_task_raises_exception_on_call_to_run,,25,28
+tests\test_tasks.py,test_passes_unused_args_to_parent,self,31,39
+tests\test_tasks.py,foo,,34,34
+tests\test_tasks.py,test_passes_unused_kwargs_to_parent,self,41,50
+tests\test_tasks.py,foo,,45,45
+tests\test_tasks.py,test_allows_any_number_of_args,self,52,55
+tests\test_tasks.py,foo,,54,54
+tests\test_tasks.py,test_allows_any_number_of_kwargs,self,57,60
+tests\test_tasks.py,foo,,59,59
+tests\test_tasks.py,test_run_is_wrapped_callable,self,62,65
+tests\test_tasks.py,foo,,63,63
+tests\test_tasks.py,test_name_is_the_name_of_the_wrapped_callable,self,67,71
+tests\test_tasks.py,foo,,68,68
+tests\test_tasks.py,test_name_can_be_overridden,self,73,76
+tests\test_tasks.py,foo,,74,74
+tests\test_tasks.py,test_reads_double_under_doc_from_callable,self,78,82
+tests\test_tasks.py,foo,,79,79
+tests\test_tasks.py,test_dispatches_to_wrapped_callable_on_run,self,84,88
+tests\test_tasks.py,foo,,86,86
+tests\test_tasks.py,test_passes_all_regular_args_to_run,self,90,96
+tests\test_tasks.py,foo,*args,91,91
+tests\test_tasks.py,test_passes_all_keyword_args_to_run,self,98,105
+tests\test_tasks.py,foo,**kwargs,99,99
+tests\test_tasks.py,test_calling_the_object_is_the_same_as_run,self,107,111
+tests\test_tasks.py,foo,,109,109
+tests\test_tasks.py,test_takes_an_alias_kwarg_and_wraps_it_in_aliases_list,self,115,118
+tests\test_tasks.py,test_aliases_are_set_based_on_provided_aliases,self,120,123
+tests\test_tasks.py,test_aliases_are_None_by_default,self,125,127
+tests\test_tasks.py,test_decorator_incompatibility_on_task,,140,148
+tests\test_tasks.py,foo,,142,142
+tests\test_tasks.py,test_decorator_closure_hiding,,150,158
+tests\test_tasks.py,foo,,155,156
+tests\test_tasks.py,dict_contains,"superset, subset",166,172
+tests\test_tasks.py,test_calls_task_function_objects,self,176,181
+tests\test_tasks.py,test_should_look_up_task_name,self,183,191
+tests\test_tasks.py,test_should_handle_name_of_Task_object,self,193,205
+tests\test_tasks.py,test_should_abort_if_task_name_not_found,self,207,212
+tests\test_tasks.py,test_should_not_abort_if_task_name_not_found_with_skip,self,214,221
+tests\test_tasks.py,test_should_pass_through_args_kwargs,self,223,232
+tests\test_tasks.py,test_should_honor_hosts_kwarg,self,234,247
+tests\test_tasks.py,host_string,,243,244
+tests\test_tasks.py,test_should_honor_hosts_decorator,self,249,259
+tests\test_tasks.py,task,,255,257
+tests\test_tasks.py,test_should_honor_roles_decorator,self,261,272
+tests\test_tasks.py,task,,268,270
+tests\test_tasks.py,test_should_set_env_command_to_string_arg,self,274,284
+tests\test_tasks.py,command,,280,281
+tests\test_tasks.py,test_should_set_env_command_to_name_attr,self,286,299
+tests\test_tasks.py,command,,292,293
+tests\test_tasks.py,test_should_set_all_hosts,self,301,315
+tests\test_tasks.py,command,,310,311
+tests\test_tasks.py,test_should_print_executing_line_per_host,self,318,328
+tests\test_tasks.py,task,,323,324
+tests\test_tasks.py,test_should_not_print_executing_line_for_singletons,self,330,339
+tests\test_tasks.py,task,,335,336
+tests\test_tasks.py,test_should_return_dict_for_base_case,self,341,347
+tests\test_tasks.py,task,,345,346
+tests\test_tasks.py,test_should_return_dict_for_serial_use_case,self,349,363
+tests\test_tasks.py,task,,357,359
+tests\test_tasks.py,test_should_preserve_None_for_non_returning_tasks,self,366,380
+tests\test_tasks.py,local_task,,371,372
+tests\test_tasks.py,remote_task,,373,375
+tests\test_tasks.py,test_should_use_sentinel_for_tasks_that_errored,self,383,392
+tests\test_tasks.py,task,,387,388
+tests\test_tasks.py,test_parallel_return_values,self,394,407
+tests\test_tasks.py,task,,400,404
+tests\test_tasks.py,test_should_work_with_Task_subclasses,self,409,418
+tests\test_tasks.py,set_network,self,422,424
+tests\test_tasks.py,test_should_not_mutate_its_own_env_vars,self,426,453
+tests\test_tasks.py,mytask,,433,436
+tests\test_tasks.py,test_should_allow_task_to_modify_env_vars,self,455,464
+tests\test_tasks.py,mytask,,457,460
+tests\test_tasks.py,test_old_style_task_with_default_args,self,468,477
+tests\test_tasks.py,task_old_style,"arg1, arg2, arg3=None, arg4='yes'",472,473
+tests\test_tasks.py,test_old_style_task_without_default_args,self,479,489
+tests\test_tasks.py,task_old_style,"arg1, arg2",484,485
+tests\test_tasks.py,test_old_style_task_without_args,self,491,501
+tests\test_tasks.py,task_old_style,,496,497
+tests\test_tasks.py,test_decorated_task,self,503,534
+tests\test_tasks.py,decorated_task,arg1,512,514
+tests\test_tasks.py,decorated_task1,arg1,519,522
+tests\test_tasks.py,decorated_task2,arg1,527,531
+tests\test_tasks.py,test_subclassed_task,self,536,546
+tests\test_tasks.py,run,"self, arg1, arg2, arg3",542,543
+tests\test_tasks.py,test_multiline_docstring_indented_correctly,self,548,575
+tests\test_tasks.py,mytask,arg1,554,559
+tests\test_utils.py,test_warn,,21,28
+tests\test_utils.py,test_indent,,31,40
+tests\test_utils.py,test_indent_with_strip,,43,55
+tests\test_utils.py,test_abort,,58,63
+tests\test_utils.py,test_abort_with_exception,,68,74
+tests\test_utils.py,test_abort_message,,76,87
+tests\test_utils.py,test_abort_message_only_printed_once,,89,100
+tests\test_utils.py,test_abort_exception_contains_separate_message_and_code,,102,113
+tests\test_utils.py,test_puts_with_user_output_on,,115,123
+tests\test_utils.py,test_puts_with_unicode_output,,125,133
+tests\test_utils.py,test_puts_with_encoding_type_none_output,,136,145
+tests\test_utils.py,test_puts_with_user_output_off,,147,154
+tests\test_utils.py,test_puts_with_prefix,,157,166
+tests\test_utils.py,test_puts_without_prefix,,169,177
+tests\test_utils.py,test_fastprint_calls_puts,,179,189
+tests\test_utils.py,test_error_warns_if_warn_only_True_and_func_None,self,195,202
+tests\test_utils.py,test_error_aborts_if_warn_only_False_and_func_None,self,204,211
+tests\test_utils.py,test_error_calls_given_func_if_func_not_None,self,213,217
+tests\test_utils.py,test_error_includes_stdout_if_given_and_hidden,self,219,230
+tests\test_utils.py,test_includes_traceback_if_exceptions_logging_is_on,self,232,243
+tests\test_utils.py,test_includes_traceback_if_debug_logging_is_on,self,245,256
+tests\test_utils.py,test_doesnt_print_None_when_no_traceback_present,self,258,269
+tests\test_utils.py,test_error_includes_stderr_if_given_and_hidden,self,271,282
+tests\test_utils.py,test_warnings_print_magenta_if_colorize_on,self,284,289
+tests\test_utils.py,test_errors_print_red_if_colorize_on,self,291,297
+tests\test_utils.py,setUp,self,301,302
+tests\test_utils.py,test_append_empty,self,304,306
+tests\test_utils.py,test_append_full,self,308,311
+tests\test_utils.py,test_extend_empty,self,313,315
+tests\test_utils.py,test_extend_overrun,self,317,320
+tests\test_utils.py,test_extend_full,self,322,325
+tests\test_version.py,test_get_version,,10,24
+tests\utils.py,setup,self,34,46
+tests\utils.py,set_network,self,48,49
+tests\utils.py,env_setup,self,51,58
+tests\utils.py,teardown,self,60,66
+tests\utils.py,path,"self, *path_parts",68,69
+tests\utils.py,mkfile,"self, path, contents",71,75
+tests\utils.py,exists_remotely,"self, path",77,78
+tests\utils.py,exists_locally,"self, path",80,81
+tests\utils.py,password_response,"password, times_called=None, silent=True",84,124
+tests\utils.py,_assert_contains,"needle, haystack, invert",127,133
+tests\utils.py,line_prefix,"prefix, string",140,144
+tests\utils.py,eq_,"result, expected, msg=None",147,171
+tests\utils.py,eq_contents,"path, text",174,176
+tests\utils.py,support,path,179,180
+tests\utils.py,path_prefix,module,185,190
+tests\utils.py,aborts,func,193,194
+tests\utils.py,_patched_input,"func, fake",197,198
+tests\support\aborts.py,kaboom,,3,5
+tests\support\classbased_task_fabfile.py,run,"self, *args, **kwargs",4,5
+tests\support\decorated_fabfile.py,foo,,3,5
+tests\support\decorated_fabfile.py,bar,,7,8
+tests\support\decorated_fabfile_with_classbased_task.py,__init__,self,5,7
+tests\support\decorated_fabfile_with_classbased_task.py,run,"self, *args, **kwargs",9,10
+tests\support\decorated_fabfile_with_modules.py,foo,,4,6
+tests\support\decorated_fabfile_with_modules.py,bar,,8,9
+tests\support\decorator_order.py,foo,,4,7
+tests\support\decorator_order.py,caller,,11,13
+tests\support\default_task_submodule.py,long_task_name,,3,5
+tests\support\docstring.py,foo,,3,8
+tests\support\explicit_fabfile.py,foo,,3,4
+tests\support\explicit_fabfile.py,bar,,6,7
+tests\support\flat_alias.py,foo,,3,5
+tests\support\flat_aliases.py,foo,,3,5
+tests\support\implicit_fabfile.py,foo,,1,2
+tests\support\implicit_fabfile.py,bar,,4,5
+tests\support\mapping.py,run,self,4,5
+tests\support\module_fabtasks.py,hello,,1,2
+tests\support\module_fabtasks.py,world,,5,6
+tests\support\submodule\__init__.py,classic_task,,3,4
+tests\support\submodule\subsubmodule\__init__.py,deeptask,,3,5
+tests\support\tree\db.py,migrate,,4,6
+tests\support\tree\__init__.py,deploy,,6,8
+tests\support\tree\__init__.py,build_docs,,10,12
+tests\support\tree\system\debian.py,update_apt,,4,6
+tests\support\tree\system\__init__.py,install_package,,5,7

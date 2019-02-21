@@ -1,0 +1,12 @@
+file,lineno,_lineno,kind,message
+borg\support\argparse.py,1407,16,assignment," Incompatible types in assignment (expression has type ""Dict[str, Any]"", variable has type ""Tuple[Any, ...]"")"
+borg\helpers.py,856,12,assignment," Incompatible types in assignment (expression has type ""bool"", variable has type ""str"")"
+borg\key.py,86,4,assignment," Incompatible types in assignment (expression has type ""int"", base class ""KeyBase"" defined the type as ""None"")"
+borg\key.py,213,4,assignment," Incompatible types in assignment (expression has type ""int"", base class ""KeyBase"" defined the type as ""None"")"
+borg\key.py,351,4,assignment," Incompatible types in assignment (expression has type ""int"", base class ""KeyBase"" defined the type as ""None"")"
+borg\key.py,392,4,assignment," Incompatible types in assignment (expression has type ""int"", base class ""KeyBase"" defined the type as ""None"")"
+borg\repository.py,607,19,argument," Argument 1 to ""crc32"" has incompatible type ""memoryview""; expected ""bytes"""
+borg\repository.py,647,23,argument," Argument 1 to ""crc32"" has incompatible type ""memoryview""; expected ""bytes"""
+borg\remote.py,272,28,argument," Argument 1 to ""log"" has incompatible type ""bytes""; expected ""int"""
+borg\archiver.py,352,16,assignment," Incompatible types in assignment (expression has type ""str"", variable has type ""List[str]"")"
+borg\testsuite\archiver.py,924,4,assignment," Incompatible types in assignment (expression has type ""str"", base class ""ArchiverTestCaseBase"" defined the type as ""None"")"

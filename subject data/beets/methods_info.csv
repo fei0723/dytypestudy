@@ -1,0 +1,3452 @@
+file,method,params,startlineno,endlineno
+setup.py,_read,fn,27,29
+setup.py,build_manpages,,32,49
+beets\art.py,mediafile_image,"image_path, maxwidth=None",31,37
+beets\art.py,get_art,"log, item",40,49
+beets\art.py,embed_item,"log, item, imagepath, maxwidth=None, itempath=None, compare_threshold='0', ifempty=False, as_album=False",52,82
+beets\art.py,embed_album,"log, album, maxwidth=None, quiet=False, compare_threshold='0', ifempty=False",85,104
+beets\art.py,resize_image,"log, imagepath, maxwidth",107,112
+beets\art.py,check_art_similarity,"log, item, imagepath, compare_threshold",115,161
+beets\art.py,extract,"log, outpath, item",164,183
+beets\art.py,extract_first,"log, outpath, items",186,190
+beets\art.py,clear,"log, lib, query",193,198
+beets\importer.py,_open_state,,67,78
+beets\importer.py,_save_state,state,81,87
+beets\importer.py,progress_read,,93,95
+beets\importer.py,progress_write,,98,103
+beets\importer.py,progress_add,"toppath, *paths",106,120
+beets\importer.py,progress_element,"toppath, path",123,131
+beets\importer.py,has_progress,toppath,134,139
+beets\importer.py,progress_reset,toppath,142,145
+beets\importer.py,history_add,paths,152,162
+beets\importer.py,history_get,,165,171
+beets\importer.py,__init__,"self, lib, loghandler, paths, query",180,193
+beets\importer.py,_setup_logging,"self, loghandler",195,201
+beets\importer.py,set_config,"self, config",203,234
+beets\importer.py,tag_log,"self, status, paths",236,240
+beets\importer.py,log_choice,"self, task, duplicate=False",242,261
+beets\importer.py,should_resume,"self, path",263,264
+beets\importer.py,choose_match,"self, task",266,267
+beets\importer.py,resolve_duplicate,"self, task, found_duplicates",269,270
+beets\importer.py,choose_item,"self, task",272,273
+beets\importer.py,run,self,275,323
+beets\importer.py,already_imported,"self, toppath, paths",327,338
+beets\importer.py,history_dirs,self,340,344
+beets\importer.py,is_resuming,"self, toppath",346,351
+beets\importer.py,ask_resume,"self, toppath",353,368
+beets\importer.py,__init__,"self, toppath, paths, items",378,397
+beets\importer.py,__init__,"self, toppath, paths, items",428,436
+beets\importer.py,set_choice,"self, choice",438,450
+beets\importer.py,save_progress,self,452,457
+beets\importer.py,save_history,self,459,463
+beets\importer.py,apply,self,467,469
+beets\importer.py,skip,self,471,473
+beets\importer.py,chosen_ident,self,477,487
+beets\importer.py,imported_items,self,489,500
+beets\importer.py,apply_metadata,self,502,505
+beets\importer.py,duplicate_items,"self, lib",507,511
+beets\importer.py,remove_duplicates,"self, lib",513,523
+beets\importer.py,finalize,"self, session",525,539
+beets\importer.py,cleanup,"self, copy=False, delete=False, move=False",541,562
+beets\importer.py,_emit_imported,"self, lib",564,565
+beets\importer.py,handle_created,"self, session",567,579
+beets\importer.py,lookup_candidates,self,581,589
+beets\importer.py,find_duplicates,"self, lib",591,614
+beets\importer.py,align_album_level_fields,self,616,647
+beets\importer.py,manipulate_files,"self, move=False, copy=False, write=False, link=False, session=None",649,679
+beets\importer.py,add,"self, lib",681,689
+beets\importer.py,record_replaced,"self, lib",691,710
+beets\importer.py,reimport_metadata,"self, lib",712,752
+beets\importer.py,remove_replaced,"self, lib",754,765
+beets\importer.py,choose_match,"self, session",767,772
+beets\importer.py,reload,self,774,779
+beets\importer.py,prune,"self, filename",783,793
+beets\importer.py,__init__,"self, toppath, item",800,804
+beets\importer.py,chosen_ident,self,806,811
+beets\importer.py,imported_items,self,813,814
+beets\importer.py,apply_metadata,self,816,817
+beets\importer.py,_emit_imported,"self, lib",819,821
+beets\importer.py,lookup_candidates,self,823,826
+beets\importer.py,find_duplicates,"self, lib",828,843
+beets\importer.py,add,"self, lib",847,852
+beets\importer.py,infer_album_fields,self,854,855
+beets\importer.py,choose_match,"self, session",857,862
+beets\importer.py,reload,self,864,865
+beets\importer.py,__init__,"self, toppath, paths",880,885
+beets\importer.py,save_history,self,887,888
+beets\importer.py,save_progress,self,890,896
+beets\importer.py,skip,self,898,899
+beets\importer.py,set_choice,"self, choice",901,902
+beets\importer.py,cleanup,"self, **kwargs",904,905
+beets\importer.py,_emit_imported,"self, session",907,908
+beets\importer.py,__init__,"self, toppath",924,926
+beets\importer.py,is_archive,"cls, path",928,939
+beets\importer.py,handlers,cls,941,963
+beets\importer.py,cleanup,"self, **kwargs",965,971
+beets\importer.py,extract,self,973,988
+beets\importer.py,__init__,"self, toppath, session",995,1006
+beets\importer.py,tasks,self,1008,1048
+beets\importer.py,_create,"self, task",1050,1061
+beets\importer.py,paths,self,1063,1081
+beets\importer.py,singleton,"self, path",1083,1096
+beets\importer.py,album,"self, paths, dirs=None",1098,1122
+beets\importer.py,sentinel,"self, paths=None",1124,1128
+beets\importer.py,unarchive,self,1130,1157
+beets\importer.py,read_item,"self, path",1159,1175
+beets\importer.py,read_tasks,session,1180,1202
+beets\importer.py,query_tasks,session,1205,1232
+beets\importer.py,lookup_candidates,"session, task",1235,1249
+beets\importer.py,user_query,"session, task",1252,1302
+beets\importer.py,emitter,task,1276,1281
+beets\importer.py,resolve_duplicates,"session, task",1305,1316
+beets\importer.py,import_asis,"session, task",1319,1331
+beets\importer.py,apply_choice,"session, task",1334,1346
+beets\importer.py,plugin_stage,"session, func, task",1349,1363
+beets\importer.py,manipulate_files,"session, task",1366,1385
+beets\importer.py,log_files,"session, task",1388,1397
+beets\importer.py,group_albums,session,1400,1424
+beets\importer.py,group,item,1407,1408
+beets\importer.py,albums_in_dir,path,1431,1524
+beets\library.py,__init__,"self, field, pattern, fast=True, case_sensitive=None",55,78
+beets\library.py,is_path_query,"cls, query_part",80,90
+beets\library.py,match,"self, item",92,94
+beets\library.py,col_clause,self,96,110
+beets\library.py,format,"self, value",120,122
+beets\library.py,parse,"self, string",124,135
+beets\library.py,format,"self, value",143,144
+beets\library.py,parse,"self, string",146,147
+beets\library.py,normalize,"self, value",149,160
+beets\library.py,from_sql,"self, sql_value",162,163
+beets\library.py,to_sql,"self, value",165,168
+beets\library.py,parse,"self, key",184,189
+beets\library.py,normalize,"self, key",191,195
+beets\library.py,format,"self, value",202,206
+beets\library.py,parse,"self, string",208,217
+beets\library.py,__init__,"self, model_cls, ascending=True, case_insensitive=True",226,229
+beets\library.py,order_clause,self,231,237
+beets\library.py,sort,"self, objs",239,249
+beets\library.py,__init__,"self, path, reason",263,269
+beets\library.py,__unicode__,self,271,277
+beets\library.py,__str__,self,280,281
+beets\library.py,__unicode__,self,287,288
+beets\library.py,__unicode__,self,294,295
+beets\library.py,_template_funcs,self,308,311
+beets\library.py,store,self,313,315
+beets\library.py,remove,self,317,319
+beets\library.py,add,"self, lib=None",321,323
+beets\library.py,__format__,"self, spec",325,333
+beets\library.py,__str__,self,335,336
+beets\library.py,__unicode__,self,338,339
+beets\library.py,__init__,"self, item, for_path=False",348,356
+beets\library.py,_get,"self, key",358,369
+beets\library.py,__getitem__,"self, key",371,384
+beets\library.py,__iter__,self,386,387
+beets\library.py,__len__,self,389,390
+beets\library.py,_getters,cls,491,496
+beets\library.py,from_path,"cls, path",498,506
+beets\library.py,__setitem__,"self, key, value",508,521
+beets\library.py,update,"self, values",523,529
+beets\library.py,get_album,self,531,538
+beets\library.py,read,"self, read_path=None",542,571
+beets\library.py,write,"self, path=None, tags=None",573,617
+beets\library.py,try_write,"self, path=None, tags=None",619,630
+beets\library.py,try_sync,"self, write=None",632,646
+beets\library.py,move_file,"self, dest, copy=False, link=False",650,673
+beets\library.py,current_mtime,self,675,679
+beets\library.py,try_filesize,self,681,690
+beets\library.py,remove,"self, delete=False, with_album=True",694,715
+beets\library.py,move,"self, copy=False, link=False, basedir=None, with_album=True",717,758
+beets\library.py,destination,"self, fragment=False, basedir=None, platform=None, path_formats=None",762,829
+beets\library.py,_getters,cls,921,928
+beets\library.py,items,self,930,934
+beets\library.py,remove,"self, delete=False, with_items=True",936,954
+beets\library.py,move_art,"self, copy=False, link=False",956,983
+beets\library.py,move,"self, copy=False, link=False, basedir=None",985,1004
+beets\library.py,item_dir,self,1006,1013
+beets\library.py,_albumtotal,self,1015,1034
+beets\library.py,art_destination,"self, image, item_dir=None",1036,1059
+beets\library.py,set_art,"self, path, copy=True",1061,1090
+beets\library.py,store,self,1092,1108
+beets\library.py,try_sync,"self, write=True",1110,1118
+beets\library.py,parse_query_parts,"parts, model_cls",1123,1154
+beets\library.py,parse_query_string,"s, model_cls",1157,1168
+beets\library.py,__init__,"self, path=u'library.blb', directory=u'~/Music', path_formats=((PF_KEY_DEFAULT, u'$artist/$album/$track $title'), ), replacements=None",1178,1191
+beets\library.py,add,"self, obj",1195,1201
+beets\library.py,add_album,"self, items",1203,1228
+beets\library.py,_fetch,"self, model_cls, query, sort=None",1232,1252
+beets\library.py,get_default_album_sort,,1255,1260
+beets\library.py,get_default_item_sort,,1262,1267
+beets\library.py,albums,"self, query=None, sort=None",1269,1272
+beets\library.py,items,"self, query=None, sort=None",1274,1277
+beets\library.py,get_item,"self, id",1281,1285
+beets\library.py,get_album,"self, item_or_id",1287,1298
+beets\library.py,_int_arg,s,1303,1307
+beets\library.py,__init__,"self, item=None, lib=None",1318,1324
+beets\library.py,functions,self,1326,1334
+beets\library.py,tmpl_lower,s,1336,1339
+beets\library.py,tmpl_upper,s,1341,1344
+beets\library.py,tmpl_title,s,1346,1349
+beets\library.py,tmpl_left,"s, chars",1351,1354
+beets\library.py,tmpl_right,"s, chars",1356,1359
+beets\library.py,tmpl_if,"condition, trueval, falseval=u''",1361,1377
+beets\library.py,tmpl_asciify,s,1379,1383
+beets\library.py,tmpl_time,"s, fmt",1385,1390
+beets\library.py,tmpl_aunique,"self, keys=None, disam=None",1392,1455
+beets\logging.py,logsafe,val,33,69
+beets\logging.py,__init__,"self, msg, args, kwargs",78,81
+beets\logging.py,__str__,self,83,86
+beets\logging.py,_log,"self, level, msg, args, exc_info=None, extra=None, **kwargs",88,91
+beets\logging.py,__init__,"self, name, level=NOTSET",97,100
+beets\logging.py,level,self,102,108
+beets\logging.py,level,"self, value",110,112
+beets\logging.py,set_global_level,"self, level",114,119
+beets\logging.py,getLogger,name=None,130,134
+beets\mediafile.py,__init__,"self, path",88,89
+beets\mediafile.py,__init__,"self, path, mutagen_type=None",98,104
+beets\mediafile.py,__init__,"self, path, mutagen_exc",110,112
+beets\mediafile.py,_safe_cast,"out_type, val",117,170
+beets\mediafile.py,_unpack_asf_image,data,175,198
+beets\mediafile.py,_pack_asf_image,"mime, data, type='3', description=u''",201,208
+beets\mediafile.py,_sc_decode,soundcheck,213,246
+beets\mediafile.py,_sc_encode,"gain, peak",249,270
+beets\mediafile.py,_wider_test_jpeg,data,275,281
+beets\mediafile.py,_image_mime_type,data,284,303
+beets\mediafile.py,__init__,"self, data, desc=None, type=None",343,352
+beets\mediafile.py,mime_type,self,354,357
+beets\mediafile.py,type_index,self,359,365
+beets\mediafile.py,__init__,"self, key, as_type=unicode, suffix=None, float_places='2'",401,422
+beets\mediafile.py,get,"self, mutagen_file",426,429
+beets\mediafile.py,fetch,"self, mutagen_file",431,438
+beets\mediafile.py,deserialize,"self, mutagen_value",440,448
+beets\mediafile.py,set,"self, mutagen_file, value",452,455
+beets\mediafile.py,store,"self, mutagen_file, value",457,460
+beets\mediafile.py,serialize,"self, value",462,483
+beets\mediafile.py,delete,"self, mutagen_file",485,489
+beets\mediafile.py,get,"self, mutagen_file",507,513
+beets\mediafile.py,get_list,"self, mutagen_file",515,518
+beets\mediafile.py,fetch,"self, mutagen_file",520,526
+beets\mediafile.py,set,"self, mutagen_file, value",528,532
+beets\mediafile.py,set_list,"self, mutagen_file, values",534,538
+beets\mediafile.py,store,"self, mutagen_file, values",540,543
+beets\mediafile.py,get,"self, mutagen_file",552,555
+beets\mediafile.py,set,"self, mutagen_file, value",557,565
+beets\mediafile.py,deserialize,"self, data",573,576
+beets\mediafile.py,serialize,"self, value",584,588
+beets\mediafile.py,__init__,"self, key, index='0', **kwargs",595,597
+beets\mediafile.py,deserialize,"self, mutagen_value",599,602
+beets\mediafile.py,get,"self, mutagen_file",604,611
+beets\mediafile.py,set,"self, mutagen_file, value",613,618
+beets\mediafile.py,delete,"self, mutagen_file",620,624
+beets\mediafile.py,__init__,"self, key, index='0', **kwargs",632,634
+beets\mediafile.py,get,"self, mutagen_file",641,645
+beets\mediafile.py,get_list,"self, mutagen_file",647,648
+beets\mediafile.py,set,"self, mutagen_file, value",650,651
+beets\mediafile.py,set_list,"self, mutagen_file, values",653,654
+beets\mediafile.py,__init__,"self, **kwargs",660,661
+beets\mediafile.py,deserialize,"self, data",663,664
+beets\mediafile.py,serialize,"self, image",666,673
+beets\mediafile.py,__init__,"self, key, id3_lang=None, **kwargs",681,686
+beets\mediafile.py,fetch,"self, mutagen_file",688,692
+beets\mediafile.py,store,"self, mutagen_file, value",694,696
+beets\mediafile.py,fetch,"self, mutagen_file",702,706
+beets\mediafile.py,store,"self, mutagen_file, values",708,710
+beets\mediafile.py,__init__,"self, owner, **kwargs",716,718
+beets\mediafile.py,fetch,"self, mutagen_file",720,724
+beets\mediafile.py,store,"self, mutagen_file, value",726,735
+beets\mediafile.py,__init__,"self, desc=u'', key=u'TXXX', **kwargs",742,744
+beets\mediafile.py,store,"self, mutagen_file, value",746,768
+beets\mediafile.py,fetch,"self, mutagen_file",770,778
+beets\mediafile.py,delete,"self, mutagen_file",780,787
+beets\mediafile.py,__init__,"self, key, pack_pos='0', **kwargs",794,796
+beets\mediafile.py,_fetch_unpacked,"self, mutagen_file",798,805
+beets\mediafile.py,get,"self, mutagen_file",807,808
+beets\mediafile.py,set,"self, mutagen_file, value",810,817
+beets\mediafile.py,delete,"self, mutagen_file",819,823
+beets\mediafile.py,__init__,self,833,835
+beets\mediafile.py,deserialize,"self, apic_frame",837,840
+beets\mediafile.py,fetch,"self, mutagen_file",842,843
+beets\mediafile.py,store,"self, mutagen_file, frames",845,846
+beets\mediafile.py,delete,"self, mutagen_file",848,849
+beets\mediafile.py,serialize,"self, image",851,861
+beets\mediafile.py,__init__,"self, index='0', **kwargs",866,868
+beets\mediafile.py,__init__,self,877,878
+beets\mediafile.py,deserialize,"self, asf_picture",880,882
+beets\mediafile.py,serialize,"self, image",884,889
+beets\mediafile.py,__init__,self,900,904
+beets\mediafile.py,fetch,"self, mutagen_file",906,921
+beets\mediafile.py,store,"self, mutagen_file, image_data",923,929
+beets\mediafile.py,serialize,"self, image",931,939
+beets\mediafile.py,__init__,self,947,948
+beets\mediafile.py,fetch,"self, mutagen_file",950,951
+beets\mediafile.py,deserialize,"self, flac_picture",953,955
+beets\mediafile.py,store,"self, mutagen_file, pictures",957,962
+beets\mediafile.py,serialize,"self, image",964,972
+beets\mediafile.py,delete,"self, mutagen_file",974,977
+beets\mediafile.py,__init__,self,1009,1010
+beets\mediafile.py,fetch,"self, mutagen_file",1012,1026
+beets\mediafile.py,set_list,"self, mutagen_file, values",1028,1036
+beets\mediafile.py,delete,"self, mutagen_file",1038,1045
+beets\mediafile.py,__init__,"self, *styles, **kwargs",1056,1069
+beets\mediafile.py,styles,"self, mutagen_file",1071,1077
+beets\mediafile.py,__get__,"self, mediafile, owner=None",1079,1085
+beets\mediafile.py,__set__,"self, mediafile, value",1087,1091
+beets\mediafile.py,__delete__,"self, mediafile",1093,1095
+beets\mediafile.py,_none_value,self,1097,1108
+beets\mediafile.py,__get__,"self, mediafile, _",1118,1122
+beets\mediafile.py,__set__,"self, mediafile, values",1124,1126
+beets\mediafile.py,single_field,self,1128,1133
+beets\mediafile.py,__init__,"self, *date_styles, **kwargs",1145,1155
+beets\mediafile.py,__get__,"self, mediafile, owner=None",1157,1168
+beets\mediafile.py,__set__,"self, mediafile, date",1170,1174
+beets\mediafile.py,__delete__,"self, mediafile",1176,1179
+beets\mediafile.py,_get_date_tuple,"self, mediafile",1181,1211
+beets\mediafile.py,_set_date_tuple,"self, mediafile, year, month=None, day=None",1213,1231
+beets\mediafile.py,year_field,self,1233,1234
+beets\mediafile.py,month_field,self,1236,1237
+beets\mediafile.py,day_field,self,1239,1240
+beets\mediafile.py,__init__,"self, date_field, item_pos",1247,1249
+beets\mediafile.py,__get__,"self, mediafile, _",1251,1252
+beets\mediafile.py,__set__,"self, mediafile, value",1254,1257
+beets\mediafile.py,__delete__,"self, mediafile",1259,1260
+beets\mediafile.py,__init__,self,1271,1272
+beets\mediafile.py,__get__,"self, mediafile, _",1274,1279
+beets\mediafile.py,guess_cover_image,candidates,1281,1288
+beets\mediafile.py,__set__,"self, mediafile, data",1290,1294
+beets\mediafile.py,__delete__,"self, mediafile",1296,1297
+beets\mediafile.py,__init__,self,1307,1318
+beets\mediafile.py,__init__,"self, path, id3v23=False",1328,1417
+beets\mediafile.py,save,self,1419,1441
+beets\mediafile.py,delete,self,1443,1452
+beets\mediafile.py,fields,cls,1456,1464
+beets\mediafile.py,_field_sort_name,"cls, name",1466,1480
+beets\mediafile.py,sorted_fields,cls,1482,1492
+beets\mediafile.py,readable_fields,cls,1494,1503
+beets\mediafile.py,add_field,"cls, name, descriptor",1505,1520
+beets\mediafile.py,update,"self, dict",1522,1535
+beets\mediafile.py,length,self,1932,1935
+beets\mediafile.py,samplerate,self,1937,1945
+beets\mediafile.py,bitdepth,self,1947,1955
+beets\mediafile.py,channels,self,1957,1969
+beets\mediafile.py,bitrate,self,1971,1990
+beets\mediafile.py,format,self,1992,1995
+beets\plugins.py,__init__,"self, plugin",53,54
+beets\plugins.py,filter,"self, record",56,63
+beets\plugins.py,__init__,"self, name=None",73,89
+beets\plugins.py,commands,self,91,95
+beets\plugins.py,get_import_stages,self,97,106
+beets\plugins.py,_set_log_level_and_params,"self, base_log_level, func",108,135
+beets\plugins.py,wrapper,"*args, **kwargs",116,134
+beets\plugins.py,queries,self,137,140
+beets\plugins.py,track_distance,"self, item, info",142,146
+beets\plugins.py,album_distance,"self, items, album_info, mapping",148,152
+beets\plugins.py,candidates,"self, items, artist, album, va_likely",154,158
+beets\plugins.py,item_candidates,"self, item, artist, title",160,164
+beets\plugins.py,album_for_id,"self, album_id",166,170
+beets\plugins.py,track_for_id,"self, track_id",172,176
+beets\plugins.py,add_media_field,"self, name, descriptor",178,191
+beets\plugins.py,register_listener,"self, event, func",196,207
+beets\plugins.py,template_func,"cls, name",213,224
+beets\plugins.py,helper,func,219,223
+beets\plugins.py,template_field,"cls, name",226,238
+beets\plugins.py,helper,func,233,237
+beets\plugins.py,load_plugins,names=(),244,272
+beets\plugins.py,find_plugins,,279,291
+beets\plugins.py,commands,,296,302
+beets\plugins.py,queries,,305,312
+beets\plugins.py,types,model_cls,315,329
+beets\plugins.py,track_distance,"item, info",332,340
+beets\plugins.py,album_distance,"items, album_info, mapping",343,349
+beets\plugins.py,candidates,"items, artist, album, va_likely",352,358
+beets\plugins.py,item_candidates,"item, artist, title",361,367
+beets\plugins.py,album_for_id,album_id,370,378
+beets\plugins.py,track_for_id,track_id,381,389
+beets\plugins.py,template_funcs,,392,400
+beets\plugins.py,import_stages,,403,408
+beets\plugins.py,item_field_getters,,413,421
+beets\plugins.py,album_field_getters,,424,431
+beets\plugins.py,event_handlers,,436,445
+beets\plugins.py,send,"event, **arguments",448,462
+beets\plugins.py,feat_tokens,for_artist=True,465,475
+beets\plugins.py,sanitize_choices,"choices, choices_all",479,491
+beets\vfs.py,_insert,"node, path, itemid",28,39
+beets\vfs.py,libtree,lib,42,54
+beets\__init__.py,read,"self, user=True, defaults=True",33,42
+beets\autotag\hooks.py,__init__,"self, album, album_id, artist, artist_id, tracks, asin=None, albumtype=None, va=False, year=None, month=None, day=None, label=None, mediums=None, artist_sort=None, releasegroup_id=None, catalognum=None, script=None, language=None, country=None, albumstatus=None, media=None, albumdisambig=None, artist_credit=None, original_year=None, original_month=None, original_day=None, data_source=None, data_url=None",68,103
+beets\autotag\hooks.py,decode,"self, codec=u'utf8'",108,121
+beets\autotag\hooks.py,__init__,"self, title, track_id, artist=None, artist_id=None, length=None, index=None, medium=None, medium_index=None, medium_total=None, artist_sort=None, disctitle=None, artist_credit=None, data_source=None, data_url=None, media=None",148,167
+beets\autotag\hooks.py,decode,"self, codec=u'utf8'",170,178
+beets\autotag\hooks.py,_string_dist_basic,"str1, str2",201,215
+beets\autotag\hooks.py,string_dist,"str1, str2",218,273
+beets\autotag\hooks.py,__init__,"self, getter",281,283
+beets\autotag\hooks.py,__get__,"self, obj, owner",285,289
+beets\autotag\hooks.py,__init__,self,297,298
+beets\autotag\hooks.py,_weights,cls,300,308
+beets\autotag\hooks.py,distance,self,312,320
+beets\autotag\hooks.py,max_distance,self,322,329
+beets\autotag\hooks.py,raw_distance,self,331,338
+beets\autotag\hooks.py,items,self,340,353
+beets\autotag\hooks.py,__cmp__,"self, other",357,358
+beets\autotag\hooks.py,__float__,self,360,361
+beets\autotag\hooks.py,__sub__,"self, other",363,364
+beets\autotag\hooks.py,__rsub__,"self, other",366,367
+beets\autotag\hooks.py,__unicode__,self,369,370
+beets\autotag\hooks.py,__getitem__,"self, key",374,381
+beets\autotag\hooks.py,__iter__,self,383,384
+beets\autotag\hooks.py,__len__,self,386,387
+beets\autotag\hooks.py,keys,self,389,390
+beets\autotag\hooks.py,update,"self, dist",392,400
+beets\autotag\hooks.py,_eq,"self, value1, value2",404,411
+beets\autotag\hooks.py,add,"self, key, dist",413,423
+beets\autotag\hooks.py,add_equality,"self, key, value, options",425,439
+beets\autotag\hooks.py,add_expr,"self, key, expr",441,448
+beets\autotag\hooks.py,add_number,"self, key, number1, number2",450,461
+beets\autotag\hooks.py,add_priority,"self, key, value, options",463,479
+beets\autotag\hooks.py,add_ratio,"self, key, number1, number2",481,490
+beets\autotag\hooks.py,add_string,"self, key, str1, str2",492,497
+beets\autotag\hooks.py,album_for_mbid,release_id,510,520
+beets\autotag\hooks.py,track_for_mbid,recording_id,523,533
+beets\autotag\hooks.py,albums_for_id,album_id,536,543
+beets\autotag\hooks.py,tracks_for_id,track_id,546,553
+beets\autotag\hooks.py,album_candidates,"items, artist, album, va_likely",556,586
+beets\autotag\hooks.py,item_candidates,"item, artist, title",589,610
+beets\autotag\match.py,current_metadata,items,58,80
+beets\autotag\match.py,assign_items,"items, tracks",83,107
+beets\autotag\match.py,track_index_changed,"item, track_info",110,114
+beets\autotag\match.py,track_distance,"item, track_info, incl_artist=False",117,150
+beets\autotag\match.py,distance,"items, album_info, mapping",153,256
+beets\autotag\match.py,match_by_id,items,259,276
+beets\autotag\match.py,_recommendation,results,279,327
+beets\autotag\match.py,_add_candidate,"items, results, info",330,369
+beets\autotag\match.py,tag_album,"items, search_artist=None, search_album=None, search_id=None",372,443
+beets\autotag\match.py,tag_item,"item, search_artist=None, search_title=None, search_id=None",446,493
+beets\autotag\mb.py,__init__,"self, reason, verb, query, tb=None",43,47
+beets\autotag\mb.py,get_message,self,49,51
+beets\autotag\mb.py,track_url,trackid,61,62
+beets\autotag\mb.py,album_url,albumid,65,66
+beets\autotag\mb.py,configure,,69,76
+beets\autotag\mb.py,_preferred_alias,aliases,80,100
+beets\autotag\mb.py,_flatten_artist_credit,credit,103,145
+beets\autotag\mb.py,track_info,"recording, index=None, medium=None, medium_index=None, medium_total=None",149,182
+beets\autotag\mb.py,_set_date_str,"info, date_str, original=False",185,202
+beets\autotag\mb.py,album_info,release,205,314
+beets\autotag\mb.py,match_album,"artist, album, tracks=None",317,350
+beets\autotag\mb.py,match_track,"artist, title",353,372
+beets\autotag\mb.py,_parse_id,s,375,382
+beets\autotag\mb.py,album_for_id,releaseid,385,403
+beets\autotag\mb.py,track_for_id,releaseid,406,422
+beets\autotag\__init__.py,apply_item_metadata,"item, track_info",36,47
+beets\autotag\__init__.py,apply_metadata,"album_info, mapping",52,144
+beets\dbcore\db.py,__init__,"self, model, for_path=False",45,48
+beets\dbcore\db.py,__getitem__,"self, key",50,54
+beets\dbcore\db.py,__iter__,self,56,57
+beets\dbcore\db.py,__len__,self,59,60
+beets\dbcore\db.py,get,"self, key, default=None",62,65
+beets\dbcore\db.py,_get_formatted,"self, model, key",67,78
+beets\dbcore\db.py,_getters,cls,142,148
+beets\dbcore\db.py,_template_funcs,self,150,155
+beets\dbcore\db.py,__init__,"self, db=None, **values",159,170
+beets\dbcore\db.py,_awaken,"cls, db=None, fixed_values={}, flex_values={}",172,184
+beets\dbcore\db.py,__repr__,self,186,189
+beets\dbcore\db.py,clear_dirty,self,192,196
+beets\dbcore\db.py,_check_db,"self, need_id=True",198,206
+beets\dbcore\db.py,_type,"self, key",210,217
+beets\dbcore\db.py,__getitem__,"self, key",219,231
+beets\dbcore\db.py,__setitem__,"self, key, value",233,249
+beets\dbcore\db.py,__delitem__,"self, key",251,262
+beets\dbcore\db.py,keys,"self, computed=False",264,273
+beets\dbcore\db.py,all_keys,self,275,280
+beets\dbcore\db.py,update,"self, values",284,288
+beets\dbcore\db.py,items,self,290,295
+beets\dbcore\db.py,get,"self, key, default=None",297,304
+beets\dbcore\db.py,__contains__,"self, key",306,309
+beets\dbcore\db.py,__iter__,self,311,315
+beets\dbcore\db.py,__getattr__,"self, key",319,326
+beets\dbcore\db.py,__setattr__,"self, key, value",328,332
+beets\dbcore\db.py,__delattr__,"self, key",334,338
+beets\dbcore\db.py,store,self,342,386
+beets\dbcore\db.py,load,self,388,397
+beets\dbcore\db.py,remove,self,399,410
+beets\dbcore\db.py,add,"self, db=None",413,436
+beets\dbcore\db.py,formatted,"self, for_path=False",442,446
+beets\dbcore\db.py,evaluate_template,"self, template, for_path=False",448,457
+beets\dbcore\db.py,_parse,"cls, key, string",461,468
+beets\dbcore\db.py,set_parse,"self, key, string",470,473
+beets\dbcore\db.py,__init__,"self, model_class, rows, db, query=None, sort=None",482,511
+beets\dbcore\db.py,_get_objects,self,513,542
+beets\dbcore\db.py,__iter__,self,544,555
+beets\dbcore\db.py,_make_model,"self, row",557,574
+beets\dbcore\db.py,__len__,self,576,592
+beets\dbcore\db.py,__nonzero__,self,594,597
+beets\dbcore\db.py,__getitem__,"self, n",599,614
+beets\dbcore\db.py,get,self,616,624
+beets\dbcore\db.py,__init__,"self, db",631,632
+beets\dbcore\db.py,__enter__,self,634,645
+beets\dbcore\db.py,__exit__,"self, exc_type, exc_value, traceback",647,658
+beets\dbcore\db.py,query,"self, statement, subvals=()",660,665
+beets\dbcore\db.py,mutate,"self, statement, subvals=()",667,672
+beets\dbcore\db.py,script,"self, statements",674,676
+beets\dbcore\db.py,__init__,"self, path",687,710
+beets\dbcore\db.py,_connection,self,714,733
+beets\dbcore\db.py,_tx_stack,self,735,743
+beets\dbcore\db.py,transaction,self,745,749
+beets\dbcore\db.py,_make_table,"self, table, fields",753,786
+beets\dbcore\db.py,_make_attribute_table,"self, flex_table",788,802
+beets\dbcore\db.py,_fetch,"self, model_cls, query=None, sort=None",806,829
+beets\dbcore\db.py,_get,"self, model_cls, id",832,836
+beets\dbcore\query.py,__init__,"self, query, explanation",39,43
+beets\dbcore\query.py,__init__,"self, what, expected, detail=None",52,56
+beets\dbcore\query.py,clause,self,62,69
+beets\dbcore\query.py,match,"self, item",71,75
+beets\dbcore\query.py,__repr__,self,77,78
+beets\dbcore\query.py,__eq__,"self, other",80,81
+beets\dbcore\query.py,__hash__,self,83,84
+beets\dbcore\query.py,__init__,"self, field, pattern, fast=True",94,97
+beets\dbcore\query.py,col_clause,self,99,100
+beets\dbcore\query.py,clause,self,102,107
+beets\dbcore\query.py,value_match,"cls, pattern, value",109,114
+beets\dbcore\query.py,match,"self, item",116,117
+beets\dbcore\query.py,__repr__,self,119,121
+beets\dbcore\query.py,__eq__,"self, other",123,125
+beets\dbcore\query.py,__hash__,self,127,128
+beets\dbcore\query.py,col_clause,self,133,134
+beets\dbcore\query.py,value_match,"cls, pattern, value",136,138
+beets\dbcore\query.py,__init__,"self, field, fast=True",143,144
+beets\dbcore\query.py,col_clause,self,146,147
+beets\dbcore\query.py,match,"self, item",149,154
+beets\dbcore\query.py,__repr__,self,156,157
+beets\dbcore\query.py,value_match,"cls, pattern, value",164,169
+beets\dbcore\query.py,string_match,"cls, pattern, value",171,176
+beets\dbcore\query.py,col_clause,self,181,189
+beets\dbcore\query.py,string_match,"cls, pattern, value",191,193
+beets\dbcore\query.py,__init__,"self, field, pattern, fast=True",203,212
+beets\dbcore\query.py,_normalize,s,214,219
+beets\dbcore\query.py,string_match,"cls, pattern, value",221,223
+beets\dbcore\query.py,__init__,"self, field, pattern, fast=True",230,234
+beets\dbcore\query.py,__init__,"self, field, pattern",243,257
+beets\dbcore\query.py,col_clause,self,259,260
+beets\dbcore\query.py,_convert,"self, s",271,286
+beets\dbcore\query.py,__init__,"self, field, pattern, fast=True",288,301
+beets\dbcore\query.py,match,"self, item",303,317
+beets\dbcore\query.py,col_clause,self,319,331
+beets\dbcore\query.py,__init__,"self, subqueries=()",338,339
+beets\dbcore\query.py,__len__,self,343,344
+beets\dbcore\query.py,__getitem__,"self, key",346,347
+beets\dbcore\query.py,__iter__,self,349,350
+beets\dbcore\query.py,__contains__,"self, item",352,353
+beets\dbcore\query.py,clause_with_joiner,"self, joiner",355,369
+beets\dbcore\query.py,__repr__,self,371,372
+beets\dbcore\query.py,__eq__,"self, other",374,376
+beets\dbcore\query.py,__hash__,self,378,382
+beets\dbcore\query.py,__init__,"self, pattern, fields, cls",390,398
+beets\dbcore\query.py,clause,self,400,401
+beets\dbcore\query.py,match,"self, item",403,407
+beets\dbcore\query.py,__repr__,self,409,411
+beets\dbcore\query.py,__eq__,"self, other",413,415
+beets\dbcore\query.py,__hash__,self,417,418
+beets\dbcore\query.py,__setitem__,"self, key, value",425,426
+beets\dbcore\query.py,__delitem__,"self, key",428,429
+beets\dbcore\query.py,clause,self,434,435
+beets\dbcore\query.py,match,"self, item",437,438
+beets\dbcore\query.py,clause,self,443,444
+beets\dbcore\query.py,match,"self, item",446,447
+beets\dbcore\query.py,__init__,"self, subquery",454,455
+beets\dbcore\query.py,clause,self,457,464
+beets\dbcore\query.py,match,"self, item",466,467
+beets\dbcore\query.py,__repr__,self,469,470
+beets\dbcore\query.py,__eq__,"self, other",472,474
+beets\dbcore\query.py,__hash__,self,476,477
+beets\dbcore\query.py,clause,self,482,483
+beets\dbcore\query.py,match,"self, item",485,486
+beets\dbcore\query.py,clause,self,491,492
+beets\dbcore\query.py,match,"self, item",494,495
+beets\dbcore\query.py,_to_epoch_time,date,500,506
+beets\dbcore\query.py,_parse_periods,pattern,509,520
+beets\dbcore\query.py,__init__,"self, date, precision",533,540
+beets\dbcore\query.py,parse,"cls, string",542,560
+beets\dbcore\query.py,open_right_endpoint,self,562,578
+beets\dbcore\query.py,__init__,"self, start, end",588,593
+beets\dbcore\query.py,from_periods,"cls, start, end",595,601
+beets\dbcore\query.py,contains,"self, date",603,608
+beets\dbcore\query.py,__str__,self,610,611
+beets\dbcore\query.py,__init__,"self, field, pattern, fast=True",623,626
+beets\dbcore\query.py,match,"self, item",628,631
+beets\dbcore\query.py,col_clause,self,635,653
+beets\dbcore\query.py,_convert,"self, s",664,680
+beets\dbcore\query.py,order_clause,self,690,694
+beets\dbcore\query.py,sort,"self, items",696,699
+beets\dbcore\query.py,is_slow,self,701,705
+beets\dbcore\query.py,__hash__,self,707,708
+beets\dbcore\query.py,__eq__,"self, other",710,711
+beets\dbcore\query.py,__init__,"self, sorts=None",718,719
+beets\dbcore\query.py,add_sort,"self, sort",721,722
+beets\dbcore\query.py,_sql_sorts,self,724,739
+beets\dbcore\query.py,order_clause,self,741,747
+beets\dbcore\query.py,is_slow,self,749,753
+beets\dbcore\query.py,sort,"self, items",755,769
+beets\dbcore\query.py,__repr__,self,771,772
+beets\dbcore\query.py,__hash__,self,774,775
+beets\dbcore\query.py,__eq__,"self, other",777,779
+beets\dbcore\query.py,__init__,"self, field, ascending=True, case_insensitive=True",786,789
+beets\dbcore\query.py,sort,"self, objs",791,802
+beets\dbcore\query.py,key,item,796,800
+beets\dbcore\query.py,__repr__,self,804,808
+beets\dbcore\query.py,__hash__,self,811,812
+beets\dbcore\query.py,__eq__,"self, other",814,817
+beets\dbcore\query.py,order_clause,self,823,832
+beets\dbcore\query.py,is_slow,self,839,840
+beets\dbcore\query.py,sort,items,845,846
+beets\dbcore\query.py,__nonzero__,self,848,849
+beets\dbcore\query.py,__bool__,self,851,852
+beets\dbcore\query.py,__eq__,"self, other",854,855
+beets\dbcore\query.py,__hash__,self,857,858
+beets\dbcore\queryparse.py,parse_query_part,"part, query_classes={}, prefixes={}, default_class=query.SubstringQuery",40,83
+beets\dbcore\queryparse.py,construct_query_part,"model_cls, prefixes, query_part",86,127
+beets\dbcore\queryparse.py,query_from_strings,"query_cls, model_cls, prefixes, query_parts",130,140
+beets\dbcore\queryparse.py,construct_sort_part,"model_cls, part",143,165
+beets\dbcore\queryparse.py,sort_from_strings,"model_cls, sort_parts",168,179
+beets\dbcore\queryparse.py,parse_sorted_query,"model_cls, parts, prefixes={}",182,218
+beets\dbcore\types.py,null,self,49,53
+beets\dbcore\types.py,format,"self, value",55,67
+beets\dbcore\types.py,parse,"self, string",69,76
+beets\dbcore\types.py,normalize,"self, value",78,88
+beets\dbcore\types.py,from_sql,"self, sql_value",90,109
+beets\dbcore\types.py,to_sql,"self, model_value",111,115
+beets\dbcore\types.py,__init__,"self, digits",136,137
+beets\dbcore\types.py,format,"self, value",139,140
+beets\dbcore\types.py,__init__,"self, unit, suffix=u''",147,149
+beets\dbcore\types.py,format,"self, value",151,152
+beets\dbcore\types.py,__init__,"self, primary=True",161,163
+beets\dbcore\types.py,format,"self, value",173,174
+beets\dbcore\types.py,format,"self, value",197,198
+beets\dbcore\types.py,parse,"self, string",200,201
+beets\ui\commands.py,_do_query,"lib, query, album, also_items=True",56,79
+beets\ui\commands.py,fields_func,"lib, opts, args",84,93
+beets\ui\commands.py,_print_rows,names,85,87
+beets\ui\commands.py,__init__,self,108,111
+beets\ui\commands.py,func,"self, lib, opts, args",114,122
+beets\ui\commands.py,disambig_string,info,132,159
+beets\ui\commands.py,dist_string,dist,162,173
+beets\ui\commands.py,penalty_string,"distance, limit=None",176,189
+beets\ui\commands.py,show_change,"cur_artist, cur_album, match",192,367
+beets\ui\commands.py,show_album,"artist, album",197,204
+beets\ui\commands.py,format_index,track_info,206,225
+beets\ui\commands.py,show_item_change,"item, match",370,405
+beets\ui\commands.py,summarize_items,"items, singleton",408,440
+beets\ui\commands.py,_summary_judment,rec,443,473
+beets\ui\commands.py,choose_candidate,"candidates, singleton, rec, cur_artist=None, cur_album=None, item=None, itemcount=None, extra_choices=[]",476,667
+beets\ui\commands.py,manual_search,singleton,670,676
+beets\ui\commands.py,manual_id,singleton,679,683
+beets\ui\commands.py,choose_match,"self, task",689,749
+beets\ui\commands.py,choose_item,"self, task",751,800
+beets\ui\commands.py,resolve_duplicate,"self, task, found_duplicates",802,841
+beets\ui\commands.py,should_resume,"self, path",843,846
+beets\ui\commands.py,_get_plugin_choices,"self, task",848,887
+beets\ui\commands.py,import_files,"lib, paths, query",893,927
+beets\ui\commands.py,import_func,"lib, opts, args",930,947
+beets\ui\commands.py,list_items,"lib, query, album, fmt=u''",1031,1040
+beets\ui\commands.py,list_func,"lib, opts, args",1043,1044
+beets\ui\commands.py,update_items,"lib, query, album, move, pretend",1057,1141
+beets\ui\commands.py,update_func,"lib, opts, args",1144,1146
+beets\ui\commands.py,remove_items,"lib, query, album, delete",1172,1201
+beets\ui\commands.py,remove_func,"lib, opts, args",1204,1205
+beets\ui\commands.py,show_stats,"lib, query, exact",1222,1262
+beets\ui\commands.py,stats_func,"lib, opts, args",1266,1267
+beets\ui\commands.py,show_version,"lib, opts, args",1283,1290
+beets\ui\commands.py,modify_items,"lib, mods, dels, query, write, move, album, confirm",1302,1362
+beets\ui\commands.py,modify_parse_args,args,1365,1381
+beets\ui\commands.py,modify_func,"lib, opts, args",1384,1389
+beets\ui\commands.py,move_items,"lib, dest, query, copy, album, pretend",1423,1447
+beets\ui\commands.py,move_func,"lib, opts, args",1450,1457
+beets\ui\commands.py,write_items,"lib, query, pretend, force",1481,1505
+beets\ui\commands.py,write_func,"lib, opts, args",1508,1509
+beets\ui\commands.py,config_func,"lib, opts, args",1527,1555
+beets\ui\commands.py,config_edit,,1558,1572
+beets\ui\commands.py,print_completion,*args,1599,1603
+beets\ui\commands.py,completion_script,commands,1615,1686
+beets\ui\__init__.py,_out_encoding,,76,91
+beets\ui\__init__.py,_arg_encoding,,94,103
+beets\ui\__init__.py,decargs,arglist,106,110
+beets\ui\__init__.py,print_,"*strings, **kwargs",113,138
+beets\ui\__init__.py,_bool_fallback,"a, b",143,151
+beets\ui\__init__.py,should_write,write_opt=None,154,158
+beets\ui\__init__.py,should_move,move_opt=None,161,174
+beets\ui\__init__.py,input_,prompt=None,180,197
+beets\ui\__init__.py,input_options,"options, require=False, prompt=None, fallback_prompt=None, numrange=None, default=None, max_width='72'",200,357
+beets\ui\__init__.py,input_yn,"prompt, require=False",360,367
+beets\ui\__init__.py,human_bytes,size,372,381
+beets\ui\__init__.py,human_seconds,interval,384,408
+beets\ui\__init__.py,human_seconds_short,interval,411,416
+beets\ui\__init__.py,_colorize,"color, text",459,470
+beets\ui\__init__.py,colorize,"color_name, text",473,490
+beets\ui\__init__.py,_colordiff,"a, b, highlight=u'text_highlight', minor_highlight=u'text_highlight_minor'",493,541
+beets\ui\__init__.py,colordiff,"a, b, highlight=u'text_highlight'",544,551
+beets\ui\__init__.py,get_path_formats,subview=None,554,563
+beets\ui\__init__.py,get_replacements,,566,580
+beets\ui\__init__.py,term_width,,583,603
+beets\ui\__init__.py,_field_diff,"field, old, new",609,636
+beets\ui\__init__.py,show_model_changes,"new, old=None, fields=None, always=False",639,679
+beets\ui\__init__.py,show_path_changes,path_changes,682,718
+beets\ui\__init__.py,__init__,"self, *args, **kwargs",736,738
+beets\ui\__init__.py,add_album_option,"self, flags=(u'-a', u'--album')",743,753
+beets\ui\__init__.py,_set_format,"self, option, opt_str, value, parser, target=None, fmt=None, store_true=False",755,780
+beets\ui\__init__.py,add_path_option,"self, flags=(u'-p', u'--path')",782,797
+beets\ui\__init__.py,add_format_option,"self, flags=(u'-f', u'--format'), target=None",799,825
+beets\ui\__init__.py,add_all_common_options,self,827,832
+beets\ui\__init__.py,__init__,"self, name, parser=None, help=u'', aliases=(), hide=False",847,859
+beets\ui\__init__.py,print_help,self,861,862
+beets\ui\__init__.py,parse_args,"self, args",864,865
+beets\ui\__init__.py,root_parser,self,867,869
+beets\ui\__init__.py,root_parser,"self, root_parser",871,875
+beets\ui\__init__.py,__init__,"self, *args, **kwargs",883,901
+beets\ui\__init__.py,add_subcommand,"self, *cmds",903,908
+beets\ui\__init__.py,format_help,"self, formatter=None",911,960
+beets\ui\__init__.py,_subcommand_for_name,"self, name",962,971
+beets\ui\__init__.py,parse_global_options,"self, args",973,984
+beets\ui\__init__.py,parse_subcommand,"self, args",986,1001
+beets\ui\__init__.py,vararg_callback,"option, opt_str, value, parser",1007,1040
+beets\ui\__init__.py,floatable,str,1023,1028
+beets\ui\__init__.py,_load_plugins,config,1045,1059
+beets\ui\__init__.py,_setup,"options, lib=None",1062,1086
+beets\ui\__init__.py,_configure,options,1089,1136
+beets\ui\__init__.py,_open_library,config,1139,1160
+beets\ui\__init__.py,_raw_main,"args, lib=None",1163,1199
+beets\ui\__init__.py,main,args=None,1202,1235
+beets\util\artresizer.py,resize_url,"url, maxwidth",41,47
+beets\util\artresizer.py,temp_file_for,path,51,57
+beets\util\artresizer.py,pil_resize,"maxwidth, path_in, path_out=None",60,78
+beets\util\artresizer.py,im_resize,"maxwidth, path_in, path_out=None",81,103
+beets\util\artresizer.py,pil_getsize,path_in,112,119
+beets\util\artresizer.py,im_getsize,path_in,122,138
+beets\util\artresizer.py,__init__,"cls, name, bases, dict",153,155
+beets\util\artresizer.py,shared,cls,157,161
+beets\util\artresizer.py,__init__,self,169,174
+beets\util\artresizer.py,resize,"self, maxwidth, path_in, path_out=None",176,185
+beets\util\artresizer.py,proxy_url,"self, maxwidth, url",187,195
+beets\util\artresizer.py,local,self,197,202
+beets\util\artresizer.py,get_size,"self, path_in",204,212
+beets\util\artresizer.py,_can_compare,self,214,217
+beets\util\artresizer.py,_check_method,,219,230
+beets\util\artresizer.py,has_IM,,233,249
+beets\util\artresizer.py,has_PIL,,252,259
+beets\util\bluelet.py,_reraise,"typ, exc, tb",28,29
+beets\util\bluelet.py,waitables,self,52,58
+beets\util\bluelet.py,fire,self,60,64
+beets\util\bluelet.py,__init__,"self, value",69,70
+beets\util\bluelet.py,__init__,"self, exc_info",75,76
+beets\util\bluelet.py,__init__,"self, coro",81,82
+beets\util\bluelet.py,__init__,"self, child",89,90
+beets\util\bluelet.py,__init__,"self, child",95,96
+beets\util\bluelet.py,__init__,"self, coro",104,105
+beets\util\bluelet.py,__init__,"self, value",112,113
+beets\util\bluelet.py,__init__,"self, duration",119,120
+beets\util\bluelet.py,time_left,self,122,123
+beets\util\bluelet.py,__init__,"self, fd, bufsize",128,130
+beets\util\bluelet.py,waitables,self,132,133
+beets\util\bluelet.py,fire,self,135,136
+beets\util\bluelet.py,__init__,"self, fd, data",141,143
+beets\util\bluelet.py,waitable,self,145,146
+beets\util\bluelet.py,fire,self,148,149
+beets\util\bluelet.py,_event_select,events,154,209
+beets\util\bluelet.py,__init__,"self, coro, exc_info",213,215
+beets\util\bluelet.py,reraise,self,217,218
+beets\util\bluelet.py,__init__,"self, child",228,229
+beets\util\bluelet.py,run,root_coro,232,394
+beets\util\bluelet.py,complete_thread,"coro, return_value",252,268
+beets\util\bluelet.py,advance_thread,"coro, value, is_exc=False",270,295
+beets\util\bluelet.py,kill_thread,coro,297,309
+beets\util\bluelet.py,__init__,"self, host, port",406,415
+beets\util\bluelet.py,accept,self,417,424
+beets\util\bluelet.py,close,self,426,430
+beets\util\bluelet.py,__init__,"self, sock, addr",436,440
+beets\util\bluelet.py,close,self,442,445
+beets\util\bluelet.py,recv,"self, size",447,458
+beets\util\bluelet.py,send,"self, data",460,466
+beets\util\bluelet.py,sendall,"self, data",468,472
+beets\util\bluelet.py,readline,"self, terminator='\n', bufsize='1024'",474,492
+beets\util\bluelet.py,__init__,"self, listener",499,500
+beets\util\bluelet.py,waitables,self,502,503
+beets\util\bluelet.py,fire,self,505,507
+beets\util\bluelet.py,__init__,"self, conn, bufsize",514,516
+beets\util\bluelet.py,waitables,self,518,519
+beets\util\bluelet.py,fire,self,521,522
+beets\util\bluelet.py,__init__,"self, conn, data, sendall=False",529,532
+beets\util\bluelet.py,waitables,self,534,535
+beets\util\bluelet.py,fire,self,537,541
+beets\util\bluelet.py,null,,547,550
+beets\util\bluelet.py,spawn,coro,553,559
+beets\util\bluelet.py,call,coro,562,569
+beets\util\bluelet.py,end,value=None,572,576
+beets\util\bluelet.py,read,"fd, bufsize=None",579,594
+beets\util\bluelet.py,reader,,583,590
+beets\util\bluelet.py,write,"fd, data",597,599
+beets\util\bluelet.py,connect,"host, port",602,608
+beets\util\bluelet.py,sleep,duration,611,614
+beets\util\bluelet.py,join,coro,617,621
+beets\util\bluelet.py,kill,coro,624,627
+beets\util\bluelet.py,server,"host, port, func",632,652
+beets\util\bluelet.py,handler,conn,638,642
+beets\util\confit.py,iter_first,sequence,58,69
+beets\util\confit.py,__init__,"self, filename, reason=None",100,116
+beets\util\confit.py,__init__,"self, value, filename=None, default=False",125,130
+beets\util\confit.py,__repr__,self,132,136
+beets\util\confit.py,of,"self, value",139,150
+beets\util\confit.py,resolve,self,167,173
+beets\util\confit.py,first,self,175,185
+beets\util\confit.py,exists,self,187,194
+beets\util\confit.py,add,"self, value",196,201
+beets\util\confit.py,set,"self, value",203,208
+beets\util\confit.py,root,self,210,213
+beets\util\confit.py,__repr__,self,215,216
+beets\util\confit.py,__iter__,self,218,240
+beets\util\confit.py,__getitem__,"self, key",242,244
+beets\util\confit.py,__setitem__,"self, key, value",246,250
+beets\util\confit.py,__contains__,"self, key",252,253
+beets\util\confit.py,set_args,"self, namespace",255,263
+beets\util\confit.py,__str__,self,270,276
+beets\util\confit.py,__unicode__,self,278,281
+beets\util\confit.py,__nonzero__,self,283,286
+beets\util\confit.py,__bool__,self,288,291
+beets\util\confit.py,keys,self,295,320
+beets\util\confit.py,items,self,322,328
+beets\util\confit.py,values,self,330,336
+beets\util\confit.py,all_contents,self,340,357
+beets\util\confit.py,flatten,"self, redact=False",361,378
+beets\util\confit.py,get,"self, template=None",380,393
+beets\util\confit.py,as_filename,self,397,398
+beets\util\confit.py,as_choice,"self, choices",400,401
+beets\util\confit.py,as_number,self,403,404
+beets\util\confit.py,as_str_seq,self,406,407
+beets\util\confit.py,redact,self,411,416
+beets\util\confit.py,redact,"self, flag",418,420
+beets\util\confit.py,set_redaction,"self, path, flag",422,426
+beets\util\confit.py,get_redactions,self,428,431
+beets\util\confit.py,__init__,"self, sources",438,445
+beets\util\confit.py,add,"self, obj",447,448
+beets\util\confit.py,set,"self, value",450,451
+beets\util\confit.py,resolve,self,453,454
+beets\util\confit.py,clear,self,456,461
+beets\util\confit.py,root,self,463,464
+beets\util\confit.py,set_redaction,"self, path, flag",466,470
+beets\util\confit.py,get_redactions,self,472,473
+beets\util\confit.py,__init__,"self, parent, key",478,499
+beets\util\confit.py,resolve,self,501,518
+beets\util\confit.py,set,"self, value",520,521
+beets\util\confit.py,add,"self, value",523,524
+beets\util\confit.py,root,self,526,527
+beets\util\confit.py,set_redaction,"self, path, flag",529,530
+beets\util\confit.py,get_redactions,self,532,534
+beets\util\confit.py,_package_path,name,541,557
+beets\util\confit.py,config_dirs,,560,593
+beets\util\confit.py,_construct_unicode,"self, node",607,608
+beets\util\confit.py,construct_yaml_map,"self, node",612,616
+beets\util\confit.py,construct_mapping,"self, node, deep=False",618,641
+beets\util\confit.py,check_plain,self,644,646
+beets\util\confit.py,load_yaml,filename,654,662
+beets\util\confit.py,represent_mapping,"self, tag, mapping, flow_style=None",672,695
+beets\util\confit.py,represent_list,"self, data",697,707
+beets\util\confit.py,represent_bool,"self, data",709,716
+beets\util\confit.py,represent_none,"self, data",718,721
+beets\util\confit.py,restore_yaml_comments,"data, default_data",730,759
+beets\util\confit.py,__init__,"self, appname, modname=None, read=True",765,783
+beets\util\confit.py,user_config_path,self,785,790
+beets\util\confit.py,_add_user_source,self,792,799
+beets\util\confit.py,_add_default_source,self,801,811
+beets\util\confit.py,read,"self, user=True, defaults=True",813,822
+beets\util\confit.py,config_dir,self,824,855
+beets\util\confit.py,set_file,"self, filename",857,862
+beets\util\confit.py,dump,"self, full=True, redact=False",864,903
+beets\util\confit.py,__init__,"self, appname, modname=None",911,915
+beets\util\confit.py,read,"self, user=True, defaults=True",917,919
+beets\util\confit.py,resolve,self,921,927
+beets\util\confit.py,add,"self, value",929,934
+beets\util\confit.py,set,"self, value",936,941
+beets\util\confit.py,clear,self,943,947
+beets\util\confit.py,__init__,"self, default=REQUIRED",967,974
+beets\util\confit.py,__call__,"self, view",976,980
+beets\util\confit.py,value,"self, view, template=None",982,996
+beets\util\confit.py,convert,"self, value, view",998,1006
+beets\util\confit.py,fail,"self, message, view, type_error=False",1008,1018
+beets\util\confit.py,__repr__,self,1021,1024
+beets\util\confit.py,convert,"self, value, view",1031,1039
+beets\util\confit.py,convert,"self, value, view",1045,1054
+beets\util\confit.py,__init__,"self, mapping",1062,1070
+beets\util\confit.py,value,"self, view, template=None",1072,1079
+beets\util\confit.py,__repr__,self,1081,1082
+beets\util\confit.py,__init__,"self, default=REQUIRED, pattern=None",1088,1095
+beets\util\confit.py,__repr__,self,1097,1106
+beets\util\confit.py,convert,"self, value, view",1108,1119
+beets\util\confit.py,__init__,"self, choices",1125,1132
+beets\util\confit.py,convert,"self, value, view",1134,1149
+beets\util\confit.py,__repr__,self,1151,1152
+beets\util\confit.py,__init__,"self, allowed, default=REQUIRED",1158,1160
+beets\util\confit.py,__repr__,self,1162,1171
+beets\util\confit.py,value,"self, view, template",1173,1175
+beets\util\confit.py,convert,"self, value, view",1177,1212
+beets\util\confit.py,__init__,"self, split=True",1222,1230
+beets\util\confit.py,convert,"self, value, view",1232,1255
+beets\util\confit.py,convert,x,1248,1254
+beets\util\confit.py,__init__,"self, default=REQUIRED, cwd=None, relative_to=None, in_app_dir=False",1269,1281
+beets\util\confit.py,__repr__,self,1283,1298
+beets\util\confit.py,resolve_relative_to,"self, view, template",1300,1349
+beets\util\confit.py,value,"self, view, template=None",1351,1376
+beets\util\confit.py,__init__,"self, typ, default=REQUIRED",1383,1388
+beets\util\confit.py,convert,"self, value, view",1390,1400
+beets\util\confit.py,__getattr__,"self, key",1407,1411
+beets\util\confit.py,as_template,value,1414,1447
+beets\util\enumeration.py,__ge__,"self, other",26,29
+beets\util\enumeration.py,__gt__,"self, other",31,34
+beets\util\enumeration.py,__le__,"self, other",36,39
+beets\util\enumeration.py,__lt__,"self, other",41,44
+beets\util\functemplate.py,__init__,"self, values, functions",53,55
+beets\util\functemplate.py,ex_lvalue,name,60,62
+beets\util\functemplate.py,ex_rvalue,name,65,67
+beets\util\functemplate.py,ex_literal,val,70,82
+beets\util\functemplate.py,ex_varassign,"name, expr",85,91
+beets\util\functemplate.py,ex_call,"func, args",94,107
+beets\util\functemplate.py,compile_func,"arg_names, statements, name=u'_the_func', debug=False",110,139
+beets\util\functemplate.py,__init__,"self, ident, original",146,148
+beets\util\functemplate.py,__repr__,self,150,151
+beets\util\functemplate.py,evaluate,"self, env",153,162
+beets\util\functemplate.py,translate,self,164,167
+beets\util\functemplate.py,__init__,"self, ident, args, original",172,175
+beets\util\functemplate.py,__repr__,self,177,179
+beets\util\functemplate.py,evaluate,"self, env",181,195
+beets\util\functemplate.py,translate,self,197,225
+beets\util\functemplate.py,__init__,"self, parts",232,233
+beets\util\functemplate.py,__repr__,self,235,236
+beets\util\functemplate.py,evaluate,"self, env",238,248
+beets\util\functemplate.py,translate,self,250,265
+beets\util\functemplate.py,__init__,"self, string",287,290
+beets\util\functemplate.py,parse_expression,self,298,364
+beets\util\functemplate.py,parse_symbol,self,366,408
+beets\util\functemplate.py,parse_call,self,410,447
+beets\util\functemplate.py,parse_argument_list,self,449,476
+beets\util\functemplate.py,_parse_ident,self,478,485
+beets\util\functemplate.py,_parse,template,488,499
+beets\util\functemplate.py,__init__,"self, template",507,510
+beets\util\functemplate.py,__eq__,"self, other",512,513
+beets\util\functemplate.py,interpret,"self, values={}, functions={}",515,521
+beets\util\functemplate.py,substitute,"self, values={}, functions={}",523,530
+beets\util\functemplate.py,translate,self,532,556
+beets\util\functemplate.py,wrapper_func,"values={}, functions={}",547,554
+beets\util\pipeline.py,_invalidate_queue,"q, val=None, sync=True",48,76
+beets\util\pipeline.py,_qsize,len=len,54,55
+beets\util\pipeline.py,_put,item,57,58
+beets\util\pipeline.py,_get,,60,61
+beets\util\pipeline.py,__init__,"self, maxsize='0'",84,87
+beets\util\pipeline.py,acquire,self,89,96
+beets\util\pipeline.py,release,self,98,125
+beets\util\pipeline.py,_get,,114,118
+beets\util\pipeline.py,__init__,"self, messages",132,133
+beets\util\pipeline.py,multiple,messages,136,140
+beets\util\pipeline.py,stage,func,143,162
+beets\util\pipeline.py,coro,*args,157,161
+beets\util\pipeline.py,mutator_stage,func,165,185
+beets\util\pipeline.py,coro,*args,180,184
+beets\util\pipeline.py,_allmsgs,obj,188,198
+beets\util\pipeline.py,__init__,"self, all_threads",203,208
+beets\util\pipeline.py,abort,self,210,220
+beets\util\pipeline.py,abort_all,"self, exc_info",222,227
+beets\util\pipeline.py,__init__,"self, coro, out_queue, all_threads",234,241
+beets\util\pipeline.py,run,self,243,268
+beets\util\pipeline.py,__init__,"self, coro, in_queue, out_queue, all_threads",275,280
+beets\util\pipeline.py,run,self,282,316
+beets\util\pipeline.py,__init__,"self, coro, in_queue, all_threads",323,326
+beets\util\pipeline.py,run,self,328,352
+beets\util\pipeline.py,__init__,"self, stages",360,372
+beets\util\pipeline.py,run_sequential,self,374,379
+beets\util\pipeline.py,run_parallel,"self, queue_size=DEFAULT_QUEUE_SIZE",381,435
+beets\util\pipeline.py,pull,self,437,460
+beets\util\pipeline.py,produce,,468,472
+beets\util\pipeline.py,work,,474,479
+beets\util\pipeline.py,consume,,481,485
+beets\util\pipeline.py,exc_produce,,500,504
+beets\util\pipeline.py,exc_work,,506,513
+beets\util\pipeline.py,exc_consume,,515,518
+beets\util\__init__.py,__init__,"self, reason, verb, tb=None",51,55
+beets\util\__init__.py,_gerund,self,57,64
+beets\util\__init__.py,_reasonstr,self,66,75
+beets\util\__init__.py,get_message,self,77,81
+beets\util\__init__.py,log,"self, logger",83,89
+beets\util\__init__.py,__init__,"self, reason, verb, paths, tb=None",97,99
+beets\util\__init__.py,get_message,self,101,119
+beets\util\__init__.py,normpath,path,122,128
+beets\util\__init__.py,ancestry,path,131,152
+beets\util\__init__.py,sorted_walk,"path, ignore=(), logger=None",155,204
+beets\util\__init__.py,mkdirall,path,207,217
+beets\util\__init__.py,fnmatch_all,"names, patterns",220,232
+beets\util\__init__.py,prune_dirs,"path, root=None, clutter=(u'.DS_Store', u'Thumbs.db')",235,273
+beets\util\__init__.py,components,path,276,297
+beets\util\__init__.py,_fsencoding,,300,312
+beets\util\__init__.py,bytestring_path,path,315,333
+beets\util\__init__.py,displayable_path,"path, separator=u'; '",336,352
+beets\util\__init__.py,syspath,"path, prefix=True",355,386
+beets\util\__init__.py,samefile,"p1, p2",389,391
+beets\util\__init__.py,remove,"path, soft=True",394,404
+beets\util\__init__.py,copy,"path, dest, replace=False",407,423
+beets\util\__init__.py,move,"path, dest, replace=False",426,452
+beets\util\__init__.py,link,"path, dest, replace=False",455,472
+beets\util\__init__.py,unique_path,path,475,494
+beets\util\__init__.py,sanitize_path,"path, replacements=None",510,528
+beets\util\__init__.py,truncate_path,"path, length=MAX_FILENAME_LENGTH",531,545
+beets\util\__init__.py,_legalize_stage,"path, replacements, length, extension, fragment",548,569
+beets\util\__init__.py,legalize_path,"path, replacements, length, extension, fragment",572,617
+beets\util\__init__.py,str2bool,value,620,622
+beets\util\__init__.py,as_string,value,625,636
+beets\util\__init__.py,plurality,objs,639,647
+beets\util\__init__.py,cpu_count,,650,674
+beets\util\__init__.py,command_output,"cmd, shell=False",677,705
+beets\util\__init__.py,max_filename_length,"path, limit=MAX_FILENAME_LENGTH",708,722
+beets\util\__init__.py,open_anything,,725,736
+beets\util\__init__.py,editor_command,,739,749
+beets\util\__init__.py,shlex_split,s,752,769
+beets\util\__init__.py,interactive_open,"targets, command",772,788
+beets\util\__init__.py,_windows_long_path_name,short_path,791,812
+beets\util\__init__.py,case_sensitive,path,815,845
+beets\util\__init__.py,raw_seconds_short,string,848,858
+beetsplug\acousticbrainz.py,__init__,self,30,36
+beetsplug\acousticbrainz.py,commands,self,38,47
+beetsplug\acousticbrainz.py,func,"lib, opts, args",42,44
+beetsplug\acousticbrainz.py,import_task_files,"self, session, task",49,54
+beetsplug\acousticbrainz.py,fetch_info,"log, items",57,103
+beetsplug\acousticbrainz.py,generate_url,mbid,106,109
+beetsplug\acousticbrainz.py,get_value,"log, data, map_path",112,118
+beetsplug\badfiles.py,run_command,"self, cmd",34,52
+beetsplug\badfiles.py,check_mp3val,"self, path",54,59
+beetsplug\badfiles.py,check_flac,"self, path",61,62
+beetsplug\badfiles.py,check_custom,"self, command",64,69
+beetsplug\badfiles.py,checker,path,65,68
+beetsplug\badfiles.py,get_checker,"self, ext",71,82
+beetsplug\badfiles.py,check_bad,"self, lib, opts, args",84,115
+beetsplug\badfiles.py,commands,self,117,121
+beetsplug\bench.py,aunique_benchmark,"lib, prof",33,59
+beetsplug\bench.py,_build_tree,,34,35
+beetsplug\bench.py,match_benchmark,"lib, prof, query=None, album_id=None",62,84
+beetsplug\bench.py,_run_match,,77,78
+beetsplug\bench.py,commands,self,90,109
+beetsplug\bpm.py,bpm,max_strokes,27,48
+beetsplug\bpm.py,__init__,self,53,57
+beetsplug\bpm.py,commands,self,60,65
+beetsplug\bpm.py,command,"self, lib, opts, args",67,68
+beetsplug\bpm.py,get_bpm,"self, items, write=False",70,88
+beetsplug\bucket.py,pairwise,iterable,34,38
+beetsplug\bucket.py,span_from_str,span_str,41,73
+beetsplug\bucket.py,normalize_year,"d, yearfrom",45,58
+beetsplug\bucket.py,complete_year_spans,spans,76,84
+beetsplug\bucket.py,extend_year_spans,"spans, spanlen, start='1900', end='2014'",87,105
+beetsplug\bucket.py,build_year_spans,year_spans_str,108,116
+beetsplug\bucket.py,str2fmt,s,119,132
+beetsplug\bucket.py,format_span,"fmt, yearfrom, yearto, fromnchars, tonchars",135,141
+beetsplug\bucket.py,extract_modes,spans,144,151
+beetsplug\bucket.py,build_alpha_spans,"alpha_spans_str, alpha_regexs",154,178
+beetsplug\bucket.py,__init__,self,182,192
+beetsplug\bucket.py,setup,self,194,206
+beetsplug\bucket.py,find_bucket_year,"self, year",209,222
+beetsplug\bucket.py,find_bucket_alpha,"self, s",224,231
+beetsplug\bucket.py,_tmpl_bucket,"self, text, field=None",233,241
+beetsplug\chroma.py,prefix,"it, count",52,58
+beetsplug\chroma.py,acoustid_match,"log, path",61,105
+beetsplug\chroma.py,_all_releases,items,111,127
+beetsplug\chroma.py,__init__,self,131,141
+beetsplug\chroma.py,fingerprint_task,"self, task, session",143,144
+beetsplug\chroma.py,track_distance,"self, item, info",146,154
+beetsplug\chroma.py,candidates,"self, items, artist, album, va_likely",156,164
+beetsplug\chroma.py,item_candidates,"self, item, artist, title",166,177
+beetsplug\chroma.py,commands,self,179,201
+beetsplug\chroma.py,submit_cmd_func,"lib, opts, args",183,188
+beetsplug\chroma.py,fingerprint_cmd_func,"lib, opts, args",196,198
+beetsplug\chroma.py,fingerprint_task,"log, task, session",207,213
+beetsplug\chroma.py,apply_acoustid_metadata,"task, session",216,223
+beetsplug\chroma.py,submit_items,"log, userkey, items, chunksize='64'",229,273
+beetsplug\chroma.py,submit_chunk,,234,241
+beetsplug\chroma.py,fingerprint_item,"log, item, write=False",276,309
+beetsplug\convert.py,replace_ext,"path, ext",45,50
+beetsplug\convert.py,get_format,fmt=None,53,85
+beetsplug\convert.py,should_transcode,"item, fmt",88,97
+beetsplug\convert.py,__init__,self,101,138
+beetsplug\convert.py,commands,self,140,158
+beetsplug\convert.py,auto_convert,"self, config, task",160,163
+beetsplug\convert.py,encode,"self, command, source, dest, pretend=False",167,216
+beetsplug\convert.py,convert_item,"self, dest_dir, keep_new, path_formats, fmt, pretend=False",218,305
+beetsplug\convert.py,copy_album_art,"self, album, dest_dir, path_formats, pretend=False",307,346
+beetsplug\convert.py,convert_func,"self, lib, opts, args",348,391
+beetsplug\convert.py,convert_on_import,"self, lib, item",393,419
+beetsplug\convert.py,_cleanup,"self, task, session",421,426
+beetsplug\cue.py,__init__,self,15,20
+beetsplug\cue.py,candidates,"self, items, artist, album, va_likely",25,27
+beetsplug\cue.py,item_candidates,"self, item, artist, album",29,54
+beetsplug\discogs.py,__init__,self,54,65
+beetsplug\discogs.py,setup,"self, session=None",67,85
+beetsplug\discogs.py,reset_auth,self,87,91
+beetsplug\discogs.py,_tokenfile,self,93,96
+beetsplug\discogs.py,authenticate,"self, c_key, c_secret",98,125
+beetsplug\discogs.py,album_distance,"self, items, album_info, mapping",127,133
+beetsplug\discogs.py,candidates,"self, items, artist, album, va_likely",135,157
+beetsplug\discogs.py,album_for_id,"self, album_id",159,189
+beetsplug\discogs.py,get_albums,"self, query",191,212
+beetsplug\discogs.py,get_album_info,"self, result",214,248
+beetsplug\discogs.py,get_artist,"self, artists",250,268
+beetsplug\discogs.py,get_tracks,"self, tracklist",270,317
+beetsplug\discogs.py,get_track_info,"self, track, index",319,329
+beetsplug\discogs.py,get_track_index,"self, position",331,342
+beetsplug\discogs.py,get_track_length,"self, duration",344,351
+beetsplug\duplicates.py,__init__,self,34,103
+beetsplug\duplicates.py,commands,self,105,165
+beetsplug\duplicates.py,_dup,"lib, opts, args",107,162
+beetsplug\duplicates.py,_process_item,"self, item, copy=False, move=False, delete=False, tag=False, fmt=u''",167,186
+beetsplug\duplicates.py,_checksum,"self, item, prog",188,213
+beetsplug\duplicates.py,_group_by,"self, objs, keys, strict",215,238
+beetsplug\duplicates.py,_order,"self, objs, tiebreak=None",240,267
+beetsplug\duplicates.py,truthy,v,256,261
+beetsplug\duplicates.py,_merge_items,"self, objs",269,288
+beetsplug\duplicates.py,_merge_albums,"self, objs",290,309
+beetsplug\duplicates.py,_merge,"self, objs",311,320
+beetsplug\duplicates.py,_duplicates,"self, objs, keys, full, strict, tiebreak, merge",322,331
+beetsplug\echonest.py,_splitstrip,"string, delim=u', '",81,85
+beetsplug\echonest.py,diff,"item1, item2",88,113
+beetsplug\echonest.py,similar,"lib, src_item, threshold='0.15', fmt=u'${difference}: ${path}'",116,122
+beetsplug\echonest.py,__init__,self,129,145
+beetsplug\echonest.py,_echofun,"self, func, **kwargs",147,183
+beetsplug\echonest.py,_pick_song,"self, songs, item",185,206
+beetsplug\echonest.py,_flatten_song,"self, song",208,216
+beetsplug\echonest.py,profile,"self, item",220,243
+beetsplug\echonest.py,search,"self, item",247,254
+beetsplug\echonest.py,prepare_upload,"self, item",258,286
+beetsplug\echonest.py,convert,"self, source",288,314
+beetsplug\echonest.py,truncate,"self, source",316,339
+beetsplug\echonest.py,analyze,"self, item",341,391
+beetsplug\echonest.py,fetch_song,"self, item",395,414
+beetsplug\echonest.py,apply_metadata,"self, item, values, write=False",416,442
+beetsplug\echonest.py,imported,"self, session, task",446,452
+beetsplug\echonest.py,requires_update,"self, item",456,464
+beetsplug\echonest.py,commands,self,466,500
+beetsplug\echonest.py,fetch_func,"lib, opts, args",474,482
+beetsplug\echonest.py,sim_func,"lib, opts, args",493,496
+beetsplug\edit.py,edit,filename,42,47
+beetsplug\edit.py,dump,arg,50,56
+beetsplug\edit.py,load,s,60,82
+beetsplug\edit.py,_safe_value,"obj, key, value",85,93
+beetsplug\edit.py,flatten,"obj, fields",96,119
+beetsplug\edit.py,apply,"obj, data",122,137
+beetsplug\edit.py,__init__,self,142,151
+beetsplug\edit.py,commands,self,154,172
+beetsplug\edit.py,_edit_command,"self, lib, opts, args",174,190
+beetsplug\edit.py,_get_fields,"self, album, extra",192,208
+beetsplug\edit.py,edit,"self, album, objs, fields",210,223
+beetsplug\edit.py,edit_objects,"self, objs, fields",225,289
+beetsplug\edit.py,apply_data,"self, objs, old_data, new_data",291,317
+beetsplug\edit.py,save_write,"self, objs",319,326
+beetsplug\embedart.py,__init__,self,34,54
+beetsplug\embedart.py,commands,self,56,127
+beetsplug\embedart.py,embed_func,"lib, opts, args",68,82
+beetsplug\embedart.py,extract_func,"lib, opts, args",99,116
+beetsplug\embedart.py,clear_func,"lib, opts, args",123,124
+beetsplug\embedart.py,process_album,"self, album",129,137
+beetsplug\embedart.py,remove_artfile,"self, album",139,148
+beetsplug\embyupdate.py,api_url,"host, port, endpoint",22,32
+beetsplug\embyupdate.py,password_data,"username, password",35,41
+beetsplug\embyupdate.py,create_headers,"user_id, token=None",45,60
+beetsplug\embyupdate.py,get_token,"host, port, headers, auth_data",63,69
+beetsplug\embyupdate.py,get_user,"host, port, username",72,79
+beetsplug\embyupdate.py,__init__,self,83,92
+beetsplug\embyupdate.py,listen_for_db_change,"self, lib, model",94,97
+beetsplug\embyupdate.py,update,"self, lib",99,135
+beetsplug\fetchart.py,_logged_get,"log, *args, **kwargs",50,80
+beetsplug\fetchart.py,request,"self, *args, **kwargs",88,93
+beetsplug\fetchart.py,__init__,"self, log, config",99,101
+beetsplug\fetchart.py,get,"self, album",103,104
+beetsplug\fetchart.py,get,"self, album",112,119
+beetsplug\fetchart.py,get,"self, album",126,131
+beetsplug\fetchart.py,get,"self, album",139,158
+beetsplug\fetchart.py,get,"self, album",164,193
+beetsplug\fetchart.py,get,"self, album",198,227
+beetsplug\fetchart.py,get,"self, album",256,351
+beetsplug\fetchart.py,filename_priority,"filename, cover_names",356,364
+beetsplug\fetchart.py,get,"self, path, cover_names, cautious",366,394
+beetsplug\fetchart.py,__init__,self,415,455
+beetsplug\fetchart.py,fetch_art,"self, session, task",458,477
+beetsplug\fetchart.py,assign_art,"self, session, task",480,491
+beetsplug\fetchart.py,commands,self,494,503
+beetsplug\fetchart.py,func,"lib, opts, args",500,501
+beetsplug\fetchart.py,_fetch_image,"self, url",507,536
+beetsplug\fetchart.py,_is_valid_image_candidate,"self, candidate",538,581
+beetsplug\fetchart.py,art_for_album,"self, album, paths, local_only=False",583,622
+beetsplug\fetchart.py,batch_fetch_art,"self, lib, albums, force",624,645
+beetsplug\fetchart.py,_source_urls,"self, album",647,663
+beetsplug\filefilter.py,__init__,self,26,43
+beetsplug\filefilter.py,import_task_created_event,"self, session, task",45,63
+beetsplug\filefilter.py,file_filter,"self, full_path",65,76
+beetsplug\freedesktop.py,commands,self,27,31
+beetsplug\freedesktop.py,deprecation_message,"self, lib, opts, args",33,36
+beetsplug\fromfilename.py,equal,seq,57,60
+beetsplug\fromfilename.py,equal_fields,"matchdict, field",63,68
+beetsplug\fromfilename.py,all_matches,"names, pattern",71,87
+beetsplug\fromfilename.py,bad_title,title,90,97
+beetsplug\fromfilename.py,apply_matches,d,100,138
+beetsplug\fromfilename.py,__init__,self,144,146
+beetsplug\fromfilename.py,filename_task,"task, session",149,174
+beetsplug\ftintitle.py,split_on_feat,artist,28,40
+beetsplug\ftintitle.py,contains_feat,title,43,46
+beetsplug\ftintitle.py,find_feat_part,"artist, albumartist",49,75
+beetsplug\ftintitle.py,__init__,self,79,98
+beetsplug\ftintitle.py,commands,self,100,114
+beetsplug\ftintitle.py,func,"lib, opts, args",102,111
+beetsplug\ftintitle.py,imported,"self, session, task",116,123
+beetsplug\ftintitle.py,update_metadata,"self, item, feat_part, drop_feat",125,145
+beetsplug\ftintitle.py,ft_in_title,"self, item, drop_feat",147,170
+beetsplug\fuzzy.py,string_match,"self, pattern, val",29,36
+beetsplug\fuzzy.py,__init__,self,40,44
+beetsplug\fuzzy.py,queries,self,47,49
+beetsplug\ihate.py,summary,task,32,39
+beetsplug\ihate.py,__init__,self,43,49
+beetsplug\ihate.py,do_i_hate_this,"cls, task, action_patterns",52,65
+beetsplug\ihate.py,import_task_choice_event,"self, session, task",67,83
+beetsplug\importadded.py,__init__,self,19,40
+beetsplug\importadded.py,check_config,"self, task, session",42,43
+beetsplug\importadded.py,reimported_item,"self, item",45,46
+beetsplug\importadded.py,reimported_album,"self, album",48,49
+beetsplug\importadded.py,record_if_inplace,"self, task, session",51,60
+beetsplug\importadded.py,record_reimported,"self, task, session",62,66
+beetsplug\importadded.py,write_file_mtime,"self, path, mtime",68,72
+beetsplug\importadded.py,write_item_mtime,"self, item, mtime",74,80
+beetsplug\importadded.py,record_import_mtime,"self, item, source, destination",82,89
+beetsplug\importadded.py,update_album_times,"self, lib, album",91,109
+beetsplug\importadded.py,update_item_times,"self, lib, item",111,123
+beetsplug\importfeeds.py,_get_feeds_dir,lib,34,45
+beetsplug\importfeeds.py,_build_m3u_filename,basename,48,58
+beetsplug\importfeeds.py,_write_m3u,"m3u_path, items_paths",61,67
+beetsplug\importfeeds.py,__init__,self,71,97
+beetsplug\importfeeds.py,_record_items,"self, lib, basename, items",99,140
+beetsplug\importfeeds.py,library_opened,"self, lib",142,144
+beetsplug\importfeeds.py,album_imported,"self, lib, album",146,147
+beetsplug\importfeeds.py,item_imported,"self, lib, item",149,150
+beetsplug\info.py,tag_data,"lib, args",32,43
+beetsplug\info.py,tag_data_emitter,path,46,59
+beetsplug\info.py,emitter,,47,58
+beetsplug\info.py,library_data,"lib, args",62,64
+beetsplug\info.py,library_data_emitter,item,67,73
+beetsplug\info.py,emitter,,68,72
+beetsplug\info.py,update_summary,"summary, tags",76,82
+beetsplug\info.py,print_data,"data, item=None, fmt=None",85,119
+beetsplug\info.py,commands,self,124,135
+beetsplug\info.py,run,"self, lib, opts, args",137,180
+beetsplug\info.py,make_key_filter,include,183,206
+beetsplug\info.py,filter_,data,199,204
+beetsplug\info.py,identity,val,209,210
+beetsplug\inline.py,__init__,"self, code, exc",33,36
+beetsplug\inline.py,_compile_func,body,40,51
+beetsplug\inline.py,__init__,self,55,77
+beetsplug\inline.py,compile_inline,"self, python_code, album",79,125
+beetsplug\inline.py,_dict_for,obj,101,105
+beetsplug\inline.py,_expr_func,obj,109,114
+beetsplug\inline.py,_func_func,obj,119,124
+beetsplug\ipfs.py,__init__,self,28,35
+beetsplug\ipfs.py,commands,self,37,85
+beetsplug\ipfs.py,func,"lib, opts, args",59,82
+beetsplug\ipfs.py,auto_add,"self, session, task",87,90
+beetsplug\ipfs.py,ipfs_play,"self, lib, opts, args",92,99
+beetsplug\ipfs.py,ipfs_add,"self, album",101,142
+beetsplug\ipfs.py,ipfs_get,"self, lib, query",144,152
+beetsplug\ipfs.py,ipfs_get_from_hash,"self, lib, _hash",154,168
+beetsplug\ipfs.py,ipfs_publish,"self, lib",170,181
+beetsplug\ipfs.py,ipfs_import,"self, lib, args",183,220
+beetsplug\ipfs.py,already_added,"self, check, jlib",222,226
+beetsplug\ipfs.py,ipfs_list,"self, lib, args",228,237
+beetsplug\ipfs.py,query,"self, lib, args",239,242
+beetsplug\ipfs.py,get_remote_lib,"self, lib",244,250
+beetsplug\ipfs.py,ipfs_added_albums,"self, rlib, tmpname",252,262
+beetsplug\ipfs.py,create_new_album,"self, album, tmplib",264,283
+beetsplug\keyfinder.py,__init__,self,31,40
+beetsplug\keyfinder.py,commands,self,42,46
+beetsplug\keyfinder.py,command,"self, lib, opts, args",48,49
+beetsplug\keyfinder.py,imported,"self, session, task",51,52
+beetsplug\keyfinder.py,find_key,"self, items, write=False",54,88
+beetsplug\lastimport.py,__init__,self,30,42
+beetsplug\lastimport.py,commands,self,45,52
+beetsplug\lastimport.py,func,"lib, opts, args",48,49
+beetsplug\lastimport.py,import_lastfm,"lib, log",55,106
+beetsplug\lastimport.py,fetch_tracks,"user, page, limit",109,117
+beetsplug\lastimport.py,process_tracks,"lib, tracks, log",120,191
+beetsplug\lyrics.py,unescape,text,59,69
+beetsplug\lyrics.py,replchar,m,65,67
+beetsplug\lyrics.py,extract_text_between,"html, start_marker, end_marker",72,78
+beetsplug\lyrics.py,extract_text_in,"html, starttag",81,112
+beetsplug\lyrics.py,search_pairs,item,115,159
+beetsplug\lyrics.py,__init__,"self, config, log",163,164
+beetsplug\lyrics.py,_encode,s,166,173
+beetsplug\lyrics.py,build_url,"self, artist, title",175,177
+beetsplug\lyrics.py,fetch_url,"self, url",179,197
+beetsplug\lyrics.py,fetch,"self, artist, title",199,200
+beetsplug\lyrics.py,_encode,"cls, s",204,212
+beetsplug\lyrics.py,fetch,"self, artist, title",218,225
+beetsplug\lyrics.py,__init__,"self, config, log",230,233
+beetsplug\lyrics.py,search_genius,"self, artist, title",235,256
+beetsplug\lyrics.py,get_lyrics,"self, link",258,278
+beetsplug\lyrics.py,build_lyric_string,"self, lyrics",280,293
+beetsplug\lyrics.py,fetch,"self, artist, title",295,313
+beetsplug\lyrics.py,fetch,"self, artist, title",320,327
+beetsplug\lyrics.py,_encode,"cls, s",338,342
+beetsplug\lyrics.py,fetch,"self, artist, title",344,359
+beetsplug\lyrics.py,remove_credits,text,362,373
+beetsplug\lyrics.py,_scrape_strip_cruft,"html, plain_text_out=False",376,392
+beetsplug\lyrics.py,_scrape_merge_paragraphs,html,395,397
+beetsplug\lyrics.py,scrape_lyrics_from_html,html,400,424
+beetsplug\lyrics.py,is_text_notcode,text,409,413
+beetsplug\lyrics.py,__init__,"self, config, log",429,432
+beetsplug\lyrics.py,is_lyrics,"self, text, artist=None",434,461
+beetsplug\lyrics.py,slugify,"self, text",463,476
+beetsplug\lyrics.py,is_page_candidate,"self, url_link, url_title, title, artist",481,506
+beetsplug\lyrics.py,fetch,"self, artist, title",508,536
+beetsplug\lyrics.py,__init__,self,549,575
+beetsplug\lyrics.py,commands,self,577,599
+beetsplug\lyrics.py,func,"lib, opts, args",586,596
+beetsplug\lyrics.py,imported,"self, session, task",601,607
+beetsplug\lyrics.py,fetch_item_lyrics,"self, lib, item, write, force",609,639
+beetsplug\lyrics.py,get_lyrics,"self, artist, title",641,650
+beetsplug\mbcollection.py,mb_call,"func, *args, **kwargs",31,41
+beetsplug\mbcollection.py,submit_albums,"collection_id, release_ids",44,52
+beetsplug\mbcollection.py,__init__,self,57,65
+beetsplug\mbcollection.py,commands,self,67,70
+beetsplug\mbcollection.py,update_collection,"self, lib, opts, args",72,73
+beetsplug\mbcollection.py,imported,"self, session, task",75,79
+beetsplug\mbcollection.py,update_album_list,"self, album_list",81,111
+beetsplug\mbsubmit.py,__init__,self,35,39
+beetsplug\mbsubmit.py,before_choose_candidate_event,"self, session, task",41,45
+beetsplug\mbsubmit.py,print_tracks,"self, session, task",48,50
+beetsplug\mbsubmit.py,print_tracks_and_skip,"self, session, task",52,55
+beetsplug\mbsync.py,apply_item_changes,"lib, item, move, pretend, write",27,37
+beetsplug\mbsync.py,__init__,self,41,42
+beetsplug\mbsync.py,commands,self,44,60
+beetsplug\mbsync.py,func,"self, lib, opts, args",62,71
+beetsplug\mbsync.py,singletons,"self, lib, query, move, pretend, write",73,95
+beetsplug\mbsync.py,albums,"self, lib, query, move, pretend, write",97,166
+beetsplug\missing.py,_missing_count,album,28,31
+beetsplug\missing.py,_item,"track_info, album_info, album_id",34,78
+beetsplug\missing.py,__init__,self,85,104
+beetsplug\missing.py,commands,self,106,132
+beetsplug\missing.py,_miss,"lib, opts, args",107,129
+beetsplug\missing.py,_missing,"self, album",134,147
+beetsplug\mpdstats.py,is_url,path,41,44
+beetsplug\mpdstats.py,_write_command,"self, command, args=[]",50,52
+beetsplug\mpdstats.py,_read_line,self,54,58
+beetsplug\mpdstats.py,__init__,"self, log",62,68
+beetsplug\mpdstats.py,connect,self,70,91
+beetsplug\mpdstats.py,disconnect,self,94,98
+beetsplug\mpdstats.py,get,"self, command, retries=RETRIES",100,121
+beetsplug\mpdstats.py,playlist,self,123,134
+beetsplug\mpdstats.py,status,self,136,139
+beetsplug\mpdstats.py,events,self,141,145
+beetsplug\mpdstats.py,__init__,"self, lib, log",149,158
+beetsplug\mpdstats.py,rating,"self, play_count, skip_count, rating, skipped",160,170
+beetsplug\mpdstats.py,get_item,"self, path",172,180
+beetsplug\mpdstats.py,update_item,"self, item, attribute, value=None, increment=None",182,201
+beetsplug\mpdstats.py,update_rating,"self, item, skipped",203,217
+beetsplug\mpdstats.py,handle_song_change,"self, song",219,239
+beetsplug\mpdstats.py,handle_played,"self, song",241,245
+beetsplug\mpdstats.py,handle_skipped,"self, song",247,251
+beetsplug\mpdstats.py,on_stop,"self, status",253,259
+beetsplug\mpdstats.py,on_pause,"self, status",261,263
+beetsplug\mpdstats.py,on_play,"self, status",265,297
+beetsplug\mpdstats.py,run,self,299,314
+beetsplug\mpdstats.py,__init__,self,326,336
+beetsplug\mpdstats.py,commands,self,338,369
+beetsplug\mpdstats.py,func,"lib, opts, args",352,366
+beetsplug\mpdupdate.py,__init__,"self, host, port, sep=u'\n'",38,46
+beetsplug\mpdupdate.py,readline,self,48,58
+beetsplug\mpdupdate.py,send,"self, data",60,61
+beetsplug\mpdupdate.py,close,self,63,64
+beetsplug\mpdupdate.py,__init__,self,68,83
+beetsplug\mpdupdate.py,db_change,"self, lib, model",85,86
+beetsplug\mpdupdate.py,update,"self, lib",88,92
+beetsplug\mpdupdate.py,update_mpd,"self, host=u'localhost', port='6600', password=None",95,129
+beetsplug\permissions.py,convert_perm,perm,19,26
+beetsplug\permissions.py,check_permissions,"path, permission",29,32
+beetsplug\permissions.py,dirs_in_library,"library, item",35,40
+beetsplug\permissions.py,__init__,self,44,54
+beetsplug\permissions.py,permissions,"lib, item=None, album=None",57,103
+beetsplug\play.py,__init__,self,36,44
+beetsplug\play.py,commands,self,47,59
+beetsplug\play.py,play_music,"self, lib, opts, args",61,133
+beetsplug\play.py,_create_tmp_playlist,"self, paths_list",135,142
+beetsplug\plexupdate.py,get_music_section,"host, port, token, library_name",23,36
+beetsplug\plexupdate.py,update_plex,"host, port, token, library_name",39,50
+beetsplug\plexupdate.py,append_token,"url, token",53,58
+beetsplug\plexupdate.py,__init__,self,62,72
+beetsplug\plexupdate.py,listen_for_db_change,"self, lib, model",74,76
+beetsplug\plexupdate.py,update,"self, lib",78,93
+beetsplug\random.py,random_item,"lib, opts, args",28,66
+beetsplug\random.py,commands,self,79,80
+beetsplug\replaygain.py,call,args,46,60
+beetsplug\replaygain.py,__init__,"self, config, log",73,77
+beetsplug\replaygain.py,compute_track_gain,"self, items",79,80
+beetsplug\replaygain.py,compute_album_gain,"self, album",82,85
+beetsplug\replaygain.py,__init__,"self, config, log",94,113
+beetsplug\replaygain.py,compute_track_gain,"self, items",116,122
+beetsplug\replaygain.py,compute_album_gain,"self, album",124,136
+beetsplug\replaygain.py,isplitter,"self, items, chunk_at",138,155
+beetsplug\replaygain.py,compute_gain,"self, items, is_album",157,185
+beetsplug\replaygain.py,compute_chunk_gain,"self, items, is_album",187,209
+beetsplug\replaygain.py,parse_tool_output,"self, text, num_lines",211,240
+beetsplug\replaygain.py,__init__,"self, config, log",246,278
+beetsplug\replaygain.py,compute_track_gain,"self, items",280,286
+beetsplug\replaygain.py,compute_album_gain,"self, album",288,301
+beetsplug\replaygain.py,format_supported,"self, item",303,310
+beetsplug\replaygain.py,compute_gain,"self, items, is_album",312,347
+beetsplug\replaygain.py,parse_tool_output,"self, text, num_lines",349,370
+beetsplug\replaygain.py,__init__,"self, config, log",377,431
+beetsplug\replaygain.py,_import_gst,self,433,462
+beetsplug\replaygain.py,compute,"self, files, album",464,479
+beetsplug\replaygain.py,compute_track_gain,"self, items",481,491
+beetsplug\replaygain.py,compute_album_gain,"self, album",493,506
+beetsplug\replaygain.py,close,self,508,509
+beetsplug\replaygain.py,_on_eos,"self, bus, message",511,517
+beetsplug\replaygain.py,_on_error,"self, bus, message",519,526
+beetsplug\replaygain.py,_on_tag,"self, bus, message",529,553
+beetsplug\replaygain.py,handle_tag,"taglist, tag, userdata",532,551
+beetsplug\replaygain.py,_set_first_file,self,555,563
+beetsplug\replaygain.py,_set_file,self,565,594
+beetsplug\replaygain.py,_set_next_file,self,596,615
+beetsplug\replaygain.py,_on_pad_added,"self, decbin, pad",617,620
+beetsplug\replaygain.py,_on_pad_removed,"self, decbin, pad",622,626
+beetsplug\replaygain.py,__init__,"self, config, log",635,637
+beetsplug\replaygain.py,_import_audiotools,self,639,653
+beetsplug\replaygain.py,open_audio_file,"self, item",655,675
+beetsplug\replaygain.py,init_replaygain,"self, audiofile, item",677,694
+beetsplug\replaygain.py,compute_track_gain,"self, items",696,701
+beetsplug\replaygain.py,_title_gain,"self, rg, audiofile",703,718
+beetsplug\replaygain.py,_compute_track_gain,"self, item",720,734
+beetsplug\replaygain.py,compute_album_gain,"self, album",736,768
+beetsplug\replaygain.py,__init__,self,785,817
+beetsplug\replaygain.py,track_requires_gain,"self, item",820,822
+beetsplug\replaygain.py,album_requires_gain,"self, album",824,831
+beetsplug\replaygain.py,store_track_gain,"self, item, track_gain",833,839
+beetsplug\replaygain.py,store_album_gain,"self, album, album_gain",841,847
+beetsplug\replaygain.py,handle_album,"self, album, write",849,881
+beetsplug\replaygain.py,handle_track,"self, item, write",884,911
+beetsplug\replaygain.py,imported,"self, session, task",914,920
+beetsplug\replaygain.py,commands,self,922,941
+beetsplug\replaygain.py,func,"lib, opts, args",925,936
+beetsplug\rewrite.py,rewriter,"field, rules",30,43
+beetsplug\rewrite.py,fieldfunc,item,35,42
+beetsplug\rewrite.py,__init__,self,47,76
+beetsplug\scrub.py,__init__,self,50,57
+beetsplug\scrub.py,commands,self,59,73
+beetsplug\scrub.py,scrub_func,"lib, opts, args",60,65
+beetsplug\scrub.py,_mutagen_classes,,75,84
+beetsplug\scrub.py,_scrub,"self, path",86,111
+beetsplug\scrub.py,_scrub_item,"self, item, restore=True",113,138
+beetsplug\scrub.py,import_task_files,"self, session, task",140,145
+beetsplug\smartplaylist.py,__init__,self,33,46
+beetsplug\smartplaylist.py,commands,self,48,53
+beetsplug\smartplaylist.py,update_cmd,"self, lib, opts, args",55,76
+beetsplug\smartplaylist.py,build_queries,self,78,138
+beetsplug\smartplaylist.py,matches,"self, model, query, album_query",140,145
+beetsplug\smartplaylist.py,db_change,"self, lib, model",147,158
+beetsplug\smartplaylist.py,update_playlists,"self, lib",160,199
+beetsplug\spotify.py,__init__,self,23,33
+beetsplug\spotify.py,commands,self,36,57
+beetsplug\spotify.py,queries,"lib, opts, args",37,41
+beetsplug\spotify.py,parse_opts,"self, opts",59,72
+beetsplug\spotify.py,query_spotify,"self, lib, query",74,163
+beetsplug\spotify.py,output_results,"self, results",165,177
+beetsplug\the.py,__init__,self,36,65
+beetsplug\the.py,unthe,"self, text, pattern",67,88
+beetsplug\the.py,the_template_func,"self, text",90,101
+beetsplug\thumbnails.py,__init__,self,47,57
+beetsplug\thumbnails.py,commands,self,59,71
+beetsplug\thumbnails.py,process_query,"self, lib, opts, args",73,77
+beetsplug\thumbnails.py,_check_local_ok,self,79,110
+beetsplug\thumbnails.py,process_album,"self, album",112,137
+beetsplug\thumbnails.py,make_cover_thumbnail,"self, album, size, target_dir",139,158
+beetsplug\thumbnails.py,thumbnail_file_name,"self, path",160,166
+beetsplug\thumbnails.py,add_tags,"self, album, image_path",168,178
+beetsplug\thumbnails.py,make_dolphin_cover_thumbnail,"self, album",180,188
+beetsplug\thumbnails.py,write_metadata_im,"file, metadata",191,197
+beetsplug\thumbnails.py,write_metadata_pil,"file, metadata",200,208
+beetsplug\thumbnails.py,uri,"self, path",215,216
+beetsplug\thumbnails.py,uri,"self, path",223,224
+beetsplug\thumbnails.py,copy_c_string,c_string,227,235
+beetsplug\thumbnails.py,__init__,self,243,255
+beetsplug\thumbnails.py,get_library,self,257,264
+beetsplug\thumbnails.py,uri,"self, path",266,289
+beetsplug\types.py,item_types,self,27,29
+beetsplug\types.py,album_types,self,31,33
+beetsplug\types.py,_types,self,35,53
+beetsplug\zero.py,__init__,self,35,74
+beetsplug\zero.py,validate_config,"self, mode",76,89
+beetsplug\zero.py,set_pattern,"self, field",91,100
+beetsplug\zero.py,import_task_choice_event,"self, session, task",102,106
+beetsplug\zero.py,match_patterns,"cls, field, patterns",109,119
+beetsplug\zero.py,write_event,"self, item, path, tags",121,141
+beetsplug\bpd\gstplayer.py,__init__,"self, finished_callback=None",49,72
+beetsplug\bpd\gstplayer.py,_get_state,self,74,78
+beetsplug\bpd\gstplayer.py,_handle_message,"self, bus, message",80,95
+beetsplug\bpd\gstplayer.py,_set_volume,"self, volume",97,101
+beetsplug\bpd\gstplayer.py,_get_volume,self,103,105
+beetsplug\bpd\gstplayer.py,play_file,"self, path",109,119
+beetsplug\bpd\gstplayer.py,play,self,121,125
+beetsplug\bpd\gstplayer.py,pause,self,127,129
+beetsplug\bpd\gstplayer.py,stop,self,131,135
+beetsplug\bpd\gstplayer.py,run,self,137,149
+beetsplug\bpd\gstplayer.py,start,,146,148
+beetsplug\bpd\gstplayer.py,time,self,151,170
+beetsplug\bpd\gstplayer.py,seek,"self, position",172,184
+beetsplug\bpd\gstplayer.py,block,self,186,189
+beetsplug\bpd\gstplayer.py,play_simple,paths,192,200
+beetsplug\bpd\gstplayer.py,play_complicated,paths,203,216
+beetsplug\bpd\gstplayer.py,next_song,,209,211
+beetsplug\bpd\__init__.py,__init__,"self, code, message, cmd_name=u'', index='0'",92,96
+beetsplug\bpd\__init__.py,response,self,100,109
+beetsplug\bpd\__init__.py,make_bpd_error,"s_code, s_message",113,125
+beetsplug\bpd\__init__.py,__init__,self,123,124
+beetsplug\bpd\__init__.py,cast_arg,"t, val",132,145
+beetsplug\bpd\__init__.py,__init__,"self, host, port, password",169,188
+beetsplug\bpd\__init__.py,run,self,190,196
+beetsplug\bpd\__init__.py,_item_info,"self, item",198,202
+beetsplug\bpd\__init__.py,_item_id,"self, item",204,207
+beetsplug\bpd\__init__.py,_id_to_index,"self, track_id",209,218
+beetsplug\bpd\__init__.py,_random_idx,self,220,230
+beetsplug\bpd\__init__.py,_succ_idx,self,232,241
+beetsplug\bpd\__init__.py,_prev_idx,self,243,252
+beetsplug\bpd\__init__.py,cmd_ping,"self, conn",254,256
+beetsplug\bpd\__init__.py,cmd_kill,"self, conn",258,260
+beetsplug\bpd\__init__.py,cmd_close,"self, conn",262,264
+beetsplug\bpd\__init__.py,cmd_password,"self, conn, password",266,272
+beetsplug\bpd\__init__.py,cmd_commands,"self, conn",274,285
+beetsplug\bpd\__init__.py,cmd_notcommands,"self, conn",287,299
+beetsplug\bpd\__init__.py,cmd_status,"self, conn",301,331
+beetsplug\bpd\__init__.py,cmd_clearerror,"self, conn",333,338
+beetsplug\bpd\__init__.py,cmd_random,"self, conn, state",340,342
+beetsplug\bpd\__init__.py,cmd_repeat,"self, conn, state",344,346
+beetsplug\bpd\__init__.py,cmd_setvol,"self, conn, vol",348,353
+beetsplug\bpd\__init__.py,cmd_crossfade,"self, conn, crossfade",355,359
+beetsplug\bpd\__init__.py,cmd_clear,"self, conn",361,365
+beetsplug\bpd\__init__.py,cmd_delete,"self, conn, index",367,380
+beetsplug\bpd\__init__.py,cmd_deleteid,"self, conn, track_id",382,383
+beetsplug\bpd\__init__.py,cmd_move,"self, conn, idx_from, idx_to",385,403
+beetsplug\bpd\__init__.py,cmd_moveid,"self, conn, idx_from, idx_to",405,407
+beetsplug\bpd\__init__.py,cmd_swap,"self, conn, i, j",409,428
+beetsplug\bpd\__init__.py,cmd_swapid,"self, conn, i_id, j_id",430,433
+beetsplug\bpd\__init__.py,cmd_urlhandlers,"self, conn",435,437
+beetsplug\bpd\__init__.py,cmd_playlistinfo,"self, conn, index='-1'",439,452
+beetsplug\bpd\__init__.py,cmd_playlistid,"self, conn, track_id='-1'",454,455
+beetsplug\bpd\__init__.py,cmd_plchanges,"self, conn, version",457,464
+beetsplug\bpd\__init__.py,cmd_plchangesposid,"self, conn, version",466,473
+beetsplug\bpd\__init__.py,cmd_currentsong,"self, conn",475,480
+beetsplug\bpd\__init__.py,cmd_next,"self, conn",482,489
+beetsplug\bpd\__init__.py,cmd_previous,"self, conn",491,497
+beetsplug\bpd\__init__.py,cmd_pause,"self, conn, state=None",499,504
+beetsplug\bpd\__init__.py,cmd_play,"self, conn, index='-1'",506,523
+beetsplug\bpd\__init__.py,cmd_playid,"self, conn, track_id='0'",525,531
+beetsplug\bpd\__init__.py,cmd_stop,"self, conn",533,536
+beetsplug\bpd\__init__.py,cmd_seek,"self, conn, index, pos",538,543
+beetsplug\bpd\__init__.py,cmd_seekid,"self, conn, track_id, pos",545,547
+beetsplug\bpd\__init__.py,cmd_profile,"self, conn",549,553
+beetsplug\bpd\__init__.py,__init__,"self, server, sock",560,565
+beetsplug\bpd\__init__.py,send,"self, lines",567,579
+beetsplug\bpd\__init__.py,do_command,"self, command",581,591
+beetsplug\bpd\__init__.py,run,self,593,628
+beetsplug\bpd\__init__.py,handler,"cls, server",630,636
+beetsplug\bpd\__init__.py,_handle,sock,632,635
+beetsplug\bpd\__init__.py,__init__,"self, s",646,664
+beetsplug\bpd\__init__.py,run,"self, conn",666,703
+beetsplug\bpd\__init__.py,__init__,"self, sequence=None, verbose=False",712,719
+beetsplug\bpd\__init__.py,run,"self, conn",721,735
+beetsplug\bpd\__init__.py,__init__,"self, library, host, port, password",746,758
+beetsplug\bpd\__init__.py,run,self,760,762
+beetsplug\bpd\__init__.py,play_finished,self,764,768
+beetsplug\bpd\__init__.py,_item_info,"self, item",772,798
+beetsplug\bpd\__init__.py,_item_id,"self, item",800,801
+beetsplug\bpd\__init__.py,cmd_update,"self, conn, path=u'/'",805,813
+beetsplug\bpd\__init__.py,_resolve_path,"self, path",817,839
+beetsplug\bpd\__init__.py,_path_join,"self, p1, p2",841,844
+beetsplug\bpd\__init__.py,cmd_lsinfo,"self, conn, path=u'/'",846,861
+beetsplug\bpd\__init__.py,_listall,"self, basepath, node, info=False",863,885
+beetsplug\bpd\__init__.py,cmd_listall,"self, conn, path=u'/'",887,889
+beetsplug\bpd\__init__.py,cmd_listallinfo,"self, conn, path=u'/'",891,893
+beetsplug\bpd\__init__.py,_all_items,"self, node",897,912
+beetsplug\bpd\__init__.py,_add,"self, path, send_id=False",914,922
+beetsplug\bpd\__init__.py,cmd_add,"self, conn, path",924,928
+beetsplug\bpd\__init__.py,cmd_addid,"self, conn, path",930,932
+beetsplug\bpd\__init__.py,cmd_status,"self, conn",936,946
+beetsplug\bpd\__init__.py,cmd_stats,"self, conn",950,967
+beetsplug\bpd\__init__.py,cmd_tagtypes,"self, conn",988,993
+beetsplug\bpd\__init__.py,_tagtype_lookup,"self, tag",995,1005
+beetsplug\bpd\__init__.py,_metadata_query,"self, query_type, any_query_type, kv",1007,1030
+beetsplug\bpd\__init__.py,cmd_search,"self, conn, *kv",1032,1038
+beetsplug\bpd\__init__.py,cmd_find,"self, conn, *kv",1040,1046
+beetsplug\bpd\__init__.py,cmd_list,"self, conn, show_tag, *kv",1048,1063
+beetsplug\bpd\__init__.py,cmd_count,"self, conn, tag, value",1065,1076
+beetsplug\bpd\__init__.py,cmd_outputs,"self, conn",1081,1086
+beetsplug\bpd\__init__.py,cmd_enableoutput,"self, conn, output_id",1089,1092
+beetsplug\bpd\__init__.py,cmd_disableoutput,"self, conn, output_id",1094,1099
+beetsplug\bpd\__init__.py,cmd_play,"self, conn, index='-1'",1105,1115
+beetsplug\bpd\__init__.py,cmd_pause,"self, conn, state=None",1117,1122
+beetsplug\bpd\__init__.py,cmd_stop,"self, conn",1124,1126
+beetsplug\bpd\__init__.py,cmd_seek,"self, conn, index, pos",1128,1133
+beetsplug\bpd\__init__.py,cmd_setvol,"self, conn, vol",1137,1140
+beetsplug\bpd\__init__.py,__init__,self,1149,1157
+beetsplug\bpd\__init__.py,start_bpd,"self, lib, host, port, password, volume, debug",1159,1171
+beetsplug\bpd\__init__.py,commands,self,1174,1194
+beetsplug\bpd\__init__.py,func,"lib, opts, args",1183,1191
+beetsplug\lastgenre\__init__.py,deduplicate,seq,52,56
+beetsplug\lastgenre\__init__.py,flatten_tree,"elem, path, branches",61,75
+beetsplug\lastgenre\__init__.py,find_parents,"candidate, branches",78,88
+beetsplug\lastgenre\__init__.py,__init__,self,98,113
+beetsplug\lastgenre\__init__.py,setup,self,115,144
+beetsplug\lastgenre\__init__.py,sources,self,146,157
+beetsplug\lastgenre\__init__.py,_resolve_genres,"self, tags",159,191
+beetsplug\lastgenre\__init__.py,fetch_genre,"self, lastfm_obj",194,199
+beetsplug\lastgenre\__init__.py,_is_allowed,"self, genre",201,209
+beetsplug\lastgenre\__init__.py,_last_lookup,"self, entity, method, *args",213,237
+beetsplug\lastgenre\__init__.py,fetch_album_genre,"self, obj",239,243
+beetsplug\lastgenre\__init__.py,fetch_album_artist_genre,"self, obj",245,249
+beetsplug\lastgenre\__init__.py,fetch_artist_genre,"self, item",251,254
+beetsplug\lastgenre\__init__.py,fetch_track_genre,"self, obj",256,260
+beetsplug\lastgenre\__init__.py,_get_genre,"self, obj",262,326
+beetsplug\lastgenre\__init__.py,commands,self,328,362
+beetsplug\lastgenre\__init__.py,lastgenre_func,"lib, opts, args",339,359
+beetsplug\lastgenre\__init__.py,imported,"self, session, task",364,385
+beetsplug\lastgenre\__init__.py,_tags_for,"self, obj, min_weight=None",387,420
+beetsplug\metasync\amarok.py,import_dbus,,30,34
+beetsplug\metasync\amarok.py,__init__,"self, config, log",56,63
+beetsplug\metasync\amarok.py,sync_from_source,"self, item",65,108
+beetsplug\metasync\itunes.py,create_temporary_copy,path,34,42
+beetsplug\metasync\itunes.py,_norm_itunes_path,path,45,57
+beetsplug\metasync\itunes.py,__init__,"self, config, log",70,99
+beetsplug\metasync\itunes.py,sync_from_source,"self, item",101,118
+beetsplug\metasync\__init__.py,__init__,"self, config, log",38,41
+beetsplug\metasync\__init__.py,sync_from_source,"self, item",43,45
+beetsplug\metasync\__init__.py,load_meta_sources,,48,58
+beetsplug\metasync\__init__.py,load_item_types,,64,70
+beetsplug\metasync\__init__.py,__init__,self,77,78
+beetsplug\metasync\__init__.py,commands,self,80,90
+beetsplug\metasync\__init__.py,func,"self, lib, opts, args",92,139
+beetsplug\web\__init__.py,_rep,"obj, expand=False",33,56
+beetsplug\web\__init__.py,json_generator,"items, root",59,74
+beetsplug\web\__init__.py,resource,name,77,96
+beetsplug\web\__init__.py,make_responder,retriever,80,95
+beetsplug\web\__init__.py,responder,ids,81,93
+beetsplug\web\__init__.py,resource_query,name,99,110
+beetsplug\web\__init__.py,make_responder,query_func,102,109
+beetsplug\web\__init__.py,responder,queries,103,106
+beetsplug\web\__init__.py,resource_list,name,113,125
+beetsplug\web\__init__.py,make_responder,list_all,117,124
+beetsplug\web\__init__.py,responder,,118,121
+beetsplug\web\__init__.py,to_python,"self, value",132,139
+beetsplug\web\__init__.py,to_url,"self, value",141,142
+beetsplug\web\__init__.py,to_python,"self, value",149,150
+beetsplug\web\__init__.py,to_url,"self, value",152,153
+beetsplug\web\__init__.py,before_request,,163,165
+beetsplug\web\__init__.py,get_item,id,170,173
+beetsplug\web\__init__.py,all_items,,176,180
+beetsplug\web\__init__.py,item_file,item_id,183,189
+beetsplug\web\__init__.py,item_query,queries,192,195
+beetsplug\web\__init__.py,get_album,id,200,203
+beetsplug\web\__init__.py,all_albums,,206,210
+beetsplug\web\__init__.py,album_query,queries,213,216
+beetsplug\web\__init__.py,album_art,album_id,219,222
+beetsplug\web\__init__.py,all_artists,,227,232
+beetsplug\web\__init__.py,stats,,237,244
+beetsplug\web\__init__.py,home,,250,252
+beetsplug\web\__init__.py,__init__,self,258,263
+beetsplug\web\__init__.py,commands,self,266,294
+beetsplug\web\__init__.py,func,"lib, opts, args",271,292
+extra\release.py,chdir,d,17,24
+extra\release.py,release,,27,29
+extra\release.py,bump_version,version,68,129
+extra\release.py,bump,version,132,137
+extra\release.py,get_latest_changelog,,140,159
+extra\release.py,rst2md,text,162,173
+extra\release.py,changelog_as_markdown,,176,205
+extra\release.py,changelog,,208,212
+extra\release.py,get_version,index='0',215,226
+extra\release.py,version,,229,233
+extra\release.py,datestamp,,236,262
+extra\release.py,prep,,265,293
+extra\release.py,publish,,296,312
+test\helper.py,__init__,self,63,65
+test\helper.py,emit,"self, record",67,68
+test\helper.py,capture_log,logger=u'beets',71,79
+test\helper.py,control_stdin,input=None,82,96
+test\helper.py,capture_stdout,,99,116
+test\helper.py,has_program,"cmd, args=[u'--version']",119,135
+test\helper.py,setup_beets,"self, disk=False",146,188
+test\helper.py,teardown_beets,self,190,196
+test\helper.py,load_plugins,"self, *plugins",198,212
+test\helper.py,unload_plugins,self,214,222
+test\helper.py,create_importer,"self, item_count='1', album_count='1'",224,271
+test\helper.py,create_item,"self, **values",275,301
+test\helper.py,add_item,"self, **values",303,315
+test\helper.py,add_item_fixture,"self, **values",317,326
+test\helper.py,add_album,"self, **values",328,330
+test\helper.py,add_item_fixtures,"self, ext=u'mp3', count='1'",332,346
+test\helper.py,add_album_fixture,"self, track_count='1', ext=u'mp3'",348,361
+test\helper.py,create_mediafile_fixture,"self, ext=u'mp3', images=[]",363,394
+test\helper.py,remove_mediafile_fixtures,self,396,399
+test\helper.py,_get_item_count,self,401,405
+test\helper.py,run_command,"self, *args",409,414
+test\helper.py,run_with_output,"self, *args",416,419
+test\helper.py,create_temp_dir,self,423,427
+test\helper.py,remove_temp_dir,self,429,432
+test\helper.py,touch,"self, path, dir=None, content=u''",434,453
+test\helper.py,__init__,"self, *args, **kwargs",471,474
+test\helper.py,add_choice,"self, choice",478,479
+test\helper.py,clear_choices,self,481,482
+test\helper.py,choose_match,"self, task",484,495
+test\helper.py,add_resolution,"self, resolution",503,505
+test\helper.py,resolve_duplicate,"self, task, found_duplicates",507,516
+test\helper.py,generate_album_info,"album_id, track_ids",519,539
+test\helper.py,generate_track_info,"track_id=u'track info', values={}",549,563
+test\lyrics_download_samples.py,mkdir_p,path,26,33
+test\lyrics_download_samples.py,safe_open_w,path,36,40
+test\lyrics_download_samples.py,main,argv=None,43,56
+test\testall.py,suite,,39,48
+test\test_art.py,setUp,self,43,45
+test\test_art.py,run,"self, *args, **kwargs",49,51
+test\test_art.py,mock_response,"self, content_type",53,55
+test\test_art.py,test_invalid_type_returns_none,self,57,60
+test\test_art.py,test_jpeg_type_returns_path,self,62,65
+test\test_art.py,setUp,self,69,74
+test\test_art.py,test_finds_jpg_in_directory,self,76,79
+test\test_art.py,test_appropriately_named_file_takes_precedence,self,81,85
+test\test_art.py,test_non_image_file_not_identified,self,87,90
+test\test_art.py,test_cautious_skips_fallback,self,92,95
+test\test_art.py,test_empty_dir,self,97,99
+test\test_art.py,test_precedence_amongst_correct_files,self,101,106
+test\test_art.py,setUp,self,119,122
+test\test_art.py,run,"self, *args, **kwargs",124,126
+test\test_art.py,mock_response,"self, url, content_type=u'image/jpeg'",128,129
+test\test_art.py,test_main_interface_returns_amazon_art,self,131,135
+test\test_art.py,test_main_interface_returns_none_for_missing_asin_and_path,self,137,140
+test\test_art.py,test_main_interface_gives_precedence_to_fs_art,self,142,147
+test\test_art.py,test_main_interface_falls_back_to_amazon,self,149,154
+test\test_art.py,test_main_interface_tries_amazon_before_aao,self,156,161
+test\test_art.py,test_main_interface_falls_back_to_aao,self,163,167
+test\test_art.py,test_main_interface_uses_caa_when_mbid_available,self,169,175
+test\test_art.py,test_local_only_does_not_access_network,self,177,182
+test\test_art.py,test_local_only_gets_fs_image,self,184,190
+test\test_art.py,setUp,self,197,199
+test\test_art.py,run,"self, *args, **kwargs",201,203
+test\test_art.py,mock_response,"self, url, body",205,207
+test\test_art.py,test_aao_scraper_finds_image,self,209,220
+test\test_art.py,test_aao_scraper_returns_no_result_when_no_image_present,self,222,226
+test\test_art.py,setUp,self,230,232
+test\test_art.py,run,"self, *args, **kwargs",234,236
+test\test_art.py,mock_response,"self, url, json",238,240
+test\test_art.py,test_google_art_finds_image,self,242,247
+test\test_art.py,test_google_art_returns_no_result_when_error_received,self,249,254
+test\test_art.py,test_google_art_returns_no_result_with_malformed_response,self,256,261
+test\test_art.py,setUp,self,265,306
+test\test_art.py,art_for_album,"i, p, local_only=False",274,275
+test\test_art.py,tearDown,self,308,311
+test\test_art.py,_fetch_art,"self, should_exist",313,332
+test\test_art.py,test_fetch_art,self,334,336
+test\test_art.py,test_art_not_found,self,338,340
+test\test_art.py,test_no_art_for_singleton,self,342,344
+test\test_art.py,test_leave_original_file_in_place,self,346,348
+test\test_art.py,test_delete_original_file,self,350,353
+test\test_art.py,test_move_original_file,self,355,358
+test\test_art.py,test_do_not_delete_original_if_already_in_place,self,360,364
+test\test_art.py,test_fetch_art_if_imported_file_deleted,self,366,376
+test\test_art.py,setUp,self,388,406
+test\test_art.py,fs_source_get,*_,395,396
+test\test_art.py,source_urls,_,398,399
+test\test_art.py,fetch_img,_,401,402
+test\test_art.py,tearDown,self,408,412
+test\test_art.py,_assertImageIsValidArt,"self, image_file, should_exist",414,428
+test\test_art.py,_assertImageResized,"self, image_file, should_resize",430,434
+test\test_art.py,_require_backend,self,436,441
+test\test_art.py,test_respect_minwidth,self,443,447
+test\test_art.py,test_respect_enforce_ratio_yes,self,449,453
+test\test_art.py,test_respect_enforce_ratio_no,self,455,457
+test\test_art.py,test_resize_if_necessary,self,459,463
+test\test_art.py,suite,,466,467
+test\test_autotag.py,test_plurality_consensus,self,36,40
+test\test_autotag.py,test_plurality_near_consensus,self,42,46
+test\test_autotag.py,test_plurality_conflict,self,48,52
+test\test_autotag.py,test_plurality_empty_sequence_raises_error,self,54,56
+test\test_autotag.py,test_current_metadata_finds_pluralities,self,58,65
+test\test_autotag.py,test_current_metadata_artist_consensus,self,67,74
+test\test_autotag.py,test_albumartist_consensus,self,76,85
+test\test_autotag.py,test_current_metadata_likelies,self,87,95
+test\test_autotag.py,_make_item,"title, track, artist=u'some artist'",98,102
+test\test_autotag.py,_make_trackinfo,,105,109
+test\test_autotag.py,_clear_weights,,113,117
+test\test_autotag.py,tearDown,self,121,123
+test\test_autotag.py,test_add,self,125,128
+test\test_autotag.py,test_add_equality,self,130,139
+test\test_autotag.py,test_add_expr,self,141,147
+test\test_autotag.py,test_add_number,self,149,164
+test\test_autotag.py,test_add_priority,self,166,180
+test\test_autotag.py,test_add_ratio,self,182,194
+test\test_autotag.py,test_add_string,self,196,201
+test\test_autotag.py,test_add_string_none,self,203,206
+test\test_autotag.py,test_add_string_both_none,self,208,211
+test\test_autotag.py,test_distance,self,213,226
+test\test_autotag.py,test_max_distance,self,228,237
+test\test_autotag.py,test_operators,self,239,257
+test\test_autotag.py,test_raw_distance,self,259,268
+test\test_autotag.py,test_items,self,270,284
+test\test_autotag.py,test_update,self,286,299
+test\test_autotag.py,test_identical_tracks,self,303,307
+test\test_autotag.py,test_different_title,self,309,313
+test\test_autotag.py,test_different_artist,self,315,320
+test\test_autotag.py,test_various_artists_tolerated,self,322,327
+test\test_autotag.py,_mapping,"self, items, info",331,335
+test\test_autotag.py,_dist,"self, items, info",337,338
+test\test_autotag.py,test_identical_albums,self,340,353
+test\test_autotag.py,test_incomplete_album,self,355,370
+test\test_autotag.py,test_global_artists_differ,self,372,385
+test\test_autotag.py,test_comp_track_artists_match,self,387,400
+test\test_autotag.py,test_comp_no_track_artists,self,402,419
+test\test_autotag.py,test_comp_track_artists_do_not_match,self,421,434
+test\test_autotag.py,test_tracks_out_of_order,self,436,450
+test\test_autotag.py,test_two_medium_release,self,452,469
+test\test_autotag.py,test_per_medium_track_numbers,self,471,488
+test\test_autotag.py,item,"self, title, track",492,495
+test\test_autotag.py,test_reorder_when_track_numbers_incorrect,self,498,514
+test\test_autotag.py,test_order_works_with_invalid_track_numbers,self,517,533
+test\test_autotag.py,test_order_works_with_missing_tracks,self,536,550
+test\test_autotag.py,test_order_works_with_extra_tracks,self,553,567
+test\test_autotag.py,test_order_works_when_track_names_are_entirely_wrong,self,570,616
+test\test_autotag.py,item,"i, length",572,579
+test\test_autotag.py,info,"index, title, length",595,596
+test\test_autotag.py,_apply,"self, info=None, per_disc_numbering=False",620,626
+test\test_autotag.py,setUp,self,630,665
+test\test_autotag.py,test_titles_applied,self,668,671
+test\test_autotag.py,test_album_and_artist_applied_to_all,self,673,678
+test\test_autotag.py,test_track_index_applied,self,680,683
+test\test_autotag.py,test_track_total_applied,self,685,688
+test\test_autotag.py,test_disc_index_applied,self,690,693
+test\test_autotag.py,test_disc_total_applied,self,695,698
+test\test_autotag.py,test_per_disc_numbering,self,700,703
+test\test_autotag.py,test_per_disc_numbering_track_total,self,705,708
+test\test_autotag.py,test_mb_trackid_applied,self,710,715
+test\test_autotag.py,test_mb_albumid_and_artistid_applied,self,717,723
+test\test_autotag.py,test_albumtype_applied,self,725,728
+test\test_autotag.py,test_album_artist_overrides_empty_track_artist,self,730,734
+test\test_autotag.py,test_album_artist_overriden_by_nonempty_track_artist,self,736,742
+test\test_autotag.py,test_artist_credit_applied,self,744,749
+test\test_autotag.py,test_artist_sort_applied,self,751,756
+test\test_autotag.py,test_full_date_applied,self,758,767
+test\test_autotag.py,test_date_only_zeros_month_and_day,self,769,780
+test\test_autotag.py,test_missing_date_applies_nothing,self,782,791
+test\test_autotag.py,test_data_source_applied,self,793,798
+test\test_autotag.py,setUp,self,802,829
+test\test_autotag.py,test_album_and_track_artists_separate,self,832,837
+test\test_autotag.py,test_mb_albumartistid_applied,self,839,848
+test\test_autotag.py,test_va_flag_cleared_does_not_set_comp,self,850,853
+test\test_autotag.py,test_va_flag_sets_comp,self,855,860
+test\test_autotag.py,test_equal_strings,self,864,866
+test\test_autotag.py,test_different_strings,self,868,870
+test\test_autotag.py,test_punctuation_ignored,self,872,874
+test\test_autotag.py,test_case_ignored,self,876,878
+test\test_autotag.py,test_leading_the_has_lower_weight,self,880,883
+test\test_autotag.py,test_parens_have_lower_weight,self,885,888
+test\test_autotag.py,test_brackets_have_lower_weight,self,890,893
+test\test_autotag.py,test_ep_label_has_zero_weight,self,895,897
+test\test_autotag.py,test_featured_has_lower_weight,self,899,902
+test\test_autotag.py,test_postfix_the,self,904,906
+test\test_autotag.py,test_postfix_a,self,908,910
+test\test_autotag.py,test_postfix_an,self,912,914
+test\test_autotag.py,test_empty_strings,self,916,918
+test\test_autotag.py,test_solo_pattern,self,920,924
+test\test_autotag.py,test_heuristic_does_not_harm_distance,self,926,928
+test\test_autotag.py,test_ampersand_expansion,self,930,932
+test\test_autotag.py,test_accented_characters,self,934,936
+test\test_autotag.py,test_ordered_enum,self,943,950
+test\test_autotag.py,suite,,953,954
+test\test_bucket.py,setUp,self,29,31
+test\test_bucket.py,tearDown,self,33,34
+test\test_bucket.py,_setup_config,"self, bucket_year=[], bucket_alpha=[], bucket_alpha_regex={}, extrapolate=False",36,42
+test\test_bucket.py,test_year_single_year,self,44,49
+test\test_bucket.py,test_year_single_year_last_folder,self,51,56
+test\test_bucket.py,test_year_two_years,self,58,62
+test\test_bucket.py,test_year_multiple_years,self,64,68
+test\test_bucket.py,test_year_out_of_range,self,70,75
+test\test_bucket.py,test_year_out_of_range_extrapolate,self,77,94
+test\test_bucket.py,test_alpha_all_chars,self,96,99
+test\test_bucket.py,test_alpha_first_last_chars,self,101,105
+test\test_bucket.py,test_alpha_out_of_range,self,107,112
+test\test_bucket.py,test_alpha_regex,self,114,122
+test\test_bucket.py,test_alpha_regex_mix,self,124,132
+test\test_bucket.py,test_bad_alpha_range_def,self,134,137
+test\test_bucket.py,test_bad_year_range_def_no4digits,self,139,144
+test\test_bucket.py,test_bad_year_range_def_nodigits,self,146,151
+test\test_bucket.py,check_span_from_str,"self, sstr, dfrom, dto",153,156
+test\test_bucket.py,test_span_from_str,self,158,162
+test\test_bucket.py,suite,,165,166
+test\test_config_command.py,setUp,self,22,40
+test\test_config_command.py,tearDown,self,42,43
+test\test_config_command.py,test_show_user_config,self,45,50
+test\test_config_command.py,test_show_user_config_with_defaults,self,52,59
+test\test_config_command.py,test_show_user_config_with_cli,self,61,66
+test\test_config_command.py,test_show_redacted_user_config,self,68,73
+test\test_config_command.py,test_show_redacted_user_config_with_defaults,self,75,81
+test\test_config_command.py,test_config_paths,self,83,88
+test\test_config_command.py,test_config_paths_with_cli,self,90,95
+test\test_config_command.py,test_edit_config_with_editor_env,self,97,102
+test\test_config_command.py,test_edit_config_with_automatic_open,self,104,110
+test\test_config_command.py,test_config_editor_not_found,self,112,119
+test\test_config_command.py,test_edit_invalid_config_file,self,121,132
+test\test_config_command.py,suite,,135,136
+test\test_convert.py,tagged_copy_cmd,"self, tag",32,42
+test\test_convert.py,assertFileTag,"self, path, tag",44,52
+test\test_convert.py,assertNoFileTag,"self, path, tag",54,64
+test\test_convert.py,setUp,self,69,80
+test\test_convert.py,tearDown,self,83,85
+test\test_convert.py,test_import_converted,self,87,90
+test\test_convert.py,test_import_original_on_convert_error,self,92,99
+test\test_convert.py,setUp,self,104,121
+test\test_convert.py,tearDown,self,126,128
+test\test_convert.py,test_convert,self,130,134
+test\test_convert.py,test_convert_with_auto_confirmation,self,136,139
+test\test_convert.py,test_rejecet_confirmation,self,141,145
+test\test_convert.py,test_convert_keep_new,self,147,154
+test\test_convert.py,test_format_option,self,156,160
+test\test_convert.py,test_embed_album_art,self,162,174
+test\test_convert.py,test_skip_existing,self,176,181
+test\test_convert.py,test_pretend,self,183,186
+test\test_convert.py,setUp,self,193,204
+test\test_convert.py,tearDown,self,208,210
+test\test_convert.py,test_transcode_from_lossles,self,212,217
+test\test_convert.py,test_transcode_from_lossy,self,219,225
+test\test_convert.py,test_transcode_from_lossy_prevented,self,227,232
+test\test_convert.py,suite,,235,236
+test\test_datequery.py,_date,string,28,29
+test\test_datequery.py,test_year_precision_intervals,self,33,45
+test\test_datequery.py,test_day_precision_intervals,self,47,52
+test\test_datequery.py,test_month_precision_intervals,self,54,59
+test\test_datequery.py,test_unbounded_endpoints,self,61,64
+test\test_datequery.py,assertContains,"self, interval_pattern, date_pattern=None, date=None",66,71
+test\test_datequery.py,assertExcludes,"self, interval_pattern, date_pattern",73,77
+test\test_datequery.py,_parsetime,s,80,81
+test\test_datequery.py,setUp,self,85,88
+test\test_datequery.py,test_single_month_match_fast,self,90,93
+test\test_datequery.py,test_single_month_nonmatch_fast,self,95,98
+test\test_datequery.py,test_single_month_match_slow,self,100,102
+test\test_datequery.py,test_single_month_nonmatch_slow,self,104,106
+test\test_datequery.py,test_single_day_match_fast,self,108,111
+test\test_datequery.py,test_single_day_nonmatch_fast,self,113,116
+test\test_datequery.py,test_long_numbers,self,120,121
+test\test_datequery.py,test_too_many_components,self,123,124
+test\test_datequery.py,suite,,127,128
+test\test_dbcore.py,_getters,cls,50,52
+test\test_dbcore.py,_template_funcs,self,54,55
+test\test_dbcore.py,setUp,self,123,134
+test\test_dbcore.py,tearDown,self,136,137
+test\test_dbcore.py,test_open_with_same_fields_leaves_untouched,self,139,144
+test\test_dbcore.py,test_open_with_new_field_adds_column,self,146,151
+test\test_dbcore.py,test_open_with_fewer_fields_leaves_untouched,self,153,158
+test\test_dbcore.py,test_open_with_multiple_new_fields,self,160,165
+test\test_dbcore.py,test_extra_model_adds_table,self,167,172
+test\test_dbcore.py,setUp,self,176,177
+test\test_dbcore.py,tearDown,self,179,180
+test\test_dbcore.py,test_add_model,self,182,186
+test\test_dbcore.py,test_store_fixed_field,self,188,194
+test\test_dbcore.py,test_retrieve_by_id,self,196,200
+test\test_dbcore.py,test_store_and_retrieve_flexattr,self,202,209
+test\test_dbcore.py,test_delete_flexattr,self,211,216
+test\test_dbcore.py,test_delete_flexattr_via_dot,self,218,223
+test\test_dbcore.py,test_delete_flexattr_persists,self,225,236
+test\test_dbcore.py,test_delete_non_existent_attribute,self,238,241
+test\test_dbcore.py,test_delete_fixed_attribute,self,243,246
+test\test_dbcore.py,test_null_value_normalization_by_type,self,248,251
+test\test_dbcore.py,test_null_value_stays_none_for_untyped_field,self,253,256
+test\test_dbcore.py,test_normalization_for_typed_flex_fields,self,258,261
+test\test_dbcore.py,test_load_deleted_flex_field,self,263,275
+test\test_dbcore.py,test_format_fixed_field,self,279,283
+test\test_dbcore.py,test_format_flex_field,self,285,289
+test\test_dbcore.py,test_format_flex_field_bytes,self,291,296
+test\test_dbcore.py,test_format_unset_field,self,298,301
+test\test_dbcore.py,test_format_typed_flex_field,self,303,307
+test\test_dbcore.py,test_keys_equal_model_keys,self,311,314
+test\test_dbcore.py,test_get_unset_field,self,316,320
+test\test_dbcore.py,test_get_method_with_default,self,322,325
+test\test_dbcore.py,test_get_method_with_specified_default,self,327,330
+test\test_dbcore.py,test_parse_fixed_field,self,334,337
+test\test_dbcore.py,test_parse_flex_field,self,339,342
+test\test_dbcore.py,test_parse_untyped_field,self,344,346
+test\test_dbcore.py,pqp,"self, part",350,355
+test\test_dbcore.py,test_one_basic_term,self,357,360
+test\test_dbcore.py,test_one_keyed_term,self,362,365
+test\test_dbcore.py,test_colon_at_end,self,367,370
+test\test_dbcore.py,test_one_basic_regexp,self,372,375
+test\test_dbcore.py,test_keyed_regexp,self,377,380
+test\test_dbcore.py,test_escaped_colon,self,382,385
+test\test_dbcore.py,test_escaped_colon_in_regexp,self,387,390
+test\test_dbcore.py,test_single_year,self,392,395
+test\test_dbcore.py,test_multiple_years,self,397,400
+test\test_dbcore.py,test_empty_query_part,self,402,405
+test\test_dbcore.py,qfs,"self, strings",409,414
+test\test_dbcore.py,test_zero_parts,self,417,421
+test\test_dbcore.py,test_two_parts,self,423,428
+test\test_dbcore.py,test_parse_fixed_type_query,self,430,432
+test\test_dbcore.py,test_parse_flex_type_query,self,434,436
+test\test_dbcore.py,test_empty_query_part,self,438,440
+test\test_dbcore.py,sfs,"self, strings",444,447
+test\test_dbcore.py,test_zero_parts,self,450,453
+test\test_dbcore.py,test_one_parts,self,455,457
+test\test_dbcore.py,test_two_parts,self,459,462
+test\test_dbcore.py,test_fixed_field_sort,self,464,467
+test\test_dbcore.py,test_flex_field_sort,self,469,472
+test\test_dbcore.py,test_special_sort,self,474,476
+test\test_dbcore.py,psq,"self, parts",480,483
+test\test_dbcore.py,test_and_query,self,486,490
+test\test_dbcore.py,test_or_query,self,492,496
+test\test_dbcore.py,test_no_space_before_comma_or_query,self,498,502
+test\test_dbcore.py,test_no_spaces_or_query,self,504,508
+test\test_dbcore.py,test_trailing_comma_or_query,self,510,514
+test\test_dbcore.py,test_leading_comma_or_query,self,516,520
+test\test_dbcore.py,test_only_direction,self,522,526
+test\test_dbcore.py,setUp,self,530,537
+test\test_dbcore.py,tearDown,self,539,540
+test\test_dbcore.py,test_iterate_once,self,542,544
+test\test_dbcore.py,test_iterate_twice,self,546,549
+test\test_dbcore.py,test_concurrent_iterators,self,551,557
+test\test_dbcore.py,test_slow_query,self,559,562
+test\test_dbcore.py,test_slow_query_negative,self,564,567
+test\test_dbcore.py,test_iterate_slow_sort,self,569,574
+test\test_dbcore.py,test_unsorted_subscript,self,576,579
+test\test_dbcore.py,test_slow_sort_subscript,self,581,585
+test\test_dbcore.py,test_length,self,587,589
+test\test_dbcore.py,suite,,592,593
+test\test_echonest.py,setUp,self,30,39
+test\test_echonest.py,tearDown,self,41,43
+test\test_echonest.py,test_mbid_profile,"self, echonest_track, echonest_profile, item_write",45,63
+test\test_echonest.py,test_song_search,"self, echonest_search, echonest_track",65,75
+test\test_echonest.py,test_analyze,"self, echonest_track, echonest_search, echonest_profile",77,92
+test\test_echonest.py,test_analyze_convert,"self, echonest_track, echonest_search, echonest_profile",94,111
+test\test_echonest.py,test_analyze_convert2,"self, echonest_search",113,117
+test\test_echonest.py,test_analyze_convert_fail,"self, echonest_track, echonest_search, echonest_profile",119,134
+test\test_echonest.py,test_analyze_truncate,"self, echonest_track, echonest_search, echonest_profile",136,155
+test\test_echonest.py,test_custom_field_range_query,self,157,161
+test\test_echonest.py,profile,"self, item, **values",163,175
+test\test_echonest.py,track,"self, item, **values",178,187
+test\test_echonest.py,suite,,190,191
+test\test_edit.py,__init__,"self, contents=None, replacements=None",28,43
+test\test_edit.py,overwrite_contents,"self, filename",45,51
+test\test_edit.py,replace_contents,"self, filename",53,62
+test\test_edit.py,setUp,self,73,86
+test\test_edit.py,tearDown,self,88,91
+test\test_edit.py,run_mocked_command,"self, modify_file_args={}, stdin=[], args=[]",93,99
+test\test_edit.py,assertCounts,"self, album_count=ALBUM_COUNT, track_count=TRACK_COUNT, write_call_count=TRACK_COUNT, title_starts_with=u''",101,108
+test\test_edit.py,assertItemFieldsModified,"self, library_items, items, fields=[]",110,122
+test\test_edit.py,test_title_edit_discard,self,124,134
+test\test_edit.py,test_title_edit_apply,self,136,147
+test\test_edit.py,test_single_title_edit_apply,self,149,162
+test\test_edit.py,test_noedit,self,164,173
+test\test_edit.py,test_album_edit_apply,self,175,190
+test\test_edit.py,test_single_edit_add_field,self,192,203
+test\test_edit.py,test_a_album_edit_apply,self,205,217
+test\test_edit.py,test_a_albumartist_edit_apply,self,219,231
+test\test_edit.py,test_malformed_yaml,self,233,242
+test\test_edit.py,test_invalid_yaml,self,244,253
+test\test_edit.py,suite,,256,257
+test\test_embedart.py,require_artresizer_compare,test,35,44
+test\test_embedart.py,wrapper,"*args, **kwargs",37,41
+test\test_embedart.py,setUp,self,54,56
+test\test_embedart.py,_setup_data,"self, artpath=None",58,62
+test\test_embedart.py,tearDown,self,64,66
+test\test_embedart.py,test_embed_art_from_file,self,68,74
+test\test_embedart.py,test_embed_art_from_album,self,76,84
+test\test_embedart.py,test_embed_art_remove_art_file,self,86,104
+test\test_embedart.py,test_art_file_missing,self,106,110
+test\test_embedart.py,test_embed_non_image_file,self,112,126
+test\test_embedart.py,test_reject_different_art,self,128,140
+test\test_embedart.py,test_accept_similar_art,self,142,154
+test\test_embedart.py,test_non_ascii_album_path,self,156,165
+test\test_embedart.py,test_imagemagick_response,"self, mock_extract, mock_subprocess",171,198
+test\test_embedart.py,suite,,201,202
+test\test_embyupdate.py,setUp,self,13,21
+test\test_embyupdate.py,tearDown,self,24,26
+test\test_embyupdate.py,test_api_url,self,28,33
+test\test_embyupdate.py,test_password_data,self,36,43
+test\test_embyupdate.py,test_create_header_no_token,self,47,56
+test\test_embyupdate.py,test_create_header_with_token,self,60,71
+test\test_embyupdate.py,test_get_token,self,75,152
+test\test_embyupdate.py,test_get_user,self,154,206
+test\test_embyupdate.py,suite,,209,210
+test\test_fetchart.py,setUp,self,26,31
+test\test_fetchart.py,tearDown,self,33,35
+test\test_fetchart.py,test_set_art_from_folder,self,37,46
+test\test_fetchart.py,test_filesystem_does_not_pick_up_folder,self,48,52
+test\test_fetchart.py,suite,,55,56
+test\test_filefilter.py,setUp,self,32,36
+test\test_filefilter.py,tearDown,self,38,39
+test\test_filefilter.py,__copy_file,"self, dest_path, metadata",41,49
+test\test_filefilter.py,__create_import_dir,"self, count",51,96
+test\test_filefilter.py,__run,"self, expected_lines, singletons=False",98,112
+test\test_filefilter.py,test_import_default,self,114,126
+test\test_filefilter.py,test_import_nothing,self,129,131
+test\test_filefilter.py,test_import_global,self,134,145
+test\test_filefilter.py,test_import_album,self,148,163
+test\test_filefilter.py,test_import_singleton,self,166,181
+test\test_filefilter.py,test_import_both,self,185,197
+test\test_filefilter.py,suite,,200,201
+test\test_files.py,setUp,self,34,57
+test\test_files.py,test_move_arrives,self,59,61
+test\test_files.py,test_move_to_custom_dir,self,63,65
+test\test_files.py,test_move_departs,self,67,69
+test\test_files.py,test_move_in_lib_prunes_empty_dir,self,71,79
+test\test_files.py,test_copy_arrives,self,81,83
+test\test_files.py,test_copy_does_not_depart,self,85,87
+test\test_files.py,test_move_changes_path,self,89,91
+test\test_files.py,test_copy_already_at_destination,self,93,97
+test\test_files.py,test_move_already_at_destination,self,99,103
+test\test_files.py,test_read_only_file_copied_writable,self,105,115
+test\test_files.py,test_move_avoids_collision_with_existing_file,self,117,126
+test\test_files.py,test_link_arrives,self,128,133
+test\test_files.py,test_link_does_not_depart,self,135,138
+test\test_files.py,test_link_changes_path,self,140,143
+test\test_files.py,test_ancestry_works_on_file,self,147,150
+test\test_files.py,test_ancestry_works_on_dir,self,152,155
+test\test_files.py,test_ancestry_works_on_relative,self,157,160
+test\test_files.py,test_components_works_on_file,self,162,165
+test\test_files.py,test_components_works_on_dir,self,167,170
+test\test_files.py,test_components_works_on_relative,self,172,175
+test\test_files.py,setUp,self,179,196
+test\test_files.py,test_albuminfo_move_changes_paths,self,198,204
+test\test_files.py,test_albuminfo_move_moves_file,self,206,214
+test\test_files.py,test_albuminfo_move_copies_file,self,216,224
+test\test_files.py,test_albuminfo_move_to_custom_dir,self,226,230
+test\test_files.py,setUp,self,234,254
+test\test_files.py,test_art_deleted_when_items_deleted,self,256,259
+test\test_files.py,test_art_moves_with_album,self,261,271
+test\test_files.py,test_art_moves_with_album_to_custom_dir,self,273,283
+test\test_files.py,test_setart_copies_image,self,285,298
+test\test_files.py,test_setart_to_existing_art_works,self,300,315
+test\test_files.py,test_setart_to_existing_but_unset_art_works,self,317,332
+test\test_files.py,test_setart_to_conflicting_file_gets_new_path,self,334,351
+test\test_files.py,test_setart_sets_permissions,self,353,375
+test\test_files.py,test_move_last_file_moves_albumart,self,377,388
+test\test_files.py,test_move_not_last_file_does_not_move_albumart,self,390,405
+test\test_files.py,setUp,self,409,422
+test\test_files.py,test_removing_last_item_prunes_empty_dir,self,424,428
+test\test_files.py,test_removing_last_item_preserves_nonempty_dir,self,430,434
+test\test_files.py,test_removing_last_item_prunes_dir_with_blacklisted_file,self,436,440
+test\test_files.py,test_removing_without_delete_leaves_file,self,442,445
+test\test_files.py,test_removing_last_item_preserves_library_dir,self,447,449
+test\test_files.py,test_removing_item_outside_of_library_deletes_nothing,self,451,455
+test\test_files.py,test_removing_last_item_in_album_with_albumart_prunes_dir,self,457,465
+test\test_files.py,setUp,self,470,474
+test\test_files.py,test_soft_remove_deletes_file,self,476,478
+test\test_files.py,test_soft_remove_silent_on_no_file,self,480,484
+test\test_files.py,setUp,self,488,495
+test\test_files.py,test_successful_move,self,497,500
+test\test_files.py,test_successful_copy,self,502,505
+test\test_files.py,test_unsuccessful_move,self,507,509
+test\test_files.py,test_unsuccessful_copy,self,511,513
+test\test_files.py,test_self_move,self,515,517
+test\test_files.py,test_self_copy,self,519,521
+test\test_files.py,setUp,self,525,531
+test\test_files.py,test_prune_existent_directory,self,533,536
+test\test_files.py,test_prune_nonexistent_directory,self,538,541
+test\test_files.py,setUp,self,545,553
+test\test_files.py,test_sorted_files,self,555,561
+test\test_files.py,test_ignore_file,self,563,569
+test\test_files.py,test_ignore_directory,self,571,575
+test\test_files.py,test_ignore_everything,self,577,581
+test\test_files.py,setUp,self,585,593
+test\test_files.py,test_new_file_unchanged,self,595,597
+test\test_files.py,test_conflicting_file_appends_1,self,599,601
+test\test_files.py,test_conflicting_file_appends_higher_number,self,603,605
+test\test_files.py,test_conflicting_file_with_number_increases_number,self,607,609
+test\test_files.py,test_parent_exists,self,613,617
+test\test_files.py,test_child_does_not_exist,self,620,624
+test\test_files.py,suite,,628,629
+test\test_ftintitle.py,setUp,self,27,30
+test\test_ftintitle.py,tearDown,self,32,34
+test\test_ftintitle.py,_ft_add_item,"self, path, artist, title, aartist",36,40
+test\test_ftintitle.py,_ft_set_config,"self, ftformat, drop=False, auto=True",42,45
+test\test_ftintitle.py,test_functional_drop,self,47,52
+test\test_ftintitle.py,test_functional_custom_format,self,54,74
+test\test_ftintitle.py,setUp,self,78,80
+test\test_ftintitle.py,test_find_feat_part,self,82,136
+test\test_ftintitle.py,test_split_on_feat,self,138,154
+test\test_ftintitle.py,test_contains_feat,self,156,165
+test\test_ftintitle.py,suite,,168,169
+test\test_ihate.py,test_hate,self,16,48
+test\test_ihate.py,suite,,51,52
+test\test_importadded.py,preserve_plugin_listeners,,32,37
+test\test_importadded.py,modify_mtimes,"paths, offset='-60000'",40,43
+test\test_importadded.py,setUp,self,51,64
+test\test_importadded.py,tearDown,self,66,69
+test\test_importadded.py,findMediaFile,"self, item",71,77
+test\test_importadded.py,assertEqualTimes,"self, first, second, msg=None",79,81
+test\test_importadded.py,assertAlbumImport,self,83,88
+test\test_importadded.py,test_import_album_with_added_dates,self,90,91
+test\test_importadded.py,test_import_album_inplace_with_added_dates,self,93,97
+test\test_importadded.py,test_import_album_with_preserved_mtimes,self,99,109
+test\test_importadded.py,test_reimported_album_skipped,self,111,131
+test\test_importadded.py,test_import_singletons_with_added_dates,self,133,138
+test\test_importadded.py,test_import_singletons_with_preserved_mtimes,self,140,149
+test\test_importadded.py,test_reimported_singletons_skipped,self,151,169
+test\test_importadded.py,suite,,172,173
+test\test_importer.py,install,self,61,72
+test\test_importer.py,restore,self,74,78
+test\test_importer.py,match_album,"self, albumartist, album, tracks",80,93
+test\test_importer.py,match_track,"self, artist, title",95,101
+test\test_importer.py,album_for_id,"self, mbid",104,105
+test\test_importer.py,track_for_id,"self, mbid",107,108
+test\test_importer.py,_make_track_match,"self, artist, album, number",110,115
+test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",118,140
+test\test_importer.py,setup_beets,"self, disk=False",150,155
+test\test_importer.py,_create_import_dir,"self, count='3'",158,203
+test\test_importer.py,_setup_import_session,"self, import_dir=None, delete=False, threaded=False, copy=True, singletons=False, move=False, autotag=True, link=False",205,220
+test\test_importer.py,assert_file_in_lib,"self, *segments",223,227
+test\test_importer.py,assert_file_not_in_lib,"self, *segments",229,233
+test\test_importer.py,assert_lib_dir_empty,self,235,236
+test\test_importer.py,setUp,self,240,243
+test\test_importer.py,tearDown,self,245,246
+test\test_importer.py,test_album_created_with_track_artist,self,248,252
+test\test_importer.py,test_import_copy_arrives,self,254,258
+test\test_importer.py,test_threaded_import_copy_arrives,self,261,267
+test\test_importer.py,test_import_with_move_deletes_import_files,self,270,277
+test\test_importer.py,test_import_with_move_prunes_directory_empty,self,279,284
+test\test_importer.py,test_import_with_move_prunes_with_extra_clutter,self,286,294
+test\test_importer.py,test_threaded_import_move_arrives,self,296,303
+test\test_importer.py,test_threaded_import_move_deletes_import,self,306,312
+test\test_importer.py,test_import_without_delete_retains_files,self,314,318
+test\test_importer.py,test_import_with_delete_removes_files,self,320,325
+test\test_importer.py,test_import_with_delete_prunes_directory_empty,self,327,331
+test\test_importer.py,test_import_link_arrives,self,333,344
+test\test_importer.py,create_archive,session,347,354
+test\test_importer.py,setUp,self,362,366
+test\test_importer.py,tearDown,self,368,369
+test\test_importer.py,test_rm,self,371,379
+test\test_importer.py,setUp,self,384,385
+test\test_importer.py,tearDown,self,387,388
+test\test_importer.py,test_import_zip,self,390,398
+test\test_importer.py,create_archive,self,403,410
+test\test_importer.py,create_archive,self,416,417
+test\test_importer.py,create_archive,self,423,424
+test\test_importer.py,setUp,self,432,437
+test\test_importer.py,tearDown,self,439,441
+test\test_importer.py,test_apply_asis_adds_track,self,443,448
+test\test_importer.py,test_apply_asis_does_not_add_album,self,450,455
+test\test_importer.py,test_apply_asis_adds_singleton_path,self,457,462
+test\test_importer.py,test_apply_candidate_adds_track,self,464,469
+test\test_importer.py,test_apply_candidate_does_not_add_album,self,471,474
+test\test_importer.py,test_apply_candidate_adds_singleton_path,self,476,481
+test\test_importer.py,test_skip_does_not_add_first_track,self,483,486
+test\test_importer.py,test_skip_adds_other_tracks,self,488,493
+test\test_importer.py,test_import_single_files,self,495,512
+test\test_importer.py,setUp,self,518,523
+test\test_importer.py,tearDown,self,525,527
+test\test_importer.py,test_apply_asis_adds_album,self,529,534
+test\test_importer.py,test_apply_asis_adds_tracks,self,536,540
+test\test_importer.py,test_apply_asis_adds_album_path,self,542,547
+test\test_importer.py,test_apply_candidate_adds_album,self,549,554
+test\test_importer.py,test_apply_candidate_adds_tracks,self,556,561
+test\test_importer.py,test_apply_candidate_adds_album_path,self,563,569
+test\test_importer.py,test_apply_with_move_deletes_import,self,572,580
+test\test_importer.py,test_apply_with_delete_deletes_import,self,582,590
+test\test_importer.py,test_skip_does_not_add_track,self,592,595
+test\test_importer.py,test_skip_non_album_dirs,self,597,603
+test\test_importer.py,test_unmatched_tracks_not_added,self,605,610
+test\test_importer.py,test_empty_directory_warning,self,612,619
+test\test_importer.py,test_empty_directory_singleton_warning,self,621,628
+test\test_importer.py,test_asis_no_data_source,self,630,637
+test\test_importer.py,setUp,self,643,647
+test\test_importer.py,tearDown,self,649,651
+test\test_importer.py,test_apply_tracks_adds_singleton_track,self,653,662
+test\test_importer.py,test_apply_tracks_adds_singleton_path,self,664,671
+test\test_importer.py,setUp,self,677,681
+test\test_importer.py,tearDown,self,683,685
+test\test_importer.py,test_asis_homogenous_sets_albumartist,self,687,692
+test\test_importer.py,test_asis_heterogenous_sets_various_albumartist,self,694,705
+test\test_importer.py,test_asis_heterogenous_sets_sompilation,self,707,716
+test\test_importer.py,test_asis_sets_majority_albumartist,self,718,728
+test\test_importer.py,test_asis_albumartist_tag_sets_albumartist,self,730,745
+test\test_importer.py,setUp,self,751,760
+test\test_importer.py,tearDown,self,762,764
+test\test_importer.py,test_does_not_duplicate_item,self,766,772
+test\test_importer.py,test_does_not_duplicate_album,self,774,780
+test\test_importer.py,test_does_not_duplicate_singleton_track,self,782,791
+test\test_importer.py,test_asis_updates_metadata,self,793,801
+test\test_importer.py,test_asis_updated_moves_file,self,803,817
+test\test_importer.py,test_asis_updated_without_copy_does_not_move_file,self,819,834
+test\test_importer.py,test_outside_file_is_copied,self,836,851
+test\test_importer.py,test_outside_file_is_moved,self,853,862
+test\test_importer.py,setUp,self,866,876
+test\test_importer.py,tearDown,self,878,880
+test\test_importer.py,test_add_album_for_different_artist_and_different_album,self,882,889
+test\test_importer.py,test_add_album_for_different_artist_and_same_albumartist,self,891,901
+test\test_importer.py,test_add_album_for_same_artist_and_different_album,self,903,909
+test\test_importer.py,test_add_album_for_same_album_and_different_artist,self,911,917
+test\test_importer.py,test_incremental,self,919,926
+test\test_importer.py,setUp,self,931,935
+test\test_importer.py,setUp,self,939,944
+test\test_importer.py,tearDown,self,946,948
+test\test_importer.py,test_choose_first_candidate,self,950,953
+test\test_importer.py,test_choose_second_candidate,self,955,958
+test\test_importer.py,setUp,self,962,977
+test\test_importer.py,test_asis_homogenous_single_artist,self,979,983
+test\test_importer.py,test_asis_heterogenous_va,self,985,993
+test\test_importer.py,test_asis_comp_applied_to_all_items,self,995,1004
+test\test_importer.py,test_asis_majority_artist_single_artist,self,1006,1013
+test\test_importer.py,test_asis_track_albumartist_override,self,1015,1028
+test\test_importer.py,test_apply_gets_artist_and_id,self,1030,1037
+test\test_importer.py,test_apply_lets_album_values_override,self,1039,1050
+test\test_importer.py,test_small_single_artist_album,self,1052,1057
+test\test_importer.py,test_album_info,,1060,1074
+test\test_importer.py,setUp,self,1079,1092
+test\test_importer.py,tearDown,self,1094,1096
+test\test_importer.py,test_remove_duplicate_album,self,1098,1110
+test\test_importer.py,test_no_autotag_keeps_duplicate_album,self,1112,1133
+test\test_importer.py,test_keep_duplicate_album,self,1135,1140
+test\test_importer.py,test_skip_duplicate_album,self,1142,1152
+test\test_importer.py,test_twice_in_import_dir,self,1154,1155
+test\test_importer.py,add_album_fixture,"self, **kwargs",1157,1162
+test\test_importer.py,setUp,self,1167,1187
+test\test_importer.py,tearDown,self,1189,1191
+test\test_importer.py,test_remove_duplicate,self,1193,1204
+test\test_importer.py,test_keep_duplicate,self,1206,1212
+test\test_importer.py,test_skip_duplicate,self,1214,1223
+test\test_importer.py,test_twice_in_import_dir,self,1225,1226
+test\test_importer.py,add_item_fixture,"self, **kwargs",1228,1233
+test\test_importer.py,test_tag_log_line,self,1237,1242
+test\test_importer.py,test_tag_log_unicode,self,1244,1249
+test\test_importer.py,setUp,self,1254,1255
+test\test_importer.py,tearDown,self,1257,1258
+test\test_importer.py,test_resume_album,"self, plugins_send",1260,1278
+test\test_importer.py,raise_exception,"event, **kwargs",1267,1269
+test\test_importer.py,test_resume_singleton,"self, plugins_send",1280,1299
+test\test_importer.py,raise_exception,"event, **kwargs",1288,1290
+test\test_importer.py,setUp,self,1304,1306
+test\test_importer.py,tearDown,self,1308,1309
+test\test_importer.py,test_incremental_album,self,1311,1323
+test\test_importer.py,test_incremental_item,self,1325,1338
+test\test_importer.py,test_invalid_state_file,self,1340,1345
+test\test_importer.py,_mkmp3,path,1348,1349
+test\test_importer.py,setUp,self,1353,1370
+test\test_importer.py,test_finds_all_albums,self,1372,1374
+test\test_importer.py,test_separates_contents,self,1376,1383
+test\test_importer.py,test_finds_multiple_songs,self,1385,1391
+test\test_importer.py,create_music,"self, files=True, ascii=True",1395,1453
+test\test_importer.py,_normalize_path,"self, path",1455,1462
+test\test_importer.py,test_coalesce_nested_album_multiple_subdirs,self,1464,1470
+test\test_importer.py,test_coalesce_nested_album_single_subdir,self,1472,1477
+test\test_importer.py,test_coalesce_flattened_album_case_typo,self,1479,1484
+test\test_importer.py,test_single_disc_album,self,1486,1491
+test\test_importer.py,test_do_not_yield_empty_album,self,1493,1496
+test\test_importer.py,test_single_disc_unicode,self,1498,1503
+test\test_importer.py,test_coalesce_multiple_unicode,self,1505,1511
+test\test_importer.py,setUp,self,1523,1538
+test\test_importer.py,tearDown,self,1540,1542
+test\test_importer.py,_setup_session,"self, singletons=False",1544,1546
+test\test_importer.py,_album,self,1548,1549
+test\test_importer.py,_item,self,1551,1552
+test\test_importer.py,test_reimported_album_gets_new_metadata,self,1554,1558
+test\test_importer.py,test_reimported_album_preserves_flexattr,self,1560,1563
+test\test_importer.py,test_reimported_album_preserves_added,self,1565,1568
+test\test_importer.py,test_reimported_album_preserves_item_flexattr,self,1570,1573
+test\test_importer.py,test_reimported_album_preserves_item_added,self,1575,1578
+test\test_importer.py,test_reimported_item_gets_new_metadata,self,1580,1584
+test\test_importer.py,test_reimported_item_preserves_flexattr,self,1586,1589
+test\test_importer.py,test_reimported_item_preserves_added,self,1591,1594
+test\test_importer.py,test_reimported_item_preserves_art,self,1596,1609
+test\test_importer.py,__init__,"self, method_name=u'runTest'",1616,1618
+test\test_importer.py,setUp,self,1620,1628
+test\test_importer.py,tearDown,self,1630,1632
+test\test_importer.py,__create_import_dir,self,1634,1646
+test\test_importer.py,__create_empty_import_dir,self,1649,1652
+test\test_importer.py,__run,"self, import_paths, singletons=True",1654,1666
+test\test_importer.py,test_import_singletons_pretend,self,1668,1673
+test\test_importer.py,test_import_album_pretend,self,1675,1682
+test\test_importer.py,test_import_pretend_empty,self,1684,1688
+test\test_importer.py,suite,,1691,1692
+test\test_importfeeds.py,setUp,self,19,25
+test\test_importfeeds.py,tearDown,self,27,28
+test\test_importfeeds.py,test_multi_format_album_playlist,self,30,43
+test\test_importfeeds.py,test_playlist_in_subdir,self,45,59
+test\test_importfeeds.py,suite,,62,63
+test\test_info.py,setUp,self,28,30
+test\test_info.py,tearDown,self,32,34
+test\test_info.py,run_command,"self, *args",36,37
+test\test_info.py,test_path,self,39,55
+test\test_info.py,test_item_query,self,57,68
+test\test_info.py,test_item_library_query,self,70,77
+test\test_info.py,test_collect_item_and_path,self,79,97
+test\test_info.py,test_include_pattern,self,99,108
+test\test_info.py,test_custom_format,self,110,114
+test\test_info.py,suite,,117,118
+test\test_ipfs.py,setUp,self,28,33
+test\test_ipfs.py,tearDown,self,35,38
+test\test_ipfs.py,test_stored_hashes,self,40,60
+test\test_ipfs.py,mk_test_album,self,62,88
+test\test_ipfs.py,suite,,91,92
+test\test_keyfinder.py,setUp,self,28,32
+test\test_keyfinder.py,tearDown,self,34,37
+test\test_keyfinder.py,test_add_key,self,39,49
+test\test_keyfinder.py,test_add_key_on_import,self,51,57
+test\test_keyfinder.py,test_force_overwrite,self,59,69
+test\test_keyfinder.py,test_do_not_overwrite,self,71,79
+test\test_keyfinder.py,suite,,82,83
+test\test_lastgenre.py,setUp,self,32,34
+test\test_lastgenre.py,tearDown,self,36,37
+test\test_lastgenre.py,_setup_config,"self, whitelist=False, canonical=False, count='1'",39,48
+test\test_lastgenre.py,test_default,self,50,55
+test\test_lastgenre.py,test_c14n_only,self,57,65
+test\test_lastgenre.py,test_whitelist_only,self,67,72
+test\test_lastgenre.py,test_whitelist_c14n,self,74,80
+test\test_lastgenre.py,test_whitelist_custom,self,82,92
+test\test_lastgenre.py,test_count,self,94,102
+test\test_lastgenre.py,test_count_c14n,self,104,114
+test\test_lastgenre.py,test_c14n_whitelist,self,116,121
+test\test_lastgenre.py,test_empty_string_enables_canonical,self,123,129
+test\test_lastgenre.py,test_empty_string_enables_whitelist,self,131,137
+test\test_lastgenre.py,test_no_duplicate,self,139,144
+test\test_lastgenre.py,test_tags_for,self,146,168
+test\test_lastgenre.py,__init__,"self, name",148,149
+test\test_lastgenre.py,get_name,self,151,152
+test\test_lastgenre.py,get_top_tags,self,155,162
+test\test_lastgenre.py,test_get_genre,self,170,214
+test\test_lastgenre.py,mock_fetch_track_genre,"self, obj=None",173,174
+test\test_lastgenre.py,mock_fetch_album_genre,"self, obj",176,177
+test\test_lastgenre.py,mock_fetch_artist_genre,"self, obj",179,180
+test\test_lastgenre.py,suite,,217,218
+test\test_library.py,test_load_restores_data_from_db,self,48,52
+test\test_library.py,test_load_clears_dirty_flags,self,54,58
+test\test_library.py,test_store_changes_database_value,self,62,68
+test\test_library.py,test_store_only_writes_dirty_fields,self,70,77
+test\test_library.py,test_store_clears_dirty_flags,self,79,82
+test\test_library.py,setUp,self,86,89
+test\test_library.py,test_item_add_inserts_row,self,91,96
+test\test_library.py,test_library_add_path_inserts_row,self,98,106
+test\test_library.py,test_remove_deletes_from_db,self,110,113
+test\test_library.py,setUp,self,117,119
+test\test_library.py,test_set_changes_value,self,121,123
+test\test_library.py,test_set_sets_dirty_flag,self,125,127
+test\test_library.py,test_set_does_not_dirty_if_value_unchanged,self,129,131
+test\test_library.py,test_invalid_field_raises_attributeerror,self,133,134
+test\test_library.py,setUp,self,138,141
+test\test_library.py,tearDown,self,143,149
+test\test_library.py,test_directory_works_with_trailing_slash,self,151,154
+test\test_library.py,test_directory_works_without_trailing_slash,self,156,159
+test\test_library.py,test_destination_substitues_metadata_values,self,161,168
+test\test_library.py,test_destination_preserves_extension,self,170,175
+test\test_library.py,test_lower_case_extension,self,177,182
+test\test_library.py,test_destination_pads_some_indices,self,184,194
+test\test_library.py,test_destination_pads_date_values,self,196,203
+test\test_library.py,test_destination_escapes_slashes,self,205,210
+test\test_library.py,test_destination_escapes_leading_dot,self,212,216
+test\test_library.py,test_destination_preserves_legitimate_slashes,self,218,222
+test\test_library.py,test_destination_long_names_truncated,self,224,228
+test\test_library.py,test_destination_long_names_keep_extension,self,230,234
+test\test_library.py,test_distination_windows_removes_both_separators,self,236,243
+test\test_library.py,test_path_with_format,self,245,248
+test\test_library.py,test_heterogeneous_album_gets_single_directory,self,250,256
+test\test_library.py,test_default_path_for_non_compilations,self,258,264
+test\test_library.py,test_singleton_path,self,266,274
+test\test_library.py,test_comp_before_singleton_path,self,276,285
+test\test_library.py,test_comp_path,self,287,295
+test\test_library.py,test_albumtype_query_path,self,297,307
+test\test_library.py,test_albumtype_path_fallback_to_comp,self,309,319
+test\test_library.py,test_get_formatted_does_not_replace_separators,self,321,326
+test\test_library.py,test_get_formatted_pads_with_zero,self,328,332
+test\test_library.py,test_get_formatted_uses_kbps_bitrate,self,334,338
+test\test_library.py,test_get_formatted_uses_khz_samplerate,self,340,344
+test\test_library.py,test_get_formatted_datetime,self,346,350
+test\test_library.py,test_get_formatted_none,self,352,356
+test\test_library.py,test_artist_falls_back_to_albumartist,self,358,363
+test\test_library.py,test_albumartist_falls_back_to_artist,self,365,370
+test\test_library.py,test_artist_overrides_albumartist,self,372,377
+test\test_library.py,test_albumartist_overrides_artist,self,379,384
+test\test_library.py,test_unicode_normalized_nfd_on_mac,self,386,390
+test\test_library.py,test_unicode_normalized_nfc_on_linux,self,392,396
+test\test_library.py,test_non_mbcs_characters_on_windows,self,398,409
+test\test_library.py,test_unicode_extension_in_fragment,self,411,415
+test\test_library.py,test_asciify_and_replace,self,417,423
+test\test_library.py,test_destination_with_replacements,self,425,432
+test\test_library.py,test_destination_with_empty_component,self,434,444
+test\test_library.py,test_destination_with_empty_final_component,self,446,455
+test\test_library.py,test_legalize_path_one_for_one_replacement,self,457,470
+test\test_library.py,test_legalize_path_one_for_many_replacement,self,472,486
+test\test_library.py,test_formatted_item_value,self,490,492
+test\test_library.py,test_get_unset_field,self,494,497
+test\test_library.py,test_get_method_with_default,self,499,501
+test\test_library.py,test_get_method_with_specified_default,self,503,505
+test\test_library.py,test_item_precedence,self,507,511
+test\test_library.py,test_album_flex_field,self,513,517
+test\test_library.py,test_album_field_overrides_item_field_for_path,self,519,529
+test\test_library.py,test_artist_falls_back_to_albumartist,self,531,534
+test\test_library.py,test_albumartist_falls_back_to_artist,self,536,539
+test\test_library.py,test_both_artist_and_albumartist_empty,self,541,545
+test\test_library.py,_setf,"self, fmt",550,551
+test\test_library.py,_assert_dest,"self, dest, i=None",553,558
+test\test_library.py,setUp,self,562,567
+test\test_library.py,tearDown,self,569,571
+test\test_library.py,test_upper_case_literal,self,573,575
+test\test_library.py,test_upper_case_variable,self,577,579
+test\test_library.py,test_title_case_variable,self,581,583
+test\test_library.py,test_left_variable,self,585,587
+test\test_library.py,test_right_variable,self,589,591
+test\test_library.py,test_if_false,self,593,595
+test\test_library.py,test_if_false_value,self,597,599
+test\test_library.py,test_if_true,self,601,603
+test\test_library.py,test_if_else_false,self,605,607
+test\test_library.py,test_if_else_false_value,self,609,611
+test\test_library.py,test_if_int_value,self,613,615
+test\test_library.py,test_nonexistent_function,self,617,619
+test\test_library.py,setUp,self,623,637
+test\test_library.py,tearDown,self,639,641
+test\test_library.py,test_unique_expands_to_disambiguating_year,self,643,644
+test\test_library.py,test_unique_with_default_arguments_uses_albumtype,self,646,651
+test\test_library.py,test_unique_expands_to_nothing_for_distinct_albums,self,653,658
+test\test_library.py,test_use_fallback_numbers_when_identical,self,660,666
+test\test_library.py,test_unique_falls_back_to_second_distinguishing_field,self,668,670
+test\test_library.py,test_unique_sanitized,self,672,680
+test\test_library.py,setUp,self,684,702
+test\test_library.py,field_getters,,690,694
+test\test_library.py,tearDown,self,704,706
+test\test_library.py,_assert_dest,"self, dest",708,711
+test\test_library.py,test_undefined_value_not_substituted,self,713,714
+test\test_library.py,test_plugin_value_not_substituted,self,716,720
+test\test_library.py,test_plugin_value_overrides_attribute,self,722,726
+test\test_library.py,test_plugin_value_sanitized,self,728,732
+test\test_library.py,setUp,self,736,740
+test\test_library.py,test_albuminfo_reflects_metadata,self,742,747
+test\test_library.py,test_albuminfo_stores_art,self,749,754
+test\test_library.py,test_albuminfo_for_two_items_doesnt_duplicate_row,self,756,765
+test\test_library.py,test_individual_tracks_have_no_albuminfo,self,767,772
+test\test_library.py,test_get_album_by_id,self,774,777
+test\test_library.py,test_album_items_consistent,self,779,785
+test\test_library.py,test_albuminfo_changes_affect_items,self,787,792
+test\test_library.py,test_albuminfo_change_albumartist_changes_items,self,794,800
+test\test_library.py,test_albuminfo_change_artist_does_not_change_items,self,802,807
+test\test_library.py,test_albuminfo_remove_removes_items,self,809,815
+test\test_library.py,test_removing_last_item_removes_album,self,817,820
+test\test_library.py,test_noop_albuminfo_changes_affect_items,self,822,830
+test\test_library.py,setUp,self,834,843
+test\test_library.py,test_art_filename_respects_setting,self,845,847
+test\test_library.py,test_art_path_in_item_dir,self,849,852
+test\test_library.py,test_art_path_sanitized,self,854,857
+test\test_library.py,setUp,self,861,864
+test\test_library.py,test_item_path_is_bytestring,self,866,867
+test\test_library.py,test_fetched_item_path_is_bytestring,self,869,871
+test\test_library.py,test_unicode_path_becomes_bytestring,self,873,875
+test\test_library.py,test_unicode_in_database_becomes_bytestring,self,877,882
+test\test_library.py,test_special_chars_preserved_in_database,self,884,889
+test\test_library.py,test_special_char_path_added_to_database,self,891,898
+test\test_library.py,test_destination_returns_bytestring,self,900,903
+test\test_library.py,test_art_destination_returns_bytestring,self,905,909
+test\test_library.py,test_artpath_stores_special_chars,self,911,917
+test\test_library.py,test_sanitize_path_with_special_chars,self,919,922
+test\test_library.py,test_sanitize_path_returns_unicode,self,924,927
+test\test_library.py,test_unicode_artpath_becomes_bytestring,self,929,932
+test\test_library.py,test_unicode_artpath_in_database_decoded,self,934,941
+test\test_library.py,setUp,self,945,951
+test\test_library.py,tearDown,self,953,956
+test\test_library.py,_mtime,self,958,959
+test\test_library.py,test_mtime_initially_up_to_date,self,961,962
+test\test_library.py,test_mtime_reset_on_db_modify,self,964,966
+test\test_library.py,test_mtime_up_to_date_after_write,self,968,971
+test\test_library.py,test_mtime_up_to_date_after_read,self,973,976
+test\test_library.py,setUp,self,980,982
+test\test_library.py,added,self,984,988
+test\test_library.py,test_atime_for_singleton,self,990,992
+test\test_library.py,test_year_formatted_in_template,self,996,999
+test\test_library.py,test_album_flexattr_appears_in_item_template,self,1001,1005
+test\test_library.py,test_album_and_item_format,self,1007,1022
+test\test_library.py,test_unicode_path,self,1026,1031
+test\test_library.py,setUp,self,1035,1036
+test\test_library.py,tearDown,self,1038,1039
+test\test_library.py,test_write_nonexistant,self,1041,1045
+test\test_library.py,test_no_write_permission,self,1047,1057
+test\test_library.py,test_write_with_custom_path,self,1059,1070
+test\test_library.py,test_write_custom_tags,self,1072,1076
+test\test_library.py,test_write_date_field,self,1078,1084
+test\test_library.py,test_unreadable_raise_read_error,self,1089,1095
+test\test_library.py,test_nonexistent_raise_read_error,self,1097,1100
+test\test_library.py,setUp,self,1104,1105
+test\test_library.py,tearDown,self,1107,1108
+test\test_library.py,test_filesize,self,1110,1112
+test\test_library.py,test_nonexistent_file,self,1114,1116
+test\test_library.py,test_parse_invalid_query_string,self,1120,1124
+test\test_library.py,test_parse_bytes,self,1126,1128
+test\test_library.py,test_datetype,self,1133,1144
+test\test_library.py,test_pathtype,self,1146,1154
+test\test_library.py,test_musicalkey,self,1156,1162
+test\test_library.py,test_durationtype,self,1164,1180
+test\test_library.py,suite,,1183,1184
+test\test_logging.py,test_logging_management,self,20,37
+test\test_logging.py,test_str_format_logging,self,39,49
+test\test_logging.py,__init__,self,55,58
+test\test_logging.py,log_all,"self, name",60,63
+test\test_logging.py,commands,self,65,68
+test\test_logging.py,import_stage,"self, session, task",70,71
+test\test_logging.py,listener,self,73,74
+test\test_logging.py,setUp,self,76,80
+test\test_logging.py,tearDown,self,82,88
+test\test_logging.py,test_command_level0,self,90,96
+test\test_logging.py,test_command_level1,self,98,104
+test\test_logging.py,test_command_level2,self,106,112
+test\test_logging.py,test_listener_level0,self,114,120
+test\test_logging.py,test_listener_level1,self,122,128
+test\test_logging.py,test_listener_level2,self,130,136
+test\test_logging.py,test_import_stage_level0,self,138,145
+test\test_logging.py,test_import_stage_level1,self,147,154
+test\test_logging.py,test_import_stage_level2,self,156,163
+test\test_logging.py,__init__,"self, test_case",172,180
+test\test_logging.py,log_all,"self, name",182,185
+test\test_logging.py,listener1,self,187,196
+test\test_logging.py,listener2,self,198,207
+test\test_logging.py,setUp,self,209,210
+test\test_logging.py,tearDown,self,212,213
+test\test_logging.py,test_concurrent_events,self,215,266
+test\test_logging.py,check_dp_exc,,218,220
+test\test_logging.py,test_root_logger_levels,self,268,291
+test\test_logging.py,suite,,294,295
+test\test_lyrics.py,setUp,self,40,42
+test\test_lyrics.py,test_search_artist,self,44,85
+test\test_lyrics.py,test_search_pairs_multi_titles,self,87,94
+test\test_lyrics.py,test_search_pairs_titles,self,96,119
+test\test_lyrics.py,test_remove_credits,self,121,136
+test\test_lyrics.py,test_is_lyrics,self,138,143
+test\test_lyrics.py,test_slugify,self,145,148
+test\test_lyrics.py,test_scrape_strip_cruft,self,150,158
+test\test_lyrics.py,test_scrape_strip_scripts,self,160,163
+test\test_lyrics.py,test_scrape_strip_tag_in_comment,self,165,168
+test\test_lyrics.py,test_scrape_merge_paragraphs,self,170,173
+test\test_lyrics.py,test_missing_lyrics,self,175,176
+test\test_lyrics.py,url_to_filename,url,179,184
+test\test_lyrics.py,check_lyrics_fetched,,187,193
+test\test_lyrics.py,__init__,"self, pathval=u'fetched_path'",197,199
+test\test_lyrics.py,__call__,"self, url, filename=None",201,206
+test\test_lyrics.py,is_lyrics_content_ok,"title, text",209,213
+test\test_lyrics.py,setUp,self,305,314
+test\test_lyrics.py,test_mocked_source_ok,self,316,323
+test\test_lyrics.py,test_google_sources_ok,self,325,336
+test\test_lyrics.py,test_default_ok,self,338,349
+test\test_lyrics.py,test_is_page_candidate_exact_match,self,351,362
+test\test_lyrics.py,test_is_page_candidate_fuzzy_match,self,364,377
+test\test_lyrics.py,test_is_page_candidate_special_chars,self,379,388
+test\test_lyrics.py,suite,,391,392
+test\test_mb.py,_make_release,"self, date_str=u'2009', tracks=None, track_length=None, track_artist=False",29,95
+test\test_mb.py,_make_track,"self, title, tr_id, duration, artist=False",97,115
+test\test_mb.py,test_parse_release_with_year,self,117,126
+test\test_mb.py,test_parse_release_type,self,128,131
+test\test_mb.py,test_parse_release_full_date,self,133,138
+test\test_mb.py,test_parse_tracks,self,140,153
+test\test_mb.py,test_parse_track_indices,self,155,165
+test\test_mb.py,test_parse_medium_numbers_single_medium,self,167,176
+test\test_mb.py,test_parse_medium_numbers_two_mediums,self,178,199
+test\test_mb.py,test_parse_release_year_month_only,self,201,205
+test\test_mb.py,test_no_durations,self,207,211
+test\test_mb.py,test_track_length_overrides_recording_length,self,213,217
+test\test_mb.py,test_no_release_date,self,219,224
+test\test_mb.py,test_various_artists_defaults_false,self,226,229
+test\test_mb.py,test_detect_various_artists,self,231,236
+test\test_mb.py,test_parse_artist_sort_name,self,238,241
+test\test_mb.py,test_parse_releasegroupid,self,243,246
+test\test_mb.py,test_parse_asin,self,248,251
+test\test_mb.py,test_parse_catalognum,self,253,256
+test\test_mb.py,test_parse_textrepr,self,258,262
+test\test_mb.py,test_parse_country,self,264,267
+test\test_mb.py,test_parse_status,self,269,272
+test\test_mb.py,test_parse_media,self,274,279
+test\test_mb.py,test_parse_disambig,self,281,285
+test\test_mb.py,test_parse_disctitle,self,287,294
+test\test_mb.py,test_missing_language,self,296,300
+test\test_mb.py,test_parse_recording_artist,self,302,309
+test\test_mb.py,test_track_artist_overrides_recording_artist,self,311,318
+test\test_mb.py,test_data_source,self,320,323
+test\test_mb.py,test_parse_id_correct,self,327,330
+test\test_mb.py,test_parse_id_non_id_returns_none,self,332,335
+test\test_mb.py,test_parse_id_url_finds_id,self,337,341
+test\test_mb.py,_credit_dict,"self, suffix=u''",345,351
+test\test_mb.py,_add_alias,"self, credit_dict, suffix=u'', locale=u'', primary=False",354,364
+test\test_mb.py,test_single_artist,self,366,370
+test\test_mb.py,test_two_artists,self,372,378
+test\test_mb.py,test_alias,self,380,417
+test\test_mb.py,test_match_track,self,421,434
+test\test_mb.py,test_match_album,self,436,477
+test\test_mb.py,test_match_track_empty,self,479,483
+test\test_mb.py,test_match_album_empty,self,485,489
+test\test_mb.py,suite,,492,493
+test\test_mbsync.py,setUp,self,33,35
+test\test_mbsync.py,tearDown,self,37,39
+test\test_mbsync.py,test_update_library,"self, track_for_mbid, album_for_mbid",41,74
+test\test_mbsync.py,test_message_when_skipping,self,76,129
+test\test_mbsync.py,suite,,132,133
+test\test_mediafile.py,png_data,self,41,46
+test\test_mediafile.py,jpg_data,self,49,54
+test\test_mediafile.py,tiff_data,self,57,62
+test\test_mediafile.py,test_set_png_art,self,65,71
+test\test_mediafile.py,test_set_jpg_art,self,73,79
+test\test_mediafile.py,test_delete_art,self,81,93
+test\test_mediafile.py,test_read_image_structures,self,104,119
+test\test_mediafile.py,test_set_image_structure,self,121,135
+test\test_mediafile.py,test_add_image_structure,self,137,152
+test\test_mediafile.py,test_delete_image_structures,self,155,163
+test\test_mediafile.py,test_guess_cover,self,165,170
+test\test_mediafile.py,assertExtendedImageAttributes,"self, image, **kwargs",172,175
+test\test_mediafile.py,assertExtendedImageAttributes,"self, image, desc=None, type=None",181,183
+test\test_mediafile.py,test_add_tiff_image,self,185,201
+test\test_mediafile.py,test_unmodified,self,208,215
+test\test_mediafile.py,test_same_tag_value,self,217,225
+test\test_mediafile.py,test_update_same_tag_value,self,227,234
+test\test_mediafile.py,test_tag_value_change,self,236,245
+test\test_mediafile.py,test_update_changed_tag_value,self,247,254
+test\test_mediafile.py,_set_past_mtime,"self, path",256,259
+test\test_mediafile.py,test_read_genre_list,self,266,268
+test\test_mediafile.py,test_write_genre_list,self,270,276
+test\test_mediafile.py,test_write_genre_list_get_first,self,278,284
+test\test_mediafile.py,test_append_genre_list,self,286,293
+test\test_mediafile.py,test_extended_field_write,self,306,317
+test\test_mediafile.py,test_write_extended_tag_from_item,self,319,332
+test\test_mediafile.py,test_read_flexible_attribute_from_file,self,334,346
+test\test_mediafile.py,test_invalid_descriptor,self,348,352
+test\test_mediafile.py,test_overwrite_property,self,354,358
+test\test_mediafile.py,setUp,self,446,447
+test\test_mediafile.py,tearDown,self,449,451
+test\test_mediafile.py,test_read_audio_properties,self,453,460
+test\test_mediafile.py,test_read_full,self,462,464
+test\test_mediafile.py,test_read_empty,self,466,469
+test\test_mediafile.py,test_write_empty,self,471,480
+test\test_mediafile.py,test_update_empty,self,482,490
+test\test_mediafile.py,test_overwrite_full,self,492,506
+test\test_mediafile.py,test_update_full,self,508,519
+test\test_mediafile.py,test_write_date_components,self,521,539
+test\test_mediafile.py,test_write_incomplete_date_components,self,541,552
+test\test_mediafile.py,test_write_dates,self,554,568
+test\test_mediafile.py,test_write_packed,self,570,579
+test\test_mediafile.py,test_write_counters_without_total,self,581,598
+test\test_mediafile.py,test_unparseable_date,self,600,606
+test\test_mediafile.py,test_delete_tag,self,608,620
+test\test_mediafile.py,test_delete_packed_total,self,622,631
+test\test_mediafile.py,test_delete_partial_date,self,633,650
+test\test_mediafile.py,test_delete_year,self,652,662
+test\test_mediafile.py,assertTags,"self, mediafile, tags",664,676
+test\test_mediafile.py,_mediafile_fixture,"self, name",678,683
+test\test_mediafile.py,_generate_tags,"self, base=None",685,715
+test\test_mediafile.py,test_read_track_without_total,self,726,731
+test\test_mediafile.py,test_unknown_apic_type,self,747,749
+test\test_mediafile.py,test_add_tiff_image_fails,self,764,767
+test\test_mediafile.py,test_guess_cover,self,769,771
+test\test_mediafile.py,test_write_genre_list_get_first,self,810,817
+test\test_mediafile.py,test_read_pure_tags,self,819,823
+test\test_mediafile.py,test_read_date_from_year_tag,self,838,841
+test\test_mediafile.py,test_write_date_to_year_tag,self,843,849
+test\test_mediafile.py,test_legacy_coverart_tag,self,851,860
+test\test_mediafile.py,test_date_tag_with_slashes,self,862,866
+test\test_mediafile.py,test_properties_from_fields,self,934,938
+test\test_mediafile.py,test_properties_from_readable_fields,self,940,944
+test\test_mediafile.py,test_known_fields,self,946,949
+test\test_mediafile.py,test_fields_in_readable_fields,self,951,954
+test\test_mediafile.py,suite,,957,958
+test\test_mediafile_edge.py,test_emptylist,self,34,42
+test\test_mediafile_edge.py,test_release_time_with_space,self,44,52
+test\test_mediafile_edge.py,test_release_time_with_t,self,54,62
+test\test_mediafile_edge.py,test_tempo_with_bpm,self,64,68
+test\test_mediafile_edge.py,test_discc_alternate_field,self,70,76
+test\test_mediafile_edge.py,test_old_ape_version_bitrate,self,78,80
+test\test_mediafile_edge.py,test_only_magic_bytes_jpeg,self,82,91
+test\test_mediafile_edge.py,test_soundcheck_non_ascii,self,93,98
+test\test_mediafile_edge.py,test_safe_cast_string_to_int,self,103,104
+test\test_mediafile_edge.py,test_safe_cast_int_string_to_int,self,106,107
+test\test_mediafile_edge.py,test_safe_cast_string_to_bool,self,109,110
+test\test_mediafile_edge.py,test_safe_cast_intstring_to_bool,self,112,113
+test\test_mediafile_edge.py,test_safe_cast_string_to_float,self,115,116
+test\test_mediafile_edge.py,test_safe_cast_int_to_float,self,118,119
+test\test_mediafile_edge.py,test_safe_cast_string_with_cruft_to_float,self,121,122
+test\test_mediafile_edge.py,test_safe_cast_negative_string_to_float,self,124,125
+test\test_mediafile_edge.py,test_safe_cast_special_chars_to_unicode,self,127,130
+test\test_mediafile_edge.py,test_safe_cast_float_with_no_numbers,self,132,134
+test\test_mediafile_edge.py,setUp,self,138,139
+test\test_mediafile_edge.py,tearDown,self,141,142
+test\test_mediafile_edge.py,_exccheck,"self, fn, exc, data=u''",144,151
+test\test_mediafile_edge.py,test_corrupt_mp3_raises_unreadablefileerror,self,153,155
+test\test_mediafile_edge.py,test_corrupt_mp4_raises_unreadablefileerror,self,157,158
+test\test_mediafile_edge.py,test_corrupt_flac_raises_unreadablefileerror,self,160,161
+test\test_mediafile_edge.py,test_corrupt_ogg_raises_unreadablefileerror,self,163,164
+test\test_mediafile_edge.py,test_invalid_ogg_header_raises_unreadablefileerror,self,166,168
+test\test_mediafile_edge.py,test_corrupt_monkeys_raises_unreadablefileerror,self,170,171
+test\test_mediafile_edge.py,test_invalid_extension_raises_filetypeerror,self,173,174
+test\test_mediafile_edge.py,test_magic_xml_raises_unreadablefileerror,self,176,178
+test\test_mediafile_edge.py,test_broken_symlink,self,180,188
+test\test_mediafile_edge.py,setUp,self,192,193
+test\test_mediafile_edge.py,test_opening_tagless_file_leaves_untouched,self,195,199
+test\test_mediafile_edge.py,setUp,self,203,209
+test\test_mediafile_edge.py,tearDown,self,211,212
+test\test_mediafile_edge.py,test_unicode_label_in_m4a,self,214,218
+test\test_mediafile_edge.py,setUp,self,222,228
+test\test_mediafile_edge.py,test_comment_with_latin1_encoding,self,230,238
+test\test_mediafile_edge.py,length,self,242,244
+test\test_mediafile_edge.py,setUp,self,248,251
+test\test_mediafile_edge.py,test_bitrate_with_zero_length,self,253,255
+test\test_mediafile_edge.py,setUp,self,259,262
+test\test_mediafile_edge.py,test_year_integer_in_string,self,264,266
+test\test_mediafile_edge.py,test_set_replaygain_gain_to_none,self,268,270
+test\test_mediafile_edge.py,test_set_replaygain_peak_to_none,self,272,274
+test\test_mediafile_edge.py,test_set_year_to_none,self,276,278
+test\test_mediafile_edge.py,test_set_track_to_none,self,280,282
+test\test_mediafile_edge.py,test_set_date_to_none,self,284,289
+test\test_mediafile_edge.py,test_round_trip,self,293,297
+test\test_mediafile_edge.py,test_decode_zero,self,299,304
+test\test_mediafile_edge.py,test_malformatted,self,306,309
+test\test_mediafile_edge.py,test_special_characters,self,311,314
+test\test_mediafile_edge.py,_make_test,"self, ext=u'mp3', id3v23=False",318,323
+test\test_mediafile_edge.py,_delete_test,self,325,326
+test\test_mediafile_edge.py,test_v24_year_tag,self,328,337
+test\test_mediafile_edge.py,test_v23_year_tag,self,339,348
+test\test_mediafile_edge.py,test_v23_on_non_mp3_is_noop,self,350,356
+test\test_mediafile_edge.py,test_v24_image_encoding,self,358,366
+test\test_mediafile_edge.py,test_v23_image_encoding,self,368,381
+test\test_mediafile_edge.py,suite,,384,385
+test\test_metasync.py,_parsetime,s,26,27
+test\test_metasync.py,_is_windows,,30,31
+test\test_metasync.py,setUp,self,40,53
+test\test_metasync.py,_set_up_data,self,55,79
+test\test_metasync.py,tearDown,self,81,83
+test\test_metasync.py,test_load_item_types,self,85,88
+test\test_metasync.py,test_pretend_sync_from_itunes,self,90,99
+test\test_metasync.py,test_sync_from_itunes,self,101,116
+test\test_metasync.py,suite,,119,120
+test\test_mpdstats.py,setUp,self,29,31
+test\test_mpdstats.py,tearDown,self,33,35
+test\test_mpdstats.py,test_update_rating,self,37,45
+test\test_mpdstats.py,suite,,48,49
+test\test_permissions.py,setUp,self,16,22
+test\test_permissions.py,tearDown,self,24,26
+test\test_permissions.py,test_permissions_on_album_imported,self,28,46
+test\test_permissions.py,test_permissions_on_item_imported,self,48,67
+test\test_permissions.py,suite,,70,71
+test\test_pipeline.py,_produce,num='5',26,28
+test\test_pipeline.py,_work,,31,35
+test\test_pipeline.py,_consume,l,38,41
+test\test_pipeline.py,_exc_work,num='3',49,55
+test\test_pipeline.py,_bub_work,num='3',59,66
+test\test_pipeline.py,_multi_work,,70,74
+test\test_pipeline.py,setUp,self,78,80
+test\test_pipeline.py,test_run_sequential,self,82,84
+test\test_pipeline.py,test_run_parallel,self,86,88
+test\test_pipeline.py,test_pull,self,90,92
+test\test_pipeline.py,test_pull_chain,self,94,97
+test\test_pipeline.py,setUp,self,101,104
+test\test_pipeline.py,test_run_sequential,self,107,109
+test\test_pipeline.py,test_run_parallel,self,111,114
+test\test_pipeline.py,test_pull,self,116,118
+test\test_pipeline.py,setUp,self,122,125
+test\test_pipeline.py,test_run_sequential,self,127,128
+test\test_pipeline.py,test_run_parallel,self,130,131
+test\test_pipeline.py,test_pull,self,133,138
+test\test_pipeline.py,setUp,self,142,145
+test\test_pipeline.py,test_run_parallel,self,148,149
+test\test_pipeline.py,test_constrained,self,153,159
+test\test_pipeline.py,test_constrained_exception,self,161,165
+test\test_pipeline.py,test_constrained_parallel,self,167,173
+test\test_pipeline.py,setUp,self,177,180
+test\test_pipeline.py,test_run_sequential,self,182,184
+test\test_pipeline.py,test_run_parallel,self,186,188
+test\test_pipeline.py,test_pull,self,190,192
+test\test_pipeline.py,setUp,self,196,199
+test\test_pipeline.py,test_run_sequential,self,202,204
+test\test_pipeline.py,test_run_parallel,self,206,208
+test\test_pipeline.py,test_pull,self,210,212
+test\test_pipeline.py,test_stage_decorator,self,217,226
+test\test_pipeline.py,add,"n, i",218,220
+test\test_pipeline.py,test_mutator_stage_decorator,self,228,238
+test\test_pipeline.py,setkey,"key, item",229,231
+test\test_pipeline.py,suite,,241,242
+test\test_player.py,test_no_args,self,26,30
+test\test_player.py,test_one_unquoted_arg,self,32,36
+test\test_player.py,test_two_unquoted_args,self,38,42
+test\test_player.py,test_one_quoted_arg,self,44,48
+test\test_player.py,test_heterogenous_args,self,50,54
+test\test_player.py,test_quote_in_arg,self,56,59
+test\test_player.py,test_backslash_in_arg,self,61,64
+test\test_player.py,suite,,67,68
+test\test_plexupdate.py,add_response_get_music_section,"self, section_name=u'Music'",13,60
+test\test_plexupdate.py,add_response_update_plex,self,62,73
+test\test_plexupdate.py,setUp,self,75,81
+test\test_plexupdate.py,tearDown,self,83,85
+test\test_plexupdate.py,test_get_music_section,self,87,97
+test\test_plexupdate.py,test_get_named_music_section,self,99,108
+test\test_plexupdate.py,test_update_plex,self,110,121
+test\test_plexupdate.py,suite,,124,125
+test\test_plugins.py,setup_plugin_loader,self,38,49
+test\test_plugins.py,myload,names=(),46,47
+test\test_plugins.py,teardown_plugin_loader,self,51,53
+test\test_plugins.py,register_plugin,"self, plugin_class",55,56
+test\test_plugins.py,setUp,self,61,62
+test\test_plugins.py,tearDown,self,64,66
+test\test_plugins.py,test_flex_field_type,self,68,90
+test\test_plugins.py,setUp,self,95,102
+test\test_plugins.py,tearDown,self,104,106
+test\test_plugins.py,test_change_tags,self,108,120
+test\test_plugins.py,on_write,"item=None, path=None, tags=None",110,112
+test\test_plugins.py,register_listener,"self, event, func",122,123
+test\test_plugins.py,setUp,self,128,130
+test\test_plugins.py,tearDown,self,132,134
+test\test_plugins.py,test_mismatch,self,136,148
+test\test_plugins.py,test_match,self,151,162
+test\test_plugins.py,setUp,self,167,171
+test\test_plugins.py,tearDown,self,173,175
+test\test_plugins.py,__copy_file,"self, dest_path, metadata",177,185
+test\test_plugins.py,__create_import_dir,"self, count",187,210
+test\test_plugins.py,test_import_task_created,self,212,229
+test\test_plugins.py,test_import_task_created_with_plugin,self,232,270
+test\test_plugins.py,__init__,self,234,238
+test\test_plugins.py,import_task_created_event,"self, session, task",240,250
+test\test_plugins.py,test_sanitize_choices,self,276,281
+test\test_plugins.py,setUp,self,285,286
+test\test_plugins.py,tearDown,self,288,290
+test\test_plugins.py,test_register,self,292,312
+test\test_plugins.py,__init__,self,295,298
+test\test_plugins.py,dummy,self,300,301
+test\test_plugins.py,test_events_called,"self, mock_inspect, mock_find_plugins",314,336
+test\test_plugins.py,__init__,self,320,325
+test\test_plugins.py,test_listener_params,"self, mock_find_plugins",338,402
+test\test_plugins.py,__init__,self,343,350
+test\test_plugins.py,dummy1,"self, foo",352,353
+test\test_plugins.py,dummy2,"self, foo=None",355,356
+test\test_plugins.py,dummy3,self,358,360
+test\test_plugins.py,dummy4,"self, bar=None",362,364
+test\test_plugins.py,dummy5,"self, bar",366,367
+test\test_plugins.py,dummy6,"self, foo, bar=None",371,373
+test\test_plugins.py,dummy7,"self, foo, **kwargs",375,377
+test\test_plugins.py,dummy8,"self, foo, bar, **kwargs",379,380
+test\test_plugins.py,dummy9,"self, **kwargs",382,383
+test\test_plugins.py,setUp,self,407,416
+test\test_plugins.py,tearDown,self,418,421
+test\test_plugins.py,test_plugin_choices_in_ui_input_options_album,self,423,444
+test\test_plugins.py,__init__,self,426,429
+test\test_plugins.py,return_choices,"self, session, task",431,433
+test\test_plugins.py,test_plugin_choices_in_ui_input_options_singleton,self,446,468
+test\test_plugins.py,__init__,self,449,452
+test\test_plugins.py,return_choices,"self, session, task",454,456
+test\test_plugins.py,test_choices_conflicts,self,470,492
+test\test_plugins.py,__init__,self,473,476
+test\test_plugins.py,return_choices,"self, session, task",478,482
+test\test_plugins.py,test_plugin_callback,self,494,523
+test\test_plugins.py,__init__,self,497,500
+test\test_plugins.py,return_choices,"self, session, task",502,503
+test\test_plugins.py,foo,"self, session, task",505,506
+test\test_plugins.py,test_plugin_callback_return,self,525,551
+test\test_plugins.py,__init__,self,528,531
+test\test_plugins.py,return_choices,"self, session, task",533,534
+test\test_plugins.py,foo,"self, session, task",536,537
+test\test_plugins.py,suite,,554,555
+test\test_query.py,assertInResult,"self, item, results",39,41
+test\test_query.py,assertNotInResult,"self, item, results",43,45
+test\test_query.py,test_no_restriction,self,49,54
+test\test_query.py,test_restriction_completeness,self,56,59
+test\test_query.py,test_restriction_soundness,self,61,64
+test\test_query.py,test_eq,self,66,74
+test\test_query.py,assert_items_matched,"self, results, titles",78,79
+test\test_query.py,assert_albums_matched,"self, results, albums",81,82
+test\test_query.py,setUp,self,88,109
+test\test_query.py,assert_items_matched_all,"self, results",111,115
+test\test_query.py,test_get_empty,self,120,123
+test\test_query.py,test_get_none,self,125,128
+test\test_query.py,test_get_one_keyed_term,self,130,133
+test\test_query.py,test_get_one_keyed_regexp,self,135,138
+test\test_query.py,test_get_one_unkeyed_term,self,140,143
+test\test_query.py,test_get_one_unkeyed_regexp,self,145,148
+test\test_query.py,test_get_no_matches,self,150,153
+test\test_query.py,test_invalid_key,self,155,160
+test\test_query.py,test_term_case_insensitive,self,162,165
+test\test_query.py,test_regexp_case_sensitive,self,167,173
+test\test_query.py,test_term_case_insensitive_with_key,self,175,178
+test\test_query.py,test_key_case_insensitive,self,180,183
+test\test_query.py,test_unkeyed_term_matches_multiple_columns,self,185,190
+test\test_query.py,test_unkeyed_regexp_matches_multiple_columns,self,193,198
+test\test_query.py,test_keyed_term_matches_only_one_column,self,201,204
+test\test_query.py,test_keyed_regexp_matches_only_one_column,self,206,210
+test\test_query.py,test_multiple_terms_narrow_search,self,213,217
+test\test_query.py,test_multiple_regexps_narrow_search,self,220,223
+test\test_query.py,test_mixed_terms_regexps_narrow_search,self,225,228
+test\test_query.py,test_single_year,self,230,233
+test\test_query.py,test_year_range,self,235,240
+test\test_query.py,test_singleton_true,self,243,246
+test\test_query.py,test_singleton_false,self,248,251
+test\test_query.py,test_compilation_true,self,253,256
+test\test_query.py,test_compilation_false,self,258,261
+test\test_query.py,test_unknown_field_name_no_results,self,263,267
+test\test_query.py,test_unknown_field_name_no_results_in_album_query,self,269,273
+test\test_query.py,test_item_field_name_matches_nothing_in_album_query,self,275,279
+test\test_query.py,test_unicode_query,self,281,288
+test\test_query.py,test_numeric_search_positive,self,290,293
+test\test_query.py,test_numeric_search_negative,self,295,298
+test\test_query.py,test_invalid_query,self,300,309
+test\test_query.py,setUp,self,313,315
+test\test_query.py,test_regex_match_positive,self,317,319
+test\test_query.py,test_regex_match_negative,self,321,323
+test\test_query.py,test_regex_match_non_string_value,self,325,327
+test\test_query.py,test_substring_match_positive,self,329,331
+test\test_query.py,test_substring_match_negative,self,333,335
+test\test_query.py,test_substring_match_non_string_value,self,337,339
+test\test_query.py,test_year_match_positive,self,341,343
+test\test_query.py,test_year_match_negative,self,345,347
+test\test_query.py,test_bitrate_range_positive,self,349,351
+test\test_query.py,test_bitrate_range_negative,self,353,355
+test\test_query.py,test_open_range,self,357,358
+test\test_query.py,test_eq,self,360,368
+test\test_query.py,setUp,self,372,387
+test\test_query.py,tearDown,self,389,393
+test\test_query.py,test_path_exact_match,self,395,401
+test\test_query.py,test_parent_directory_no_slash,self,403,409
+test\test_query.py,test_parent_directory_with_slash,self,411,417
+test\test_query.py,test_no_match,self,419,425
+test\test_query.py,test_fragment_no_match,self,427,433
+test\test_query.py,test_nonnorm_path,self,435,441
+test\test_query.py,test_slashed_query_matches_path,self,443,449
+test\test_query.py,test_non_slashed_does_not_match_path,self,451,457
+test\test_query.py,test_slashes_in_explicit_field_does_not_match_path,self,459,462
+test\test_query.py,test_path_item_regex,self,464,467
+test\test_query.py,test_path_album_regex,self,469,472
+test\test_query.py,test_escape_underscore,self,474,482
+test\test_query.py,test_escape_percent,self,484,492
+test\test_query.py,test_escape_backslash,self,494,502
+test\test_query.py,test_case_sensitivity,self,504,548
+test\test_query.py,test_path_sep_detection,"self, mock_os",550,560
+test\test_query.py,test_path_detection,self,562,584
+test\test_query.py,setUp,self,589,590
+test\test_query.py,tearDown,self,592,593
+test\test_query.py,test_exact_value_match,self,595,598
+test\test_query.py,test_range_match,self,600,606
+test\test_query.py,test_flex_range_match,self,608,612
+test\test_query.py,test_flex_dont_match_missing,self,614,618
+test\test_query.py,test_no_substring_match,self,620,623
+test\test_query.py,setUp,self,628,630
+test\test_query.py,tearDown,self,632,633
+test\test_query.py,test_parse_true,self,635,640
+test\test_query.py,test_flex_parse_true,self,642,647
+test\test_query.py,test_flex_parse_false,self,649,654
+test\test_query.py,test_flex_parse_1,self,656,661
+test\test_query.py,test_flex_parse_0,self,663,668
+test\test_query.py,test_flex_parse_any_string,self,670,676
+test\test_query.py,test_albums_matches_album,self,680,682
+test\test_query.py,test_albums_matches_albumartist,self,684,686
+test\test_query.py,test_items_matches_title,self,688,690
+test\test_query.py,test_items_does_not_match_year,self,692,694
+test\test_query.py,setUp,self,699,700
+test\test_query.py,test_match_singletons,self,702,708
+test\test_query.py,test_match_after_set_none,self,710,718
+test\test_query.py,setUp,self,726,728
+test\test_query.py,test_regex_match_positive,self,730,733
+test\test_query.py,test_regex_match_negative,self,735,738
+test\test_query.py,test_regex_match_non_string_value,self,740,743
+test\test_query.py,test_substring_match_positive,self,745,748
+test\test_query.py,test_substring_match_negative,self,750,753
+test\test_query.py,test_substring_match_non_string_value,self,755,758
+test\test_query.py,test_year_match_positive,self,760,763
+test\test_query.py,test_year_match_negative,self,765,768
+test\test_query.py,test_bitrate_range_positive,self,770,773
+test\test_query.py,test_bitrate_range_negative,self,775,778
+test\test_query.py,test_open_range,self,780,782
+test\test_query.py,assertNegationProperties,"self, q",790,813
+test\test_query.py,test_type_and,self,815,821
+test\test_query.py,test_type_anyfield,self,823,828
+test\test_query.py,test_type_boolean,self,830,834
+test\test_query.py,test_type_date,self,836,840
+test\test_query.py,test_type_false,self,842,846
+test\test_query.py,test_type_match,self,848,852
+test\test_query.py,test_type_none,self,854,858
+test\test_query.py,test_type_numeric,self,860,864
+test\test_query.py,test_type_or,self,866,872
+test\test_query.py,test_type_regexp,self,874,878
+test\test_query.py,test_type_substring,self,880,884
+test\test_query.py,test_type_true,self,886,890
+test\test_query.py,test_get_prefixes_keyed,self,892,899
+test\test_query.py,test_get_prefixes_unkeyed,self,901,908
+test\test_query.py,test_get_one_keyed_regexp,self,910,913
+test\test_query.py,test_get_one_unkeyed_regexp,self,915,918
+test\test_query.py,test_get_multiple_terms,self,920,923
+test\test_query.py,test_get_mixed_terms,self,925,928
+test\test_query.py,test_fast_vs_slow,self,930,955
+test\test_query.py,suite,,958,959
+test\test_replaygain.py,setUp,self,45,67
+test\test_replaygain.py,tearDown,self,69,71
+test\test_replaygain.py,_reset_replaygain,"self, item",73,79
+test\test_replaygain.py,test_cli_saves_track_gain,self,81,97
+test\test_replaygain.py,test_cli_skips_calculated_tracks,self,99,106
+test\test_replaygain.py,test_cli_saves_album_gain_to_file,self,108,128
+test\test_replaygain.py,suite,,146,147
+test\test_smartplaylist.py,test_build_queries,self,38,67
+test\test_smartplaylist.py,test_build_queries_with_sorts,self,70,94
+test\test_smartplaylist.py,test_matches,self,96,116
+test\test_smartplaylist.py,test_db_changes,self,118,142
+test\test_smartplaylist.py,test_playlist_update,self,144,175
+test\test_smartplaylist.py,setUp,self,179,190
+test\test_smartplaylist.py,tearDown,self,192,194
+test\test_smartplaylist.py,test_splupdate,self,196,215
+test\test_smartplaylist.py,suite,,218,219
+test\test_sort.py,setUp,self,31,106
+test\test_sort.py,test_sort_asc,self,110,120
+test\test_sort.py,test_sort_desc,self,122,132
+test\test_sort.py,test_sort_two_field_asc,self,134,151
+test\test_sort.py,test_sort_path_field,self,153,160
+test\test_sort.py,test_sort_asc,self,164,174
+test\test_sort.py,test_sort_desc,self,176,188
+test\test_sort.py,test_sort_two_field,self,190,207
+test\test_sort.py,test_sort_asc,self,211,221
+test\test_sort.py,test_sort_desc,self,223,233
+test\test_sort.py,test_sort_two_field_asc,self,235,252
+test\test_sort.py,test_sort_asc,self,256,266
+test\test_sort.py,test_sort_desc,self,268,278
+test\test_sort.py,test_sort_two_field_asc,self,280,297
+test\test_sort.py,test_sort_asc,self,301,311
+test\test_sort.py,test_sort_desc,self,313,323
+test\test_sort.py,test_computed_first,self,327,340
+test\test_sort.py,test_computed_second,self,342,356
+test\test_sort.py,test_default_sort_item,self,360,362
+test\test_sort.py,test_config_opposite_sort_item,self,364,367
+test\test_sort.py,test_default_sort_album,self,369,371
+test\test_sort.py,test_config_opposite_sort_album,self,373,376
+test\test_sort.py,setUp,self,384,411
+test\test_sort.py,tearDown,self,413,416
+test\test_sort.py,test_smart_artist_case_insensitive,self,418,423
+test\test_sort.py,test_smart_artist_case_sensitive,self,425,430
+test\test_sort.py,test_fixed_field_case_insensitive,self,432,437
+test\test_sort.py,test_fixed_field_case_sensitive,self,439,444
+test\test_sort.py,test_flex_field_case_insensitive,self,446,451
+test\test_sort.py,test_flex_field_case_sensitive,self,453,458
+test\test_sort.py,test_case_sensitive_only_affects_text,self,460,469
+test\test_sort.py,test_non_existing_fields_not_fail,self,475,483
+test\test_sort.py,test_combined_non_existing_field_asc,self,485,491
+test\test_sort.py,test_combined_non_existing_field_desc,self,493,499
+test\test_sort.py,test_field_present_in_some_items,self,501,518
+test\test_sort.py,test_negation_interaction,self,520,532
+test\test_sort.py,suite,,535,536
+test\test_spotify.py,__init__,"self, mode, show_failures",19,22
+test\test_spotify.py,_params,url,25,27
+test\test_spotify.py,setUp,self,32,37
+test\test_spotify.py,tearDown,self,39,40
+test\test_spotify.py,test_args,self,42,46
+test\test_spotify.py,test_empty_query,self,48,49
+test\test_spotify.py,test_missing_request,self,51,85
+test\test_spotify.py,test_track_request,self,87,206
+test\test_spotify.py,suite,,209,210
+test\test_template.py,_normexpr,expr,27,46
+test\test_template.py,_normparse,text,49,51
+test\test_template.py,test_empty_string,self,55,56
+test\test_template.py,_assert_symbol,"self, obj, ident",58,65
+test\test_template.py,_assert_call,"self, obj, ident, numargs",67,78
+test\test_template.py,test_plain_text,self,80,81
+test\test_template.py,test_escaped_character_only,self,83,84
+test\test_template.py,test_escaped_character_in_text,self,86,87
+test\test_template.py,test_escaped_character_at_start,self,89,90
+test\test_template.py,test_escaped_character_at_end,self,92,93
+test\test_template.py,test_escaped_function_delim,self,95,96
+test\test_template.py,test_escaped_sep,self,98,99
+test\test_template.py,test_escaped_close_brace,self,101,102
+test\test_template.py,test_bare_value_delim_kept_intact,self,104,105
+test\test_template.py,test_bare_function_delim_kept_intact,self,107,108
+test\test_template.py,test_bare_opener_kept_intact,self,110,111
+test\test_template.py,test_bare_closer_kept_intact,self,113,114
+test\test_template.py,test_bare_sep_kept_intact,self,116,117
+test\test_template.py,test_symbol_alone,self,119,122
+test\test_template.py,test_symbol_in_text,self,124,129
+test\test_template.py,test_symbol_with_braces,self,131,136
+test\test_template.py,test_unclosed_braces_symbol,self,138,139
+test\test_template.py,test_empty_braces_symbol,self,141,142
+test\test_template.py,test_call_without_args_at_end,self,144,145
+test\test_template.py,test_call_without_args,self,147,148
+test\test_template.py,test_call_with_unclosed_args,self,150,152
+test\test_template.py,test_call_with_unclosed_multiple_args,self,154,156
+test\test_template.py,test_call_empty_arg,self,158,162
+test\test_template.py,test_call_single_arg,self,164,168
+test\test_template.py,test_call_two_args,self,170,175
+test\test_template.py,test_call_with_escaped_sep,self,177,181
+test\test_template.py,test_call_with_escaped_close,self,183,187
+test\test_template.py,test_call_with_symbol_argument,self,189,196
+test\test_template.py,test_call_with_nested_call_argument,self,198,205
+test\test_template.py,test_nested_call_with_argument,self,207,214
+test\test_template.py,test_fail_on_utf8,self,216,221
+test\test_template.py,_eval,"self, template",225,234
+test\test_template.py,test_plain_text,self,236,237
+test\test_template.py,test_subtitute_value,self,239,240
+test\test_template.py,test_subtitute_value_in_text,self,242,243
+test\test_template.py,test_not_subtitute_undefined_value,self,245,246
+test\test_template.py,test_function_call,self,248,249
+test\test_template.py,test_function_call_with_text,self,251,252
+test\test_template.py,test_nested_function_call,self,254,255
+test\test_template.py,test_symbol_in_argument,self,257,258
+test\test_template.py,test_function_call_exception,self,260,262
+test\test_template.py,test_function_returning_integer,self,264,265
+test\test_template.py,test_not_subtitute_undefined_func,self,267,268
+test\test_template.py,test_not_subtitute_func_with_no_args,self,270,271
+test\test_template.py,test_function_call_with_empty_arg,self,273,274
+test\test_template.py,suite,,277,278
+test\test_the.py,test_unthe_with_default_patterns,self,16,39
+test\test_the.py,test_unthe_with_strip,self,41,45
+test\test_the.py,test_template_function_with_defaults,self,47,50
+test\test_the.py,test_custom_pattern,self,52,56
+test\test_the.py,test_custom_format,self,58,61
+test\test_the.py,suite,,64,65
+test\test_thumbnails.py,setUp,self,33,34
+test\test_thumbnails.py,tearDown,self,36,37
+test\test_thumbnails.py,test_write_metadata_im,"self, mock_util",39,48
+test\test_thumbnails.py,test_add_tags,"self, mock_stat, _",50,66
+test\test_thumbnails.py,test_check_local_ok,"self, mock_giouri, mock_pil, mock_im, mock_artresizer, mock_os",68,118
+test\test_thumbnails.py,exists,path,83,88
+test\test_thumbnails.py,test_make_cover_thumbnail,"self, mock_shutils, mock_os, mock_util, mock_artresizer, _",120,181
+test\test_thumbnails.py,os_stat,target,140,146
+test\test_thumbnails.py,os_stat,target,166,172
+test\test_thumbnails.py,test_make_dolphin_cover_thumbnail,"self, _",183,205
+test\test_thumbnails.py,test_process_album,"self, mock_artresizer, _",207,248
+test\test_thumbnails.py,test_invokations,"self, mock_decargs, _",250,264
+test\test_thumbnails.py,test_thumbnail_file_name,"self, mock_basedir",266,271
+test\test_thumbnails.py,test_uri,self,273,288
+test\test_thumbnails.py,suite,,291,292
+test\test_types_plugin.py,setUp,self,30,32
+test\test_types_plugin.py,tearDown,self,34,36
+test\test_types_plugin.py,test_integer_modify_and_query,self,38,52
+test\test_types_plugin.py,test_album_integer_modify_and_query,self,54,68
+test\test_types_plugin.py,test_float_modify_and_query,self,70,80
+test\test_types_plugin.py,test_bool_modify_and_query,self,82,102
+test\test_types_plugin.py,test_date_modify_and_query,self,109,126
+test\test_types_plugin.py,test_unknown_type_error,self,132,135
+test\test_types_plugin.py,modify,"self, *args",137,139
+test\test_types_plugin.py,list,"self, query, fmt=u'$artist - $album - $title'",141,142
+test\test_types_plugin.py,list_album,"self, query, fmt=u'$albumartist - $album - $title'",144,145
+test\test_types_plugin.py,mktime,*args,148,149
+test\test_types_plugin.py,suite,,152,153
+test\test_ui.py,setUp,self,45,50
+test\test_ui.py,_run_list,"self, query=u'', album=False, path=False, fmt=u''",52,53
+test\test_ui.py,test_list_outputs_item,self,55,58
+test\test_ui.py,test_list_unicode_query,self,60,68
+test\test_ui.py,test_list_item_path,self,70,73
+test\test_ui.py,test_list_album_outputs_something,self,75,78
+test\test_ui.py,test_list_album_path,self,80,83
+test\test_ui.py,test_list_album_omits_title,self,85,88
+test\test_ui.py,test_list_uses_track_artist,self,90,94
+test\test_ui.py,test_list_album_uses_album_artist,self,96,100
+test\test_ui.py,test_list_item_format_artist,self,102,105
+test\test_ui.py,test_list_item_format_multiple,self,107,111
+test\test_ui.py,test_list_album_format,self,113,117
+test\test_ui.py,setUp,self,121,133
+test\test_ui.py,test_remove_items_no_delete,self,135,140
+test\test_ui.py,test_remove_items_with_delete,self,142,147
+test\test_ui.py,setUp,self,152,155
+test\test_ui.py,tearDown,self,157,158
+test\test_ui.py,modify,"self, *args",160,162
+test\test_ui.py,test_modify_item,self,166,169
+test\test_ui.py,test_modify_write_tags,self,171,175
+test\test_ui.py,test_modify_dont_write_tags,self,177,181
+test\test_ui.py,test_move,self,183,186
+test\test_ui.py,test_not_move,self,188,191
+test\test_ui.py,test_update_mtime,self,193,200
+test\test_ui.py,test_reset_mtime_with_no_write,self,202,207
+test\test_ui.py,test_modify_album,self,211,214
+test\test_ui.py,test_modify_album_write_tags,self,216,220
+test\test_ui.py,test_modify_album_dont_write_tags,self,222,226
+test\test_ui.py,test_album_move,self,228,232
+test\test_ui.py,test_album_not_move,self,234,238
+test\test_ui.py,test_write_initial_key_tag,self,242,246
+test\test_ui.py,test_set_flexattr,self,248,251
+test\test_ui.py,test_remove_flexattr,self,253,260
+test\test_ui.py,test_delete_initial_key_tag,self,262,274
+test\test_ui.py,test_arg_parsing_colon_query,self,276,280
+test\test_ui.py,test_arg_parsing_delete,self,282,286
+test\test_ui.py,test_arg_parsing_query_with_exclaimation,self,288,292
+test\test_ui.py,test_arg_parsing_equals_in_value,self,294,298
+test\test_ui.py,setUp,self,303,304
+test\test_ui.py,tearDown,self,306,307
+test\test_ui.py,write_cmd,"self, *args",309,310
+test\test_ui.py,test_update_mtime,self,312,322
+test\test_ui.py,test_non_metadata_field_unchanged,self,324,339
+test\test_ui.py,test_write_metadata_field,self,341,353
+test\test_ui.py,setUp,self,357,375
+test\test_ui.py,_move,"self, query=(), dest=None, copy=False, album=False, pretend=False",377,379
+test\test_ui.py,test_move_item,self,381,386
+test\test_ui.py,test_copy_item,self,388,393
+test\test_ui.py,test_move_album,self,395,400
+test\test_ui.py,test_copy_album,self,402,407
+test\test_ui.py,test_move_item_custom_dir,self,409,414
+test\test_ui.py,test_move_album_custom_dir,self,416,421
+test\test_ui.py,test_pretend_move_item,self,423,426
+test\test_ui.py,test_pretend_move_album,self,428,431
+test\test_ui.py,setUp,self,435,454
+test\test_ui.py,_update,"self, query=(), album=False, move=False, reset_mtime=True",456,461
+test\test_ui.py,test_delete_removes_item,self,463,467
+test\test_ui.py,test_delete_removes_album,self,469,473
+test\test_ui.py,test_delete_removes_album_art,self,475,480
+test\test_ui.py,test_modified_metadata_detected,self,482,488
+test\test_ui.py,test_modified_metadata_moved,self,490,496
+test\test_ui.py,test_modified_metadata_not_moved,self,498,504
+test\test_ui.py,test_modified_album_metadata_moved,self,506,512
+test\test_ui.py,test_modified_album_metadata_art_moved,self,514,521
+test\test_ui.py,test_mtime_match_skips_update,self,523,534
+test\test_ui.py,setUp,self,538,540
+test\test_ui.py,test_print_without_locale,self,542,553
+test\test_ui.py,test_print_with_invalid_locale,self,555,573
+test\test_ui.py,test_quiet_timid_disallowed,self,577,581
+test\test_ui.py,setUp,self,585,587
+test\test_ui.py,test_manual_search_gets_unicode,self,589,594
+test\test_ui.py,setUp,self,598,628
+test\test_ui.py,tearDown,self,630,634
+test\test_ui.py,_make_test_cmd,self,636,645
+test\test_ui.py,run,"lib, options, args",639,642
+test\test_ui.py,_reset_config,self,647,650
+test\test_ui.py,write_config_file,self,652,653
+test\test_ui.py,test_paths_section_respected,self,655,662
+test\test_ui.py,test_default_paths_preserved,self,664,676
+test\test_ui.py,test_nonexistant_db,self,678,683
+test\test_ui.py,test_user_config_file,self,685,690
+test\test_ui.py,test_replacements_parsed,self,692,698
+test\test_ui.py,test_multiple_replacements_parsed,self,700,708
+test\test_ui.py,test_cli_config_option,self,711,717
+test\test_ui.py,test_cli_config_file_overwrites_user_defaults,self,719,728
+test\test_ui.py,test_cli_config_file_overwrites_beetsdir_defaults,self,730,741
+test\test_ui.py,test_cli_config_paths_resolve_relative_to_user_dir,self,775,785
+test\test_ui.py,test_cli_config_paths_resolve_relative_to_beetsdir,self,787,799
+test\test_ui.py,test_command_line_option_relative_to_working_dir,self,801,805
+test\test_ui.py,test_cli_config_file_loads_plugin_commands,self,807,816
+test\test_ui.py,test_beetsdir_config,self,818,826
+test\test_ui.py,test_beetsdir_points_to_file_error,self,828,832
+test\test_ui.py,test_beetsdir_config_does_not_load_default_user_config,self,834,841
+test\test_ui.py,test_default_config_paths_resolve_relative_to_beetsdir,self,843,850
+test\test_ui.py,test_beetsdir_config_paths_resolve_relative_to_beetsdir,self,852,864
+test\test_ui.py,setUp,self,868,873
+test\test_ui.py,_show,"self, **kwargs",875,878
+test\test_ui.py,test_identical,self,880,883
+test\test_ui.py,test_string_fixed_field_change,self,885,889
+test\test_ui.py,test_int_fixed_field_change,self,891,895
+test\test_ui.py,test_floats_close_to_identical,self,897,902
+test\test_ui.py,test_floats_different,self,904,909
+test\test_ui.py,test_both_values_shown,self,911,916
+test\test_ui.py,setUp,self,920,929
+test\test_ui.py,_show_change,"self, items=None, info=None, cur_artist=u'the artist', cur_album=u'the album', dist='0.1'",933,949
+test\test_ui.py,test_null_change,self,951,954
+test\test_ui.py,test_album_data_change,self,956,959
+test\test_ui.py,test_item_data_change,self,961,964
+test\test_ui.py,test_item_data_change_with_unicode,self,966,969
+test\test_ui.py,test_album_data_change_with_unicode,self,971,974
+test\test_ui.py,test_item_data_change_title_missing,self,976,979
+test\test_ui.py,test_item_data_change_title_missing_with_unicode_filename,self,981,986
+test\test_ui.py,setUp,self,990,998
+test\test_ui.py,test_summarize_item,self,1000,1005
+test\test_ui.py,test_summarize_items,self,1007,1023
+test\test_ui.py,test_custom_paths_prepend,self,1027,1035
+test\test_ui.py,test_plugin_command_from_pluginpath,self,1039,1042
+test\test_ui.py,test_completion,self,1046,1084
+test\test_ui.py,setUp,self,1091,1097
+test\test_ui.py,tearDown,self,1099,1100
+test\test_ui.py,test_base,self,1102,1107
+test\test_ui.py,test_path_option,self,1109,1114
+test\test_ui.py,test_format_option,self,1116,1121
+test\test_ui.py,test_root_format_option,self,1123,1130
+test\test_ui.py,setUp,self,1134,1135
+test\test_ui.py,tearDown,self,1137,1138
+test\test_ui.py,test_album_option,self,1140,1148
+test\test_ui.py,test_path_option,self,1150,1165
+test\test_ui.py,test_format_option,self,1167,1182
+test\test_ui.py,test_format_option_with_target,self,1184,1198
+test\test_ui.py,test_format_option_with_album,self,1200,1217
+test\test_ui.py,test_add_all_common_options,self,1219,1223
+test\test_ui.py,suite,,1226,1227
+test\test_ui_commands.py,setUp,self,30,40
+test\test_ui_commands.py,add_item,"self, filename='srcfile', templatefile='full.mp3'",42,47
+test\test_ui_commands.py,add_album,"self, items",49,51
+test\test_ui_commands.py,check_do_query,"self, num_items, num_albums, q=(), album=False, also_items=True",53,58
+test\test_ui_commands.py,test_query_empty,self,60,62
+test\test_ui_commands.py,test_query_empty_album,self,64,66
+test\test_ui_commands.py,test_query_item,self,68,72
+test\test_ui_commands.py,test_query_album,self,74,84
+test\test_ui_commands.py,setUp,self,88,91
+test\test_ui_commands.py,tearDown,self,93,94
+test\test_ui_commands.py,remove_keys,"self, l, text",96,101
+test\test_ui_commands.py,test_fields_func,self,103,113
+test\test_ui_commands.py,suite,,116,117
+test\test_ui_importer.py,__init__,"self, *args, **kwargs",34,37
+test\test_ui_importer.py,add_choice,"self, choice",41,42
+test\test_ui_importer.py,clear_choices,self,44,45
+test\test_ui_importer.py,choose_match,"self, task",47,49
+test\test_ui_importer.py,choose_item,"self, task",51,53
+test\test_ui_importer.py,_add_choice_input,self,55,76
+test\test_ui_importer.py,_setup_import_session,"self, import_dir=None, delete=False, threaded=False, copy=True, singletons=False, move=False, autotag=True",83,100
+test\test_ui_importer.py,suite,,149,150
+test\test_ui_init.py,setUp,self,25,26
+test\test_ui_init.py,test_human_bytes,self,28,44
+test\test_ui_init.py,test_human_seconds,self,46,60
+test\test_ui_init.py,suite,,63,64
+test\test_util.py,test_open_anything,self,33,41
+test\test_util.py,test_interactive_open,"self, mock_open, mock_execlp",43,52
+test\test_util.py,test_sanitize_unix_replaces_leading_dot,self,54,57
+test\test_util.py,test_sanitize_windows_replaces_trailing_dot,self,59,62
+test\test_util.py,test_sanitize_windows_replaces_illegal_chars,self,64,73
+test\test_util.py,test_sanitize_windows_replaces_trailing_space,self,75,78
+test\test_util.py,test_sanitize_path_works_on_empty_string,self,80,83
+test\test_util.py,test_sanitize_with_custom_replace_overrides_built_in_sub,self,85,90
+test\test_util.py,test_sanitize_with_custom_replace_adds_replacements,self,92,97
+test\test_util.py,test_sanitize_empty_component,self,99,105
+test\test_util.py,test_command_output,"self, mock_popen",107,118
+test\test_util.py,popen_fail,"*args, **kwargs",109,112
+test\test_util.py,test_syspath_windows_format,self,122,127
+test\test_util.py,test_syspath_windows_format_unc_path,self,129,136
+test\test_util.py,test_syspath_posix_unchanged,self,138,142
+test\test_util.py,_windows_bytestring_path,"self, path",144,151
+test\test_util.py,test_bytestring_path_windows_encodes_utf8,self,153,156
+test\test_util.py,test_bytesting_path_windows_removes_magic_prefix,self,158,161
+test\test_util.py,test_truncate_bytestring,self,165,168
+test\test_util.py,test_truncate_unicode,self,170,173
+test\test_util.py,test_truncate_preserves_extension,self,175,178
+test\test_util.py,suite,,181,182
+test\test_vfs.py,setUp,self,27,35
+test\test_vfs.py,test_singleton_item,self,37,39
+test\test_vfs.py,test_album_item,self,41,43
+test\test_vfs.py,suite,,46,47
+test\test_web.py,setUp,self,19,32
+test\test_web.py,test_get_all_items,self,34,39
+test\test_web.py,test_get_single_item_by_id,self,41,47
+test\test_web.py,test_get_multiple_items_by_id,self,49,56
+test\test_web.py,test_get_single_item_not_found,self,58,60
+test\test_web.py,test_get_item_empty_query,self,62,67
+test\test_web.py,test_get_simple_item_query,self,69,75
+test\test_web.py,test_get_all_albums,self,77,83
+test\test_web.py,test_get_single_album_by_id,self,85,91
+test\test_web.py,test_get_multiple_albums_by_id,self,93,99
+test\test_web.py,test_get_album_empty_query,self,101,106
+test\test_web.py,suite,,109,110
+test\test_zero.py,setUp,self,18,19
+test\test_zero.py,tearDown,self,21,23
+test\test_zero.py,test_no_patterns,self,25,42
+test\test_zero.py,test_patterns,self,44,57
+test\test_zero.py,test_delete_replaygain_tag,self,59,77
+test\test_zero.py,test_do_not_change_database,self,79,91
+test\test_zero.py,test_change_database,self,93,108
+test\test_zero.py,test_album_art,self,110,122
+test\test_zero.py,suite,,125,126
+test\_common.py,item,lib=None,61,95
+test\_common.py,album,lib=None,100,121
+test\_common.py,import_session,"lib=None, loghandler=None, paths=[], query=[], cli=False",125,127
+test\_common.py,setUp,self,139,157
+test\_common.py,tearDown,self,159,169
+test\_common.py,assertExists,"self, path",171,173
+test\_common.py,assertNotExists,"self, path",175,177
+test\_common.py,setUp,self,184,187
+test\_common.py,tearDown,self,189,191
+test\_common.py,__init__,self,200,201
+test\_common.py,time,self,203,204
+test\_common.py,sleep,"self, amount",206,207
+test\_common.py,install,self,209,215
+test\_common.py,restore,self,217,219
+test\_common.py,__init__,"self, output=None",225,226
+test\_common.py,__str__,self,228,232
+test\_common.py,__init__,self,238,239
+test\_common.py,write,"self, s",241,242
+test\_common.py,get,self,244,245
+test\_common.py,clear,self,247,248
+test\_common.py,__init__,"self, out=None",254,257
+test\_common.py,add,"self, s",259,260
+test\_common.py,readline,self,262,269
+test\_common.py,__init__,self,274,276
+test\_common.py,addinput,"self, s",278,279
+test\_common.py,getoutput,self,281,284
+test\_common.py,readcount,self,286,287
+test\_common.py,install,self,289,291
+test\_common.py,restore,self,293,295
+test\_common.py,touch,path,300,301
+test\_common.py,__init__,"self, **fields",309,310
+test\_common.py,__getattr__,"self, key",312,313
+test\_common.py,platform_windows,,318,326
+test\_common.py,platform_posix,,329,337
+test\_common.py,system_mock,name,340,348
+test\rsrc\beetsplug\test.py,__init__,self,11,13
+test\rsrc\beetsplug\test.py,commands,self,15,24

@@ -1,0 +1,1216 @@
+lib\controller\controller.py:651:35: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+extra\beep\beep.py:19:11: error: Module has no attribute "mswindows"
+extra\cloak\cloak.py:41:92: error: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: the provided input file \'%s\' does not contain valid cloaked content' % inputFile)?
+extra\dbgtool\dbgtool.py:22:76: error: Missing parentheses in call to 'print'. Did you mean print(print "ERROR: the provided input file '%s' is too big for debug.exe" % inputFile)?
+extra\icmpsh\icmpsh_m.py:40:7: error: Module has no attribute "mswindows"
+extra\icmpsh\icmpsh_m.py:64:4: error: Argument 1 to "setblocking" of "socket" has incompatible type "int"; expected "bool"
+extra\mssqlsig\update.py:25:20: error: Missing parentheses in call to 'print'. Did you mean print(print errMsg)?
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+extra\shutils\duplicates.py:20:34: error: Missing parentheses in call to 'print'. Did you mean print(print item)?
+extra\shutils\pylint.py:20:25: error: Missing parentheses in call to 'print'. Did you mean print(print "CHECKING ", module)?
+extra\shutils\regressiontest.py:60:33: error: invalid syntax
+extra\sqlharvest\sqlharvest.py:78:29: error: invalid syntax
+lib\controller\action.py:82:39: error: invalid syntax
+lib\controller\checks.py:490:61: error: invalid syntax
+lib\controller\controller.py:651:35: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\bigarray.py:80:27: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\decorators.py:19:12: error: Incompatible types in assignment (expression has type "str", variable has type "Tuple[Any, Tuple[Any, ...], FrozenSet[Tuple[str, Any]]]")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\dump.py:77:23: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\option.py:326:48: error: invalid syntax
+lib\core\profiling.py:28:23: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\replication.py:60:33: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\shell.py:75:19: error: invalid syntax
+lib\core\subprocessng.py:40:34: error: invalid syntax
+lib\core\target.py:400:27: error: invalid syntax
+lib\core\testing.py:70:33: error: invalid syntax
+lib\core\threads.py:92:21: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\update.py:50:34: error: invalid syntax
+lib\core\wordlist.py:46:37: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\parse\cmdline.py:865:47: error: Missing parentheses in call to 'print'. Did you mean print(print "[i] history cleared")?
+lib\parse\configfile.py:38:26: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\parse\payloads.py:76:21: error: invalid syntax
+lib\parse\sitemap.py:35:40: error: invalid syntax
+lib\request\basic.py:260:25: error: invalid syntax
+lib\request\basicauthhandler.py:17:8: error: Need type annotation for variable
+lib\core\common.py:854:19: error: invalid syntax
+lib\request\connect.py:528:33: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+lib\request\dns.py:131:34: error: Missing parentheses in call to 'print'. Did you mean print(print "[i] %s" % _)?
+lib\request\httpshandler.py:64:75: error: invalid syntax
+lib\core\bigarray.py:80:27: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\request\rangehandler.py:42:12: error: Module has no attribute "addinfourl"
+lib\request\redirecthandler.py:78:25: error: invalid syntax
+lib\request\connect.py:528:33: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+extra\cloak\cloak.py:41:92: error: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: the provided input file \'%s\' does not contain valid cloaked content' % inputFile)?
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+extra\cloak\cloak.py:41:92: error: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: the provided input file \'%s\' does not contain valid cloaked content' % inputFile)?
+lib\core\common.py:854:19: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+extra\safe2bin\safe2bin.py:111:36: error: invalid syntax
+lib\utils\api.py:90:44: error: invalid syntax
+lib\utils\crawler.py:63:49: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\utils\getch.py:51:15: error: Module has no attribute "getch"
+lib\utils\hash.py:584:29: error: invalid syntax
+lib\utils\hashdb.py:42:29: error: invalid syntax
+lib\utils\pivotdumptable.py:167:37: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\utils\purge.py:82:19: error: invalid syntax
+lib\utils\search.py:59:21: error: invalid syntax
+lib\utils\sqlalchemy.py:48:54: error: invalid syntax
+lib\utils\timeout.py:22:29: error: invalid syntax
+lib\utils\xrange.py:52:16: error: Name 'cmp' is not defined
+lib\utils\xrange.py:53:16: error: Name 'cmp' is not defined
+lib\utils\xrange.py:73:37: error: Name 'long' is not defined
+plugins\dbms\access\connector.py:45:55: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\db2\connector.py:37:43: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\firebird\connector.py:44:44: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\hsqldb\connector.py:11:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\generic\connector.py:53:25: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\mssqlserver\connector.py:44:66: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\mysql\connector.py:39:65: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\oracle\connector.py:48:99: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\postgresql\connector.py:39:41: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\sqlite\connector.py:49:77: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\dbms\sybase\connector.py:44:40: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\generic\connector.py:53:25: error: invalid syntax
+plugins\generic\custom.py:73:39: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+plugins\generic\entries.py:345:46: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+tamper\ifnull2ifisnull.py:41:21: error: Name 'xrange' is not defined
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+tamper\space2comment.py:38:17: error: Name 'xrange' is not defined
+tamper\space2dash.py:37:17: error: Name 'xrange' is not defined
+tamper\space2dash.py:39:108: error: Name 'xrange' is not defined
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+tamper\space2mssqlhash.py:31:17: error: Name 'xrange' is not defined
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+tamper\space2plus.py:34:17: error: Name 'xrange' is not defined
+tamper\space2randomblank.py:48:17: error: Name 'xrange' is not defined
+tamper\unmagicquotes.py:38:17: error: Name 'xrange' is not defined
+lib\core\convert.py:77:32: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\common.py:854:19: error: invalid syntax
+tamper\xforwardedfor.py:16:4: error: Need type annotation for variable
+tamper\xforwardedfor.py:18:25: error: Name 'xrange' is not defined
+lib\core\convert.py:77:32: error: invalid syntax
+thirdparty\beautifulsoup\beautifulsoup.py:473:33: error: invalid syntax
+thirdparty\bottle\bottle.py:156:4: error: Name 'httplib' already defined
+thirdparty\bottle\bottle.py:157:4: error: Name 'thread' already defined
+thirdparty\bottle\bottle.py:158:4: error: Name 'urljoin' already defined
+thirdparty\bottle\bottle.py:158:4: error: Name 'UrlSplitResult' already defined
+thirdparty\bottle\bottle.py:159:4: error: Module 'urllib' has no attribute 'urlencode'
+thirdparty\bottle\bottle.py:159:4: error: Name 'urlencode' already defined
+thirdparty\bottle\bottle.py:159:4: error: Module 'urllib' has no attribute 'quote'
+thirdparty\bottle\bottle.py:159:4: error: Name 'urlquote' already defined
+thirdparty\bottle\bottle.py:159:4: error: Module 'urllib' has no attribute 'unquote'
+thirdparty\bottle\bottle.py:159:4: error: Name 'urlunquote' already defined
+thirdparty\bottle\bottle.py:160:4: error: Name 'SimpleCookie' already defined
+thirdparty\bottle\bottle.py:161:4: error: Module 'itertools' has no attribute 'imap'
+thirdparty\bottle\bottle.py:161:4: error: Name 'imap' already defined
+thirdparty\bottle\bottle.py:162:4: error: Name 'pickle' already defined
+thirdparty\bottle\bottle.py:163:4: error: Name 'BytesIO' already defined
+thirdparty\bottle\bottle.py:164:4: error: Name 'ConfigParser' already defined
+thirdparty\bottle\bottle.py:164:4: error: Name 'ConfigParserError' already defined
+thirdparty\bottle\bottle.py:169:8: error: Name 'DictMixin' already defined
+thirdparty\bottle\bottle.py:177:4: error: Cannot assign to a type
+thirdparty\bottle\bottle.py:177:4: error: Cannot assign multiple types to name "unicode" without an explicit "Type[...]" annotation
+thirdparty\bottle\bottle.py:1715: error: Too many arguments
+thirdparty\bottle\bottle.py:2898:16: error: Name 'server_cls' already defined
+thirdparty\bottle\bottle.py:2898:16: error: Cycle in inheritance hierarchy
+thirdparty\bottle\bottle.py:2988:8: error: Name 'tornado' already defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\chardet\mbcharsetprober.py:55:17: error: Name 'xrange' is not defined
+thirdparty\chardet\utf8prober.py:72:21: error: Name 'xrange' is not defined
+thirdparty\chardet\charsetgroupprober.py:37:8: error: Need type annotation for variable
+thirdparty\chardet\eucjpprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\sjisprober.py:54:17: error: Name 'xrange' is not defined
+thirdparty\chardet\universaldetector.py:49:8: error: Need type annotation for variable
+thirdparty\chardet\__init__.py:23:52: error: Name 'unicode' is not defined
+thirdparty\clientform\clientform.py:293:69: error: invalid syntax
+thirdparty\colorama\win32.py:68:4: error: Incompatible redefinition (redefinition with type "Callable[[Any, Any], Any]", original type "Callable[[VarArg(Any)], None]")
+thirdparty\colorama\ansitowin32.py:127:31: error: "AnsiCodes" has no attribute "RESET_ALL"
+thirdparty\colorama\win32.py:68:4: error: Incompatible redefinition (redefinition with type "Callable[[Any, Any], Any]", original type "Callable[[VarArg(Any)], None]")
+thirdparty\colorama\ansitowin32.py:127:31: error: "AnsiCodes" has no attribute "RESET_ALL"
+thirdparty\colorama\win32.py:68:4: error: Incompatible redefinition (redefinition with type "Callable[[Any, Any], Any]", original type "Callable[[VarArg(Any)], None]")
+thirdparty\colorama\win32.py:68:4: error: Incompatible redefinition (redefinition with type "Callable[[Any, Any], Any]", original type "Callable[[VarArg(Any)], None]")
+thirdparty\fcrypt\fcrypt.py:478:13: error: Name 'xrange' is not defined
+thirdparty\fcrypt\fcrypt.py:516:12: error: Name 'xrange' is not defined
+thirdparty\fcrypt\fcrypt.py:518:13: error: Name 'xrange' is not defined
+thirdparty\fcrypt\fcrypt.py:605:13: error: Name 'xrange' is not defined
+thirdparty\fcrypt\fcrypt.py:607:22: error: Module has no attribute "join"
+thirdparty\gprof2dot\gprof2dot.py:698:48: error: invalid syntax
+thirdparty\keepalive\keepalive.py:144:28: error: invalid syntax
+thirdparty\multipart\multipartpost.py:62:42: error: invalid syntax
+thirdparty\odict\odict.py:612:28: error: invalid syntax
+thirdparty\oset\_abc.py:75:8: error: "type" has no attribute "__abstractmethods__"
+thirdparty\oset\_abc.py:77:8: error: "type" has no attribute "_abc_registry"
+thirdparty\oset\_abc.py:78:8: error: "type" has no attribute "_abc_cache"
+thirdparty\oset\_abc.py:79:8: error: "type" has no attribute "_abc_negative_cache"
+thirdparty\oset\_abc.py:80:8: error: "type" has no attribute "_abc_negative_cache_version"
+thirdparty\oset\_abc.py:85:43: error: Module has no attribute "ClassType"
+thirdparty\oset\_abc.py:134:12: error: Need type annotation for variable
+thirdparty\oset\_abc.py:219:0: error: "Type[Iterable]" has no attribute "register"
+thirdparty\oset\_abc.py:325:14: error: Module has no attribute "maxint"
+thirdparty\oset\_abc.py:342:0: error: "Type[Set]" has no attribute "register"
+thirdparty\oset\_abc.py:367:20: error: "Iterator[Any]" has no attribute "next"
+thirdparty\oset\_abc.py:406:0: error: "Type[MutableSet]" has no attribute "register"
+thirdparty\oset\_abc.py:412:8: error: Need type annotation for variable
+thirdparty\oset\_abc.py:414:8: error: Need type annotation for variable
+thirdparty\oset\_abc.py:430:23: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:431:17: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:431:29: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:436:17: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:437:17: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:441:19: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:443:23: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:444:24: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:448:19: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:450:23: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:451:24: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:456:14: error: "Iterator[Any]" has no attribute "next"
+thirdparty\oset\_abc.py:471:16: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:471:21: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:471:27: error: Name 'NEXT' is not defined
+thirdparty\oset\pyoset.py:12:4: error: Incompatible import of "MutableSet" (imported name has type "Type[MutableSet]", local name has type "Type[MutableSet[Any]]")
+thirdparty\oset\pyoset.py:21:8: error: Need type annotation for variable
+thirdparty\oset\pyoset.py:23:8: error: Need type annotation for variable
+thirdparty\oset\pyoset.py:65:14: error: "Iterator[Any]" has no attribute "next"
+thirdparty\oset\_abc.py:75:8: error: "type" has no attribute "__abstractmethods__"
+thirdparty\oset\_abc.py:77:8: error: "type" has no attribute "_abc_registry"
+thirdparty\oset\_abc.py:78:8: error: "type" has no attribute "_abc_cache"
+thirdparty\oset\_abc.py:79:8: error: "type" has no attribute "_abc_negative_cache"
+thirdparty\oset\_abc.py:80:8: error: "type" has no attribute "_abc_negative_cache_version"
+thirdparty\oset\_abc.py:85:43: error: Module has no attribute "ClassType"
+thirdparty\oset\_abc.py:134:12: error: Need type annotation for variable
+thirdparty\oset\_abc.py:219:0: error: "Type[Iterable]" has no attribute "register"
+thirdparty\oset\_abc.py:325:14: error: Module has no attribute "maxint"
+thirdparty\oset\_abc.py:342:0: error: "Type[Set]" has no attribute "register"
+thirdparty\oset\_abc.py:367:20: error: "Iterator[Any]" has no attribute "next"
+thirdparty\oset\_abc.py:406:0: error: "Type[MutableSet]" has no attribute "register"
+thirdparty\oset\_abc.py:412:8: error: Need type annotation for variable
+thirdparty\oset\_abc.py:414:8: error: Need type annotation for variable
+thirdparty\oset\_abc.py:430:23: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:431:17: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:431:29: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:436:17: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:437:17: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:441:19: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:443:23: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:444:24: error: Name 'NEXT' is not defined
+thirdparty\oset\_abc.py:448:19: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:450:23: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:451:24: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:456:14: error: "Iterator[Any]" has no attribute "next"
+thirdparty\oset\_abc.py:471:16: error: Name 'KEY' is not defined
+thirdparty\oset\_abc.py:471:21: error: Name 'PREV' is not defined
+thirdparty\oset\_abc.py:471:27: error: Name 'NEXT' is not defined
+thirdparty\pagerank\pagerank.py:18:48: error: Name 'unicode' is not defined
+thirdparty\pagerank\pagerank.py:19:129: error: Module has no attribute "quote"
+thirdparty\pagerank\pagerank.py:21:12: error: Module has no attribute "urlopen"
+thirdparty\pagerank\pagerank.py:30:13: error: Name 'xrange' is not defined
+thirdparty\pagerank\pagerank.py:66:12: error: Incompatible types in assignment (expression has type "float", variable has type "int")
+thirdparty\pydes\pyDes.py:232:23: error: Name 'unicode' is not defined
+thirdparty\pydes\pyDes.py:404:2: error: Need type annotation for variable
+thirdparty\pydes\pyDes.py:405:2: error: Need type annotation for variable
+thirdparty\pydes\pyDes.py:407:2: error: Need type annotation for variable
+thirdparty\pydes\pyDes.py:587:2: error: Need type annotation for variable
+thirdparty\socks\socks.py:194:25: error: Unsupported operand types for + ("bytes" and "str")
+thirdparty\xdot\xdot.py:305:17: error: Name 'xrange' is not defined
+thirdparty\xdot\xdot.py:527:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:722:83: error: Name 'op' is not defined
+thirdparty\xdot\xdot.py:772:4: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:773:4: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:774:4: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:999:4: error: Incompatible types in assignment (expression has type "DotScanner", base class "Lexer" defined the type as "None")
+thirdparty\xdot\xdot.py:1030:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1031:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1032:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1155:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1156:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1157:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1158:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1206:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1224:8: error: Need type annotation for variable
+thirdparty\xdot\xdot.py:1539:31: error: Name 'unicode' is not defined
+thirdparty\xdot\xdot.py:1570:21: error: Name 'file' is not defined
+thirdparty\xdot\xdot.py:1820:41: error: Name 'unicode' is not defined
+thirdparty\xdot\xdot.py:2027:17: error: Name 'file' is not defined
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\baidu.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\barracuda.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\bigip.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+waf\bigip.py:22:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\binarysec.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\cloudflare.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\denyall.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\incapsula.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\common.py:854:19: error: invalid syntax
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\jiasule.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+waf\jiasule.py:22:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\modsecurity.py:21:8: error: Incompatible types in assignment (expression has type "Union[Any, int]", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\netscaler.py:22:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\profense.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\radware.py:20:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\safe3.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\safedog.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+waf\safedog.py:22:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\trafficshield.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\varnish.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")
+lib\core\settings.py:178:9: error: Module has no attribute "mswindows"
+lib\core\settings.py:298:0: error: Incompatible types in assignment (expression has type "Tuple[str, ...]", variable has type "Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str, str]")
+lib\core\settings.py:373:10: error: Module has no attribute "maxint"
+lib\core\settings.py:432:27: error: Module has no attribute "BooleanType"
+lib\core\settings.py:432:46: error: Module has no attribute "DictType"
+lib\core\settings.py:432:62: error: Module has no attribute "FloatType"
+lib\core\settings.py:432:79: error: Module has no attribute "IntType"
+lib\core\settings.py:432:94: error: Module has no attribute "ListType"
+lib\core\settings.py:432:110: error: Module has no attribute "LongType"
+lib\core\settings.py:432:126: error: Module has no attribute "NoneType"
+lib\core\settings.py:432:142: error: Module has no attribute "StringType"
+lib\core\settings.py:432:160: error: Module has no attribute "TupleType"
+lib\core\settings.py:432:177: error: Module has no attribute "UnicodeType"
+lib\core\settings.py:432:196: error: Module has no attribute "XRangeType"
+waf\webknight.py:21:8: error: Incompatible types in assignment (expression has type "int", variable has type "bool")

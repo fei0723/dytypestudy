@@ -1,0 +1,341 @@
+commit,author,date,title,faultID,file
+a0643dc,Michael Yoo,2017-12-18 17:37:52,"Remove unnecessary escape caret in ImageMagick convert argument, Fixes #2729",2729,beets/util/artresizer.py
+db71710,Adrian Sampson,2017-10-09 18:52:46,Changelog entry for #2709,2545
+34246a0,Adrian Sampson,2017-08-27 10:20:36,Fix #2673: JSON file encoding in absubmit,2673,beetsplug/absubmit.py
+015aee3,Adrian Sampson,2017-08-26 11:18:27,Fix #2671: missing syspath on acoustid call,2671,beetsplug/chroma.py
+c89186a,Adrian Sampson,2017-08-20 12:52:54,Changelog for #2467/#2658,2467
+6160fa8,Nathan Dwek,2017-07-22 10:49:11,Merge pull request #2631 from beetbox/Fix-2622,2622
+c5502fb,nathdwek@laptop,2017-07-12 11:57:41,Do not warn about a BrokenPipeError we do consider,2622,beets/ui/__init__.py
+774fa62,Adrian Sampson,2017-07-06 23:19:42,Merge pull request #2623 from autrimpo/r128-#2615,2615
+70a2ad3,Michal Koutenský,2017-07-04 15:53:02,fixes issue #2615,2615,beetsplug/replaygain.py
+908b8dc,Adrian Sampson,2017-05-04 09:20:38,Merge pull request #2542 from ocelotsloth/2532-web-serializer-bytes,2532
+471d46d,Mark Stenglein,2017-05-02 23:41:31,web: __init__: _rep: Filter all bytes for serializer,2532,beetsplug/web/__init__.py
+7a3c786,nath@home,2017-04-22 15:01:31,command-output: Wire subproc stdin to /dev/null,2488,beets/util/__init__.py
+9446ec7,Adrian Sampson,2017-03-26 17:16:42,Flush the stdout buffer after printing a line,2490,beets/ui/__init__.py
+47cc959,Antonio Larrosa,2017-03-25 20:47:07,Fix import of multidisc releases with subdirectories,2493,beets/importer.py
+d6905fa,Stephane Fontaine,2017-02-21 21:29:52,Decode bytes to str before call to path_test,2443,beets/importer.py
+cb7c6bf,Adrian Sampson,2017-02-04 14:16:11,Use free-form MP4 tag for album gain (#2426),2426,beets/mediafile.py
+ca904a9,Adrian Sampson,2017-01-21 23:21:11,mpdstats: Fix Python 3 compatibility (fix #2405),2405,beetsplug/mpdstats.py
+ca904a9,Adrian Sampson,2017-01-21 23:21:11,mpdstats: Fix Python 3 compatibility (fix #2405),2405,setup.py
+2706339,Adrian Sampson,2017-01-10 12:22:30,Fix #2381: mpdupdate on Python 3,2381,beetsplug/mpdupdate.py
+4bbb05b,Adrian Sampson,2016-12-08 21:35:01,Merge pull request #2303 from tweitzel/master,1087
+be7e718,Adrian Sampson,2016-11-19 16:12:32,Merge pull request #2270 from lazka/apic-encoding-compat,899
+3189811,Christoph Reiter,2016-11-18 01:07:02,mediafile: prefer latin-1 encoding for ID3 APIC descriptions. Fixes #899,899,beets/mediafile.py
+3189811,Christoph Reiter,2016-11-18 01:07:02,mediafile: prefer latin-1 encoding for ID3 APIC descriptions. Fixes #899,899,test/test_mediafile_edge.py
+2eae2d6,Nathan Dwek,2016-11-13 20:37:09,Merge pull request #2262 from beetbox/fix-2260,2260
+8067d82,nathdwek@laptop,2016-11-13 17:47:07,convert: test for #2260,2260,test/test_convert.py
+e782885,nathdwek@laptop,2016-11-08 18:42:19,embedart: Adapt tests for #2254,2254,test/test_embedart.py
+e782885,nathdwek@laptop,2016-11-08 18:42:19,embedart: Adapt tests for #2254,2254,test/test_mediafile_edge.py
+92ee141,nathdwek@laptop,2016-11-07 16:03:05,images: use jpg extensions for jpeg files everywhere,2254,beets/art.py
+92ee141,nathdwek@laptop,2016-11-07 16:03:05,images: use jpg extensions for jpeg files everywhere,2254,beets/mediafile.py
+92ee141,nathdwek@laptop,2016-11-07 16:03:05,images: use jpg extensions for jpeg files everywhere,2254,beets/util/collections.py
+373cf19,kooimens,2015-11-03 19:57:05,Fix discogs disc field is set to zero,587,beetsplug/discogs.py
+fc9f061,Diego Moreda,2016-10-17 19:48:06,"discogs: add tests for medium, medium_total",587,test/test_discogs.py
+fb398c5,Diego Moreda,2016-10-10 17:46:41,discogs: add medium_total to tracks (#415),415,beetsplug/discogs.py
+fb398c5,Diego Moreda,2016-10-10 17:46:41,discogs: add medium_total to tracks (#415),415,test/test_discogs.py
+be223d9,Diego Moreda,2016-10-07 19:03:03,discogs: coalesce subtracks (#1543),1543,beetsplug/discogs.py
+c55885c,Diego Moreda,2016-10-07 18:54:04,discogs: take into account two-sided media (#1762),1762,beetsplug/discogs.py
+911117e,Diego Moreda,2016-10-06 19:49:43,discogs: set media on tracks (#1921),1921,beetsplug/discogs.py
+b9b6dc4,Diego Moreda,2016-10-03 20:43:35,Add changelog for #1938,1938
+7c33d68,Johnny Robeson,2016-09-12 21:53:18,Merge pull request #2196 from codyopel/py3/fromfilename,2195
+d384b07,Cody W. Opel,2016-09-12 09:29:32,fromfilename: fix dict view conversion for python3 (fix #2195),2195,beetsplug/fromfilename.py
+15a5512,Adrian Sampson,2016-09-07 21:42:59,Require Unicode format strings,2188,beets/library.py
+15a5512,Adrian Sampson,2016-09-07 21:42:59,Require Unicode format strings,2188,beetsplug/info.py
+15a5512,Adrian Sampson,2016-09-07 21:42:59,Require Unicode format strings,2188,beetsplug/mbsubmit.py
+15a5512,Adrian Sampson,2016-09-07 21:42:59,Require Unicode format strings,2188,test/test_library.py
+ed8d04f,Adrian Sampson,2016-09-07 21:04:05,Unicode templates in duplicates (fix #2188),2188,beetsplug/duplicates.py
+139d22f,Adrian Sampson,2016-09-07 21:01:24,Template strings must always be unicode (#2188),2188,beets/ui/__init__.py
+7061f7f,Adrian Sampson,2016-08-13 10:11:52,Use byte path consistently in hidden test (#2168),2168,test/test_hidden.py
+162bf6a,Adrian Sampson,2016-08-13 09:54:25,Fix path handling in hidden module,2168,beets/util/hidden.py
+133c82b,Adrian Sampson,2016-06-21 15:15:24,Fix #2063: properly decode format CLI argument,2063,beets/ui/__init__.py
+133c82b,Adrian Sampson,2016-06-21 15:15:24,Fix #2063: properly decode format CLI argument,2063,test/test_ui.py
+c4617c2,wordofglass,2016-06-21 10:57:45,"fetchart: do not hardcode the downloaded extension to jpg, fixes #2053",2053,beetsplug/fetchart.py
+08c9bd8,wordofglass,2016-06-21 02:30:20,fetchart: testcase for wrong server-side extensions (#2053),2053,test/test_art.py
+ef7cca4,Adrian Sampson,2016-05-18 11:24:34,Fix #2005: list AIFF as a lossless format,2005,beetsplug/convert.py
+09bc250,Adrian Sampson,2016-04-26 16:59:23,Fix #1960: Unicode in fetchart Wikipedia source,1960,beetsplug/fetchart.py
+cb498e0,Adrian Sampson,2016-04-03 17:50:18,Fix tests for #1927 fix,1927,test/test_edit.py
+fa2aa82,Adrian Sampson,2016-04-03 17:42:25,Fix #1927: useful error message for failed edit,1927,beetsplug/edit.py
+f684f29,Adrian Sampson,2016-03-21 10:24:13,lyrics: Tolerate pages without text (fix #1914),1914,beetsplug/lyrics.py
+44c7993,Jack Wilsdon,2016-03-16 20:46:25,Improve URL generation in lyrics plugin,1880,beetsplug/lyrics.py
+231981d,Adrian Sampson,2016-01-11 10:13:26,Fix #1806: handle OSError in `stats -e`,1806,beets/ui/commands.py
+635052e,Adrian Sampson,2016-01-08 15:22:28,Fix #1804: edit plugin moves files,1804,beetsplug/edit.py
+635052e,Adrian Sampson,2016-01-08 15:22:28,Fix #1804: edit plugin moves files,1804,test/test_edit.py
+36ad0cf,Adrian Sampson,2016-01-06 14:29:51,lyrics: Re-enable genius backend (#1770),1770,beetsplug/lyrics.py
+b712c49,Adrian Sampson,2016-01-04 14:41:36,Merge pull request #1797 from sampsyo/lastimport-fix-1574,1574
+a976c37,Adrian Sampson,2015-12-28 16:35:39,lyrics: Disable Genius backend by default (#1770),1770,beetsplug/lyrics.py
+1a2ffd0,Adrian Sampson,2015-12-28 16:32:28,lyrics: Catch errors in Genius backend (fix #1770),1770,beetsplug/lyrics.py
+d5c51dd,Adrian Sampson,2015-12-12 18:28:58,scrub: Restore tags & art in auto mode (#1657),1657,beetsplug/scrub.py
+f5448d1,Adrian Sampson,2015-12-12 18:20:05,scrub: Run on import in auto mode (#1657),1657,beetsplug/scrub.py
+5a285cc,Adrian Sampson,2015-12-12 18:09:24,Fix #1673: Escape regex terms in lyrics,1673,beetsplug/lyrics.py
+5a285cc,Adrian Sampson,2015-12-12 18:09:24,Fix #1673: Escape regex terms in lyrics,1673,test/test_lyrics.py
+b31f8cd,Adrian Sampson,2015-12-12 16:58:49,Remove tests for Google fetchart backend (#1760),1760,test/test_art.py
+5597313,Adrian Sampson,2015-12-12 16:47:00,fetchart: Remove Google backend (fix #1760),1760,beetsplug/fetchart.py
+3314db2,Adrian Sampson,2015-12-12 16:44:55,fetchart: Better logging for iTunes (#1760),1760,beetsplug/fetchart.py
+155727a,Adrian Sampson,2015-11-24 20:05:54,Merge pull request #1736 from diego-plan9/querysort,1734
+455fd0e,Diego Moreda,2015-11-24 18:47:49,"Fix sorting by nonexistent field (#1734), tests",1734,beets/dbcore/query.py
+455fd0e,Diego Moreda,2015-11-24 18:47:49,"Fix sorting by nonexistent field (#1734), tests",1734,test/test_sort.py
+9702011,Adrian Sampson,2015-11-20 11:28:51,Changelog for #1433,1433
+6c0f43c,Adrian Sampson,2015-11-20 11:26:35,Thumbnails: Fix string memory management,1433,beetsplug/thumbnails.py
+530b421,Adrian Sampson,2015-11-20 10:55:25,Thumbnails: Declare more interface types,1433,beetsplug/thumbnails.py
+49a1e3c,Peter Kessen,2015-11-19 21:16:40,Merge pull request #1733 from pkess/fix_encoding,1722
+9c96845,Adrian Sampson,2015-11-13 12:21:36,Fix #1666: malformed binary data in SoundCheck,1666,beets/mediafile.py
+9c96845,Adrian Sampson,2015-11-13 12:21:36,Fix #1666: malformed binary data in SoundCheck,1666,test/test_mediafile_edge.py
+a7952b1,reiv,2015-11-04 18:46:45,Merge pull request #1681 from sampsyo/314-reimport-art,314
+32934bd,reiv,2015-11-03 22:43:05,Preserve album art on re-import (fixes #314),314,beets/importer.py
+21f926f,reiv,2015-11-03 22:38:13,Add test for #314,314,test/test_importer.py
+629a80a,reiv,2015-11-01 01:43:48,Importer: Delete orphaned album art on re-imports,314,beets/importer.py
+0ed9851,kooimens,2015-10-30 17:04:11,Embedart: remove_art_file on import,1662,beetsplug/embedart.py
+2537c06,Adrian Sampson,2015-10-24 13:09:15,Changelog for #1652 fix,1652
+cc5aba8,Adrian Sampson,2015-10-24 12:46:27,Roll back PR #1358: regression on recent duplicate,1652,beets/ui/commands.py
+1519079,Adrian Sampson,2015-10-24 12:39:27,Log more details about duplicates,1652,beets/importer.py
+f031ce5,akermu,2015-09-17 19:04:39,Make command filtering in zsh completion more robust.,1525
+a06a421,Malte Ried,2015-09-08 16:04:26,Bugfix for cas insensitive searches for a file path. Fixes #1587.,1587,beets/library.py
+2547f17,Adrian Sampson,2015-09-02 15:01:52,Merge pull request #1589 from jdetrey/master,1303
+dcbc2da,Jérémie Detrey,2015-09-02 22:48:55,Fix #1303: process `DateItemField` tags in YMD order,1303,beets/mediafile.py
+854a453,Adrian Sampson,2015-09-02 12:45:35,"Fix #1588: fetchart gets PNGs, not GIFs",1588,beetsplug/fetchart.py
+f899ed9,Adrian Sampson,2015-08-24 11:09:45,lastimport: Log error responses,1574,beetsplug/lastimport.py
+4038f19,Adrian Sampson,2015-08-08 11:23:55,Fix #1564 (regression from #1559),1564,beetsplug/lastgenre/__init__.py
+96c5121,Adrian Sampson,2015-08-01 15:00:13,Documentation for #1555/#1556,1555,beetsplug/fetchart.py
+1eb3c3c,Adrian Sampson,2015-08-02 17:27:55,Changelog for #1480 fix,1480
+ae68ced,Adrian Sampson,2015-07-07 18:21:15,Changelog for #496,496
+39809a8,Adrian Sampson,2015-07-07 18:17:12,Expand a little on the docs for #1361,496,beets/library.py
+39809a8,Adrian Sampson,2015-07-07 18:17:12,Expand a little on the docs for #1361,496,beets/util/__init__.py
+d766b6b,Adrian Sampson,2015-07-07 17:33:17,Merge pull request #1361 from LordSputnik/master,496
+1229537,Tom Jaspers,2015-07-07 22:56:02,Create empty user config file if it does not exist,1480,beets/ui/commands.py
+d07c8fd,Ben Ockmore,2015-03-16 10:48:45,Added loop to iterate over sanitize/truncate until stable. Enabled test_truncation_does_not_conflict_with_replacement test. Fixes #496.,496,beets/library.py
+d07c8fd,Ben Ockmore,2015-03-16 10:48:45,Added loop to iterate over sanitize/truncate until stable. Enabled test_truncation_does_not_conflict_with_replacement test. Fixes #496.,496,test/test_library.py
+18bd447,Tom Jaspers,2015-07-05 19:56:14,Fix sorting of track numbers when case insensitive,1511,beets/dbcore/query.py
+18bd447,Tom Jaspers,2015-07-05 19:56:14,Fix sorting of track numbers when case insensitive,1511,test/test_sort.py
+834418d,Pedro Silva,2015-05-15 11:47:30,fix #1457: enforce correct config typing,1457,beetsplug/duplicates.py
+19542df,Adrian Sampson,2015-04-23 15:10:37,Merge pull request #1435 from reynhout/fix_1427_embedart_write_config_reynhout,1427
+bd12cd5,D Andrew Reynhout,2015-04-23 11:05:05,Update changelog for #1427 fix,1427
+c9380ab,D Andrew Reynhout,2015-04-20 21:03:22,Test config opt import/write before embedding art (fixes #1427),1427,beetsplug/embedart.py
+4e7c8d1,Bruno Cauet,2015-04-17 17:30:57,Discogs: add troubleshooting section in docs,1417
+d134ad9,Bruno Cauet,2015-04-17 17:29:42,Discogs: add API errors to CONNECTION_ERRORS,1417,beetsplug/discogs.py
+df579c6,Adrian Sampson,2015-04-16 19:57:41,Changelog for #1404,1404
+56ca69d,Adrian Sampson,2015-04-16 19:55:48,Fix #1404 by only writing _media_fields,1404,beets/library.py
+56ca69d,Adrian Sampson,2015-04-16 19:55:48,Fix #1404 by only writing _media_fields,1404,test/test_library.py
+46f382f,Adrian Sampson,2015-04-14 11:45:20,importadded: Fix in-place singleton imports,1416,beetsplug/importadded.py
+0507f80,Adrian Sampson,2015-04-14 10:26:39,discogs: Handle errors on auth setup (fix #1417),1417,beetsplug/discogs.py
+7372ad4,Adrian Sampson,2015-04-12 23:01:44,replaygain: Log bs1770gain invocations,1398,beetsplug/replaygain.py
+ab78eed,Adrian Sampson,2015-04-12 22:59:48,replaygain: Avoid suppressing debug output (#1398),1398,beetsplug/replaygain.py
+39a6fa5,Adrian Sampson,2015-04-10 09:03:11,Changelog for #1398,1398
+9c7b8d2,Adrian Sampson,2015-04-10 09:01:13,Catch empty output list in bs1770gain (fix #1398),1398,beetsplug/replaygain.py
+6fcd88b,Adrian Sampson,2015-04-10 08:53:54,More precise comment for #1398,1398,beetsplug/replaygain.py
+821c5bf,Adrian Sampson,2015-04-09 17:06:35,Documentation pass for #1398,1398,beetsplug/replaygain.py
+ecb65a5,Adrian Sampson,2015-04-09 16:55:18,Idiomatic configuration defaults (#1398),1398,beetsplug/replaygain.py
+2b4f4b5,Pedro Silva,2015-03-27 11:39:46,Merge pull request #1384 from sampsyo/fix-1000,1000
+66e06ba,Pedro Silva,2015-03-27 10:46:09,fix #1000: provide --strict option (don't match on null attributes),1000,beetsplug/duplicates.py
+9b5d78b,Bruno Cauet,2015-03-23 17:24:30,Fix album emptiness test in duplicates resolution,1367,beets/ui/commands.py
+ccbe907,Adrian Sampson,2015-02-24 22:18:05,Add (skipped) test for #496,496,test/test_library.py
+a847726,Bruno Cauet,2015-02-20 12:53:43,MediaFile: improve cover art detection,1332,beets/mediafile.py
+a847726,Bruno Cauet,2015-02-20 12:53:43,MediaFile: improve cover art detection,1332,test/test_mediafile.py
+457afdc,Bruno Cauet,2015-02-18 13:30:06,Auto re-auth for discogs plugin upon error 401,1299,beetsplug/discogs.py
+31500a7,Adrian Sampson,2015-02-17 17:03:57,Merge pull request #1318 from jaquer/no-apply-replaygain,1316
+eae98af,Bruno Cauet,2015-02-17 12:19:21,"PathQuery is case-{,in}sensitive on {UNIX,Windows}",1165,beets/library.py
+eae98af,Bruno Cauet,2015-02-17 12:19:21,"PathQuery is case-{,in}sensitive on {UNIX,Windows}",1165,test/test_query.py
+b80713c,Adrian Sampson,2015-02-13 17:37:55,Lambda-free reference to instance method,1326,beets/library.py
+9cdd541,Tom Jaspers,2015-02-13 12:24:21,Error handling for 'filesize' field,1326,beets/library.py
+9cdd541,Tom Jaspers,2015-02-13 12:24:21,Error handling for 'filesize' field,1326,test/test_library.py
+d267741,Bruno Cauet,2015-02-11 16:19:19,Delete 'format' variables that shadow the built-in,1300,beets/library.py
+d267741,Bruno Cauet,2015-02-11 16:19:19,Delete 'format' variables that shadow the built-in,1300,beets/ui/commands.py
+d267741,Bruno Cauet,2015-02-11 16:19:19,Delete 'format' variables that shadow the built-in,1300,beetsplug/convert.py
+d267741,Bruno Cauet,2015-02-11 16:19:19,Delete 'format' variables that shadow the built-in,1300,beetsplug/the.py
+d267741,Bruno Cauet,2015-02-11 16:19:19,Delete 'format' variables that shadow the built-in,1300,test/test_the.py
+f1e13cf,Bruno Cauet,2015-02-10 17:13:15,Offer verbose and very verbose modes,1244,beets/plugins.py
+f1e13cf,Bruno Cauet,2015-02-10 17:13:15,Offer verbose and very verbose modes,1244,beets/ui/__init__.py
+f1e13cf,Bruno Cauet,2015-02-10 17:13:15,Offer verbose and very verbose modes,1244,test/helper.py
+f1e13cf,Bruno Cauet,2015-02-10 17:13:15,Offer verbose and very verbose modes,1244,test/test_logging.py
+f1e13cf,Bruno Cauet,2015-02-10 17:13:15,Offer verbose and very verbose modes,1244,test/test_spotify.py
+4578c4f,Bruno Cauet,2015-02-10 15:30:15,Improve logging management for plugins,1244,beets/plugins.py
+4578c4f,Bruno Cauet,2015-02-10 15:30:15,Improve logging management for plugins,1244,test/test_logging.py
+60b1819,Arturo R,2015-02-09 09:55:32,Stop applying mp3gain directly to files. Fixes #1316 Update docs to remove non-existent `apply` option.,1316,beetsplug/replaygain.py
+f443e0b,Bruno Cauet,2015-02-09 15:44:49,InvalidQueryArgumentTypeError does not extend InvalidQueryError,1290,beets/dbcore/query.py
+f443e0b,Bruno Cauet,2015-02-09 15:44:49,InvalidQueryArgumentTypeError does not extend InvalidQueryError,1290,beets/library.py
+f443e0b,Bruno Cauet,2015-02-09 15:44:49,InvalidQueryArgumentTypeError does not extend InvalidQueryError,1290,test/test_query.py
+54887e7,Bruno Cauet,2015-02-01 09:37:36,Widen usage of InvalidQueryError,1290,beets/dbcore/__init__.py
+54887e7,Bruno Cauet,2015-02-01 09:37:36,Widen usage of InvalidQueryError,1290,beets/dbcore/query.py
+54887e7,Bruno Cauet,2015-02-01 09:37:36,Widen usage of InvalidQueryError,1290,beets/library.py
+54887e7,Bruno Cauet,2015-02-01 09:37:36,Widen usage of InvalidQueryError,1290,test/test_library.py
+54887e7,Bruno Cauet,2015-02-01 09:37:36,Widen usage of InvalidQueryError,1290,test/test_query.py
+50dbd18,Tom Jaspers,2015-02-03 13:31:54,Duplicates: fix error caused by formatting,1300,beetsplug/duplicates.py
+77833f6,Adrian Sampson,2015-02-02 22:34:22,Oops :flushed: #1299,1299,beetsplug/discogs.py
+8151a40,Adrian Sampson,2015-02-02 22:27:14,discogs: Catch socket errors (#1299),1299,beetsplug/discogs.py
+1b22f12,Adrian Sampson,2015-02-02 15:28:44,Binary literals in unique_path (fix #1298),1298,beets/util/__init__.py
+313c380,Adrian Sampson,2015-02-02 10:42:31,scrub: Use `syspath` in `beet scrub` (#1297),1297,beetsplug/scrub.py
+465719a,Adrian Sampson,2015-02-02 10:13:48,scrub: Catch IOErrors in command (fix #1297),1297,beetsplug/scrub.py
+f284d8f,Bruno Cauet,2015-01-31 19:47:19,Handle shlex parse errors in query strings,1290,beets/library.py
+557330e,Bruno Cauet,2015-01-31 14:16:15,Fix open numeric ranges,1288,beets/dbcore/query.py
+557330e,Bruno Cauet,2015-01-31 14:16:15,Fix open numeric ranges,1288,test/test_query.py
+b001a97,Bruno Cauet,2015-01-23 17:38:40,Improve embedart logging management,1244,beetsplug/embedart.py
+6b11c63,Adrian Sampson,2015-01-21 09:35:36,embedart: Fix test for 433d6b7 (#1252),1252,test/test_embedart.py
+433d6b7,Adrian Sampson,2015-01-21 09:07:59,embedart: Error on non-existent -f file,1252,beetsplug/embedart.py
+b49cd3b,Bruno Cauet,2015-01-15 11:28:04,Lyrics plugin: fix google backend,1226,beetsplug/lyrics.py
+b49cd3b,Bruno Cauet,2015-01-15 11:28:04,Lyrics plugin: fix google backend,1226,test/test_lyrics.py
+c1ce71f,Adrian Sampson,2015-01-14 22:00:30,smartplaylist: Fix album_query (fix #1225),1225,beetsplug/smartplaylist.py
+b7735bd,Bruno Cauet,2015-01-08 12:39:28,Don't register a natural song change twice,773,beetsplug/mpdstats.py
+2e1b0d5,Bruno Cauet,2015-01-08 10:56:19,Fetchart: check that the art found is a file,1177,beetsplug/fetchart.py
+2e1b0d5,Bruno Cauet,2015-01-08 10:56:19,Fetchart: check that the art found is a file,1177,test/test_fetchart.py
+daba9e7,Adrian Sampson,2015-01-06 11:01:11,Fix #1204: insecure request warning in lyrics,1204,beetsplug/lyrics.py
+8c484a2,Marc Addeo,2014-12-28 17:51:48,Fix handling of duplicate album artists in ftintitle,1179,beetsplug/ftintitle.py
+0ec3396,"Frederik ""Freso"" S. Olesen",2014-12-28 20:33:56,ftintitle: Use log.log() instead of ui.print_().,1172,beetsplug/ftintitle.py
+a2188d4,Stig Inge Lea Bjørnsen,2014-12-25 21:34:13,ImportAdded support for in-place and link imports,1107,beetsplug/importadded.py
+a2188d4,Stig Inge Lea Bjørnsen,2014-12-25 21:34:13,ImportAdded support for in-place and link imports,1107,test/test_importadded.py
+1c0fffe,Thomas Scholtes,2014-12-21 12:33:28,Changelog for #1146 fix,1146
+ec65408,Thomas Scholtes,2014-12-21 12:26:04,Escape path queries for SQLite,1146,beets/library.py
+ec65408,Thomas Scholtes,2014-12-21 12:26:04,Escape path queries for SQLite,1146,test/test_query.py
+02e341c,Adrian Sampson,2014-12-20 22:21:58,Fix #1152: mbcollection: choose release collection,1152,beetsplug/mbcollection.py
+7d07c2d,Adrian Sampson,2014-12-11 15:53:45,Changelog for #1135/#1136,1135
+8025797,Adrian Sampson,2014-12-11 15:50:56,Merge pull request #1136 from Kraymer/lyrics-unicode,1135
+321f862,Fabrice Laporte,2014-12-09 23:37:42,fix #1135,1135,beetsplug/lyrics.py
+17117ed,Thomas Scholtes,2014-12-01 17:53:14,echonest: Remove temporary files,979,beetsplug/echonest.py
+5fb4003,Adrian Sampson,2014-11-30 12:21:27,echonest: Fix #896 (handle missing duration),896,beetsplug/echonest.py
+7c08830,Adrian Sampson,2014-11-30 12:17:15,Remove Echo Nest fingerprinting (fix #1121),1121,beetsplug/echonest.py
+5d37f9a,Adrian Sampson,2014-11-30 12:03:28,Remove echonest_tempo (fix #1119),1119,beetsplug/echonest_tempo.py
+5d37f9a,Adrian Sampson,2014-11-30 12:03:28,Remove echonest_tempo (fix #1119),1119,setup.py
+36d332a,Adrian Sampson,2014-11-13 23:25:16,Fix #856: album dirty tracking,856,beets/dbcore/db.py
+36d332a,Adrian Sampson,2014-11-13 23:25:16,Fix #856: album dirty tracking,856,beets/library.py
+36d332a,Adrian Sampson,2014-11-13 23:25:16,Fix #856: album dirty tracking,856,test/test_library.py
+b143ad7,Fabrice Laporte,2014-11-06 22:10:15,fix #1035 do scraping tests on mock data,1035,beetsplug/lyrics.py
+b143ad7,Fabrice Laporte,2014-11-06 22:10:15,fix #1035 do scraping tests on mock data,1035,test/test_lyrics.py
+9137b5c,Adrian Sampson,2014-10-24 20:08:32,Fix another lyrics scraper regression (#1034),1034,beetsplug/lyrics.py
+9137b5c,Adrian Sampson,2014-10-24 20:08:32,Fix another lyrics scraper regression (#1034),1034,test/test_lyrics.py
+0325fe2,Adrian Sampson,2014-10-24 17:33:11,lyrics: Remove script tags (fix #1034),1034,beetsplug/lyrics.py
+0325fe2,Adrian Sampson,2014-10-24 17:33:11,lyrics: Remove script tags (fix #1034),1034,test/test_lyrics.py
+6667ca9,Adrian Sampson,2014-10-11 22:12:06,"Changelog/thanks (fix #1004, #1008)",1004
+6f9abf4,Stig Inge Lea Bjørnsen,2014-10-11 15:53:03,Merge pull request #925 from silb/bug-911-importadded-reimport,911
+125f642,Stig Inge Lea Bjørnsen,2014-09-29 22:57:15,Bug #911 reimport detection for the `importadded` plugin,911,beetsplug/importadded.py
+582dbf6,Adrian Sampson,2014-09-27 11:29:38,Fix ArtResizer.local property (fix #983),983,beets/util/artresizer.py
+db391c8,Thomas Scholtes,2014-09-17 12:17:20,zero: Only changes media file tags not database,963,beetsplug/zero.py
+db391c8,Thomas Scholtes,2014-09-17 12:17:20,zero: Only changes media file tags not database,963,test/test_zero.py
+89c82dc,Thomas Scholtes,2014-09-12 11:07:43,fetchart: correctly handle path encoding,887,beets/util/confit.py
+89c82dc,Thomas Scholtes,2014-09-12 11:07:43,fetchart: correctly handle path encoding,887,beetsplug/fetchart.py
+89c82dc,Thomas Scholtes,2014-09-12 11:07:43,fetchart: correctly handle path encoding,887,test/helper.py
+0bb6348,Thomas Scholtes,2014-09-12 11:37:14,fetchart: Add test that reproduces #887,887,test/helper.py
+0bb6348,Thomas Scholtes,2014-09-12 11:37:14,fetchart: Add test that reproduces #887,887,test/test_fetchart.py
+71645ea,Adrian Sampson,2014-08-25 09:55:37,Changelog for #158,158
+4835475,Thomas Scholtes,2014-08-25 18:19:22,Tags are not read while walking the import tree.,158,beets/importer.py
+4835475,Thomas Scholtes,2014-08-25 18:19:22,Tags are not read while walking the import tree.,158,test/test_importer.py
+1a60e7d,Adrian Sampson,2014-08-25 09:03:37,Changelog for #858/#918,858
+22dc67f,Adrian Sampson,2014-08-25 08:51:18,Changelog for #878,878
+c0b248c,Thomas Scholtes,2014-08-25 14:52:40,convert: Catch errors when writing tags,878,beetsplug/convert.py
+91c5d0a,Thomas Scholtes,2014-08-25 14:37:10,Item fields take precedence over Album fields in formatting,858,beets/library.py
+91c5d0a,Thomas Scholtes,2014-08-25 14:37:10,Item fields take precedence over Album fields in formatting,858,test/test_library.py
+09b0e1c,Adrian Sampson,2014-08-15 12:38:41,Add failing test for #899,899,test/test_mediafile_edge.py
+7de6259,Adrian Sampson,2014-08-15 12:09:18,MediaFile: make id3v23 a constructor parameter,899,beets/library.py
+7de6259,Adrian Sampson,2014-08-15 12:09:18,MediaFile: make id3v23 a constructor parameter,899,beets/mediafile.py
+7de6259,Adrian Sampson,2014-08-15 12:09:18,MediaFile: make id3v23 a constructor parameter,899,beetsplug/embedart.py
+7de6259,Adrian Sampson,2014-08-15 12:09:18,MediaFile: make id3v23 a constructor parameter,899,beetsplug/scrub.py
+7de6259,Adrian Sampson,2014-08-15 12:09:18,MediaFile: make id3v23 a constructor parameter,899,test/test_mediafile_edge.py
+3cf0156,Adrian Sampson,2014-07-17 09:54:29,Use ordinary dict for progress (#873),873,beets/importer.py
+0e853ac,Thomas Scholtes,2014-07-17 12:48:42,Correctly reset import progress.,873,beets/importer.py
+4ea53de,Thomas Scholtes,2014-07-17 12:22:32,Make -h option equivalent to help command,867,beets/ui/__init__.py
+b5426f7,Thomas Scholtes,2014-07-06 13:19:43,Wrap mediafile read exceptions in library.ReadError,857,beets/library.py
+b5426f7,Thomas Scholtes,2014-07-06 13:19:43,Wrap mediafile read exceptions in library.ReadError,857,beets/mediafile.py
+b5426f7,Thomas Scholtes,2014-07-06 13:19:43,Wrap mediafile read exceptions in library.ReadError,857,test/test_library.py
+ed07390,Adrian Sampson,2014-07-01 14:16:56,Changelog for #732,732
+732ffd1,Julien Cassette,2014-06-29 22:32:45,Importer: save progress for skipped tasks,844,beets/importer.py
+b019e6a,Yevgeny Bezman,2014-06-27 19:50:41,replaygain: silenced errors during import. Fixes #732,732,beetsplug/replaygain.py
+16f6a3d,Adrian Sampson,2014-06-25 10:05:31,Note about group-albums and import log (#825),825
+4940958,Adrian Sampson,2014-06-14 16:08:49,Fix #822: scrub/convert plugin conflict,822,beetsplug/scrub.py
+bd55fad,Heinz Wiesinger,2014-06-14 12:02:30,Changelog for #812,812
+527fb7a,Heinz Wiesinger,2014-06-09 11:27:51,Also check whether new fields are in the restricted field list (Fix #812),812,beets/ui/__init__.py
+63af350,Adrian Sampson,2014-06-05 16:53:23,Diff output shows formatted values for strings,807,beets/ui/__init__.py
+29e11f1,Adrian Sampson,2014-06-04 17:16:47,Changelog for #772/#806,772
+b590cfe,Johann Klähn,2014-06-04 15:41:15,mpdstats: update rating on 'stop' (e.g. last song in playlist),772,beetsplug/mpdstats.py
+180433e,Thomas Scholtes,2014-05-21 17:16:40,Convert path to bytestring,757,beets/library.py
+9901d6a,Pierre Rust,2014-05-20 23:55:42,Add Test case for flexattr removal (#779),779,test/test_ui.py
+db2a2d1,Bruno Cauet,2014-04-21 15:37:10,Disable video feed in ffmpeg's flac conversion,712,beetsplug/convert.py
+eee2213,Adrian Sampson,2014-04-18 15:38:27,Merge pull request #696 from ayberk/master,453
+0de340d,Adrian Sampson,2014-04-17 12:04:48,changelog for #697,697
+bfac8cf,Yevgeny Bezman,2014-04-17 20:06:03,replaygain: ignoring deprecation warning for threads_init in newer gi versions. Fixes #697,697,beetsplug/replaygain.py
+bbb1f7a,Yevgeny Bezman,2014-04-17 19:49:28,tests: made all tests pass on cygwin. Fixes #655,655,test/helper.py
+bbb1f7a,Yevgeny Bezman,2014-04-17 19:49:28,tests: made all tests pass on cygwin. Fixes #655,655,test/test_ui.py
+f67ace6,Ayberk Yilmaz,2014-04-16 23:16:04,Fixed #453 and added test cases,453,beets/library.py
+f67ace6,Ayberk Yilmaz,2014-04-16 23:16:04,Fixed #453 and added test cases,453,test/test_library.py
+cf2f78e,Pedro Silva,2014-04-14 09:55:28,fix #685: truncate files larger than 50MB for upload,685,beetsplug/echonest.py
+ed8002b,Adrian Sampson,2014-04-12 15:00:17,tests: close databases to avoid errors on Windows,655,test/_common.py
+ed8002b,Adrian Sampson,2014-04-12 15:00:17,tests: close databases to avoid errors on Windows,655,test/test_art.py
+ed8002b,Adrian Sampson,2014-04-12 15:00:17,tests: close databases to avoid errors on Windows,655,test/test_dbcore.py
+ed8002b,Adrian Sampson,2014-04-12 15:00:17,tests: close databases to avoid errors on Windows,655,test/test_importer.py
+33b4471,Adrian Sampson,2014-04-10 11:24:59,embedart: catch log errors (fix #678),678,beetsplug/embedart.py
+8d196a8,Adrian Sampson,2014-03-26 13:39:12,changelog for #632,632
+e628b8f,Adrian Sampson,2014-03-26 13:22:24,Merge pull request #633 from sampsyo/issue-632,632
+ebcd540,Filipe Fortes,2014-03-26 12:02:52,Only use primary artist aliases. Fixes #632.,632,beets/autotag/mb.py
+0daea14,Thomas Scholtes,2014-03-19 17:20:19,Fix album import feed with slashes,610,beetsplug/importfeeds.py
+b131922,Thomas Scholtes,2014-03-19 17:16:56,Add failing importfeed tests for albums with slashes,610,test/test_importfeeds.py
+e8f6781,Pedro Silva,2014-03-14 12:04:43,fix #568: ignore items with all keys null,568,beetsplug/duplicates.py
+3367dad,Johannes,2014-03-08 19:52:38,Make fetchart use requests and send useragent,585,beetsplug/fetchart.py
+3367dad,Johannes,2014-03-08 19:52:38,Make fetchart use requests and send useragent,585,setup.py
+3367dad,Johannes,2014-03-08 19:52:38,Make fetchart use requests and send useragent,585,test/test_art.py
+b8af77b,Adrian Sampson,2014-03-06 11:03:41,changelog (& tiny tweak) for #567,567,beets/util/confit.py
+f71307f,Adrian Sampson,2014-03-06 11:00:00,changelog for #570,570
+e916609,Thomas Scholtes,2014-03-04 17:12:42,Save import history only when path associated,570,beets/importer.py
+e916609,Thomas Scholtes,2014-03-04 17:12:42,Save import history only when path associated,570,test/test_importer.py
+a50aae7,Adrian Sampson,2014-03-02 13:39:28,changelog/thanks for #563,563
+6ef879f,Pedro Silva,2014-03-02 22:08:45,fix #563: split prog parts before formating in item's name,563,beetsplug/duplicates.py
+64fdd17,Stig Inge Lea Bjørnsen,2014-02-18 23:56:26,Time zone fix for SQL date clauses (#542).,542,beets/dbcore/query.py
+fbe3e1a,Stig Inge Lea Bjørnsen,2014-02-18 22:13:14,Time zone fix for epoch time calculation for SQL based date queries (#542).,542,beets/dbcore/query.py
+4c5fc8f,Adrian Sampson,2014-02-10 22:08:01,echonest: use only one plugin class (fix #536),536,beetsplug/echonest.py
+73a43b5,Johann Klähn,2014-02-07 21:44:57,mpdstats: update last_played,529,beetsplug/mpdstats.py
+8ffe83b,Adrian Sampson,2014-02-09 16:10:53,"fetchart: fix #533, remote_priority ignoring local",533,beetsplug/fetchart.py
+1276e17,Adrian Sampson,2014-02-02 13:14:01,changelog/thanks for #522,522
+ecff56f,Pedro Silva,2014-02-02 20:45:57,Fix #522: treat copy/move args as dirs and process items accordingly,522,beetsplug/duplicates.py
+620f0f8,Adrian Sampson,2014-01-27 22:51:58,"fetchart colors (#508): simplify, new colors",508,beetsplug/fetchart.py
+83f9817,Adrian Sampson,2014-01-26 10:51:58,fix #508: crash when parsing empty query part,508,beets/library.py
+83f9817,Adrian Sampson,2014-01-26 10:51:58,fix #508: crash when parsing empty query part,508,test/test_query.py
+f1a4ba8,Adrian Sampson,2014-01-23 15:06:24,fix #503: format untyped fields with bytes values,503,beets/dbcore/db.py
+f1a4ba8,Adrian Sampson,2014-01-23 15:06:24,fix #503: format untyped fields with bytes values,503,test/test_dbcore.py
+cc5e3d4,Adrian Sampson,2013-12-25 15:49:51,item templates can use album flexattrs (fix #461),461,beets/library.py
+cc5e3d4,Adrian Sampson,2013-12-25 15:49:51,item templates can use album flexattrs (fix #461),461,test/test_db.py
+938563e,Adrian Sampson,2013-12-18 12:35:31,echonest: get audio_summary in search (fix #481),481,beetsplug/echonest.py
+8ab1fed,Adrian Sampson,2013-11-07 10:37:26,Merge pull request #451 from dokterbob/ihate_singletons,411
+2bab313,Mathijs de Bruin,2013-11-07 13:51:35,Fix for #411: iHate fails with singletons.,411,beetsplug/ihate.py
+2bab313,Mathijs de Bruin,2013-11-07 13:51:35,Fix for #411: iHate fails with singletons.,411,test/test_ihate.py
+ed44982,Adrian Sampson,2013-10-15 10:03:15,ftintitle: skip on empty albumartist (#418),418,beetsplug/ftintitle.py
+8e2c1bb,Adrian Sampson,2013-10-14 21:11:40,ftintitle: check artist_sort for null (fix #418),418,beetsplug/ftintitle.py
+64dcd28,Adrian Sampson,2013-10-06 12:16:56,fix ihate docs example (fix #393),393
+54af040,Adrian Sampson,2013-10-06 12:13:14,convert: extension is a bytestring (fix #390),390,beetsplug/convert.py
+9597d5e,Adrian Sampson,2013-09-21 19:25:31,scrub: restore album art (close #138),138,beetsplug/scrub.py
+25b77b1,Adrian Sampson,2013-09-21 19:12:18,per_disc_numbering: fix tracktotal (close #163),163,beets/autotag/__init__.py
+25b77b1,Adrian Sampson,2013-09-21 19:12:18,per_disc_numbering: fix tracktotal (close #163),163,beets/autotag/hooks.py
+25b77b1,Adrian Sampson,2013-09-21 19:12:18,per_disc_numbering: fix tracktotal (close #163),163,beets/autotag/mb.py
+25b77b1,Adrian Sampson,2013-09-21 19:12:18,per_disc_numbering: fix tracktotal (close #163),163,beets/ui/commands.py
+25b77b1,Adrian Sampson,2013-09-21 19:12:18,per_disc_numbering: fix tracktotal (close #163),163,test/test_autotag.py
+a5422ee,Adrian Sampson,2013-09-16 17:35:22,use track length over recording length,341,beets/autotag/mb.py
+a5422ee,Adrian Sampson,2013-09-16 17:35:22,use track length over recording length,341,test/test_mb.py
+c5de56c,Adrian Sampson,2013-09-16 17:25:41,filter wide integers (closes #348),348,beets/library.py
+0488800,Adrian Sampson,2013-09-16 16:59:11,echonest_tempo: ensure we have the right track,361,beetsplug/echonest_tempo.py
+46df8c4,Adrian Sampson,2013-09-16 16:37:55,info: eager error detection (closes #371),371,beetsplug/info.py
+4624f65,Adrian Sampson,2013-06-01 17:22:39,fix interface to ID matching,299,beets/autotag/hooks.py
+4624f65,Adrian Sampson,2013-06-01 17:22:39,fix interface to ID matching,299,beets/autotag/match.py
+4624f65,Adrian Sampson,2013-06-01 17:22:39,fix interface to ID matching,299,beetsplug/chroma.py
+4624f65,Adrian Sampson,2013-06-01 17:22:39,fix interface to ID matching,299,beetsplug/mbsync.py
+4624f65,Adrian Sampson,2013-06-01 17:22:39,fix interface to ID matching,299,beetsplug/missing.py
+475228a,Adrian Sampson,2013-05-19 10:34:46,fix #281: album art filename respects replace,281,beets/library.py
+475228a,Adrian Sampson,2013-05-19 10:34:46,fix #281: album art filename respects replace,281,beets/util/__init__.py
+475228a,Adrian Sampson,2013-05-19 10:34:46,fix #281: album art filename respects replace,281,test/test_db.py
+71666c7,Adrian Sampson,2013-05-19 10:05:23,fix #280: unicode error when formatting artpath,280,beets/library.py
+a0ef886,Adrian Sampson,2013-05-12 12:45:49,lyrics: substitute more punctuation (fixes #270),270,beetsplug/lyrics.py
+2a3a12e,Adrian Sampson,2013-04-15 11:08:43,docs and changelog for #243,162
+c682ac8,Lucas Duailibe,2013-03-25 11:45:11,one more error message (#125),125,beetsplug/mbsync.py
+56c53ac,Lucas Duailibe,2013-03-25 11:24:42,human-friendly error messages (#125),125,beets/ui/commands.py
+56c53ac,Lucas Duailibe,2013-03-25 11:24:42,human-friendly error messages (#125),125,beetsplug/embedart.py
+1fbbe61,Adrian Sampson,2013-02-28 10:43:02,mbcollection: human-readable MB exceptions,107,beetsplug/mbcollection.py
+d717371,Adrian Sampson,2013-02-28 10:00:26,format None values as the empty string,108,beets/library.py
+d717371,Adrian Sampson,2013-02-28 10:00:26,format None values as the empty string,108,test/test_db.py
+c31eabe,Adrian Sampson,2013-02-27 10:30:24,convert: add missing syspath call (closes #106),106,beetsplug/convert.py
+2ff4fe5,Adrian Sampson,2012-01-29 13:44:06,remove erroneous reference to -d flag (#314),314
+3b37433,Adrian Sampson,2012-01-25 20:41:59,"no penalty for ""various artists"" track artist (#251)",251,beets/autotag/match.py
+3b37433,Adrian Sampson,2012-01-25 20:41:59,"no penalty for ""various artists"" track artist (#251)",251,test/test_autotag.py
+9920cc4,Adrian Sampson,2012-01-02 14:03:28,"add ""scrub"" plugin (#280)",280,beets/library.py
+9920cc4,Adrian Sampson,2012-01-02 14:03:28,"add ""scrub"" plugin (#280)",280,beetsplug/scrub.py
+460f0bd,Adrian Sampson,2011-11-30 23:40:28,use track title over recording title (#268),268,beets/autotag/mb.py
+460f0bd,Adrian Sampson,2011-11-30 23:40:28,use track title over recording title (#268),268,beets/autotag/musicbrainz3/mbxml.py
+94569a7,Adrian Sampson,2011-08-28 18:25:38,moving/copying fails when destination exists (#230),230,beets/library.py
+94569a7,Adrian Sampson,2011-08-28 18:25:38,moving/copying fails when destination exists (#230),230,beets/util/__init__.py
+94569a7,Adrian Sampson,2011-08-28 18:25:38,moving/copying fails when destination exists (#230),230,test/test_files.py
+99b7cb8,Adrian Sampson,2011-08-05 11:52:13,"initial iteration of ""move"" command (#106)",106,beets/ui/commands.py
+fca60c5,wlof,2011-08-01 04:59:20,update feature (issue 107),107,beets/library.py
+fca60c5,wlof,2011-08-01 04:59:20,update feature (issue 107),107,beets/ui/commands.py
+eace62a,Adrian Sampson,2011-03-29 21:03:27,BEETSCONFIG environment variable (#148),148,beets/ui/__init__.py

@@ -1,0 +1,88 @@
+commit,author,date,title,faultID,file
+1e198f9,Cory Benfield,2016-11-16 18:32:59,Merge pull request #3697 from hussaintamboli/master,3696
+248d3e9,Hussain,2016-11-16 22:48:45,Fixed issue #3696. Added a test for it as well.,3696,requests/models.py
+248d3e9,Hussain,2016-11-16 22:48:45,Fixed issue #3696. Added a test for it as well.,3696,tests/test_requests.py
+022e23c,Cory Benfield,2016-09-29 08:09:22,Merge pull request #3606 from bbamsch/httpbinTestFix,3597
+5eabcb7,Cory Benfield,2016-09-28 08:56:38,Merge pull request #3598 from bbamsch/bytestringHostFix,3597
+c121229,Cory Benfield,2016-09-17 08:18:59,Merge pull request #3580 from rbcarson/idna-thread-embedded-3578,3578
+f5ff345,Ian Cordasco,2016-08-12 06:24:36,Merge pull request #3493 from nateprewitt/3490_drop_headers,3490
+4f378b0,Cory Benfield,2016-03-06 18:07:59,Merge pull request #3032 from davidsoncasey/master,3028
+f74a670,Casey Davidson,2016-03-05 20:37:56,"Verify that cookie can be properly accessed if domain is specified, and that error is raised otherwise. Refs #3028.",3028,tests/test_requests.py
+b9517a5,Casey Davidson,2016-03-04 15:59:13,Assert that both cookies were added in test. Refs #3028.,3028,tests/test_requests.py
+d8b36c1,Casey Davidson,2016-03-04 15:52:13,Override __contains__ method of RequestsCookieJar to catch CookieConflictError. Refs #3028,3028,requests/cookies.py
+1185d65,Casey Davidson,2016-03-04 15:17:55,Add tests to specify when CookieConflicError should be raised. References #3028.,3028,tests/test_requests.py
+fc512d8,Kenneth Reitz,2016-02-05 17:51:09,Don't use redirect_cache if allow_redirects=False,2997,requests/sessions.py
+b32c3bc,Ian Cordasco,2015-12-16 09:20:26,Merge pull request #2931 from Lukasa/uploading_bytes,2844
+fc8fa1a,Cory Benfield,2015-12-16 14:56:13,Fix regression from #2844 regarding binary bodies.,2844,requests/models.py
+fc8fa1a,Cory Benfield,2015-12-16 14:56:13,Fix regression from #2844 regarding binary bodies.,2844,test_requests.py
+1dff6c9,Cory Benfield,2015-10-23 13:24:36,Merge pull request #2845 from gagoman/fix-2844,2844
+edc68a0,Alex Khomchenko,2015-10-23 15:22:36,fix issue #2844,2844,requests/models.py
+edc68a0,Alex Khomchenko,2015-10-23 15:22:36,fix issue #2844,2844,test_requests.py
+f6afa71,Cory Benfield,2015-10-05 15:27:53,Merge pull request #2763 from ravipra/json_supersedes,2756
+610fbd0,Cory Benfield,2015-10-02 10:08:23,Merge pull request #2797 from sumitbinnani/DocumentationCorrection,2756
+3703760,Ravi Prakash Putchala,2015-09-08 14:45:46,Fixed issue #2756,2756,requests/models.py
+3703760,Ravi Prakash Putchala,2015-09-08 14:45:46,Fixed issue #2756,2756,test_requests.py
+5ec7576,Susan Tan,2015-07-17 01:18:02,Catch and wrap ClosedPoolError,1572,requests/adapters.py
+5ec7576,Susan Tan,2015-07-17 01:18:02,Catch and wrap ClosedPoolError,1572,test_requests.py
+b7fc3a1,Markus Unterwaditzer,2015-04-24 12:05:18,Import aliases for Debian,2375,requests/packages/__init__.py
+5478dd6,Ian Cordasco,2015-04-10 21:59:13,Merge pull request #2547 from sh1buy/bug_2540,2540
+dacf69a,Ian Cordasco,2015-04-05 21:49:10,Fix build version number in metadata,2530,requests/__init__.py
+c8baf88,Ian Cordasco,2014-11-17 22:13:35,Properly serialize RecentlyUsedContainers for cache,2345,requests/sessions.py
+087a27a,ContinuousFunction,2014-11-15 16:58:25,Partially addresses Issue #1572,1572,requests/models.py
+087a27a,ContinuousFunction,2014-11-15 16:58:25,Partially addresses Issue #1572,1572,test_requests.py
+3155bc9,Ian Cordasco,2014-11-07 08:55:17,Close sessions created in the functional API,1685,requests/api.py
+2ac771b,Ian Cordasco,2014-10-10 13:30:18,Merge pull request #2271 from mikecool1000/fix-2250,2250
+ce1ac88,mikecool1000,2014-10-09 12:22:18,Fixed #2250,2250,requests/utils.py
+8b88549,Kenneth Reitz,2013-12-03 17:33:33,Merge pull request #1713 from daftshady/master,1711
+4f786e4,Cory Benfield,2013-12-01 10:23:09,Tests for #1767.,1767,test_requests.py
+e3c771f,daftshady,2013-10-30 01:58:01,added test case related to #1711,1711,test_requests.py
+2bbd7ba,daftshady,2013-10-29 23:18:03,Fixed #1711,1711,requests/sessions.py
+3327652,Kenneth Reitz,2013-11-20 01:05:15,Merge pull request #1747 from daftshady/lowercase,1746
+8c8938e,daftshady,2013-11-19 18:59:22,issue #1746 : Don't lowercase the whole URL!,1746,requests/adapters.py
+8c8938e,daftshady,2013-11-19 18:59:22,issue #1746 : Don't lowercase the whole URL!,1746,requests/sessions.py
+318ca10,Kenneth Reitz,2013-10-07 16:22:49,Merge pull request #1635 from daftshady/dev,1630
+d22eaf9,daftshady,2013-09-28 23:44:27,Fixed #1630,1630,requests/cookies.py
+d22eaf9,daftshady,2013-09-28 23:44:27,Fixed #1630,1630,requests/sessions.py
+39fe006,daftshady,2013-09-28 16:33:05,"Fixed #1630, added test case for cookie persistence.",1630,requests/sessions.py
+39fe006,daftshady,2013-09-28 16:33:05,"Fixed #1630, added test case for cookie persistence.",1630,test_requests.py
+73635df,Ian Ross and Ian Cordasco,2013-07-19 15:13:28,Start work on sending cookies back,1336,requests/auth.py
+73635df,Ian Ross and Ian Cordasco,2013-07-19 15:13:28,Start work on sending cookies back,1336,test_requests.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,requests/structures.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,requests/utils.py
+f7596c7,Colin Dunklau,2013-04-30 14:52:27,Rewrite CaseInsensitiveDict to work correctly/sanely,649,test_requests.py
+88177ec,Ian Cordasco,2013-03-27 23:30:00,Finally resolve #1084,1084,requests/sessions.py
+3bf4660,Kenneth Reitz,2013-01-22 05:11:14,Merge pull request #1097 from matthewlmcclure/issues/1096,1096
+b66427e,Shivaram Lingamneni,2013-01-17 02:02:49,"remove the TURKTRUST root certificates, as per #1102",1102
+628e393,Matt McClure,2013-01-11 15:04:47,Resolves the parts of #1096 in requests proper.,1096,requests/models.py
+f003025,Ian Cordasco,2012-11-24 21:47:47,Attach Content-Length to everything.,223,requests/models.py
+31f74bd,Cory Benfield,2012-11-24 21:17:29,Make OAuth handle less-common body data better.,910,requests/auth.py
+b13c24d,Kenneth Reitz,2012-08-05 21:38:12,Merge pull request #760 from slingamn/fix_leak.release,520
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/api.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/models.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,requests/sessions.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,tests/informal/test_leaked_connections.py
+3c0b940,Shivaram Lingamneni,2012-07-17 19:47:13,address connection leak issue from #520,520,tests/test_requests.py
+f60579d,Marcus McCurdy,2012-08-04 09:35:32,Moved fix for #747 to compat module,747,requests/compat.py
+f60579d,Marcus McCurdy,2012-08-04 09:35:32,Moved fix for #747 to compat module,747,requests/models.py
+493ea93,Marcus McCurdy,2012-08-03 23:13:17,Fixed issue #747,747,requests/models.py
+493ea93,Marcus McCurdy,2012-08-03 23:13:17,Fixed issue #747,747,tests/test_requests.py
+2110f7d,Marcus McCurdy,2012-08-03 23:05:37,Fixed test for issue #747 to check for '' instead of 'text/plain',747,tests/test_requests.py
+12328d6,Marcus McCurdy,2012-08-03 20:09:56,Added a test to expose issue #747,747,tests/test_requests.py
+1adaba3,Kenneth Reitz,2012-05-03 21:33:42,Merge pull request #580 from slingamn/keepalive,458
+35ec6bb,Shivaram Lingamneni,2012-05-03 21:16:56,fix for #458,458,requests/models.py
+3d4d5ab,Shivaram Lingamneni,2012-05-03 21:16:46,test for #458,458,tests/test_requests.py
+317f64a,Kenneth Reitz,2012-05-03 01:36:12,Merge pull request #577 from slingamn/redirects_537,537
+365c64f,Kenneth Reitz,2012-04-10 23:00:25,#539,539,requests/models.py
+2bae0d2,Kenneth Reitz,2012-03-31 17:39:26,new urllib3 version,498,requests/packages/urllib3/__init__.py
+2bae0d2,Kenneth Reitz,2012-03-31 17:39:26,new urllib3 version,498,requests/packages/urllib3/connectionpool.py
+171b370,Kenneth Reitz,2012-03-31 03:08:12,app engine #498,498,requests/utils.py
+fff5269,Kenneth Reitz,2012-03-30 23:15:43,Fix app engine error for #498,498,requests/utils.py
+3c2f52d,Steve Pulec,2012-03-18 23:06:42,Fixes issues #496 by having Response.ok catch all Requests exceptions.,496,requests/models.py
+9cf9d76,Kenneth Reitz,2012-03-15 18:15:27,Merge pull request #477 from maxcountryman/develop,338
+bc5cc0d,Max Countryman,2012-03-09 17:26:57,potentially fixes #338,338,requests/models.py
+5a2a78f,Kenneth Reitz,2012-02-13 16:14:39,Merge pull request #425 from Lukasa/develop,335
+4516bd4,Kenneth Reitz,2012-01-29 18:00:33,Release redirected connections.,239,requests/models.py
+c7b99f7,Kenneth Reitz,2011-11-27 11:29:52,Set Response.sent to True,291,requests/models.py
+6bb4c4e,Kenneth Reitz,2011-11-27 11:24:59,Added test for Request.sent.,291,test_requests.py
+c3c90bb,Kenneth Reitz,2011-07-23 22:35:46,default headers and content encoding settings Closes #78,78,requests/config.py
+c3c90bb,Kenneth Reitz,2011-07-23 22:35:46,default headers and content encoding settings Closes #78,78,requests/models.py

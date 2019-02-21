@@ -1,0 +1,970 @@
+commit,author,date,title,faultID,file
+b525e42,Ben Darnell,2017-11-05 10:38:03,test: More robust ipv6 detection,2185,tornado/test/simple_httpclient_test.py
+b525e42,Ben Darnell,2017-11-05 10:38:03,test: More robust ipv6 detection,2185,tornado/test/util.py
+f1f7d2e,Pierce Lopez,2017-12-30 18:34:32,fix HTTPInputError reference for improperly terminated chunked request,2225,tornado/http1connection.py
+17210e3,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/http1connection.py
+17210e3,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/test/httpserver_test.py
+17210e3,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/test/web_test.py
+63e869f,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/options.py
+63e869f,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/test/options_test.py
+63e869f,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/test/util.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/benchmark/benchmark.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/benchmark/gen_benchmark.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/benchmark/stack_context_benchmark.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/benchmark/template_benchmark.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/s3server/s3server.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/twitter/twitterdemo.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,demos/websocket/chatdemo.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/scripts/custom_fixers/fix_future_imports.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/scripts/test_resolvers.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/test/appengine/common/cgi_runtests.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/test/cython/pythonmodule.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/test/redbot/red_test.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/test/websocket/client.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/test/websocket/server.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,maint/vm/windows/bootstrap.py
+7e2fef9,Pierce Lopez,2018-01-01 14:43:18,style fix: 2 blank lines around top-level class and function defs,2,tornado/test/util.py
+a358a66,Pierce Lopez,2017-12-31 13:54:07,"style fix: 3 blank lines is too many, 0 is too few",3,maint/circlerefs/circlerefs.py
+a358a66,Pierce Lopez,2017-12-31 13:54:07,"style fix: 3 blank lines is too many, 0 is too few",3,maint/test/redbot/red_test.py
+a358a66,Pierce Lopez,2017-12-31 13:54:07,"style fix: 3 blank lines is too many, 0 is too few",3,tornado/test/concurrent_test.py
+a358a66,Pierce Lopez,2017-12-31 13:54:07,"style fix: 3 blank lines is too many, 0 is too few",3,tornado/test/gen_test.py
+207ff24,Ben Darnell,2017-12-31 17:05:05,"asyncio: Don't raise ""IOLoop is closing"" in add_callback",2191,tornado/platform/asyncio.py
+207ff24,Ben Darnell,2017-12-31 17:05:05,"asyncio: Don't raise ""IOLoop is closing"" in add_callback",2191,tornado/test/ioloop_test.py
+f2f2d6c,Ben Darnell,2017-12-31 16:40:32,options: Rewrite docs,1866,tornado/options.py
+5560b7a,Ben Darnell,2017-12-31 14:56:56,asyncio: Add an event loop policy to allow creation on any thread,2183,tornado/platform/asyncio.py
+5560b7a,Ben Darnell,2017-12-31 14:56:56,asyncio: Add an event loop policy to allow creation on any thread,2183,tornado/test/asyncio_test.py
+436e91e,Pierce Lopez,2017-12-30 18:34:32,fix HTTPInputError reference for improperly terminated chunked request,2225,tornado/http1connection.py
+92a3798,Pierce Lopez,2017-12-30 18:22:38,fix iostream exc_info using missing Exception var,2028,tornado/iostream.py
+f842031,Michael V. DePalatis,2017-12-26 20:40:43,Document that options can be booleans,2222,tornado/options.py
+58434a0,Boris,2017-12-27 02:05:28,Add family argument to OverrideResolver->resolve method (#2201),2201,tornado/netutil.py
+58434a0,Boris,2017-12-27 02:05:28,Add family argument to OverrideResolver->resolve method (#2201),2201,tornado/test/netutil_test.py
+9ffdefd,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/http1connection.py
+9ffdefd,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/test/httpserver_test.py
+9ffdefd,Pierce Lopez,2017-12-25 22:11:26,http: read final crlf of chunked requests,2225,tornado/test/web_test.py
+5fcfb42,Min RK,2017-11-16 04:21:52,handle multiple values in X-Forwarded-Proto (#2162),2162,tornado/httpserver.py
+5fcfb42,Min RK,2017-11-16 04:21:52,handle multiple values in X-Forwarded-Proto (#2162),2162,tornado/test/httpserver_test.py
+d7ef815,andrew,2017-11-03 17:17:09,return 404 when routing delegate is not found,2148,tornado/routing.py
+d7ef815,andrew,2017-11-03 17:17:09,return 404 when routing delegate is not found,2148,tornado/test/routing_test.py
+33abbbd,Ben Darnell,2017-11-05 10:38:03,test: More robust ipv6 detection,2185,tornado/test/simple_httpclient_test.py
+33abbbd,Ben Darnell,2017-11-05 10:38:03,test: More robust ipv6 detection,2185,tornado/test/util.py
+fa34091,Antoine Pitrou,2017-10-22 16:02:14,Don't keep any reference to memoryviews (#2173),2173,tornado/iostream.py
+648b3e9,Mike DePalatis,2017-10-21 14:04:57,Implement IOLoop.run_in_executor (#2067),2067,tornado/ioloop.py
+648b3e9,Mike DePalatis,2017-10-21 14:04:57,Implement IOLoop.run_in_executor (#2067),2067,tornado/test/ioloop_test.py
+f7046cf,TianZhen,2017-09-19 17:44:15,fix: iostream exception alias,2155,tornado/iostream.py
+5a40d21,JuanPablo,2017-09-18 22:19:17,removed unused import logging,2154,demos/webspider/webspider.py
+ab42d83,Pierce Lopez,2017-09-08 17:49:55,file_upload demo: yield write() cb in body_producer,2149,demos/file_upload/file_uploader.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,maint/vm/windows/bootstrap.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,setup.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/gen.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/netutil.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/platform/asyncio.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/queues.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/test/iostream_test.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/test/runtests.py
+34c43f4,Ben Darnell,2017-09-04 15:32:52,"Drop support for python 3.3, 3.5.[01] (#2116)",2116,tornado/test/util.py
+395e558,Josh Humphries,2017-09-03 18:48:54,Correctly clear and create a new ioloop during autoreload (#2137),2137,tornado/autoreload.py
+c85dfd2,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/netutil.py
+c85dfd2,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/platform/common.py
+c85dfd2,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/tcpclient.py
+871bf81,Fitz Elliott,2017-08-10 11:10:00,Remove headers from HTTPServerRequest repr,1112,tornado/httputil.py
+871bf81,Fitz Elliott,2017-08-10 11:10:00,Remove headers from HTTPServerRequest repr,1112,tornado/test/httputil_test.py
+3cc3e13,Lancher,2017-07-16 11:13:00,tcpclient: Introduce connect timeout (#2094),2094,tornado/tcpclient.py
+3cc3e13,Lancher,2017-07-16 11:13:00,tcpclient: Introduce connect timeout (#2094),2094,tornado/test/tcpclient_test.py
+0e869e3,Ben Darnell,2017-07-04 18:35:08,Merge pull request #2075 from pitrou/accept_ebadf_race,2069
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/gen.py
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/ioloop.py
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/locks.py
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/queues.py
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/test/import_test.py
+edf1232,Ben Darnell,2017-06-10 18:08:49,"ioloop,gen: Unify TimeoutErrors",1929,tornado/util.py
+c40cdb9,Sven,2017-06-09 16:50:34,Fix module autoreload for __main__ with relative imports,2044,tornado/autoreload.py
+c40cdb9,Sven,2017-06-09 16:50:34,Fix module autoreload for __main__ with relative imports,2044,tornado/test/autoreload_test.py
+c40cdb9,Sven,2017-06-09 16:50:34,Fix module autoreload for __main__ with relative imports,2044,tornado/test/import_test.py
+c40cdb9,Sven,2017-06-09 16:50:34,Fix module autoreload for __main__ with relative imports,2044,tornado/test/runtests.py
+21680e2,Antoine Pitrou,2017-06-06 10:43:14,Fix #2069: Fix race condition between accept() handler and TCPServer.stop(),2069,tornado/netutil.py
+21680e2,Antoine Pitrou,2017-06-06 10:43:14,Fix #2069: Fix race condition between accept() handler and TCPServer.stop(),2069,tornado/tcpserver.py
+21680e2,Antoine Pitrou,2017-06-06 10:43:14,Fix #2069: Fix race condition between accept() handler and TCPServer.stop(),2069,tornado/test/tcpserver_test.py
+9203023,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/netutil.py
+9203023,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/platform/common.py
+9203023,Ben Darnell,2017-05-28 20:10:01,"tcpclient,netutil: Set FD_CLOEXEC on all sockets created by Tornado",1984,tornado/tcpclient.py
+02d8f02,Ben Darnell,2017-05-20 15:41:07,build: Don't double-test on appveyor,2028
+4b36b4e,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/options.py
+4b36b4e,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/test/options_test.py
+4b36b4e,Ben Darnell,2017-05-20 13:44:08,options: Report redefinition errors when underscores are used,2020,tornado/test/util.py
+73c48f3,Ben Darnell,2017-05-20 12:09:58,websocket: Don't swallow exceptions in _write_frame,1980,tornado/test/websocket_test.py
+73c48f3,Ben Darnell,2017-05-20 12:09:58,websocket: Don't swallow exceptions in _write_frame,1980,tornado/websocket.py
+d032618,Ben Darnell,2017-05-20 13:01:07,ioloop: Document the incompatibility of IOLoop and fork(),2004,tornado/ioloop.py
+f0d67b4,Ben Darnell,2017-05-20 12:29:55,web: Clarify cookie method docs,1993,tornado/web.py
+ff0b91a,Marc Schlaich,2017-05-08 15:29:42,don't check error code in test_set_close_exec,2038,tornado/test/windows_test.py
+57680da,Ben Darnell,2017-04-19 21:38:57,log: Fix color logging detection,2013,tornado/log.py
+5931d91,Ben Darnell,2017-04-15 12:53:28,websocket: Fix use of render_string in websocket handlers,1917,tornado/test/websocket_test.py
+5931d91,Ben Darnell,2017-04-15 12:53:28,websocket: Fix use of render_string in websocket handlers,1917,tornado/web.py
+5931d91,Ben Darnell,2017-04-15 12:53:28,websocket: Fix use of render_string in websocket handlers,1917,tornado/websocket.py
+2e25e81,Ben Darnell,2017-04-09 22:54:34,"auth: Update, doc, and test the facebook session_expires field",2001,tornado/auth.py
+2e25e81,Ben Darnell,2017-04-09 22:54:34,"auth: Update, doc, and test the facebook session_expires field",2001,tornado/test/auth_test.py
+104a302,Ben Darnell,2017-04-02 10:52:43,websocket: Impose a size limit on incoming websocket messages (#1997),1997,tornado/test/websocket_test.py
+104a302,Ben Darnell,2017-04-02 10:52:43,websocket: Impose a size limit on incoming websocket messages (#1997),1997,tornado/websocket.py
+8bb8795,Dayne Jones,2017-03-29 21:43:07,auth: Facebook now returns auth tokens in json instead of url-encoded,1992,tornado/auth.py
+8bb8795,Dayne Jones,2017-03-29 21:43:07,auth: Facebook now returns auth tokens in json instead of url-encoded,1992,tornado/test/auth_test.py
+28287ea,Dayne Jones,2017-03-29 21:43:07,auth: Facebook now returns auth tokens in json instead of url-encoded,1992,tornado/auth.py
+28287ea,Dayne Jones,2017-03-29 21:43:07,auth: Facebook now returns auth tokens in json instead of url-encoded,1992,tornado/test/auth_test.py
+8a4fc86,Ben Darnell,2017-03-26 14:43:23,Check in test script for circular references,1936,maint/circlerefs/circlerefs.py
+528ebe9,Ben Darnell,2017-03-26 11:57:09,gen: Add tests for `yield None`,1716,tornado/test/gen_test.py
+fa809ed,Ben Darnell,2017-03-25 14:00:26,autoreload: Don't close the IOLoop on reload,1543,tornado/autoreload.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,maint/scripts/custom_fixers/fix_future_imports.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/__init__.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/_locale_data.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/auth.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/autoreload.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/concurrent.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/curl_httpclient.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/escape.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/gen.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/http1connection.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/httpclient.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/httpserver.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/httputil.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/ioloop.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/iostream.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/locale.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/locks.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/log.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/netutil.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/options.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/asyncio.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/auto.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/caresresolver.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/common.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/epoll.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/interface.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/kqueue.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/posix.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/select.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/twisted.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/platform/windows.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/process.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/queues.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/routing.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/simple_httpclient.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/stack_context.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/tcpclient.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/tcpserver.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/template.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/__main__.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/asyncio_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/auth_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/concurrent_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/curl_httpclient_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/escape_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/gen_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/gettext_translations/extract_me.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/http1connection_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/httpclient_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/httpserver_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/httputil_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/import_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/ioloop_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/iostream_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/locale_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/locks_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/log_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/netutil_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/options_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/process_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/queues_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/resolve_test_helper.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/routing_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/runtests.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/simple_httpclient_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/stack_context_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/tcpclient_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/tcpserver_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/template_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/testing_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/twisted_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/util.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/util_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/web_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/websocket_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/windows_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/test/wsgi_test.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/testing.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/util.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/web.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/websocket.py
+c162ebb,Andrew Sumin,2017-03-07 12:07:06,remove redundant with_statement feature,1971,tornado/wsgi.py
+b343f6e,A. Jesse Jiryu Davis,2017-01-08 21:43:42,websocket: WebSocketHandler.on_message allows coroutines,1650,tornado/test/websocket_test.py
+b343f6e,A. Jesse Jiryu Davis,2017-01-08 21:43:42,websocket: WebSocketHandler.on_message allows coroutines,1650,tornado/websocket.py
+c45e10c,Ben Darnell,2017-02-20 16:50:33,tox: Update some configs to use py36,1926
+4964ef7,Ben Darnell,2017-02-20 14:59:03,setup: Ship LICENSE file in tarball,1897
+0721917,Ben Darnell,2017-02-05 17:58:38,web: Remove obsolete doc about stream_request_body and async prepare,1933,tornado/web.py
+c4ab372,Ben Darnell,2017-02-05 17:43:39,queues: Call out thread-unsafety in docs,1923,tornado/queues.py
+68c15a1,James Maier,2017-01-08 22:11:51,WebSocket: fix 426 error code,426,tornado/test/websocket_test.py
+68c15a1,James Maier,2017-01-08 22:11:51,WebSocket: fix 426 error code,426,tornado/websocket.py
+0836315,Andrew Sumin,2016-12-17 19:56:17,improve routing module docs and tests,1916,tornado/routing.py
+0836315,Andrew Sumin,2016-12-17 19:56:17,improve routing module docs and tests,1916,tornado/test/routing_test.py
+0836315,Andrew Sumin,2016-12-17 19:56:17,improve routing module docs and tests,1916,tornado/web.py
+56cedff,Ben Darnell,2016-12-13 20:43:36,Merge pull request #1902 from pitrou/tcpserver_stop_twice,1901
+0efe23e,A. Jesse Jiryu Davis,2016-12-10 07:34:31,"netutil: Preload the ""latin1"" codec",584,tornado/netutil.py
+b4b2451,Thomas Kluyver,2016-12-07 11:14:05,Use errno_from_exception on error caught in Waker,1907,tornado/platform/common.py
+e09a6f8,A. Jesse Jiryu Davis,2016-12-05 06:37:19,tcpserver: handle_stream can be a native coroutine,1906,tornado/tcpserver.py
+e09a6f8,A. Jesse Jiryu Davis,2016-12-05 06:37:19,tcpserver: handle_stream can be a native coroutine,1906,tornado/test/tcpserver_test.py
+7d62ce8,Antoine Pitrou,2016-11-30 17:40:46,Fix #1901: fix TCPServer.stop() when called twice,1901,tornado/tcpserver.py
+7d62ce8,Antoine Pitrou,2016-11-30 17:40:46,Fix #1901: fix TCPServer.stop() when called twice,1901,tornado/test/tcpserver_test.py
+ef6957d,A. Jesse Jiryu Davis,2016-10-27 23:03:35,web: Add regex support to RedirectHandler,1861,tornado/test/web_test.py
+ef6957d,A. Jesse Jiryu Davis,2016-10-27 23:03:35,web: Add regex support to RedirectHandler,1861,tornado/web.py
+29b1429,Antoine Pitrou,2016-11-03 10:48:55,Lockless implementation of add_callback,1874,tornado/ioloop.py
+29b1429,Antoine Pitrou,2016-11-03 10:48:55,Lockless implementation of add_callback,1874,tornado/platform/common.py
+29b1429,Antoine Pitrou,2016-11-03 10:48:55,Lockless implementation of add_callback,1874,tornado/platform/interface.py
+29b1429,Antoine Pitrou,2016-11-03 10:48:55,Lockless implementation of add_callback,1874,tornado/platform/posix.py
+43de62c,Andrey Sumin,2016-10-20 14:31:15,refactor httpserver request adapters,1862,tornado/httpserver.py
+13f71d0,Andrey Sumin,2016-10-02 17:36:49,add unit tests for an application with default_host,1857,tornado/test/web_test.py
+13f71d0,Andrey Sumin,2016-10-02 17:36:49,add unit tests for an application with default_host,1857,tornado/web.py
+cb247cb,Ben Darnell,2016-09-30 23:39:29,httputil: Rewrite cookie parsing,1851,tornado/httputil.py
+cb247cb,Ben Darnell,2016-09-30 23:39:29,httputil: Rewrite cookie parsing,1851,tornado/test/httputil_test.py
+cb247cb,Ben Darnell,2016-09-30 23:39:29,httputil: Rewrite cookie parsing,1851,tornado/test/web_test.py
+e40b89a,依云,2016-09-05 18:03:36,tcpclient: catch any `socket()` errors,1809,tornado/tcpclient.py
+7d72786,Akihiro Yamazaki,2016-09-02 14:52:06,use print function insted of stetement at doc-string,1818,tornado/httpclient.py
+7d72786,Akihiro Yamazaki,2016-09-02 14:52:06,use print function insted of stetement at doc-string,1818,tornado/locale.py
+7d72786,Akihiro Yamazaki,2016-09-02 14:52:06,use print function insted of stetement at doc-string,1818,tornado/template.py
+24a8b22,Aaron Opfer,2016-07-26 08:45:08,Tie Runner lifetime to Future's existence,1769,tornado/gen.py
+24a8b22,Aaron Opfer,2016-07-26 08:45:08,Tie Runner lifetime to Future's existence,1769,tornado/test/gen_test.py
+d588bfb,Ben Darnell,2016-07-26 00:03:11,options_test: Absolutize __file__,1780,tornado/test/options_test.py
+243feb9,Ben Darnell,2016-07-25 23:45:45,travis.yml: Reproduce #1780 in CI,1780
+d1cab4a,Ben Darnell,2016-07-24 20:58:27,httpclient: clarify docs of HTTPResponse.body,1775,tornado/httpclient.py
+c971a7d,Ben Darnell,2016-07-22 14:28:52,web: URLs that cannot be unescaped should be allowed,1770,tornado/test/web_test.py
+c971a7d,Ben Darnell,2016-07-22 14:28:52,web: URLs that cannot be unescaped should be allowed,1770,tornado/web.py
+c8c9a08,Andrey Sumin,2016-07-21 16:11:06,simplify tornado.util.exec_in,1776,tornado/util.py
+7ec71d4,Ben Darnell,2016-06-12 14:12:45,netutil_test: use 127.0.0.1 instead of localhost,1734,tornado/test/netutil_test.py
+5ae3697,Ben Darnell,2016-06-12 12:22:44,Standardize exceptions raised by Resolvers,1721,tornado/netutil.py
+5ae3697,Ben Darnell,2016-06-12 12:22:44,Standardize exceptions raised by Resolvers,1721,tornado/platform/caresresolver.py
+5ae3697,Ben Darnell,2016-06-12 12:22:44,Standardize exceptions raised by Resolvers,1721,tornado/platform/twisted.py
+5ae3697,Ben Darnell,2016-06-12 12:22:44,Standardize exceptions raised by Resolvers,1721,tornado/test/netutil_test.py
+8bf9323,Ben Darnell,2016-05-28 12:08:27,Merge pull request #1720 from daftshady/master,1718
+fb639dc,Dmitry Volodin,2016-05-26 02:17:38,_Timeout.__lt__ speedup,587,tornado/ioloop.py
+12aa89f,xiyanxiyan10,2016-05-25 17:27:06,better format for process.py,1727,tornado/process.py
+47af4c0,Ben Darnell,2016-05-21 21:32:13,Document Subprocess as posix-only,1585,tornado/process.py
+b49c87a,Ben Darnell,2016-05-21 20:23:51,Fix error raised in set_close_exec on windows,1703,tornado/platform/windows.py
+b49c87a,Ben Darnell,2016-05-21 20:23:51,Fix error raised in set_close_exec on windows,1703,tornado/test/runtests.py
+b49c87a,Ben Darnell,2016-05-21 20:23:51,Fix error raised in set_close_exec on windows,1703,tornado/test/windows_test.py
+55e7730,Ben Darnell,2016-04-24 10:04:15,Remove some no-longer-necessary mypy workarounds,1010,tornado/template.py
+55e7730,Ben Darnell,2016-04-24 10:04:15,Remove some no-longer-necessary mypy workarounds,1010,tornado/test/template_test.py
+55e7730,Ben Darnell,2016-04-24 10:04:15,Remove some no-longer-necessary mypy workarounds,1010,tornado/test/web_test.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/escape.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/http1connection.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/httputil.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/test/web_test.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/util.py
+10da549,Ben Darnell,2016-04-23 19:34:23,Begin to fix type confusion in HTTPHeaders.,1670,tornado/web.py
+50f9eed,Ben Darnell,2016-04-03 16:46:03,options: add __file__ to config file parsing,1666,tornado/options.py
+50f9eed,Ben Darnell,2016-04-03 16:46:03,options: add __file__ to config file parsing,1666,tornado/test/options_test.py
+2ff349f,Oleksandr Bretsko,2016-03-13 11:59:17,fixed broken link (anchor),1664
+4e8ad47,Riccardo Magliocchetti,2016-02-22 17:45:21,docs: give more hints on why windows is unsupported,1649
+d49643b,Zhicheng Wei,2016-02-22 16:02:01,render() should raise an error when finish() already called,1648,tornado/web.py
+078a4d1,Thomas Kluyver,2016-02-15 14:41:27,Integrate websocket periodic pinging code from Jupyter,1640,tornado/websocket.py
+34903f9,Ben Darnell,2016-02-14 19:04:27,Fix HTTP1Connection for responses without content-length,1598,tornado/http1connection.py
+34903f9,Ben Darnell,2016-02-14 19:04:27,Fix HTTP1Connection for responses without content-length,1598,tornado/test/http1connection_test.py
+34903f9,Ben Darnell,2016-02-14 19:04:27,Fix HTTP1Connection for responses without content-length,1598,tornado/test/runtests.py
+d7d9c46,Ben Darnell,2016-02-14 14:00:00,Handle non-ascii headers correctly in curl_httpclient.,1608,tornado/curl_httpclient.py
+d7d9c46,Ben Darnell,2016-02-14 14:00:00,Handle non-ascii headers correctly in curl_httpclient.,1608,tornado/test/httpclient_test.py
+7b61d9e,Ben Darnell,2016-02-13 22:30:50,Document and test `{#!` syntax.,1606,tornado/template.py
+7b61d9e,Ben Darnell,2016-02-13 22:30:50,Document and test `{#!` syntax.,1606,tornado/test/template_test.py
+22d884c,Ben Darnell,2016-02-13 21:15:34,Define `httpclient.HTTPError.__repr__`,1624,tornado/httpclient.py
+22d884c,Ben Darnell,2016-02-13 21:15:34,Define `httpclient.HTTPError.__repr__`,1624,tornado/test/httpclient_test.py
+e2dac2c,Ben Darnell,2016-02-13 19:40:49,Add defaults to template.ParseError arguments.,1631,tornado/template.py
+e2dac2c,Ben Darnell,2016-02-13 19:40:49,Add defaults to template.ParseError arguments.,1631,tornado/test/template_test.py
+b9919bf,Ben Darnell,2016-02-13 19:11:41,Improve grammar in docs,1629
+207a54a,afg,2015-12-28 14:06:56,reverse_url should unescape regex string,1609,tornado/test/util_test.py
+207a54a,afg,2015-12-28 14:06:56,reverse_url should unescape regex string,1609,tornado/test/web_test.py
+207a54a,afg,2015-12-28 14:06:56,reverse_url should unescape regex string,1609,tornado/util.py
+207a54a,afg,2015-12-28 14:06:56,reverse_url should unescape regex string,1609,tornado/web.py
+3dcb12c,Ben Darnell,2015-11-06 19:54:48,Merge pull request #1574 from macro/master,1573
+dc5657c,Ben Darnell,2015-10-24 09:57:16,Make test_root_static_path more robust.,1565,tornado/test/web_test.py
+e832511,szweep,2015-10-23 10:24:35,Check for Content-Length and Transfer-Encoding,3,tornado/http1connection.py
+e832511,szweep,2015-10-23 10:24:35,Check for Content-Length and Transfer-Encoding,3,tornado/test/simple_httpclient_test.py
+bef7b32,Ben Darnell,2015-10-03 10:43:22,Support PATCH with body in curl_httpclient.,1531,tornado/curl_httpclient.py
+bef7b32,Ben Darnell,2015-10-03 10:43:22,Support PATCH with body in curl_httpclient.,1531,tornado/test/httpclient_test.py
+301f52b,Ben Darnell,2015-09-28 22:38:16,Fix a regression in FacebookGraphMixin in the 4.3 dev series.,1532,tornado/auth.py
+301f52b,Ben Darnell,2015-09-28 22:38:16,Fix a regression in FacebookGraphMixin in the 4.3 dev series.,1532,tornado/test/auth_test.py
+e01b7f8,Ben Darnell,2015-09-27 21:09:09,Return a Future from websocket write_message methods.,1478,tornado/test/websocket_test.py
+e01b7f8,Ben Darnell,2015-09-27 21:09:09,Return a Future from websocket write_message methods.,1478,tornado/websocket.py
+5390ea3,Ben Darnell,2015-09-27 21:05:04,Accept arguments in `raise Finish()`.,1474,tornado/test/web_test.py
+5390ea3,Ben Darnell,2015-09-27 21:05:04,Accept arguments in `raise Finish()`.,1474,tornado/web.py
+f075f2e,Ben Darnell,2015-09-27 20:55:09,Make HTTPError (both of them) copyable.,1485,tornado/httpclient.py
+f075f2e,Ben Darnell,2015-09-27 20:55:09,Make HTTPError (both of them) copyable.,1485,tornado/test/httpclient_test.py
+f075f2e,Ben Darnell,2015-09-27 20:55:09,Make HTTPError (both of them) copyable.,1485,tornado/test/web_test.py
+f075f2e,Ben Darnell,2015-09-27 20:55:09,Make HTTPError (both of them) copyable.,1485,tornado/web.py
+61f7d10,Ben Darnell,2015-09-27 20:23:56,Handle EINTR in IOStream.,1287,tornado/iostream.py
+8115299,Ben Darnell,2015-09-27 20:10:49,"Remove ""IOLoop is closing"" error.",1491,tornado/ioloop.py
+fc77d7f,Ben Darnell,2015-09-27 18:29:54,Support non-ascii template filenames.,1502,tornado/template.py
+fc77d7f,Ben Darnell,2015-09-27 18:29:54,Support non-ascii template filenames.,1502,tornado/test/template_test.py
+9ebfc39,Ben Darnell,2015-09-27 18:09:16,Document interactions with TornadoReactor and multi-process.,1501,tornado/platform/twisted.py
+96dc7ad,Ben Darnell,2015-09-27 13:26:21,simple_httpclient: Don't call streaming_callback for redirects.,1518,tornado/simple_httpclient.py
+96dc7ad,Ben Darnell,2015-09-27 13:26:21,simple_httpclient: Don't call streaming_callback for redirects.,1518,tornado/test/httpclient_test.py
+901fc49,Ben Darnell,2015-09-27 12:33:30,Fix typo in websocket_connect docs.,1522,tornado/websocket.py
+addabd5,Ben Darnell,2015-09-14 23:27:18,Replace `gen.Multi` and `gen.multi_future` with `gen.multi`.,1493,tornado/gen.py
+6a08081,Ben Darnell,2015-09-14 22:42:41,Import t.p.asyncio automatically when available in gen.,1499,tornado/gen.py
+f302e7e,Ben Darnell,2015-09-13 13:15:06,Make HTTPHeaders a subclass of MutableMapping ABC instead of dict.,1500,tornado/httputil.py
+f302e7e,Ben Darnell,2015-09-13 13:15:06,Make HTTPHeaders a subclass of MutableMapping ABC instead of dict.,1500,tornado/test/httputil_test.py
+22a8c6e,Ping,2015-08-05 15:15:31,add timed rotating mode for logging into separated files in tornado.log,1479,tornado/log.py
+22a8c6e,Ping,2015-08-05 15:15:31,add timed rotating mode for logging into separated files in tornado.log,1479,tornado/test/log_test.py
+70e52f9,Ben Darnell,2015-08-02 16:17:31,Add docs about calling coroutines.,1463
+95c4dce,Ben Darnell,2015-07-29 22:53:33,Remove arbitrary cap on length of outgoing headers.,1473,tornado/web.py
+1d02ed6,Ben Darnell,2015-07-29 22:49:54,Fix incorrect check in IOLoop(make_current=True).,1469,tornado/ioloop.py
+1d02ed6,Ben Darnell,2015-07-29 22:49:54,Fix incorrect check in IOLoop(make_current=True).,1469,tornado/test/ioloop_test.py
+d8d5f58,Ben Darnell,2015-07-05 18:40:14,Add `{% whitespace %}` template directive.,178,tornado/template.py
+d8d5f58,Ben Darnell,2015-07-05 18:40:14,Add `{% whitespace %}` template directive.,178,tornado/test/template_test.py
+254783a,Ben Darnell,2015-07-05 17:13:07,Introduce `oneline` template whitespace mode.,291,tornado/template.py
+254783a,Ben Darnell,2015-07-05 17:13:07,Introduce `oneline` template whitespace mode.,291,tornado/test/template_test.py
+72251a2,Ben Darnell,2015-07-05 17:03:45,Add Loader parameter to control whitespace mode.,178,tornado/template.py
+72251a2,Ben Darnell,2015-07-05 17:03:45,Add Loader parameter to control whitespace mode.,178,tornado/test/template_test.py
+72251a2,Ben Darnell,2015-07-05 17:03:45,Add Loader parameter to control whitespace mode.,178,tornado/web.py
+85484f6,Ben Darnell,2015-07-04 23:54:13,Add support for UTF-16 and UTF-8-with-BOM to CSV locale.,1449,tornado/locale.py
+85484f6,Ben Darnell,2015-07-04 23:54:13,Add support for UTF-16 and UTF-8-with-BOM to CSV locale.,1449,tornado/test/locale_test.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/iostream.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/simple_httpclient.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/test/httpserver_test.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/test/iostream_test.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/test/simple_httpclient_test.py
+d74d583,Ben Darnell,2015-07-04 22:40:23,Reduce logging of errors inside IOStream (especially SSLError).,1304,tornado/testing.py
+433e7f7,Ben Darnell,2015-07-04 18:24:24,Support pickling of HTTPHeaders.,1445,tornado/httputil.py
+433e7f7,Ben Darnell,2015-07-04 18:24:24,Support pickling of HTTPHeaders.,1445,tornado/test/httputil_test.py
+463669e,Ben Darnell,2015-07-04 15:18:26,Make dashes and underscores interchangeable in option names.,421,tornado/options.py
+463669e,Ben Darnell,2015-07-04 15:18:26,Make dashes and underscores interchangeable in option names.,421,tornado/test/options_test.py
+5a2bb7e,Ben Darnell,2015-07-04 14:13:58,Add filename to template.ParseError messages.,1453,tornado/template.py
+5a2bb7e,Ben Darnell,2015-07-04 14:13:58,Add filename to template.ParseError messages.,1453,tornado/test/template_test.py
+617d41f,Ben Darnell,2015-06-28 16:41:46,Introduce OAuth2Mixin.oauth2_request.,1212,tornado/auth.py
+617d41f,Ben Darnell,2015-06-28 16:41:46,Introduce OAuth2Mixin.oauth2_request.,1212,tornado/test/auth_test.py
+b647b84,Ben Darnell,2015-06-21 13:57:28,Clear __package__ in script run by autoreload CLI.,21,tornado/autoreload.py
+c3aa6e5,Ben Darnell,2015-05-05 22:16:30,Remove weak reference from WaitIterator.,1429,tornado/gen.py
+62ecb80,Ben Darnell,2015-05-05 22:14:05,Echo the received websocket close code.,1377,tornado/test/websocket_test.py
+62ecb80,Ben Darnell,2015-05-05 22:14:05,Echo the received websocket close code.,1377,tornado/websocket.py
+dd3aabd,Ben Darnell,2015-05-05 22:04:09,Document (ignored) timeout argument to Future methods.,1435,tornado/concurrent.py
+598ffda,szweep,2015-04-23 14:33:17,Modify xhtml_unescape to handle hex numeric refs,32,tornado/escape.py
+598ffda,szweep,2015-04-23 14:33:17,Modify xhtml_unescape to handle hex numeric refs,32,tornado/test/escape_test.py
+d167681,Ben Darnell,2015-04-18 19:19:00,Fix WaitIterator when no hard reference is kept.,1397,tornado/gen.py
+d167681,Ben Darnell,2015-04-18 19:19:00,Fix WaitIterator when no hard reference is kept.,1397,tornado/test/gen_test.py
+cf76612,Ben Darnell,2015-04-18 18:15:14,Fix exception handling in CurlAsyncHTTPClient._process_queue.,1413,tornado/curl_httpclient.py
+2bd2f0d,Ben Darnell,2015-04-18 14:12:44,Add raise_error behavior to Subprocess.wait_for_exit.,1205,tornado/process.py
+2bd2f0d,Ben Darnell,2015-04-18 14:12:44,Add raise_error behavior to Subprocess.wait_for_exit.,1205,tornado/test/process_test.py
+303c09c,Ben Darnell,2015-04-12 21:19:31,Merge pull request #1416 from ajdavis/reliable-queues-doctest,1416
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/benchmark/chunk_benchmark.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/blog/blog.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/chat/chatdemo.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/facebook/facebook.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/helloworld/helloworld.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/s3server/s3server.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/twitter/twitterdemo.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,demos/websocket/chatdemo.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/httpclient.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/httpserver.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/ioloop.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/iostream.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/platform/twisted.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/tcpserver.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/test/process_test.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/web.py
+4f86890,Ben Darnell,2015-03-29 16:22:26,Add make_current keyword argument to IOLoop constructor.,1390,tornado/wsgi.py
+91f3f0f,Ben Darnell,2015-03-29 14:17:36,Add a quiet_exceptions argument to gen.Multi and gen.multi_future.,1378,tornado/gen.py
+91f3f0f,Ben Darnell,2015-03-29 14:17:36,Add a quiet_exceptions argument to gen.Multi and gen.multi_future.,1378,tornado/test/gen_test.py
+c95843c,Ben Darnell,2015-03-29 14:04:46,gen.multi_future and gen.Multi log any exceptions after the first.,1378,tornado/gen.py
+c95843c,Ben Darnell,2015-03-29 14:04:46,gen.multi_future and gen.Multi log any exceptions after the first.,1378,tornado/test/gen_test.py
+4dd78cf,Ben Darnell,2015-03-26 23:50:15,Fix read_until_close's Future return with streaming_callback.,1395,tornado/iostream.py
+4dd78cf,Ben Darnell,2015-03-26 23:50:15,Fix read_until_close's Future return with streaming_callback.,1395,tornado/test/iostream_test.py
+2467782,Ben Darnell,2015-03-26 23:36:43,"Add Subprocess.wait_for_exit, a coro-friendly set_exit_callback().",1391,tornado/process.py
+2467782,Ben Darnell,2015-03-26 23:36:43,"Add Subprocess.wait_for_exit, a coro-friendly set_exit_callback().",1391,tornado/test/process_test.py
+bb02cd7,Ben Darnell,2015-03-20 15:28:53,Guard against messages containing % signs in web.HTTPError.,1393,tornado/test/web_test.py
+bb02cd7,Ben Darnell,2015-03-20 15:28:53,Guard against messages containing % signs in web.HTTPError.,1393,tornado/web.py
+d635c56,Ben Darnell,2015-03-19 21:29:26,Finish incomplete sentence in docstring.,1389,tornado/ioloop.py
+dd77533,Vladimir Rutsky,2015-03-12 13:34:27,"fix typo: ""javscript""",1376,tornado/escape.py
+9b3f414,Vladimir Rutsky,2015-03-11 16:55:56,"fix typo: ""initalization""",1375
+21657ac,daftshady,2015-03-09 13:06:33,temporarily fixed double slash redirect issue,1373,tornado/test/web_test.py
+21657ac,daftshady,2015-03-09 13:06:33,temporarily fixed double slash redirect issue,1373,tornado/web.py
+9a8a98e,Ben Darnell,2015-03-05 22:56:48,Merge pull request #1274 from daftshady/etag,1218
+c60d646,Ben Darnell,2015-03-04 23:25:59,Count SSL_ERROR_EOF as a kind of connection reset.,1362,tornado/iostream.py
+c60d646,Ben Darnell,2015-03-04 23:25:59,Count SSL_ERROR_EOF as a kind of connection reset.,1362,tornado/test/simple_httpclient_test.py
+733a0fa,Ben Darnell,2015-03-04 22:27:41,Fix raise_error=False in synchronous HTTPClient.,1351,tornado/httpclient.py
+b52bb5c,Ben Darnell,2015-03-04 22:23:24,Fix an error in autoreload on windows.,1360,tornado/autoreload.py
+f55a865,st4lk,2015-02-24 13:45:25,add pgettext to default template namespace,1349,tornado/web.py
+497245e,Ben Darnell,2015-02-21 17:55:29,Expand PeriodicCallback docs and testing.,1345,tornado/ioloop.py
+497245e,Ben Darnell,2015-02-21 17:55:29,Expand PeriodicCallback docs and testing.,1345,tornado/test/ioloop_test.py
+a12d531,Ben Darnell,2015-02-17 20:35:19,Bind options argument in define_logging_options.,1342,tornado/log.py
+d41d160,Ben Darnell,2015-02-15 12:12:25,Update ssl_options docs to use SSLContext.,1322,tornado/httpserver.py
+d41d160,Ben Darnell,2015-02-15 12:12:25,Update ssl_options docs to use SSLContext.,1322,tornado/httputil.py
+d41d160,Ben Darnell,2015-02-15 12:12:25,Update ssl_options docs to use SSLContext.,1322,tornado/iostream.py
+d41d160,Ben Darnell,2015-02-15 12:12:25,Update ssl_options docs to use SSLContext.,1322,tornado/netutil.py
+d41d160,Ben Darnell,2015-02-15 12:12:25,Update ssl_options docs to use SSLContext.,1322,tornado/tcpserver.py
+03c7ce3,Ben Darnell,2015-02-08 13:26:56,Allow unicode strings in import_object in python 2.,1316,tornado/test/util_test.py
+03c7ce3,Ben Darnell,2015-02-08 13:26:56,Allow unicode strings in import_object in python 2.,1316,tornado/util.py
+c34b4f7,Joseph,2015-02-06 10:29:13,some modifications in demos/benchmark so it can run both in py2 and py3,1327,demos/benchmark/benchmark.py
+c34b4f7,Joseph,2015-02-06 10:29:13,some modifications in demos/benchmark so it can run both in py2 and py3,1327,demos/benchmark/gen_benchmark.py
+c34b4f7,Joseph,2015-02-06 10:29:13,some modifications in demos/benchmark so it can run both in py2 and py3,1327,demos/benchmark/stack_context_benchmark.py
+c34b4f7,Joseph,2015-02-06 10:29:13,some modifications in demos/benchmark so it can run both in py2 and py3,1327,demos/benchmark/template_benchmark.py
+ac0c597,Craig Campbell,2015-02-03 16:05:01,Skip falsy values for SimpleCookie flags,1324,tornado/web.py
+a9da192,FreeAquar,2015-01-25 17:01:47,a wrong describle,1312
+bff8603,Ben Darnell,2015-01-24 17:14:20,Give curl_httpclient its own logger for its verbose debug output.,1093,tornado/curl_httpclient.py
+022c46c,Ben Darnell,2015-01-19 15:38:59,Introduce gen.sleep().,1146,tornado/gen.py
+022c46c,Ben Darnell,2015-01-19 15:38:59,Introduce gen.sleep().,1146,tornado/test/gen_test.py
+05c3073,Ben Darnell,2015-01-18 20:40:09,Call the WebSocketHandler.on_close method regardless of which side closed.,1173,tornado/test/websocket_test.py
+05c3073,Ben Darnell,2015-01-18 20:40:09,Call the WebSocketHandler.on_close method regardless of which side closed.,1173,tornado/websocket.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/autoreload.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/gen.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/httpclient.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/ioloop.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/iostream.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/netutil.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/platform/caresresolver.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/platform/twisted.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/process.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/tcpclient.py
+ab6b980,Ben Darnell,2015-01-18 13:13:41,"A new IOLoop is automatically ""current"" if there isn't already one.",1252,tornado/websocket.py
+59491e9,Ben Darnell,2015-01-18 12:07:54,Add a blanket try/except when parsing multipart form bodies.,1267,tornado/httputil.py
+6dc5dd9,Daiki Aminaka,2015-01-18 17:58:54,add is_running to get callback state,1303,tornado/ioloop.py
+a056967,Ben Darnell,2015-01-11 13:29:57,Fix regression in support for both CRLF and bare LF in headers.,1297,tornado/http1connection.py
+a056967,Ben Darnell,2015-01-11 13:29:57,Fix regression in support for both CRLF and bare LF in headers.,1297,tornado/test/httpserver_test.py
+88cfbc2,Ben Darnell,2015-01-11 12:40:51,Fix header parsing with unicode newline-like characters.,1291,tornado/httputil.py
+88cfbc2,Ben Darnell,2015-01-11 12:40:51,Fix header parsing with unicode newline-like characters.,1291,tornado/test/httputil_test.py
+7b82e98,Ben Darnell,2015-01-10 10:08:46,Merge pull request #1300 from arihantagarwal/arihant,1292
+e10e16f,Arihant Agarwal,2015-01-10 11:32:24,"Changed 'return' to 'raise gen.Return()' to fix Issue #1292, explanation added.",1292
+547b412,Nick Bargnesi,2014-12-05 01:37:45,swap platform.system() for sys.platform; #1263,1263,tornado/netutil.py
+2a20e2d,依云,2014-11-25 21:45:45,use the same protocol when redirecting to default host,1260,tornado/web.py
+b2f8f99,Tom Dyas,2014-06-23 14:21:46,http client: option to not raise errors,1258,tornado/httpclient.py
+b2f8f99,Tom Dyas,2014-06-23 14:21:46,http client: option to not raise errors,1258,tornado/test/httpclient_test.py
+a80d99d,Ben Darnell,2014-11-10 23:13:40,Fix typo in docs.,1247
+55d75e1,Ben Darnell,2014-11-08 13:01:01,"Add *args, **kw to WebSocketHandler.open.",1242,tornado/websocket.py
+09e7e2d,daftshady,2014-10-26 21:06:59,fixed error message in iostream,1231,tornado/iostream.py
+3a96794,Jonas Vetterick,2014-10-20 17:07:07,adding hint to supervisord minfds,1227
+c372a05,Ben Darnell,2014-10-11 22:13:15,Handle closed connections in WebSocketHandler.,1174,tornado/websocket.py
+86333d0,Ben Darnell,2014-10-11 22:05:31,Catch StreamClosedError in StaticFileHandler.,1208,tornado/web.py
+d572ea2,Ben Darnell,2014-10-05 15:43:05,Add a test for removing an IOLoop handler from another handler.,1214,tornado/test/ioloop_test.py
+542c8a5,Ben Darnell,2014-10-05 15:17:27,Clarify error messages about http request bodies.,1213,tornado/curl_httpclient.py
+542c8a5,Ben Darnell,2014-10-05 15:17:27,Clarify error messages about http request bodies.,1213,tornado/simple_httpclient.py
+542c8a5,Ben Darnell,2014-10-05 15:17:27,Clarify error messages about http request bodies.,1213,tornado/test/httpclient_test.py
+27d67a2,Ben Darnell,2014-10-05 15:01:11,Document the ability to pass lists of kv pairs to url-concat.,1216,tornado/httputil.py
+4ad3e1e,Ben Darnell,2014-09-21 12:25:11,curl_httpclient: run streaming and header callbacks on the IOLoop.,1188,tornado/curl_httpclient.py
+9e5430d,Ben Darnell,2014-09-21 12:06:00,Document Tornado's incompatibility with asyncio.ProactorEventLoop.,1201
+24c2f57,Ben Darnell,2014-09-14 23:55:59,Update example for HTTPClient exception handling.,1168,tornado/httpclient.py
+09bc982,Ben Darnell,2014-09-14 23:02:32,Handle multiple exceptions in AsyncTestCase.,1177,tornado/test/testing_test.py
+09bc982,Ben Darnell,2014-09-14 23:02:32,Handle multiple exceptions in AsyncTestCase.,1177,tornado/testing.py
+39fd0ee,Ben Darnell,2014-08-31 23:33:28,Fix an erroneous return of None in IOStream.connect.,1168,tornado/iostream.py
+c1a123a,Ben Darnell,2014-08-30 15:27:31,Fix a subtle reference cycle that can lead to increased memory consumption.,1165,tornado/gen.py
+15c82cb,Ben Darnell,2014-08-31 23:33:28,Fix an erroneous return of None in IOStream.connect.,1168,tornado/iostream.py
+0357565,Ben Darnell,2014-08-30 15:27:31,Fix a subtle reference cycle that can lead to increased memory consumption.,1165,tornado/gen.py
+d968973,Ben Darnell,2014-08-23 18:12:19,Fix a regression in gzip output for StaticFileHandler.,1156,tornado/test/web_test.py
+d968973,Ben Darnell,2014-08-23 18:12:19,Fix a regression in gzip output for StaticFileHandler.,1156,tornado/web.py
+7bf3b14,Ben Darnell,2014-08-19 23:01:28,Fix a regression in which a timeout could fire after being cancelled.,1148,tornado/ioloop.py
+7bf3b14,Ben Darnell,2014-08-19 23:01:28,Fix a regression in which a timeout could fire after being cancelled.,1148,tornado/test/ioloop_test.py
+7d3f710,Ben Darnell,2014-08-24 11:50:47,Remove the default facebook api key from the demo.,1132,demos/facebook/facebook.py
+e888473,Ben Darnell,2014-08-23 18:12:19,Fix a regression in gzip output for StaticFileHandler.,1156,tornado/test/web_test.py
+e888473,Ben Darnell,2014-08-23 18:12:19,Fix a regression in gzip output for StaticFileHandler.,1156,tornado/web.py
+6303359,Ben Darnell,2014-08-19 23:01:28,Fix a regression in which a timeout could fire after being cancelled.,1148,tornado/ioloop.py
+6303359,Ben Darnell,2014-08-19 23:01:28,Fix a regression in which a timeout could fire after being cancelled.,1148,tornado/test/ioloop_test.py
+afea02e,Ben Darnell,2014-08-12 08:51:27,Specify a non-zero port when testing localhost resolution.,1136,tornado/test/tcpclient_test.py
+5a7719e,Ben Darnell,2014-08-09 14:09:22,Fix an AttributeError in WebSocketClientConnection._on_close.,1140,tornado/websocket.py
+7550e8b,Ben Darnell,2014-07-17 23:33:34,Add missing return statements to call_at and call_later.,1119,tornado/ioloop.py
+7550e8b,Ben Darnell,2014-07-17 23:33:34,Add missing return statements to call_at and call_later.,1119,tornado/test/ioloop_test.py
+fd9b995,Ben Darnell,2014-07-16 20:23:42,Fall back to pure-python mode on any exception during the build.,1115,setup.py
+2026dba,Ben Darnell,2014-08-09 14:09:22,Fix an AttributeError in WebSocketClientConnection._on_close.,1140,tornado/websocket.py
+dbab792,Ben Darnell,2014-08-04 23:46:03,Fix a memory leak and test timeout in websockets.,1133,tornado/http1connection.py
+dbab792,Ben Darnell,2014-08-04 23:46:03,Fix a memory leak and test timeout in websockets.,1133,tornado/test/websocket_test.py
+dbab792,Ben Darnell,2014-08-04 23:46:03,Fix a memory leak and test timeout in websockets.,1133,tornado/testing.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,demos/websocket/chatdemo.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,maint/test/websocket/client.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,maint/test/websocket/server.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,tornado/httputil.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,tornado/test/websocket_test.py
+576c1c4,Ben Darnell,2014-07-27 01:26:11,Implement permessage-deflate websocket extension.,308,tornado/websocket.py
+b4aec6d,Tatiana Al-Chueyr,2014-07-24 12:30:22,Code cleanup with guided by @bdarnell at #1090,1090,tornado/test/httpclient_test.py
+3573f2a,Tatiana Al-Chueyr,2014-07-21 15:53:17,"Move patch test to httpclient_test, according to @bdarnell recommendation using httpclient_test.py instead of curl_httpclient_test.py so simple_httpclient_test.py is benefit from it as well #1090",1090,tornado/test/curl_httpclient_test.py
+3573f2a,Tatiana Al-Chueyr,2014-07-21 15:53:17,"Move patch test to httpclient_test, according to @bdarnell recommendation using httpclient_test.py instead of curl_httpclient_test.py so simple_httpclient_test.py is benefit from it as well #1090",1090,tornado/test/httpclient_test.py
+ca7ae5f,Tatiana Al-Chueyr,2014-07-21 15:28:41,Refactor: simplify patch test according to @bdarnell recommendations at #1090,1090,tornado/test/curl_httpclient_test.py
+a983616,Ben Darnell,2014-07-17 23:33:34,Add missing return statements to call_at and call_later.,1119,tornado/ioloop.py
+a983616,Ben Darnell,2014-07-17 23:33:34,Add missing return statements to call_at and call_later.,1119,tornado/test/ioloop_test.py
+13c02a3,Ben Darnell,2014-07-17 23:26:12,Add a default value to a getaddr() call in HTTPServerRequest.,1118,tornado/httputil.py
+13c02a3,Ben Darnell,2014-07-17 23:26:12,Add a default value to a getaddr() call in HTTPServerRequest.,1118,tornado/test/httputil_test.py
+58370bd,Ben Darnell,2014-07-16 20:23:42,Fall back to pure-python mode on any exception during the build.,1115,setup.py
+dba499c,Ben Darnell,2014-07-08 22:27:35,Merge remote-tracking branch 'tictail/branch3.2',1097
+a91b15c,Ben Darnell,2014-06-25 19:00:35,Merge pull request #1084 from ukoethe/master,1052
+fe6a3a8,Ullrich Koethe,2014-06-23 14:40:40,check for errno.WSA* on 64-bit Windows (fixes #1052),1052,tornado/iostream.py
+fe6a3a8,Ullrich Koethe,2014-06-23 14:40:40,check for errno.WSA* on 64-bit Windows (fixes #1052),1052,tornado/netutil.py
+fe6a3a8,Ullrich Koethe,2014-06-23 14:40:40,check for errno.WSA* on 64-bit Windows (fixes #1052),1052,tornado/test/iostream_test.py
+fe6a3a8,Ullrich Koethe,2014-06-23 14:40:40,check for errno.WSA* on 64-bit Windows (fixes #1052),1052,tornado/test/simple_httpclient_test.py
+596038c,Ben Darnell,2014-06-19 09:28:45,Add new exception tornado.web.Finish to quietly end a request.,1064,tornado/test/web_test.py
+596038c,Ben Darnell,2014-06-19 09:28:45,Add new exception tornado.web.Finish to quietly end a request.,1064,tornado/web.py
+2cec319,Ben Darnell,2014-06-18 10:29:28,Introduce IOLoop.call_later and call_at.,1049,tornado/ioloop.py
+2cec319,Ben Darnell,2014-06-18 10:29:28,Introduce IOLoop.call_later and call_at.,1049,tornado/platform/asyncio.py
+2cec319,Ben Darnell,2014-06-18 10:29:28,Introduce IOLoop.call_later and call_at.,1049,tornado/platform/twisted.py
+2cec319,Ben Darnell,2014-06-18 10:29:28,Introduce IOLoop.call_later and call_at.,1049,tornado/test/ioloop_test.py
+2cec319,Ben Darnell,2014-06-18 10:29:28,Introduce IOLoop.call_later and call_at.,1049,tornado/util.py
+8953e9b,Ben Darnell,2014-06-17 10:09:15,Fix a leak in AsyncHTTPClient shutdown.,1079,tornado/httpclient.py
+4e9de2e,Ben Darnell,2014-06-15 23:49:39,Introduce IOLoop.spawn_callback.,867,tornado/ioloop.py
+4e9de2e,Ben Darnell,2014-06-15 23:49:39,Introduce IOLoop.spawn_callback.,867,tornado/test/ioloop_test.py
+66b06d7,Ben Darnell,2014-06-15 23:35:02,Relax restrictions on HTTP methods in WebSocketHandler.,1065,tornado/test/websocket_test.py
+66b06d7,Ben Darnell,2014-06-15 23:35:02,Relax restrictions on HTTP methods in WebSocketHandler.,1065,tornado/websocket.py
+d100cdf,Ben Darnell,2014-06-15 13:36:10,Document that IOStream.connect blocks on DNS and recommend TCPClient instead.,861,tornado/iostream.py
+c1ba948,Ben Darnell,2014-06-15 12:39:38,Add clearer message for fetch() on closed AsyncHTTPClient.,866,tornado/curl_httpclient.py
+c1ba948,Ben Darnell,2014-06-15 12:39:38,Add clearer message for fetch() on closed AsyncHTTPClient.,866,tornado/httpclient.py
+ac05c50,Ben Darnell,2014-06-15 12:36:28,Document AsyncHTTPClient's defaults argument.,762,tornado/httpclient.py
+1591ade,Ben Darnell,2014-06-15 12:11:22,Improve callback scheduling.,947,tornado/ioloop.py
+7a0eda1,Ben Darnell,2014-06-15 11:52:34,"Remove async_callback wrapper functions, which have been obsolete since 1.1.",283,demos/blog/blog.py
+7a0eda1,Ben Darnell,2014-06-15 11:52:34,"Remove async_callback wrapper functions, which have been obsolete since 1.1.",283,tornado/web.py
+7a0eda1,Ben Darnell,2014-06-15 11:52:34,"Remove async_callback wrapper functions, which have been obsolete since 1.1.",283,tornado/websocket.py
+9fa52d7,Ben Darnell,2014-06-07 11:08:52,Broaden catch clause in extension building.,1074,setup.py
+6f46e70,Ben Darnell,2014-06-01 10:22:09,Merge pull request #1068 from patrickfuller/master,1067
+59fee55,Ben Darnell,2014-05-25 12:24:55,Improve performance of HEAD requests on large static files.,988,tornado/test/web_test.py
+59fee55,Ben Darnell,2014-05-25 12:24:55,Improve performance of HEAD requests on large static files.,988,tornado/web.py
+fa29f20,Ben Darnell,2014-05-25 11:39:12,Remove HTTP method check from HTTPServerRequest._parse_body.,1011,tornado/httputil.py
+518ecf8,Ben Darnell,2014-05-18 23:19:41,Make gen.Task a function returning a Future instead of a YieldPoint subclass.,1058,tornado/gen.py
+518ecf8,Ben Darnell,2014-05-18 23:19:41,Make gen.Task a function returning a Future instead of a YieldPoint subclass.,1058,tornado/test/gen_test.py
+ce62ed9,Ben Darnell,2014-05-18 21:57:27,Remove test_websocket_network_timeout.,1054,tornado/test/websocket_test.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,maint/test/appengine/common/cgi_runtests.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/iostream.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/netutil.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/platform/auto.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/process.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/simple_httpclient.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/tcpserver.py
+4b6fc9c,Ben Darnell,2014-05-17 10:56:35,Fix Tornado on Google App Engine.,1059,tornado/test/import_test.py
+3d87bf5,Ben Darnell,2014-04-27 23:20:16,Document @authenticated's behavior around query parameters.,998,tornado/web.py
+544887c,Ben Darnell,2014-04-26 17:07:41,Add client-side support for Expect: 100-continue.,100,tornado/http1connection.py
+544887c,Ben Darnell,2014-04-26 17:07:41,Add client-side support for Expect: 100-continue.,100,tornado/httpclient.py
+544887c,Ben Darnell,2014-04-26 17:07:41,Add client-side support for Expect: 100-continue.,100,tornado/simple_httpclient.py
+544887c,Ben Darnell,2014-04-26 17:07:41,Add client-side support for Expect: 100-continue.,100,tornado/test/simple_httpclient_test.py
+7335cc2,Ben Darnell,2014-04-18 22:16:55,Read less aggressively in IOStream.,772,tornado/iostream.py
+7335cc2,Ben Darnell,2014-04-18 22:16:55,Read less aggressively in IOStream.,772,tornado/test/iostream_test.py
+f9a44f0,daftshady,2014-04-09 02:50:36,fixed broken reference link,1029,tornado/platform/common.py
+3c66b6a,bdarnell,2014-04-08 08:04:37,Fix typo,1028,tornado/httpclient.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/concurrent_test.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/httpclient_test.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/ioloop_test.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/template_test.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/testing_test.py
+ccbe5a2,Akihiro Yamazaki,2014-03-27 09:37:29,put assertion outside of the exception handler,1023,tornado/test/util_test.py
+4ff47bb,Ben Darnell,2014-03-15 00:50:25,Update links for comments about json list output.,1009,tornado/web.py
+99474fe,Ben Darnell,2014-03-15 00:45:09,Refactor unittest/unittest2 imports to fix issues with unittest2 on py3.,1005,tornado/test/util.py
+99474fe,Ben Darnell,2014-03-15 00:45:09,Refactor unittest/unittest2 imports to fix issues with unittest2 on py3.,1005,tornado/testing.py
+d2226ff,Ben Darnell,2014-03-13 10:15:41,Improve simple_httpclient ssl configuration to pass howsmyssl.com.,1014,tornado/netutil.py
+d2226ff,Ben Darnell,2014-03-13 10:15:41,Improve simple_httpclient ssl configuration to pass howsmyssl.com.,1014,tornado/simple_httpclient.py
+f1f66d1,bdarnell,2014-03-10 22:32:17,Merge pull request #1008 from yaccz/fix/1007,1007
+a749b99,yac,2014-03-08 01:20:09,twisted can be installed without twisted.names fixes #1007,1007,tornado/test/netutil_test.py
+2dc57c5,Ben Darnell,2014-02-18 23:15:19,Document the fact that tornado.options configures logging by default.,952,tornado/log.py
+2dc57c5,Ben Darnell,2014-02-18 23:15:19,Document the fact that tornado.options configures logging by default.,952,tornado/options.py
+2dc57c5,Ben Darnell,2014-02-18 23:15:19,Document the fact that tornado.options configures logging by default.,952,tornado/test/log_test.py
+58d5ffc,Ben Darnell,2014-02-17 18:46:40,Add support for the websocket close status code and reason fields.,890,tornado/test/websocket_test.py
+58d5ffc,Ben Darnell,2014-02-17 18:46:40,Add support for the websocket close status code and reason fields.,890,tornado/websocket.py
+175da10,Ben Darnell,2014-02-16 23:59:17,"Compress all text/* content types, not just a whitelist.",982,tornado/web.py
+66a647d,Ben Darnell,2014-01-19 22:59:37,Return a Future from IOStream methods.,953,tornado/iostream.py
+66a647d,Ben Darnell,2014-01-19 22:59:37,Return a Future from IOStream methods.,953,tornado/test/iostream_test.py
+66a647d,Ben Darnell,2014-01-19 22:59:37,Return a Future from IOStream methods.,953,tornado/test/util_test.py
+66a647d,Ben Darnell,2014-01-19 22:59:37,Return a Future from IOStream methods.,953,tornado/util.py
+d29ab8a,daftshady,2014-01-20 22:33:38,removed unnecessary else statements,976,tornado/iostream.py
+35ae2c5,Ben Darnell,2014-01-18 16:42:06,Make tornado.netutil.add_accept_handler pass a fileobj to the IOLoop.,737,tornado/netutil.py
+35ae2c5,Ben Darnell,2014-01-18 16:42:06,Make tornado.netutil.add_accept_handler pass a fileobj to the IOLoop.,737,tornado/platform/asyncio.py
+35ae2c5,Ben Darnell,2014-01-18 16:42:06,Make tornado.netutil.add_accept_handler pass a fileobj to the IOLoop.,737,tornado/test/ioloop_test.py
+902e6a2,Ben Darnell,2014-01-06 18:19:57,Merge commit 'c2a25a',972
+7bb0535,bdarnell,2014-01-06 15:08:18,Merge pull request #971 from gmr/logging-patch,775
+6e287d8,Gavin M. Roy,2014-01-06 16:47:54,"Don't call logging.basicConfig if logging is already configured (#775). Will not call logging.basicConfig if there is a root logger, tornado logger or tornado.application logger.",775,tornado/ioloop.py
+6e287d8,Gavin M. Roy,2014-01-06 16:47:54,"Don't call logging.basicConfig if logging is already configured (#775). Will not call logging.basicConfig if there is a root logger, tornado logger or tornado.application logger.",775,tornado/test/ioloop_test.py
+f5d3b5d,Ben Darnell,2013-12-28 19:38:16,Add some markup to the old template intro docs.,967,tornado/template.py
+19bdb15,Ben Darnell,2013-12-01 15:07:16,Avoid a quote mark that renders incorrectly in PDF mode.,935
+cb653c5,Ben Darnell,2013-12-01 15:04:02,Document the attributes required by @run_on_executor.,933,tornado/concurrent.py
+6f56d1a,Ben Darnell,2013-11-06 14:57:31,Document the fact that WebSocketClientConnection should not be used directly.,929,tornado/websocket.py
+463d9ec,Ben Darnell,2013-11-06 14:16:01,Catch exceptions from parse_qs_bytes in POST bodies and log them.,921,tornado/httputil.py
+463d9ec,Ben Darnell,2013-11-06 14:16:01,Catch exceptions from parse_qs_bytes in POST bodies and log them.,921,tornado/test/httpserver_test.py
+4f276ca,bdarnell,2013-11-04 12:23:26,Merge pull request #928 from ajdavis/better-assertion-in-httpclient,927
+160adb0,Ben Darnell,2013-11-03 13:43:09,Change hard-coded SSL protocol version for Python 2.6 to TLSv1.,911,tornado/simple_httpclient.py
+d0cf31c,Ben Darnell,2013-11-03 13:22:17,Fix some cases where curl_httpclient options could leak to subsequent requests.,912,tornado/curl_httpclient.py
+d0cf31c,Ben Darnell,2013-11-03 13:22:17,Fix some cases where curl_httpclient options could leak to subsequent requests.,912,tornado/httpclient.py
+d6add0c,Meng Zhuo,2013-11-01 10:11:31,unify web.handlers,925,tornado/web.py
+689d9c8,Ben Darnell,2013-10-26 18:27:25,Check for the existence of sys.stderr.isatty before calling it.,920,tornado/log.py
+26cb426,Juraj Niznan,2013-09-04 15:36:00,possibility to disable autoreload when debug is on,896,tornado/autoreload.py
+26cb426,Juraj Niznan,2013-09-04 15:36:00,possibility to disable autoreload when debug is on,896,tornado/process.py
+26cb426,Juraj Niznan,2013-09-04 15:36:00,possibility to disable autoreload when debug is on,896,tornado/tcpserver.py
+26cb426,Juraj Niznan,2013-09-04 15:36:00,possibility to disable autoreload when debug is on,896,tornado/web.py
+8fa3bec,Ben Darnell,2013-09-22 12:50:19,Don't assume IP-style socket addresses in error messages.,900,tornado/httpserver.py
+8fa3bec,Ben Darnell,2013-09-22 12:50:19,Don't assume IP-style socket addresses in error messages.,900,tornado/test/httpserver_test.py
+684fda2,Ben Darnell,2013-09-07 21:15:59,Set Connection: keep-alive header directly without going through set_header.,897,tornado/web.py
+f4ad3b7,Ben Darnell,2013-08-24 22:06:00,Check for empty strings and zero bytes in is_valid_ip.,893,tornado/netutil.py
+f4ad3b7,Ben Darnell,2013-08-24 22:06:00,Check for empty strings and zero bytes in is_valid_ip.,893,tornado/test/netutil_test.py
+8e7effd,Ben Darnell,2013-08-18 23:54:59,"In add_callback, hold the lock while writing to the waker pipe.",875,tornado/ioloop.py
+6ec711c,Ben Darnell,2013-08-18 19:24:14,Add a distinct exception for writing a WebSocket message on a closed connection.,879,tornado/websocket.py
+fdbebac,Ben Darnell,2013-08-18 19:20:48,Document the fact that the {% module %} directive requires a RequestHandler.,880,tornado/template.py
+e03e826,Ben Darnell,2013-08-18 19:12:07,Document Windows support (or lack thereof).,871
+1037f08,Ben Darnell,2013-08-04 18:35:50,Less crude fix for #855: only do anything for already-connected sockets.,855,tornado/iostream.py
+62d8f12,Ben Darnell,2013-08-04 18:33:37,Merge remote-tracking branch 'pitrou/issue855-ssl-auto-handshake',855
+f2e2367,Ben Darnell,2013-08-04 18:08:01,Clear the IOStream buffers on close even when there is no close callback.,828,tornado/iostream.py
+0f03204,Antoine Pitrou,2013-07-17 15:09:05,Crude fix for issue #855: automatically initiate SSL handshake in SSLIOStream. Perhaps this should be exposed as an option instead?,855,tornado/iostream.py
+0f03204,Antoine Pitrou,2013-07-17 15:09:05,Crude fix for issue #855: automatically initiate SSL handshake in SSLIOStream. Perhaps this should be exposed as an option instead?,855,tornado/test/iostream_test.py
+c439962,Ben Darnell,2013-07-07 13:38:08,Clear the write buffer when an IOStream is closed.,828,tornado/iostream.py
+a33d48d,Ben Darnell,2013-07-07 13:30:00,Unify lists of errnos used in IOStream.,828,tornado/iostream.py
+4851494,Ben Darnell,2013-07-07 12:13:52,Clear the loop variable in addition to the callback list.,844,tornado/ioloop.py
+a5ab2db,Ben Darnell,2013-07-05 12:57:03,Clear local variables in IOLoop to allow GC before we start polling.,836,tornado/ioloop.py
+c82e97f,Ben Darnell,2013-07-05 12:53:37,Close pipe file descriptors if subprocess.Popen fails.,834,tornado/process.py
+5f2c3b3,Ben Darnell,2013-07-05 12:46:49,Add apostrophes to xhtml_escape.,833,tornado/escape.py
+5f2c3b3,Ben Darnell,2013-07-05 12:46:49,Add apostrophes to xhtml_escape.,833,tornado/test/escape_test.py
+99c911f,bdarnell,2013-06-30 16:38:44,Merge pull request #831 from erkyrath/master,829
+50d7a19,Andrew Plotkin,2013-06-22 14:03:50,Fix issue 829 -- error message is displaying wrong incorrect result.,829,tornado/web.py
+60693e0,Ben Darnell,2013-06-05 21:43:16,Catch StreamClosedErrors in WebSocketHandler and abort.,604,tornado/test/websocket_test.py
+60693e0,Ben Darnell,2013-06-05 21:43:16,Catch StreamClosedErrors in WebSocketHandler and abort.,604,tornado/websocket.py
+64d8b86,Ben Darnell,2013-05-31 21:49:08,Update twitter base urls to use api 1.1 and HTTPS.,809,tornado/auth.py
+85ff9eb,Ben Darnell,2013-05-31 22:27:02,Get the current user's twitter information with /account/verify_credentials.,51,tornado/auth.py
+5d131ca,Ben Darnell,2013-05-31 21:49:08,Update twitter base urls to use api 1.1 and HTTPS.,809,tornado/auth.py
+fd4d899,Ben Darnell,2013-05-31 19:30:37,Remove logging of uncaught exceptions from SimpleAsyncHTTPClient.,815,tornado/simple_httpclient.py
+fd4d899,Ben Darnell,2013-05-31 19:30:37,Remove logging of uncaught exceptions from SimpleAsyncHTTPClient.,815,tornado/test/simple_httpclient_test.py
+7e5d58b,Ben Darnell,2013-05-27 15:19:04,Add an overridable attribute FacebookGraphMixin._FACEBOOK_BASE_URL.,241,tornado/auth.py
+7b03cd6,Ben Darnell,2013-05-25 18:20:01,Avoid references to self.settings in StaticFileHandler instance methods.,796,tornado/test/web_test.py
+7b03cd6,Ben Darnell,2013-05-25 18:20:01,Avoid references to self.settings in StaticFileHandler instance methods.,796,tornado/web.py
+94198fa,Ben Darnell,2013-05-25 15:26:37,Use remove and add instead of update_handler in curl_httpclient.,801,tornado/curl_httpclient.py
+d2e57a3,Ben Darnell,2013-05-24 00:41:23,Revert change to use time.strftime (from 3.0).,800,tornado/httputil.py
+d2e57a3,Ben Darnell,2013-05-24 00:41:23,Revert change to use time.strftime (from 3.0).,800,tornado/test/runtests.py
+d2e57a3,Ben Darnell,2013-05-24 00:41:23,Revert change to use time.strftime (from 3.0).,800,tornado/test/web_test.py
+d2e57a3,Ben Darnell,2013-05-24 00:41:23,Revert change to use time.strftime (from 3.0).,800,tornado/web.py
+a9c94f3,Ben Darnell,2013-05-23 23:57:30,Backport changes from ssl.match_hostname in Python 3.3.,799,tornado/netutil.py
+0c238d6,Ben Darnell,2013-05-19 14:23:17,Read static files in 64-KB chunks.,526,tornado/web.py
+2d683cd,Ben Darnell,2013-05-18 16:34:10,Add PATCH and OPTIONS support by default to curl_httpclient.,792,tornado/curl_httpclient.py
+2d683cd,Ben Darnell,2013-05-18 16:34:10,Add PATCH and OPTIONS support by default to curl_httpclient.,792,tornado/test/httpclient_test.py
+2d683cd,Ben Darnell,2013-05-18 16:34:10,Add PATCH and OPTIONS support by default to curl_httpclient.,792,tornado/test/web_test.py
+4791695,Ben Darnell,2013-05-18 16:03:45,Remove redundant call to find_named_blocks in template processing.,791,tornado/template.py
+66b5db0,cloudaice,2013-05-16 10:54:37,fixed bug when raise error in options,788,tornado/options.py
+34a2858,Ben Darnell,2013-05-15 21:44:34,Add a missing stack_context.wrap in SSLIOStream.connect.,787,tornado/iostream.py
+34a2858,Ben Darnell,2013-05-15 21:44:34,Add a missing stack_context.wrap in SSLIOStream.connect.,787,tornado/test/simple_httpclient_test.py
+582106b,Ben Darnell,2013-05-13 00:08:04,Remove whitespace/control-character check from RequestHandler.redirect.,617,tornado/web.py
+a6d158f,Ben Darnell,2013-05-12 23:32:24,Clean up cancelled timeout handles when the queue gets full of them.,408,tornado/ioloop.py
+a6d158f,Ben Darnell,2013-05-12 23:32:24,Clean up cancelled timeout handles when the queue gets full of them.,408,tornado/test/ioloop_test.py
+6b8a38f,Ben Darnell,2013-05-12 20:26:44,Respect HTTPServer's no_keep_alive option in RequestHandler.clear.,31,tornado/web.py
+ca8495d,Ben Darnell,2013-05-12 19:34:12,"Allow prepare to be asynchronous, and detect coroutines by their result.",605,tornado/test/gen_test.py
+ca8495d,Ben Darnell,2013-05-12 19:34:12,"Allow prepare to be asynchronous, and detect coroutines by their result.",605,tornado/web.py
+5c47e5d,Ben Darnell,2013-05-12 19:32:20,Don't try sending another error response in _handle_request_exception if the stack context catches an error after the request is done.,751,tornado/test/web_test.py
+5c47e5d,Ben Darnell,2013-05-12 19:32:20,Don't try sending another error response in _handle_request_exception if the stack context catches an error after the request is done.,751,tornado/web.py
+47ab0ce,Ben Darnell,2013-05-12 16:24:19,Check for ECONNRESET in addition to EPIPE on send().,757,tornado/iostream.py
+7056d6f,Ben Darnell,2013-05-12 15:48:52,"Add a 'plus' argument to url_{un,}escape, defaulting to True.",25,tornado/escape.py
+7056d6f,Ben Darnell,2013-05-12 15:48:52,"Add a 'plus' argument to url_{un,}escape, defaulting to True.",25,tornado/test/escape_test.py
+4dee915,Ben Darnell,2013-05-12 12:47:27,Add a distinct MissingArgumentError class for get_argument.,782,tornado/test/web_test.py
+4dee915,Ben Darnell,2013-05-12 12:47:27,Add a distinct MissingArgumentError class for get_argument.,782,tornado/web.py
+fb4a1c4,keakon,2013-05-08 11:44:12,add missing parameter doc,780,tornado/httpclient.py
+1b4556f,Ben Darnell,2013-05-04 00:13:53,Add overrideable method RequestHandler.log_exception.,730,tornado/test/web_test.py
+1b4556f,Ben Darnell,2013-05-04 00:13:53,Add overrideable method RequestHandler.log_exception.,730,tornado/web.py
+c633aa5,Ben Darnell,2013-04-30 23:01:54,Fix another case in which streaming read_until_close passed data to the final callback.,774,tornado/iostream.py
+c633aa5,Ben Darnell,2013-04-30 23:01:54,Fix another case in which streaming read_until_close passed data to the final callback.,774,tornado/test/iostream_test.py
+12780c1,Ben Darnell,2013-04-28 23:25:23,Fix a memory leak in HTTPServer with very large file uploads.,740,tornado/httpserver.py
+1a1b049,Ben Darnell,2013-04-28 18:31:57,"Prefix all ""reserved"" names used by the template system with _tt_ to avoid collisions with user-defined names.",768,tornado/template.py
+1a1b049,Ben Darnell,2013-04-28 18:31:57,"Prefix all ""reserved"" names used by the template system with _tt_ to avoid collisions with user-defined names.",768,tornado/test/template_test.py
+1a1b049,Ben Darnell,2013-04-28 18:31:57,"Prefix all ""reserved"" names used by the template system with _tt_ to avoid collisions with user-defined names.",768,tornado/web.py
+520b02f,Ben Darnell,2013-04-28 12:17:00,Fix resolver implementation on Solaris.,766,tornado/netutil.py
+0bb4d9b,Ben Darnell,2013-04-27 22:54:55,Catch additional errors to prevent warnings logged when connections are closed immediately after opening.,750,tornado/iostream.py
+0bb4d9b,Ben Darnell,2013-04-27 22:54:55,Catch additional errors to prevent warnings logged when connections are closed immediately after opening.,750,tornado/netutil.py
+0bb4d9b,Ben Darnell,2013-04-27 22:54:55,Catch additional errors to prevent warnings logged when connections are closed immediately after opening.,750,tornado/tcpserver.py
+5491685,Ben Darnell,2013-04-23 23:17:24,Don't try to run HTTPConnection._close_callback if it is None.,751,tornado/httpserver.py
+e4bba5c,Ben Darnell,2013-04-18 10:40:20,Expand docs for @asynchronous decorator and other cleanups.,742,tornado/gen.py
+e4bba5c,Ben Darnell,2013-04-18 10:40:20,Expand docs for @asynchronous decorator and other cleanups.,742,tornado/testing.py
+e4bba5c,Ben Darnell,2013-04-18 10:40:20,Expand docs for @asynchronous decorator and other cleanups.,742,tornado/web.py
+2744f37,Ben Darnell,2013-04-14 15:58:02,Break up a reference cycle with RequestHandler.ui when handler exits cleanly.,383,tornado/web.py
+3e4b4ca,Ben Darnell,2013-04-14 15:42:24,Break reference cycle between WebSocketHandler and WebSocketProtocol on close.,382,tornado/websocket.py
+6e00a75,Ben Darnell,2013-04-14 15:31:50,"Always send oauth_version=1.0, even when using 1.0a.",236,tornado/auth.py
+6e00a75,Ben Darnell,2013-04-14 15:31:50,"Always send oauth_version=1.0, even when using 1.0a.",236,tornado/test/auth_test.py
+8ca13ef,Ben Darnell,2013-04-13 20:35:24,Handle malformed headers more gracefully.,699,tornado/httpserver.py
+8ca13ef,Ben Darnell,2013-04-13 20:35:24,Handle malformed headers more gracefully.,699,tornado/test/httpserver_test.py
+d2457ec,Ben Darnell,2013-04-13 18:15:49,Parse if-modified-since timestamps without going through time_t or local time.,713,tornado/test/web_test.py
+d2457ec,Ben Darnell,2013-04-13 18:15:49,Parse if-modified-since timestamps without going through time_t or local time.,713,tornado/web.py
+4059df2,Ben Darnell,2013-04-13 17:20:07,Ignore negative return values from CurlMulti.timeout.,712,tornado/curl_httpclient.py
+74c6075,Ben Darnell,2013-04-13 16:39:58,Fix escaping error in blog demo,726
+6e63b23,Ben Darnell,2013-04-08 21:47:35,"HTTPResponse.request should always be an HTTPRequest, never a _RequestProxy.",718,tornado/httpclient.py
+6e63b23,Ben Darnell,2013-04-08 21:47:35,"HTTPResponse.request should always be an HTTPRequest, never a _RequestProxy.",718,tornado/test/httpclient_test.py
+218ec03,Ben Darnell,2013-04-02 20:29:34,Fix precedence of StringIO imports for LogTrapTestCase.,708,tornado/testing.py
+dd388bf,Ben Darnell,2013-03-27 22:55:04,Fix options.parse_config_file on Python 3.,702,setup.py
+dd388bf,Ben Darnell,2013-03-27 22:55:04,Fix options.parse_config_file on Python 3.,702,tornado/options.py
+dd388bf,Ben Darnell,2013-03-27 22:55:04,Fix options.parse_config_file on Python 3.,702,tornado/test/options_test.py
+e8bc6af,icaromedeiros,2013-03-22 11:24:49,digest authentication,700,tornado/curl_httpclient.py
+e8bc6af,icaromedeiros,2013-03-22 11:24:49,digest authentication,700,tornado/httpclient.py
+1dad281,yushengjun,2013-03-11 10:54:05,update the statement of testing if a handler is a list or tuple,693,tornado/web.py
+73c0aee,Ben Darnell,2013-03-05 21:53:40,Use _try_inline_read instead of _read_from_buffer in read_until_close.,686,tornado/iostream.py
+7b7c427,Ben Darnell,2013-02-16 11:07:23,Use xrange instead of range on python 2.,681,tornado/websocket.py
+9bf6dd1,Ben Darnell,2013-02-15 20:30:50,s/xrange/range/ for python 3.,681,tornado/websocket.py
+534c556,Ben Darnell,2013-02-09 15:52:47,Make LogTrapTestCase fail more gracefully in unknown logging configurations.,674,tornado/testing.py
+e20d2f6,Ben Darnell,2013-02-09 12:55:06,Escape non-ascii bytes in tracebacks line-by-line instead of all at once.,675,tornado/log.py
+e20d2f6,Ben Darnell,2013-02-09 12:55:06,Escape non-ascii bytes in tracebacks line-by-line instead of all at once.,675,tornado/test/log_test.py
+280c286,Ben Darnell,2013-02-08 20:14:13,Clarify docstring of IOLoop.stop.,672,tornado/ioloop.py
+84a6ff0,Ben Darnell,2013-02-08 19:40:27,Merge commit 'e3f8aa' from heynemann/master,677
+f6f78cb,Ben Darnell,2013-02-08 19:21:10,Handle non-ascii data in logged exceptions like in the main message.,675,tornado/log.py
+f6f78cb,Ben Darnell,2013-02-08 19:21:10,Handle non-ascii data in logged exceptions like in the main message.,675,tornado/test/log_test.py
+172e095,Ben Darnell,2013-02-05 20:00:17,Switch one last test from get_unused_port to bind_unused_port.,676,tornado/test/concurrent_test.py
+769bc52,Ben Darnell,2013-01-20 11:39:18,"Fix memory leak with gen.engine, RequestHandler.flush, and closed connections.",660,tornado/httpserver.py
+769bc52,Ben Darnell,2013-01-20 11:39:18,"Fix memory leak with gen.engine, RequestHandler.flush, and closed connections.",660,tornado/iostream.py
+769bc52,Ben Darnell,2013-01-20 11:39:18,"Fix memory leak with gen.engine, RequestHandler.flush, and closed connections.",660,tornado/web.py
+1532914,Ben Darnell,2013-01-19 17:05:32,Save the address family when an HTTPConnection is created.,656,tornado/httpserver.py
+51703de,Ben Darnell,2012-12-22 11:49:35,Merge remote-tracking branch 'ajdavis/issue-651',651
+24c3d41,A. Jesse Jiryu Davis,2012-12-11 11:45:21,"Avoid setting IOStream.error to wrong exception, close #651",651,tornado/iostream.py
+24c3d41,A. Jesse Jiryu Davis,2012-12-11 11:45:21,"Avoid setting IOStream.error to wrong exception, close #651",651,tornado/test/iostream_test.py
+6d9407f,Ben Darnell,2012-12-08 18:37:45,Run AsyncHTTPClient callbacks on the IOLoop for a clean stack.,652,tornado/simple_httpclient.py
+6d9407f,Ben Darnell,2012-12-08 18:37:45,Run AsyncHTTPClient callbacks on the IOLoop for a clean stack.,652,tornado/test/httpclient_test.py
+69ead02,Ben Darnell,2012-12-02 12:33:51,Return a Vary: Accept-Encoding header whenever gzip is enabled.,578,maint/test/redbot/red_test.py
+69ead02,Ben Darnell,2012-12-02 12:33:51,Return a Vary: Accept-Encoding header whenever gzip is enabled.,578,tornado/test/web_test.py
+69ead02,Ben Darnell,2012-12-02 12:33:51,Return a Vary: Accept-Encoding header whenever gzip is enabled.,578,tornado/web.py
+eea63fc,Ben Darnell,2012-12-01 21:27:34,Document the use of self.xsrf_token to set the cookie for ajax-only apps.,645
+e25b753,Ben Darnell,2012-12-01 18:17:07,Document the need to pass Connection: close when using no_keep_alive.,641,tornado/httpserver.py
+8c5ad60,Ben Darnell,2012-11-26 21:46:16,Doc cleanups.,644,tornado/httpclient.py
+8c5ad60,Ben Darnell,2012-11-26 21:46:16,Doc cleanups.,644,tornado/template.py
+8c5ad60,Ben Darnell,2012-11-26 21:46:16,Doc cleanups.,644,website/sphinx/conf.py
+12c4e9f,Ben Darnell,2012-11-25 12:01:14,ErrorHandler no longer requires XSRF tokens.,638,tornado/test/web_test.py
+12c4e9f,Ben Darnell,2012-11-25 12:01:14,ErrorHandler no longer requires XSRF tokens.,638,tornado/web.py
+5f4d98c,Ben Darnell,2012-11-25 11:26:13,Accept Content-Length headers in 304 responses.,639,tornado/simple_httpclient.py
+5f4d98c,Ben Darnell,2012-11-25 11:26:13,Accept Content-Length headers in 304 responses.,639,tornado/test/httpclient_test.py
+c113ac1,Ben Darnell,2012-11-17 15:15:31,Fix TwitterMixin on Python 3.,634,tornado/auth.py
+c113ac1,Ben Darnell,2012-11-17 15:15:31,Fix TwitterMixin on Python 3.,634,tornado/test/auth_test.py
+26078cd,Ben Darnell,2012-11-18 21:35:36,Remove redundant logging of read errors in IOStream.,632,tornado/iostream.py
+26078cd,Ben Darnell,2012-11-18 21:35:36,Remove redundant logging of read errors in IOStream.,632,tornado/test/iostream_test.py
+1a5b337,Ben Darnell,2012-11-18 19:29:18,Allow default HTTPRequest attributes to be set globally via configure.,379,tornado/curl_httpclient.py
+1a5b337,Ben Darnell,2012-11-18 19:29:18,Allow default HTTPRequest attributes to be set globally via configure.,379,tornado/httpclient.py
+1a5b337,Ben Darnell,2012-11-18 19:29:18,Allow default HTTPRequest attributes to be set globally via configure.,379,tornado/simple_httpclient.py
+1a5b337,Ben Darnell,2012-11-18 19:29:18,Allow default HTTPRequest attributes to be set globally via configure.,379,tornado/test/httpclient_test.py
+1a5b337,Ben Darnell,2012-11-18 19:29:18,Allow default HTTPRequest attributes to be set globally via configure.,379,tornado/test/httpserver_test.py
+65d27e5,Ben Darnell,2012-11-18 12:25:13,Make header_callback behavior consistent across both HTTP clients.,637,tornado/httpclient.py
+65d27e5,Ben Darnell,2012-11-18 12:25:13,Make header_callback behavior consistent across both HTTP clients.,637,tornado/simple_httpclient.py
+65d27e5,Ben Darnell,2012-11-18 12:25:13,Make header_callback behavior consistent across both HTTP clients.,637,tornado/test/curl_httpclient_test.py
+65d27e5,Ben Darnell,2012-11-18 12:25:13,Make header_callback behavior consistent across both HTTP clients.,637,tornado/test/httpclient_test.py
+b724652,Ben Darnell,2012-11-17 15:44:21,Ensure that add_callback fails cleanly if called while IOLoop is closing.,635,tornado/ioloop.py
+b724652,Ben Darnell,2012-11-17 15:44:21,Ensure that add_callback fails cleanly if called while IOLoop is closing.,635,tornado/test/ioloop_test.py
+e7485f8,Ben Darnell,2012-11-17 15:15:31,Fix TwitterMixin on Python 3.,634,tornado/auth.py
+e7485f8,Ben Darnell,2012-11-17 15:15:31,Fix TwitterMixin on Python 3.,634,tornado/test/auth_test.py
+ff343ae,Ben Darnell,2012-10-31 22:53:08,simple_httpclient: Treat 302 like 303.,623,tornado/simple_httpclient.py
+ff343ae,Ben Darnell,2012-10-31 22:53:08,simple_httpclient: Treat 302 like 303.,623,tornado/test/simple_httpclient_test.py
+db843a5,Ben Darnell,2012-10-18 21:20:53,Add a comment to runtests.sh about python 3.,612
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/curl_httpclient.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/ioloop.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/platform/auto.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/platform/twisted.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/simple_httpclient.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/test/ioloop_test.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/test/iostream_test.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/test/runtests.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/test/testing_test.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/testing.py
+20deb5c,Ben Darnell,2012-09-30 23:57:49,"Add time_func parameter to IOLoop, and make it possible to use time.monotonic.",558,tornado/websocket.py
+e5805a9,Ben Darnell,2012-09-24 00:21:38,Apply my own suggested changes from pull request #555.,555,tornado/httpclient.py
+e5805a9,Ben Darnell,2012-09-24 00:21:38,Apply my own suggested changes from pull request #555.,555,tornado/web.py
+e5805a9,Ben Darnell,2012-09-24 00:21:38,Apply my own suggested changes from pull request #555.,555,tornado/wsgi.py
+4044f96,Ben Darnell,2012-09-16 13:01:16,Mention HTTPError explicitly in the write_error docs.,594,tornado/web.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/httpclient_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/ioloop_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/iostream_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/process_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/simple_httpclient_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/test/twisted_test.py
+9541423,Ben Darnell,2012-09-10 09:53:08,"Replace get_unused_port with bind_unused_port, which binds to port 0 to allow the OS to select a port for us.",590,tornado/testing.py
+f1ae398,Ben Darnell,2012-09-09 20:52:13,Merge commit 'ebf17aa',585
+54d91d5,Ben Darnell,2012-08-26 18:03:12,Fix template errors with empty blocks.,546,tornado/template.py
+54d91d5,Ben Darnell,2012-08-26 18:03:12,Fix template errors with empty blocks.,546,tornado/test/template_test.py
+30bc233,Ben Darnell,2012-08-26 16:45:35,Make the openid claimed_id available in OpenIDMixin,568,tornado/auth.py
+4386f1b,Ben Darnell,2012-08-26 16:23:30,Make authdemo's logout less confusing.,376,demos/auth/authdemo.py
+0e6540b,Ben Darnell,2012-08-19 19:02:56,"When closing an HTTPConnection, also clear a circular reference to self.",586,tornado/httpserver.py
+302c503,Ben Darnell,2012-08-19 12:16:15,Allow calls to SSLIOStream.write while the connection is in progress.,587,tornado/iostream.py
+302c503,Ben Darnell,2012-08-19 12:16:15,Allow calls to SSLIOStream.write while the connection is in progress.,587,tornado/test/iostream_test.py
+ec49816,Ben Darnell,2012-08-11 17:51:27,Fix str/bytes problems in the auth module on python 3.,581,tornado/auth.py
+ec49816,Ben Darnell,2012-08-11 17:51:27,Fix str/bytes problems in the auth module on python 3.,581,tornado/test/options_test.py
+ec49816,Ben Darnell,2012-08-11 17:51:27,Fix str/bytes problems in the auth module on python 3.,581,tornado/test/runtests.py
+ec49816,Ben Darnell,2012-08-11 17:51:27,Fix str/bytes problems in the auth module on python 3.,581,tornado/test/web_test.py
+121604b,Roey Berman,2012-07-31 17:43:12,simple_httpclient: ignore 1xx headers,575,tornado/simple_httpclient.py
+121604b,Roey Berman,2012-07-31 17:43:12,simple_httpclient: ignore 1xx headers,575,tornado/test/simple_httpclient_test.py
+5edd8da,Roey Berman,2012-07-12 19:57:38,Fixed and added regression test for a bug that was introduced in 2.3 where the IOStream._close_callback would never be called if there were pending reads.,561,tornado/iostream.py
+5edd8da,Roey Berman,2012-07-12 19:57:38,Fixed and added regression test for a bug that was introduced in 2.3 where the IOStream._close_callback would never be called if there were pending reads.,561,tornado/test/iostream_test.py
+4e152b5,MinRK,2012-06-27 21:08:12,set SO_EXCLUSIVEADDRUSER on Windows instead of SO_REUSEADDR,550,tornado/netutil.py
+83b3882,Ben Darnell,2012-06-27 00:02:58,Fix (and test and document) logging on py2 with non-ascii bytestrings.,544,tornado/options.py
+83b3882,Ben Darnell,2012-06-27 00:02:58,Fix (and test and document) logging on py2 with non-ascii bytestrings.,544,tornado/test/options_test.py
+aff6834,Andrej A Antonov,2012-06-27 05:18:54,fixed the bug that tornado.stack_context.wrap restricts kwargs for function,548,tornado/stack_context.py
+ef9df4d,Ben Darnell,2012-06-24 18:41:11,"Encourage ""python -m tornado.test.runtests"" as the way to run the tests.",545,tornado/test/run_pyversion_tests.py
+ef9df4d,Ben Darnell,2012-06-24 18:41:11,"Encourage ""python -m tornado.test.runtests"" as the way to run the tests.",545,tornado/test/runtests.py
+ef9df4d,Ben Darnell,2012-06-24 18:41:11,"Encourage ""python -m tornado.test.runtests"" as the way to run the tests.",545,tornado/testing.py
+fb5a62d,Ben Darnell,2012-06-14 00:28:15,Ignore ImportWarnings in tests.,524,tornado/test/runtests.py
+f48578c,Ben Darnell,2012-06-13 23:08:06,Better way to force a getaddrinfo error.,534,tornado/test/iostream_test.py
+6b75758,sergey aleksandrov,2012-06-08 09:16:21,python3k to_unicode fix in locale.load_translations,532,tornado/locale.py
+5e51419,Ben Darnell,2012-05-27 18:37:10,Remove use of string exceptions in gen_test.,520,tornado/test/gen_test.py
+3309419,Ben Darnell,2012-05-27 15:04:03,IOStreams now save the exception object that caused them to close.,494,tornado/iostream.py
+3309419,Ben Darnell,2012-05-27 15:04:03,IOStreams now save the exception object that caused them to close.,494,tornado/test/iostream_test.py
+f41306d,Ben Darnell,2012-05-26 10:54:34,Override dict.copy in HTTPHeaders to return the correct type.,519,tornado/httputil.py
+b8e4466,Andrew Grigorev,2012-05-24 16:53:51,Split large chunks of data in IOStream.write.,515,tornado/iostream.py
+e101397,Ben Darnell,2012-05-20 23:03:53,Ignore any data after the final multipart boundary.,489,tornado/httputil.py
+e101397,Ben Darnell,2012-05-20 23:03:53,Ignore any data after the final multipart boundary.,489,tornado/test/httputil_test.py
+57a3f83,Ben Darnell,2012-05-20 22:08:59,Prevent leak of StackContexts in repeated gen.engine functions.,507,tornado/gen.py
+57a3f83,Ben Darnell,2012-05-20 22:08:59,Prevent leak of StackContexts in repeated gen.engine functions.,507,tornado/stack_context.py
+57a3f83,Ben Darnell,2012-05-20 22:08:59,Prevent leak of StackContexts in repeated gen.engine functions.,507,tornado/test/gen_test.py
+57a3f83,Ben Darnell,2012-05-20 22:08:59,Prevent leak of StackContexts in repeated gen.engine functions.,507,tornado/test/stack_context_test.py
+e4ee470,Ben Darnell,2012-05-20 16:54:16,Merge remote-tracking branch 'jjwchoy/master',506
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/stack_context.py
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/test/runtests.py
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/test/util_test.py
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/testing.py
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/util.py
+a9443b7,Ben Darnell,2012-05-10 23:26:34,"Replace all occurrences of 3-argument raise statements with the version from testing.py, which works better with 2to3.",508,tornado/web.py
+25f4990,Ben Darnell,2012-05-09 21:57:44,Fix path parsing in HTTPServer.,509,tornado/httpserver.py
+25f4990,Ben Darnell,2012-05-09 21:57:44,Fix path parsing in HTTPServer.,509,tornado/test/httpserver_test.py
+28590fc,Ben Darnell,2012-05-07 00:18:55,Fix handling of non-ascii data in reverse_url.,490,tornado/test/web_test.py
+28590fc,Ben Darnell,2012-05-07 00:18:55,Fix handling of non-ascii data in reverse_url.,490,tornado/web.py
+6dbce93,Ben Darnell,2012-05-06 18:10:13,Fix bug when max_clients kwarg is passed to AsyncHTTPClient.configure.,493,tornado/httpclient.py
+6dbce93,Ben Darnell,2012-05-06 18:10:13,Fix bug when max_clients kwarg is passed to AsyncHTTPClient.configure.,493,tornado/test/simple_httpclient_test.py
+f5012b4,Ben Darnell,2012-05-06 17:29:02,Document and test for type differences between get_cookie and get_secure_cookie.,501,tornado/test/web_test.py
+f5012b4,Ben Darnell,2012-05-06 17:29:02,Document and test for type differences between get_cookie and get_secure_cookie.,501,tornado/web.py
+4786090,Mike Koss,2012-04-25 17:34:26,fix bug setting options programatically,498,tornado/options.py
+15798a1,Ben Darnell,2012-01-31 00:34:12,Cherry-pick b151a1ee967 into branch2.2.,450,tornado/options.py
+351c322,Ben Darnell,2012-04-18 22:22:06,The RequestHandler.flush callback should be run even if there is no data.,492,tornado/iostream.py
+351c322,Ben Darnell,2012-04-18 22:22:06,The RequestHandler.flush callback should be run even if there is no data.,492,tornado/test/web_test.py
+351c322,Ben Darnell,2012-04-18 22:22:06,The RequestHandler.flush callback should be run even if there is no data.,492,tornado/web.py
+e4e85da,Mike Koss,2012-02-13 14:17:11,pretty up --help formatting,461,tornado/options.py
+38908bf,Ben Darnell,2012-04-01 14:41:47,Make tornado.database importable when MySQLdb is not available.,485,tornado/database.py
+68449f0,Waldecir Loureiro dos Santos Filho,2012-03-21 16:56:30,"we dont need post_args in url, post_args will be sended in http body.",482,tornado/auth.py
+2f35821,Ben Darnell,2012-03-05 21:38:47,Avoid modifying the headers object passed in by the client.,459,tornado/httputil.py
+2f35821,Ben Darnell,2012-03-05 21:38:47,Avoid modifying the headers object passed in by the client.,459,tornado/simple_httpclient.py
+2f35821,Ben Darnell,2012-03-05 21:38:47,Avoid modifying the headers object passed in by the client.,459,tornado/test/simple_httpclient_test.py
+94dc4c7,Ben Darnell,2012-02-25 16:50:51,Don't swallow exceptions that escape from TestCase.run().,466,tornado/testing.py
+b7e6046,Ben Darnell,2012-02-19 21:30:15,Use copy.deepcopy to clone HTTPRequest when following redirects.,459,tornado/simple_httpclient.py
+56ec1ee,Ben Darnell,2012-02-19 19:33:08,Pass parsed hostname around explictly instead of storing it on the urlsplit result.,448,tornado/simple_httpclient.py
+56ec1ee,Ben Darnell,2012-02-19 19:33:08,Pass parsed hostname around explictly instead of storing it on the urlsplit result.,448,tornado/test/httpserver_test.py
+70ea7a5,Ben Darnell,2012-02-19 18:47:46,Use a single Cookie.SimpleCookie for outgoing cookies instead of a list.,445,tornado/test/web_test.py
+70ea7a5,Ben Darnell,2012-02-19 18:47:46,Use a single Cookie.SimpleCookie for outgoing cookies instead of a list.,445,tornado/web.py
+0b75124,MinRK,2012-02-02 14:05:59,coerce kwarg keys to str,454,tornado/web.py
+fa64343,Ben Darnell,2012-02-01 09:17:03,Always close sockets in simple_httpclient instead of leaving them for the GC.,451,tornado/simple_httpclient.py
+fa64343,Ben Darnell,2012-02-01 09:17:03,Always close sockets in simple_httpclient instead of leaving them for the GC.,451,tornado/test/httpserver_test.py
+fa64343,Ben Darnell,2012-02-01 09:17:03,Always close sockets in simple_httpclient instead of leaving them for the GC.,451,tornado/test/iostream_test.py
+fa64343,Ben Darnell,2012-02-01 09:17:03,Always close sockets in simple_httpclient instead of leaving them for the GC.,451,tornado/test/simple_httpclient_test.py
+b151a1e,Ben Darnell,2012-01-31 00:34:12,Add a version check for the curses unicode hack so it won't break when python 3.2.3 or 3.3 are released.,450,tornado/options.py
+bcb30e5,dave mankoff,2012-01-22 17:15:10,fix curl basic auth,443,tornado/curl_httpclient.py
+ea0291b,Ben Darnell,2012-01-21 15:58:35,Check if the stream is closed before writing final websocket close packet.,390,tornado/websocket.py
+cc671cb,Ben Darnell,2012-01-21 14:56:43,"Allow handlers to override the selection of ""ws"" or ""wss"" in the draft76 handshake, to work with SSL proxies that do not insert an X-Scheme header.",437,tornado/websocket.py
+35139ff,Ben Darnell,2012-01-21 14:09:18,Add .coveragerc for test coverage reporting.,439
+76ba232,Ben Darnell,2012-01-18 00:57:55,"Make TwitterMixin.twitter_request accept complete urls, not just partial paths.",418,tornado/auth.py
+6dfc1b7,Ben Darnell,2012-01-18 00:43:38,Add RequestHandler.on_finish method.,367,tornado/web.py
+3622650,Ben Darnell,2012-01-13 23:12:39,Support non-integer timeouts for curl_httpclient.,399,tornado/curl_httpclient.py
+4457f2b,Ben Darnell,2012-01-13 23:07:37,Add a fourth release status field to tornado.version_info.,432,tornado/__init__.py
+17052f3,Ben Darnell,2012-01-09 10:33:01,Make SSLIOStream compatible with SSLv3- and TLSv1-only servers.,431,tornado/httpclient.py
+17052f3,Ben Darnell,2012-01-09 10:33:01,Make SSLIOStream compatible with SSLv3- and TLSv1-only servers.,431,tornado/iostream.py
+17052f3,Ben Darnell,2012-01-09 10:33:01,Make SSLIOStream compatible with SSLv3- and TLSv1-only servers.,431,tornado/test/httpserver_test.py
+33cd345,Ben Darnell,2012-01-07 17:31:56,Add an explicit binary option to WebSocketHandler.write_message.,429,maint/test/websocket/server.py
+33cd345,Ben Darnell,2012-01-07 17:31:56,Add an explicit binary option to WebSocketHandler.write_message.,429,tornado/websocket.py
+8fbe7c7,Ben Darnell,2012-01-01 22:54:36,Rewrite IP check to use getaddrinfo instead of inet_pton (more portable).,392,tornado/httpserver.py
+8fbe7c7,Ben Darnell,2012-01-01 22:54:36,Rewrite IP check to use getaddrinfo instead of inet_pton (more portable).,392,tornado/test/httpserver_test.py
+ac9902c,Ben Darnell,2012-01-01 19:20:05,Use a StackContext to allow exceptions thrown from asynchronous functions called by a generator to be caught normally.,405,tornado/gen.py
+ac9902c,Ben Darnell,2012-01-01 19:20:05,Use a StackContext to allow exceptions thrown from asynchronous functions called by a generator to be caught normally.,405,tornado/test/gen_test.py
+ad63265,Ben Darnell,2011-12-30 20:20:25,Support status codes other than 301 and 302 in RequestHandler.redirect().,228,tornado/test/web_test.py
+ad63265,Ben Darnell,2011-12-30 20:20:25,Support status codes other than 301 and 302 in RequestHandler.redirect().,228,tornado/web.py
+7f5d4de,Ben Darnell,2011-12-30 16:02:40,Avoid merging the entire read buffer for IOStream.read_until.,425,demos/benchmark/chunk_benchmark.py
+7f5d4de,Ben Darnell,2011-12-30 16:02:40,Avoid merging the entire read buffer for IOStream.read_until.,425,tornado/iostream.py
+0635284,David Wilemski,2011-12-17 14:45:59,Fix for bug #392,392,tornado/httpserver.py
+a9e92e2,Ben Darnell,2011-10-23 14:43:20,Fix hang on HEAD requests and on 204/304 responses with no content-length.,386,tornado/simple_httpclient.py
+a9e92e2,Ben Darnell,2011-10-23 14:43:20,Fix hang on HEAD requests and on 204/304 responses with no content-length.,386,tornado/test/simple_httpclient_test.py
+84d7b45,Ben Darnell,2011-10-23 13:39:19,Sigh... More websocket protocol changes.,385,tornado/websocket.py
+95b9042,Guto Maia,2011-10-07 16:21:10,"allows the TwitterMixin define the callback_uri, that solves issue #377",377,tornado/auth.py
+c5e19a0,Ben Darnell,2011-10-04 08:54:38,Always advance _next_timeout in PeriodicCallback._schedule_next().,366,tornado/ioloop.py
+4b346bd,Ben Darnell,2011-09-22 10:38:35,Fix a case in which chunked responses could be closed prematurely.,1801,tornado/httpserver.py
+5872db2,Ben Darnell,2011-09-11 15:50:34,Add support for callbacks that take more than a single positional argument.,351,tornado/gen.py
+5872db2,Ben Darnell,2011-09-11 15:50:34,Add support for callbacks that take more than a single positional argument.,351,tornado/test/gen_test.py
+d5e924a,Ben Darnell,2011-09-10 15:10:31,Add reference docs for all template directives.,355,tornado/template.py
+d5e924a,Ben Darnell,2011-09-10 15:10:31,Add reference docs for all template directives.,355,tornado/test/template_test.py
+1b5adf9,Ben Darnell,2011-09-08 22:51:45,Add on_connection_close hook to chat demo to clean up after closed connections.,354,demos/chat/chatdemo.py
+12c5699,Ben Darnell,2011-09-08 22:45:30,Extract cookie-signing methods from RequestHandler so they can be used outside the web stack.,339,tornado/test/web_test.py
+12c5699,Ben Darnell,2011-09-08 22:45:30,Extract cookie-signing methods from RequestHandler so they can be used outside the web stack.,339,tornado/web.py
+c9fb8e0,Ben Darnell,2011-09-08 22:07:32,Add streaming_callback to IOStream.read_bytes and read_until_close.,300,tornado/iostream.py
+c9fb8e0,Ben Darnell,2011-09-08 22:07:32,Add streaming_callback to IOStream.read_bytes and read_until_close.,300,tornado/test/iostream_test.py
+39de229,Ben Darnell,2011-09-05 12:12:07,"Add test for 100-continue functionality, and fix it on python 3",350,tornado/httpserver.py
+39de229,Ben Darnell,2011-09-05 12:12:07,"Add test for 100-continue functionality, and fix it on python 3",350,tornado/test/httpserver_test.py
+39de229,Ben Darnell,2011-09-05 12:12:07,"Add test for 100-continue functionality, and fix it on python 3",350,tornado/test/wsgi_test.py
+e5d96e1,Maciej Małecki,2011-08-23 00:24:36,Fix typos (argh!). #319,319,tornado/autoreload.py
+874aa20,Maciej Małecki,2011-08-22 15:01:01,"Use subprocess.Popen on Windows, fixes #319",319,tornado/autoreload.py
+7f6c66e,Ben Darnell,2011-08-27 23:24:56,Add a version of database.Connection.execute that returns the rowcount.,333,tornado/database.py
+15ebe76,Ben Darnell,2011-08-14 10:38:52,Add the option to run application hooks before autoreloading.,331,tornado/autoreload.py
+688d59d,Ben Darnell,2011-08-06 14:21:19,Accept timedelta objects in IOLoop.add_timeout.,329,tornado/ioloop.py
+a0ff0ed,Ben Darnell,2011-07-26 10:50:32,Allow unicode string literals to appear in template expressions.,313,tornado/template.py
+a0ff0ed,Ben Darnell,2011-07-26 10:50:32,Allow unicode string literals to appear in template expressions.,313,tornado/test/template_test.py
+6fcc459,Ben Darnell,2011-07-24 19:59:14,Support Content-Length headers that have been duplicated by a proxy.,249,tornado/simple_httpclient.py
+6fcc459,Ben Darnell,2011-07-24 19:59:14,Support Content-Length headers that have been duplicated by a proxy.,249,tornado/test/simple_httpclient_test.py
+e360c72,Ben Darnell,2011-07-18 23:52:27,Delay IOStream close callback until all pending callbacks have been processed.,306,tornado/iostream.py
+e360c72,Ben Darnell,2011-07-18 23:52:27,Delay IOStream close callback until all pending callbacks have been processed.,306,tornado/test/httpclient_test.py
+67ff311,Ben Darnell,2011-07-10 16:13:45,Support multi-line headers,9,tornado/httputil.py
+67ff311,Ben Darnell,2011-07-10 16:13:45,Support multi-line headers,9,tornado/test/httputil_test.py
+f771360,Ben Darnell,2011-07-10 15:30:52,Properly quote and unquote cookie values.,36,tornado/test/web_test.py
+f771360,Ben Darnell,2011-07-10 15:30:52,Properly quote and unquote cookie values.,36,tornado/web.py
+f249ee3,Ben Darnell,2011-07-10 14:00:09,Fix parsing of uploaded filenames with special characters.,24,tornado/httputil.py
+f249ee3,Ben Darnell,2011-07-10 14:00:09,Fix parsing of uploaded filenames with special characters.,24,tornado/test/httpserver_test.py
+f249ee3,Ben Darnell,2011-07-10 14:00:09,Fix parsing of uploaded filenames with special characters.,24,tornado/test/httputil_test.py
+bc42fc1,David Wilemski,2011-07-02 03:06:25,Added dynamic loading of request handlers,124,tornado/web.py
+84c5ddb,Ben Darnell,2011-06-26 18:30:19,Add max_age_days parameter to RequestHandler.get_secure_cookie.,27,tornado/web.py
+56b0e36,Ben Darnell,2011-06-25 19:35:04,Remove unused imports and variables.,278,tornado/httpclient.py
+56b0e36,Ben Darnell,2011-06-25 19:35:04,Remove unused imports and variables.,278,tornado/websocket.py
+56b0e36,Ben Darnell,2011-06-25 19:35:04,Remove unused imports and variables.,278,website/website.py
+612821f,Ben Darnell,2011-06-25 19:04:27,Make websocket work in python3.,288,tornado/websocket.py
+84acb20,Ben Darnell,2011-06-25 18:36:48,Fixed error in HTTPServer when AI_ADDRCONFIG is not available (as on WinXP),287,tornado/httpserver.py
+cfb8b80,Evan Klitzke,2011-06-23 11:14:16,add text tracebacks on 500s when in debug mode,289,tornado/web.py
+db579da,Ben Darnell,2011-06-15 19:34:49,New method to_basestring replaces some use of native_str.,280,tornado/escape.py
+db579da,Ben Darnell,2011-06-15 19:34:49,New method to_basestring replaces some use of native_str.,280,tornado/test/escape_test.py
+3d64c89,Ben Darnell,2011-06-14 14:38:42,Unquote PATH_INFO in wsgi.,281,tornado/test/wsgi_test.py
+3d64c89,Ben Darnell,2011-06-14 14:38:42,Unquote PATH_INFO in wsgi.,281,tornado/wsgi.py
+b6c4d6d,Ben Darnell,2011-05-01 13:54:46,Change IOLoop._timeouts from a sorted list to a heapq.,195,tornado/ioloop.py
+f8f3a9b,Ben Darnell,2011-05-01 12:55:08,Run all IOStream callbacks via IOLoop.add_callback.,252,tornado/iostream.py
+fb9e40b,Ben Darnell,2011-05-01 12:17:00,Document the ability to modify XSRF protection by overriding check_xsrf_cookie.,254
+bae1b57,Ben Darnell,2011-05-01 11:59:11,Support https for UIModule javascript_files and css_files.,256,tornado/web.py
+cd94d92,Ben Darnell,2011-04-24 23:15:08,Check to see if actions field is present in facebook demo,251
+b8faecd,Ben Darnell,2011-04-24 23:13:13,Add **kwargs to WebSocketHandler.__init__,250,tornado/websocket.py
+8a2c417,Ben Darnell,2011-04-24 23:11:42,Infer option types from the default when possible.,248,tornado/options.py
+f7d25fc,Ben Darnell,2011-04-24 22:57:12,Ignore hidden directories (e.g. .svn) in load_gettext_translations.,247,tornado/locale.py
+8b4a66c,Ben Darnell,2011-04-16 13:41:40,str.encode('base64') != base64.b64encode(),246,tornado/simple_httpclient.py
+8eef796,Ben Darnell,2011-04-16 13:26:03,Convert WSGI content-length variable to an int at the right place,245,tornado/wsgi.py
+3ae6787,Ben Darnell,2011-04-16 13:23:39,Make template constructor accept unicode strings,244,tornado/template.py
+8eb6dd2,Ben Darnell,2011-03-27 20:30:42,Add support for username/password in url for simple_httpclient.,230,tornado/simple_httpclient.py
+8eb6dd2,Ben Darnell,2011-03-27 20:30:42,Add support for username/password in url for simple_httpclient.,230,tornado/test/simple_httpclient_test.py
+425f069,Ben Darnell,2011-03-14 23:06:05,Move curl Expect: header hack from httpclient.py to curl_httpclient.py.,233,tornado/curl_httpclient.py
+425f069,Ben Darnell,2011-03-14 23:06:05,Move curl Expect: header hack from httpclient.py to curl_httpclient.py.,233,tornado/httpclient.py
+7d30403,Ben Darnell,2011-03-03 12:38:31,"In FacebookGraphMixin, explicitly request required user fields.",227,tornado/auth.py
+e7ae6c9,Ben Darnell,2011-02-23 10:08:00,OPTIONS should not require an XSRF token.,225,tornado/web.py
+fb8736c,Ben Darnell,2011-02-22 13:35:41,Check for EOF in the kqueue-based IOLoop to avoid incorrectly calling the connect callback when the connection was refused.,223,tornado/ioloop.py
+fb8736c,Ben Darnell,2011-02-22 13:35:41,Check for EOF in the kqueue-based IOLoop to avoid incorrectly calling the connect callback when the connection was refused.,223,tornado/test/iostream_test.py
+b8500d3,Ben Darnell,2011-02-16 11:52:06,"Revert ""Undo documentation changes from the introduction of Application.listen().""",933
+2d42c18,Ben Darnell,2011-02-09 17:01:53,Undo documentation changes from the introduction of Application.listen().,933
+90b8078,Ben Darnell,2011-02-08 22:29:40,BACKWARDS-INCOMPATIBLE: Fix XSRF security vulnerability.,92,tornado/web.py
+c32ad6b,Ben Darnell,2011-02-06 18:58:58,Fix error in docstring.,209,tornado/template.py
+8ff8535,Ben Darnell,2011-02-06 18:42:04,Add a test to verify reasonable behavior when HTTPS server is sent non-SSL request.,211,tornado/test/httpserver_test.py
+0687800,Ben Darnell,2011-01-25 12:15:37,Use request.uri instead of request.path in websocket handshake.,208,tornado/websocket.py
+377c160,Ben Darnell,2011-01-20 11:59:45,Set HTTPRequest.protocol correctly when using the built-in SSL support.,202,tornado/httpserver.py
+377c160,Ben Darnell,2011-01-20 11:59:45,Set HTTPRequest.protocol correctly when using the built-in SSL support.,202,tornado/test/httpserver_test.py
+498438b,Ben Darnell,2011-01-20 11:52:53,Use kwargs when constructing RedirectHandlers.,205,tornado/web.py
+f63525f,Ben Darnell,2010-12-27 18:30:21,Fix stack trace logging for uncaught RequestHandler exceptions.,199,tornado/web.py
+f73f135,Ben Darnell,2010-12-14 12:22:17,Construct ErrorHandler with kwargs instead of positional arguments for consistency with normal handler construction (and compatibility with the initialize() changes from a couple of commits ago).,194,tornado/web.py
+2675142,Ben Darnell,2010-12-13 12:33:25,Override initialize() instead of __init__() in RequestHandler subclasses.,191,tornado/web.py
+a18eead,Ben Darnell,2010-11-30 22:28:53,Fix duplicated remote_ip field in HTTPRequest.__repr__,185,tornado/httpserver.py
+96ecb66,Ben Darnell,2010-11-29 15:01:16,Use request.uri instead of request.path as default redirect for auth.py.,161,tornado/auth.py
+ae3cc31,Ben Darnell,2010-11-29 13:49:06,Treat HEAD requests the same as GET for e.g. sending Etag headers.,180,tornado/web.py
+9e96555,Ben Darnell,2010-11-19 14:04:53,Don't assume 'boundary' is last field in Content-Type header.,172,tornado/httpserver.py
+3dc7eba,Ben Darnell,2010-11-08 11:53:36,Add Amharic to tornado.locale's list of languages.,168,tornado/locale.py
+0dcee8d,Ben Darnell,2010-11-08 11:27:27,"Fix mangled language names in tornado.locale for Chinese, Japanese, Korean.",168,tornado/locale.py
+7ed8fbe,Ben Darnell,2010-11-08 10:51:02,Support websockets over https.,164,tornado/websocket.py
+3e44643,Ben Darnell,2010-11-06 11:07:59,Fix typo from commit 2b44fac,169,tornado/iostream.py
+2b44fac,Ben Darnell,2010-11-04 11:47:34,Check for a closed connection in _add_io_state.,163,tornado/iostream.py
+b914a94,Ben Darnell,2010-10-27 21:23:29,Don't manually set Content-Length in StaticFileHandler.,160,tornado/web.py
+f10c717,Ben Darnell,2010-10-12 17:59:29,Refactor async connect logic from SimpleAsyncHTTPClient to IOStream.,146,tornado/iostream.py
+f10c717,Ben Darnell,2010-10-12 17:59:29,Refactor async connect logic from SimpleAsyncHTTPClient to IOStream.,146,tornado/simple_httpclient.py
+7c7b011,Ben Darnell,2010-10-11 17:17:13,Make Locale.format_date() behave sanely with dates in the future.,150,tornado/locale.py
+5fffe5a,Ben Darnell,2010-10-11 11:20:25,Limit the amount of data sent to socket.send at a time (for windows).,97,tornado/iostream.py
+1221865,Ben Darnell,2010-09-27 14:08:56,"In the select()-based IOLoop, always listen for reads so we can tell when the other side closed the connection.",37,tornado/ioloop.py
+1221865,Ben Darnell,2010-09-27 14:08:56,"In the select()-based IOLoop, always listen for reads so we can tell when the other side closed the connection.",37,tornado/test/web_test.py
+1221865,Ben Darnell,2010-09-27 14:08:56,"In the select()-based IOLoop, always listen for reads so we can tell when the other side closed the connection.",37,tornado/web.py
+8300c7f,Ben Darnell,2010-09-27 12:46:20,Close the IOStream when the remote connection is closed.,143,tornado/iostream.py
+8300c7f,Ben Darnell,2010-09-27 12:46:20,Close the IOStream when the remote connection is closed.,143,tornado/test/web_test.py
+4973e29,Ben Darnell,2010-09-23 09:37:32,Update installation instructions in README.,142
+a1d94db,Ben Darnell,2010-09-21 12:15:02,Fix default_host redirect.,141,tornado/web.py
+6e1dbe2,Ben Darnell,2010-09-13 11:18:46,"Fix calls to getattr (which, unlike dict.get, does not default to None).",137,tornado/ioloop.py
+9163e34,Ben Darnell,2010-09-08 15:06:21,"Check self._running before rescheduling a PeriodicCallback, so stop() can be called from inside the callback.",135,tornado/ioloop.py
+6d7e515,Ben Darnell,2010-09-06 11:24:09,Fix typo in websocket.py,133,tornado/websocket.py
+8e34c59,Ben Darnell,2010-09-06 00:00:52,Remove superfluous lambdas in tornado.escape.,132,tornado/escape.py
+0aae8f9,Ben Darnell,2010-09-01 15:16:57,"Remove __del__ method from HTTPResponse.  Closing cStringIO objects isn't really necessary, and the presence of a __del__ method prevents python's GC from breaking cyclical references (which happen on errors as HTTPError and HTTPResponse refer to each other).",125,tornado/httpclient.py
+aab1be8,Ben Darnell,2010-08-30 12:18:21,Update class docstring for HTTPServer.,123,tornado/httpserver.py
+2ccfb35,Aaron Raddon,2009-12-22 10:40:59,"adding support for http method OPTIONS used by firefox, safari, for cross domain",46,tornado/web.py
+b4c5aba,Ben Darnell,2010-08-26 11:52:41,Fix reference to slice.indices.,13,tornado/template.py
+8666774,Ben Darnell,2010-08-26 11:40:49,Document the limitations of multi-process mode.,65,tornado/httpserver.py
+318ec31,Ben Darnell,2010-08-26 11:09:56,Set pycurl.NOSIGNAL when multiple threads are detected.,121,tornado/httpclient.py
+fcab358,Ben Darnell,2010-08-25 17:17:44,Set PeriodicCallback._running to True in start instead of __init__,72,tornado/ioloop.py
+803f33c,Ben Darnell,2010-08-25 16:54:02,"Add a tornado.version variable, and use it anywhere we use the current tornado version to produce a Server: header.",22,tornado/__init__.py
+803f33c,Ben Darnell,2010-08-25 16:54:02,"Add a tornado.version variable, and use it anywhere we use the current tornado version to produce a Server: header.",22,tornado/web.py
+803f33c,Ben Darnell,2010-08-25 16:54:02,"Add a tornado.version variable, and use it anywhere we use the current tornado version to produce a Server: header.",22,tornado/websocket.py
+803f33c,Ben Darnell,2010-08-25 16:54:02,"Add a tornado.version variable, and use it anywhere we use the current tornado version to produce a Server: header.",22,tornado/wsgi.py
+98d4126,Ben Darnell,2010-08-06 13:12:14,"When login_url is absolute, use an absolute url for the next redirect.",119,tornado/test/httpserver_test.py
+98d4126,Ben Darnell,2010-08-06 13:12:14,"When login_url is absolute, use an absolute url for the next redirect.",119,tornado/test/runtests.py
+98d4126,Ben Darnell,2010-08-06 13:12:14,"When login_url is absolute, use an absolute url for the next redirect.",119,tornado/web.py
+becb5f2,Ben Darnell,2010-08-04 17:40:24,"Suppress libcurl's magic ""Expect: 100-continue"" behavior.",100,tornado/httpclient.py
+6b07e69,Casey,2009-09-11 11:43:08,documentation typos,1945

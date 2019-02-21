@@ -1,0 +1,159 @@
+commit,author,date,title,faultID,file
+efd6f1d,Mateusz Kurek,2017-03-28 13:30:50,Bump django-sitetree to 1.7.0 (#2918),2918,src/ralph/settings/dev.py
+efd6f1d,Mateusz Kurek,2017-03-28 13:30:50,Bump django-sitetree to 1.7.0 (#2918),2918,src/ralph/urls/base.py
+4ac4cc5,Piotr Jarolewski,2017-02-02 15:46:03,Bugifx logger error in hermes subscribers (#2956),2956,src/ralph/assets/subscribers.py
+4ac4cc5,Piotr Jarolewski,2017-02-02 15:46:03,Bugifx logger error in hermes subscribers (#2956),2956,src/ralph/assets/tests/test_subscribers.py
+25a3eab,Piotr Jarolewski,2016-12-14 12:18:49,Change choices field CharField to TextField in CustomField model (#2897),2897,src/ralph/lib/custom_fields/migrations/0004_auto_20161214_1126.py
+25a3eab,Piotr Jarolewski,2016-12-14 12:18:49,Change choices field CharField to TextField in CustomField model (#2897),2897,src/ralph/lib/custom_fields/models.py
+46a44bb,Piotr Jarolewski,2016-12-13 12:58:45,Add get_domain recursion from DNSaaS (#2893),2893,src/ralph/dns/dnsaas.py
+c039886,Piotr Jarolewski,2016-11-14 09:29:16,Add dhcp_expose field to IPAddress view (#2859),2859,src/ralph/networks/admin.py
+4183eb9,Mateusz Kurek,2016-10-27 13:32:38,Fix CloudHost hostnames assignment (#2849),2849,src/ralph/virtual/management/commands/openstack_sync.py
+4183eb9,Mateusz Kurek,2016-10-27 13:32:38,Fix CloudHost hostnames assignment (#2849),2849,src/ralph/virtual/models.py
+4183eb9,Mateusz Kurek,2016-10-27 13:32:38,Fix CloudHost hostnames assignment (#2849),2849,src/ralph/virtual/tests/test_models.py
+fd59b5d,Piotr Jarolewski,2016-10-19 14:13:56,Clean dhcp expose form bugfix (#2843),2843,src/ralph/networks/forms.py
+fd59b5d,Piotr Jarolewski,2016-10-19 14:13:56,Clean dhcp expose form bugfix (#2843),2843,src/ralph/networks/tests/test_forms.py
+cd5bc61,Mateusz Kurek,2016-10-03 11:30:19,Fix asset model importer (#2813),2813,src/ralph/data_importer/resources.py
+2b932d8,Arkadiusz Adamski,2016-09-29 06:45:11,Check next free IP in DNSaaS (if integration is enabled) (#2824),2824,src/ralph/dns/dnsaas.py
+2b932d8,Arkadiusz Adamski,2016-09-29 06:45:11,Check next free IP in DNSaaS (if integration is enabled) (#2824),2824,src/ralph/networks/models/networks.py
+2b932d8,Arkadiusz Adamski,2016-09-29 06:45:11,Check next free IP in DNSaaS (if integration is enabled) (#2824),2824,src/ralph/networks/tests/test_models.py
+076b84a,Piotr Jarolewski,2016-09-28 14:04:07,Bugfix with sending data to DNSSaaS (#2821),2821,src/ralph/dns/dnsaas.py
+c6d591f,Mateusz Kurek,2016-09-17 10:57:15,Fix MySQL 5.5 column renaming (#2800),2800,src/ralph/assets/_migration_helpers.py
+c6d591f,Mateusz Kurek,2016-09-17 10:57:15,Fix MySQL 5.5 column renaming (#2800),2800,src/ralph/security/tests/factories.py
+c6d591f,Mateusz Kurek,2016-09-17 10:57:15,Fix MySQL 5.5 column renaming (#2800),2800,src/ralph/security/tests/test_api.py
+879c1fa,Arkadiusz Adamski,2016-09-01 11:58:41,Change top bar color to $primary-color (#2771),2771
+fd087ac,Mateusz Kurek,2016-09-01 11:37:51,Fixed grammar error: freezed -> frozen (#2768),2768,src/ralph/deployment/models.py
+fd087ac,Mateusz Kurek,2016-09-01 11:37:51,Fixed grammar error: freezed -> frozen (#2768),2768,src/ralph/lib/external_services/migrations/0002_auto_20160804_1001.py
+fd087ac,Mateusz Kurek,2016-09-01 11:37:51,Fixed grammar error: freezed -> frozen (#2768),2768,src/ralph/lib/external_services/migrations/0003_auto_20160804_1447.py
+fd087ac,Mateusz Kurek,2016-09-01 11:37:51,Fixed grammar error: freezed -> frozen (#2768),2768,src/ralph/lib/external_services/models.py
+fd087ac,Mateusz Kurek,2016-09-01 11:37:51,Fixed grammar error: freezed -> frozen (#2768),2768,src/ralph/lib/transitions/tests/test_async.py
+18c2de4,Arkadiusz Adamski,2016-08-25 15:22:05,Change serializer for ModelChoiceField in REST API (#2767),2767,src/ralph/lib/transitions/api/views.py
+fb8b942,Mateusz Kurek,2016-08-24 10:27:44,Run assign_new_hostname after clean_hostname (#2764),2764,src/ralph/deployment/deployment.py
+854c890,Piotr Jarolewski,2016-08-24 10:27:37,DataCenter Asset change list bugfix (#2763),2763,src/ralph/data_center/models/physical.py
+5cce583,Mateusz Kurek,2016-08-24 09:11:59,Bumped django-mptt version to 0.8.6 (#2760),2760
+6873544,Mateusz Kurek,2016-08-24 09:11:15,Improved cloudhost-list api SQL queries count (#2761),2761,src/ralph/virtual/api.py
+6873544,Mateusz Kurek,2016-08-24 09:11:15,Improved cloudhost-list api SQL queries count (#2761),2761,src/ralph/virtual/models.py
+6873544,Mateusz Kurek,2016-08-24 09:11:15,Improved cloudhost-list api SQL queries count (#2761),2761,src/ralph/virtual/tests/test_api.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/external_services/models.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/external_services/tests.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/api/views.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/apps.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/models.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/tests/__init__.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/tests/test_actions.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/tests/test_async.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/tests/test_models.py
+ffc9460,Mateusz Kurek,2016-08-23 13:03:52,Fix commiting async job to worker (#2703),2703,src/ralph/lib/transitions/views.py
+d5c730e,Mateusz Kurek,2016-08-23 12:08:58,Fix starting multiple async transitions through API (#2753),2753,src/ralph/lib/transitions/api/views.py
+d5c730e,Mateusz Kurek,2016-08-23 12:08:58,Fix starting multiple async transitions through API (#2753),2753,src/ralph/lib/transitions/models.py
+d5c730e,Mateusz Kurek,2016-08-23 12:08:58,Fix starting multiple async transitions through API (#2753),2753,src/ralph/lib/transitions/tests/test_actions.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/assets/tests/test_api.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/data_center/admin.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/data_center/models/virtual.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/data_center/tests/factories.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/data_center/tests/test_view.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/virtual/models.py
+0fcda88,Mateusz Kurek,2016-08-23 11:00:42,Fix dc-hosts queries count (#2746),2746,src/ralph/virtual/tests/factories.py
+a558f34,Mateusz Kurek,2016-08-19 12:58:37,Add possibility to turn off redirection to object detail if only one search result (#2745),2745,src/ralph/admin/mixins.py
+a558f34,Mateusz Kurek,2016-08-19 12:58:37,Add possibility to turn off redirection to object detail if only one search result (#2745),2745,src/ralph/settings/base.py
+b391a68,Mateusz Kurek,2016-08-17 15:04:03,Run deploy action after create_dns_entries (#2736),2736,src/ralph/deployment/deployment.py
+78edd17,Mateusz Kurek,2016-08-17 13:45:55,Fix network env validation during deployment (#2734),2734,src/ralph/deployment/deployment.py
+78edd17,Mateusz Kurek,2016-08-17 13:45:55,Fix network env validation during deployment (#2734),2734,src/ralph/deployment/tests/test_deployment.py
+3cac487,Mateusz Kurek,2016-08-17 09:46:29,Exclude duplicated hostnamed from DHCP entries view (#2728),2728,src/ralph/dhcp/tests/test_views.py
+3cac487,Mateusz Kurek,2016-08-17 09:46:29,Exclude duplicated hostnamed from DHCP entries view (#2728),2728,src/ralph/dhcp/views.py
+816a6c3,Mateusz Kurek,2016-08-17 09:46:20,Fix preboot variables tooltip formatting (#2729),2729,src/ralph/deployment/models.py
+07a55ca,Mateusz Kurek,2016-08-17 08:13:58,Fix available networks when rack is not assigned (#2726),2726,src/ralph/data_center/models/physical.py
+07a55ca,Mateusz Kurek,2016-08-17 08:13:58,Fix available networks when rack is not assigned (#2726),2726,src/ralph/data_center/tests/test_models.py
+07a55ca,Mateusz Kurek,2016-08-17 08:13:58,Fix available networks when rack is not assigned (#2726),2726,src/ralph/networks/views.py
+06245d4,Mateusz Kurek,2016-08-11 13:27:00,Fix virtualserver readonly access (#2715),2715,src/ralph/virtual/admin.py
+92e786d,Mateusz Kurek,2016-08-10 10:00:06,Fix network environment calculation for DCAsset & VirtualServer (#2702),2702,src/ralph/data_center/models/physical.py
+92e786d,Mateusz Kurek,2016-08-10 10:00:06,Fix network environment calculation for DCAsset & VirtualServer (#2702),2702,src/ralph/data_center/tests/test_models.py
+92e786d,Mateusz Kurek,2016-08-10 10:00:06,Fix network environment calculation for DCAsset & VirtualServer (#2702),2702,src/ralph/deployment/tests/test_deployment.py
+411db0a,Mateusz Kurek,2016-08-10 09:40:26,Added missing IPAddressFactory to deployment tests (#2704),2704,src/ralph/deployment/tests/test_transitions.py
+af02f9a,Mateusz Kurek,2016-08-08 10:46:14,Fix network env next free hostname when counter not used (#2685),2685,src/ralph/networks/models/networks.py
+af02f9a,Mateusz Kurek,2016-08-08 10:46:14,Fix network env next free hostname when counter not used (#2685),2685,src/ralph/networks/tests/test_models.py
+67af067,Mateusz Kurek,2016-08-08 10:45:47,Fix dc hosts update signal to not be called twice when Ralph2 sync is on (#2687),2687,src/ralph/data_center/models/physical.py
+67af067,Mateusz Kurek,2016-08-08 10:45:47,Fix dc hosts update signal to not be called twice when Ralph2 sync is on (#2687),2687,src/ralph/virtual/models.py
+d36713c,Mateusz Kurek,2016-08-05 15:21:57,DHCP agent cache fix (#2686),2686,contrib/dhcp_agent/dhcp_agent.py
+2e7ad1e,Mateusz Kurek,2016-08-04 14:21:21,Fix cleaning DNS entries during deployment when object has no ip addresses. (#2678),2678,src/ralph/deployment/deployment.py
+2e7ad1e,Mateusz Kurek,2016-08-04 14:21:21,Fix cleaning DNS entries during deployment when object has no ip addresses. (#2678),2678,src/ralph/deployment/tests/test_deployment.py
+2e7ad1e,Mateusz Kurek,2016-08-04 14:21:21,Fix cleaning DNS entries during deployment when object has no ip addresses. (#2678),2678,src/ralph/dns/dnsaas.py
+2e7ad1e,Mateusz Kurek,2016-08-04 14:21:21,Fix cleaning DNS entries during deployment when object has no ip addresses. (#2678),2678,src/ralph/dns/tests.py
+2e7ad1e,Mateusz Kurek,2016-08-04 14:21:21,Fix cleaning DNS entries during deployment when object has no ip addresses. (#2678),2678,src/ralph/settings/base.py
+7a1373f,Mateusz Kurek,2016-08-04 12:49:45,Fix DNS TXT records for virtual server (#2675),2675,src/ralph/dns/tests.py
+7a1373f,Mateusz Kurek,2016-08-04 12:49:45,Fix DNS TXT records for virtual server (#2675),2675,src/ralph/virtual/models.py
+1916009,Piotr Jarolewski,2016-08-04 11:58:02,Fix dns default app config (#2673),2673,src/ralph/dns/__init__.py
+0c85afe,Mateusz Kurek,2016-08-04 10:07:59,Fix creating DNS records during deployment (#2665),2665,src/ralph/deployment/deployment.py
+0c85afe,Mateusz Kurek,2016-08-04 10:07:59,Fix creating DNS records during deployment (#2665),2665,src/ralph/deployment/tests/test_deployment.py
+0c85afe,Mateusz Kurek,2016-08-04 10:07:59,Fix creating DNS records during deployment (#2665),2665,src/ralph/dns/dnsaas.py
+b6a9358,Mateusz Kurek,2016-08-03 10:43:39,Worker class handling database connection timeout (#2660),2660,src/ralph/lib/external_services/worker.py
+5fac10a,Mateusz Kurek,2016-08-02 11:31:45,Fix internal server error on cloud flavor list (#2655),2655,src/ralph/virtual/admin.py
+1407959,Mateusz Kurek,2016-08-02 11:29:22,Fix internal server error during creating user (#2654),2654,src/ralph/ralph2_sync/admin.py
+8b64fa9,Mateusz Kurek,2016-08-02 10:52:34,Fix internal server error on cloud project list view. (#2653),2653,src/ralph/virtual/admin.py
+d8bff1c,Mateusz Kurek,2016-07-29 13:10:28,NetworkKind: search in admin by name (#2642),2642,src/ralph/networks/admin.py
+49453c6,Mateusz Kurek,2016-07-29 11:28:57,Update hostname of IP address in sync from Ralph2 (#2638),2638,src/ralph/ralph2_sync/subscribers.py
+da30555,Mateusz Kurek,2016-07-29 07:30:24,Remove noqa from user perms widget (#2636),2636,src/ralph/admin/widgets.py
+d23f783,Mateusz Kurek,2016-07-27 21:00:41,Fix syncing m2m relations to Ralph2 (#2625),2625,src/ralph/admin/mixins.py
+d23f783,Mateusz Kurek,2016-07-27 21:00:41,Fix syncing m2m relations to Ralph2 (#2625),2625,src/ralph/networks/admin.py
+d23f783,Mateusz Kurek,2016-07-27 21:00:41,Fix syncing m2m relations to Ralph2 (#2625),2625,src/ralph/ralph2_sync/admin.py
+d8fe055,Mateusz Kurek,2016-07-25 10:53:58,Fix masters for Cluster (#2610),2610,src/ralph/data_center/api/serializers.py
+d8fe055,Mateusz Kurek,2016-07-25 10:53:58,Fix masters for Cluster (#2610),2610,src/ralph/data_center/api/views.py
+d8fe055,Mateusz Kurek,2016-07-25 10:53:58,Fix masters for Cluster (#2610),2610,src/ralph/data_center/models/virtual.py
+d8fe055,Mateusz Kurek,2016-07-25 10:53:58,Fix masters for Cluster (#2610),2610,src/ralph/data_center/tests/test_api.py
+d8fe055,Mateusz Kurek,2016-07-25 10:53:58,Fix masters for Cluster (#2610),2610,src/ralph/data_center/tests/test_models.py
+600da7d,Mateusz Kurek,2016-07-22 13:24:42,Management IP assignment fix (#2615),2615,src/ralph/data_center/models/mixins.py
+600da7d,Mateusz Kurek,2016-07-22 13:24:42,Management IP assignment fix (#2615),2615,src/ralph/data_center/tests/test_forms.py
+600da7d,Mateusz Kurek,2016-07-22 13:24:42,Management IP assignment fix (#2615),2615,src/ralph/data_center/tests/test_models.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/assets/api/views.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/assets/tests/test_api.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/back_office/api.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/data_center/api/serializers.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/data_center/api/views.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/data_center/models/virtual.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/data_center/tests/test_api.py
+f703dc0,Mateusz Kurek,2016-07-15 15:00:06,Fix generic foreign key prefetch related in polymorphic api (#2584),2584,src/ralph/virtual/api.py
+fc23aa4,Mateusz Kurek,2016-07-14 09:38:54,Fix tables header (#2577),2577,src/ralph/lib/table/table.py
+fc23aa4,Mateusz Kurek,2016-07-14 09:38:54,Fix tables header (#2577),2577,src/ralph/lib/table/templatetags/table.py
+9cb27a9,Mateusz Kurek,2016-07-14 08:29:43,Fix for recovery view with transitions (#2575),2575,src/ralph/admin/mixins.py
+03e0420,Mateusz Kurek,2016-07-12 14:36:19,Fix network env subscriber (#2566),2566,src/ralph/ralph2_sync/subscribers.py
+03e0420,Mateusz Kurek,2016-07-12 14:36:19,Fix network env subscriber (#2566),2566,src/ralph/ralph2_sync/tests/test_subscribers.py
+c303324,Arkadiusz Adamski,2016-07-12 08:25:14,Fix #2562 (#2563),2562
+71d3c1c,Mateusz Kurek,2016-07-08 13:22:50,DCAsset's configuration_path Ralph2 sync fix (#2554),2554,src/ralph/ralph2_sync/subscribers.py
+71d3c1c,Mateusz Kurek,2016-07-08 13:22:50,DCAsset's configuration_path Ralph2 sync fix (#2554),2554,src/ralph/ralph2_sync/tests/test_subscribers.py
+c586e60,Mateusz Kurek,2016-07-08 08:45:53,Use VentureRole.get_properties instead of Device.get_property_set for Ralph2 validator (#2546),2545,src/ralph/cross_validator/mappers.py
+c586e60,Mateusz Kurek,2016-07-08 08:45:53,Use VentureRole.get_properties instead of Device.get_property_set for Ralph2 validator (#2546),2545,src/ralph/cross_validator/ralph2/device.py
+05a7787,Mateusz Kurek,2016-06-30 12:49:21,Fixed ip filter (#2511),2511,src/ralph/admin/filters.py
+05a7787,Mateusz Kurek,2016-06-30 12:49:21,Fixed ip filter (#2511),2511,src/ralph/admin/tests/tests_filters.py
+8b7f43e,Mateusz Kurek,2016-06-30 07:28:40,"CloudHost and CloudProject list bug fix; Add custom fields to CloudHost, CloudProject and VirtualServer (#2507)",2507,src/ralph/virtual/admin.py
+52bb3ad,Mateusz Kurek,2016-06-24 09:15:47,menu resync tests (#2496),2496,src/ralph/admin/sitetrees.py
+52bb3ad,Mateusz Kurek,2016-06-24 09:15:47,menu resync tests (#2496),2496,src/ralph/admin/tests/test_menu.py
+67dce97,Mateusz Kurek,2016-06-13 09:32:46,Revert filter DataCenterAsset by service id and name (#2476),2476,src/ralph/data_center/api/views.py
+67dce97,Mateusz Kurek,2016-06-13 09:32:46,Revert filter DataCenterAsset by service id and name (#2476),2476,src/ralph/data_center/tests/test_api.py
+3d9f38a,Mateusz Kurek,2016-06-10 09:26:01,revert filter by service uid (#2475),2475,src/ralph/data_center/api/views.py
+3d9f38a,Mateusz Kurek,2016-06-10 09:26:01,revert filter by service uid (#2475),2475,src/ralph/data_center/tests/test_api.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/admin/tests/tests_multiadd.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/data_center/forms.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/data_center/models/physical.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/data_center/tests/test_forms.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/dc_view/tests.py
+f0e718b,Mateusz Kurek,2016-06-10 09:12:13,Fixed management IP/hostname form for DataCenterAsset (#2472),2472,src/ralph/networks/models/networks.py
+e82ec95,Arkadiusz Adamski,2016-04-08 15:32:57,Changed z-index of listing and pdu on DC View.,2359
+519f21a,Mateusz Kurek,2015-12-22 12:00:49,fixed polymorphic manager ordering,2121,src/ralph/lib/polymorphic/models.py
+519f21a,Mateusz Kurek,2015-12-22 12:00:49,fixed polymorphic manager ordering,2121,src/ralph/lib/polymorphic/tests/models.py
+519f21a,Mateusz Kurek,2015-12-22 12:00:49,fixed polymorphic manager ordering,2121,src/ralph/lib/polymorphic/tests/tests_models.py
+84d7455,Mateusz Kurek,2015-12-17 15:43:32,fixed service-env inline performance,2107,src/ralph/assets/admin.py
+dd73f6e,Mateusz Kurek,2015-12-17 15:18:23,fixed ldap sync logging,2106,src/ralph/accounts/management/commands/ldap_sync.py
+b066885,Mateusz Kurek,2015-12-17 08:35:30,fixed nullable field for generic ip address field,2102,src/ralph/lib/mixins/fields.py
+c836f6d,Mateusz Kurek,2015-12-16 13:05:25,fixed transitions random initial value bug,2096,src/ralph/lib/transitions/views.py
+4dfec51,Mateusz Kurek,2015-12-09 17:11:06,fixed transition history import date,2081,src/ralph/data_importer/management/commands/import_attachments.py
+b8bd2e8,Arkadiusz Adamski,2015-12-08 13:58:45,added validation to non-form transition,2075,src/ralph/lib/transitions/views.py
+b8bd2e8,Arkadiusz Adamski,2015-12-08 13:58:45,added validation to non-form transition,2075,src/ralph/licences/models.py
+105967b,Mateusz Kurek,2015-12-08 08:12:36,temporary fix for used/free licences calculation,2067,src/ralph/licences/models.py
+d2304be,Mateusz Kurek,2015-12-07 12:29:14,fixed transitions signals when loading from fixtures,2054,src/ralph/lib/transitions/models.py
+ee28d51,Mateusz Kurek,2015-11-27 14:50:29,cast invoice report id to str,2014,src/ralph/assets/invoice_report.py
+f0ff163,Mateusz Kurek,2015-11-18 10:31:29,fixed attachments when change views is not defined,1944,src/ralph/attachments/admin.py
+9587f47,Mateusz Kurek,2015-11-18 08:08:04,"assetmodel: cores count, height of device and power consumption should be positive",1942,src/ralph/assets/migrations/0007_auto_20151118_0804.py
+9587f47,Mateusz Kurek,2015-11-18 08:08:04,"assetmodel: cores count, height of device and power consumption should be positive",1942,src/ralph/assets/models/assets.py
+64b44e7,Arkadiusz Adamski,2015-09-18 10:44:24,Fixed bug concerning moved rack beyond specified boundaries,1798
+27c7d66,Mateusz Kurek,2015-09-11 11:14:51,Improved migration from Ralph2 documentation,1680
+705c6e2,Piotr Jarolewski,2015-09-09 08:56:15,Remove search text from search form,1756
+2c3cb9f,Mateusz Kurek,2015-05-29 11:02:11,added git to docker provisioning; added sitetree initialization,1460

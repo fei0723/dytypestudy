@@ -1,0 +1,272 @@
+commit,author,date,title,faultID,file
+ec8a8c0,TW,2017-12-23 01:18:33,Merge pull request #3475 from ThomasWaldmann/fix-borg-init-quota,3470
+d1cdc14,Thomas Waldmann,2017-12-22 23:50:00,"borg init: use given --storage-quota for local repo, fixes #3470",3470,src/borg/archiver.py
+814be9e,TW,2017-12-17 03:13:10,Merge pull request #3449 from ThomasWaldmann/check-hangs-fix-master,3444
+57a2d92,Thomas Waldmann,2017-12-16 01:16:05,"check --repair: fix malfunctioning validator, fixes #3444",3444,src/borg/archive.py
+0abf42f,Thomas Waldmann,2017-12-16 01:11:40,"modify borg check unit test so it ""hangs"", see #3444",3444,src/borg/testsuite/archiver.py
+caece37,Thomas Waldmann,2017-11-22 15:08:08,"borg mount: support --consider-part-files correctly, fixes #3347",3347,src/borg/fuse.py
+72232a9,TW,2017-11-14 18:40:53,Merge pull request #3319 from ThomasWaldmann/crc32-unaligned,3317
+f9cd6f7,Thomas Waldmann,2017-11-13 16:47:03,"crc32: deal with unaligned buffer, tests, fixes #3317",3317,src/borg/testsuite/checksums.py
+410770d,TW,2017-11-05 02:40:25,Merge pull request #3282 from ThomasWaldmann/fix-checkpoint-stats,3224
+c90a39e,TW,2017-11-05 00:57:53,Merge pull request #3252 from ThomasWaldmann/fix-broken-pipe-handling,3245
+66cd1cd,Thomas Waldmann,2017-11-05 00:48:17,"stats: do not count data volume twice when checkpointing, fixes #3224",3224,src/borg/archive.py
+726ef11,Thomas Waldmann,2017-11-03 16:51:12,"borg list: fix broken pipe handling, fixes #3245",3245,src/borg/archiver.py
+41ccd3d,TW,2017-11-04 20:10:34,Merge pull request #3266 from ThomasWaldmann/set-bsdflags-last,3263
+7aafcc5,Thomas Waldmann,2017-10-29 14:49:42,"recreate: move chunks_healthy when excluding hardlink master, fixes #3228",3228,src/borg/archive.py
+90186ad,Thomas Waldmann,2017-10-29 11:25:11,"get rid of already existing invalid chunks_healthy metadata, see #3218",3218,src/borg/archive.py
+7211bb2,Thomas Waldmann,2017-10-29 10:53:12,"get rid of chunks_healthy when rechunking, fixes #3218",3218,src/borg/archive.py
+7211bb2,Thomas Waldmann,2017-10-29 10:53:12,"get rid of chunks_healthy when rechunking, fixes #3218",3218,src/borg/archiver.py
+2c6f963,Thomas Waldmann,2017-11-04 15:18:55,"set bsdflags last (include immutable flag), fixes #3263",3263,src/borg/archive.py
+2e15c4d,TW,2017-11-04 13:44:11,Merge pull request #3246 from ThomasWaldmann/fix-old-server-hack,3244
+117d30d,Thomas Waldmann,2017-11-02 16:03:55,"remove evil trailing comma, fixes #3244",3244,src/borg/remote.py
+926b1c6,TW,2017-10-28 13:31:47,Merge pull request #3212 from ThomasWaldmann/stat-after-match,3209
+0c410e8,Thomas Waldmann,2017-10-24 01:25:53,"don't do stat() when not recursing into excluded dir, fixes #3209",3209,src/borg/archiver.py
+46c071c,TW,2017-10-23 14:33:18,Merge pull request #3208 from ThomasWaldmann/fix-3205-master,3205
+ae91aff,Thomas Waldmann,2017-10-22 17:34:02,"arg parsing: fix fallback function, refactor, fixes #3205",3205,src/borg/archiver.py
+152bb27,TW,2017-10-22 00:45:35,Merge pull request #3193 from ThomasWaldmann/fix-4args-open,3192
+1d6ed50,TW,2017-10-20 23:41:04,Merge pull request #3198 from ThomasWaldmann/keyfile-abspath,3197
+7136e2c,Thomas Waldmann,2017-10-20 21:13:11,"fix crash with relative BORG_KEY_FILE, fixes #3197",3197,src/borg/crypto/key.py
+dbcc870,Thomas Waldmann,2017-10-20 16:47:32,"fix server-side IndexError for 4-arg open() of old clients, fixes #3192",3192,src/borg/remote.py
+6096ff9,TW,2017-10-14 19:52:02,Merge pull request #3163 from ThomasWaldmann/fix-recreate-part-size,3157
+9d6b125,Thomas Waldmann,2017-10-14 04:24:26,"borg recreate: correctly compute part file sizes, fixes #3157",3157,src/borg/archive.py
+8909ffc,TW,2017-10-13 23:54:03,Merge pull request #3137 from ThomasWaldmann/dont-open-special,3130
+a6ee4e9,Thomas Waldmann,2017-10-11 03:32:33,"bsdflags support: do not open BLK/CHR/LNK files, fixes #3130",3130
+19ed725,TW,2017-10-13 20:16:30,"move files-cache related options to borg create, fixes #3146 (#3147)",3146,src/borg/archiver.py
+de175a7,TW,2017-10-12 20:32:35,Merge pull request #3148 from ThomasWaldmann/maincommand-help,3142
+3be328e,Thomas Waldmann,2017-10-12 05:40:52,"don't crash if only a global option is given, show help, fixes #3142",3142,src/borg/archiver.py
+c8bf9db,TW,2017-10-11 01:08:31,Merge pull request #3122 from ThomasWaldmann/logging-config-fix,3114
+13a4439,TW,2017-10-11 01:01:17,Merge pull request #3120 from ThomasWaldmann/fix-nonlocal-path-detection,3108
+0bddbb3,TW,2017-10-11 00:55:22,Merge pull request #3119 from ThomasWaldmann/no-time-end,3109
+8455ab3,TW,2017-10-11 00:32:37,Merge pull request #3121 from ThomasWaldmann/support-no-hardlinks,3107
+afba813,Thomas Waldmann,2017-10-10 02:18:13,"logging with fileConfig: set json attr on ""borg"" logger, fixes #3114",3114,src/borg/logger.py
+203a5c8,Thomas Waldmann,2017-10-10 01:57:58,"catch ENOTSUP for os.link, fixes #3107",3107,src/borg/repository.py
+60e9249,Thomas Waldmann,2017-10-10 01:36:44,"fix detection of non-local path, fixes #3108",3108,src/borg/archive.py
+9d3daeb,Thomas Waldmann,2017-10-10 01:17:56,"recreate: don't crash on attic archives w/o time_end, fixes #3109",3109,src/borg/archive.py
+35c042b,TW,2017-10-01 20:48:54,Merge pull request #3078 from ThomasWaldmann/fix-subprocess-env,3077
+b506977,Thomas Waldmann,2017-10-01 19:17:23,"fix LDLP restoration for subprocesses, fixes #3077",3077,src/borg/helpers/process.py
+e8e2048,TW,2017-09-26 22:03:26,Merge pull request #3058 from ThomasWaldmann/fix-partial-json,2637
+6a6fd31,Thomas Waldmann,2017-09-23 20:04:47,"use prepared env for calling BORG_PASSCOMMAND, fixes #3050",3050,src/borg/crypto/key.py
+8646216,Thomas Waldmann,2017-09-25 01:15:13,"remote: deal with partial lines, fixes #2637",2637,src/borg/remote.py
+8646216,Thomas Waldmann,2017-09-25 01:15:13,"remote: deal with partial lines, fixes #2637",2637,src/borg/testsuite/repository.py
+928bde8,Thomas Waldmann,2017-09-05 06:13:47,get rid of datetime.isoformat to avoid bugs like #2994,2994,src/borg/archive.py
+928bde8,Thomas Waldmann,2017-09-05 06:13:47,get rid of datetime.isoformat to avoid bugs like #2994,2994,src/borg/helpers/manifest.py
+928bde8,Thomas Waldmann,2017-09-05 06:13:47,get rid of datetime.isoformat to avoid bugs like #2994,2994,src/borg/repository.py
+928bde8,Thomas Waldmann,2017-09-05 06:13:47,get rid of datetime.isoformat to avoid bugs like #2994,2994,src/borg/testsuite/archiver.py
+7996a87,Thomas Waldmann,2017-09-05 05:51:00,"use safe parse_timestamp to parse timestamps, fixes #2994",2994,src/borg/helpers/manifest.py
+7996a87,Thomas Waldmann,2017-09-05 05:51:00,"use safe parse_timestamp to parse timestamps, fixes #2994",2994,src/borg/helpers/time.py
+86c0b66,TW,2017-09-02 17:48:04,Merge pull request #2988 from ThomasWaldmann/recover-segments-memory-usage,2982
+9fc4d00,Thomas Waldmann,2017-09-01 05:26:27,"recover_segment: use mmap(), fixes #2982",2982,src/borg/repository.py
+95d2674,TW,2017-08-25 04:36:44,Merge pull request #2959 from ThomasWaldmann/fix-timestamp-option,2957
+8a299ae,Thomas Waldmann,2017-08-24 04:07:37,"borg create --timestamp: set start time, fixes #2957",2957,src/borg/archive.py
+a1840e9,enkore,2017-08-06 10:56:34,Merge pull request #2918 from ThomasWaldmann/fix-serve-exitcode,2910
+583de3e,Thomas Waldmann,2017-08-06 04:18:49,"fix exitcode of borg serve, fixes #2910",2910,src/borg/archiver.py
+22bbe45,TW,2017-07-23 14:31:07,Merge pull request #2860 from ThomasWaldmann/fix-2853,2853
+186123c,Thomas Waldmann,2017-07-22 20:08:37,"give known chunk size to chunk_incref, fixes #2853",2853,src/borg/archive.py
+186123c,Thomas Waldmann,2017-07-22 20:08:37,"give known chunk size to chunk_incref, fixes #2853",2853,src/borg/cache.py
+9c5425d,Ed Blackman,2017-06-21 22:25:45,Split up interval parsing from filtering for --keep-within,2610,src/borg/archiver.py
+9c5425d,Ed Blackman,2017-06-21 22:25:45,Split up interval parsing from filtering for --keep-within,2610,src/borg/helpers.py
+9c5425d,Ed Blackman,2017-06-21 22:25:45,Split up interval parsing from filtering for --keep-within,2610,src/borg/testsuite/helpers.py
+b51198e,TW,2017-06-13 19:53:54,Merge pull request #2673 from ThomasWaldmann/negative-ids,2674
+ccd066f,Thomas Waldmann,2017-06-13 18:30:42,"FUSE: fix negative uid/gid crash, fixes #2674",2674,src/borg/fuse.py
+f3f3710,enkore,2017-06-13 09:25:13,Merge pull request #2669 from ThomasWaldmann/no-extract-stdout,2645
+0b00c14,Thomas Waldmann,2017-06-13 01:12:14,"don't write to disk with --stdout, fixes #2645",2645,src/borg/archiver.py
+af979c2,TW,2017-06-07 02:04:25,Merge pull request #2617 from ThomasWaldmann/fix-parse-version,2556
+a7e8e8c,Thomas Waldmann,2017-06-06 00:42:12,"fix parse_version, add tests, fixes #2556",2556,src/borg/testsuite/version.py
+a7e8e8c,Thomas Waldmann,2017-06-06 00:42:12,"fix parse_version, add tests, fixes #2556",2556,src/borg/version.py
+50bcd78,TW,2017-06-05 09:59:17,"recreate: keep timestamps as in original archive, fixes #2384 (#2607)",2384,src/borg/archive.py
+2dcbe02,enkore,2017-05-25 09:26:09,Merge pull request #2528 from ThomasWaldmann/follow-symlinks,2507
+b484c79,Thomas Waldmann,2017-05-18 02:02:51,"document follow_symlinks requirements, check libc, fixes #2507",2507,src/borg/archiver.py
+b484c79,Thomas Waldmann,2017-05-18 02:02:51,"document follow_symlinks requirements, check libc, fixes #2507",2507,src/borg/helpers.py
+6109d22,enkore,2017-04-28 10:50:23,Merge pull request #2443 from ThomasWaldmann/verify-data-defect-chunk-processing,2442
+28b0700,Thomas Waldmann,2017-04-25 15:48:16,"verify_data: fix IntegrityError handling for defect chunks, fixes #2442",2442,src/borg/archive.py
+03457e9,enkore,2017-04-06 09:06:46,Merge pull request #2389 from ThomasWaldmann/rename-with-placeholders,2386
+c7256ab,Thomas Waldmann,2017-04-06 01:03:24,"borg rename: expand placeholders, fixes #2386",2386,src/borg/archiver.py
+e949dfc,TW,2017-03-25 15:24:58,Merge pull request #2332 from ThomasWaldmann/fix-auto-compression,2331
+2414cd4,Thomas Waldmann,2017-03-23 23:57:30,"use immutable data structure for the compression spec, fixes #2331",2331,src/borg/archive.py
+2414cd4,Thomas Waldmann,2017-03-23 23:57:30,"use immutable data structure for the compression spec, fixes #2331",2331,src/borg/archiver.py
+2414cd4,Thomas Waldmann,2017-03-23 23:57:30,"use immutable data structure for the compression spec, fixes #2331",2331,src/borg/helpers.py
+2414cd4,Thomas Waldmann,2017-03-23 23:57:30,"use immutable data structure for the compression spec, fixes #2331",2331,src/borg/key.py
+2414cd4,Thomas Waldmann,2017-03-23 23:57:30,"use immutable data structure for the compression spec, fixes #2331",2331,src/borg/testsuite/helpers.py
+23f6a82,Thomas Waldmann,2017-03-11 05:39:30,"fix borg key/debug/benchmark crashing without subcommand, fixes #2240",2240,src/borg/archiver.py
+89114d4,TW,2017-03-04 17:54:58,Merge pull request #2198 from Abogical/too-big-xattr,2161
+503e9a2,TW,2017-03-04 00:01:02,Fix compression exceptions (#2224),2221,src/borg/helpers.py
+503e9a2,TW,2017-03-04 00:01:02,Fix compression exceptions (#2224),2221,src/borg/testsuite/archiver.py
+20a5282,Dan Christensen,2017-02-21 22:48:42,"In api decorator, pass wait argument to RemoteRepository.call; fixes #2185",2185,src/borg/remote.py
+268d74b,TW,2017-02-21 21:57:23,Merge pull request #2181 from ThomasWaldmann/fix-2180,2180
+b82f648,Thomas Waldmann,2017-02-19 00:49:36,"archive check: detect and fix missing all-zero replacement chunks, fixes #2180",2180,src/borg/archive.py
+8d432b0,Thomas Waldmann,2017-02-13 04:12:12,"paperkey.html - decode as utf-8, fixes #2150",2150,src/borg/testsuite/archiver.py
+528891a,TW,2017-01-28 14:17:57,Merge pull request #2100 from ThomasWaldmann/fix-double-magic,2099
+6996fa6,Thomas Waldmann,2017-01-23 20:47:33,"creating a new segment: use ""xb"" mode, fixes #2099",2099,borg/repository.py
+c925ac0,enkore,2017-01-14 12:23:13,Merge pull request #2040 from ThomasWaldmann/fix-crc32-compile,2039
+ededb6f,Thomas Waldmann,2017-01-14 05:06:15,"fix crc32 compile error, fixes #2039",2039
+7f63ca8,TW,2016-12-14 02:50:08,Merge pull request #1953 from ThomasWaldmann/fix-1932,1932
+5a40870,Thomas Waldmann,2016-12-14 00:00:09,"add a borg debug/key dummy command, fixes #1932",1932,borg/archiver.py
+cdd9891,enkore,2016-11-30 01:03:17,Merge pull request #1905 from ThomasWaldmann/fix-1903,1903
+989b228,Thomas Waldmann,2016-11-30 00:37:30,"fix TypeError in errorhandler, fixes #1903",1903,borg/key.py
+b25de0a,TW,2016-11-29 19:26:17,Merge pull request #1895 from ThomasWaldmann/fix-1894,1894
+cd50e28,Thomas Waldmann,2016-11-29 01:34:11,"fix traceback in Error handler if id is None, fixes #1894",1894,borg/key.py
+91fa568,Thomas Waldmann,2016-11-24 00:33:03,add note about issue #1837,1837
+df5482d,TW,2016-11-20 00:22:59,Merge pull request #1864 from ThomasWaldmann/fix-newest-mtime,1860
+cabcbc5,Thomas Waldmann,2016-11-20 00:08:33,"fix determination of newest mtime, fixes #1860",1860,borg/cache.py
+f7d20f8,TW,2016-10-13 00:19:52,Merge pull request #1710 from ThomasWaldmann/path-with-colon,1705
+cf0359e,Thomas Waldmann,2016-10-10 19:16:35,"allow pathes with colons, fixes #1705",1705,borg/helpers.py
+cf0359e,Thomas Waldmann,2016-10-10 19:16:35,"allow pathes with colons, fixes #1705",1705,borg/testsuite/helpers.py
+f500689,Thomas Waldmann,2016-10-10 05:18:43,update changed repo location immediately after acceptance,1524,borg/cache.py
+e9486ec,enkore,2016-09-26 09:30:49,Merge pull request #1643 from ThomasWaldmann/fix-1551,1551
+60c5482,Thomas Waldmann,2016-09-26 04:34:25,"fix closed FD issue, fixes #1551",1551,borg/repository.py
+43432f9,TW,2016-09-25 23:09:47,Merge pull request #1615 from enkore/issue/1598,1598
+d9b880f,Thomas Waldmann,2016-09-23 23:43:16,"fix signal handling, fixes #1620",1620,borg/archiver.py
+d9b880f,Thomas Waldmann,2016-09-23 23:43:16,"fix signal handling, fixes #1620",1620,borg/helpers.py
+79617d4,TW,2016-09-23 03:30:02,Merge pull request #1629 from ThomasWaldmann/fix-narrow-terminal-crash,1628
+7e7dd96,Thomas Waldmann,2016-09-23 00:26:04,"adapt formatting to narrow screens, do not crash, fixes #1628",1628,borg/helpers.py
+3917047,Thomas Waldmann,2016-09-15 20:31:57,"fuse: fix hardlinks in versions view, fixes #1599",1599,src/borg/fuse.py
+8a62b16,enkore,2016-09-13 23:54:08,Merge pull request #1594 from julian-klode/bugfix/sighup,1593
+c8f4e9e,Julian Andres Klode,2016-09-13 21:28:16,"Correctly exit with proper unlock on SIGHUP, fixes #1593",1593,borg/archiver.py
+f32c885,Thomas Waldmann,2016-08-18 23:05:58,update CHANGES with description of issue #1428,1428
+8718c24,enkore,2016-08-16 21:28:30,Merge pull request #1488 from ThomasWaldmann/fix-timestamp-key-name,1487
+95cf337,Marian Beermann,2016-08-08 14:49:25,Fix untracked segments made by moved DELETEs,1442,borg/repository.py
+4e5b80b,TW,2016-08-12 18:21:59,Merge pull request #1464 from ThomasWaldmann/fix-xattr-exception,1462
+17c77a5,Thomas Waldmann,2016-08-11 15:30:50,"xattr: dynamically grow result buffer until it fits, fixes #1462",1462,borg/testsuite/xattr.py
+17c77a5,Thomas Waldmann,2016-08-11 15:30:50,"xattr: dynamically grow result buffer until it fits, fixes #1462",1462,borg/xattr.py
+316c0cd,TW,2016-08-09 18:36:55,Merge pull request #1455 from ThomasWaldmann/fix-compr-buffer-size,1453
+4c51bed,TW,2016-08-09 18:17:03,Merge pull request #1454 from ThomasWaldmann/enfore-max-object-size-put,1451
+a360307,Thomas Waldmann,2016-08-08 21:45:53,"repo: do not put objects that we won't get, fixes #1451",1451,borg/repository.py
+a360307,Thomas Waldmann,2016-08-08 21:45:53,"repo: do not put objects that we won't get, fixes #1451",1451,borg/testsuite/repository.py
+d3000a7,Thomas Waldmann,2016-08-09 00:33:12,"LZ4: dynamically enlarge the (de)compression buffer, fixes #1453",1453,borg/archiver.py
+d3000a7,Thomas Waldmann,2016-08-09 00:33:12,"LZ4: dynamically enlarge the (de)compression buffer, fixes #1453",1453,borg/helpers.py
+d3000a7,Thomas Waldmann,2016-08-09 00:33:12,"LZ4: dynamically enlarge the (de)compression buffer, fixes #1453",1453,borg/key.py
+d3000a7,Thomas Waldmann,2016-08-09 00:33:12,"LZ4: dynamically enlarge the (de)compression buffer, fixes #1453",1453,borg/testsuite/compress.py
+109c095,TW,2016-08-05 14:19:56,Merge pull request #1435 from ThomasWaldmann/fix-1430,1430
+b96bc15,Thomas Waldmann,2016-08-04 00:06:15,"fix unintended file cache eviction, fixes #1430",1430,borg/cache.py
+1ccadd4,TW,2016-07-30 15:43:05,Merge pull request #1403 from ThomasWaldmann/fix-1125,1125
+2cb9533,TW,2016-07-30 15:28:29,Merge pull request #1402 from ThomasWaldmann/fix-1351,1351
+32320c2,Thomas Waldmann,2016-07-29 00:14:06,"FUSE: always create a root dir, fixes #1125",1125,borg/fuse.py
+edea587,Thomas Waldmann,2016-07-28 22:10:29,"catch unpacker exceptions, resync, fixes #1351",1351,borg/archive.py
+694db39,TW,2016-07-07 04:01:31,Merge pull request #1277 from ThomasWaldmann/fuse-xattr-errcode,1126
+4d7b0f3,Thomas Waldmann,2016-07-07 03:38:21,"fuse: getxattr fail must use errno.ENOATTR, fixes #1126",1126,borg/fuse.py
+19d1bbf,Thomas Waldmann,2016-07-05 00:44:00,"add advice about issue #1138, fixes #1223",1138
+a3ef692,Thomas Waldmann,2016-07-02 19:44:26,"reimplement --read-special, fixes #1241",1241,borg/archive.py
+a3ef692,Thomas Waldmann,2016-07-02 19:44:26,"reimplement --read-special, fixes #1241",1241,borg/archiver.py
+7c8783e,Thomas Waldmann,2016-07-02 18:47:22,"Revert ""in --read-special mode, follow symlinks, fixes #1215""",1215,borg/archiver.py
+1242653,enkore,2016-06-29 17:12:11,Merge pull request #1216 from ThomasWaldmann/read-special-follow-symlink,1215
+c3073ba,Thomas Waldmann,2016-06-28 18:49:51,"in --read-special mode, follow symlinks, fixes #1215",1215,borg/archiver.py
+6a5121a,TW,2016-06-27 17:22:12,Merge pull request #1207 from ThomasWaldmann/issue-1205,1205
+5791b89,Thomas Waldmann,2016-06-26 23:04:04,"use bytes type for ACL attributes, fixes #1205",1205,src/borg/item.py
+36b1863,Thomas Waldmann,2016-06-26 20:45:22,"use long long for AES block counter, fixes #1206",1206
+6407742,Thomas Waldmann,2016-06-21 23:36:30,"support placeholders for --prefix (everywhere), fixes #1027",1027,borg/archiver.py
+6407742,Thomas Waldmann,2016-06-21 23:36:30,"support placeholders for --prefix (everywhere), fixes #1027",1027,borg/helpers.py
+d9b77d5,TW,2016-06-09 22:08:55,Merge pull request #1148 from ThomasWaldmann/fix-1135,1135
+918e0b2,Thomas Waldmann,2016-06-09 21:08:39,"fix resync and msgpacked item qualifier, fixes #1135",1135,borg/archive.py
+918e0b2,Thomas Waldmann,2016-06-09 21:08:39,"fix resync and msgpacked item qualifier, fixes #1135",1135,borg/testsuite/archive.py
+4302ffb,enkore,2016-05-24 23:11:03,Merge pull request #1092 from ThomasWaldmann/fix-stdout,1064
+9fff2af,Thomas Waldmann,2016-05-24 22:40:20,"fix crashing borg extract --stdout, fixes #1064",1064,borg/archive.py
+13a4e40,enkore,2016-05-19 00:29:14,Merge pull request #1053 from ThomasWaldmann/wcswidth,1051
+bf00eba,Thomas Waldmann,2016-05-18 18:32:29,"use swidth when doing terminal  output width computations, fixes #1051",1051,borg/helpers.py
+21f7538,TW,2016-05-02 01:26:06,Merge pull request #1000 from ThomasWaldmann/prune-ignore-checkpoints,997
+b743fd0,Thomas Waldmann,2016-05-02 01:12:15,"borg prune: ignore checkpoints, fixes #997",997,borg/archiver.py
+b743fd0,Thomas Waldmann,2016-05-02 01:12:15,"borg prune: ignore checkpoints, fixes #997",997,borg/testsuite/archiver.py
+81a1952,TW,2016-04-24 02:35:34,Merge pull request #978 from ThomasWaldmann/fix-osx,933
+5a7c027,Thomas Waldmann,2016-04-24 02:25:04,"vagrant: OS X update osxfuse / fix lzma, fixes #933",933
+3060332,TW,2016-04-19 00:50:45,Merge pull request #944 from ThomasWaldmann/fix-942,942
+d52b5cf,Thomas Waldmann,2016-04-19 00:05:44,"prune: fix bad validator, fixes #942",942,borg/archiver.py
+90a9fbd,Marian Beermann,2016-04-11 22:08:07,hashindex_summarize: fix missing byte-order conversion,886
+d12c1de,Marian Beermann,2016-04-11 12:50:39,borg delete: fix --cache-only for broken caches,874,borg/archiver.py
+d12c1de,Marian Beermann,2016-04-11 12:50:39,borg delete: fix --cache-only for broken caches,874,borg/cache.py
+8dbbc35,TW,2016-04-10 16:52:39,Merge pull request #875 from bket/1.0-maint,873
+fd10d13,Björn Ketelaars,2016-04-10 16:24:58,fix issue #873,873,borg/archiver.py
+b59f92a,Marian Beermann,2016-04-06 10:04:35,Test suite: Reset exit code of persistent archiver,844,borg/testsuite/archiver.py
+e494d24,Alexander Pyhalov,2016-03-27 15:03:27,"failing hashindex tests on netbsd, fixes #804",804
+5a0f75d,TW,2016-03-28 01:14:00,Merge pull request #806 from pyhalov/804,804
+a97c9f9,Alexander Pyhalov,2016-03-27 15:03:27,"failing hashindex tests on netbsd, fixes #804",804
+f486a67,Thomas Waldmann,2016-03-19 21:19:30,"do not sleep for >60s while waiting for lock, fixes #773",773,borg/locking.py
+77dfcbc,TW,2016-03-18 00:46:39,Merge pull request #763 from enkore/issue-761,761
+9211d0f,Marian Beermann,2016-03-17 22:39:57,borg extract: fix links failing for sub-tree extractions,761,borg/archive.py
+9211d0f,Marian Beermann,2016-03-17 22:39:57,borg extract: fix links failing for sub-tree extractions,761,borg/archiver.py
+9211d0f,Marian Beermann,2016-03-17 22:39:57,borg extract: fix links failing for sub-tree extractions,761,borg/helpers.py
+9211d0f,Marian Beermann,2016-03-17 22:39:57,borg extract: fix links failing for sub-tree extractions,761,borg/testsuite/archiver.py
+489eb78,Marian Beermann,2016-03-14 20:25:30,Possible fix to silently skipping EIO and the like? #748,748
+347615b,TW,2016-03-15 15:07:19,Merge pull request #749 from enkore/issue-748,748
+fbc4c0c,Marian Beermann,2016-03-14 20:25:30,Possible fix to silently skipping EIO and the like? #748,748
+b046006,TW,2016-03-05 02:19:14,Merge pull request #712 from ThomasWaldmann/pw-retries,703
+3dc2fc0,Thomas Waldmann,2016-03-05 00:54:19,"added retry counter for passwords, fixes #703",703,borg/key.py
+fb83f61,TW,2016-02-20 13:33:43,Merge pull request #682 from ThomasWaldmann/validate-newname,680
+3d0e511,TW,2016-02-20 13:29:36,Merge pull request #678 from ThomasWaldmann/fix-open,657
+4a60d77,Thomas Waldmann,2016-02-19 23:01:20,"add a simple archivename validator, fixes #680",680,borg/archiver.py
+4a60d77,Thomas Waldmann,2016-02-19 23:01:20,"add a simple archivename validator, fixes #680",680,borg/helpers.py
+e072a52,Thomas Waldmann,2016-02-18 23:01:55,"fix _open_rb noatime handling, fixes #657",657,borg/archive.py
+824ba53,Thomas Waldmann,2016-02-08 20:17:35,"borg create --stats: show timestamps in localtime, use same labels/formatting as borg info, fixes #651",651,borg/archive.py
+1702b53,TW,2016-02-05 17:04:01,Merge pull request #632 from ThomasWaldmann/fix-610,610
+4843719,Thomas Waldmann,2016-02-04 23:19:35,"Cache: fix exception handling in __init__, release lock, fixes #610",610,borg/cache.py
+cf0262c,Profpatsch,2016-01-18 18:12:44,Fix upgrade without ~/attic/keys existing.,576,borg/upgrader.py
+735fe55,TW,2016-01-18 16:16:54,Merge pull request #571 from ThomasWaldmann/fix-570,570
+4c00bb0,Thomas Waldmann,2016-01-18 14:30:41,"fix crash when using borg create --dry-run --keep-tag-files, fixes #570",570,borg/archiver.py
+1878e22,TW,2016-01-18 01:00:17,Merge pull request #566 from ThomasWaldmann/cache-ctxmgr,285
+22f218b,Thomas Waldmann,2016-01-17 01:09:13,"implement and use context manager for Cache, partial fix for #285",285,borg/archiver.py
+22f218b,Thomas Waldmann,2016-01-17 01:09:13,"implement and use context manager for Cache, partial fix for #285",285,borg/cache.py
+c667d33,TW,2016-01-16 18:46:13,Merge pull request #561 from ThomasWaldmann/fix-locking,502
+845d214,Thomas Waldmann,2015-12-22 12:11:36,"fix locking, partial fix for #502",502,borg/locking.py
+4a9672e,TW,2016-01-12 19:58:04,Merge pull request #538 from ThomasWaldmann/fix-library-path,514
+170f847,Thomas Waldmann,2016-01-11 02:08:58,"unset LD_LIBRARY_PATH before invoking ssh, hopefully fixes #514",514,borg/remote.py
+8cb901b,TW,2015-12-20 02:21:53,Merge pull request #504 from ThomasWaldmann/fix-503,503
+57b913b,Thomas Waldmann,2015-12-20 02:03:33,"fix badly named environment variable, fixes #503",503,borg/archiver.py
+57b913b,Thomas Waldmann,2015-12-20 02:03:33,"fix badly named environment variable, fixes #503",503,borg/testsuite/archiver.py
+57b913b,Thomas Waldmann,2015-12-20 02:03:33,"fix badly named environment variable, fixes #503",503,borg/testsuite/benchmark.py
+2e2e145,Thomas Waldmann,2015-12-12 21:24:21,"sane remote logging, remote stderr, fixes #461",461,borg/archiver.py
+2e2e145,Thomas Waldmann,2015-12-12 21:24:21,"sane remote logging, remote stderr, fixes #461",461,borg/logger.py
+2e2e145,Thomas Waldmann,2015-12-12 21:24:21,"sane remote logging, remote stderr, fixes #461",461,borg/remote.py
+e3d5898,Thomas Waldmann,2015-12-11 22:18:18,"borg upgrade - use inplace parameter, fixes #466",466,borg/upgrader.py
+bbeda1f,TW,2015-12-10 13:34:02,Merge pull request #481 from ThomasWaldmann/fix-progress,476
+17bfcf3,TW,2015-12-10 13:33:41,Merge pull request #482 from ThomasWaldmann/fix-upgrade,466
+60babd1,Thomas Waldmann,2015-12-10 11:59:13,"borg upgrade - do not overwrite backup_repo/index.*, fixes #466",466,borg/upgrader.py
+34b3576,Thomas Waldmann,2015-12-10 10:28:43,"remove --progress magic, fixes #476",476,borg/archiver.py
+34b3576,Thomas Waldmann,2015-12-10 10:28:43,"remove --progress magic, fixes #476",476,borg/testsuite/archiver.py
+41eab54,Thomas Waldmann,2015-12-08 10:33:27,"add borg upgrade to the docs, fixes #464",464
+3ca1d33,Jakob Schnitzer,2015-12-07 18:40:06,fix format of umask in help pages,463,borg/archiver.py
+2d4a71a,TW,2015-11-22 14:08:25,Merge pull request #439 from ThomasWaldmann/avoid-orphan-locks,285
+b1ba7a8,Thomas Waldmann,2015-11-19 20:03:50,"--keep-tag-files: fix file status, fix multiple tag files in one directory, fixes #432",432,borg/archiver.py
+b1ba7a8,Thomas Waldmann,2015-11-19 20:03:50,"--keep-tag-files: fix file status, fix multiple tag files in one directory, fixes #432",432,borg/helpers.py
+b1ba7a8,Thomas Waldmann,2015-11-19 20:03:50,"--keep-tag-files: fix file status, fix multiple tag files in one directory, fixes #432",432,borg/testsuite/archiver.py
+234a88b,Thomas Waldmann,2015-11-15 15:52:02,"avoid hidden import, make it easy for pyinstaller",218,borg/logger.py
+8e36075,Antoine Beaupré,2015-11-13 10:42:16,commit usage files directly into git,384
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/archive.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/archiver.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/cache.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/fuse.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/helpers.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/key.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/remote.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,borg/repository.py
+f13dd6e,Antoine Beaupré,2015-11-13 10:38:50,completely remove have_cython() hack,384,setup.py
+f52fb41,Antoine Beaupré,2015-11-13 10:31:56,"Revert ""use build_py to fix build on RTD"", disables docs build",384,setup.py
+1a20d3d,TW,2015-11-06 21:05:30,Merge pull request #366 from ThomasWaldmann/fix-364,364
+98f3b8d,Thomas Waldmann,2015-11-03 13:46:00,"fix ""check"" for repos that have incomplete chunks, fixes #364",364,borg/repository.py
+a69f7b0,Thomas Waldmann,2015-11-02 21:06:04,"vagrant: use pyinstaller from develop branch, fixes #336",336
+3c2dee6,Thomas Waldmann,2015-10-31 19:50:53,"vagrant: fix msgpack installation on centos, fixes #342",342
+b453547,TW,2015-10-27 23:01:05,Merge pull request #340 from ThomasWaldmann/fix-fuse-locking,331
+dd577bf,Thomas Waldmann,2015-10-27 22:37:36,"fuse mount: fix unlocking of repository at umount time, fixes #331",331,borg/archiver.py
+dd577bf,Thomas Waldmann,2015-10-27 22:37:36,"fuse mount: fix unlocking of repository at umount time, fixes #331",331,borg/locking.py
+c4599d8,Antoine Beaupré,2015-10-15 18:39:34,fix cascading failure with the index conversion code,281,borg/upgrader.py
+e7f25d7,Thomas Waldmann,2015-10-16 01:18:37,"docs: use zlib,6 compression in some examples, fixes #275",275
+a4967ec,Thomas Waldmann,2015-10-07 03:32:55,"ssh_cmd: fix wrong caller, fixes #255",255,borg/remote.py
+934f18f,TW,2015-10-06 00:14:31,Merge pull request #246 from ThomasWaldmann/lock-roster-fix,232
+c50f324,Thomas Waldmann,2015-10-05 23:23:59,"do not crash on empty lock.roster, fixes #232",232,borg/locking.py
+e0a08c5,Thomas Waldmann,2015-09-19 18:16:47,"borg extract: warn if a include pattern never matched, fixes #209",209,borg/archiver.py
+375717c,Thomas Waldmann,2015-09-18 00:02:44,"tests: work around strange mtime granularity issue on netbsd, fixes #204",204,borg/testsuite/__init__.py
+48634d4,Thomas Waldmann,2015-09-17 22:41:49,"tests: ignore st_rdev if file is not a block/char device, fixes #203",203,borg/testsuite/__init__.py
+18e428f,TW,2015-09-06 21:33:24,Merge pull request #185 from ThomasWaldmann/fix-182,182
+f5069c4,Thomas Waldmann,2015-09-06 21:11:52,"fix reaction to ""no"" answer at delete repo prompt, fixes #182",182,borg/archiver.py
+d2e5ce9,Thomas Waldmann,2015-08-29 05:41:41,"add FAQ entry about OS X commandline vs. HFS+ encoding issue, see #143.",143
+d779057,Thomas Waldmann,2015-08-29 04:46:13,"fix issue with negative ""all archives"" size, fixes #165",165
+9ebc53a,Thomas Waldmann,2015-08-29 00:11:04,"restore_xattrs: ignore if setxattr fails with EACCES,  fixes #162",162,borg/archive.py
+c8d55e7,TW,2015-07-26 17:42:30,Merge pull request #115 from ThomasWaldmann/delete-repo,114
+1955450,Thomas Waldmann,2015-07-26 17:38:16,"repo delete: add destroy to allowed rpc methods, fixes issue #114",114,borg/archiver.py
+1955450,Thomas Waldmann,2015-07-26 17:38:16,"repo delete: add destroy to allowed rpc methods, fixes issue #114",114,borg/remote.py
+1955450,Thomas Waldmann,2015-07-26 17:38:16,"repo delete: add destroy to allowed rpc methods, fixes issue #114",114,borg/testsuite/archiver.py
+9cb038a,TW,2015-07-15 13:43:44,Merge pull request #99 from ThomasWaldmann/attic_issue_232,232
+e4a41c8,Thomas Waldmann,2015-07-15 13:32:05,"fix Traceback when running check --repair, attic issue #232",232,borg/archive.py
+e4a41c8,Thomas Waldmann,2015-07-15 13:32:05,"fix Traceback when running check --repair, attic issue #232",232,borg/cache.py
+2b34810,Jonas Borgström,2015-05-24 21:48:03,hashindex: Fix hashindex ARM memory alignment issue,309
+7cbff69,Thomas Waldmann,2015-05-14 17:36:53,Documentation for 'attic serve',277
+310f9b7,Thomas Waldmann,2015-04-18 21:43:47,PR #285 - Merge branch 'archive_timestamp' into merge,285
+084f6e1,Thomas Waldmann,2015-03-08 04:20:13,PR #222 - Merge branch 'issue_189' of https://github.com/ThomasWaldmann/attic into merge,222
+0b4e324,Cyril Roussillon,2014-05-13 19:52:42,chunker: optimized the barrel shift,338

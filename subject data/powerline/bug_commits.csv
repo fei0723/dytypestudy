@@ -1,0 +1,349 @@
+commit,author,date,title,faultID,file
+5adb7d1,Nikolai Aleksandrovich Pavlov,2017-09-02 22:39:28,Fix data type in branch segment documentation,1827,powerline/segments/common/vcs.py
+6b3c71b,Nikolai Aleksandrovich Pavlov,2017-08-22 10:30:49,Do not use negative indexes,1821
+234091c,Foo,2017-07-01 02:57:53,Specify argparse dependency,1791,setup.py
+4dc590b,Nikolai Aleksandrovich Pavlov,2017-06-03 23:15:48,Merge pull request #1785 from martingabelmann/fix-1784,1784
+7189f35,Martin Gabelmann,2017-06-03 21:25:44,"add awesome4+ support, fixes #1784",1784
+3c49ed1,Foo,2017-06-02 21:12:05,Check that bash has (no) $PIPESTATUS support before using it,1782
+d9f12a4,s-ol,2017-03-07 22:36:51,assume latest tmux version if -V returns 'master',1727,powerline/bindings/tmux/__init__.py
+0299dd1,fogine,2017-03-11 09:21:40,fix incorrect segment type `segments_list` - should be `segment_list`,1738
+64c9761,Nikolai Aleksandrovich Pavlov,2017-02-14 11:00:40,Merge pull request #1722 from incertia/vim-completion,1719
+e2e0d73,Will Song,2017-02-13 17:57:22,"Add default colors and mode text for vim completion modes `ic`, `ix`, `Rc`, and `Rx`.",1719
+09821d9,Foo,2017-02-06 16:46:21,Add support for new Vim modes,1715,powerline/segments/vim/__init__.py
+1965918,Foo,2017-02-06 16:32:45,Add support for unknown modes in Vim,1715,powerline/segments/vim/__init__.py
+1965918,Foo,2017-02-06 16:32:45,Add support for unknown modes in Vim,1715,tests/test_segments.py
+5b9487e,Foo,2017-02-05 13:43:05,Make it work with ipython-5.2.2,1709,powerline/bindings/ipython/since_5.py
+b7d030a,Foo,2017-01-06 09:04:50,Merge commit '21ea62d' into HEAD,1702
+51fabca,YangBy,2016-12-01 12:58:30,Fix filenames for linux power supply class in battery segment.,1605,powerline/segments/common/bat.py
+3739526,Foo,2016-10-29 15:37:01,Provide another default theme with less troublesome characters,1652,powerline/__init__.py
+be762da,Foo,2016-09-17 18:24:47,Provide explicit scope information in powerline.zsh,1647
+4b8798f,Foo,2016-08-17 22:27:37,Use $TMUX_PANE if it is defined,1637
+70246c3,Foo,2016-08-17 22:27:37,Use $TMUX_PANE if it is defined,1637
+ed69b98,Elliott Sales de Andrade,2016-07-06 19:20:31,Fix trailing whitespace segment on Python 3.,1613,powerline/segments/vim/__init__.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/bindings/ipython/post_0_11.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/bindings/ipython/pre_0_11.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/ipython.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/renderer.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/renderers/ipython/__init__.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/renderers/ipython/pre_5.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/renderers/ipython/since_5.py
+2954c83,Foo,2016-07-08 20:24:38,Add support for IPython-5,1617,powerline/renderers/shell/__init__.py
+2a4e818,Foo,2016-05-15 13:53:22,Merge branch 'pr-1598' into develop,1596
+41a50fe,Phil Thomas,2016-05-12 10:00:40,Use different query to retrieve weather,1571,powerline/segments/common/wthr.py
+41a50fe,Phil Thomas,2016-05-12 10:00:40,Use different query to retrieve weather,1571,tests/lib/__init__.py
+41a50fe,Phil Thomas,2016-05-12 10:00:40,Use different query to retrieve weather,1571,tests/test_segments.py
+d115012,Nikolai Aleksandrovich Pavlov,2016-04-30 22:48:30,Merge pull request #1585 from ZyX-I/fix-tmux-2.1,1583
+dc14421,Foo,2016-03-27 03:22:05,Use proper dictionary for getting “elapsed” value in mpd bindings,1550,powerline/segments/common/players.py
+2f1893a,FocusedWolf,2016-03-24 04:52:45,Fix LC_MESSAGES AttributeError,1555,powerline/lib/encoding.py
+e9b70b9,Foo,2016-03-19 23:07:01,Make Popen.communicate receive only bytes,1547,powerline/lib/shell.py
+e9b70b9,Foo,2016-03-19 23:07:01,Make Popen.communicate receive only bytes,1547,tests/lib/__init__.py
+e9b70b9,Foo,2016-03-19 23:07:01,Make Popen.communicate receive only bytes,1547,tests/test_lib.py
+00212fa,Daniel Hahler,2016-03-06 19:50:57,docs/source/usage/other.rst: fix typo in note,1540
+73dcc78,Nikolai Aleksandrovich Pavlov,2016-02-10 23:10:02,Update command used to install macvim with brew,1526
+3dd71c6,mr.Shu,2016-02-07 15:48:00,fix: Make dbus battery status consistent,1499,powerline/segments/common/bat.py
+1e0228a,Mook,2015-11-28 12:07:01,[Battery - Linux] Look at battery status instead of AC online-ness,1498,powerline/segments/common/bat.py
+4265da2,Mook,2015-11-28 11:28:51,[Players - mpd] Use Unicode where available,1500,powerline/segments/common/players.py
+6efabc1,John Drouhard,2015-11-14 12:38:07,Fix performance issue with tabline and showtabline=2,1281,powerline/listers/vim.py
+4e7f399,Nikolai Aleksandrovich Pavlov,2015-11-08 18:10:28,Merge pull request #1486 from michelesr/develop,1483
+2063411,Michele Sorcinelli,2015-11-08 12:40:43,Fix #1483 -- [Battery - Linux] Fix AC status fetch,1483,powerline/segments/common/bat.py
+c4b4097,Foo,2015-10-19 21:56:46,Transform pane_id to unicode before using,1470,powerline/commands/main.py
+c4b4097,Foo,2015-10-19 21:56:46,Transform pane_id to unicode before using,1470,powerline/renderers/tmux.py
+69d3bdf,Nikolai Aleksandrovich Pavlov,2015-10-06 00:27:08,Fix typo (missing letter) in installation/osx.rst,1463
+783b0f7,Nikolai Aleksandrovich Pavlov,2015-09-29 13:50:40,Do not state that patched font does not work for rxvt-unicode,1455
+b8e09b3,Foo,2015-08-30 13:21:01,Fix support for passworded connections in mpd+python-mpd* player seg,1437,powerline/segments/common/players.py
+a272c6a,Foo,2015-08-30 01:21:49,Use net_io_counters by default also in _get_interfaces,1435,powerline/segments/common/net.py
+9b71beb,Foo,2015-07-19 14:40:39,Workaround tmux bug: additional space in display -p '#D' output,1412,powerline/renderers/tmux.py
+18f3d18,Nikolai Aleksandrovich Pavlov,2015-07-19 14:24:02,Merge pull request #1414 from Siosm/develop,1388
+9ce7fa3,Timothée Ravier,2015-07-19 11:05:15,docs: fix manpage generation with python3,1388,docs/source/powerline_automan.py
+248c2f8,Foo,2015-06-15 01:28:30,Use psutil.boot_time() function if appropriate,1391,powerline/segments/common/sys.py
+fe3b3b1,Foo,2015-05-23 15:12:43,Automatically truncate tmux status line when needed,1328,powerline/renderers/tmux.py
+acb7c27,Foo,2015-05-17 11:35:27,Use different highlight group for network_load divider,1368,powerline/segments/common/net.py
+acb7c27,Foo,2015-05-17 11:35:27,Use different highlight group for network_load divider,1368,tests/test_segments.py
+802d806,Foo,2015-05-10 22:30:01,Merge branch 'fix-cmdline' into develop,1357
+cf76231,Foo,2015-05-10 17:44:38,Make `side` argument non-optional,1294,powerline/commands/main.py
+d8373dd,Foo,2015-05-10 17:29:57,Add missing tmux colors to solarized colorscheme,1214
+bd9359c,Foo,2015-05-09 00:57:21,Use direct execution by default,1354,powerline/bindings/config.py
+bd9359c,Foo,2015-05-09 00:57:21,Use direct execution by default,1354,powerline/bindings/tmux/__init__.py
+bd9359c,Foo,2015-05-09 00:57:21,Use direct execution by default,1354,powerline/commands/config.py
+9f7e59d,Foo,2015-05-09 00:13:44,Ignore some tmux failures,1354,powerline/bindings/config.py
+9f7e59d,Foo,2015-05-09 00:13:44,Ignore some tmux failures,1354,powerline/bindings/tmux/__init__.py
+d464ff8,Foo,2015-04-17 22:01:10,Fix warning when &l:statusline is set to a unicode value,1347,powerline/vim.py
+6b2b6d1,Nikolai Aleksandrovich Pavlov,2015-04-04 15:36:19,Merge pull request #1343 from radriaanse/patch-1,1341
+07cae38,Foo,2015-04-03 22:42:23,Reword troubleshooting question regarding automatic vimrc resoursing,1342
+ff49538,Foo,2015-03-11 22:49:36,Do not leak environment and home directory in documentation,1329,docs/source/powerline_autodoc.py
+9960a8f,Foo,2015-03-11 22:08:30,Always write str() objects to the stream in echoerr,1331,powerline/lint/markedjson/error.py
+209bff3,Foo,2015-03-01 16:17:09,"Do not write empty lines from above, do not reset hl for empty lines",1322,powerline/bindings/zsh/__init__.py
+209bff3,Foo,2015-03-01 16:17:09,"Do not write empty lines from above, do not reset hl for empty lines",1322,powerline/commands/main.py
+209bff3,Foo,2015-03-01 16:17:09,"Do not write empty lines from above, do not reset hl for empty lines",1322,powerline/renderer.py
+333116d,Nikolai Aleksandrovich Pavlov,2015-03-01 14:53:03,Merge pull request #1325 from ZyX-I/fix-su,1320
+1742571,ZyX,2015-02-20 16:35:34,"Use .timer_setup() to setup timer, fix error from cffi markup renderer",1313,powerline/bindings/qtile/widget.py
+99830ba,ZyX,2015-02-15 01:04:58,Use PEP440-compatible versions,1310,scripts/powerline-release.py
+99830ba,ZyX,2015-02-15 01:04:58,Use PEP440-compatible versions,1310,setup.py
+d5d138f,ZyX,2015-02-07 11:13:16,Do not bother with testing or setting POWERLINE_CONFIG_COMMAND,875
+72d9b83,ZyX,2015-01-31 15:10:06,Fix linter errors: add necessary highlight groups or fix docstrings,1136,powerline/segments/vim/plugin/commandt.py
+c606db7,ZyX,2015-01-26 20:38:56,Remove call to a removed function,1286
+f1aeb7a,ZyX,2015-01-11 18:19:16,Make sure python_to_vim function is able to format lists,1268,powerline/bindings/vim/__init__.py
+4abeab0,ZyX,2015-01-11 00:34:54,Make ext a list,1264,powerline/bindings/config.py
+5d73ca8,ZyX,2015-01-11 00:22:52,Add missing argument to os.environ,1264,powerline/bindings/config.py
+3c21c0f,ZyX,2015-01-07 15:20:29,Fix Linux installation instructions,1251
+2f885eb,ZyX,2015-01-07 00:19:33,Fix function name,1248,powerline/bindings/config.py
+16bf164,ZyX,2015-01-06 16:19:47,Rename `POWERLINE_CONFIG` to `POWERLINE_CONFIG_OVERRIDES`,1124,powerline/bindings/zsh/__init__.py
+b17d03e,ZyX,2015-01-06 16:16:39,Rename `POWERLINE_CONFIG` to `POWERLINE_CONFIG_COMMAND` where appropriate,1124
+4e6b0a7,ZyX,2015-01-06 03:57:38,Remove Control-P plugin support,1244,powerline/matchers/vim/plugin/ctrlp.py
+4e6b0a7,ZyX,2015-01-06 03:57:38,Remove Control-P plugin support,1244,powerline/segments/vim/plugin/ctrlp.py
+4e6b0a7,ZyX,2015-01-06 03:57:38,Remove Control-P plugin support,1244,tests/test_provided_config_files.py
+4e6b0a7,ZyX,2015-01-06 03:57:38,Remove Control-P plugin support,1244,tests/vim.py
+aa456e4,ZyX,2015-01-05 23:53:37,Fix error present when trying to use CtrlP,1244,powerline/segments/vim/plugin/ctrlp.py
+267ea05,ZyX,2014-12-09 19:18:08,Some Vims that have vim.vvars do not accept unicode indexes,1225,powerline/bindings/vim/__init__.py
+bb3295d,ZyX,2014-12-09 19:13:31,Fix typo in battery segment implementation,1229,powerline/segments/common/bat.py
+aaf52c9,ZyX,2014-12-06 00:05:25,Use sockets in abstract namespace only if running on linux,1215,client/powerline.py
+9576738,ZyX,2014-12-04 22:34:00,When parsing JSON join surrogate pairs,1211,powerline/lib/unicode.py
+9576738,ZyX,2014-12-04 22:34:00,When parsing JSON join surrogate pairs,1211,powerline/lint/markedjson/scanner.py
+1e4dee6,ZyX,2014-12-04 21:26:01,Fix colors used in tmux left side,1214
+209d6be,ZyX,2014-12-04 20:23:37,Add support for UCS-2 Python versions,1213,powerline/lint/markedjson/error.py
+209d6be,ZyX,2014-12-04 20:23:37,Add support for UCS-2 Python versions,1213,powerline/renderer.py
+d061deb,ZyX,2014-12-03 07:45:49,Only convert clementine title and album if they are true,1207,powerline/segments/common/players.py
+3f0d538,ZyX,2014-11-29 21:40:06,Use dash hack for PyPy+IPython,919
+0e81486,ZyX,2014-11-29 19:29:36,"Do not hardcode dividers in tmux configuration, use powerline-config",817,powerline/bindings/config.py
+f3ba38e,ZyX,2014-11-29 13:32:54,Move all configuration to powerline-base.conf,717,powerline/bindings/config.py
+7b89533,ZyX,2014-11-28 21:33:17,Fix UnicodeDecodeError in keyvaluesplit reported by @jottr,788,powerline/commands/main.py
+7b89533,ZyX,2014-11-28 21:33:17,Fix UnicodeDecodeError in keyvaluesplit reported by @jottr,788,powerline/lib/encoding.py
+7b89533,ZyX,2014-11-28 21:33:17,Fix UnicodeDecodeError in keyvaluesplit reported by @jottr,788,powerline/renderer.py
+774ec6d,ZyX,2014-11-28 20:37:53,Add note about pip and $PATH,1189
+8afb35b,ZyX,2014-11-11 00:57:18,Use different fallback for old Vims,1146,powerline/bindings/vim/__init__.py
+1350fbe,ZyX,2014-10-18 20:28:18,Include raw_response in error message in weather segment,1112,powerline/segments/common/wthr.py
+cb877e7,ZyX,2014-10-18 20:01:22,Make `powerline-config` without arguments show proper message,1120
+0d3609f,ZyX,2014-10-12 00:41:06,Specify $TERM in place of assuming it is set to something working,1104
+2607fdd,ZyX,2014-10-06 08:45:13,Fix case in nerd tree matcher regex,1105,powerline/matchers/vim/plugin/nerdtree.py
+34e3aed,ZyX,2014-09-27 18:06:53,Add missing argument to get_tmux_output,1097,powerline/segments/tmux.py
+c68eb56,ZyX,2014-09-21 15:52:58,Raise exceptions that are not intercepted when testing,1087,powerline/__init__.py
+c68eb56,ZyX,2014-09-21 15:52:58,Raise exceptions that are not intercepted when testing,1087,powerline/ipython.py
+c68eb56,ZyX,2014-09-21 15:52:58,Raise exceptions that are not intercepted when testing,1087,tests/test_provided_config_files.py
+1a3ff92,ZyX,2014-09-21 15:33:28,Join paths using more robust path joining function,1087,powerline/lib/vcs/__init__.py
+1a3ff92,ZyX,2014-09-21 15:33:28,Join paths using more robust path joining function,1087,powerline/segments/common/env.py
+c5be5c6,ZyX,2014-09-20 14:34:21,Raise an exception when git is not found,531,powerline/lib/vcs/git.py
+5bb993c,ZyX,2014-09-20 14:01:42,Use region_name in place of region_code,1081,powerline/segments/common.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,client/powerline.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/__init__.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/bindings/config.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/bindings/zsh/__init__.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/encoding.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/inotify.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/shell.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/unicode.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/vcs/bzr.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/vcs/git.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/vcs/mercurial.py
+849fef9,ZyX,2014-09-16 20:51:39,Use powerline.lib.encoding* in place of sys.get*encoding/locale.get*,1078,powerline/lib/watcher/uv.py
+a4e711d,ZyX,2014-09-14 14:01:42,Add tests for invalid unicode filenames,1071
+4ed1a7e,ZyX,2014-09-14 13:53:31,Compare bytes() objects in matcher functions,1071,powerline/matchers/vim/__init__.py
+4ed1a7e,ZyX,2014-09-14 13:53:31,Compare bytes() objects in matcher functions,1071,powerline/matchers/vim/plugin/ctrlp.py
+4ed1a7e,ZyX,2014-09-14 13:53:31,Compare bytes() objects in matcher functions,1071,powerline/matchers/vim/plugin/gundo.py
+4ed1a7e,ZyX,2014-09-14 13:53:31,Compare bytes() objects in matcher functions,1071,powerline/matchers/vim/plugin/nerdtree.py
+c8b1334,ZyX,2014-09-08 23:31:33,Do not use _POWERLINE_SHORTENED_PATH or unset it shortly after using,1068,powerline/bindings/zsh/__init__.py
+9f7286e,ZyX,2014-09-07 23:20:49,Raise OSError with errno=ENOENT from uv watcher,1066,powerline/lib/watcher/uv.py
+becb3b1,ZyX,2014-09-07 20:59:04,Convert shortened path to unicode,1064,powerline/segments/shell.py
+074966a,ZyX,2014-09-06 22:45:25,Replace “package” with “module” in a number of places,1059,powerline/segments/common.py
+68263be,ZyX,2014-09-05 19:36:31,"Show current buffer, window and tabpage number by default",1048,powerline/segments/vim/__init__.py
+d569c0b,ZyX,2014-09-05 08:13:35,Skip identical highlighting,1049,powerline/renderer.py
+d569c0b,ZyX,2014-09-05 08:13:35,Skip identical highlighting,1049,powerline/renderers/vim.py
+1a5bbbe,ZyX,2014-09-04 22:20:21,Replace segment-local modes with highlight_group_prefix option,1046,powerline/listers/vim.py
+1a5bbbe,ZyX,2014-09-04 22:20:21,Replace segment-local modes with highlight_group_prefix option,1046,powerline/segment.py
+1a5bbbe,ZyX,2014-09-04 22:20:21,Replace segment-local modes with highlight_group_prefix option,1046,powerline/theme.py
+7bf025c,ZyX,2014-09-04 20:34:06,Add `exclude_/include_function` support,1046,powerline/lint/__init__.py
+7bf025c,ZyX,2014-09-04 20:34:06,Add `exclude_/include_function` support,1046,powerline/segment.py
+7bf025c,ZyX,2014-09-04 20:34:06,Add `exclude_/include_function` support,1046,powerline/theme.py
+7bf025c,ZyX,2014-09-04 20:34:06,Add `exclude_/include_function` support,1046,tests/test_configuration.py
+a2c6d79,ZyX,2014-09-02 22:09:07,Return False in place of None to indicate absense of changes,1052,powerline/lib/watcher/uv.py
+c564b64,ZyX,2014-09-02 22:01:50,Add `is_watching` method to UvWatcher class,1052,powerline/lib/watcher/uv.py
+acd55bb,ZyX,2014-08-26 19:25:32,Handle errors from Renderer._set_highlighting,480,powerline/__init__.py
+acd55bb,ZyX,2014-08-26 19:25:32,Handle errors from Renderer._set_highlighting,480,powerline/renderer.py
+acd55bb,ZyX,2014-08-26 19:25:32,Handle errors from Renderer._set_highlighting,480,powerline/segment.py
+acd55bb,ZyX,2014-08-26 19:25:32,Handle errors from Renderer._set_highlighting,480,powerline/theme.py
+125f309,ZyX,2014-08-29 18:32:58,Fix width used for tabline,1033,powerline/renderers/vim.py
+323f0c4,ZyX,2014-08-28 23:58:22,Use __import__ checks for skipping bzr/mercurial,1015,tests/test_lib.py
+289a08c,ZyX,2014-08-27 22:04:48,"Replace .replace(' ', NBSP) call with self.escape call",1027,powerline/renderer.py
+7e7803f,ZyX,2014-08-27 21:44:29,Make powerline-render respect user locale as well,1023,powerline/shell.py
+2d4897d,ZyX,2014-08-24 17:46:11,Catch errors from tree_status,341,powerline/segments/common.py
+74d147a,ZyX,2014-08-23 03:55:37,Use `open` to open file descriptors in place of `file`,1008
+a50b488,ZyX,2014-08-22 00:30:29,Fix incorrect use of partial,1002,powerline/segments/common.py
+6b51d12,ZyX,2014-08-21 23:10:54,Fix typo in renderer implementation,1003,powerline/renderer.py
+8262a0e,ZyX,2014-08-20 20:34:23,Do not use some features in old Vims as they cause a crash,997,powerline/bindings/vim/__init__.py
+65dfc9f,Jesse,2014-08-15 23:17:00,another workaround for _powerline_tmux_setenv() issue with bash-4.2.45,992
+6c187d9,ZyX,2014-08-15 18:00:09,Call powerline.new_window early under certain conditions,250,powerline/vim.py
+8523282,ZyX,2014-08-15 18:01:17,"Check whether $COLUMNS is empty or zero, not only empty",983
+9e37648,ZyX,2014-08-12 08:11:15,Remove unneeded keyword argument to player function,977,powerline/segments/common.py
+ae2ac05,ZyX,2014-08-06 22:04:15,Handle errors from write(),964
+85ea44b,ZyX,2014-08-06 13:38:45,Do not output \x01/\x02 symbols for non-prompts in ipython,664,powerline/bindings/ipython/post_0_11.py
+85ea44b,ZyX,2014-08-06 13:38:45,Do not output \x01/\x02 symbols for non-prompts in ipython,664,powerline/bindings/ipython/pre_0_11.py
+85ea44b,ZyX,2014-08-06 13:38:45,Do not output \x01/\x02 symbols for non-prompts in ipython,664,powerline/ipython.py
+85ea44b,ZyX,2014-08-06 13:38:45,Do not output \x01/\x02 symbols for non-prompts in ipython,664,powerline/renderers/ipython.py
+85ea44b,ZyX,2014-08-06 13:38:45,Do not output \x01/\x02 symbols for non-prompts in ipython,664,powerline/renderers/ipython_prompt.py
+0c3e380,ZyX,2014-08-05 00:17:58,Set all options quietly,942
+4bb217a,ZyX,2014-08-05 00:07:25,Run refresh-client in tmux not depending on POWERLINE_COMMAND,942,powerline/bindings/config.py
+ead7e3f,ZyX,2014-08-03 18:56:14,Add troubleshooting information discovered in #946,946
+d5081ac,ZyX,2014-08-03 03:21:39,Add note about minibufexpl,230
+5173246,ZyX,2014-08-03 03:04:47,Add note about automatic vimrc resourcing,296
+2e34e19,ZyX,2014-08-03 02:52:14,Add code for Vundle installations and related warning,414
+a7d3fdd,ZyX,2014-08-03 00:12:14,Add note about ``tmux -2``,847
+b6be304,ZyX,2014-08-03 00:10:34,Remove timeout tip,808
+1d696d3,Nikolai Aleksandrovich Pavlov,2014-08-02 22:37:03,Merge pull request #944 from ZyX-I/feature/daemon,827
+191c71c,ZyX,2014-07-29 14:48:26,Do not let powerline trigger loading wrong python,937,powerline/vim.py
+8c7908c,ZyX,2014-07-28 03:23:52,"Merge commit 'HEAD@{2}' (PR #802, squashed) into develop",935
+d0c4d4e,ZyX,2014-07-26 01:25:32,Ignore IOError’s in ConfigLoader.update,932,powerline/lib/config.py
+d0c4d4e,ZyX,2014-07-26 01:25:32,Ignore IOError’s in ConfigLoader.update,932,tests/lib/fsconfig.py
+d0c4d4e,ZyX,2014-07-26 01:25:32,Ignore IOError’s in ConfigLoader.update,932,tests/test_lib_config.py
+cd5c6fe,ZyX,2014-07-26 01:09:56,Make sure arguments in `args` are only strings,933,powerline/segment.py
+5f7fbda,ZyX,2014-07-23 01:48:09,Merge branch 'fix-powerline-config' into develop,930
+f92e6eb,ZyX,2014-07-19 19:56:31,Use `stty size` or zero as a fallback for $COLUMNS,924
+44ce483,ZyX,2014-07-10 21:13:39,Use powerline.shell.run_cmd to get tmux version,912,powerline/bindings/config.py
+39316c4,ZyX,2014-07-07 19:37:59,Reverse the gradient in battery segment,910,powerline/segments/common.py
+39316c4,ZyX,2014-07-07 19:37:59,Reverse the gradient in battery segment,910,tests/test_segments.py
+abb4ed4,ZyX,2014-06-28 21:28:45,Support .git files with newline at the end,876,powerline/lib/vcs/git.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/__init__.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/config.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/file_watcher.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/vcs/__init__.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/vcs/bzr.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/vcs/git.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lib/vcs/mercurial.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lint/__init__.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/lint/inspect.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/segment.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/segments/common.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/segments/vim.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,powerline/theme.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,tests/lib/config_mock.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,tests/test_config_reload.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,tests/test_configuration.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,tests/test_lib.py
+c570a98,ZyX,2014-06-28 19:01:12,Add watcher option,818,tests/test_segments.py
+070bfab,ZyX,2014-06-28 17:36:05,Fix quotes in powerline.conf,901
+c6d5632,ZyX-I,2014-06-25 21:28:06,Merge pull request #898 from ZyX-I/fix-inotify-watcher,874
+685161f,ZyX,2014-06-25 21:05:58,Incorporate Windows hack found by @kovidgoyal,36,powerline/lib/shell.py
+fc8ad83,ZyX,2014-06-25 20:40:24,Update tmux data even when prompt is disabled,467
+17d1202,ZyX,2014-06-01 20:00:36,Decode stdout in shell.run_cmd,885,powerline/lib/shell.py
+7c65ee9,ZyX,2014-05-27 05:43:55,Catch NotImplementedError when importing module,883,powerline/segments/common.py
+be2fe98,ZyX,2014-05-04 12:58:09,Add support for omitting VALUE,853,powerline/lib/__init__.py
+be2fe98,ZyX,2014-05-04 12:58:09,Add support for omitting VALUE,853,powerline/shell.py
+be2fe98,ZyX,2014-05-04 12:58:09,Add support for omitting VALUE,853,tests/test_cmdline.py
+be2fe98,ZyX,2014-05-04 12:58:09,Add support for omitting VALUE,853,tests/test_lib.py
+f6cdb44,ZyX-I,2014-05-04 11:52:32,Merge pull request #870 from austinbeam/feature/869-tmux-version-checking,869
+ba45a00,ZyX,2014-04-23 06:31:42,Decode bytes before using os.path.join,654,powerline/lib/vcs/git.py
+f9764b9,ZyX,2014-03-21 19:33:40,Merge branch 'fix-tmux-support' into develop,672
+d856225,ZyX,2014-03-13 23:41:25,Do not allow unicode-related exceptions inside logger,421,powerline/__init__.py
+d856225,ZyX,2014-03-13 23:41:25,Do not allow unicode-related exceptions inside logger,421,powerline/lib/unicode.py
+993402f,ZyX,2014-03-13 23:27:06,Do not use :redrawstatus!: it makes intro disappear,250,powerline/vim.py
+b4644ff,ZyX,2014-03-13 21:14:20,Add fix for old vims,829,powerline/bindings/vim/__init__.py
+820b5ec,ZyX-I,2014-03-13 20:12:12,Merge pull request #840 from ZyX-I/review-res-fixes,819
+2b5b6af,ZyX,2014-03-13 20:35:20,Put _powerline_prompt at the start,836
+ecf26df,ZyX,2014-03-13 19:38:05,Update powerline for new psutil,835,powerline/segments/common.py
+70a94ee,ZyX-I,2014-02-26 07:28:45,Merge pull request #822 from ZyX-I/threaded-fixes,813
+725ff69,ZyX,2014-02-22 17:24:21,Refactor KwThreadedSegment,813,powerline/lib/threaded.py
+8483683,ZyX,2014-02-16 02:53:51,Make virtcol_current_gradient background color match line_current color,449
+1add2b6,ZyX,2014-02-15 20:47:20,Disable mode support on <=zsh-4.3.10,800
+6c15711,ZyX,2014-02-15 20:21:09,"Check for TMUX only once, check whether $TMUX is writeable",801
+999fad5,ZyX-I,2014-02-09 12:48:32,Merge pull request #792 from ZyX-I/improved-battery,791
+9e8471b,ZyX,2014-02-08 23:39:02,Fix non-ASCII directories processing,788,powerline/lib/unicode.py
+9e8471b,ZyX,2014-02-08 23:39:02,Fix non-ASCII directories processing,788,powerline/segments/common.py
+9e8471b,ZyX,2014-02-08 23:39:02,Fix non-ASCII directories processing,788,powerline/theme.py
+5071f12,ZyX,2014-02-03 21:56:16,"Recreate args dictionary with str() arguments, use closures",776,powerline/segment.py
+5071f12,ZyX,2014-02-03 21:56:16,"Recreate args dictionary with str() arguments, use closures",776,powerline/theme.py
+4406498,ZyX-I,2014-01-29 21:09:28,Merge pull request #777 from ZyX-I/reload-tests-fix,772
+dc33c36,ZyX,2014-01-30 00:42:56,Fix case when widget was defined with `zle -N widget`,774
+e7820ef,ZyX,2013-12-01 19:25:19,Make powerline work with non-utf filenames,281,powerline/bindings/vim/__init__.py
+e7820ef,ZyX,2013-12-01 19:25:19,Make powerline work with non-utf filenames,281,powerline/segments/common.py
+e7820ef,ZyX,2013-12-01 19:25:19,Make powerline work with non-utf filenames,281,powerline/segments/vim.py
+e7820ef,ZyX,2013-12-01 19:25:19,Make powerline work with non-utf filenames,281,tests/test_segments.py
+e7820ef,ZyX,2013-12-01 19:25:19,Make powerline work with non-utf filenames,281,tests/vim.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderer.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderers/bash_prompt.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderers/shell.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderers/tmux.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderers/vim.py
+ecff281,ZyX,2013-12-01 15:42:57,Handle non-printable characters properly,723,powerline/renderers/zsh_prompt.py
+bf688d4,ZyX,2014-01-24 10:38:18,Use nothing on right side of `_powerline_prompt`,765
+64e23d3,ZyX,2014-01-23 18:45:46,Merge branch 'patch-1' into develop,724
+e56bf36,ZyX,2014-01-10 23:01:32,Add Args.jobnum property,742,powerline/bindings/zsh/__init__.py
+6a4b8bc,ZyX,2013-11-20 23:51:26,"Pass run_once to ConfigLoader, make it respect run_once",711,powerline/__init__.py
+6a4b8bc,ZyX,2013-11-20 23:51:26,"Pass run_once to ConfigLoader, make it respect run_once",711,powerline/lib/config.py
+8d36f42,ZyX,2013-11-04 23:15:51,Set TMUX_PWD_* on startup,672
+0435d44,Kovid Goyal,2013-05-30 07:29:04,Fix committing with fugitive => stuck file status,482,powerline/lib/vcs/git.py
+26ad068,ZyX,2013-05-02 15:19:56,Fix tmux cwd segment,467,powerline/lib/__init__.py
+26ad068,ZyX,2013-05-02 15:19:56,Fix tmux cwd segment,467,powerline/renderers/tmux.py
+26ad068,ZyX,2013-05-02 15:19:56,Fix tmux cwd segment,467,powerline/shell.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/file_watcher.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/inotify.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/tree_watcher.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/vcs/__init__.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/vcs/bzr.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/vcs/git.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/lib/vcs/mercurial.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/segments/common.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,powerline/segments/vim.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,tests/test_lib.py
+ad55daf,Kovid Goyal,2013-05-02 11:13:54,Make vcs segments *much* faster,396,tests/test_segments.py
+6212711,ZyX,2013-04-06 21:21:52,Add forgotten self.updated set,367,powerline/lib/threaded.py
+88865b1,ZyX,2013-04-06 16:32:38,Defer create_renderer (and thus thread creation) until .render call,397,powerline/__init__.py
+88865b1,ZyX,2013-04-06 16:32:38,Defer create_renderer (and thus thread creation) until .render call,397,powerline/vim.py
+88865b1,ZyX,2013-04-06 16:32:38,Defer create_renderer (and thus thread creation) until .render call,397,tests/test_config_reload.py
+47eef98,ZyX,2013-04-05 17:47:39,Use different emulate call,389
+878255a,ZyX,2013-04-03 23:09:40,Make Tmux and PangoMarkup Renderers merge arguments like shell one,391,powerline/renderer.py
+878255a,ZyX,2013-04-03 23:09:40,Make Tmux and PangoMarkup Renderers merge arguments like shell one,391,powerline/renderers/shell.py
+878255a,ZyX,2013-04-03 23:09:40,Make Tmux and PangoMarkup Renderers merge arguments like shell one,391,powerline/renderers/vim.py
+b47c2fa,ZyX,2013-04-02 18:40:30,Pass the correct value to _get_user,379,powerline/segments/common.py
+6555494,ZyX,2013-03-30 15:54:33,Use daemon threads by default,371,powerline/__init__.py
+7764bcc,ZyX,2013-03-24 20:21:21,Fix logging format,361,powerline/__init__.py
+8a51d99,ZyX,2013-03-23 18:55:43,"Some fixes for zsh, remove some exceptions handling",360,powerline/bindings/zsh/__init__.py
+8a51d99,ZyX,2013-03-23 18:55:43,"Some fixes for zsh, remove some exceptions handling",360,powerline/lib/threaded.py
+8a51d99,ZyX,2013-03-23 18:55:43,"Some fixes for zsh, remove some exceptions handling",360,powerline/segments/common.py
+8a51d99,ZyX,2013-03-23 18:55:43,"Some fixes for zsh, remove some exceptions handling",360,powerline/shell.py
+8a51d99,ZyX,2013-03-23 18:55:43,"Some fixes for zsh, remove some exceptions handling",360,tests/test_segments.py
+84dfac6,ZyX,2013-03-17 13:55:31,Avoid using python setup.py test,295
+f141574,Ali B,2013-03-15 10:45:59,Make vim Visual Block mode orange in Solarized colourscheme.,147
+b1b0f24,Kim Silkebækken,2013-03-13 14:09:26,Install fonts to OTF instead of TTF in PKGBUILDs,320
+a6d4823,ZyX,2013-03-10 15:13:23,"Add python_test, more exclusions",289,setup.py
+59ef974,ZyX,2013-03-09 21:02:52,"Fix set statusline location, readd fix from #243",303
+154d1ae,Kim Silkebækken,2013-03-08 18:01:50,Fix issues in Arch Linux PKGBUILDS,291
+2f17510,ZyX,2013-02-27 00:58:45,Also use hl_iter in exception message,270,powerline/colorscheme.py
+16a5b78,ZyX,2013-02-27 01:06:11,Use exit_fail hl group for last_status segment,270,powerline/segments/shell.py
+83f4236,ZyX,2013-02-27 00:14:24,Replace unicode() with u() in theme.py,271,powerline/theme.py
+a4b7c31,Kim Silkebækken,2013-02-25 16:11:10,Move divider hl group to return dicts in weather segment,264,powerline/segments/common.py
+0dcd23f,Kim Silkebækken,2013-02-24 23:15:12,Fix syntax error in default tmux theme,150
+af020d9,Otto Modinos,2013-02-24 21:27:59,Make vim visual block selection orange,147
+2fa64c4,ZyX,2013-02-24 15:29:31,Move translation of modes into renderers/vim.py,147,powerline/renderers/vim.py
+2fa64c4,ZyX,2013-02-24 15:29:31,Move translation of modes into renderers/vim.py,147,powerline/segments/vim.py
+3c62e06,ZyX,2013-02-22 18:21:12,Don't use UUID for window IDs,180
+861f7dc,ZyX,2013-02-20 20:57:44,Fix &stl reset to global value when new file is loaded,241
+e14f5e4,ZyX,2013-02-20 00:26:59,Fix problem with wrong window ID/winnr after some window operations,232,powerline/renderers/vim.py
+0fddb24,ZyX,2013-02-12 23:59:45,Rework memoize class,208,powerline/lib/memoize.py
+0fddb24,ZyX,2013-02-12 23:59:45,Rework memoize class,208,powerline/segments/common.py
+0fddb24,ZyX,2013-02-12 23:59:45,Rework memoize class,208,powerline/segments/vim.py
+9a0b970,ZyX,2013-02-10 11:15:33,Clear highlight groups on ColorScheme event,153,powerline/renderers/vim.py
+4202bd2,ZyX,2013-02-09 22:23:15,Use escape_hl_* variables for prompts deriving from ShellRenderer,142,powerline/renderers/bash_prompt.py
+4202bd2,ZyX,2013-02-09 22:23:15,Use escape_hl_* variables for prompts deriving from ShellRenderer,142,powerline/renderers/ipython.py
+4202bd2,ZyX,2013-02-09 22:23:15,Use escape_hl_* variables for prompts deriving from ShellRenderer,142,powerline/renderers/shell.py
+4202bd2,ZyX,2013-02-09 22:23:15,Use escape_hl_* variables for prompts deriving from ShellRenderer,142,powerline/renderers/zsh_prompt.py
+323a838,Kim Silkebækken,2013-02-07 13:48:36,Fix math error in humanize_bytes,175,powerline/lib/humanize_bytes.py
+8b8de32,Kim Silkebækken,2013-02-07 11:42:10,Improve vim plugin loading,156,powerline/bindings/vim/__init__.py
+c2e7124,Kim Silkebækken,2013-02-06 13:18:49,Fix statusline highlighting after leaving a cmdwin,184
+184dac1,Kim Silkebækken,2013-02-05 13:48:33,Add solarized support for shell exit status segments,165
+7a25ab1,ZyX,2013-02-04 00:19:04,Fix “'NoneType' object is not iterable” error,158,powerline/renderers/vim.py
+40d542a,Kim Silkebækken,2013-01-23 09:56:58,Add troubleshooting info for PuTTy users,107
+2a9edc1,Kim Silkebækken,2013-01-22 18:50:37,Update troubleshooting info for ImportErrors on OS X,39
+51c302a,Kim Silkebækken,2013-01-22 17:14:45,Revert to previous way of sourcing vim plugin,95
+b7e7b1e,Kim Silkebækken,2013-01-22 13:20:26,Use absolute import in source_plugin.vim,95
+614c08b,Kim Silkebækken,2013-01-21 17:55:05,Convert file name to UTF-8 in vim file name segment,87,powerline/segments/vim.py
+06d4b45,ZyX,2013-01-19 17:25:37,Make VCS guess() function respect .git files,67,powerline/lib/vcs/__init__.py
+0acfd84,Kim Silkebækken,2013-01-19 17:35:18,Change default IP address lookup URI,68,powerline/ext/tmux/segments.py
+1a99fbd,Kim Silkebækken,2013-01-17 17:06:45,Update terminal prompt usage instructions,56
+20b17ce,Kim Silkebækken,2013-01-17 10:03:29,Add troubleshooting info about OSX ImportError,39
+f18bf70,Kim Silkebækken,2013-01-17 10:01:48,Add troubleshooting info for iTerm2 question mark issue,27
+7d613ba,Kim Silkebækken,2013-01-17 10:01:09,Fix font patching instructions for OS X,46
+a26d5e5,Kim Silkebækken,2013-01-09 13:17:57,Add troubleshooting info for Windows gVim + git users,36
+7c1d48a,Kim Silkebækken,2012-12-18 22:05:28,Improve font patcher,14,powerline/fontpatcher/fontpatcher.py
+ccd6b4c,Kim Silkebækken,2012-12-17 13:18:40,Restructure segment rendering methods,12,powerline/ext/vim/renderer.py
+ccd6b4c,Kim Silkebækken,2012-12-17 13:18:40,Restructure segment rendering methods,12,powerline/renderer.py
+ccd6b4c,Kim Silkebækken,2012-12-17 13:18:40,Restructure segment rendering methods,12,powerline/theme.py
+7081834,Kim Silkebækken,2012-12-17 11:24:38,Cache segment contents after rendering the statusline,11,powerline/ext/vim/renderer.py
+0bf23ad,Kim Silkebækken,2012-12-15 18:48:12,Cache statusline contents in Python,11,powerline/ext/vim/renderer.py

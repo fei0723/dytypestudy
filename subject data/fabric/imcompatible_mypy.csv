@@ -1,0 +1,7 @@
+file,lineno,_lineno,kind,message
+fabric\operations.py,1187,8,assignment," Incompatible types in assignment (expression has type ""BinaryIO"", variable has type ""int"")"
+fabric\operations.py,1188,8,assignment," Incompatible types in assignment (expression has type ""BinaryIO"", variable has type ""int"")"
+fabric\main.py,189,8,assignment," Incompatible types in assignment (expression has type ""List[Tuple[str, Any]]"", variable has type ""Dict[str, Any]"")"
+fabric\main.py,192,8,assignment," Incompatible types in assignment (expression has type ""List[Tuple[str, Any]]"", variable has type ""Dict[str, Any]"")"
+tests\mock_streams.py,68,16,assignment," Incompatible types in assignment (expression has type ""StringIO[str]"", variable has type ""CarbonCopy"")"
+tests\server.py,173,12,assignment," Incompatible types in assignment (expression has type ""Tuple[int, int, int, str, Tuple[Any, ...]]"", variable has type ""int"")"

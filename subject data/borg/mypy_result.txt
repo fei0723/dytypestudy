@@ -1,0 +1,1814 @@
+setup.py:60:4: error: Name 'Sdist' already defined on line 41
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+setup.py:7:0: error: Module 'distutils.command.build' has no attribute 'build'
+setup.py:71:4: error: Module 'distutils.command.build_ext' has no attribute 'build_ext'
+setup.py:140:8: error: Need type annotation for variable
+setup.py:206:0: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\testsuite\archive.py:15:8: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+borg\testsuite\archiver.py:41:22: error: Cannot determine type of 'PermissionError'
+borg\testsuite\archiver.py:52:16: error: Incompatible types in assignment (expression has type "Tuple[str]", variable has type "Tuple[str, str, str]")
+borg\testsuite\archiver.py:858:8: error: Need type annotation for variable
+borg\testsuite\archiver.py:859:8: error: Need type annotation for variable
+borg\testsuite\archiver.py:924:4: error: Incompatible types in assignment (expression has type "str", base class "ArchiverTestCaseBase" defined the type as "None")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+borg\testsuite\archiver.py:41:22: error: Cannot determine type of 'PermissionError'
+borg\testsuite\archiver.py:52:16: error: Incompatible types in assignment (expression has type "Tuple[str]", variable has type "Tuple[str, str, str]")
+borg\testsuite\archiver.py:858:8: error: Need type annotation for variable
+borg\testsuite\archiver.py:859:8: error: Need type annotation for variable
+borg\testsuite\archiver.py:924:4: error: Incompatible types in assignment (expression has type "str", base class "ArchiverTestCaseBase" defined the type as "None")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\testsuite\platform.py:49:8: error: Need type annotation for variable
+borg\testsuite\platform.py:123:8: error: Need type annotation for variable
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\lrucache.py:3:8: error: Need type annotation for variable
+borg\lrucache.py:4:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\repository.py:187:12: error: Need type annotation for variable
+borg\repository.py:188:12: error: Need type annotation for variable
+borg\repository.py:230:8: error: Need type annotation for variable
+borg\repository.py:607:19: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\repository.py:610:16: error: No overload variant of "write" of "BinaryIO" matches argument types [builtins.memoryview]
+borg\repository.py:647:23: error: Argument 1 to "crc32" has incompatible type "memoryview"; expected "bytes"
+borg\remote.py:126:4: error: Need type annotation for variable
+borg\remote.py:134:8: error: Need type annotation for variable
+borg\remote.py:137:8: error: Need type annotation for variable
+borg\remote.py:138:8: error: Need type annotation for variable
+borg\remote.py:139:8: error: Need type annotation for variable
+borg\remote.py:216:8: error: Need type annotation for variable
+borg\remote.py:267:20: error: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+borg\remote.py:269:27: error: Argument 1 to "startswith" of "bytes" has incompatible type "str"; expected "Union[bytes, Tuple[bytes, ...]]"
+borg\remote.py:270:44: error: Argument 1 to "split" of "bytes" has incompatible type "str"; expected "Optional[bytes]"
+borg\remote.py:271:36: error: Argument 2 to "getattr" has incompatible type "bytes"; expected "str"
+borg\remote.py:272:28: error: Argument 1 to "log" has incompatible type "bytes"; expected "int"
+borg\remote.py:272:28: error: Argument 2 to "log" has incompatible type "bytes"; expected "str"
+borg\remote.py:274:45: error: Unsupported operand types for + ("str" and "bytes")
+borg\archive.py:45:22: error: Cannot determine type of 'PermissionError'
+borg\archive.py:81:8: error: Need type annotation for variable
+borg\archive.py:143:8: error: Need type annotation for variable
+borg\archive.py:360:35: error: Module has no attribute "ENOTSUP"
+borg\archive.py:582:16: error: Cannot assign to a method
+borg\archive.py:587:12: error: Cannot assign to a method
+borg\archive.py:590:12: error: Cannot assign to a method
+borg\archive.py:608:8: error: Need type annotation for variable
+borg\archive.py:663:8: error: Need type annotation for variable
+borg\archive.py:808:16: error: Incompatible types in assignment (expression has type "List[Any]", variable has type "Iterator[Any]")
+borg\archive.py:808:16: note: 'list' is missing following 'Iterator' protocol member:
+borg\archive.py:808:16: note:     __next__
+borg\archive.py:860:12: error: Cannot assign to a method
+borg\cache.py:115:61: error: Incompatible types in assignment (expression has type "BinaryIO", variable has type "TextIO")
+borg\cache.py:200:61: error: Incompatible types in assignment (expression has type "TextIO", variable has type "BinaryIO")
+borg\fuse.py:42:8: error: Need type annotation for variable
+borg\fuse.py:43:8: error: Need type annotation for variable
+borg\fuse.py:44:24: error: Need type annotation for variable
+borg\fuse.py:46:8: error: Need type annotation for variable
+borg\fuse.py:47:8: error: Need type annotation for variable
+borg\archiver.py:66:12: error: Incompatible types in assignment (expression has type "Repository", variable has type "RemoteRepository")
+borg\archiver.py:67:8: error: "RemoteRepository" has no attribute "_location"; maybe "location"?
+borg\archiver.py:287:8: error: Need type annotation for variable
+borg\archiver.py:352:16: error: Incompatible types in assignment (expression has type "str", variable has type "List[str]")
+borg\archiver.py:468:8: error: Need type annotation for variable
+borg\archiver.py:1246:20: error: Module has no attribute "SIGINFO"
+borg\testsuite\upgrader.py:83:44: error: "None" has no attribute "segment_iterator"
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+borg\support\argparse.py:95:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:97:4: error: All conditional function variants must have identical signatures
+borg\support\argparse.py:204:12: error: Need type annotation for variable
+borg\support\argparse.py:339:20: error: Need type annotation for variable
+borg\support\argparse.py:388:8: error: Need type annotation for variable
+borg\support\argparse.py:415:8: error: Need type annotation for variable
+borg\support\argparse.py:503:12: error: Incompatible types in assignment (expression has type "Tuple[Any, str, Any, Any]", variable has type "Tuple[Any, str, Any]")
+borg\support\argparse.py:504:42: error: Not enough arguments for format string
+borg\support\argparse.py:541:12: error: Need type annotation for variable
+borg\support\argparse.py:1035:12: error: Cannot access "__init__" directly
+borg\support\argparse.py:1048:32: error: Need type annotation for variable
+borg\support\argparse.py:1049:8: error: Need type annotation for variable
+borg\support\argparse.py:1195:8: error: Need type annotation for variable
+borg\support\argparse.py:1214:8: error: Need type annotation for variable
+borg\support\argparse.py:1215:8: error: Need type annotation for variable
+borg\support\argparse.py:1218:8: error: Need type annotation for variable
+borg\support\argparse.py:1219:8: error: Need type annotation for variable
+borg\support\argparse.py:1222:8: error: Need type annotation for variable
+borg\support\argparse.py:1229:8: error: Need type annotation for variable
+borg\support\argparse.py:1346:8: error: Need type annotation for variable
+borg\support\argparse.py:1407:16: error: Incompatible types in assignment (expression has type "Dict[str, Any]", variable has type "Tuple[Any, ...]")
+borg\support\argparse.py:1500:8: error: Need type annotation for variable
+borg\support\argparse.py:1752:8: error: Need type annotation for variable
+borg\support\argparse.py:1822:12: error: Need type annotation for variable
+borg\support\argparse.py:1910:8: error: Need type annotation for variable
+borg\xattr.py:27:23: error: Module has no attribute "ENOTSUP"
+borg\helpers.py:13:4: error: All conditional function variants must have identical signatures
+borg\helpers.py:26:0: error: Module 'borg' has no attribute 'hashindex'
+borg\helpers.py:27:0: error: Module 'borg' has no attribute 'chunker'
+borg\helpers.py:84:8: error: Need type annotation for variable
+borg\helpers.py:85:8: error: Need type annotation for variable
+borg\helpers.py:147:4: error: Need type annotation for variable
+borg\helpers.py:520:4: error: Need type annotation for variable
+borg\helpers.py:856:12: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+borg\key.py:86:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:132:15: error: Too many arguments for "HMAC"
+borg\key.py:138:15: error: Too many arguments for "HMAC"
+borg\key.py:145:22: error: Too many arguments for "HMAC"
+borg\key.py:149:18: error: Too many arguments for "HMAC"
+borg\key.py:213:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:293:11: error: Too many arguments for "HMAC"
+borg\key.py:300:15: error: Too many arguments for "HMAC"
+borg\key.py:351:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\key.py:392:4: error: Incompatible types in assignment (expression has type "int", base class "KeyBase" defined the type as "None")
+borg\testsuite\__init__.py:123:8: error: Need type annotation for variable
+docs\conf.py:31:0: error: Need type annotation for variable

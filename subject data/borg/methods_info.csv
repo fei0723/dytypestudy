@@ -1,0 +1,880 @@
+file,method,params,startlineno,endlineno
+setup.py,__init__,"self, *args, **kwargs",42,45
+setup.py,make_distribution,self,47,57
+setup.py,__init__,"self, *args, **kwargs",61,62
+setup.py,detect_openssl,prefixes,78,84
+setup.py,detect_lz4,prefixes,87,93
+setup.py,initialize_options,self,129,130
+setup.py,finalize_options,self,132,133
+setup.py,run,self,135,166
+setup.py,initialize_options,self,175,176
+setup.py,finalize_options,self,178,179
+setup.py,run,self,181,196
+borg\archive.py,__init__,"self, repository, key",52,54
+borg\archive.py,unpack_many,"self, ids, filter=None, preload=False",56,68
+borg\archive.py,fetch_many,"self, ids, is_preloaded=False",70,72
+borg\archive.py,__init__,"self, key, chunker_params=CHUNKER_PARAMS",78,83
+borg\archive.py,add,"self, item",85,88
+borg\archive.py,write_chunk,"self, chunk",90,91
+borg\archive.py,flush,"self, flush=False",93,105
+borg\archive.py,is_full,self,107,108
+borg\archive.py,__init__,"self, cache, key, stats, chunker_params=CHUNKER_PARAMS",113,116
+borg\archive.py,write_chunk,"self, chunk",118,120
+borg\archive.py,__init__,"self, repository, key, manifest, name, cache=None, create=False, checkpoint_interval='300', numeric_owner=False, progress=False, chunker_params=CHUNKER_PARAMS, start=datetime.now(), end=datetime.now()",134,169
+borg\archive.py,_load_meta,"self, id",171,176
+borg\archive.py,load,"self, id",178,183
+borg\archive.py,ts,self,185,188
+borg\archive.py,fpr,self,190,192
+borg\archive.py,duration,self,194,196
+borg\archive.py,__str__,self,198,204
+borg\archive.py,__repr__,self,206,207
+borg\archive.py,iter_items,"self, filter=None, preload=False",209,211
+borg\archive.py,add_item,"self, item",213,222
+borg\archive.py,write_checkpoint,self,224,227
+borg\archive.py,save,"self, name=None, timestamp=None",229,251
+borg\archive.py,calc_stats,"self, cache",253,277
+borg\archive.py,add,id,254,257
+borg\archive.py,add_file_chunks,chunks,259,261
+borg\archive.py,extract_item,"self, item, restore_attrs=True, dry_run=False, stdout=False, sparse=False",279,352
+borg\archive.py,restore_attrs,"self, path, item, symlink=False, fd=None",354,404
+borg\archive.py,rename,"self, name",406,416
+borg\archive.py,delete,"self, stats",418,429
+borg\archive.py,stat_attrs,"self, st, path",431,448
+borg\archive.py,process_dir,"self, path, st",450,454
+borg\archive.py,process_fifo,"self, path, st",456,460
+borg\archive.py,process_dev,"self, path, st",462,469
+borg\archive.py,process_symlink,"self, path, st",471,476
+borg\archive.py,process_stdin,"self, path, cache",478,495
+borg\archive.py,process_file,"self, path, st, cache",497,543
+borg\archive.py,list_archives,"repository, key, manifest, cache=None",545,549
+borg\archive.py,_open_rb,"path, st",551,591
+borg\archive.py,open_simple,"p, s",557,558
+borg\archive.py,open_noatime,"p, s",560,561
+borg\archive.py,open_noatime_if_owner,"p, s",563,568
+borg\archive.py,open_noatime_with_fallback,"p, s",570,583
+borg\archive.py,__init__,"self, validator",604,610
+borg\archive.py,resync,self,612,614
+borg\archive.py,feed,"self, data",616,620
+borg\archive.py,__iter__,self,622,623
+borg\archive.py,__next__,self,625,656
+borg\archive.py,__init__,self,661,663
+borg\archive.py,check,"self, repository, repair=False, archive=None, last=None, prefix=None, save_space=False",665,685
+borg\archive.py,init_chunks,self,687,701
+borg\archive.py,identify_key,"self, repository",703,705
+borg\archive.py,rebuild_manifest,self,707,732
+borg\archive.py,rebuild_refcounts,"self, archive=None, last=None, prefix=None",734,873
+borg\archive.py,mark_as_possibly_superseded,id_,742,744
+borg\archive.py,add_callback,chunk,746,750
+borg\archive.py,add_reference,"id_, size, csize, cdata=None",752,760
+borg\archive.py,verify_file_chunks,item,762,784
+borg\archive.py,robust_iterator,archive,786,827
+borg\archive.py,missing_chunk_detector,chunk_id,794,798
+borg\archive.py,report,"msg, chunk_id, chunk_no",800,804
+borg\archive.py,orphan_chunks_check,self,875,889
+borg\archive.py,finish,"self, save_space=False",891,894
+borg\archiver.py,__call__,"self, parser, ns, values, option",50,52
+borg\archiver.py,__init__,"self, lock_wait=None",57,59
+borg\archiver.py,open_repository,"self, args, create=False, exclusive=False, lock=True",61,68
+borg\archiver.py,print_error,"self, msg, *args",70,73
+borg\archiver.py,print_warning,"self, msg, *args",75,78
+borg\archiver.py,print_file_status,"self, status, path",80,82
+borg\archiver.py,do_serve,"self, args",84,87
+borg\archiver.py,do_init,"self, args",89,99
+borg\archiver.py,do_check,"self, args",101,118
+borg\archiver.py,do_change_passphrase,"self, args",120,125
+borg\archiver.py,do_create,"self, args",127,196
+borg\archiver.py,_process,"self, archive, cache, excludes, exclude_caches, exclude_if_present, keep_tag_files, skip_inodes, path, restrict_dev, read_special=False, dry_run=False",198,269
+borg\archiver.py,do_extract,"self, args",271,316
+borg\archiver.py,do_rename,"self, args",318,328
+borg\archiver.py,do_delete,"self, args",330,361
+borg\archiver.py,do_mount,"self, args",363,391
+borg\archiver.py,do_list,"self, args",393,435
+borg\archiver.py,do_info,"self, args",437,454
+borg\archiver.py,do_prune,"self, args",456,500
+borg\archiver.py,do_upgrade,"self, args",502,518
+borg\archiver.py,do_debug_dump_archive_items,"self, args",520,532
+borg\archiver.py,do_debug_get_obj,"self, args",534,552
+borg\archiver.py,do_debug_put_obj,"self, args",554,565
+borg\archiver.py,do_debug_delete_obj,"self, args",567,587
+borg\archiver.py,do_break_lock,"self, args",589,597
+borg\archiver.py,do_help,"self, parser, commands, args",629,644
+borg\archiver.py,preprocess_args,"self, args",646,664
+borg\archiver.py,build_parser,"self, args=None, prog=None",666,1182
+borg\archiver.py,parse_args,"self, args=None",1184,1191
+borg\archiver.py,run,"self, args",1193,1215
+borg\archiver.py,sig_info_handler,"signum, stack",1218,1238
+borg\archiver.py,setup_signal_handlers,,1241,1248
+borg\archiver.py,main,,1251,1289
+borg\cache.py,break_lock,"repository, path=None",35,38
+borg\cache.py,__init__,"self, repository, key, manifest, path=None, sync=True, do_files=False, warn_if_unencrypted=True, lock_wait=None",40,79
+borg\cache.py,__del__,self,81,82
+borg\cache.py,__str__,self,84,90
+borg\cache.py,format_tuple,self,92,98
+borg\cache.py,create,self,100,116
+borg\cache.py,destroy,self,118,123
+borg\cache.py,_do_open,self,125,143
+borg\cache.py,open,"self, lock_wait=None",145,149
+borg\cache.py,close,self,151,154
+borg\cache.py,_read_files,self,156,170
+borg\cache.py,begin_txn,self,172,181
+borg\cache.py,commit,self,183,206
+borg\cache.py,rollback,self,208,224
+borg\cache.py,sync,self,226,348
+borg\cache.py,mkpath,"id, suffix=''",238,241
+borg\cache.py,cached_archives,,243,249
+borg\cache.py,repo_archives,,251,252
+borg\cache.py,cleanup_outdated,ids,254,256
+borg\cache.py,fetch_and_build_idx,"archive_id, repository, key",258,288
+borg\cache.py,lookup_name,archive_id,290,293
+borg\cache.py,create_master_idx,chunk_idx,295,325
+borg\cache.py,legacy_cleanup,,327,340
+borg\cache.py,add_chunk,"self, id, data, stats",350,361
+borg\cache.py,seen_chunk,"self, id, size=None",363,370
+borg\cache.py,chunk_incref,"self, id, stats",372,378
+borg\cache.py,chunk_decref,"self, id, stats",380,390
+borg\cache.py,file_known_and_unchanged,"self, path_hash, st",392,407
+borg\cache.py,memorize_file,"self, path_hash, st, ids",409,415
+borg\fuse.py,__init__,self,20,22
+borg\fuse.py,add,"self, item",24,27
+borg\fuse.py,get,"self, inode",29,31
+borg\fuse.py,__init__,"self, key, repository, manifest, archive",37,61
+borg\fuse.py,process_archive,"self, archive, prefix=[]",63,101
+borg\fuse.py,allocate_inode,self,103,105
+borg\fuse.py,statfs,self,107,117
+borg\fuse.py,get_item,"self, inode",119,123
+borg\fuse.py,_find_inode,"self, path, prefix=[]",125,130
+borg\fuse.py,getattr,"self, inode",132,166
+borg\fuse.py,listxattr,"self, inode",168,170
+borg\fuse.py,getxattr,"self, inode, name",172,177
+borg\fuse.py,_load_pending_archive,"self, inode",179,183
+borg\fuse.py,lookup,"self, parent_inode, name",185,195
+borg\fuse.py,open,"self, inode, flags",197,198
+borg\fuse.py,opendir,"self, inode",200,202
+borg\fuse.py,read,"self, fh, offset, size",204,218
+borg\fuse.py,readdir,"self, fh, off",220,224
+borg\fuse.py,readlink,"self, inode",226,228
+borg\fuse.py,mount,"self, mountpoint, extra_options, foreground=False",230,240
+borg\helpers.py,get_terminal_size,"fallback=('80', '24')",13,15
+borg\helpers.py,get_message,self,50,51
+borg\helpers.py,check_extension_modules,,67,76
+borg\helpers.py,__init__,"self, key, repository",83,87
+borg\helpers.py,load,"cls, repository, key=None",89,106
+borg\helpers.py,write,self,108,117
+borg\helpers.py,list_archive_infos,"self, sort_by=None, reverse=False",119,129
+borg\helpers.py,prune_within,"archives, within",132,142
+borg\helpers.py,prune_split,"archives, pattern, n, skip=[]",145,158
+borg\helpers.py,__init__,self,163,165
+borg\helpers.py,update,"self, size, csize, unique",167,171
+borg\helpers.py,__str__,self,177,178
+borg\helpers.py,__repr__,self,180,181
+borg\helpers.py,osize_fmt,self,183,185
+borg\helpers.py,usize_fmt,self,187,189
+borg\helpers.py,csize_fmt,self,191,193
+borg\helpers.py,show_progress,"self, item=None, final=False, stream=None, dt=None",195,210
+borg\helpers.py,get_keys_dir,,213,216
+borg\helpers.py,get_cache_dir,,219,222
+borg\helpers.py,to_localtime,ts,225,227
+borg\helpers.py,parse_timestamp,timestamp,230,235
+borg\helpers.py,update_excludes,args,238,248
+borg\helpers.py,adjust_patterns,"paths, excludes",251,255
+borg\helpers.py,exclude_path,"path, patterns",258,265
+borg\helpers.py,normalized,func,274,289
+borg\helpers.py,normalize_wrapper,"self, path",278,280
+borg\helpers.py,__init__,"self, pattern",298,305
+borg\helpers.py,match,"self, path",307,312
+borg\helpers.py,__repr__,self,314,315
+borg\helpers.py,__str__,self,317,318
+borg\helpers.py,__init__,"self, pattern",325,339
+borg\helpers.py,match,"self, path",341,346
+borg\helpers.py,__repr__,self,348,349
+borg\helpers.py,__str__,self,351,352
+borg\helpers.py,timestamp,s,355,372
+borg\helpers.py,ChunkerParams,s,375,381
+borg\helpers.py,CompressionSpec,s,384,417
+borg\helpers.py,dir_is_cachedir,path,420,437
+borg\helpers.py,dir_is_tagged,"path, exclude_caches, exclude_if_present",440,454
+borg\helpers.py,format_time,t,457,460
+borg\helpers.py,format_timedelta,td,463,478
+borg\helpers.py,format_file_mode,mod,481,487
+borg\helpers.py,x,v,484,486
+borg\helpers.py,format_file_size,"v, precision='2'",490,493
+borg\helpers.py,sizeof_fmt,"num, suffix='B', units=None, power=None, sep='', precision='2'",496,504
+borg\helpers.py,sizeof_fmt_iec,"num, suffix='B', sep='', precision='2'",507,508
+borg\helpers.py,sizeof_fmt_decimal,"num, suffix='B', sep='', precision='2'",511,512
+borg\helpers.py,format_archive,archive,515,516
+borg\helpers.py,memoize,function,519,529
+borg\helpers.py,decorated_function,*args,522,528
+borg\helpers.py,uid2user,"uid, default=None",532,537
+borg\helpers.py,user2uid,"user, default=None",540,545
+borg\helpers.py,gid2group,"gid, default=None",548,553
+borg\helpers.py,group2gid,"group, default=None",556,561
+borg\helpers.py,posix_acl_use_stored_uid_gid,acl,564,575
+borg\helpers.py,safe_decode,"s, coding='utf-8', errors='surrogateescape'",578,580
+borg\helpers.py,safe_encode,"s, coding='utf-8', errors='surrogateescape'",583,585
+borg\helpers.py,__init__,"self, text=''",607,610
+borg\helpers.py,parse,"self, text",612,626
+borg\helpers.py,_parse,"self, text",628,652
+borg\helpers.py,__str__,self,654,663
+borg\helpers.py,to_key_filename,self,665,669
+borg\helpers.py,__repr__,self,671,672
+borg\helpers.py,canonical_path,self,674,687
+borg\helpers.py,location_validator,archive=None,690,701
+borg\helpers.py,validator,text,691,700
+borg\helpers.py,decode_dict,"d, keys, encoding='utf-8', errors='surrogateescape'",704,708
+borg\helpers.py,remove_surrogates,"s, errors='replace'",711,714
+borg\helpers.py,make_path_safe,path,720,723
+borg\helpers.py,daemonize,,726,743
+borg\helpers.py,items,self,748,749
+borg\helpers.py,st_atime_ns,st,754,755
+borg\helpers.py,st_ctime_ns,st,757,758
+borg\helpers.py,st_mtime_ns,st,760,761
+borg\helpers.py,unhexlify,data,764,767
+borg\helpers.py,st_atime_ns,st,769,770
+borg\helpers.py,st_ctime_ns,st,772,773
+borg\helpers.py,st_mtime_ns,st,775,776
+borg\helpers.py,bigint_to_int,mtime,781,786
+borg\helpers.py,int_to_bigint,value,789,796
+borg\helpers.py,is_slow_msgpack,,799,800
+borg\helpers.py,yes,"msg=None, retry_msg=None, false_msg=None, true_msg=None, default=False, default_notty=None, default_eof=None, falsish=('No', 'no', 'N', 'n'), truish=('Yes', 'yes', 'Y', 'y'), env_var_override=None, ifile=None, ofile=None, input=input",803,881
+borg\helpers.py,__init__,"self, total, step='5', start='0', same_line=False, msg='%3.0f%%', file=sys.stderr",885,902
+borg\helpers.py,progress,"self, current=None",904,911
+borg\helpers.py,show,"self, current=None",913,916
+borg\helpers.py,output,"self, percent",918,920
+borg\helpers.py,finish,self,922,924
+borg\helpers.py,__init__,"self, step='10', file=sys.stderr",929,939
+borg\helpers.py,progress,self,941,946
+borg\helpers.py,show,self,948,951
+borg\helpers.py,output,"self, triggered",953,955
+borg\helpers.py,finish,self,957,958
+borg\helpers.py,sysinfo,,961,968
+borg\key.py,update,"self, msg",36,37
+borg\key.py,key_creator,"repository, args",40,48
+borg\key.py,key_factory,"repository, manifest_data",51,62
+borg\key.py,__init__,"self, repository",68,72
+borg\key.py,id_hash,"self, data",74,76
+borg\key.py,encrypt,"self, data",78,79
+borg\key.py,decrypt,"self, id, data",81,82
+borg\key.py,create,"cls, repository, args",90,93
+borg\key.py,detect,"cls, repository, manifest_data",95,97
+borg\key.py,id_hash,"self, data",99,100
+borg\key.py,encrypt,"self, data",102,103
+borg\key.py,decrypt,"self, id, data",105,111
+borg\key.py,id_hash,"self, data",129,132
+borg\key.py,encrypt,"self, data",134,139
+borg\key.py,decrypt,"self, id, data",141,151
+borg\key.py,extract_nonce,"self, payload",153,157
+borg\key.py,init_from_random_data,"self, data",159,166
+borg\key.py,init_ciphers,"self, enc_iv=b''",168,170
+borg\key.py,env_passphrase,"cls, default=None",174,178
+borg\key.py,getpass,"cls, prompt",180,182
+borg\key.py,new,"cls, allow_empty=False",184,199
+borg\key.py,__repr__,self,201,202
+borg\key.py,kdf,"self, salt, iterations, length",204,205
+borg\key.py,create,"cls, repository, args",216,223
+borg\key.py,detect,"cls, repository, manifest_data",225,240
+borg\key.py,change_passphrase,self,242,246
+borg\key.py,init,"self, repository, passphrase",248,250
+borg\key.py,detect,"cls, repository, manifest_data",254,264
+borg\key.py,find_key,self,266,267
+borg\key.py,load,"self, target, passphrase",269,270
+borg\key.py,_load,"self, key_data, passphrase",272,285
+borg\key.py,decrypt_key_file,"self, data, passphrase",287,294
+borg\key.py,encrypt_key_file,"self, data, passphrase",296,310
+borg\key.py,_save,"self, passphrase",312,323
+borg\key.py,change_passphrase,self,325,328
+borg\key.py,create,"cls, repository, args",330,341
+borg\key.py,save,"self, target, passphrase",343,344
+borg\key.py,get_new_target,"self, args",346,347
+borg\key.py,find_key,self,354,363
+borg\key.py,get_new_target,"self, args",365,372
+borg\key.py,load,"self, target, passphrase",374,380
+borg\key.py,save,"self, target, passphrase",382,388
+borg\key.py,find_key,self,394,400
+borg\key.py,get_new_target,"self, args",402,403
+borg\key.py,load,"self, target, passphrase",405,413
+borg\key.py,save,"self, target, passphrase",415,419
+borg\locking.py,get_id,,19,22
+borg\locking.py,__init__,"self, timeout=None, sleep=None",31,49
+borg\locking.py,__repr__,self,51,54
+borg\locking.py,start,self,56,60
+borg\locking.py,sleep,self,62,64
+borg\locking.py,timed_out,self,66,67
+borg\locking.py,timed_out_or_sleep,self,69,74
+borg\locking.py,__init__,"self, path, timeout=None, sleep=None, id=None",110,115
+borg\locking.py,__enter__,self,117,118
+borg\locking.py,__exit__,"self, *exc",120,121
+borg\locking.py,__repr__,self,123,124
+borg\locking.py,acquire,"self, timeout=None, sleep=None",126,146
+borg\locking.py,release,self,148,154
+borg\locking.py,is_locked,self,156,157
+borg\locking.py,by_me,self,159,160
+borg\locking.py,break_lock,self,162,166
+borg\locking.py,__init__,"self, path, id=None",176,178
+borg\locking.py,load,self,180,191
+borg\locking.py,save,"self, data",193,195
+borg\locking.py,remove,self,197,202
+borg\locking.py,get,"self, key",204,206
+borg\locking.py,modify,"self, key, op",208,221
+borg\locking.py,__init__,"self, path, exclusive=False, sleep=None, timeout=None, id=None",237,248
+borg\locking.py,__enter__,self,250,251
+borg\locking.py,__exit__,"self, *exc",253,254
+borg\locking.py,__repr__,self,256,257
+borg\locking.py,acquire,"self, exclusive=None, remove=None, sleep=None",259,272
+borg\locking.py,_wait_for_readers_finishing,"self, remove, sleep",274,291
+borg\locking.py,release,self,293,299
+borg\locking.py,upgrade,self,301,303
+borg\locking.py,downgrade,self,305,307
+borg\locking.py,break_lock,self,309,311
+borg\logger.py,_log_warning,"message, category, filename, lineno, file=None, line=None",46,52
+borg\logger.py,setup_logging,"stream=None, conf_fname=None, env_var='BORG_LOGGING_CONF', level='info', is_serve=False",55,103
+borg\logger.py,find_parent_module,,106,122
+borg\logger.py,create_logger,name=None,125,178
+borg\logger.py,__init__,"self, name=None",142,144
+borg\logger.py,__logger,self,146,152
+borg\logger.py,setLevel,"self, *args, **kw",154,155
+borg\logger.py,log,"self, *args, **kw",157,158
+borg\logger.py,exception,"self, *args, **kw",160,161
+borg\logger.py,debug,"self, *args, **kw",163,164
+borg\logger.py,info,"self, *args, **kw",166,167
+borg\logger.py,warning,"self, *args, **kw",169,170
+borg\logger.py,error,"self, *args, **kw",172,173
+borg\logger.py,critical,"self, *args, **kw",175,176
+borg\lrucache.py,__init__,"self, capacity, dispose",2,6
+borg\lrucache.py,__setitem__,"self, key, value",8,15
+borg\lrucache.py,__getitem__,"self, key",17,21
+borg\lrucache.py,__delitem__,"self, key",23,26
+borg\lrucache.py,__contains__,"self, key",28,29
+borg\lrucache.py,clear,self,31,34
+borg\lrucache.py,items,self,37,38
+borg\lrucache.py,__len__,self,40,41
+borg\platform.py,acl_get,"path, item, st, numeric_owner=False",12,13
+borg\platform.py,acl_set,"path, item, numeric_owner=False",15,16
+borg\remote.py,__init__,"self, restrict_to_paths",59,61
+borg\remote.py,serve,self,63,105
+borg\remote.py,negotiate,"self, versions",107,108
+borg\remote.py,open,"self, path, create=False, lock_wait=None, lock=True",110,122
+borg\remote.py,__init__,"self, name",129,130
+borg\remote.py,__init__,"self, location, create=False, lock_wait=None, lock=True, args=None",132,162
+borg\remote.py,__del__,self,164,165
+borg\remote.py,__repr__,self,167,168
+borg\remote.py,borg_cmd,"self, args, testing",170,188
+borg\remote.py,ssh_cmd,"self, location",190,199
+borg\remote.py,call,"self, cmd, *args, **kw",201,203
+borg\remote.py,call_many,"self, cmd, calls, wait=True, is_preloaded=False",205,305
+borg\remote.py,fetch_from_cache,args,209,213
+borg\remote.py,check,"self, repair=False, save_space=False",307,308
+borg\remote.py,commit,"self, save_space=False",310,311
+borg\remote.py,rollback,"self, *args",313,314
+borg\remote.py,destroy,self,316,317
+borg\remote.py,__len__,self,319,320
+borg\remote.py,list,"self, limit=None, marker=None",322,323
+borg\remote.py,get,"self, id_",325,327
+borg\remote.py,get_many,"self, ids, is_preloaded=False",329,331
+borg\remote.py,put,"self, id_, data, wait=True",333,334
+borg\remote.py,delete,"self, id_, wait=True",336,337
+borg\remote.py,save_key,"self, keydata",339,340
+borg\remote.py,load_key,self,342,343
+borg\remote.py,break_lock,self,345,346
+borg\remote.py,close,self,348,353
+borg\remote.py,preload,"self, ids",355,356
+borg\remote.py,__init__,"self, repository",364,367
+borg\remote.py,__del__,self,369,370
+borg\remote.py,get,"self, key",372,373
+borg\remote.py,get_many,"self, keys",375,389
+borg\remote.py,cache_if_remote,repository,392,395
+borg\repository.py,__init__,"self, path, create=False, exclusive=False, lock_wait=None, lock=True",55,63
+borg\repository.py,__del__,self,65,66
+borg\repository.py,__repr__,self,68,69
+borg\repository.py,create,"self, path",71,87
+borg\repository.py,save_config,"self, path, config",89,92
+borg\repository.py,save_key,"self, keydata",94,98
+borg\repository.py,load_key,self,100,102
+borg\repository.py,destroy,self,104,109
+borg\repository.py,get_index_transaction_id,self,111,116
+borg\repository.py,get_transaction_id,self,118,131
+borg\repository.py,break_lock,self,133,134
+borg\repository.py,open,"self, path, exclusive, lock_wait=None, lock=True",136,151
+borg\repository.py,close,self,153,159
+borg\repository.py,commit,"self, save_space=False",161,167
+borg\repository.py,open_index,"self, transaction_id",169,172
+borg\repository.py,prepare_txn,"self, transaction_id, do_cleanup=True",174,197
+borg\repository.py,write_index,self,199,221
+borg\repository.py,compact_segments,"self, save_space=False",223,267
+borg\repository.py,complete_xfer,,232,242
+borg\repository.py,replay_segments,"self, index_transaction_id, segments_transaction_id",269,285
+borg\repository.py,_update_index,"self, segment, objects, report=None",287,317
+borg\repository.py,check,"self, repair=False, save_space=False",319,390
+borg\repository.py,report_error,msg,327,330
+borg\repository.py,rollback,self,392,396
+borg\repository.py,__len__,self,398,401
+borg\repository.py,__contains__,"self, id",403,406
+borg\repository.py,list,"self, limit=None, marker=None",408,411
+borg\repository.py,get,"self, id_",413,420
+borg\repository.py,get_many,"self, ids, is_preloaded=False",422,424
+borg\repository.py,put,"self, id, data, wait=True",426,441
+borg\repository.py,delete,"self, id, wait=True",443,454
+borg\repository.py,preload,"self, ids",456,458
+borg\repository.py,__init__,"self, path, limit, segments_per_dir, capacity='90'",478,486
+borg\repository.py,close,self,488,491
+borg\repository.py,segment_iterator,"self, reverse=False",493,501
+borg\repository.py,get_latest_segment,self,503,506
+borg\repository.py,get_segments_transaction_id,self,508,514
+borg\repository.py,cleanup,"self, transaction_id",516,524
+borg\repository.py,is_committed_segment,"self, filename",526,537
+borg\repository.py,segment_filename,"self, segment",539,540
+borg\repository.py,get_write_fd,"self, no_new=False, raise_full=False",542,555
+borg\repository.py,get_fd,"self, segment",557,563
+borg\repository.py,delete_segment,"self, segment",565,571
+borg\repository.py,segment_exists,"self, segment",573,574
+borg\repository.py,iter_objects,"self, segment, include_data=False",576,591
+borg\repository.py,recover_segment,"self, segment, filename",593,611
+borg\repository.py,read,"self, segment, offset, id",613,623
+borg\repository.py,_read,"self, fd, fmt, header, segment, offset, acceptable_tags",625,655
+borg\repository.py,write_put,"self, id, data, raise_full=False",657,665
+borg\repository.py,write_delete,"self, id, raise_full=False",667,673
+borg\repository.py,write_commit,self,675,680
+borg\repository.py,close_segment,self,682,693
+borg\upgrader.py,__init__,"self, *args, **kw",19,21
+borg\upgrader.py,upgrade,"self, dryrun=True, inplace=False",23,62
+borg\upgrader.py,borg_readme,self,64,68
+borg\upgrader.py,convert_segments,"segments, dryrun=True, inplace=False",70,88
+borg\upgrader.py,header_replace,"filename, old_magic, new_magic, inplace=True",90,109
+borg\upgrader.py,find_attic_keyfile,self,111,128
+borg\upgrader.py,convert_keyfiles,"keyfile, dryrun",130,152
+borg\upgrader.py,convert_repo_index,"self, dryrun, inplace",154,173
+borg\upgrader.py,convert_cache,"self, dryrun",175,238
+borg\upgrader.py,copy_cache_file,path,194,221
+borg\upgrader.py,get_keys_dir,,246,250
+borg\upgrader.py,find_key_file,"cls, repository",252,274
+borg\xattr.py,is_enabled,path=None,11,19
+borg\xattr.py,get_all,"path, follow_symlinks=True",22,28
+borg\xattr.py,_check,"rv, path=None",34,37
+borg\xattr.py,listxattr,"path, *, follow_symlinks=True",53,69
+borg\xattr.py,getxattr,"path, name, *, follow_symlinks=True",71,88
+borg\xattr.py,setxattr,"path, name, value, *, follow_symlinks=True",90,101
+borg\xattr.py,listxattr,"path, *, follow_symlinks=True",119,135
+borg\xattr.py,getxattr,"path, name, *, follow_symlinks=True",137,154
+borg\xattr.py,setxattr,"path, name, value, *, follow_symlinks=True",156,167
+borg\xattr.py,listxattr,"path, *, follow_symlinks=True",190,216
+borg\xattr.py,getxattr,"path, name, *, follow_symlinks=True",218,235
+borg\xattr.py,setxattr,"path, name, value, *, follow_symlinks=True",237,248
+borg\xattr.py,listxattr,"path, *, follow_symlinks=True",251,252
+borg\xattr.py,getxattr,"path, name, *, follow_symlinks=True",254,255
+borg\xattr.py,setxattr,"path, name, value, *, follow_symlinks=True",257,258
+borg\support\argparse.py,gettext,message,95,96
+borg\support\argparse.py,ngettext,"msg1, msg2, n",97,98
+borg\support\argparse.py,__repr__,self,124,131
+borg\support\argparse.py,_get_kwargs,self,133,134
+borg\support\argparse.py,_get_args,self,136,137
+borg\support\argparse.py,_ensure_value,"namespace, name, value",140,143
+borg\support\argparse.py,__init__,"self, prog, indent_increment='2', max_help_position='24', width=None",157,184
+borg\support\argparse.py,_indent,self,189,191
+borg\support\argparse.py,_dedent,self,193,196
+borg\support\argparse.py,__init__,"self, formatter, parent, heading=None",200,204
+borg\support\argparse.py,format_help,self,206,229
+borg\support\argparse.py,_add_item,"self, func, args",231,232
+borg\support\argparse.py,start_section,"self, heading",237,241
+borg\support\argparse.py,end_section,self,243,245
+borg\support\argparse.py,add_text,"self, text",247,249
+borg\support\argparse.py,add_usage,"self, usage, actions, groups, prefix=None",251,254
+borg\support\argparse.py,add_argument,"self, action",256,272
+borg\support\argparse.py,add_arguments,"self, actions",274,276
+borg\support\argparse.py,format_help,self,281,286
+borg\support\argparse.py,_join_parts,"self, part_strings",288,291
+borg\support\argparse.py,_format_usage,"self, usage, actions, groups, prefix",293,383
+borg\support\argparse.py,get_lines,"parts, indent, prefix=None",337,355
+borg\support\argparse.py,_format_actions_usage,"self, actions, groups",385,479
+borg\support\argparse.py,_format_text,"self, text",481,486
+borg\support\argparse.py,_format_action,"self, action",488,533
+borg\support\argparse.py,_format_action_invocation,"self, action",535,556
+borg\support\argparse.py,_metavar_formatter,"self, action, default_metavar",558,572
+borg\support\argparse.py,format,tuple_size,567,571
+borg\support\argparse.py,_format_args,"self, action, default_metavar",574,591
+borg\support\argparse.py,_expand_help,"self, action",593,604
+borg\support\argparse.py,_iter_indented_subactions,"self, action",606,615
+borg\support\argparse.py,_split_lines,"self, text, width",617,619
+borg\support\argparse.py,_fill_text,"self, text, width, indent",621,624
+borg\support\argparse.py,_get_help_string,"self, action",626,627
+borg\support\argparse.py,_fill_text,"self, text, width, indent",637,638
+borg\support\argparse.py,_split_lines,"self, text, width",648,649
+borg\support\argparse.py,_get_help_string,"self, action",659,666
+borg\support\argparse.py,_get_action_name,argument,673,683
+borg\support\argparse.py,__init__,"self, argument, message",693,695
+borg\support\argparse.py,__str__,self,697,703
+borg\support\argparse.py,__init__,"self, option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None",766,786
+borg\support\argparse.py,_get_kwargs,self,788,800
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",802,803
+borg\support\argparse.py,__init__,"self, option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None",808,835
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",837,838
+borg\support\argparse.py,__init__,"self, option_strings, dest, const, default=None, required=False, help=None, metavar=None",843,858
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",860,861
+borg\support\argparse.py,__init__,"self, option_strings, dest, default=False, required=False, help=None",866,878
+borg\support\argparse.py,__init__,"self, option_strings, dest, default=True, required=False, help=None",883,895
+borg\support\argparse.py,__init__,"self, option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None",900,927
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",929,932
+borg\support\argparse.py,__init__,"self, option_strings, dest, const, default=None, required=False, help=None, metavar=None",937,953
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",955,958
+borg\support\argparse.py,__init__,"self, option_strings, dest, default=None, required=False, help=None",963,975
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",977,979
+borg\support\argparse.py,__init__,"self, option_strings, dest=SUPPRESS, default=SUPPRESS, help=None",984,994
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",996,998
+borg\support\argparse.py,__init__,"self, option_strings, version=None, dest=SUPPRESS, default=SUPPRESS, help=""show program's version number and exit""",1003,1015
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",1017,1023
+borg\support\argparse.py,__init__,"self, name, aliases, help",1030,1036
+borg\support\argparse.py,__init__,"self, option_strings, prog, parser_class, dest=SUPPRESS, help=None, metavar=None",1038,1057
+borg\support\argparse.py,add_parser,"self, name, **kwargs",1059,1080
+borg\support\argparse.py,_get_subactions,self,1082,1083
+borg\support\argparse.py,__call__,"self, parser, namespace, values, option_string=None",1085,1108
+borg\support\argparse.py,__init__,"self, mode='r', bufsize=(- '1')",1128,1130
+borg\support\argparse.py,__call__,"self, string",1132,1148
+borg\support\argparse.py,__repr__,self,1150,1153
+borg\support\argparse.py,__init__,"self, **kwargs",1166,1168
+borg\support\argparse.py,__eq__,"self, other",1170,1171
+borg\support\argparse.py,__ne__,"self, other",1173,1174
+borg\support\argparse.py,__contains__,"self, key",1176,1177
+borg\support\argparse.py,__init__,"self, description, prefix_chars, argument_default, conflict_handler",1182,1229
+borg\support\argparse.py,register,"self, registry_name, value, object",1234,1236
+borg\support\argparse.py,_registry_get,"self, registry_name, value, default=None",1238,1239
+borg\support\argparse.py,set_defaults,"self, **kwargs",1244,1251
+borg\support\argparse.py,get_default,"self, dest",1253,1257
+borg\support\argparse.py,add_argument,"self, *args, **kwargs",1263,1308
+borg\support\argparse.py,add_argument_group,"self, *args, **kwargs",1310,1313
+borg\support\argparse.py,add_mutually_exclusive_group,"self, **kwargs",1315,1318
+borg\support\argparse.py,_add_action,"self, action",1320,1339
+borg\support\argparse.py,_remove_action,"self, action",1341,1342
+borg\support\argparse.py,_add_container_actions,"self, container",1344,1382
+borg\support\argparse.py,_get_positional_kwargs,"self, dest, **kwargs",1384,1398
+borg\support\argparse.py,_get_optional_kwargs,"self, *args, **kwargs",1400,1434
+borg\support\argparse.py,_pop_action_class,"self, kwargs, default=None",1436,1438
+borg\support\argparse.py,_get_handler,self,1440,1447
+borg\support\argparse.py,_check_conflict,"self, action",1449,1461
+borg\support\argparse.py,_handle_conflict_error,"self, action, conflicting_actions",1463,1470
+borg\support\argparse.py,_handle_conflict_resolve,"self, action, conflicting_actions",1472,1484
+borg\support\argparse.py,__init__,"self, container, title=None, description=None, **kwargs",1489,1509
+borg\support\argparse.py,_add_action,"self, action",1511,1514
+borg\support\argparse.py,_remove_action,"self, action",1516,1518
+borg\support\argparse.py,__init__,"self, container, required=False",1523,1526
+borg\support\argparse.py,_add_action,"self, action",1528,1534
+borg\support\argparse.py,_remove_action,"self, action",1536,1538
+borg\support\argparse.py,__init__,"self, prog=None, usage=None, description=None, epilog=None, version=None, parents=[], formatter_class=HelpFormatter, prefix_chars='-', fromfile_prefix_chars=None, argument_default=None, conflict_handler='error', add_help=True",1559,1632
+borg\support\argparse.py,identity,string,1605,1606
+borg\support\argparse.py,_get_kwargs,self,1637,1647
+borg\support\argparse.py,add_subparsers,"self, **kwargs",1652,1681
+borg\support\argparse.py,_add_action,"self, action",1683,1688
+borg\support\argparse.py,_get_optional_actions,self,1690,1693
+borg\support\argparse.py,_get_positional_actions,self,1695,1698
+borg\support\argparse.py,parse_args,"self, args=None, namespace=None",1703,1708
+borg\support\argparse.py,parse_known_args,"self, args=None, namespace=None",1710,1743
+borg\support\argparse.py,_parse_known_args,"self, arg_strings, namespace",1745,1989
+borg\support\argparse.py,take_action,"action, argument_strings, option_string=None",1792,1810
+borg\support\argparse.py,consume_optional,start_index,1813,1883
+borg\support\argparse.py,consume_positionals,start_index,1890,1906
+borg\support\argparse.py,_read_args_from_files,"self, arg_strings",1991,2018
+borg\support\argparse.py,convert_arg_line_to_args,"self, arg_line",2020,2021
+borg\support\argparse.py,_match_argument,"self, action, arg_strings_pattern",2023,2042
+borg\support\argparse.py,_match_arguments_partial,"self, actions, arg_strings_pattern",2044,2058
+borg\support\argparse.py,_parse_optional,"self, arg_string",2060,2116
+borg\support\argparse.py,_get_option_tuples,"self, option_string",2118,2160
+borg\support\argparse.py,_get_nargs_pattern,"self, action",2162,2201
+borg\support\argparse.py,_get_values,"self, action, arg_strings",2206,2256
+borg\support\argparse.py,_get_value,"self, action, arg_string",2258,2282
+borg\support\argparse.py,_check_value,"self, action, value",2284,2290
+borg\support\argparse.py,format_usage,self,2295,2299
+borg\support\argparse.py,format_help,self,2301,2322
+borg\support\argparse.py,format_version,self,2324,2332
+borg\support\argparse.py,_get_formatter,self,2334,2335
+borg\support\argparse.py,print_usage,"self, file=None",2340,2343
+borg\support\argparse.py,print_help,"self, file=None",2345,2348
+borg\support\argparse.py,print_version,"self, file=None",2350,2356
+borg\support\argparse.py,_print_message,"self, message, file=None",2358,2362
+borg\support\argparse.py,exit,"self, status='0', message=None",2367,2370
+borg\support\argparse.py,error,"self, message",2372,2383
+borg\testsuite\archive.py,__init__,self,14,15
+borg\testsuite\archive.py,add_chunk,"self, id, data, stats=None",17,19
+borg\testsuite\archive.py,_test_timestamp_parsing,"self, isoformat, expected",24,30
+borg\testsuite\archive.py,test_with_microseconds,self,32,35
+borg\testsuite\archive.py,test_without_microseconds,self,37,40
+borg\testsuite\archive.py,test,self,45,58
+borg\testsuite\archive.py,make_chunks,"self, items",63,64
+borg\testsuite\archive.py,_validator,"self, value",66,67
+borg\testsuite\archive.py,process,"self, input",69,79
+borg\testsuite\archive.py,test_extra_garbage_no_sync,self,81,89
+borg\testsuite\archive.py,split,"self, left, length",91,96
+borg\testsuite\archive.py,test_correct_stream,self,98,102
+borg\testsuite\archive.py,test_missing_chunk,self,104,108
+borg\testsuite\archive.py,test_corrupt_chunk,self,110,114
+borg\testsuite\archiver.py,exec_cmd,"*args, archiver=None, fork=False, exe=None, **kw",46,72
+borg\testsuite\archiver.py,cmd,request,85,95
+borg\testsuite\archiver.py,exec_fn,"*args, **kw",93,94
+borg\testsuite\archiver.py,test_return_codes,"cmd, tmpdir",98,113
+borg\testsuite\archiver.py,test_disk_full,cmd,132,192
+borg\testsuite\archiver.py,make_files,"dir, count, size, rnd=True",134,145
+borg\testsuite\archiver.py,setUp,self,200,221
+borg\testsuite\archiver.py,tearDown,self,223,225
+borg\testsuite\archiver.py,cmd,"self, *args, **kw",227,236
+borg\testsuite\archiver.py,create_src_archive,"self, name",238,239
+borg\testsuite\archiver.py,create_regular_file,"self, name, size='0', contents=None",244,251
+borg\testsuite\archiver.py,create_test_files,self,253,299
+borg\testsuite\archiver.py,test_basic_functionality,self,301,355
+borg\testsuite\archiver.py,filter,output,343,352
+borg\testsuite\archiver.py,test_atime,self,357,372
+borg\testsuite\archiver.py,_extract_repository_id,"self, path",374,375
+borg\testsuite\archiver.py,_set_repository_id,"self, path, id",377,383
+borg\testsuite\archiver.py,test_sparse_file,self,385,418
+borg\testsuite\archiver.py,test_unusual_filenames,self,420,431
+borg\testsuite\archiver.py,test_repository_swap_detection,self,433,446
+borg\testsuite\archiver.py,test_repository_swap_detection2,self,448,459
+borg\testsuite\archiver.py,test_strip_components,self,461,473
+borg\testsuite\archiver.py,test_extract_include_exclude,self,475,490
+borg\testsuite\archiver.py,test_exclude_caches,self,492,501
+borg\testsuite\archiver.py,test_exclude_tagged,self,503,512
+borg\testsuite\archiver.py,test_exclude_keep_tagged,self,514,536
+borg\testsuite\archiver.py,test_path_normalization,self,538,545
+borg\testsuite\archiver.py,test_exclude_normalization,self,547,564
+borg\testsuite\archiver.py,test_repeated_files,self,566,569
+borg\testsuite\archiver.py,test_overwrite,self,571,588
+borg\testsuite\archiver.py,test_rename,self,590,608
+borg\testsuite\archiver.py,test_delete,self,610,623
+borg\testsuite\archiver.py,test_delete_repo,self,625,633
+borg\testsuite\archiver.py,test_corrupted_repository,self,635,644
+borg\testsuite\archiver.py,test_readonly_repository,self,647,656
+borg\testsuite\archiver.py,test_umask,self,658,663
+borg\testsuite\archiver.py,test_create_dry_run,self,665,671
+borg\testsuite\archiver.py,test_progress,self,673,681
+borg\testsuite\archiver.py,test_file_status,self,683,700
+borg\testsuite\archiver.py,test_create_topical,self,702,724
+borg\testsuite\archiver.py,test_cmdline_compatibility,self,726,733
+borg\testsuite\archiver.py,test_prune_repository,self,735,748
+borg\testsuite\archiver.py,test_prune_repository_save_space,self,750,763
+borg\testsuite\archiver.py,test_prune_repository_prefix,self,765,784
+borg\testsuite\archiver.py,test_list_prefix,self,786,794
+borg\testsuite\archiver.py,test_break_lock,self,796,798
+borg\testsuite\archiver.py,test_usage,self,800,806
+borg\testsuite\archiver.py,test_help,self,808,813
+borg\testsuite\archiver.py,test_fuse_mount_repository,self,815,835
+borg\testsuite\archiver.py,test_fuse_mount_archive,self,837,855
+borg\testsuite\archiver.py,verify_aes_counter_uniqueness,"self, method",857,884
+borg\testsuite\archiver.py,verify_uniqueness,,861,872
+borg\testsuite\archiver.py,test_aes_counter_uniqueness_keyfile,self,886,887
+borg\testsuite\archiver.py,test_aes_counter_uniqueness_passphrase,self,889,890
+borg\testsuite\archiver.py,test_debug_dump_archive_items,self,892,900
+borg\testsuite\archiver.py,test_debug_put_get_delete_obj,self,902,919
+borg\testsuite\archiver.py,setUp,self,930,935
+borg\testsuite\archiver.py,open_archive,"self, name",937,941
+borg\testsuite\archiver.py,test_check_usage,self,943,954
+borg\testsuite\archiver.py,test_missing_file_chunk,self,956,965
+borg\testsuite\archiver.py,test_missing_archive_item_chunk,self,967,973
+borg\testsuite\archiver.py,test_missing_archive_metadata,self,975,981
+borg\testsuite\archiver.py,test_missing_manifest,self,983,991
+borg\testsuite\archiver.py,test_extra_chunks,self,993,1003
+borg\testsuite\archiver.py,test_remote_repo_restrict_to_path,self,1009,1017
+borg\testsuite\archiver.py,test_fuse_mount_repository,self,1024,1026
+borg\testsuite\archiver.py,test_fuse_mount_archive,self,1028,1030
+borg\testsuite\archiver.py,test_debug_put_get_delete_obj,self,1032,1034
+borg\testsuite\benchmark.py,repo_url,"request, tmpdir",16,25
+borg\testsuite\benchmark.py,repo,"request, cmd, repo_url",28,31
+borg\testsuite\benchmark.py,testdata,"request, tmpdir_factory",34,51
+borg\testsuite\benchmark.py,archive,"request, cmd, repo, testdata",54,58
+borg\testsuite\benchmark.py,test_create_none,"benchmark, cmd, repo, testdata",61,63
+borg\testsuite\benchmark.py,test_create_lz4,"benchmark, cmd, repo, testdata",66,68
+borg\testsuite\benchmark.py,test_extract,"benchmark, cmd, archive, tmpdir",71,74
+borg\testsuite\benchmark.py,test_delete,"benchmark, cmd, archive",77,79
+borg\testsuite\benchmark.py,test_list,"benchmark, cmd, archive",82,84
+borg\testsuite\benchmark.py,test_info,"benchmark, cmd, archive",87,89
+borg\testsuite\benchmark.py,test_check,"benchmark, cmd, archive",92,95
+borg\testsuite\benchmark.py,test_help,"benchmark, cmd",98,100
+borg\testsuite\chunker.py,test_chunkify,self,10,24
+borg\testsuite\chunker.py,test_buzhash,self,26,31
+borg\testsuite\compress.py,test_get_compressor,,17,25
+borg\testsuite\compress.py,test_cnull,,28,34
+borg\testsuite\compress.py,test_lz4,,37,42
+borg\testsuite\compress.py,test_zlib,,45,50
+borg\testsuite\compress.py,test_lzma,,53,60
+borg\testsuite\compress.py,test_autodetect_invalid,,63,67
+borg\testsuite\compress.py,test_zlib_compat,,70,81
+borg\testsuite\compress.py,test_compressor,,84,100
+borg\testsuite\crypto.py,test_bytes_to_int,self,9,10
+borg\testsuite\crypto.py,test_bytes_to_long,self,12,14
+borg\testsuite\crypto.py,test_pbkdf2_sha256,self,16,22
+borg\testsuite\crypto.py,test_get_random_bytes,self,24,29
+borg\testsuite\crypto.py,test_aes,self,31,45
+borg\testsuite\hashindex.py,H,x,9,11
+borg\testsuite\hashindex.py,_generic_test,"self, cls, make_value, sha",16,50
+borg\testsuite\hashindex.py,test_nsindex,self,52,54
+borg\testsuite\hashindex.py,test_chunkindex,self,56,58
+borg\testsuite\hashindex.py,test_resize,self,60,75
+borg\testsuite\hashindex.py,test_iteritems,self,77,85
+borg\testsuite\hashindex.py,test_chunkindex_merge,self,87,102
+borg\testsuite\helpers.py,test_bigint,self,21,28
+borg\testsuite\helpers.py,test_ssh,"self, monkeypatch",32,37
+borg\testsuite\helpers.py,test_file,"self, monkeypatch",39,44
+borg\testsuite\helpers.py,test_scp,"self, monkeypatch",46,51
+borg\testsuite\helpers.py,test_folder,"self, monkeypatch",53,58
+borg\testsuite\helpers.py,test_abspath,"self, monkeypatch",60,65
+borg\testsuite\helpers.py,test_relpath,"self, monkeypatch",67,72
+borg\testsuite\helpers.py,test_underspecified,"self, monkeypatch",74,81
+borg\testsuite\helpers.py,test_no_double_colon,"self, monkeypatch",83,86
+borg\testsuite\helpers.py,test_no_slashes,"self, monkeypatch",88,91
+borg\testsuite\helpers.py,test_canonical_path,"self, monkeypatch",93,100
+borg\testsuite\helpers.py,test_ssh,"self, monkeypatch",104,109
+borg\testsuite\helpers.py,test_file,"self, monkeypatch",111,116
+borg\testsuite\helpers.py,test_scp,"self, monkeypatch",118,123
+borg\testsuite\helpers.py,test_folder,"self, monkeypatch",125,130
+borg\testsuite\helpers.py,test_abspath,"self, monkeypatch",132,137
+borg\testsuite\helpers.py,test_relpath,"self, monkeypatch",139,144
+borg\testsuite\helpers.py,test_no_slashes,"self, monkeypatch",146,149
+borg\testsuite\helpers.py,test,self,154,159
+borg\testsuite\helpers.py,evaluate,"self, paths, excludes",172,174
+borg\testsuite\helpers.py,test,self,176,193
+borg\testsuite\helpers.py,testComposedUnicode,self,198,206
+borg\testsuite\helpers.py,testDecomposedUnicode,self,208,216
+borg\testsuite\helpers.py,testInvalidUnicode,self,218,226
+borg\testsuite\helpers.py,testComposedUnicode,self,231,239
+borg\testsuite\helpers.py,testDecomposedUnicode,self,241,249
+borg\testsuite\helpers.py,testInvalidUnicode,self,251,259
+borg\testsuite\helpers.py,test_compression_specs,,262,283
+borg\testsuite\helpers.py,test_chunkerparams,,286,290
+borg\testsuite\helpers.py,test,self,295,303
+borg\testsuite\helpers.py,__init__,"self, ts",308,309
+borg\testsuite\helpers.py,__repr__,self,311,312
+borg\testsuite\helpers.py,test,self,317,341
+borg\testsuite\helpers.py,local_to_UTC,"month, day",319,322
+borg\testsuite\helpers.py,subset,"lst, indices",324,325
+borg\testsuite\helpers.py,dotest,"test_archives, n, skip, indices",327,330
+borg\testsuite\helpers.py,test,self,346,372
+borg\testsuite\helpers.py,subset,"lst, indices",348,349
+borg\testsuite\helpers.py,dotest,"test_archives, within, indices",351,354
+borg\testsuite\helpers.py,test,self,377,380
+borg\testsuite\helpers.py,test,self,385,387
+borg\testsuite\helpers.py,test_get_cache_dir,,390,404
+borg\testsuite\helpers.py,stats,,407,411
+borg\testsuite\helpers.py,test_stats_basic,stats,414,420
+borg\testsuite\helpers.py,tests_stats_progress,"stats, columns='80'",423,441
+borg\testsuite\helpers.py,test_stats_format,stats,444,451
+borg\testsuite\helpers.py,test_file_size,,454,478
+borg\testsuite\helpers.py,test_file_size_precision,,481,484
+borg\testsuite\helpers.py,test_is_slow_msgpack,,487,495
+borg\testsuite\helpers.py,test_yes_simple,,498,508
+borg\testsuite\helpers.py,test_yes_custom,,511,515
+borg\testsuite\helpers.py,test_yes_env,,518,523
+borg\testsuite\helpers.py,test_yes_defaults,,526,546
+borg\testsuite\helpers.py,test_yes_retry,,549,553
+borg\testsuite\helpers.py,test_yes_output,capfd,556,569
+borg\testsuite\helpers.py,test_progress_percentage_multiline,capfd,572,585
+borg\testsuite\helpers.py,test_progress_percentage_sameline,capfd,588,601
+borg\testsuite\helpers.py,test_progress_percentage_step,capfd,604,614
+borg\testsuite\helpers.py,test_progress_endless,capfd,617,627
+borg\testsuite\helpers.py,test_progress_endless_step,capfd,630,643
+borg\testsuite\key.py,setUp,self,34,36
+borg\testsuite\key.py,tearDown,self,38,39
+borg\testsuite\key.py,test_plaintext,self,48,52
+borg\testsuite\key.py,test_keyfile,self,54,71
+borg\testsuite\key.py,test_keyfile2,self,73,78
+borg\testsuite\key.py,test_passphrase,self,80,103
+borg\testsuite\locking.py,test_id,,12,18
+borg\testsuite\locking.py,test_timeout,self,22,27
+borg\testsuite\locking.py,test_notimeout_sleep,self,29,35
+borg\testsuite\locking.py,lockpath,tmpdir,38,40
+borg\testsuite\locking.py,test_checks,"self, lockpath",44,46
+borg\testsuite\locking.py,test_acquire_break_reacquire,"self, lockpath",48,52
+borg\testsuite\locking.py,test_timeout,"self, lockpath",54,57
+borg\testsuite\locking.py,test_shared,"self, lockpath",61,67
+borg\testsuite\locking.py,test_exclusive,"self, lockpath",69,72
+borg\testsuite\locking.py,test_upgrade,"self, lockpath",74,79
+borg\testsuite\locking.py,test_downgrade,"self, lockpath",81,86
+borg\testsuite\locking.py,test_break,"self, lockpath",88,94
+borg\testsuite\locking.py,test_timeout,"self, lockpath",96,105
+borg\testsuite\locking.py,rosterpath,tmpdir,108,110
+borg\testsuite\locking.py,test_empty,"self, rosterpath",114,118
+borg\testsuite\locking.py,test_modify_get,"self, rosterpath",120,133
+borg\testsuite\logger.py,io_logger,,10,16
+borg\testsuite\logger.py,test_setup_logging,io_logger,19,21
+borg\testsuite\logger.py,test_multiple_loggers,io_logger,24,35
+borg\testsuite\logger.py,test_parent_module,,38,39
+borg\testsuite\logger.py,test_lazy_logger,,42,54
+borg\testsuite\lrucache.py,test_lrucache,self,8,32
+borg\testsuite\lrucache.py,test_dispose,self,34,52
+borg\testsuite\platform.py,fakeroot_detected,,34,35
+borg\testsuite\platform.py,setUp,self,42,43
+borg\testsuite\platform.py,tearDown,self,45,46
+borg\testsuite\platform.py,get_acl,"self, path, numeric_owner=False",48,51
+borg\testsuite\platform.py,set_acl,"self, path, access=None, default=None, numeric_owner=False",53,55
+borg\testsuite\platform.py,test_access_acl,self,57,67
+borg\testsuite\platform.py,test_default_acl,self,69,73
+borg\testsuite\platform.py,test_non_ascii_acl,self,75,102
+borg\testsuite\platform.py,test_utils,self,104,109
+borg\testsuite\platform.py,setUp,self,116,117
+borg\testsuite\platform.py,tearDown,self,119,120
+borg\testsuite\platform.py,get_acl,"self, path, numeric_owner=False",122,125
+borg\testsuite\platform.py,set_acl,"self, path, acl, numeric_owner=False",127,129
+borg\testsuite\platform.py,test_access_acl,self,131,140
+borg\testsuite\repository.py,open,"self, create=False",19,20
+borg\testsuite\repository.py,setUp,self,22,24
+borg\testsuite\repository.py,tearDown,self,26,28
+borg\testsuite\repository.py,reopen,self,30,33
+borg\testsuite\repository.py,test1,self,38,53
+borg\testsuite\repository.py,test2,self,55,64
+borg\testsuite\repository.py,test_consistency,self,66,76
+borg\testsuite\repository.py,test_consistency2,self,78,87
+borg\testsuite\repository.py,test_overwrite_in_same_transaction,self,89,95
+borg\testsuite\repository.py,test_single_kind_transactions,self,97,110
+borg\testsuite\repository.py,test_list,self,112,123
+borg\testsuite\repository.py,add_keys,self,128,135
+borg\testsuite\repository.py,test_replay_of_missing_index,self,137,144
+borg\testsuite\repository.py,test_crash_before_compact_segments,self,146,155
+borg\testsuite\repository.py,test_replay_of_readonly_repository,self,157,165
+borg\testsuite\repository.py,test_crash_before_write_index,self,167,176
+borg\testsuite\repository.py,test_crash_before_deleting_compacted_segments,self,178,188
+borg\testsuite\repository.py,list_indices,self,193,194
+borg\testsuite\repository.py,check,"self, repair=False, status=True",196,199
+borg\testsuite\repository.py,get_objects,"self, *ids",201,203
+borg\testsuite\repository.py,add_objects,"self, segments",205,209
+borg\testsuite\repository.py,get_head,self,211,212
+borg\testsuite\repository.py,open_index,self,214,215
+borg\testsuite\repository.py,corrupt_object,"self, id_",217,222
+borg\testsuite\repository.py,delete_segment,"self, segment",224,225
+borg\testsuite\repository.py,delete_index,self,227,228
+borg\testsuite\repository.py,rename_index,"self, new_name",230,232
+borg\testsuite\repository.py,list_objects,self,234,235
+borg\testsuite\repository.py,test_repair_corrupted_segment,self,237,251
+borg\testsuite\repository.py,test_repair_missing_segment,self,253,260
+borg\testsuite\repository.py,test_repair_missing_commit_segment,self,262,266
+borg\testsuite\repository.py,test_repair_corrupted_commit_segment,self,268,276
+borg\testsuite\repository.py,test_repair_no_commits,self,278,291
+borg\testsuite\repository.py,test_repair_missing_index,self,293,298
+borg\testsuite\repository.py,test_repair_index_too_new,self,300,307
+borg\testsuite\repository.py,test_crash_before_compact,self,309,318
+borg\testsuite\repository.py,open,"self, create=False",323,324
+borg\testsuite\repository.py,test_invalid_rpc,self,326,327
+borg\testsuite\repository.py,test_ssh_cmd,self,329,335
+borg\testsuite\repository.py,test_borg_cmd,self,337,347
+borg\testsuite\repository.py,open,"self, create=False",352,353
+borg\testsuite\repository.py,test_crash_before_compact,self,355,357
+borg\testsuite\upgrader.py,repo_valid,path,19,30
+borg\testsuite\upgrader.py,key_valid,path,33,43
+borg\testsuite\upgrader.py,attic_repo,tmpdir,46,60
+borg\testsuite\upgrader.py,inplace,request,63,65
+borg\testsuite\upgrader.py,test_convert_segments,"tmpdir, attic_repo, inplace",68,87
+borg\testsuite\upgrader.py,__init__,"self, path",97,98
+borg\testsuite\upgrader.py,attic_key_file,"attic_repo, tmpdir",101,125
+borg\testsuite\upgrader.py,test_keys,"tmpdir, attic_repo, attic_key_file",128,144
+borg\testsuite\upgrader.py,test_convert_all,"tmpdir, attic_repo, attic_key_file, inplace",147,185
+borg\testsuite\upgrader.py,stat_segment,path,163,164
+borg\testsuite\upgrader.py,first_inode,path,166,167
+borg\testsuite\upgrader.py,test_hardlink,"tmpdir, inplace",188,208
+borg\testsuite\xattr.py,setUp,self,12,15
+borg\testsuite\xattr.py,tearDown,self,17,18
+borg\testsuite\xattr.py,assert_equal_se,"self, is_x, want_x",20,24
+borg\testsuite\xattr.py,test,self,26,40
+borg\testsuite\__init__.py,assert_creates_file,"self, path",48,52
+borg\testsuite\__init__.py,assert_dirs_equal,"self, dir1, dir2",54,56
+borg\testsuite\__init__.py,_assert_dirs_equal_cmp,"self, diff",58,95
+borg\testsuite\__init__.py,wait_for_mount,"self, path, timeout='5'",97,105
+borg\testsuite\__init__.py,__init__,"self, dir",109,110
+borg\testsuite\__init__.py,__enter__,self,112,114
+borg\testsuite\__init__.py,__exit__,"self, *args, **kw",116,117
+borg\testsuite\__init__.py,__init__,"self, **values",121,123
+borg\testsuite\__init__.py,__enter__,self,125,131
+borg\testsuite\__init__.py,__exit__,"self, *args, **kw",133,138
+borg\testsuite\__init__.py,__init__,"self, inputs",143,144
+borg\testsuite\__init__.py,__call__,"self, prompt=None",146,152

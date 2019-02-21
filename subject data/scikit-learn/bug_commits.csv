@@ -1,0 +1,423 @@
+commit,author,date,title,faultID,file
+57bcd07,Matthias Feurer,2017-11-29 12:10:28,DOC add docs about sgd and warmstarting (#10011) (#10087),10011,sklearn/linear_model/passive_aggressive.py
+57bcd07,Matthias Feurer,2017-11-29 12:10:28,DOC add docs about sgd and warmstarting (#10011) (#10087),10011,sklearn/linear_model/stochastic_gradient.py
+c6005e1,Jörg Döpfert,2017-11-10 20:40:47,[MRG + 1] Fix BayesianRidge() and ARDRegression() for constant target vectors  (#10095),10092,sklearn/linear_model/bayes.py
+c6005e1,Jörg Döpfert,2017-11-10 20:40:47,[MRG + 1] Fix BayesianRidge() and ARDRegression() for constant target vectors  (#10095),10092,sklearn/linear_model/tests/test_bayes.py
+102620f,Joel Nothman,2017-10-26 00:23:41,[MRG] FIX bug in nested set_params usage (#9999),9999,sklearn/base.py
+102620f,Joel Nothman,2017-10-26 00:23:41,[MRG] FIX bug in nested set_params usage (#9999),9999,sklearn/tests/test_base.py
+ebc8730,Reiichiro Nakano,2017-10-20 06:05:43,[MRG+1] Fix cross_val_predict behavior for binary classification in decision_function (Fixes #9589) (#9593),9589,sklearn/model_selection/_validation.py
+ebc8730,Reiichiro Nakano,2017-10-20 06:05:43,[MRG+1] Fix cross_val_predict behavior for binary classification in decision_function (Fixes #9589) (#9593),9589,sklearn/model_selection/tests/test_validation.py
+ceaa09b,goncalo-rodrigues,2017-10-09 14:54:57,FIX Error in manifold.t_sne._kl_divergence for n_components > 2 (#9712),9712,sklearn/manifold/t_sne.py
+3a48f0a,nielsenmarkus11,2017-10-06 09:00:39,[MRG+1] Raise error when SparseSeries is passed into classification metrics (#7373),7373,sklearn/metrics/ranking.py
+3a48f0a,nielsenmarkus11,2017-10-06 09:00:39,[MRG+1] Raise error when SparseSeries is passed into classification metrics (#7373),7373,sklearn/metrics/tests/test_ranking.py
+3a48f0a,nielsenmarkus11,2017-10-06 09:00:39,[MRG+1] Raise error when SparseSeries is passed into classification metrics (#7373),7373,sklearn/utils/multiclass.py
+3a48f0a,nielsenmarkus11,2017-10-06 09:00:39,[MRG+1] Raise error when SparseSeries is passed into classification metrics (#7373),7373,sklearn/utils/tests/test_multiclass.py
+1701fcf,oliblum90,2017-10-02 23:39:25,[MRG + 1] enable metric = 'cosine' for tsne computation (#9623),9623,sklearn/manifold/t_sne.py
+1701fcf,oliblum90,2017-10-02 23:39:25,[MRG + 1] enable metric = 'cosine' for tsne computation (#9623),9623,sklearn/manifold/tests/test_t_sne.py
+4c61e8b,Sam Steingold,2017-09-11 16:06:01,[MRG+1] avoid integer overflow by using floats for matthews_corrcoef (#9693),9622,sklearn/metrics/classification.py
+4c61e8b,Sam Steingold,2017-09-11 16:06:01,[MRG+1] avoid integer overflow by using floats for matthews_corrcoef (#9693),9622,sklearn/metrics/tests/test_classification.py
+fb64216,Jonatan Samoocha,2017-09-05 12:15:55,[MRG+1] Affinity propagation edge cases (#9612) (#9635),9612,sklearn/cluster/affinity_propagation_.py
+fb64216,Jonatan Samoocha,2017-09-05 12:15:55,[MRG+1] Affinity propagation edge cases (#9612) (#9635),9612,sklearn/cluster/tests/test_affinity_propagation.py
+39f1b13,Joel Nothman,2017-08-31 00:42:01,TST/FIX failure on machines with one CPU (#9544),9544,sklearn/tests/test_multioutput.py
+8f89478,James Bourbeau,2017-08-29 20:13:53,[MRG + 1] Removes estimator method check in cross_val_predict before fitting (#9641),9639,sklearn/model_selection/_validation.py
+8f89478,James Bourbeau,2017-08-29 20:13:53,[MRG + 1] Removes estimator method check in cross_val_predict before fitting (#9641),9639,sklearn/model_selection/tests/test_validation.py
+aae8700,Joris Van den Bossche,2017-08-23 01:56:09,FIX force pipeline steps to be list not a tuple (#9604),9221,sklearn/pipeline.py
+aae8700,Joris Van den Bossche,2017-08-23 01:56:09,FIX force pipeline steps to be list not a tuple (#9604),9221,sklearn/tests/test_pipeline.py
+aae8700,Joris Van den Bossche,2017-08-23 01:56:09,FIX force pipeline steps to be list not a tuple (#9604),9221,sklearn/utils/metaestimators.py
+9e9b78d,Rasul Kerimov,2017-08-22 09:43:30,[MRG+1] Resolve the problem with cross_val_predict(method=) when passing X or y as list (#9600),9600,sklearn/model_selection/_validation.py
+9e9b78d,Rasul Kerimov,2017-08-22 09:43:30,[MRG+1] Resolve the problem with cross_val_predict(method=) when passing X or y as list (#9600),9600,sklearn/model_selection/tests/test_validation.py
+8f53f70,Hanmin Qin,2017-08-06 11:50:24,DOC Correct what's new for #9108 (#9501),9108
+3f53d78,Hanmin Qin,2017-08-06 10:24:32,FIX Incorrent implementation of noise_variance_ in PCA._fit_truncated (#9108),9108,sklearn/decomposition/pca.py
+3f53d78,Hanmin Qin,2017-08-06 10:24:32,FIX Incorrent implementation of noise_variance_ in PCA._fit_truncated (#9108),9108,sklearn/decomposition/tests/test_pca.py
+90607f1,Hanmin Qin,2017-07-26 02:45:21,[MRG+1] BUG Fix the shrinkage implementation in NearestCentroid (#9219),9219,sklearn/neighbors/nearest_centroid.py
+90607f1,Hanmin Qin,2017-07-26 02:45:21,[MRG+1] BUG Fix the shrinkage implementation in NearestCentroid (#9219),9219,sklearn/neighbors/tests/test_nearest_centroid.py
+055d17b,Joel Nothman,2017-07-17 18:49:55,[MRG+1] FIX out of bounds array access in SAGA (#9376),9376
+b9be858,Sebastin Santy,2017-07-13 21:13:02,covariance.graph_lasso does not pass eps to linear_model.lars_path (#9346),9344,sklearn/covariance/graph_lasso_.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,benchmarks/bench_tsne_mnist.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,benchmarks/plot_tsne_mnist.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,examples/manifold/plot_t_sne_perplexity.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/manifold/setup.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/manifold/t_sne.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/manifold/tests/test_t_sne.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/mixture/base.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/neighbors/setup.py
+cb1b6c4,Thomas Moreau,2017-07-12 22:56:02,FIX t-SNE memory usage and many other optimizer issues (#9032),9032,sklearn/neighbors/tests/test_quad_tree.py
+c2dfd75,Olivier Grisel,2017-07-05 18:01:01,TST Unskip test_importances in forest and loop over 64/32 bit for testing (#9282),9282,sklearn/ensemble/tests/test_forest.py
+0dc2279,Utkarsh Upadhyay,2017-07-04 00:20:52,[MRG+1] Fix semi_supervised (#9239),9239,examples/semi_supervised/plot_label_propagation_structure.py
+0dc2279,Utkarsh Upadhyay,2017-07-04 00:20:52,[MRG+1] Fix semi_supervised (#9239),9239,sklearn/semi_supervised/label_propagation.py
+0dc2279,Utkarsh Upadhyay,2017-07-04 00:20:52,[MRG+1] Fix semi_supervised (#9239),9239,sklearn/semi_supervised/tests/test_label_propagation.py
+b4b5de8,RAKOTOARISON Herilalaina,2017-06-19 21:33:32,[MRG+1] Fix MultinomialNB and BernoulliNB alpha=0 bug (continuation) (#9131),5814,sklearn/naive_bayes.py
+b4b5de8,RAKOTOARISON Herilalaina,2017-06-19 21:33:32,[MRG+1] Fix MultinomialNB and BernoulliNB alpha=0 bug (continuation) (#9131),5814,sklearn/tests/test_naive_bayes.py
+e339240,Jon Crall,2017-06-18 21:23:23,[MRG+1] Added support for multiclass Matthews correlation coefficient (#8094),8094,sklearn/metrics/classification.py
+e339240,Jon Crall,2017-06-18 21:23:23,[MRG+1] Added support for multiclass Matthews correlation coefficient (#8094),8094,sklearn/metrics/tests/test_classification.py
+e339240,Jon Crall,2017-06-18 21:23:23,[MRG+1] Added support for multiclass Matthews correlation coefficient (#8094),8094,sklearn/metrics/tests/test_common.py
+6a35622,Alexandre Gramfort,2017-06-12 00:29:35,[FIX] BIC/AIC for Lasso (#9022),2173,sklearn/linear_model/least_angle.py
+6a35622,Alexandre Gramfort,2017-06-12 00:29:35,[FIX] BIC/AIC for Lasso (#9022),2173,sklearn/linear_model/tests/test_least_angle.py
+6a35622,Alexandre Gramfort,2017-06-12 00:29:35,[FIX] BIC/AIC for Lasso (#9022),2173,sklearn/linear_model/tests/test_randomized_l1.py
+b15818e,jayzed82,2017-06-09 13:27:13,Fix PLS scaling bug (#7819),7819,sklearn/cross_decomposition/pls_.py
+b15818e,jayzed82,2017-06-09 13:27:13,Fix PLS scaling bug (#7819),7819,sklearn/cross_decomposition/tests/test_pls.py
+925a017,Roman Yurchak,2017-06-08 13:35:01,[MRG] FIX Hash collisions in the FeatureHasher (#7565),7565,sklearn/feature_extraction/hashing.py
+925a017,Roman Yurchak,2017-06-08 13:35:01,[MRG] FIX Hash collisions in the FeatureHasher (#7565),7565,sklearn/feature_extraction/tests/test_feature_hasher.py
+925a017,Roman Yurchak,2017-06-08 13:35:01,[MRG] FIX Hash collisions in the FeatureHasher (#7565),7565,sklearn/feature_extraction/text.py
+b429868,Jeremy Steward,2017-06-08 03:51:48,[MRG+1] Fixes issue #3367 -> MCD fails on data with singular covariance matrix (#8328),3367,sklearn/covariance/robust_covariance.py
+b429868,Jeremy Steward,2017-06-08 03:51:48,[MRG+1] Fixes issue #3367 -> MCD fails on data with singular covariance matrix (#8328),3367,sklearn/covariance/tests/test_robust_covariance.py
+e2f99b0,Sergei Lebedev,2017-06-07 09:35:34,FIX memory leak in liblinear (#9024),8499
+57415c4,David DeTomaso,2017-06-01 04:14:35,[MRG] Fix gradient descent in TSNE (#8768),8768,sklearn/manifold/t_sne.py
+57415c4,David DeTomaso,2017-06-01 04:14:35,[MRG] Fix gradient descent in TSNE (#8768),8768,sklearn/manifold/tests/test_t_sne.py
+8717a15,Lera,2017-05-09 12:21:12,[MRG] Extended explanation of using class_weight in RandomForestClassifier (Issue #6646) (#8838),6646,sklearn/ensemble/forest.py
+8717a15,Lera,2017-05-09 12:21:12,[MRG] Extended explanation of using class_weight in RandomForestClassifier (Issue #6646) (#8838),6646,sklearn/tree/tree.py
+8717a15,Lera,2017-05-09 12:21:12,[MRG] Extended explanation of using class_weight in RandomForestClassifier (Issue #6646) (#8838),6646,sklearn/utils/class_weight.py
+b578371,AishwaryaRK,2017-04-29 17:03:32,[MRG] Fixes #8736 add get_n_splits for RepeatedKFold and RepeatedStratifiedKFold (#8802),8736,sklearn/model_selection/_split.py
+b578371,AishwaryaRK,2017-04-29 17:03:32,[MRG] Fixes #8736 add get_n_splits for RepeatedKFold and RepeatedStratifiedKFold (#8802),8736,sklearn/model_selection/tests/test_split.py
+38adb27,Joel Nothman,2017-03-23 23:11:16,[MRG+2] Fixes kl_divergence_ update in TSNE (#8634),8634,sklearn/manifold/t_sne.py
+38adb27,Joel Nothman,2017-03-23 23:11:16,[MRG+2] Fixes kl_divergence_ update in TSNE (#8634),8634,sklearn/manifold/tests/test_t_sne.py
+668a24c,gedeck,2017-03-16 05:22:58,[MRG + 1] Return correct ridge parameter alpha_ and lambda_ for Bayesian ridge regression (#8567),8567,sklearn/linear_model/bayes.py
+668a24c,gedeck,2017-03-16 05:22:58,[MRG + 1] Return correct ridge parameter alpha_ and lambda_ for Bayesian ridge regression (#8567),8567,sklearn/linear_model/tests/test_bayes.py
+4ab99c7,Peter Wang,2017-03-14 11:50:23,[MRG+1] FIX Correct depth formula in iforest  (#8576),8576,sklearn/ensemble/iforest.py
+4ab99c7,Peter Wang,2017-03-14 11:50:23,[MRG+1] FIX Correct depth formula in iforest  (#8576),8576,sklearn/ensemble/tests/test_iforest.py
+4ab99c7,Peter Wang,2017-03-14 11:50:23,[MRG+1] FIX Correct depth formula in iforest  (#8576),8576,sklearn/utils/fixes.py
+2cd1220,akshay0724,2017-02-23 15:59:16,[MRG+1] Fixes incorrect output when input is precomputed sparse matrix in DBSCAN. (#8339),8339,sklearn/cluster/dbscan_.py
+2cd1220,akshay0724,2017-02-23 15:59:16,[MRG+1] Fixes incorrect output when input is precomputed sparse matrix in DBSCAN. (#8339),8339,sklearn/cluster/tests/test_dbscan.py
+4493d37,Holger Peters,2017-02-20 23:33:28,[MRG+1] Fix pickling bug  due to multiple inheritance & __getstate__ (#8324),8324,sklearn/base.py
+4493d37,Holger Peters,2017-02-20 23:33:28,[MRG+1] Fix pickling bug  due to multiple inheritance & __getstate__ (#8324),8324,sklearn/tests/test_base.py
+fb65a0a,dokato,2017-02-20 22:06:39,[MRG+1] FIX AdaBoost ZeroDivisionError in proba #7501 (#8371),7501,sklearn/ensemble/tests/test_weight_boosting.py
+fb65a0a,dokato,2017-02-20 22:06:39,[MRG+1] FIX AdaBoost ZeroDivisionError in proba #7501 (#8371),7501,sklearn/ensemble/weight_boosting.py
+38d59c7,Aman Dalmia,2017-02-13 17:40:18,[MRG+2] ENH: used SelectorMixin in BaseRandomizedLinearModel (#8263),8263,sklearn/linear_model/randomized_l1.py
+4907029,(Venkat) Raghav (Rajagopalan),2017-01-19 00:58:16,[MRG+3] FIX Memory leak in MAE; Use safe_realloc; Acquire GIL only when raising; Propagate all errors to python interpreter level (#7811) (#8002),7811
+08772c4,CJ Carey,2017-01-18 04:44:28,FIX Ensure coef_ is an ndarray when fitting LassoLars (#8160),1615,sklearn/linear_model/least_angle.py
+08772c4,CJ Carey,2017-01-18 04:44:28,FIX Ensure coef_ is an ndarray when fitting LassoLars (#8160),1615,sklearn/linear_model/tests/test_least_angle.py
+d0ce0d9,mthorrell,2017-01-04 21:30:00,[MRG+2] Avoid failure in first iteration of RANSAC regression (#7914),7914,sklearn/linear_model/ransac.py
+d0ce0d9,mthorrell,2017-01-04 21:30:00,[MRG+2] Avoid failure in first iteration of RANSAC regression (#7914),7914,sklearn/linear_model/tests/test_ransac.py
+2cb7e47,Devansh D,2017-01-03 13:32:09,[MRG+1] fowlkes_mallows_score: more unit tests (Fixes #8101) (#8140),8101,sklearn/metrics/cluster/tests/test_supervised.py
+986a49b,Stijn Tonk,2016-12-29 02:46:53,FIX Split data using _safe_split in _permutaion_test_score (#5697),5697,sklearn/cross_validation.py
+986a49b,Stijn Tonk,2016-12-29 02:46:53,FIX Split data using _safe_split in _permutaion_test_score (#5697),5697,sklearn/model_selection/_validation.py
+986a49b,Stijn Tonk,2016-12-29 02:46:53,FIX Split data using _safe_split in _permutaion_test_score (#5697),5697,sklearn/model_selection/tests/test_validation.py
+ab1c4d4,Vincent Pham,2016-12-28 17:01:12,[MRG+1] Catch cases for different class size in MLPClassifier with warm start (#7976)  (#8035),7976,sklearn/neural_network/multilayer_perceptron.py
+ab1c4d4,Vincent Pham,2016-12-28 17:01:12,[MRG+1] Catch cases for different class size in MLPClassifier with warm start (#7976)  (#8035),7976,sklearn/neural_network/tests/test_mlp.py
+4f3c60c,Ishank Gulati,2016-12-27 16:53:04,[MRG+2] FIX IsolationForest(max_features=0.8).predict(X) fails input validation (#5757),5732,sklearn/ensemble/iforest.py
+4f3c60c,Ishank Gulati,2016-12-27 16:53:04,[MRG+2] FIX IsolationForest(max_features=0.8).predict(X) fails input validation (#5757),5732,sklearn/ensemble/tests/test_iforest.py
+6a01e89,Gary Foreman,2016-12-19 22:20:08,"[MRG + 1] Fix perplexity method by adding _unnormalized_transform method, Issue #7954 (#7992)",7954,sklearn/decomposition/online_lda.py
+6a01e89,Gary Foreman,2016-12-19 22:20:08,"[MRG + 1] Fix perplexity method by adding _unnormalized_transform method, Issue #7954 (#7992)",7954,sklearn/decomposition/tests/test_online_lda.py
+dbf64e9,xor,2016-12-19 22:35:49,"[MRG + 1] Issue#8062: JoblibException thrown when passing ""fit_params={'sample_… (#8068)",8062,sklearn/ensemble/forest.py
+dbf64e9,xor,2016-12-19 22:35:49,"[MRG + 1] Issue#8062: JoblibException thrown when passing ""fit_params={'sample_… (#8068)",8062,sklearn/ensemble/tests/test_forest.py
+3162f98,Sebastian Pölsterl,2016-12-13 23:40:49,[MRG] Set min_impurity_split in gradient boosting models (#8007),8006,sklearn/ensemble/gradient_boosting.py
+3162f98,Sebastian Pölsterl,2016-12-13 23:40:49,[MRG] Set min_impurity_split in gradient boosting models (#8007),8006,sklearn/ensemble/tests/test_gradient_boosting.py
+b694184,Vincent Pham,2016-12-07 20:25:51,[MRG + 1] FIX bug where passing numpy array for weights raises error (Issue #7983) (#7989),7983,sklearn/ensemble/tests/test_voting_classifier.py
+b694184,Vincent Pham,2016-12-07 20:25:51,[MRG + 1] FIX bug where passing numpy array for weights raises error (Issue #7983) (#7989),7983,sklearn/ensemble/voting_classifier.py
+c171561,Ang Lu,2016-11-22 17:45:32,[MRG+1] Fix return_norm bug in preprocessing.normalize (#7789),7789,sklearn/preprocessing/data.py
+c171561,Ang Lu,2016-11-22 17:45:32,[MRG+1] Fix return_norm bug in preprocessing.normalize (#7789),7789,sklearn/preprocessing/tests/test_data.py
+22f844a,Andreas Mueller,2016-11-15 03:05:52,Replase assert_equal by assert_almost_equal in cosine test (#7854),7854,sklearn/metrics/tests/test_pairwise.py
+5230382,jmontoyam,2016-11-12 04:01:29,[MRG + 1] Fix numerical instability in LassoLars when alpha=0 (#7778) (#7849),7778,sklearn/linear_model/least_angle.py
+5230382,jmontoyam,2016-11-12 04:01:29,[MRG + 1] Fix numerical instability in LassoLars when alpha=0 (#7778) (#7849),7778,sklearn/linear_model/tests/test_least_angle.py
+31ee1a8,Raghav RV,2016-11-09 21:40:51,[MRG + 2] FIX LogisticRegressionCV to correctly handle string labels (#5874),5874,sklearn/linear_model/logistic.py
+31ee1a8,Raghav RV,2016-11-09 21:40:51,[MRG + 2] FIX LogisticRegressionCV to correctly handle string labels (#5874),5874,sklearn/linear_model/tests/test_logistic.py
+9667ff2,Andreas Mueller,2016-11-09 14:34:04,[MRG + 2] Fixed parameter setting in SelectFromModel (#7764),7764,sklearn/feature_selection/from_model.py
+9667ff2,Andreas Mueller,2016-11-09 14:34:04,[MRG + 2] Fixed parameter setting in SelectFromModel (#7764),7764,sklearn/feature_selection/tests/test_from_model.py
+41e1b8f,Srivatsan,2016-11-08 11:39:19,[MRG+1] label binarizer not used consistently in CalibratedClassifierCV (#7799),7799,sklearn/calibration.py
+41e1b8f,Srivatsan,2016-11-08 11:39:19,[MRG+1] label binarizer not used consistently in CalibratedClassifierCV (#7799),7799,sklearn/tests/test_calibration.py
+2e4b589,Srivatsan,2016-11-06 18:06:26,DOC Added bug fix #7786 to whats_new.rst (#7830),7786
+9fd70a8,Srivatsan,2016-11-06 02:57:42,[MRG+2] Fix for OvR partial_fit bug (#7786),7786,sklearn/multiclass.py
+9fd70a8,Srivatsan,2016-11-06 02:57:42,[MRG+2] Fix for OvR partial_fit bug (#7786),7786,sklearn/tests/test_multiclass.py
+bd911ec,Maniteja Nandana,2016-11-03 17:16:01,[MRG] MAINT: Return self for fit in Spectral Biclustering and CoClustering (#7814),7814,sklearn/cluster/bicluster.py
+5adc832,Gael Varoquaux,2016-10-25 06:21:41,BF: avoid importing from inside joblib (#7731),7731,sklearn/metrics/pairwise.py
+ad6f094,Loïc Estève,2016-10-20 22:27:19,[MRG+2] switch to multinomial composition for mixture sampling (#7702),7702
+ee3e617,affanv14,2016-10-20 22:38:23,[MRG+2] adding multilabel support for score_func (#7676),7676,sklearn/feature_selection/tests/test_feature_select.py
+ee3e617,affanv14,2016-10-20 22:38:23,[MRG+2] adding multilabel support for score_func (#7676),7676,sklearn/feature_selection/univariate_selection.py
+74e4c42,Ibraim Ganiev,2016-10-20 02:10:50,FIX #6420: Cloning decision tree estimators breaks criterion objects (#7680),6420,sklearn/tree/tests/test_tree.py
+e4a1d82,Joel Nothman,2016-10-12 23:45:21,DOC what's new for #6497 and 0.18.1 section,6497
+0a1f6cd,Grzegorz Szpak,2016-10-06 23:19:43,[MRG] FIX Calling fit_transform instead of transform in Pipeline's fit_predict (#7585),7585,sklearn/pipeline.py
+0a1f6cd,Grzegorz Szpak,2016-10-06 23:19:43,[MRG] FIX Calling fit_transform instead of transform in Pipeline's fit_predict (#7585),7585,sklearn/tests/test_pipeline.py
+e108068,Julien Aubert,2016-09-30 05:45:16,learning_curve takes error_score parameter and propagates it. (#7397),7397,sklearn/learning_curve.py
+e108068,Julien Aubert,2016-09-30 05:45:16,learning_curve takes error_score parameter and propagates it. (#7397),7397,sklearn/tests/test_learning_curve.py
+ec32689,Charlton Austin,2016-09-29 23:41:43,[MRG+1] Fixing error with step parameter #7467 (#7469),7467,sklearn/feature_selection/rfe.py
+ec32689,Charlton Austin,2016-09-29 23:41:43,[MRG+1] Fixing error with step parameter #7467 (#7469),7467,sklearn/feature_selection/tests/test_rfe.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/bagging.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/base.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/forest.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/tests/test_bagging.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/tests/test_base.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/tests/test_weight_boosting.py
+32d1236,Joel Nothman,2016-09-23 17:00:32,[MRG+2] FIX adaboost estimators not randomising correctly (#7411),7411,sklearn/ensemble/weight_boosting.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/model_selection/_split.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/model_selection/_validation.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/model_selection/tests/test_split.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/multiclass.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/svm/base.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/tests/test_multiclass.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/utils/metaestimators.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/utils/multiclass.py
+54b0e4b,Russell Smith,2016-09-20 07:46:45,"Add OneVs{One,All}Classifier._pairwise: fix for #7306 (#7350)",7306,sklearn/utils/tests/test_multiclass.py
+873f3eb,Joel Nothman,2016-09-13 21:40:52,Fix #6994: MLP partial_fit with unseen classes (#7358),6994,sklearn/neural_network/multilayer_perceptron.py
+873f3eb,Joel Nothman,2016-09-13 21:40:52,Fix #6994: MLP partial_fit with unseen classes (#7358),6994,sklearn/neural_network/tests/test_mlp.py
+ba7cf38,jblackburne,2016-09-10 19:48:32,Removed isclose from _binary_clf_curve. (#7353),7353,sklearn/metrics/ranking.py
+ba7cf38,jblackburne,2016-09-10 19:48:32,Removed isclose from _binary_clf_curve. (#7353),7353,sklearn/metrics/tests/test_ranking.py
+ba7cf38,jblackburne,2016-09-10 19:48:32,Removed isclose from _binary_clf_curve. (#7353),7353,sklearn/utils/fixes.py
+31a4691,Andreas Mueller,2016-09-09 13:00:49,[MRG+1] fix sampling in stratified shuffle split (#6472),6472,sklearn/cross_validation.py
+31a4691,Andreas Mueller,2016-09-09 13:00:49,[MRG+1] fix sampling in stratified shuffle split (#6472),6472,sklearn/model_selection/_split.py
+31a4691,Andreas Mueller,2016-09-09 13:00:49,[MRG+1] fix sampling in stratified shuffle split (#6472),6472,sklearn/model_selection/tests/test_split.py
+31a4691,Andreas Mueller,2016-09-09 13:00:49,[MRG+1] fix sampling in stratified shuffle split (#6472),6472,sklearn/tests/test_cross_validation.py
+31a4691,Andreas Mueller,2016-09-09 13:00:49,[MRG+1] fix sampling in stratified shuffle split (#6472),6472,sklearn/utils/random.py
+49d126f,Joel Nothman,2016-09-09 14:17:12,[MRG + 1] FIX use high precision cumsum and check it is stable enough (#7331),7331,sklearn/metrics/ranking.py
+49d126f,Joel Nothman,2016-09-09 14:17:12,[MRG + 1] FIX use high precision cumsum and check it is stable enough (#7331),7331,sklearn/utils/extmath.py
+49d126f,Joel Nothman,2016-09-09 14:17:12,[MRG + 1] FIX use high precision cumsum and check it is stable enough (#7331),7331,sklearn/utils/tests/test_extmath.py
+19d6d92,Caio Oliveira,2016-08-18 06:47:00,"[MRG+1] Fix for ""_transform_selected"" not copying when ""selected='all'"" (#7201)",7201,sklearn/preprocessing/data.py
+19d6d92,Caio Oliveira,2016-08-18 06:47:00,"[MRG+1] Fix for ""_transform_selected"" not copying when ""selected='all'"" (#7201)",7201,sklearn/preprocessing/tests/test_data.py
+668b329,Olivier Grisel,2016-08-17 15:50:34,FIX make HuberRegressor tests stable under 32 bit Linux (#7196),7196,sklearn/linear_model/huber.py
+668b329,Olivier Grisel,2016-08-17 15:50:34,FIX make HuberRegressor tests stable under 32 bit Linux (#7196),7196,sklearn/linear_model/tests/test_huber.py
+928f724,Ganiev Ibraim,2016-08-03 06:53:35,[MRG] fix #5269:  Overflow error with sklearn.datasets.load_svmlight (#7101),5269,sklearn/datasets/svmlight_format.py
+928f724,Ganiev Ibraim,2016-08-03 06:53:35,[MRG] fix #5269:  Overflow error with sklearn.datasets.load_svmlight (#7101),5269,sklearn/datasets/tests/test_svmlight_format.py
+4854454,nadya-p,2016-05-26 13:51:17,[MRG+1] Parameter check in NMF and IsolationForest (#6814),6793,sklearn/decomposition/nmf.py
+4854454,nadya-p,2016-05-26 13:51:17,[MRG+1] Parameter check in NMF and IsolationForest (#6814),6793,sklearn/decomposition/tests/test_nmf.py
+4854454,nadya-p,2016-05-26 13:51:17,[MRG+1] Parameter check in NMF and IsolationForest (#6814),6793,sklearn/ensemble/iforest.py
+4854454,nadya-p,2016-05-26 13:51:17,[MRG+1] Parameter check in NMF and IsolationForest (#6814),6793,sklearn/ensemble/tests/test_iforest.py
+2d19895,Loïc Estève,2016-03-09 00:43:35,MAINT temporary disable MKL in Travis,6279
+7cd0419,Lars,2016-02-13 18:28:03,Merge pull request #6327 from yenchenlin1994/fix-lda-transform-output-probability,6320
+1784bf3,Gilles Louppe,2016-02-11 11:42:47,Merge pull request #5863 from trevorstephens/cw_util_fix,4327
+3427d20,Olivier Grisel,2016-01-26 09:12:18,DOC add fix for #6147 to the changelog,6147
+3030ad6,Olivier Grisel,2016-01-25 15:50:51,"TST non-regression test for #6147, roc_auc on memmap data",6147,sklearn/metrics/tests/test_score_objects.py
+7371c33,Loïc Estève,2016-01-26 15:49:13,Added changelog entry about #6196,6196
+6a7eae5,Gael Varoquaux,2016-01-20 22:25:57,TST: More tests for Ledoit-Wolf,6195,sklearn/covariance/shrunk_covariance_.py
+6a7eae5,Gael Varoquaux,2016-01-20 22:25:57,TST: More tests for Ledoit-Wolf,6195,sklearn/covariance/tests/test_covariance.py
+2738d59,trevorstephens,2015-11-16 16:36:01,fix for missing classes found in y #4327,4327,sklearn/utils/class_weight.py
+2738d59,trevorstephens,2015-11-16 16:36:01,fix for missing classes found in y #4327,4327,sklearn/utils/tests/test_class_weight.py
+998848a,Nick James,2015-11-16 13:23:36,"fix for #5725 (makes sure numpy array is not compared to string, which will fail in future versions of numpy)",5725,sklearn/linear_model/randomized_l1.py
+f7e886a,Gael Varoquaux,2015-11-03 19:26:08,Merge pull request #5682 from trevorstephens/OneHotEncoder_warn_fix,5671
+efe8399,TomDLT,2015-10-22 19:01:49,update whats_new for #5008,5008
+3f86d68,Jeffrey04,2015-10-19 19:30:29,code fix for issue #5433,5433,sklearn/preprocessing/data.py
+e7a3675,Jeffrey04,2015-10-19 19:29:00,the test to reflect issue #5433,5433,sklearn/preprocessing/tests/test_data.py
+838570c,Andreas Mueller,2015-10-13 17:44:36,Fixes #4455.,4455,sklearn/decomposition/tests/test_pca.py
+838570c,Andreas Mueller,2015-10-13 17:44:36,Fixes #4455.,4455,sklearn/decomposition/tests/test_truncated_svd.py
+838570c,Andreas Mueller,2015-10-13 17:44:36,Fixes #4455.,4455,sklearn/decomposition/truncated_svd.py
+838570c,Andreas Mueller,2015-10-13 17:44:36,Fixes #4455.,4455,sklearn/utils/extmath.py
+f60ba72,Yucheng Low,2015-10-08 14:56:05,Increase length of array indexing type in ArrayDataset,2393
+9486a7a,Olivier Grisel,2015-08-27 15:22:23,Merge pull request #5161 from beepee14/sparse_prediction_check,5132
+11d33bc,jnothman,2015-08-24 19:04:14,Merge pull request #5071 from mth4saurabh/fix-issue-3594,3594
+f38aea4,saurabh.bansod,2015-08-01 00:21:13,Fixes #3594.,3594,sklearn/datasets/lfw.py
+a7081d7,Anish Shah,2015-07-29 20:22:28,[issue #5043] fix documentation of callable kernel,5043,examples/svm/plot_custom_kernel.py
+a7081d7,Anish Shah,2015-07-29 20:22:28,[issue #5043] fix documentation of callable kernel,5043,sklearn/svm/classes.py
+4ac6a90,Buddha Prakash,2015-08-12 11:42:46,ENH: split LDA's n_iter_ into n_iter_ and n_batch_iter_,5107,sklearn/decomposition/online_lda.py
+cec3bf9,Lars Buitinck,2015-07-31 10:58:24,FIX assign_rows_csr: should not zero the entire out array,4985,sklearn/utils/tests/test_sparsefuncs.py
+4243412,Ankur Ankan,2015-07-17 14:46:14,fixes bug in oob_score when X is sparse.csc matrix [refs #4744],4744,sklearn/ensemble/forest.py
+4243412,Ankur Ankan,2015-07-17 14:46:14,fixes bug in oob_score when X is sparse.csc matrix [refs #4744],4744,sklearn/ensemble/tests/test_forest.py
+0156dcf,Stephen Hoover,2015-07-12 09:58:42,BUG Use epsilon threshold in `_samme_proba` and `_boost_real`,4944,sklearn/ensemble/tests/test_weight_boosting.py
+0156dcf,Stephen Hoover,2015-07-12 09:58:42,BUG Use epsilon threshold in `_samme_proba` and `_boost_real`,4944,sklearn/ensemble/weight_boosting.py
+d389142,Lars,2015-07-12 14:18:03,Merge pull request #4956 from nealchau/ransacresid,4907
+8b6a4e3,Andreas Mueller,2015-07-11 11:57:47,Merge pull request #4953 from mrphilroth/issue4940,4940
+3193993,trevorstephens,2015-06-11 07:55:54,fixes #4846,4846,sklearn/linear_model/ridge.py
+bdd3cb7,Alexandre Gramfort,2015-06-09 10:54:50,Merge pull request #4763 from sonnyhu/RidgeCV_slice_sampleweight,4755
+dd9641f,Olivier Grisel,2015-05-07 15:43:37,FIX #4597: LassoLarsCV on with readonly folds,4597,sklearn/linear_model/least_angle.py
+dd9641f,Olivier Grisel,2015-05-07 15:43:37,FIX #4597: LassoLarsCV on with readonly folds,4597,sklearn/linear_model/tests/test_least_angle.py
+f3f0fa3,Olivier Grisel,2015-04-15 10:22:41,Merge pull request #4590 from jfraj/fix_bug4559,4559
+c9510ed,jfraj,2015-04-14 11:12:57,Fixing bug in assert_raise_message #4559,4559,sklearn/utils/testing.py
+46aacd3,Andreas Mueller,2015-04-08 10:49:00,Merge pull request #4531 from zhaipro/fix,4507
+edf60c0,Sam Zhang,2015-03-30 03:14:30,BUG: get_param in FeatureUnion disjoint for shallow/deep params,4461,sklearn/pipeline.py
+edf60c0,Sam Zhang,2015-03-30 03:14:30,BUG: get_param in FeatureUnion disjoint for shallow/deep params,4461,sklearn/tests/test_common.py
+edf60c0,Sam Zhang,2015-03-30 03:14:30,BUG: get_param in FeatureUnion disjoint for shallow/deep params,4461,sklearn/tests/test_pipeline.py
+edf60c0,Sam Zhang,2015-03-30 03:14:30,BUG: get_param in FeatureUnion disjoint for shallow/deep params,4461,sklearn/utils/estimator_checks.py
+5018a44,Peter Prettenhofer,2015-03-25 14:22:31,add regression test case for issue 4447  - fix another test,4447,sklearn/ensemble/tests/test_gradient_boosting.py
+6f335af,Peter Prettenhofer,2015-03-25 14:11:13,fix issue 4447 : min_weight_leaf not properly passed to PresortBestSplitter,4447,sklearn/ensemble/gradient_boosting.py
+119bc20,Olivier Grisel,2015-03-20 12:56:11,Merge pull request #4377 from vortex-ape/intercept_scaling,4374
+cf3b120,Barmaley.exe,2015-03-13 20:05:49,TST Fixes #4386,4386,sklearn/linear_model/tests/test_sgd.py
+cf3b120,Barmaley.exe,2015-03-13 20:05:49,TST Fixes #4386,4386,sklearn/neighbors/tests/test_approximate.py
+7fa9b0e,Mathieu Blondel,2015-03-12 23:08:10,Support sparse matrices in KernelRidge.,4384,sklearn/kernel_ridge.py
+7fa9b0e,Mathieu Blondel,2015-03-12 23:08:10,Support sparse matrices in KernelRidge.,4384,sklearn/tests/test_kernel_ridge.py
+c23d4f3,Olivier Grisel,2015-03-07 13:58:31,FIX #4358: more tolerant test_scorer_sample_weight for windows,4358,sklearn/metrics/tests/test_score_objects.py
+4cc0235,Andreas Mueller,2015-03-06 12:42:39,Merge pull request #4352 from amueller/issue-4297-infinite-isotonic_bak,4297
+2415100,Michael J Bommarito II,2015-02-27 18:02:14,"Adding fix for issue #4297, isotonic infinite loop",4297,sklearn/isotonic.py
+2415100,Michael J Bommarito II,2015-02-27 18:02:14,"Adding fix for issue #4297, isotonic infinite loop",4297,sklearn/tests/test_isotonic.py
+952c160,Olivier Grisel,2015-03-02 15:13:00,TST boundary handling in LSHForest.radius_neighbors,4072,sklearn/neighbors/tests/test_approximate.py
+2b1c31e,Michael J Bommarito II,2015-01-29 19:46:24,Adding unit test to cover ties/duplicate x values in Isotonic Regression re: issue #4184,4184,sklearn/tests/test_isotonic.py
+9e20fb6,Olivier Grisel,2015-03-02 23:37:53,Merge pull request #4313 from vortex-ape/spectral_clustering,4304
+a5a800e,Andreas Mueller,2015-02-27 17:10:12,Fix docstring of mahalanobis distance in empirical covariance. Closes #4168.,4168,sklearn/covariance/empirical_covariance_.py
+e073432,Hanna Wallach,2015-02-23 16:39:33,FIX issue #4268 (bug in BernoulliNB).,4268,sklearn/naive_bayes.py
+8cf714c,Andreas Mueller,2015-02-26 10:14:02,remove special case for BaggingEstimator after merge of #4137,4137,sklearn/utils/estimator_checks.py
+98f65c5,Garrett-R,2014-10-11 22:00:50,Edited _get_weights to make it robust to zero distances,3760,sklearn/neighbors/base.py
+98f65c5,Garrett-R,2014-10-11 22:00:50,Edited _get_weights to make it robust to zero distances,3760,sklearn/neighbors/classification.py
+98f65c5,Garrett-R,2014-10-11 22:00:50,Edited _get_weights to make it robust to zero distances,3760,sklearn/neighbors/tests/test_neighbors.py
+1add39f,Andrew Tulloch,2014-03-04 12:17:04,[Feature Selection] Fix SelectFDR thresholding bug (#2771),2771,sklearn/feature_selection/tests/test_feature_select.py
+1add39f,Andrew Tulloch,2014-03-04 12:17:04,[Feature Selection] Fix SelectFDR thresholding bug (#2771),2771,sklearn/feature_selection/univariate_selection.py
+95681ee,jnothman,2015-02-07 21:54:45,Merge pull request #4206 from ogrisel/fix-strict-select-fdr,4059
+bc5b403,Olivier Grisel,2015-02-05 17:12:10,FIX #4059: explicit warning for strict selectors,4059,sklearn/feature_selection/base.py
+bc5b403,Olivier Grisel,2015-02-05 17:12:10,FIX #4059: explicit warning for strict selectors,4059,sklearn/feature_selection/tests/test_feature_select.py
+bc5b403,Olivier Grisel,2015-02-05 17:12:10,FIX #4059: explicit warning for strict selectors,4059,sklearn/feature_selection/univariate_selection.py
+6d7cb33,Alexandre Gramfort,2015-02-03 19:52:17,Merge pull request #4109 from amueller/gmm_tied_covariance,4039
+87c9ba7,wadawson,2014-12-31 10:51:13,"Corrected two bugs related to 'tied' covariance_type in mixture.GMM(), added test, closes #4036",4036,sklearn/mixture/gmm.py
+87c9ba7,wadawson,2014-12-31 10:51:13,"Corrected two bugs related to 'tied' covariance_type in mixture.GMM(), added test, closes #4036",4036,sklearn/mixture/tests/test_gmm.py
+d9e40d2,Lars,2015-01-27 22:35:43,Merge pull request #4156 from AlexanderFabisch/fix_tsne_one_comp,4154
+3023053,Andreas Mueller,2015-01-26 10:46:11,Merge pull request #4155 from trevorstephens/nb-fix-3186,3186
+0fe3f5c,Alexander Fabisch,2015-01-24 23:48:50,Fix issue #4154,4154,sklearn/manifold/t_sne.py
+0fe3f5c,Alexander Fabisch,2015-01-24 23:48:50,Fix issue #4154,4154,sklearn/manifold/tests/test_t_sne.py
+291447f,trevorstephens,2015-01-24 11:47:07,fix nb partial_fit w class_prior #3186,3186,sklearn/naive_bayes.py
+291447f,trevorstephens,2015-01-24 11:47:07,fix nb partial_fit w class_prior #3186,3186,sklearn/tests/test_naive_bayes.py
+e52b763,Dmitrijs Milajevs,2014-11-29 13:30:54,Don’t embed hyperlinks during latex file generation.,3830,doc/sphinxext/gen_rst.py
+54f483a,Olivier Grisel,2014-11-14 12:51:43,FIX #2986: ZeroDivisionError in LinearRegression on sparse data,2986,sklearn/linear_model/base.py
+54f483a,Olivier Grisel,2014-11-14 12:51:43,FIX #2986: ZeroDivisionError in LinearRegression on sparse data,2986,sklearn/linear_model/tests/test_base.py
+54f483a,Olivier Grisel,2014-11-14 12:51:43,FIX #2986: ZeroDivisionError in LinearRegression on sparse data,2986,sklearn/utils/_scipy_sparse_lsqr_backport.py
+54f483a,Olivier Grisel,2014-11-14 12:51:43,FIX #2986: ZeroDivisionError in LinearRegression on sparse data,2986,sklearn/utils/fixes.py
+d3f4936,Olivier Grisel,2014-11-03 15:47:12,FIX #3503: use linalg.pinv to better deal with singular input data,3503,sklearn/cross_decomposition/pls_.py
+e324fdd,Okal Billy,2014-08-14 12:43:55,bug fix for t-SNE (issue #3526) with new inputs,3526,sklearn/manifold/t_sne.py
+0bdaecd,Okal Billy,2014-08-05 13:55:48,bug fix for issue #3526,3526,sklearn/manifold/t_sne.py
+bb3705c,Lars Buitinck,2014-10-12 17:23:41,DOC fix (Nu)SVR attribute shapes in docstring,3673,sklearn/svm/classes.py
+4e2960d,Olivier Grisel,2014-10-01 16:26:07,FIX call srand whenever random_seed >= 0 in libsvm,3691,sklearn/svm/tests/test_svm.py
+3a02da8,akshayah3,2014-09-29 11:06:02,Raise exception for sparse inputs in the case of svd solver,3709,sklearn/linear_model/ridge.py
+3a02da8,akshayah3,2014-09-29 11:06:02,Raise exception for sparse inputs in the case of svd solver,3709,sklearn/linear_model/tests/test_ridge.py
+766fb56,Will Lamond,2014-09-23 23:31:02,FIX allow ndim>2 in shuffle,3694,sklearn/utils/__init__.py
+766fb56,Will Lamond,2014-09-23 23:31:02,FIX allow ndim>2 in shuffle,3694,sklearn/utils/tests/test_utils.py
+d9067fa,Olivier Grisel,2014-09-10 10:56:52,FIX #3370: better lars alpha path inequality checks for 32 bit support,3370,sklearn/linear_model/least_angle.py
+d9067fa,Olivier Grisel,2014-09-10 10:56:52,FIX #3370: better lars alpha path inequality checks for 32 bit support,3370,sklearn/linear_model/tests/test_least_angle.py
+171139f,Thomas Unterthiner,2014-09-07 12:06:27,ENH add testcase for issue 2445,2445,sklearn/metrics/cluster/tests/test_bicluster.py
+dbfb25e,Olivier Grisel,2014-09-03 16:17:46,FIX heisenfailure in test_lasso_lars_path_length,3370,sklearn/linear_model/least_angle.py
+ad751a3,Nikolay Mayorov,2014-04-19 18:04:45,FIX bug with set_params on minkowski 'p'.,2609,sklearn/neighbors/base.py
+ad751a3,Nikolay Mayorov,2014-04-19 18:04:45,FIX bug with set_params on minkowski 'p'.,2609,sklearn/neighbors/classification.py
+ad751a3,Nikolay Mayorov,2014-04-19 18:04:45,FIX bug with set_params on minkowski 'p'.,2609,sklearn/neighbors/regression.py
+ad751a3,Nikolay Mayorov,2014-04-19 18:04:45,FIX bug with set_params on minkowski 'p'.,2609,sklearn/neighbors/tests/test_neighbors.py
+ad751a3,Nikolay Mayorov,2014-04-19 18:04:45,FIX bug with set_params on minkowski 'p'.,2609,sklearn/neighbors/unsupervised.py
+07560e4,Olivier Grisel,2014-07-31 16:23:15,FIX #3485: class_weight='auto' on SGDClassifier,3485,sklearn/linear_model/stochastic_gradient.py
+07560e4,Olivier Grisel,2014-07-31 16:23:15,FIX #3485: class_weight='auto' on SGDClassifier,3485,sklearn/linear_model/tests/test_sgd.py
+07560e4,Olivier Grisel,2014-07-31 16:23:15,FIX #3485: class_weight='auto' on SGDClassifier,3485,sklearn/tests/test_common.py
+07560e4,Olivier Grisel,2014-07-31 16:23:15,FIX #3485: class_weight='auto' on SGDClassifier,3485,sklearn/utils/estimator_checks.py
+8cd5d85,Kyle Kastner,2014-07-23 17:25:03,Merge pull request #3477 from kastnerkyle/docbuild_fix,3475
+eb2098f,Andreas Mueller,2014-07-18 16:48:08,Closes #2360. Fix tiebreaking.,2360,sklearn/multiclass.py
+eb2098f,Andreas Mueller,2014-07-18 16:48:08,Closes #2360. Fix tiebreaking.,2360,sklearn/tests/test_multiclass.py
+0295fda,Fabian Pedregosa,2014-07-14 16:27:37,FIX: check with tolerance on lars_path,3370,sklearn/linear_model/least_angle.py
+514f073,Olivier Grisel,2014-07-13 19:39:55,FIX #3372: unstable input check test for RANSACRegressor,3372,sklearn/linear_model/ransac.py
+514f073,Olivier Grisel,2014-07-13 19:39:55,FIX #3372: unstable input check test for RANSACRegressor,3372,sklearn/tests/test_common.py
+108e009,Lars Buitinck,2014-07-06 16:19:38,"FIX Gaussian KDE should return array, not scalar",3269,sklearn/neighbors/kde.py
+108e009,Lars Buitinck,2014-07-06 16:19:38,"FIX Gaussian KDE should return array, not scalar",3269,sklearn/neighbors/tests/test_kde.py
+de824b1,Alexandre Gramfort,2014-06-13 21:33:29,FIX : allow nd X for cross_val_score (was working in 0.14),3277,sklearn/cross_validation.py
+de824b1,Alexandre Gramfort,2014-06-13 21:33:29,FIX : allow nd X for cross_val_score (was working in 0.14),3277,sklearn/tests/test_cross_validation.py
+de824b1,Alexandre Gramfort,2014-06-13 21:33:29,FIX : allow nd X for cross_val_score (was working in 0.14),3277,sklearn/utils/validation.py
+95619a9,Lars Buitinck,2014-05-23 11:41:00,DOC multiclass: OvO needs predict_proba or decision_function,3183,sklearn/multiclass.py
+6430e19,Sebastian Saeger,2014-04-18 17:53:43,TST MiniBatchKMeans with many reassignments,3039,sklearn/cluster/tests/test_k_means.py
+2a40a4e,Lars Buitinck,2014-05-10 16:34:26,"Revert ""COSMIT skip some repeated computations in k-means""",3039,sklearn/cluster/k_means_.py
+c6fb578,jess010,2014-04-14 14:17:59,updated AMI documentation for issue #2686 .. _clustering:,2686,sklearn/metrics/cluster/supervised.py
+3f9dff9,Yung Siang Liau,2014-04-11 22:27:38,FIX: Add allow_nans option to check_arrays,2774,sklearn/cross_validation.py
+3f9dff9,Yung Siang Liau,2014-04-11 22:27:38,FIX: Add allow_nans option to check_arrays,2774,sklearn/grid_search.py
+3f9dff9,Yung Siang Liau,2014-04-11 22:27:38,FIX: Add allow_nans option to check_arrays,2774,sklearn/tests/test_cross_validation.py
+3f9dff9,Yung Siang Liau,2014-04-11 22:27:38,FIX: Add allow_nans option to check_arrays,2774,sklearn/tests/test_grid_search.py
+3f9dff9,Yung Siang Liau,2014-04-11 22:27:38,FIX: Add allow_nans option to check_arrays,2774,sklearn/utils/validation.py
+070d7a6,Lars Buitinck,2014-04-06 17:19:34,MAINT remove unsupported documentation formats,2512
+719e3f0,Lars Buitinck,2014-04-03 18:06:03,MAINT lazily import scipy.cluster,2961,sklearn/cluster/hierarchical.py
+86c07b5,Olivier Grisel,2014-03-29 00:44:41,FIX #3014: use a different folder for covtype data under Python 3,3014,sklearn/datasets/covtype.py
+61d9c5e,Mikhail Korobov,2014-03-21 03:44:01,TST skip `test_k_means_plus_plus_init_2_jobs` on Mac OS X 10.9. See GH-636,636,sklearn/cluster/tests/test_k_means.py
+d413229,Olivier Grisel,2014-03-20 18:24:07,Merge pull request #2981 from matrixorz/master,2901
+08a7f67,matrixorz,2014-03-20 23:21:43,fix issue #2901,2901,sklearn/decomposition/kernel_pca.py
+6091d7d,Lars Buitinck,2014-03-09 23:03:45,DOC fix rendering of fetch_mldata example,2899,sklearn/datasets/mldata.py
+0a488ff,Lars Buitinck,2014-02-27 22:08:40,FIX OneHotEncoder: check value max when n_values is integral,2839,sklearn/preprocessing/data.py
+0a488ff,Lars Buitinck,2014-02-27 22:08:40,FIX OneHotEncoder: check value max when n_values is integral,2839,sklearn/preprocessing/tests/test_data.py
+0c22cbb,Lars Buitinck,2014-02-18 19:41:43,FIX numerical stability issue in BernoulliRBM,2785,sklearn/neural_network/rbm.py
+0c22cbb,Lars Buitinck,2014-02-18 19:41:43,FIX numerical stability issue in BernoulliRBM,2785,sklearn/neural_network/tests/test_rbm.py
+e7e7133,Joel Nothman,2014-01-16 09:32:16,ENH/FIX Change Tree underlying data structure,2726,sklearn/tree/tests/test_tree.py
+6bc5756,Olivier Grisel,2014-01-15 16:36:04,FIX #2645: fix 20 newsgroups downloader under Python 3,2645,sklearn/datasets/twenty_newsgroups.py
+a0b9695,Olivier Grisel,2014-01-15 07:30:49,Merge pull request #2756 from ogrisel/joblib-0.8.0a3,1565
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/__init__.py
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/memory.py
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/parallel.py
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/pool.py
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/test/test_memory.py
+1357a19,Olivier Grisel,2014-01-15 15:46:18,FIX #1565: fix race condition in parallel pre-dispatch by upgrading joblib,1565,sklearn/externals/joblib/test/test_parallel.py
+abc9301,Gael Varoquaux,2014-01-02 22:10:10,Merge pull request #2702 from glouppe/imputer-copy,2697
+674e0ea,Alexander Fabisch,2013-12-27 01:18:46,FIX Do one run with MiniBatchKMeans and explicit centers,2686,sklearn/cluster/k_means_.py
+674e0ea,Alexander Fabisch,2013-12-27 01:18:46,FIX Do one run with MiniBatchKMeans and explicit centers,2686,sklearn/cluster/tests/test_k_means.py
+119cc24,Lars Buitinck,2013-11-25 19:09:43,BUG SVMlight loader should check whether n_features is big enough,1630,sklearn/datasets/svmlight_format.py
+119cc24,Lars Buitinck,2013-11-25 19:09:43,BUG SVMlight loader should check whether n_features is big enough,1630,sklearn/datasets/tests/test_svmlight_format.py
+f719d09,Alexandre Gramfort,2013-11-06 01:24:57,Merge pull request #2576 from ankit-maverick/issue2560,2560
+30eb78d,Olivier Grisel,2013-10-29 11:28:12,FIX #1622: OPTIM: remove obsolete random_state instance in the Tree class,1622,sklearn/tree/tree.py
+b807036,Olivier Grisel,2013-10-16 05:24:21,Merge pull request #2523 from ogrisel/skip-numpy-unicode-bug,2481
+913e471,Olivier Grisel,2013-10-15 16:30:01,FIX #2481: add warning for bug in old numpy with unicode,2481,sklearn/metrics/tests/test_metrics.py
+913e471,Olivier Grisel,2013-10-15 16:30:01,FIX #2481: add warning for bug in old numpy with unicode,2481,sklearn/preprocessing/label.py
+55a2f29,Lars Buitinck,2013-10-13 15:55:02,FIX fit followed by partial_fit in multiclass SGD,2496,sklearn/linear_model/stochastic_gradient.py
+55a2f29,Lars Buitinck,2013-10-13 15:55:02,FIX fit followed by partial_fit in multiclass SGD,2496,sklearn/linear_model/tests/test_sgd.py
+94d66a0,Rupesh Kumar Srivastava,2013-09-26 00:52:26,FIX max_features in CountVectorizer,2443,sklearn/feature_extraction/tests/test_text.py
+94d66a0,Rupesh Kumar Srivastava,2013-09-26 00:52:26,FIX max_features in CountVectorizer,2443,sklearn/feature_extraction/text.py
+53788b0,Olivier Grisel,2013-09-25 06:59:21,Merge pull request #2463 from ogrisel/stratified-kfold,2372
+e3002c5,Olivier Grisel,2013-09-20 17:59:14,FIX #2372: non-shuffling StratifiedKFold implementation and updated tests,2372,sklearn/cross_validation.py
+e3002c5,Olivier Grisel,2013-09-20 17:59:14,FIX #2372: non-shuffling StratifiedKFold implementation and updated tests,2372,sklearn/feature_selection/tests/test_rfe.py
+e3002c5,Olivier Grisel,2013-09-20 17:59:14,FIX #2372: non-shuffling StratifiedKFold implementation and updated tests,2372,sklearn/tests/test_cross_validation.py
+e3002c5,Olivier Grisel,2013-09-20 17:59:14,FIX #2372: non-shuffling StratifiedKFold implementation and updated tests,2372,sklearn/tests/test_naive_bayes.py
+1a79640,Olivier Grisel,2013-09-20 13:30:15,"Revert ""FIX #2372: StratifiedKFold less impact on the original order of samples.""",2372,sklearn/cross_validation.py
+1a79640,Olivier Grisel,2013-09-20 13:30:15,"Revert ""FIX #2372: StratifiedKFold less impact on the original order of samples.""",2372,sklearn/tests/test_cross_validation.py
+1a79640,Olivier Grisel,2013-09-20 13:30:15,"Revert ""FIX #2372: StratifiedKFold less impact on the original order of samples.""",2372,sklearn/tests/test_naive_bayes.py
+3aede7f,Olivier Grisel,2013-09-20 13:27:29,"Revert ""Add entry for #2372 to whats_new.rst""",2372
+6c7e751,Daniel Nouri,2013-09-20 12:02:35,Add entry for #2372 to whats_new.rst,2372
+9e85797,Daniel Nouri,2013-09-17 13:15:28,FIX #2372: StratifiedKFold less impact on the original order of samples.,2372,sklearn/cross_validation.py
+9e85797,Daniel Nouri,2013-09-17 13:15:28,FIX #2372: StratifiedKFold less impact on the original order of samples.,2372,sklearn/tests/test_cross_validation.py
+9e85797,Daniel Nouri,2013-09-17 13:15:28,FIX #2372: StratifiedKFold less impact on the original order of samples.,2372,sklearn/tests/test_naive_bayes.py
+8c987ef,Arnaud Joly,2013-09-11 20:46:14,FIX issue #1993: passing a multilabel indicator is no more noop,1993,sklearn/preprocessing/label.py
+8c987ef,Arnaud Joly,2013-09-11 20:46:14,FIX issue #1993: passing a multilabel indicator is no more noop,1993,sklearn/preprocessing/tests/test_label.py
+b3ab5fa,Gilles Louppe,2013-07-27 07:09:56,Merge pull request #2277 from glouppe/tree-fix-32bits,965
+b661cb7,Nelle Varoquaux,2013-07-26 17:48:48,DOC ignoring gen_rst's parsing errors,1759,doc/sphinxext/gen_rst.py
+9d85c99,Nelle Varoquaux,2013-07-26 15:03:23,FIX PLSSVD now returns the correct number of components,1312,sklearn/cross_decomposition/pls_.py
+9d85c99,Nelle Varoquaux,2013-07-26 15:03:23,FIX PLSSVD now returns the correct number of components,1312,sklearn/cross_decomposition/tests/test_pls.py
+bbf74a9,har777,2013-07-22 13:14:59,DOC/FIX twenty_newsgroups.rst should use TfidfVectorizer,2173
+9a452d5,Mathieu Blondel,2013-07-04 20:26:01,Do not set sample_weights unless need to.,2126,sklearn/linear_model/ridge.py
+fe03357,Olivier Grisel,2013-06-05 20:22:25,"FIX #2032, FIX #2033: ensure module names consistency with __all__",2032,sklearn/datasets/__init__.py
+fe03357,Olivier Grisel,2013-06-05 20:22:25,"FIX #2032, FIX #2033: ensure module names consistency with __all__",2032,sklearn/tests/test_common.py
+fe03357,Olivier Grisel,2013-06-05 20:22:25,"FIX #2032, FIX #2033: ensure module names consistency with __all__",2032,sklearn/tests/test_import_all.py
+e163f8b,Lars Buitinck,2013-05-04 16:42:45,FIX DictVectorizer behavior on empty X and empty samples,1903,sklearn/feature_extraction/dict_vectorizer.py
+e163f8b,Lars Buitinck,2013-05-04 16:42:45,FIX DictVectorizer behavior on empty X and empty samples,1903,sklearn/feature_extraction/tests/test_dict_vectorizer.py
+e9a9592,Andreas Mueller,2013-05-04 14:52:35,FIX WARN about **params being not used in GridSearchCV.fit. Closes #1815.,1815,sklearn/grid_search.py
+1dc2a26,Andreas Mueller,2013-05-04 13:35:29,DOC documented n_init parameter of MiniBatchKMeans. Closes #1900.,1900,sklearn/cluster/k_means_.py
+daf5277,Lars Buitinck,2013-05-03 15:11:36,BUG disable memory-blowing SVD for sparse input in RidgeCV,1921,sklearn/linear_model/ridge.py
+daf5277,Lars Buitinck,2013-05-03 15:11:36,BUG disable memory-blowing SVD for sparse input in RidgeCV,1921,sklearn/linear_model/tests/test_ridge.py
+719ca98,Lars Buitinck,2013-04-26 12:28:26,FIX SVR complaining about a single class in the input,1896,sklearn/svm/base.py
+719ca98,Lars Buitinck,2013-04-26 12:28:26,FIX SVR complaining about a single class in the input,1896,sklearn/svm/tests/test_svm.py
+1e6e337,Gael Varoquaux,2013-04-24 09:09:04,DOC: libatlas3-base in requirement,1877
+a344f10,Lars Buitinck,2013-04-22 14:40:29,FIX BytesIO and urllib usage in fetch_olivetti_faces,1872,sklearn/datasets/olivetti_faces.py
+c87d45d,Gilles Louppe,2013-04-02 05:56:08,Merge pull request #1823 from erg/issue-1466,1466
+6a47c6f,Doug Coleman,2013-03-27 15:50:48,BUG: Use Py_ssize_t to index into numpy arrays to help Python handle big data. Indent a few copy/pasted function declarations for consistency. Fixes #1466.,1466
+b796520,Lars Buitinck,2013-03-30 13:25:26,BUG digits grid search was passing cv to the wrong method,1815,examples/grid_search_digits.py
+f8aacaf,Lars Buitinck,2013-03-16 18:38:53,BUG always do cross-validation in GridSearchCV,1782,sklearn/grid_search.py
+f8aacaf,Lars Buitinck,2013-03-16 18:38:53,BUG always do cross-validation in GridSearchCV,1782,sklearn/tests/test_grid_search.py
+f95dfe7,Lars Buitinck,2013-03-15 12:37:16,BUG SGDClassifier and friends did not forget labels_ in re-fit,1703,sklearn/linear_model/stochastic_gradient.py
+f95dfe7,Lars Buitinck,2013-03-15 12:37:16,BUG SGDClassifier and friends did not forget labels_ in re-fit,1703,sklearn/linear_model/tests/test_passive_aggressive.py
+f95dfe7,Lars Buitinck,2013-03-15 12:37:16,BUG SGDClassifier and friends did not forget labels_ in re-fit,1703,sklearn/linear_model/tests/test_sgd.py
+91d9dc9,Lars Buitinck,2013-03-14 14:10:21,BUG StandardScaler would ignore with_std for CSR input,1724,sklearn/preprocessing.py
+91d9dc9,Lars Buitinck,2013-03-14 14:10:21,BUG StandardScaler would ignore with_std for CSR input,1724,sklearn/tests/test_preprocessing.py
+6c609f6,Lars Buitinck,2013-03-08 18:53:05,DOC OpenBLAS is more dangerous than I thought,1659
+29ed168,Lars Buitinck,2013-03-08 17:29:44,BUG fix compute_class_weights issue in SGD,1749,sklearn/linear_model/stochastic_gradient.py
+29ed168,Lars Buitinck,2013-03-08 17:29:44,BUG fix compute_class_weights issue in SGD,1749,sklearn/utils/class_weight.py
+0edc94b,Gael Varoquaux,2013-02-17 11:13:47,BUG: highly-degenerate roc curves,1658,sklearn/metrics/metrics.py
+0edc94b,Gael Varoquaux,2013-02-17 11:13:47,BUG: highly-degenerate roc curves,1658,sklearn/metrics/tests/test_metrics.py
+c0d4015,Bastiaan van den Berg,2013-01-21 21:52:15,BUG allow outlier_label=0 in RadiusNeighborClassifier,1602,sklearn/neighbors/classification.py
+76c66a0,Lars Buitinck,2013-01-03 14:58:16,BUG Cholesky delete routines wouldn't compile on Solaris,1510,sklearn/utils/setup.py
+4bb41cb,Doug Coleman,2012-12-12 09:32:30,BUG: Make a RandomState object and use it in test_transformers(). Fixes #1368.,1368,sklearn/tests/test_common.py
+489aab4,Doug Coleman,2012-12-12 09:25:48,BUG: Fix the random_state on make_blobs() in test_classifiers_classes(). Fixes #1462.,1462,sklearn/tests/test_common.py
+eb64f18,Doug Coleman,2012-12-01 14:23:47,BUG: Don't test test_k_means_plus_plus_init_2_jobs on Mac OSX >= 10.7 because it's broken. See #636. Closes #1407.,636,sklearn/cluster/tests/test_k_means.py
+d454c13,Olivier Grisel,2012-12-01 10:55:36,FIX #1417: move nosetests configuration parameter to setup.cfg,1417
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/ensemble/forest.py
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/lda.py
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/qda.py
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/tests/test_common.py
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/tree/tree.py
+af101cc,Andreas Mueller,2012-11-01 16:23:07,ENH check in all classifiers in fit and predict that input is finite. inspired by #1027.,1027,sklearn/utils/validation.py
+a3670c0,Mathieu Blondel,2012-11-07 14:18:34,Remove predict_proba from Perceptron and PassiveAggressiveClassifier.,1336,sklearn/linear_model/passive_aggressive.py
+a3670c0,Mathieu Blondel,2012-11-07 14:18:34,Remove predict_proba from Perceptron and PassiveAggressiveClassifier.,1336,sklearn/linear_model/perceptron.py
+a3670c0,Mathieu Blondel,2012-11-07 14:18:34,Remove predict_proba from Perceptron and PassiveAggressiveClassifier.,1336,sklearn/linear_model/stochastic_gradient.py
+a3670c0,Mathieu Blondel,2012-11-07 14:18:34,Remove predict_proba from Perceptron and PassiveAggressiveClassifier.,1336,sklearn/linear_model/tests/test_passive_aggressive.py
+a3670c0,Mathieu Blondel,2012-11-07 14:18:34,Remove predict_proba from Perceptron and PassiveAggressiveClassifier.,1336,sklearn/linear_model/tests/test_perceptron.py
+eca762d,GaelVaroquaux,2012-10-25 18:11:25,DOC: improve the model selection exercise,1278,examples/exercises/plot_cv_diabetes.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/covariance/robust_covariance.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/cross_validation.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/datasets/mlcomp.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/datasets/mldata.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/datasets/samples_generator.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/decomposition/nmf.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/feature_extraction/image.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/feature_extraction/text.py
+1406cdf,Andreas Mueller,2012-10-24 18:44:53,ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.,1255,sklearn/utils/validation.py
+e09db85,kuantkid,2012-10-16 20:58:48,FIX issue #1239 when confusion matrix y_true/y_labels has unexpected labels,1239,sklearn/metrics/metrics.py
+e09db85,kuantkid,2012-10-16 20:58:48,FIX issue #1239 when confusion matrix y_true/y_labels has unexpected labels,1239,sklearn/metrics/tests/test_metrics.py
+00be697,Andreas Mueller,2012-10-16 21:13:38,FIX seed liblinear using srand. Fixes issue #919.,919,sklearn/svm/base.py
+00be697,Andreas Mueller,2012-10-16 21:13:38,FIX seed liblinear using srand. Fixes issue #919.,919,sklearn/svm/tests/test_svm.py
+27baaf3,Gael Varoquaux,2012-10-12 11:26:59,TST: cater for 0.9 not > 0.9,1228,sklearn/cluster/tests/test_spectral.py
+117177d,kuantkid,2012-09-14 13:54:24,ENH add refs to issue #884,884,sklearn/metrics/cluster/supervised.py
+4062b3e,VirgileFritsch,2012-10-01 16:26:14,Improve doc and error msg in MinCovDet in response to issue #1153.,1153,sklearn/covariance/robust_covariance.py
+c877742,Andreas Mueller,2012-09-20 15:36:38,FIX unicode support in count vectorizer. Closes #1098.,1098,sklearn/feature_extraction/tests/test_text.py
+c877742,Andreas Mueller,2012-09-20 15:36:38,FIX unicode support in count vectorizer. Closes #1098.,1098,sklearn/feature_extraction/text.py
+cf778c0,VirgileFritsch,2012-09-18 10:35:37,"BF: fix issue #1127 about MinCovDet breaking with X.shape = (3, 1)",1127,sklearn/covariance/robust_covariance.py
+cf778c0,VirgileFritsch,2012-09-18 10:35:37,"BF: fix issue #1127 about MinCovDet breaking with X.shape = (3, 1)",1127,sklearn/covariance/tests/test_robust_covariance.py
+c4d9e87,Andreas Mueller,2012-09-17 21:25:32,FIX error in error message ^^ closes #1155.,1155,sklearn/feature_extraction/text.py
+c763dea,VirgileFritsch,2012-09-13 14:57:29,BF: Address issue #1059 in GMM by adding a supplementary check.,1059,sklearn/mixture/gmm.py
+9987b61,Alexandre Gramfort,2012-09-12 17:32:54,DOC : fix rho=1 is L1 penalty #1139,1139,sklearn/linear_model/coordinate_descent.py
+84ea07d,Nick Wilson,2012-03-13 16:16:19,Skip k-means parallel test on Mac OS X Lion (10.7),636,sklearn/cluster/tests/test_k_means.py

@@ -1,0 +1,377 @@
+commit,author,date,title,faultID,file
+90ca9cc,Pierce Lopez,2017-02-03 20:34:36,changelog: fixed #1555,1555
+0cd1929,Pierce Lopez,2017-04-24 18:23:50,tests: update contrib.files.contains() case_sensitive test fixtures,1559,tests/test_contrib.py
+f6d1898,Jeff Forcier,2017-04-24 14:28:52,Changelog closes #1065,1065
+d79508a,Jeff Forcier,2017-04-24 14:26:54,Side-port of #1065,1065
+10f77b1,Jeff Forcier,2017-03-01 16:12:32,"Changelog re #1526, re #1527, re #1571",1526
+d066f97,Pierce Lopez,2016-10-06 20:58:37,changelog entry for issue 1514,1514
+b5d2711,Pierce Lopez,2016-10-06 20:23:03,avoid use of str.format() in network.py,1514,fabric/network.py
+1bb422f,Jeff Forcier,2016-08-22 15:49:38,Fix #1470 and add changelog,1470,fabric/operations.py
+1bb422f,Jeff Forcier,2016-08-22 15:49:38,Fix #1470 and add changelog,1470,fabric/sftp.py
+0164dc6,Jeff Forcier,2016-08-22 15:30:38,Tests added re #1470,1470,tests/test_operations.py
+c8fe081,Jeff Forcier,2016-08-22 11:39:17,Tweak fix (and fix test so it really tests) re #1458,1458,fabric/network.py
+c8fe081,Jeff Forcier,2016-08-22 11:39:17,Tweak fix (and fix test so it really tests) re #1458,1458,tests/test_network.py
+2aa3f79,Jeff Forcier,2016-08-22 11:08:53,Expand/clarify/acknowledge changelog re #1458,1458
+74b1d0a,Jeff Forcier,2016-07-22 15:34:27,Changelog closes #1491,1491
+ad9bcb6,Jeff Forcier,2016-07-22 15:29:20,Implement sudo_password/s re #1491,1491,fabric/auth.py
+ad9bcb6,Jeff Forcier,2016-07-22 15:29:20,Implement sudo_password/s re #1491,1491,fabric/io.py
+ad9bcb6,Jeff Forcier,2016-07-22 15:29:20,Implement sudo_password/s re #1491,1491,fabric/main.py
+ad9bcb6,Jeff Forcier,2016-07-22 15:29:20,Implement sudo_password/s re #1491,1491,fabric/state.py
+1b0f5a9,Jeff Forcier,2016-07-22 14:56:36,DDD re #1491,1491
+5bf8a35,Jeff Forcier,2016-04-08 20:13:20,Changelog re #800,800
+2db971a,Jeff Forcier,2016-04-08 19:25:37,Implement use of RingBuffer for stdout/err capture buffer.,800,fabric/operations.py
+1f20939,Jeff Forcier,2016-04-08 15:27:16,"Changelog re #932, closes #932",932
+63a58f0,Jeff Forcier,2016-04-07 15:03:47,Changelog re #1389,1389
+d62f92f,Jeff Forcier,2016-04-06 20:58:02,"Tidy up previous cherry-pick + add changelog, re #1372",1372,tests/test_main.py
+4e1fd83,c12067,2015-09-03 10:25:22,fix and test for issue 1365: exception subclasses should not be recognized as fabric commands,1365,fabric/main.py
+4e1fd83,c12067,2015-09-03 10:25:22,fix and test for issue 1365: exception subclasses should not be recognized as fabric commands,1365,tests/support/exceptions_fabfile.py
+4e1fd83,c12067,2015-09-03 10:25:22,fix and test for issue 1365: exception subclasses should not be recognized as fabric commands,1365,tests/test_main.py
+e2ca3fd,Bradley Spink,2015-08-05 23:36:17,Fixes #1348: add more robust handling for % format chars in remote path when using sftp get(),1348,fabric/sftp.py
+e2ca3fd,Bradley Spink,2015-08-05 23:36:17,Fixes #1348: add more robust handling for % format chars in remote path when using sftp get(),1348,tests/test_operations.py
+d59ce13,Jeff Forcier,2015-12-06 22:23:06,Explicitly document rsync_project's use of Fabric cxn params,576,fabric/contrib/project.py
+ac4762f,Harald Weppner,2015-11-13 00:11:50,"Revert ""fix escape sequences in open_shell""",1398,fabric/io.py
+8efbff1,Harald Weppner,2015-11-12 23:34:07,fix escape sequences in open_shell,1398,fabric/io.py
+3510fed,Jeff Forcier,2015-03-09 13:39:42,Changelog fixes #1286 (cherry-picked),1286
+ad2f60b,Samuel Marks,2015-03-04 10:21:36,Added changelog for #1273,1273
+8762cca,Curtis Mattoon,2014-12-20 23:38:22,Fixes #1135. Command prefix is applied before shell_env. Reverses the order in which `shell_env` and `prefix` are applied to a command.,1135,fabric/operations.py
+7150caf,Jeff Forcier,2014-12-19 14:51:11,Changelog re #1201,1201
+cf81c8b,Jeff Forcier,2014-12-19 14:49:43,Skip globbing for single-file get() targets.,1201,fabric/operations.py
+1028b25,Jeff Forcier,2014-12-19 14:48:03,Failing test proving #1201,1201,integration/test_operations.py
+e858447,Jeff Forcier,2014-12-19 11:21:22,Changelog closes #1228,1228
+234be2f,Jeff Forcier,2014-12-17 12:56:02,Tweak non-integration tests to work with #1226,1226,tests/test_operations.py
+28c15a8,Jeff Forcier,2014-12-17 10:38:56,Changelog re #1226,1226
+71423e7,Jeff Forcier,2014-12-17 10:31:32,Tweaked copy of earlier test re #1226,1226,integration/test_operations.py
+3a0d3ae,Curtis Mattoon,2014-12-13 16:40:24,Fix for #1226. Ensures user has ownership of file before changing permissions so that only the owner can read it.,1226,fabric/sftp.py
+e74755f,Jeff Forcier,2014-09-03 17:55:12,"Add changelog re #1188, fixes #1188",1188
+c596654,Jeff Forcier,2014-08-06 17:03:49,"Changelog, fixes #1165",1165
+4009a54,CzBiX,2014-07-23 20:08:59,break the loop when the host is gateway itself,1165,fabric/network.py
+7cbd561,Jeff Forcier,2014-08-06 16:56:09,"Changelog, closes #1147",1147
+d782ce1,Jeff Forcier,2014-08-06 16:38:11,"Changelog, closes #1146",1146
+c5ee961,Igor Maravic,2014-08-05 09:53:10,Update changelog for #1134,1134
+13ffeef,Jeff Forcier,2014-08-06 14:37:59,Clarify env.passwords' requirement of full host strings.,1130
+60bb218,Jeff Forcier,2014-08-06 13:15:21,Applied fix re #1116 / re #852,1116,fabric/contrib/files.py
+127f6f9,Jeff Forcier,2014-08-06 13:15:02,Correctly-failing version of contributed test re #1116,1116,tests/test_contrib.py
+1722af1,Jeff Forcier,2014-08-06 12:47:23,"Changelog, fixes #1096",1096
+ae5beb0,Jeff Forcier,2014-08-06 12:35:00,"Changelog re #1059, fixes #1059",1059
+e31c006,Jeff Forcier,2014-08-06 12:32:39,"Changelog re #1026, fixes #1026",1026
+e397a40,Jeff Forcier,2014-08-06 12:25:25,Clear connection cache harder when entering parallel subprocesses.,600,fabric/tasks.py
+7667389,Igor Maravic,2014-08-05 09:53:10,Update changelog for #1134,1134
+92852e0,Jeff Forcier,2013-12-18 10:03:39,Changelog re #957,957
+518537b,Jeff Forcier,2013-12-17 20:07:18,Shuffle gateway logic around for improved reconnecting.,957,fabric/network.py
+1443c25,Jeff Forcier,2013-04-28 21:34:17,Changelog re reopening of #328; fixes #328,328
+6cd3fc2,Michael McHugh,2013-03-21 03:23:53,"adds flag use_glob to put, to allow raw file paths re: #812",812,fabric/operations.py
+6cd3fc2,Michael McHugh,2013-03-21 03:23:53,"adds flag use_glob to put, to allow raw file paths re: #812",812,tests/test_operations.py
+bd77cd4,Jeff Forcier,2013-03-19 17:06:04,"Changelog re #844, #864",844
+87a79b3,Jeff Forcier,2013-03-19 13:12:23,Switch up re #681 to be nice and not complain,681,fabric/task_utils.py
+87a79b3,Jeff Forcier,2013-03-19 13:12:23,Switch up re #681 to be nice and not complain,681,tests/test_main.py
+8430ff7,Konrad Hałas,2013-03-18 14:42:41,Fixed contrib tests after #367 patch.,367,tests/test_contrib.py
+c6a4585,Konrad Hałas,2013-03-18 14:36:43,Added _expand_path routine - expand paths with tilde (~) inside. Fixed #367.,367,fabric/contrib/files.py
+374f6b0,Jeff Forcier,2013-03-01 11:24:43,Update 1.5 branch re #84 so it doesn't barf on Paramiko 1.10,84,fabric/network.py
+1de917a,Jeff Forcier,2013-03-01 10:52:32,Fix #844,844,fabric/network.py
+1de917a,Jeff Forcier,2013-03-01 10:52:32,Fix #844,844,tests/test_network.py
+e024989,Jeff Forcier,2013-03-01 10:52:32,Fix #844,844,fabric/network.py
+e024989,Jeff Forcier,2013-03-01 10:52:32,Fix #844,844,tests/test_network.py
+866132a,Jeff Forcier,2013-02-27 11:32:05,"Fixes #587 - warn on missing ssh config, don't abort",587,fabric/network.py
+866132a,Jeff Forcier,2013-02-27 11:32:05,"Fixes #587 - warn on missing ssh config, don't abort",587,tests/test_network.py
+185bed2,Jeff Forcier,2013-02-14 09:12:24,Fix #833 by limiting Windows shell_env support to local() only.,833,fabric/context_managers.py
+185bed2,Jeff Forcier,2013-02-14 09:12:24,Fix #833 by limiting Windows shell_env support to local() only.,833,fabric/operations.py
+08d4942,Jeff Forcier,2013-01-26 09:19:21,"Changelog re #402, fixes #402",402
+830a890,Jeff Forcier,2013-01-24 23:26:12,Attribution re #703,703
+1be814a,Jeff Forcier,2013-01-24 23:22:43,"Tweak language of main docstring, update versionadded, re #703",703,fabric/contrib/files.py
+28e8246,Jeff Forcier,2013-01-22 19:27:24,Add regression test re #581,581,tests/test_parallel.py
+97d9b56,Jeff Forcier,2012-11-01 15:00:21,Add docs helper for  + Sphinx autodoc.,569,fabric/decorators.py
+97d9b56,Jeff Forcier,2012-11-01 15:00:21,Add docs helper for  + Sphinx autodoc.,569,fabric/docs.py
+97d9b56,Jeff Forcier,2012-11-01 15:00:21,Add docs helper for  + Sphinx autodoc.,569,fabric/tasks.py
+528e327,Jeff Forcier,2012-10-28 13:28:03,Changelog re #736,736
+a109379,Matthew Tretter,2012-09-26 10:07:16,Defer access of command_prefixes until __enter__,736,fabric/context_managers.py
+65647c6,Matthew Tretter,2012-09-26 10:32:54,Create nested prefix test for #736,736,tests/test_context_managers.py
+1045b71,Jeff Forcier,2012-09-08 16:08:29,Attribution re #491,491
+d76cccf,Jeff Forcier,2012-07-26 17:26:11,Add new test re #690 to ensure correct behavior during host prompting,690,tests/test_network.py
+873257b,Jeff Forcier,2012-07-16 10:06:04,Fix #681 by updating runs_once docstring,681,fabric/decorators.py
+3508a79,Jeff Forcier,2012-07-13 18:33:37,Add test to guard against #681 regressing.,681,tests/test_decorators.py
+514c1b1,Jeff Forcier,2012-05-22 17:34:31,Changelog re #649,649
+82d94d7,Jeff Forcier,2012-05-22 17:29:34,Don't swallow exceptions in child processes.,649,fabric/tasks.py
+82d94d7,Jeff Forcier,2012-05-22 17:29:34,Don't swallow exceptions in child processes.,649,tests/test_parallel.py
+fdc27c8,Jeff Forcier,2012-05-22 15:49:45,Add failing test re #649,649,tests/test_parallel.py
+d9a22fa,Jeff Forcier,2012-05-16 15:31:15,Update MANIFEST with more test/doc contents.,640
+ca49e66,Jeff Forcier,2012-05-07 20:16:11,Change `ssh` agent forward class & close when done,562,fabric/operations.py
+ca49e66,Jeff Forcier,2012-05-07 20:16:11,Change `ssh` agent forward class & close when done,562,setup.py
+4e11f5f,Jeff Forcier,2012-04-11 18:16:36,"Update changelog entry re #616, fixes #616",616
+62ff8e1,Jeff Forcier,2012-04-04 17:11:54,Fixes #608,608,fabric/contrib/project.py
+3b8ffef,Jeff Forcier,2012-04-04 17:11:37,Fixes #607,607,fabric/operations.py
+611133c,Jeff Forcier,2012-04-02 09:54:28,Add FAQ re init scripts + pty. Fixes #395,395
+95f67ea,Jeff Forcier,2012-03-20 14:44:00,Changelog re #568,568
+ddf8980,Jeff Forcier,2012-03-20 14:41:05,Overhaul env var treatment in execute() re #568,568,fabric/context_managers.py
+ddf8980,Jeff Forcier,2012-03-20 14:41:05,Overhaul env var treatment in execute() re #568,568,fabric/job_queue.py
+ddf8980,Jeff Forcier,2012-03-20 14:41:05,Overhaul env var treatment in execute() re #568,568,fabric/tasks.py
+ddf8980,Jeff Forcier,2012-03-20 14:41:05,Overhaul env var treatment in execute() re #568,568,tests/test_context_managers.py
+ddf8980,Jeff Forcier,2012-03-20 14:41:05,Overhaul env var treatment in execute() re #568,568,tests/test_tasks.py
+5d03882,Jeff Forcier,2012-03-19 18:49:21,Make failing test re #568 cover more ground,568,tests/test_tasks.py
+950fb36,Jeff Forcier,2012-03-18 14:09:23,Add failing test re: #568,568,tests/test_tasks.py
+10805b6,Jeff Forcier,2012-03-12 14:24:47,"Changelog, AUTHORS re #458, re #585",458
+0953cc6,Rory Geoghegan,2012-03-12 13:43:53,with_settings decorator takes context managers,458,fabric/decorators.py
+0953cc6,Rory Geoghegan,2012-03-12 13:43:53,with_settings decorator takes context managers,458,tests/test_context_managers.py
+0953cc6,Rory Geoghegan,2012-03-12 13:43:53,with_settings decorator takes context managers,458,tests/test_decorators.py
+dd6c23f,Jeff Forcier,2012-02-27 10:10:44,Remote paths now assembled using posixpath. Fixes #306.,306,fabric/operations.py
+dd6c23f,Jeff Forcier,2012-02-27 10:10:44,Remote paths now assembled using posixpath. Fixes #306.,306,fabric/sftp.py
+5d0681a,Jeff Forcier,2012-02-15 16:10:15,"No idea why we were hardcoding anything here, ever.",303,fabric/context_managers.py
+8612588,Jeff Forcier,2012-02-13 20:48:17,Changelog re #495,495
+6bf50c7,Jeff Forcier,2012-02-13 18:17:33,"Handle rest of decorators too, re #410",410,fabric/decorators.py
+f38e3f1,Jeff Forcier,2012-02-13 18:07:46,"Changelog re #410, fixes #410",410
+ebe4697,Jeff Forcier,2012-02-13 18:01:40,Add fix re #410,410,fabric/decorators.py
+f9b1106,Jeff Forcier,2012-02-13 18:01:32,Add failing test re #410,410,tests/support/decorator_order.py
+f9b1106,Jeff Forcier,2012-02-13 18:01:32,Add failing test re #410,410,tests/test_main.py
+830fb62,Jeff Forcier,2012-02-02 17:34:49,"Changelog re #138, fixes #138",138
+7b46e66,Jeff Forcier,2012-02-02 15:39:03,Tweaks to env.port re #138 re #3,138,fabric/state.py
+3edb315,Jeff Forcier,2012-01-12 15:34:15,Changelog entry re #339,339
+56ceefb,Jeff Forcier,2012-01-10 18:09:23,Mark colors module as internal,339,fabric/main.py
+ddef8a7,Jeff Forcier,2011-12-18 21:21:57,"Force linewise output for @parallel, not just -P",492,fabric/tasks.py
+3f8a69d,Jeff Forcier,2011-12-18 21:06:53,Parallel mode should also trigger prompt aborts,493,fabric/utils.py
+490c32b,Jeff Forcier,2011-12-18 18:58:52,Manually cherry-pick bd7d5f3 from master.,494,fabric/tasks.py
+ef412f9,Jeff Forcier,2011-11-23 12:45:41,Don't barf on module-as-task; re #441,441,fabric/main.py
+c77eeba,Jeff Forcier,2011-11-23 11:56:41,Allow backslash escaping of equals signs in task args.,475,fabric/main.py
+c77eeba,Jeff Forcier,2011-11-23 11:56:41,Allow backslash escaping of equals signs in task args.,475,tests/test_main.py
+d14234a,Jeff Forcier,2011-11-23 11:21:43,Add wolever's update for multiprocessing re #450,450,fabric/tasks.py
+a822145,Jeff Forcier,2011-11-23 11:08:11,"Pull in wolever traceback improvements for jinja2, paramiko",450,fabric/contrib/files.py
+a822145,Jeff Forcier,2011-11-23 11:08:11,"Pull in wolever traceback improvements for jinja2, paramiko",450,fabric/network.py
+e5ad1a7,Jeff Forcier,2011-11-23 10:38:32,"Add QNX to BSD, etc list re: sed.",446,fabric/contrib/files.py
+0bc58aa,Jeff Forcier,2011-11-23 10:36:24,Expand ~ in contrib.files.exists(),443,fabric/contrib/files.py
+00a5c1c,Jeff Forcier,2011-11-23 10:29:51,Use @wraps in @with_settings,437,fabric/decorators.py
+4c11e6e,Jeff Forcier,2011-11-23 09:49:50,Set default username to None for bad getpwuid(),400,fabric/state.py
+5f760db,Jeff Forcier,2011-11-22 23:40:30,Changelog entry re #397,397
+c2b6e7c,Jeff Forcier,2011-11-23 07:36:39,Fix re #397,397,fabric/main.py
+bfe64c5,Jeff Forcier,2011-11-22 22:21:00,Preserve use_sudo inside append(),341,fabric/contrib/files.py
+74652de,Jeff Forcier,2011-11-22 21:19:45,Don't apply cd() to put()'s internals.,342,fabric/sftp.py
+055c092,Jeff Forcier,2011-11-23 09:49:50,Set default username to None for bad getpwuid(),400,fabric/state.py
+9eea8a4,Jeff Forcier,2011-11-22 23:40:30,Changelog entry re #397,397
+2a8ffe0,Jeff Forcier,2011-11-23 07:36:39,Fix re #397,397,fabric/main.py
+8d0f795,Jeff Forcier,2011-11-22 22:21:00,Preserve use_sudo inside append(),341,fabric/contrib/files.py
+f89e2b6,Jeff Forcier,2011-11-22 21:19:45,Don't apply cd() to put()'s internals.,342,fabric/sftp.py
+bae59de,Jeff Forcier,2011-11-22 19:09:10,Parallel now implies linewise output.,482,fabric/io.py
+3f7ebfa,Jeff Forcier,2011-11-15 19:40:11,"Fix regression re #230, thanks alisaifee",230,fabric/main.py
+0a8436a,Jeff Forcier,2011-10-24 14:17:12,Abort after parallel tasks if child processes failed.,457,fabric/job_queue.py
+0a8436a,Jeff Forcier,2011-10-24 14:17:12,Abort after parallel tasks if child processes failed.,457,fabric/tasks.py
+9affc58,Jeff Forcier,2011-10-23 11:29:27,Clarify pip/crypto/python install corner case re: 1.3 dependency changes,1
+93003a7,Jeff Forcier,2011-10-07 12:13:19,Re-add tilde expansion to put().,323,fabric/operations.py
+712ea2b,Jeff Forcier,2011-09-26 14:45:19,Fix IO bug with spurious line prefixes.,182,fabric/io.py
+f55778d,Jeff Forcier,2011-09-02 14:06:40,Don't print >1 Executing line for `@runs_once`.,430,fabric/main.py
+b19c923,Jeff Forcier,2011-09-01 15:14:39,Allow the settings contextmanager to set new env keys. Fixes #252,252,fabric/context_managers.py
+b19c923,Jeff Forcier,2011-09-01 15:14:39,Allow the settings contextmanager to set new env keys. Fixes #252,252,tests/test_context_managers.py
+cfab5ec,Jeff Forcier,2011-09-01 14:46:01,"Flip ""listing commands"" flag in main.py if `--shortlist` is given.",396,fabric/main.py
+06cd63e,Jeff Forcier,2011-08-31 17:17:05,Update changelog re #373. Fixes #373.,373
+5a58b37,Jeff Forcier,2011-08-31 16:29:19,Docs and tests re #373,373,tests/test_main.py
+892e014,Jeff Forcier,2011-08-31 15:39:11,"Add cli-kwarg test for host exclusion, re #373",373,tests/test_main.py
+da061f4,Jeff Forcier,2011-08-31 15:35:01,"There is no function-attr anywhere for exclude_hosts, so don't check for one.",373,fabric/main.py
+d5485d9,Jeff Forcier,2011-08-31 15:34:34,Merge hosts at CLI-kwarg level if exclude_hosts kwarg is present.,373,fabric/main.py
+6d4a909,Jeff Forcier,2011-08-31 15:33:42,Actually exclude hosts when merging host lists.,373,fabric/main.py
+c9e90af,Jeff Forcier,2011-08-31 13:45:04,Check stdout instead of stdin for tty-ness when sizing up local terminal.,303,fabric/operations.py
+d3e152e,Jeff Forcier,2011-08-19 21:45:41,Fix abort_on_prompts to not incorrectly abort in @needs_host.,417,fabric/network.py
+d3e152e,Jeff Forcier,2011-08-19 21:45:41,Fix abort_on_prompts to not incorrectly abort in @needs_host.,417,tests/test_network.py
+8a12c12,Jeff Forcier,2011-07-14 20:32:56,Fix up Paramiko ImportError handling,389,fabric/network.py
+86245e3,Jeff Forcier,2011-07-08 16:24:46,Changelog re #380,380
+fa730cd,Jeff Forcier,2011-07-08 15:58:58,"When detecting strings vs other types, use basestring.",380,fabric/contrib/files.py
+fa730cd,Jeff Forcier,2011-07-08 15:58:58,"When detecting strings vs other types, use basestring.",380,fabric/decorators.py
+fa730cd,Jeff Forcier,2011-07-08 15:58:58,"When detecting strings vs other types, use basestring.",380,fabric/main.py
+790ae1c,Jeff Forcier,2011-07-07 11:27:20,Clean up task-vs-collection test when listing tasks.,375,fabric/main.py
+790ae1c,Jeff Forcier,2011-07-07 11:27:20,Clean up task-vs-collection test when listing tasks.,375,tests/support/mapping.py
+790ae1c,Jeff Forcier,2011-07-07 11:27:20,Clean up task-vs-collection test when listing tasks.,375,tests/test_main.py
+7f6cbc9,Jeff Forcier,2011-06-23 22:19:41,"Fixes #345, contains() returns boolean, not retval.",345,fabric/contrib/files.py
+7f6cbc9,Jeff Forcier,2011-06-23 22:19:41,"Fixes #345, contains() returns boolean, not retval.",345,tests/test_contrib.py
+efd9fef,Jeff Forcier,2011-06-23 20:08:31,Fix I/O race condition,352,fabric/io.py
+efd9fef,Jeff Forcier,2011-06-23 20:08:31,Fix I/O race condition,352,fabric/state.py
+3c56186,Jeff Forcier,2011-06-23 18:31:54,Add test re #329,329,tests/test_network.py
+3f5503e,Jeff Forcier,2011-06-23 17:19:16,Fixes #329: reboot() broken for partial host strings,329,fabric/network.py
+89e97c1,Jeff Forcier,2011-05-31 17:51:39,"Re #324, tests and an important fix they caught",324,fabric/operations.py
+89e97c1,Jeff Forcier,2011-05-31 17:51:39,"Re #324, tests and an important fix they caught",324,tests/server.py
+89e97c1,Jeff Forcier,2011-05-31 17:51:39,"Re #324, tests and an important fix they caught",324,tests/test_operations.py
+851b796,Jeff Forcier,2011-05-31 16:42:33,Update run/sudo combine_stderr for overriding.,324,fabric/operations.py
+7d99ba0,Jeff Forcier,2011-04-29 12:02:01,Fixes #347 - test for StringTypes not str,347,fabric/contrib/files.py
+2e90af6,Jeff Forcier,2011-04-27 13:35:03,Fixes #258 - Windows local logic inversion fix,258,fabric/operations.py
+b4ed89a,Jeff Forcier,2011-04-25 17:52:44,Implements #115 - don't use set() to dedupe host lists,115,fabric/main.py
+86a1182,Jeff Forcier,2011-04-25 15:47:27,Revert goosemo's patches re #115,115,fabric/api.py
+86a1182,Jeff Forcier,2011-04-25 15:47:27,Revert goosemo's patches re #115,115,fabric/decorators.py
+86a1182,Jeff Forcier,2011-04-25 15:47:27,Revert goosemo's patches re #115,115,fabric/main.py
+86a1182,Jeff Forcier,2011-04-25 15:47:27,Revert goosemo's patches re #115,115,tests/test_main.py
+a47054e,Jeff Forcier,2011-04-24 20:13:50,Revert patch re #36,36,fabric/operations.py
+9a13102,Jeff Forcier,2011-04-24 18:42:09,"Add changelog, AUTHORS and fixes #337",337
+fb3aaae,Jeff Forcier,2011-04-22 16:40:07,Update AUTHORS file re #273,273
+c88f7c0,Jeff Forcier,2011-04-22 15:30:25,Add changelog entries re #273,273,fabric/contrib/files.py
+d7470d2,Jeff Forcier,2011-04-22 14:53:46,Fix file path munging and add another test,273,fabric/contrib/files.py
+d7470d2,Jeff Forcier,2011-04-22 14:53:46,Fix file path munging and add another test,273,tests/test_contrib.py
+cd25547,Jeff Forcier,2011-04-22 13:49:12,"Re #273, fix remote filename bug",273,fabric/contrib/files.py
+cd25547,Jeff Forcier,2011-04-22 13:49:12,"Re #273, fix remote filename bug",273,tests/test_contrib.py
+33cc7e2,Jeff Forcier,2011-04-21 18:47:23,Add changelog entry re #307,307
+9399a20,Jeff Forcier,2011-04-21 18:35:38,Reimplement with cleaner patched-env decorator.,314,tests/test_main.py
+9399a20,Jeff Forcier,2011-04-21 18:35:38,Reimplement with cleaner patched-env decorator.,314,tests/utils.py
+cbdfc06,Jeff Forcier,2011-03-27 22:00:15,Update changelog re: #320,320
+5afe16f,Jeff Forcier,2011-03-22 17:44:49,"Fix #310 - use octal, not string rep",310,fabric/sftp.py
+bc0fe58,Jeff Forcier,2011-03-22 15:11:58,Update attribution re #312,312
+5ef8083,Jeff Forcier,2011-03-22 12:51:25,Add sleep to IO loops to prevent being CPU bound.,312,fabric/io.py
+5ef8083,Jeff Forcier,2011-03-22 12:51:25,Add sleep to IO loops to prevent being CPU bound.,312,fabric/operations.py
+5ef8083,Jeff Forcier,2011-03-22 12:51:25,Add sleep to IO loops to prevent being CPU bound.,312,fabric/state.py
+41ba003,Jeff Forcier,2011-03-20 13:49:44,Fixes #305 - Strip spaces from hostnames.,305,fabric/main.py
+41ba003,Jeff Forcier,2011-03-20 13:49:44,Fixes #305 - Strip spaces from hostnames.,305,tests/test_main.py
+5695925,Jeff Forcier,2011-03-19 20:16:50,Don't barf when settings(nonexistent_key=value).,316,fabric/context_managers.py
+5695925,Jeff Forcier,2011-03-19 20:16:50,Don't barf when settings(nonexistent_key=value).,316,tests/test_context_managers.py
+eb9c7a8,Jeff Forcier,2011-03-16 19:26:15,Tweak subprocess invocation on Windows.,258,fabric/operations.py
+d3afcc3,Jeff Forcier,2011-03-16 19:01:37,Fix bug with dollar-sign using regexen in comment(),261,fabric/contrib/files.py
+ead9e87,Jeff Forcier,2011-03-16 16:35:35,No need to rebuild password_prompt within loop.,287,fabric/network.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/auth.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/colors.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/contrib/files.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/decorators.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/io.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/main.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/network.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/sftp.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/state.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/thread_handling.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/utils.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,fabric/version.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/Python26SocketServer.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/fake_filesystem.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/server.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_context_managers.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_main.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_network.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_operations.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_state.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/test_utils.py
+422268b,Richard Harding,2011-03-13 23:00:59,Fixes #307 Update code to match Pep8 standards,307,tests/utils.py
+530f89e,Jeff Forcier,2011-03-10 17:36:35,Fix append() partial kwarg to match documentation.,311,fabric/contrib/files.py
+b01dd22,Jeff Forcier,2011-03-10 17:32:25,Bring autodocs in line with put/get signatures,309
+92ef9b6,Jeff Forcier,2010-11-13 16:58:55,"Re #256, add test generator + supporting tweak to main",256,fabric/main.py
+92ef9b6,Jeff Forcier,2010-11-13 16:58:55,"Re #256, add test generator + supporting tweak to main",256,tests/test_main.py
+d83101b,Jeff Forcier,2011-03-09 19:06:58,"Re #302, slight optimization",302,fabric/operations.py
+834ace4,Jeff Forcier,2011-03-05 11:04:02,Fixes #301 - local ouput control bug,301,fabric/operations.py
+834ace4,Jeff Forcier,2011-03-05 11:04:02,Fixes #301 - local ouput control bug,301,tests/test_operations.py
+e14d259,Jeff Forcier,2011-03-04 21:16:10,Don't use os.path.join for remote paths.,300,fabric/sftp.py
+e14d259,Jeff Forcier,2011-03-04 21:16:10,Don't use os.path.join for remote paths.,300,tests/test_operations.py
+25dc793,Jeff Forcier,2011-03-04 19:14:55,Fixes #295. Thanks to James Murty for catch + patch,295,fabric/operations.py
+c2971cc,Jeff Forcier,2011-03-04 19:06:15,"Re #295, add home dir manip support to test server",295,tests/server.py
+ab10efc,Jeff Forcier,2011-03-04 19:01:19,"Re #295, add failing test",295,tests/test_operations.py
+64eb6c5,Jeff Forcier,2011-03-03 18:26:31,Fix another potential str.replace gotcha.,296,fabric/sftp.py
+3f41d38,Jeff Forcier,2011-03-03 18:21:31,Fix test local-file leakage.,294,tests/test_operations.py
+b882161,Jeff Forcier,2011-03-03 18:12:18,Fix path normalization bug in put().,293,fabric/sftp.py
+73783cd,Jeff Forcier,2011-02-26 16:27:52,Allow '@' symbols in usernames.,268,fabric/network.py
+73783cd,Jeff Forcier,2011-02-26 16:27:52,Allow '@' symbols in usernames.,268,tests/test_network.py
+710d4ae,Jeff Forcier,2011-02-26 16:21:19,Fix edge case cache clear problem in reboot().,264,fabric/operations.py
+002e9a8,Jeff Forcier,2011-02-26 12:42:25,Update tutorial's use of local() re #88,88
+be344d0,Jeff Forcier,2011-02-26 12:05:54,Change local() capture kwarg to default to False.,88,fabric/operations.py
+fca09e6,Jeff Forcier,2010-11-12 13:42:14,Fixes #242: CLI task arg empty param parsing,242,fabric/main.py
+fca09e6,Jeff Forcier,2010-11-12 13:42:14,Fixes #242: CLI task arg empty param parsing,242,tests/test_main.py
+2a38b94,Jeff Forcier,2010-11-12 13:40:45,Fixes #242: CLI task arg empty param parsing,242,fabric/main.py
+2a38b94,Jeff Forcier,2010-11-12 13:40:45,Fixes #242: CLI task arg empty param parsing,242,tests/test_main.py
+e925603,Jeff Forcier,2010-11-12 13:08:20,Implements #231,231
+9d3f1d1,Jeff Forcier,2010-11-12 12:43:07,Implements #231,231
+f9de459,Jeff Forcier,2010-09-06 15:24:35,Arbitrary command now works without a fabfile,230,fabric/main.py
+edb9d81,Jeff Forcier,2010-09-03 17:44:27,Allow escaped commas in per-task arguments.,137,fabric/main.py
+edb9d81,Jeff Forcier,2010-09-03 17:44:27,Allow escaped commas in per-task arguments.,137,tests/test_main.py
+2c8aa1e,Jeff Forcier,2010-09-03 17:44:27,Allow escaped commas in per-task arguments.,137,fabric/main.py
+2c8aa1e,Jeff Forcier,2010-09-03 17:44:27,Allow escaped commas in per-task arguments.,137,tests/test_main.py
+12a9ff3,Jeff Forcier,2010-09-03 15:36:23,Fix env.all_hosts default val re #218,218,fabric/state.py
+57df356,Travis Swicegood,2010-09-03 14:03:16,Update network tests to be 100% key agnostic.,223,tests/test_network.py
+b1c2686,Jeff Forcier,2010-08-30 11:01:38,"Re #75, tweak to work with master's `--` feature",75,fabric/main.py
+b28be83,Jeff Forcier,2010-08-24 17:06:31,Suppress trailing newline for silent commands.,219,fabric/operations.py
+4108ab3,Jeff Forcier,2010-08-24 16:00:41,Add failing test re #219,219,tests/test_network.py
+26c38e5,Jeff Forcier,2010-08-24 12:14:43,Getpass mock now omits newlines for passthroughs,209,tests/test_network.py
+26c38e5,Jeff Forcier,2010-08-24 12:14:43,Getpass mock now omits newlines for passthroughs,209,tests/utils.py
+da72609,Jeff Forcier,2010-08-14 19:13:39,"Re #209, tests line up with current behavior now",209,fabric/io.py
+da72609,Jeff Forcier,2010-08-14 19:13:39,"Re #209, tests line up with current behavior now",209,fabric/network.py
+da72609,Jeff Forcier,2010-08-14 19:13:39,"Re #209, tests line up with current behavior now",209,tests/test_network.py
+da72609,Jeff Forcier,2010-08-14 19:13:39,"Re #209, tests line up with current behavior now",209,tests/utils.py
+013521c,Jeff Forcier,2010-08-14 17:07:38,"Re #209, ensure sudo prompts have a trailing space",209,fabric/io.py
+013521c,Jeff Forcier,2010-08-14 17:07:38,"Re #209, ensure sudo prompts have a trailing space",209,fabric/network.py
+013521c,Jeff Forcier,2010-08-14 17:07:38,"Re #209, ensure sudo prompts have a trailing space",209,tests/test_network.py
+013521c,Jeff Forcier,2010-08-14 17:07:38,"Re #209, ensure sudo prompts have a trailing space",209,tests/utils.py
+f6ae9f6,Jeff Forcier,2010-08-10 15:36:07,"Re #209, rearrange/add tests a bit",209,tests/test_network.py
+41572a1,Jeff Forcier,2010-08-10 13:45:14,"Re #209, more tests and test util updates",209,fabric/network.py
+41572a1,Jeff Forcier,2010-08-10 13:45:14,"Re #209, more tests and test util updates",209,tests/test_network.py
+41572a1,Jeff Forcier,2010-08-10 13:45:14,"Re #209, more tests and test util updates",209,tests/utils.py
+2857fa3,Jeff Forcier,2010-08-09 21:47:38,"Re #209, update basic prompt tests/behavior",209,fabric/network.py
+2857fa3,Jeff Forcier,2010-08-09 21:47:38,"Re #209, update basic prompt tests/behavior",209,tests/test_network.py
+fb852dc,Jeff Forcier,2010-08-09 17:00:16,Add new test re #209,209,tests/test_network.py
+bbfbb74,Jeff Forcier,2010-08-06 23:30:58,"Re #192, refactor some password logic",192,fabric/auth.py
+bbfbb74,Jeff Forcier,2010-08-06 23:30:58,"Re #192, refactor some password logic",192,fabric/io.py
+bbfbb74,Jeff Forcier,2010-08-06 23:30:58,"Re #192, refactor some password logic",192,fabric/network.py
+34f9850,Jeff Forcier,2010-08-06 23:14:56,Add docs re #192,192
+d801081,Jeff Forcier,2010-08-06 18:24:43,Change test server lifetime to per-test.,192,fabric/network.py
+d801081,Jeff Forcier,2010-08-06 18:24:43,Change test server lifetime to per-test.,192,tests/__init__.py
+d801081,Jeff Forcier,2010-08-06 18:24:43,Change test server lifetime to per-test.,192,tests/server.py
+d801081,Jeff Forcier,2010-08-06 18:24:43,Change test server lifetime to per-test.,192,tests/test_network.py
+6fa9304,Jeff Forcier,2010-08-05 16:37:08,"Re #192, fix up tests, suite passes now",192,tests/__init__.py
+6fa9304,Jeff Forcier,2010-08-05 16:37:08,"Re #192, fix up tests, suite passes now",192,tests/test_network.py
+d9eb149,Jeff Forcier,2010-08-04 23:19:58,Yet more WIP re #192,192,fabric/io.py
+d9eb149,Jeff Forcier,2010-08-04 23:19:58,Yet more WIP re #192,192,fabric/network.py
+d9eb149,Jeff Forcier,2010-08-04 23:19:58,Yet more WIP re #192,192,tests/test_network.py
+43a1b70,Jeff Forcier,2010-08-04 21:30:04,"Re #204, force full re-raising of exception+tb",204,fabric/operations.py
+43a1b70,Jeff Forcier,2010-08-04 21:30:04,"Re #204, force full re-raising of exception+tb",204,fabric/thread_handling.py
+43a1b70,Jeff Forcier,2010-08-04 21:30:04,"Re #204, force full re-raising of exception+tb",204,tests/__init__.py
+8ecf9dd,Jeff Forcier,2010-08-03 22:07:45,"Re #204, shuffle around stdin mods for better exception recovery",204,fabric/io.py
+8ecf9dd,Jeff Forcier,2010-08-03 22:07:45,"Re #204, shuffle around stdin mods for better exception recovery",204,fabric/operations.py
+e171f15,Jeff Forcier,2010-08-03 20:41:02,"Re #204, exception handling works now",204,fabric/operations.py
+e171f15,Jeff Forcier,2010-08-03 20:41:02,"Re #204, exception handling works now",204,fabric/thread_handling.py
+e171f15,Jeff Forcier,2010-08-03 20:41:02,"Re #204, exception handling works now",204,tests/__init__.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,fabric/io.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,fabric/operations.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,fabric/thread_handling.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,fabric/utils.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,tests/__init__.py
+8d96549,Jeff Forcier,2010-08-03 17:33:17,"Re #204, first thread exception approach in, another forthcoming",204,tests/test_network.py
+c085c5e,Jeff Forcier,2010-08-01 22:16:51,More in-progress work re #92.,204,fabric/io.py
+c085c5e,Jeff Forcier,2010-08-01 22:16:51,More in-progress work re #92.,204,tests/test_network.py
+3d6404e,Jeff Forcier,2010-08-01 20:10:46,In-progress work re #192,192,fabric/io.py
+3d6404e,Jeff Forcier,2010-08-01 20:10:46,In-progress work re #192,192,fabric/state.py
+3d6404e,Jeff Forcier,2010-08-01 20:10:46,In-progress work re #192,192,tests/test_network.py
+4bd2e25,Jeff Forcier,2010-07-30 10:30:03,Set SO_REUSEADDR for multiple subsequent test runs,198,tests/server.py
+cc75171,Jeff Forcier,2010-07-22 13:10:08,Tweak to test re #192,192,tests/test_network.py
+d551f38,Jeff Forcier,2010-07-20 17:49:51,"Re #192, think I finally got a threaded test server working",192,tests/Python26SocketServer.py
+d551f38,Jeff Forcier,2010-07-20 17:49:51,"Re #192, think I finally got a threaded test server working",192,tests/__init__.py
+d551f38,Jeff Forcier,2010-07-20 17:49:51,"Re #192, think I finally got a threaded test server working",192,tests/server.py
+d551f38,Jeff Forcier,2010-07-20 17:49:51,"Re #192, think I finally got a threaded test server working",192,tests/test_network.py
+a5482a3,Jeff Forcier,2010-07-16 17:25:32,"Add partial test, logging, etc re #192.",192,tests/__init__.py
+a5482a3,Jeff Forcier,2010-07-16 17:25:32,"Add partial test, logging, etc re #192.",192,tests/server.py
+a5482a3,Jeff Forcier,2010-07-16 17:25:32,"Add partial test, logging, etc re #192.",192,tests/test_network.py
+7c3ff61,Jeff Forcier,2010-07-16 14:48:50,"Re #192, mostly-working auth in test server",192,tests/__init__.py
+7c3ff61,Jeff Forcier,2010-07-16 14:48:50,"Re #192, mostly-working auth in test server",192,tests/server.py
+2bf37e9,Jeff Forcier,2010-07-16 11:39:57,"Update changelog re #123, #194",123
+54abc61,Jeff Forcier,2010-07-16 11:39:57,"Update changelog re #123, #194",123
+c66c740,Jeff Forcier,2010-07-15 10:12:37,Add installation note re: 64-bit Python on Windows.,64
+1082ab4,Jeff Forcier,2010-07-13 16:12:29,Response server tests now use responses dict.,183,tests/test_network.py
+25fafb6,Jeff Forcier,2010-07-08 17:48:34,"Re #183, REALLY have test server working now.",183,tests/__init__.py
+25fafb6,Jeff Forcier,2010-07-08 17:48:34,"Re #183, REALLY have test server working now.",183,tests/server.py
+25fafb6,Jeff Forcier,2010-07-08 17:48:34,"Re #183, REALLY have test server working now.",183,tests/test_network.py
+25fafb6,Jeff Forcier,2010-07-08 17:48:34,"Re #183, REALLY have test server working now.",183,tests/utils.py
+095362e,Jeff Forcier,2010-07-08 16:00:53,"Re #183, state tweaks to make loop behave better",183,tests/server.py
+47d1ab9,Jeff Forcier,2010-06-23 18:25:56,Found problem re #183 but need to fix tests.,183,fabric/io.py
+47d1ab9,Jeff Forcier,2010-06-23 18:25:56,Found problem re #183 but need to fix tests.,183,tests/server.py
+04b6494,Jeff Forcier,2010-06-23 17:35:33,Add failing test re #183,183,tests/test_network.py
+dae39c2,Jeff Forcier,2010-06-18 19:04:35,Consume stderr to hide lack-of-git error messages.,180,fabric/version.py
+b254048,Jeff Forcier,2010-06-18 18:42:05,Remove Cygwin from win32 flag test.,123,fabric/state.py
+d9fba30,Jeff Forcier,2010-06-03 10:03:50,"Re #173, add to changelog",173
+409e028,Jeff Forcier,2010-06-01 10:51:45,"Re #75, tweak to work with master's `--` feature",75,fabric/main.py
+e50ec50,Jeff Forcier,2010-05-27 22:49:11,Add partial kwarg to contrib.files.append.,82,fabric/contrib/files.py
+5702362,Jeff Forcier,2010-05-27 22:11:09,Make cd() overwrite cwd when given an absolute path.,166,fabric/context_managers.py
+5702362,Jeff Forcier,2010-05-27 22:11:09,Make cd() overwrite cwd when given an absolute path.,166,tests/test_context_managers.py
+d542982,Jeff Forcier,2010-05-27 21:28:31,"Re #132, apply to master too.",132,fabric/operations.py
+2e4acf9,Jeff Forcier,2010-05-27 21:27:30,"Fixes #132: strip local() stdout, like run()/sudo() do.",132,fabric/operations.py
+7f280a0,Jeff Forcier,2010-05-27 21:17:45,Make context managers restore env upon exception.,130,fabric/context_managers.py
+7f280a0,Jeff Forcier,2010-05-27 21:17:45,Make context managers restore env upon exception.,130,tests/test_context_managers.py
+9705b93,Jeff Forcier,2010-05-27 20:53:51,More fixes to alphabetization of fab arg docs,110
+292f18b,Erich Heine,2010-02-06 11:17:13,Fix #110 (alphabetize CLI args document),110
+774d6e8,Jeff Forcier,2010-05-27 19:58:16,Print help when no args given and no fabfile.,75,fabric/main.py
+4e5eff9,Jeff Forcier,2009-11-10 11:42:57,Fix #97,97,fabric/network.py
+6244dd8,Jeff Forcier,2009-11-09 20:20:05,Update download instructions to include Redmine.,64
+f3396bb,Jeff Forcier,2009-10-19 17:11:18,Fix #34: switch upload_template to use mkstemp,34,fabric/contrib/files.py
+e1e0566,Jeff Forcier,2009-09-17 20:31:16,Fix #62 by escaping backticks.,62,fabric/operations.py
+5d81db6,Jeff Forcier,2009-09-15 08:37:10,"Replace ""ls"" with ""test"" in exists()",59,fabric/contrib/files.py
+88461f6,Jeff Forcier,2009-09-13 07:57:44,Remove out of date comment re #58,58,fabfile.py
+5d5ddaf,Jeff Forcier,2009-08-27 11:23:36,Fixes #50. Thanks to Alex Koshelev for the patch.,50,fabric/contrib/files.py
+4763a31,Jeff Forcier,2009-08-09 19:30:35,Fixes #45 - corrects README example,45
+41a3973,Jeff Forcier,2009-08-09 17:29:42,Add regression test re #32.,32,tests/test_network.py
+668872c,Jeff Forcier,2009-08-09 15:04:35,Attempted fix re #32 (dropped output),32,fabric/network.py
+fe80a65,Jeff Forcier,2009-08-09 12:40:17,Update role/host initialization logic.,47,fabric/main.py
+fe80a65,Jeff Forcier,2009-08-09 12:40:17,Update role/host initialization logic.,47,fabric/state.py
+190467f,Jeff Forcier,2009-08-09 12:14:18,Return copy of env.hosts when gathering host list.,48,fabric/main.py
+5f38bb4,Christian Vest Hansen,2008-11-08 23:57:31,Added issue #32: glob patterns in put() and download(),32
+0fad7b3,Christian Vest Hansen,2008-01-14 20:39:27,Experiment with selector-api based console - inspired by a paramiko example.,1,tests/ctrl-c.py

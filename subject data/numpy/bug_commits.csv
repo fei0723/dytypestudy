@@ -1,0 +1,1192 @@
+commit,author,date,title,faultID,file
+04896b0,Eric Wieser,2018-01-10 23:27:35,"BUG: Avoid unintentional promotion to `float`, and do ops in place for speed",10364,numpy/linalg/linalg.py
+087619a,Eric Wieser,2018-01-10 23:09:02,BUG: add missing paren and remove quotes from repr of fieldless struct,10366,numpy/core/arrayprint.py
+087619a,Eric Wieser,2018-01-10 23:09:02,BUG: add missing paren and remove quotes from repr of fieldless struct,10366,numpy/core/tests/test_arrayprint.py
+cb47070,Eric Wieser,2017-12-27 12:57:56,MAINT: Fallback on the default sequence multiplication behavior,9234,numpy/core/tests/test_scalarmath.py
+99f605c,Eric Wieser,2017-12-22 15:31:38,BUG: Fix misleading error when coercing to array,7864,numpy/lib/histograms.py
+99f605c,Eric Wieser,2017-12-22 15:31:38,BUG: Fix misleading error when coercing to array,7864,numpy/lib/tests/test_histograms.py
+4c83762,Eric Wieser,2017-12-17 23:57:06,BUG: Don't reimplement isclose in np.ma,10227,numpy/ma/core.py
+4c83762,Eric Wieser,2017-12-17 23:57:06,BUG: Don't reimplement isclose in np.ma,10227,numpy/ma/tests/test_core.py
+528c8c8,Eric Wieser,2017-12-07 21:38:17,BUG: linewidth was not respected for arrays other than 1d,10170,numpy/core/arrayprint.py
+528c8c8,Eric Wieser,2017-12-07 21:38:17,BUG: linewidth was not respected for arrays other than 1d,10170,numpy/core/tests/test_arrayprint.py
+67aa4e7,Eric Wieser,2017-11-27 09:07:40,BUG: Fix crash in repr of 0d timedelta array,10094,numpy/core/arrayprint.py
+67aa4e7,Eric Wieser,2017-11-27 09:07:40,BUG: Fix crash in repr of 0d timedelta array,10094,numpy/core/tests/test_arrayprint.py
+2f366f1,Thomas Köppe,2017-11-27 17:03:18,BUG: Fix out-of-bounds access when handling 0d ndarrays (#10101),10101
+f107d38,Eric Wieser,2017-11-26 23:04:50,BUG: Fix assert_equal on time-like objects,10081,numpy/testing/nose_tools/utils.py
+f107d38,Eric Wieser,2017-11-26 23:04:50,BUG: Fix assert_equal on time-like objects,10081,numpy/testing/tests/test_utils.py
+eac6056,orbit-stabilizer,2017-11-19 17:02:05,BUG: Have np.ma.dump and np.ma.load close their files (#10055),10045,numpy/ma/core.py
+c9fad87,Charles Harris,2017-11-18 08:53:06,DOC: Add copy of deprecated defindex.html template.,9676
+2461bc9,Allan Haldane,2017-06-29 15:20:00,ENH: fix 0d array printing using `str` or `formatter`.,1415,numpy/core/arrayprint.py
+2461bc9,Allan Haldane,2017-06-29 15:20:00,ENH: fix 0d array printing using `str` or `formatter`.,1415,numpy/core/tests/test_arrayprint.py
+e0fb739,Eric Wieser,2017-11-05 01:58:48,BUG: Fix casting from longdouble to long,9964,numpy/core/setup.py
+e0fb739,Eric Wieser,2017-11-05 01:58:48,BUG: Fix casting from longdouble to long,9964,numpy/core/tests/test_scalarmath.py
+b1837ea,xoviat,2017-11-05 15:06:58,BLD: [core:setup] disable npymath whole program opt on win32 (#9965),9965,numpy/core/setup.py
+e66780c,Eric Wieser,2017-11-05 11:16:10,BUG: Allow float64('1e10000') to overflow,9924,numpy/core/tests/test_scalar_ctors.py
+68fdc3f,Allan Haldane,2017-10-18 22:54:58,BUG: add.reduce gives wrong results for arrays with funny strides,9876,numpy/core/tests/test_umath.py
+5beafdf,Charles Harris,2017-10-19 09:40:01,Merge pull request #9888 from eric-wieser/remove-astype-special-cases,9527
+e9c85ba,Erik Bray,2017-10-19 10:42:54,BUG: Allow __array_interface__['shape'] == () (#7994),7994,numpy/core/tests/test_multiarray.py
+8948d65,Eric Wieser,2017-10-18 22:23:56,MAINT: Remove workarounds for gh-9527,9527,numpy/linalg/linalg.py
+3856a73,Eric Wieser,2017-10-17 20:41:39,BUG: count_nonzero treats empty axis tuples strangely,9728,numpy/core/numeric.py
+3856a73,Eric Wieser,2017-10-17 20:41:39,BUG: count_nonzero treats empty axis tuples strangely,9728,numpy/core/tests/test_numeric.py
+3cd20ef,Eric Wieser,2017-10-03 00:35:18,BUG: Fix datetime->string conversion,9712,numpy/core/tests/test_datetime.py
+80c624e,Stefan Winkler,2017-10-02 19:06:11,BUG: fix stray comma in _array2string,9777,numpy/core/arrayprint.py
+80c624e,Stefan Winkler,2017-10-02 19:06:11,BUG: fix stray comma in _array2string,9777,numpy/core/tests/test_multiarray.py
+80c624e,Stefan Winkler,2017-10-02 19:06:11,BUG: fix stray comma in _array2string,9777,numpy/ma/tests/test_core.py
+31fd25d,Eric Wieser,2017-04-16 22:52:08,MAINT: Removed duplicated code around `ufunc->identity`,8860
+dd86461,Eric Wieser,2017-09-28 01:09:28,BUG: Don't ignore mismatching shapes just because the mask is all zeros,4520,numpy/ma/core.py
+dd86461,Eric Wieser,2017-09-28 01:09:28,BUG: Don't ignore mismatching shapes just because the mask is all zeros,4520,numpy/ma/tests/test_core.py
+f01d1a6,Eric Wieser,2017-09-27 01:37:34,BUG: np.ma.trace gives the wrong result on ND arrays,5560,numpy/core/fromnumeric.py
+f01d1a6,Eric Wieser,2017-09-27 01:37:34,BUG: np.ma.trace gives the wrong result on ND arrays,5560,numpy/ma/core.py
+f01d1a6,Eric Wieser,2017-09-27 01:37:34,BUG: np.ma.trace gives the wrong result on ND arrays,5560,numpy/ma/tests/test_core.py
+50c4ae1,Eric Wieser,2017-09-27 01:12:46,"BUG: can_cast(127, np.int8) is False",5917,numpy/core/tests/test_numeric.py
+0f63efa,Allan Haldane,2017-09-07 12:06:41,BUG: remove voidtype-repr recursion in scalartypes.c/arrayprint.py,9345,numpy/core/arrayprint.py
+0f63efa,Allan Haldane,2017-09-07 12:06:41,BUG: remove voidtype-repr recursion in scalartypes.c/arrayprint.py,9345,numpy/core/tests/test_arrayprint.py
+366b14c,Eric Wieser,2017-09-25 01:12:36,MAINT: Remove hack from gh-7659 for gh-7493,7659,numpy/ma/core.py
+8e26a5d,Eric Wieser,2017-09-23 01:24:05,BUG: Errors thrown by 0d arrays in setitem are silenced and replaced,8461,numpy/ma/tests/test_core.py
+2c79962,Eric Wieser,2017-09-23 10:12:16,BUG: Fix silent loss of clongdouble precision,8903
+89ba7bf,Eric Wieser,2017-09-23 09:40:57,TST: Check if precision is lost in longcomplex,8903,numpy/core/tests/test_multiarray.py
+2549adf,Charles Harris,2017-09-18 17:35:07,BUG: Make scalar function elision check writeable.,9679,numpy/core/tests/test_multiarray.py
+2801a34,Allan Haldane,2017-06-26 00:51:53,BUG: PyArray_CountNonzero does not check for exceptions,9295,numpy/core/tests/test_numeric.py
+bab798d,Eric Wieser,2017-03-24 23:56:07,BUG: Fix pinv on matrix stacks,8826,numpy/linalg/linalg.py
+bab798d,Eric Wieser,2017-03-24 23:56:07,BUG: Fix pinv on matrix stacks,8826,numpy/linalg/tests/test_linalg.py
+7412b85,Allan Haldane,2015-06-19 18:58:59,"MAINT: improve struct assignment, allow multi fields views",2353,numpy/ma/core.py
+cb4d802,Chris Lamb,2017-09-05 20:24:16,Make system_info output reproducible (#9652),9652,numpy/distutils/misc_util.py
+18756ad,Kevin Sheppard,2017-08-22 10:43:06,REF: Remove direct access to flatiter types,3144
+633b11c,Kevin Sheppard,2017-08-17 13:02:35,BUG: Missing dirichlet input validation,2089,numpy/random/tests/test_random.py
+7a05f44,Ralf Gommers,2017-08-15 05:51:56,BUG: fix regression in 1.13.x in distutils.mingw32ccompiler.,8454,numpy/distutils/mingw32ccompiler.py
+7554558,David Schaefer,2017-08-13 22:36:38,BUG: MaskedArray._optinfo is discarded by__eq__/__ne__ (#9540),9540,numpy/ma/core.py
+7554558,David Schaefer,2017-08-13 22:36:38,BUG: MaskedArray._optinfo is discarded by__eq__/__ne__ (#9540),9540,numpy/ma/tests/test_core.py
+e1ccca9,Eric Wieser,2017-07-18 00:20:25,BUG: Keep mask when calling methods on 0d arrays.,9430,numpy/ma/core.py
+e1ccca9,Eric Wieser,2017-07-18 00:20:25,BUG: Keep mask when calling methods on 0d arrays.,9430,numpy/ma/tests/test_core.py
+351fe97,Eric Wieser,2017-08-06 12:17:32,MAINT: Remove unneeded asfarray,7088,numpy/linalg/linalg.py
+44a4b71,Eric Wieser,2017-08-01 18:14:06,BUG: dtypes are ignored and downcast in issubdtype,9480,numpy/core/numerictypes.py
+44a4b71,Eric Wieser,2017-08-01 18:14:06,BUG: dtypes are ignored and downcast in issubdtype,9480,numpy/core/tests/test_numerictypes.py
+6a119c9,Eric Wieser,2017-08-01 17:39:11,BUG: Be explicit about allowing all integer types in matrix exponentiation,9506,numpy/matrixlib/defmatrix.py
+6a119c9,Eric Wieser,2017-08-01 17:39:11,BUG: Be explicit about allowing all integer types in matrix exponentiation,9506,numpy/matrixlib/tests/test_defmatrix.py
+18a4a4b,Charles Harris,2017-07-26 20:02:30,BUG: Fix true_divide when dtype=np.float64 specified.,3484,numpy/core/code_generators/generate_umath.py
+18a4a4b,Charles Harris,2017-07-26 20:02:30,BUG: Fix true_divide when dtype=np.float64 specified.,3484,numpy/core/tests/test_ufunc.py
+8a511c6,Ralf Gommers,2017-07-27 19:25:59,BLD: remove -xhost flag from IntelFCompiler.  Closes gh-9042.,9042,numpy/distutils/fcompiler/intel.py
+460cf65,Eric Wieser,2017-07-20 21:16:51,Merge pull request #9412 from mattip/fix-9404,3879
+36f481b,Eric Wieser,2017-07-18 15:40:30,BUG: change fix for gh-9328 to make masked.copy() a noop,9328,numpy/ma/core.py
+36f481b,Eric Wieser,2017-07-18 15:40:30,BUG: change fix for gh-9328 to make masked.copy() a noop,9328,numpy/ma/tests/test_core.py
+f696935,Daniel Hrisca,2017-07-06 18:08:51,BUG: Fix error in fromstring function from numpy.core.records (#9369),9369,numpy/core/records.py
+13978dd,Eric Wieser,2017-07-03 08:49:26,MAINT: Use a for loop to traverse the linked list,9351
+7844860,Eric Wieser,2017-07-02 22:29:44,BUG: Prevent hangs traversing ufunc userloop linked lists,9351,numpy/core/tests/test_ufunc.py
+cd761d8,Eric Wieser,2017-07-01 13:05:15,BUG: recfunctions.join_by fails for colliding values with different dtypes,9338,numpy/lib/recfunctions.py
+cd761d8,Eric Wieser,2017-07-01 13:05:15,BUG: recfunctions.join_by fails for colliding values with different dtypes,9338,numpy/lib/tests/test_recfunctions.py
+4ff8d0a,Eric Wieser,2017-06-30 22:29:25,BUG: Prevent copies of np.ma.MaskedConstant from being created by .view.,9328,numpy/ma/core.py
+4ff8d0a,Eric Wieser,2017-06-30 22:29:25,BUG: Prevent copies of np.ma.MaskedConstant from being created by .view.,9328,numpy/ma/tests/test_core.py
+6a96a44,Eric Wieser,2017-06-27 13:02:59,TST: Verify that sorting subarrays is fixed,8069,numpy/ma/tests/test_core.py
+1b209d0,Julian Taylor,2017-06-27 10:47:33,BUG: fix wrong ndim used in empty where check,9304,numpy/core/tests/test_multiarray.py
+715daa9,Eric Wieser,2017-06-27 00:32:17,BUG: Fix gh-8069,8069,numpy/ma/core.py
+715daa9,Eric Wieser,2017-06-27 00:32:17,BUG: Fix gh-8069,8069,numpy/ma/tests/test_core.py
+7bd7283,Julian Taylor,2017-06-10 12:23:04,BUG: don't elide into readonly and updateifcopy temporaries,9232,numpy/core/tests/test_multiarray.py
+8042526,Bob Eldering,2017-06-13 16:05:12,TST: add test case described in ticket 9228 for numpy.f2py,9228,numpy/f2py/tests/test_common.py
+dc063ad,Bob Eldering,2017-06-12 15:37:07,BUG: fix missing keyword rename for common block to numpy.f2py,9228,numpy/f2py/crackfortran.py
+d47ca7b,Eric Wieser,2017-04-29 12:38:20,BUG: Check for warnings in ufunc.reduce,8954,numpy/core/tests/test_multiarray.py
+d47ca7b,Eric Wieser,2017-04-29 12:38:20,BUG: Check for warnings in ufunc.reduce,8954,numpy/core/tests/test_ufunc.py
+d47ca7b,Eric Wieser,2017-04-29 12:38:20,BUG: Check for warnings in ufunc.reduce,8954,numpy/core/tests/test_umath.py
+3c0b4db,Antoine Pitrou,2017-05-23 16:46:06,BUG: have as_strided() keep custom dtypes,9161,numpy/lib/stride_tricks.py
+3c0b4db,Antoine Pitrou,2017-05-23 16:46:06,BUG: have as_strided() keep custom dtypes,9161,numpy/lib/tests/test_stride_tricks.py
+e52efca,Konrad Kapp,2017-05-20 12:50:15,BUG: set default type for empty index array to `numpy.intp` (#9142),9142,numpy/lib/arraysetops.py
+e52efca,Konrad Kapp,2017-05-20 12:50:15,BUG: set default type for empty index array to `numpy.intp` (#9142),9142,numpy/lib/tests/test_arraysetops.py
+fb67d49,Julian Taylor,2017-05-12 17:28:47,BUG: do not elide complex abs(),9109,numpy/core/tests/test_multiarray.py
+59fbc7d,Eric Wieser,2017-05-09 17:40:05,BUG: Don't silence errors in bool(object_array),9078
+d7d1b2a,davidjn,2017-05-07 16:26:17,BUG: Move ctypes ImportError catching to appropriate place (#8898),8898,numpy/core/_internal.py
+d7d1b2a,davidjn,2017-05-07 16:26:17,BUG: Move ctypes ImportError catching to appropriate place (#8898),8898,numpy/core/tests/test_multiarray.py
+37d756c,Eric Wieser,2017-03-22 22:22:28,BUG: Remove mutable state from AxisConcatenator,8815,numpy/lib/index_tricks.py
+37d756c,Eric Wieser,2017-03-22 22:22:28,BUG: Remove mutable state from AxisConcatenator,8815,numpy/lib/tests/test_index_tricks.py
+3c4545f,Eric Wieser,2017-05-05 12:24:03,BUG: Fix non-determinism in order of fields created from pep3118 formats,9053,numpy/core/_internal.py
+3c4545f,Eric Wieser,2017-05-05 12:24:03,BUG: Fix non-determinism in order of fields created from pep3118 formats,9053,numpy/core/tests/test_multiarray.py
+fed2e1a,Eric Wieser,2017-05-05 11:40:23,"ENH: Pad with itemsize, not padding fields",9053,numpy/core/_internal.py
+fed2e1a,Eric Wieser,2017-05-05 11:40:23,"ENH: Pad with itemsize, not padding fields",9053,numpy/core/tests/test_multiarray.py
+67bfabf,Julian Taylor,2017-05-04 22:47:24,"BUG: distutils, add compatiblity python parallelization",7139,numpy/distutils/ccompiler.py
+89d7d1d,Eric Wieser,2017-04-26 17:34:41,DOC: Release note and docstring,8963,numpy/core/arrayprint.py
+105557a,Charles Harris,2017-04-28 14:33:29,BUG: Make ndarray inplace operators forward calls when needed.,9019,numpy/core/tests/test_multiarray.py
+a77709c,Eric Wieser,2017-04-27 23:02:43,BUG: Fix incorrect behavior of nanfunctions on object arrays,8974,numpy/lib/nanfunctions.py
+a77709c,Eric Wieser,2017-04-27 23:02:43,BUG: Fix incorrect behavior of nanfunctions on object arrays,8974,numpy/lib/tests/test_nanfunctions.py
+05f4228,Eric Wieser,2017-04-26 19:17:08,BUG: Return scalars from ufunclike objects,8993,numpy/lib/tests/test_ufunclike.py
+05f4228,Eric Wieser,2017-04-26 19:17:08,BUG: Return scalars from ufunclike objects,8993,numpy/lib/ufunclike.py
+628f7b6,Eric Wieser,2017-04-26 17:49:29,DEP: Deprecate calling the `out` argument `y`,8995,numpy/lib/tests/test_ufunclike.py
+628f7b6,Eric Wieser,2017-04-26 17:49:29,DEP: Deprecate calling the `out` argument `y`,8995,numpy/lib/ufunclike.py
+ae3d1fa,Eric Wieser,2017-04-25 20:24:57,DOC: Explain the behavior of diff on unsigned types,2522,numpy/lib/function_base.py
+1e65a2a,Eric Wieser,2017-04-20 12:06:45,BUG: Prevent infinite recursion when printing self-containing arrays,8960,numpy/core/arrayprint.py
+1e65a2a,Eric Wieser,2017-04-20 12:06:45,BUG: Prevent infinite recursion when printing self-containing arrays,8960,numpy/core/tests/test_arrayprint.py
+e3f8b93,Eric Wieser,2017-04-22 01:45:39,BUG: Prevent VOID_copyswapn ignoring strides,8210,numpy/core/tests/test_multiarray.py
+c926d0a,Eric Wieser,2017-04-07 00:37:00,BUG: Correctly distinguish between 0d arrays and scalars,8684,numpy/ma/core.py
+c926d0a,Eric Wieser,2017-04-07 00:37:00,BUG: Correctly distinguish between 0d arrays and scalars,8684,numpy/ma/tests/test_core.py
+c926d0a,Eric Wieser,2017-04-07 00:37:00,BUG: Correctly distinguish between 0d arrays and scalars,8684,numpy/ma/tests/test_subclassing.py
+633568e,Eric Wieser,2017-04-06 22:56:30,ENH: Don't allow lists to become strings iff they are empty,8902,numpy/core/tests/test_multiarray.py
+a770387,Eric Wieser,2017-04-06 22:39:49,BUG: Don't call float when constructing longdouble arrays,8902,numpy/core/tests/test_multiarray.py
+54487a8,Eric Wieser,2017-04-06 22:21:19,BUG: Don't call str when constructing unicode arrays,5049,numpy/core/tests/test_multiarray.py
+fa56437,Eric Wieser,2017-02-19 14:07:03,BUG: Fix double-wrapping of object scalars,8642,numpy/lib/shape_base.py
+fa56437,Eric Wieser,2017-02-19 14:07:03,BUG: Fix double-wrapping of object scalars,8642,numpy/lib/tests/test_shape_base.py
+a6c3d0e,Simon Gibbons,2017-04-01 21:59:53,BUG: Ensure Errors are correctly checked when PyFloat_AsDouble is called.,8865,numpy/random/tests/test_random.py
+63c5082,Eric Wieser,2017-03-25 16:00:39,STY: Fix bad style in umath_linalg (#8825),8756
+a7203f9,Eric Wieser,2017-03-21 13:09:34,BUG: Prevent silent failure of ternary power,8805,numpy/core/tests/test_scalarmath.py
+3e297ba,Charles Harris,2017-03-13 12:33:34,Merge pull request #8781 from charris/revert-8570,8570
+7c00cd7,Charles Harris,2017-03-13 11:47:58,Revert gh-8570.,8570,numpy/random/tests/test_random.py
+18b7cd9,Eric Wieser,2017-03-09 02:57:18,BUG: Prevent crash in poly1d.__eq__,8760,numpy/lib/polynomial.py
+18b7cd9,Eric Wieser,2017-03-09 02:57:18,BUG: Prevent crash in poly1d.__eq__,8760,numpy/lib/tests/test_polynomial.py
+2d229ef,Eric Wieser,2017-02-10 15:00:56,BUG: Make np.ma.where delegate to np.where,8600,numpy/ma/core.py
+2d229ef,Eric Wieser,2017-02-10 15:00:56,BUG: Make np.ma.where delegate to np.where,8600,numpy/ma/tests/test_core.py
+11c5a9f,Eric Wieser,2017-02-23 14:55:01,BUG: Make MaskedArray.argsort and MaskedArray.sort consistent,8664,numpy/lib/tests/test_arraysetops.py
+11c5a9f,Eric Wieser,2017-02-23 14:55:01,BUG: Make MaskedArray.argsort and MaskedArray.sort consistent,8664,numpy/ma/core.py
+11c5a9f,Eric Wieser,2017-02-23 14:55:01,BUG: Make MaskedArray.argsort and MaskedArray.sort consistent,8664,numpy/ma/tests/test_core.py
+02f3388,Eric Wieser,2017-02-22 11:07:55,BUG: Preserve identity of dtypes in make_mask_descr,8666,numpy/ma/core.py
+02f3388,Eric Wieser,2017-02-22 11:07:55,BUG: Preserve identity of dtypes in make_mask_descr,8666,numpy/ma/tests/test_core.py
+35d752c,Zè Vinícius,2017-03-01 10:32:34,BUG: Fix creating a np.matrix from string syntax involving booleans (#8497),8497,numpy/matrixlib/defmatrix.py
+35d752c,Zè Vinícius,2017-03-01 10:32:34,BUG: Fix creating a np.matrix from string syntax involving booleans (#8497),8497,numpy/matrixlib/tests/test_defmatrix.py
+d60ff8e,Charles Harris,2017-02-26 16:23:03,BUG: Fix deepcopy regression for empty arrays.,8536,numpy/core/tests/test_regression.py
+05aa44d,Julian Taylor,2017-02-27 14:10:13,BUG: fix ma.median for empty ndarrays,8703,numpy/ma/extras.py
+05aa44d,Julian Taylor,2017-02-27 14:10:13,BUG: fix ma.median for empty ndarrays,8703,numpy/ma/tests/test_extras.py
+d7d3e21,Charles Harris,2017-02-24 13:58:48,MAINT: Fix use of Python 2.6 deprecated escape sequences.,8687,numpy/core/code_generators/genapi.py
+d7d3e21,Charles Harris,2017-02-24 13:58:48,MAINT: Fix use of Python 2.6 deprecated escape sequences.,8687,numpy/lib/function_base.py
+60961dd,Matthew Brett,2017-02-21 21:11:50,BUG: allow for precision > 20 in longdouble repr,7940,numpy/core/tests/test_longdouble.py
+0a47600,Shota Kawabuchi,2016-09-19 03:10:22,BUG: Look up methods on MaskedArray in _frommethod,8019,numpy/ma/core.py
+0a47600,Shota Kawabuchi,2016-09-19 03:10:22,BUG: Look up methods on MaskedArray in _frommethod,8019,numpy/ma/tests/test_core.py
+10bf55e,Eric Wieser,2017-02-10 15:03:24,"BUG: Fix #8510, making MaskedArray.__setitem__ work",8510,numpy/ma/core.py
+10bf55e,Eric Wieser,2017-02-10 15:03:24,"BUG: Fix #8510, making MaskedArray.__setitem__ work",8510,numpy/ma/tests/test_core.py
+5bd7bf9,Matthew Brett,2017-02-09 18:53:03,BUG: match hard-coded finfo to calculated MachAr,8585,numpy/core/getlimits.py
+5bd7bf9,Matthew Brett,2017-02-09 18:53:03,BUG: match hard-coded finfo to calculated MachAr,8585,numpy/core/tests/test_getlimits.py
+1c8ecc7,Roland Kaufmann,2017-01-22 20:24:07,Fix building extensions with MinGW in WinPython 3.4 (#8454),8454,numpy/distutils/mingw32ccompiler.py
+b1b67d6,Ben Rowland,2016-12-31 16:52:47,BUG: Fix apply_along_axis() for when func1d() returns a non-ndarray (#8426),8426,numpy/lib/shape_base.py
+b1b67d6,Ben Rowland,2016-12-31 16:52:47,BUG: Fix apply_along_axis() for when func1d() returns a non-ndarray (#8426),8426,numpy/lib/tests/test_shape_base.py
+ff4758f,Julian Taylor,2016-12-06 00:37:53,BUG: handle unmasked NaN in ma.median like normal median,8340,numpy/lib/function_base.py
+ff4758f,Julian Taylor,2016-12-06 00:37:53,BUG: handle unmasked NaN in ma.median like normal median,8340,numpy/lib/tests/test_nanfunctions.py
+ff4758f,Julian Taylor,2016-12-06 00:37:53,BUG: handle unmasked NaN in ma.median like normal median,8340,numpy/lib/utils.py
+ff4758f,Julian Taylor,2016-12-06 00:37:53,BUG: handle unmasked NaN in ma.median like normal median,8340,numpy/ma/extras.py
+ff4758f,Julian Taylor,2016-12-06 00:37:53,BUG: handle unmasked NaN in ma.median like normal median,8340,numpy/ma/tests/test_extras.py
+ba6fdac,Julian Taylor,2016-12-11 20:35:50,BUG: fix nanpercentile not returning scalar with axis argument,8220,numpy/lib/nanfunctions.py
+ba6fdac,Julian Taylor,2016-12-11 20:35:50,BUG: fix nanpercentile not returning scalar with axis argument,8220,numpy/lib/tests/test_nanfunctions.py
+df00a6f,gfyoung,2016-12-06 14:48:03,BUG: Apply more robust string converts in loadtxt,8033,numpy/lib/npyio.py
+df00a6f,gfyoung,2016-12-06 14:48:03,BUG: Apply more robust string converts in loadtxt,8033,numpy/lib/tests/test_io.py
+d2542d5,Ralf Gommers,2016-11-26 20:28:41,BLD: blacklist powl (longdouble power function) on OS X.  Closes gh-8307.,8307
+e80b948,ahaldane,2016-11-25 10:45:13,Merge pull request #8235 from J-Sand/invalid-structured-dtypes-fix,2865
+9fe73dd,James Sanders,2016-11-04 19:46:01,BUG: add checks for some invalid structured dtypes.,2865,numpy/core/tests/test_regression.py
+8df25b2,Ralf Gommers,2016-11-24 22:03:15,"BUG: do not link to Accelerate if OpenBLAS, MKL or BLIS are found.",8293,numpy/distutils/system_info.py
+105592f,Charles Harris,2016-11-04 10:37:35,DOC: Fixups for quickstart.rst.,7881
+5059202,wrwrwr,2016-10-28 01:50:31,"MAINT, DOC: Update some scipy.stats references.",5813
+2a4dd99,Shota Kawabuchi,2016-10-22 12:26:46,BUG: Fix subarray format changed in #8160,8160,numpy/core/arrayprint.py
+2a4dd99,Shota Kawabuchi,2016-10-22 12:26:46,BUG: Fix subarray format changed in #8160,8160,numpy/core/tests/test_arrayprint.py
+7c5163a,Charles Harris,2016-10-18 10:19:30,Merge pull request #8160 from skwbc/issue#5692,5692
+3d75c3f,Shota Kawabuchi,2016-10-15 21:56:24,BUG: fix _array2string for strustured array (issue #5692),5692,numpy/core/arrayprint.py
+3d75c3f,Shota Kawabuchi,2016-10-15 21:56:24,BUG: fix _array2string for strustured array (issue #5692),5692,numpy/core/tests/test_arrayprint.py
+a233689,Antti Kaihola,2016-10-12 23:17:23,"BUG: Make assert_allclose(..., equal_nan=False) work.",8142,numpy/testing/utils.py
+d8d7c25,Allan Haldane,2016-10-11 14:47:11,BUG: np.ma.mean and var should return scalar if no mask,5769,numpy/ma/core.py
+d8d7c25,Allan Haldane,2016-10-11 14:47:11,BUG: np.ma.mean and var should return scalar if no mask,5769,numpy/ma/tests/test_core.py
+5d0ce36,Jonathan Helmus,2016-10-12 13:07:42,BUG: import full module path in npy_load_module,8147,numpy/compat/py3k.py
+5b38e86,Julian Taylor,2016-10-11 19:05:57,MAINT: make sure __builtin_cpu_supports is not optimized away,8130,numpy/core/setup_common.py
+b5471e0,Julian Taylor,2016-10-11 19:03:02,MAINT: check that linker can handle AVX,8128,numpy/core/setup.py
+b5471e0,Julian Taylor,2016-10-11 19:03:02,MAINT: check that linker can handle AVX,8128,numpy/core/setup_common.py
+f236760,Eric Moore,2016-04-30 22:45:50,BUG: integer 0 to a negative power should error.,7510,numpy/core/tests/test_regression.py
+f236760,Eric Moore,2016-04-30 22:45:50,BUG: integer 0 to a negative power should error.,7510,numpy/core/tests/test_umath.py
+8888a76,Raghav RV,2016-10-06 23:30:50,BUG: Fix broken pickle in MaskedArray when dtype is object (#8122),8122,numpy/ma/core.py
+8888a76,Raghav RV,2016-10-06 23:30:50,BUG: Fix broken pickle in MaskedArray when dtype is object (#8122),8122,numpy/ma/tests/test_core.py
+36f8844,naveenarun,2016-09-21 23:31:51,BUG: financial.pmt modifies input #8055,8055,numpy/lib/financial.py
+36f8844,naveenarun,2016-09-21 23:31:51,BUG: financial.pmt modifies input #8055,8055,numpy/testing/utils.py
+7efef9d,Allan Haldane,2016-09-21 21:22:55,BUG: non-integers can end up in dtype offsets,8059,numpy/core/tests/test_dtype.py
+8dff1ca,Charles Harris,2016-09-19 12:23:17,Merge pull request #8061 from KhaledTo/issue#8055,8055
+7c8043e,KhaledTo,2016-09-18 22:00:24,BUG : financial.pmt modifies input (issue #8055),8055,numpy/lib/financial.py
+66f313f,Charles Harris,2016-09-04 12:18:05,BUG: Fix numpy.ma.median for various things.,8015,numpy/ma/extras.py
+0ade4c4,Charles Harris,2016-07-20 11:09:36,BUG: Make sure numpy globals keep identity after reload.,7844,numpy/__init__.py
+0ade4c4,Charles Harris,2016-07-20 11:09:36,BUG: Make sure numpy globals keep identity after reload.,7844,numpy/_globals.py
+0ade4c4,Charles Harris,2016-07-20 11:09:36,BUG: Make sure numpy globals keep identity after reload.,7844,numpy/tests/test_reloading.py
+3984786,Charles Harris,2016-08-14 14:58:30,BUG: Guard against buggy comparisons in generic quicksort.,7934,numpy/core/tests/test_multiarray.py
+5130ef1,ahaldane,2016-08-08 12:01:07,Merge pull request #7911 from skwbc/fix_issue#7835,7835
+af671c4,Shota Kawabuchi,2016-08-07 04:59:49,BUG: fix for issue#7835 (ma.median of 1d),7835,numpy/ma/extras.py
+af671c4,Shota Kawabuchi,2016-08-07 04:59:49,BUG: fix for issue#7835 (ma.median of 1d),7835,numpy/ma/tests/test_extras.py
+b9b42ee,Charles Harris,2016-07-20 11:09:36,BUG: Raise RuntimeError when reloading numpy is attempted.,7844,numpy/__init__.py
+b9b42ee,Charles Harris,2016-07-20 11:09:36,BUG: Raise RuntimeError when reloading numpy is attempted.,7844,numpy/tests/test_reloading.py
+6685ee8,Ralf Gommers,2016-07-11 07:30:18,Merge pull request #7818 from emmenlau/master,7809
+3e39614,Charles Harris,2016-07-10 14:50:59,MAINT: Allocate fewer bytes for empty arrays.,7813
+e65375e,Mario Emmenlauer,2016-07-10 20:05:41,numpy/distutils/misc_util.py fix for #7809: check that _tmpdirs is not None,7809,numpy/distutils/misc_util.py
+f14ad75,Yu Feng,2016-02-02 16:22:42,BUG: Invalid read of size 4 in PyArray_FromFile,7756
+24ee6b3,badhrink,2016-06-10 16:11:47,DOC: Corrections in Datetime Units-arrays.datetime.rst,6711
+5657a6c,Simon Gibbons,2016-06-09 13:11:53,BUG: Fix segfaults in np.random.shuffle,7710,numpy/random/tests/test_regression.py
+080c433,gfyoung,2016-06-07 22:10:34,BUG: Remove memory leak in np.place,7714
+c125956,Charles Harris,2016-06-03 11:07:56,Merge pull request #7688 from rgommers/genfromtxt-examples,7662
+0bf9478,Sebastian Berg,2016-05-23 19:44:54,BUG: Fix unicode with byte swap transfer and copyswap,3939
+e928bd9,Ralf Gommers,2016-05-27 21:20:38,DOC: fix broken genfromtxt examples in user guide.  Closes gh-7662.,7662
+7a05c91,Allan Haldane,2016-05-22 18:05:22,BUG: Temporary fix for str(mvoid) for object field types,7493,numpy/ma/core.py
+7a05c91,Allan Haldane,2016-05-22 18:05:22,BUG: Temporary fix for str(mvoid) for object field types,7493,numpy/ma/tests/test_core.py
+d5e128c,Charles Harris,2016-05-21 20:13:32,BLD: Remove Intel compiler flag -xSSE4.2,7287,numpy/distutils/fcompiler/intel.py
+d5e128c,Charles Harris,2016-05-21 20:13:32,BLD: Remove Intel compiler flag -xSSE4.2,7287,numpy/distutils/intelccompiler.py
+bb46a49,Amit Aronovitch,2016-05-01 00:17:23,BUG: ma.median of 1d array should return a scalar,5969,numpy/ma/extras.py
+bb46a49,Amit Aronovitch,2016-05-01 00:17:23,BUG: ma.median of 1d array should return a scalar,5969,numpy/ma/tests/test_extras.py
+5cde31b,Eric Moore,2016-05-19 15:40:30,BUG: one to any power is still 1.  Broken edgecase for int arrays,7648,numpy/core/tests/test_umath.py
+730af6f,Charles Harris,2016-05-14 17:44:48,Merge pull request #7634 from rgommers/cc_envvar_build,7606
+1e2bc0e,Ralf Gommers,2016-05-14 19:12:22,BLD: correct C compiler customization in system_info.py  Closes gh-7606.,7606,numpy/distutils/system_info.py
+090bbdd,Eric Wieser,2016-04-28 19:07:33,BUG: Ensure mask is preserved on scalars,7585,numpy/ma/core.py
+6e5aa5e,Eric Wieser,2016-04-28 19:05:27,TST: Verify np.ma.take works on scalars,7585,numpy/ma/tests/test_core.py
+c2ec818,Simon Gibbons,2016-04-08 14:58:44,BUG: Floating exception with invalid axis in np.lexsort,7528,numpy/core/tests/test_multiarray.py
+321d7ef,Simon Gibbons,2016-03-29 12:58:44,BUG: Memory Leak in _GenericBinaryOutFunction. Fixes #6672,6672
+163a6f9,Simon Gibbons,2016-03-29 10:43:26,BUG: Fix segfault in PyArray_OrderConverter,7475,numpy/core/tests/test_multiarray.py
+75c5af3,seberg,2016-03-28 21:03:18,Merge pull request #7468 from jaimefrio/inplace_reduction_memmove,615
+2df4037,Jaime Fernandez,2016-03-27 11:16:37,"BUG: more on inplace reductions, fixes #615",615
+4e86e89,Sebastian Berg,2016-03-26 16:08:34,BUG: fix array too big error for wide dtypes.,7451,numpy/core/tests/test_multiarray.py
+3d2c1ba,Eric Moore,2016-02-11 13:54:58,ENH: implement __complex__,2491,numpy/core/tests/test_multiarray.py
+5c24db2,seberg,2016-03-22 10:48:23,Merge pull request #7445 from jaimefrio/bincount_leak,6805
+94a47c5,Jaime Fernandez,2015-12-10 01:30:58,"BUG: reference count leak in bincount, fixes #6805",6805
+25dd5e5,Charles Harris,2016-03-02 15:04:45,ENH: Add identity for bitwise_and.,7060,numpy/core/code_generators/generate_umath.py
+682a691,Charles Harris,2016-02-29 10:52:17,Merge pull request #7332 from simongibbons/irr_empty_check,6744
+58684a7,gfyoung,2016-02-18 10:52:44,DEP: Warn about assigning 'data' attribute of ndarray,5958,numpy/core/tests/test_deprecations.py
+141d3a9,Meet Udeshi,2016-02-23 02:55:39,[PATCH] Make _pointer_type_cache functional,2303,numpy/ctypeslib.py
+141d3a9,Meet Udeshi,2016-02-23 02:55:39,[PATCH] Make _pointer_type_cache functional,2303,numpy/tests/test_ctypeslib.py
+735174b,Charles Harris,2016-02-15 17:58:25,ENH: Make numpy ufuncs compatible with Python divmod.,7224
+bf6017a,Allan Haldane,2016-02-16 19:11:30,BUG: Segfault for classes with deceptive __len__,7264,numpy/core/tests/test_multiarray.py
+e36d7ca,Charles Harris,2016-01-31 19:01:17,Merge pull request #7145 from bastula/piecewise,5737
+0e65b71,Aditya Panchal,2016-01-29 18:44:59,BUG: Fixed regressions in np.piecewise in ref to #5737 and #5729. Added unit tests for these conditions.,5737,numpy/lib/function_base.py
+0e65b71,Aditya Panchal,2016-01-29 18:44:59,BUG: Fixed regressions in np.piecewise in ref to #5737 and #5729. Added unit tests for these conditions.,5737,numpy/lib/tests/test_function_base.py
+6ae1ff2,Ralf Gommers,2016-01-27 21:59:57,MAINT: warn in egg_info command if using setuptools.sdist.,7127,numpy/distutils/command/egg_info.py
+6770f98,Ralf Gommers,2016-01-27 21:34:28,BLD/BUG: revert usage of setuptools when building an sdist.,7127,setup.py
+bce84bb,gfyoung,2016-01-25 22:05:04,BUG: Fixed mingw.lib error,647,numpy/distutils/fcompiler/gnu.py
+61f8722,gfyoung,2016-01-18 20:29:34,BUG: One element array inputs get one element arrays returned in np.random,4263,numpy/random/tests/test_random.py
+ae85a33,Charles Harris,2016-01-18 15:30:37,DEP: Emit FutureWarning for NAT comparisons.,7019
+4ac1a77,Charles Harris,2016-01-16 09:47:30,Merge pull request #7028 from sam09/fix-7021,7021
+cc2a695,Charles Harris,2016-01-16 09:38:57,Merge pull request #7029 from rgommers/fix-interrupted-rebuild,5467
+b27e9b1,Ralf Gommers,2016-01-16 12:53:33,BLD: fix rebuilding after a failed build.  Closes gh-5467.,5467,numpy/distutils/__init__.py
+4aa9d57,Ralf Gommers,2015-12-29 20:47:51,DOC: add Cython to list of dependencies in INSTALL.txt.  Closes gh-6682.,6682
+4b0ed79,Ralf Gommers,2015-12-29 11:29:38,BLD: require setuptools for Numpy builds.  Closes gh-6551.,6551,setup.py
+34c2369,Charles Harris,2016-01-14 20:18:03,BUG: Make divmod behave better under roundoff error.,6127
+0104646,gfyoung,2015-12-30 17:19:06,BUG: Enforce order param for MaskedArray construction,6646,numpy/ma/core.py
+0104646,gfyoung,2015-12-30 17:19:06,BUG: Enforce order param for MaskedArray construction,6646,numpy/ma/tests/test_core.py
+bdd4558,ahaldane,2016-01-12 20:32:43,Merge pull request #6728 from gerritholl/structured_multidim_masked_array_fillvalue,6723
+6e69994,David Freese,2015-06-18 11:53:11,BUG: Fix nanpercentile crash on all-nan slices,5760,numpy/lib/nanfunctions.py
+6e69994,David Freese,2015-06-18 11:53:11,BUG: Fix nanpercentile crash on all-nan slices,5760,numpy/lib/tests/test_nanfunctions.py
+3af3753,Eric Moore,2016-01-08 17:31:07,BUG: npy_acosh fallback too simple.,6712
+52ee0f2,Charles Harris,2016-01-08 13:09:57,BUG: Add more complex trig functions to glibc < 2.16 blacklist.,6063
+fd2b0d6,Charles Harris,2015-12-31 16:16:11,Merge pull request #6914 from rgommers/fix-link,6906
+a547d0e,Ralf Gommers,2015-12-31 10:06:52,DOC: fix broken link in user guide.  Closes gh-6906.,6906
+4f7a605,Charles Harris,2015-12-23 13:53:49,TST: Only use 32 bit Python 2.7 to test numpy on appveyor.,6882
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/add_newdocs.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/arrayprint.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/fromnumeric.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/numeric.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/numerictypes.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/records.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/core/shape_base.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/distutils/npy_pkg_config.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/distutils/system_info.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/doc/glossary.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/doc/misc.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/doc/subclassing.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/f2py/auxfuncs.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/arrayterator.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/financial.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/function_base.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/index_tricks.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/polynomial.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/tests/test_format.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/twodim_base.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/lib/type_check.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/linalg/lapack_lite/clapack_scrub.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/linalg/linalg.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/ma/core.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/ma/extras.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/ma/tests/test_old_ma.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/matrixlib/defmatrix.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/testing/decorators.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/testing/noseclasses.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,numpy/testing/utils.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,tools/swig/test/testFortran.py
+8bc592f,gfyoung,2015-12-19 16:49:35,DOC: Use print only as function when print_function is imported from __future__,6863,tools/win32build/misc/x86analysis.py
+090e85e,Gerrit Holl,2015-11-25 20:35:22,BUG/TST: Fix for #6723 including test: force fill_value.ndim==0,6723,numpy/ma/core.py
+090e85e,Gerrit Holl,2015-11-25 20:35:22,BUG/TST: Fix for #6723 including test: force fill_value.ndim==0,6723,numpy/ma/tests/test_core.py
+3cc797e,Charles Harris,2015-12-04 12:49:36,Merge pull request #6763 from gerritholl/structured_multidim_masked_array_mvoid_alt,6724
+53facf3,Gerrit Holl,2015-12-02 11:55:36,"BUG/TST: Fix for #6724, make numpy.ma.mvoid consistent with numpy.void",6724,numpy/ma/core.py
+53facf3,Gerrit Holl,2015-12-02 11:55:36,"BUG/TST: Fix for #6724, make numpy.ma.mvoid consistent with numpy.void",6724,numpy/ma/tests/test_core.py
+45ff556,Charles Harris,2015-12-02 07:42:45,Merge pull request #6754 from saimn/ma-changelog,6734
+f752d84,Simon Conseil,2015-12-02 10:19:08,DOC: Add changelog for #6734 and #6748.,6734
+433e669,Charles Harris,2015-12-01 07:34:35,Merge pull request #6733 from gerritholl/structured_multidim_masked_array_strrep,6729
+d07e20e,Gerrit Holl,2015-11-26 12:01:15,BUG/TST: Fix for #6729,6729,numpy/ma/core.py
+d07e20e,Gerrit Holl,2015-11-26 12:01:15,BUG/TST: Fix for #6729,6729,numpy/ma/tests/test_core.py
+593345a,Simon Conseil,2015-11-27 23:12:32,ENH: Avoid memory peak and useless computations when printing a MaskedArray.,3544,numpy/ma/core.py
+531f2ad,Simon Conseil,2015-11-26 15:04:37,ENH: Avoid memory peak when creating a MaskedArray with mask=True/False (#6732).,6732,numpy/ma/core.py
+c06726d,Allan Haldane,2015-11-06 12:32:39,ENH: make recarray.getitem return a recarray,6641,numpy/core/records.py
+c06726d,Allan Haldane,2015-11-06 12:32:39,ENH: make recarray.getitem return a recarray,6641,numpy/core/tests/test_records.py
+6a09c85,Charles Harris,2015-11-02 09:44:55,BUG: Add choice and dirichlet to numpy.random.__all__.,6602,numpy/random/info.py
+c7456fe,Ralf Gommers,2015-10-29 21:38:31,Merge pull request #6577 from wackywendell/buildfix,6569
+02b42d4,Wendell Smith,2015-10-28 18:30:27,"BUG: Fix for #6569, allowing build_ext --inplace",6569,numpy/testing/nosetester.py
+83d5f9a,Charles Harris,2015-10-26 14:59:57,BUG: Revert some import * fixes in f2py.,6563,numpy/f2py/capi_maps.py
+83d5f9a,Charles Harris,2015-10-26 14:59:57,BUG: Revert some import * fixes in f2py.,6563,numpy/f2py/crackfortran.py
+83d5f9a,Charles Harris,2015-10-26 14:59:57,BUG: Revert some import * fixes in f2py.,6563,numpy/f2py/f90mod_rules.py
+3a816a4,Allan Haldane,2015-10-17 14:00:36,BUG: recarrays viewed as subarrays don't convert to np.record type,5943,numpy/core/records.py
+3a816a4,Allan Haldane,2015-10-17 14:00:36,BUG: recarrays viewed as subarrays don't convert to np.record type,5943,numpy/core/tests/test_records.py
+81bdad0,Alexander Heger,2015-09-12 12:30:52,BUG: allow extension of common blocks in numpy.f2py,5876,numpy/f2py/crackfortran.py
+f8edf9e,Alexander Heger,2015-09-12 13:26:01,BUG: Allow nested use of parameters for array dimensions in f2py.,5877,numpy/f2py/crackfortran.py
+7b438fa,Ralf Gommers,2015-10-14 23:33:03,TST: raise errors for dev versions and warnings for releases on test runs.,6461,numpy/testing/nosetester.py
+dc17f21,Julian Taylor,2015-10-09 21:51:55,MAINT: remove Wreturn-type warnings from config checks,6427,numpy/distutils/command/autodist.py
+7744de5,Jonathan Helmus,2015-10-02 10:13:38,BUG: numpy.ma.round works on zero dimensional arrays,2244,numpy/ma/core.py
+7744de5,Jonathan Helmus,2015-10-02 10:13:38,BUG: numpy.ma.round works on zero dimensional arrays,2244,numpy/ma/tests/test_core.py
+efd18a5,Michael Currie,2015-04-17 11:55:11,BUG: Expanded warning conditions for array_split,5771,numpy/lib/shape_base.py
+32a6b45,Charles Harris,2015-09-23 14:52:40,BUG: Add cblasfuncs.c and python_xerbla.c to MANIFEST.in,6343,numpy/core/setup.py
+6cbd724,Anne Archibald,2015-08-12 17:46:14,BUG: fix #4381: precision loss on string -> longdouble conversion,4381,numpy/core/setup_common.py
+6cbd724,Anne Archibald,2015-08-12 17:46:14,BUG: fix #4381: precision loss on string -> longdouble conversion,4381,numpy/core/tests/test_longdouble.py
+6cbd724,Anne Archibald,2015-08-12 17:46:14,BUG: fix #4381: precision loss on string -> longdouble conversion,4381,numpy/core/tests/test_multiarray.py
+6cbd724,Anne Archibald,2015-08-12 17:46:14,BUG: fix #4381: precision loss on string -> longdouble conversion,4381,numpy/lib/_iotools.py
+6cbd724,Anne Archibald,2015-08-12 17:46:14,BUG: fix #4381: precision loss on string -> longdouble conversion,4381,numpy/lib/npyio.py
+447b619,Sebastian Berg,2015-08-25 19:32:31,BUG: Checking advanced indices could fail for some arrays,6221,numpy/core/tests/test_indexing.py
+0b39bab,Ralf Gommers,2015-08-05 23:36:41,BUG: fix typo which fused two compile flags on Windows for GFortran.,6095,numpy/distutils/fcompiler/gnu.py
+1a576e0,Ralf Gommers,2015-08-05 23:12:43,BUG: fix 32-bit arch flag for Intel Fortran compiler.,6095,numpy/distutils/fcompiler/intel.py
+e4d4b45,Jaime,2015-08-06 22:16:20,Merge pull request #6174 from anntzer/fft-normalization-docs,2128
+d25e681,Antony Lee,2015-08-06 18:24:47,Fix #2128 once again.,2128,numpy/fft/info.py
+9232200,Charles Harris,2015-07-26 10:50:00,Merge pull request #6118 from rgommers/brokenlink,6107
+de81da9,Ralf Gommers,2015-07-26 14:58:52,MAINT: fix broken and outdated link in HOWTO_DOCUMENT.  Closes gh-6107.,6107
+2be00c3,mlai,2015-07-11 12:05:14,BUG: made view of new array to fix ix_ bug,6062,numpy/lib/index_tricks.py
+2be00c3,mlai,2015-07-11 12:05:14,BUG: made view of new array to fix ix_ bug,6062,numpy/lib/tests/test_index_tricks.py
+84c0555,Antoine Pitrou,2015-07-01 18:36:53,BUG: fix argmin() with NaTs,6030,numpy/core/tests/test_multiarray.py
+a320fd7,empeeu,2014-03-08 09:32:03,BUG: Added proper handling of median and percentile when nan's are present in array to close issue #586. Also added unit tests.,586,numpy/lib/function_base.py
+a320fd7,empeeu,2014-03-08 09:32:03,BUG: Added proper handling of median and percentile when nan's are present in array to close issue #586. Also added unit tests.,586,numpy/lib/tests/test_function_base.py
+a93b862,Allan Haldane,2015-06-05 12:10:25,BUG: automatically convert recarray dtype to np.record,3581,numpy/core/records.py
+a93b862,Allan Haldane,2015-06-05 12:10:25,BUG: automatically convert recarray dtype to np.record,3581,numpy/core/tests/test_records.py
+a93b862,Allan Haldane,2015-06-05 12:10:25,BUG: automatically convert recarray dtype to np.record,3581,numpy/doc/structured_arrays.py
+a93b862,Allan Haldane,2015-06-05 12:10:25,BUG: automatically convert recarray dtype to np.record,3581,numpy/ma/core.py
+a93b862,Allan Haldane,2015-06-05 12:10:25,BUG: automatically convert recarray dtype to np.record,3581,numpy/ma/tests/test_core.py
+8c86a0a,Homu,2015-06-16 16:56:57,"Auto merge of #5967 - wimglenn:bugfix/empty_string_array, r=seberg",5967
+190b8f0,Charles Harris,2015-06-14 11:12:51,TST: Test einsum for small boolean matrices.,5946,numpy/core/tests/test_einsum.py
+8f172dd,Charles Harris,2015-06-12 13:33:40,BUG: Make type_tuple_type_resolver more robust.,3484
+df959ed,Allan Haldane,2015-06-06 11:22:38,BUG: make void-scalar getfield/setfield use ndarray methods,3126,numpy/core/tests/test_multiarray.py
+df959ed,Allan Haldane,2015-06-06 11:22:38,BUG: make void-scalar getfield/setfield use ndarray methods,3126,numpy/core/tests/test_records.py
+5bfc31c,Sebastian Berg,2015-06-05 19:53:07,BUG: Einsum specialization did not check contiguity of output array,5907
+e2cd6fa,Allan Haldane,2015-03-04 15:23:15,ENH: structured datatype safety checks,2346,numpy/core/_internal.py
+e2cd6fa,Allan Haldane,2015-03-04 15:23:15,ENH: structured datatype safety checks,2346,numpy/core/tests/test_multiarray.py
+e2cd6fa,Allan Haldane,2015-03-04 15:23:15,ENH: structured datatype safety checks,2346,numpy/core/tests/test_records.py
+e2cd6fa,Allan Haldane,2015-03-04 15:23:15,ENH: structured datatype safety checks,2346,numpy/core/tests/test_regression.py
+e2cd6fa,Allan Haldane,2015-03-04 15:23:15,ENH: structured datatype safety checks,2346,numpy/lib/tests/test_recfunctions.py
+12320f4,Ralf Gommers,2015-05-23 22:22:05,DOC: update INSTALL.txt with info on binary installers and 32-bit Windows.,5832
+8925950,Jaime Fernandez,2015-05-06 00:09:03,BUG: Fix interp issues with small arrays,5705
+45bbce7,Jaime Fernandez,2015-04-27 05:59:34,MANT: Turn deprecated dtype string warnings into errors,5790,numpy/core/tests/test_datetime.py
+45bbce7,Jaime Fernandez,2015-04-27 05:59:34,MANT: Turn deprecated dtype string warnings into errors,5790,numpy/core/tests/test_dtype.py
+93bcedf,Charles Harris,2015-05-04 19:13:25,Merge pull request #5836 from rgommers/bento-sgemv-fix,5831
+7a02544,Ralf Gommers,2015-05-04 21:46:57,BLD: use fix for Accelerate SGEMV issue in Bento build.  See gh-5831.,5831
+6049c66,Jaime Fernandez,2015-05-03 05:23:33,BUG: Fix segfault in frompyfunc with nout=0,2014,numpy/core/tests/test_regression.py
+d7ffaea,Gerrit Holl,2015-01-28 19:25:30,TST: Add test for fix to issue #2972,2972,numpy/ma/tests/test_core.py
+a7d663f,Gerrit Holl,2015-01-28 19:25:07,BUG: Fix mask assignment in masked_where to use .mask property.,2972,numpy/ma/core.py
+fee5ec4,Matthew Brett,2015-04-29 13:00:15,"BUG: fix f2py shebang line for bdist wheel, egg",5812,numpy/f2py/setup.py
+2a8efb1,Jaime Fernandez,2015-04-27 06:12:56,BUG: make empty inputs to ix_ create an empty int typed output,5804,numpy/lib/index_tricks.py
+fbd3817,behzad nouri,2015-04-25 10:18:18,BUG: Fixes random.noncentral_chisquare when 0 < df <= 1,5766,numpy/random/tests/test_random.py
+efcf028,Julian Taylor,2015-04-19 14:45:42,Merge pull request #5774 from rgommers/gfortran-version,5768
+73471de,Ralf Gommers,2015-04-19 14:28:24,BLD: distutils: more robust gfortran version checking.  Closes gh-5768.,5768,numpy/distutils/fcompiler/gnu.py
+73471de,Ralf Gommers,2015-04-19 14:28:24,BLD: distutils: more robust gfortran version checking.  Closes gh-5768.,5768,numpy/distutils/tests/test_fcompiler_gnu.py
+c3cd4bf,Jaime,2015-04-04 00:24:17,Merge pull request #5742 from charris/add-test-to-gh-5732,5732
+61a546d,jmrosen155,2014-09-27 13:56:07,BUG: Integer list passed into nan_to_num results in ValueError.,1478,numpy/lib/type_check.py
+9713a27,Blake Griffith,2015-03-26 15:20:47,TST: Regression test for gh-5719,5719,numpy/core/tests/test_dtype.py
+6ac5172,Jaime Fernandez,2015-03-12 22:01:53,BUG: ufunc.at only works on single output ufuncs,5665,numpy/core/tests/test_ufunc.py
+c4db04b,jaimefrio,2015-03-12 11:49:05,BUG: check for nargs <= NPY_MAXARGS in ufunc constructor,5672,numpy/core/tests/test_regression.py
+fd3b0fc,Jaime,2015-03-12 17:58:02,Merge pull request #5585 from Kreiswolke/BugFixTile,4679
+f1cfc4f,Charles Harris,2015-03-11 10:07:53,BUG: loadtxt fails with complex data in Python 3.,5655,numpy/lib/npyio.py
+f1cfc4f,Charles Harris,2015-03-11 10:07:53,BUG: loadtxt fails with complex data in Python 3.,5655,numpy/lib/tests/test_io.py
+a5ea773,Oliver Eberle,2015-02-19 15:24:47,BUG: Fixed issue #4679 and added test,4679,numpy/lib/shape_base.py
+a5ea773,Oliver Eberle,2015-02-19 15:24:47,BUG: Fixed issue #4679 and added test,4679,numpy/lib/tests/test_shape_base.py
+b69035e,Charles Harris,2015-01-21 17:26:01,Merge pull request #5475 from ContinuumIO/pickle_string_fix,3926
+c51770d,Jay Bourque,2015-01-21 13:08:50,BUG: Fix #3926: pickling empty string fails,3926,numpy/core/tests/test_regression.py
+a8b6452,Charles Harris,2015-01-17 12:42:28,Merge pull request #5459 from rgommers/pareto-docstring,4181
+fea2ebb,Ralf Gommers,2015-01-06 22:11:46,DOC: fix a few bugs in the random.pareto docstring.  Closes gh-4181.,4181
+103fee0,Ryan Nelson,2014-12-05 11:39:39,TST: Update assert_array_almost_equal_nulp tests,347,numpy/testing/tests/test_utils.py
+3a9b333,Charles Harris,2015-01-02 13:54:47,Merge pull request #5413 from rgommers/link-format-nep,4523
+20bc2eb,Ralf Gommers,2015-01-02 13:14:58,DOC: link to the npy-format NEP in numpy.npyio docs.  Closes gh-4523.,4523,numpy/lib/npyio.py
+2070ecf,Charles Harris,2014-12-12 15:24:45,Merge pull request #5358 from Garrett-R/fix_bug_2015,2015
+819b3a8,Garrett-R,2014-12-08 20:33:48,BUG: Closes #2015: diag returns ndarray,2015,numpy/core/fromnumeric.py
+819b3a8,Garrett-R,2014-12-08 20:33:48,BUG: Closes #2015: diag returns ndarray,2015,numpy/lib/twodim_base.py
+819b3a8,Garrett-R,2014-12-08 20:33:48,BUG: Closes #2015: diag returns ndarray,2015,numpy/matrixlib/tests/test_numeric.py
+b3121e8,Ryan Nelson,2014-12-02 08:46:58,BUG: Rename fft C functions to avoid name conflict,565
+f7eb37f,Charles Harris,2014-11-30 12:20:48,Merge pull request #5324 from Garrett-R/fix_bug_2917,2917
+b82388e,Garrett-R,2014-11-29 23:35:56,BUG: Closes #2917: numpy.lib._iotools.StringConverter.upgrade return,2917,numpy/lib/_iotools.py
+b82388e,Garrett-R,2014-11-29 23:35:56,BUG: Closes #2917: numpy.lib._iotools.StringConverter.upgrade return,2917,numpy/lib/tests/test__iotools.py
+a356a10,Julian Taylor,2014-10-15 22:13:20,BLD: try linking a file if compile long double repr detection fails,4992,numpy/core/setup_common.py
+dc45391,Charles Harris,2014-10-03 20:03:31,BUG: Make numpy import when run with Python flag '-OO'.,5148,numpy/lib/tests/test_function_base.py
+dc45391,Charles Harris,2014-10-03 20:03:31,BUG: Make numpy import when run with Python flag '-OO'.,5148,numpy/lib/tests/test_utils.py
+dc45391,Charles Harris,2014-10-03 20:03:31,BUG: Make numpy import when run with Python flag '-OO'.,5148,numpy/ma/extras.py
+74ae35d,Masud Rahman,2014-09-27 15:28:05,Throws if range is too large for 'random.uniform',2138,numpy/random/tests/test_random.py
+5a14415,Julian Taylor,2014-09-19 21:30:19,BUG: fix out of bound access in unicode argmin/argmax,5082,numpy/core/tests/test_multiarray.py
+42aa77f,Charles Harris,2014-08-29 10:55:15,MAINT: Remove references to missing files from install.,5010,numpy/f2py/setup.py
+42aa77f,Charles Harris,2014-08-29 10:55:15,MAINT: Remove references to missing files from install.,5010,numpy/lib/setup.py
+4125912,seberg,2014-08-16 10:22:50,Merge pull request #4968 from WarrenWeckesser/bug-genfromtxt,2317
+9c76897,Warren Weckesser,2014-08-15 19:24:37,BUG: io: genfromtxt did not handle filling_values=0 correctly. Closes gh-2317.,2317,numpy/lib/npyio.py
+9c76897,Warren Weckesser,2014-08-15 19:24:37,BUG: io: genfromtxt did not handle filling_values=0 correctly. Closes gh-2317.,2317,numpy/lib/tests/test_io.py
+9e8c1ad,Julian Taylor,2014-07-18 23:18:54,DOC: add ascontiguousarray and asarray_chkfinite to appropriate section,4890
+e20d4b9,Julian Taylor,2014-06-23 22:44:05,BUG: handle rounding issue with histogram edges on float32 data,4799,numpy/lib/function_base.py
+e20d4b9,Julian Taylor,2014-06-23 22:44:05,BUG: handle rounding issue with histogram edges on float32 data,4799,numpy/lib/tests/test_function_base.py
+5a52edd,Julian Taylor,2014-06-11 21:33:16,DOC: fix a couple mistakes in the indexing documentation,618
+e2e49c7,Julian Taylor,2014-06-04 23:58:38,BUG: fix where not filling string types properly,4778,numpy/core/tests/test_multiarray.py
+9430c7d,Frederik Rietdijk,2014-05-24 17:48:52,Docs: fix numpy.fft.fft2 example,4736,numpy/fft/fftpack.py
+a075dcb,Ralf Gommers,2014-05-24 16:31:02,"DOC: tweak gufunc API documentation, remove broken link.  Closes gh-4726.",4726
+0d483a7,Julian Taylor,2014-05-22 22:05:21,BUG: check if openblas embeds lapack,4192,numpy/distutils/system_info.py
+27bfcdb,Charles Harris,2014-05-06 17:13:34,Merge pull request #4656 from foogod/master,4655
+5286f5e,Alex Stewart,2014-05-06 11:49:23,Added regression tests for #4655,4655,numpy/fft/tests/test_fftpack.py
+9b8f6c7,Sebastian Berg,2013-07-25 16:10:54,DEP: Deprecate that comparisons ignore errors.,3759,numpy/core/numeric.py
+9b8f6c7,Sebastian Berg,2013-07-25 16:10:54,DEP: Deprecate that comparisons ignore errors.,3759,numpy/core/tests/test_deprecations.py
+9b8f6c7,Sebastian Berg,2013-07-25 16:10:54,DEP: Deprecate that comparisons ignore errors.,3759,numpy/core/tests/test_multiarray.py
+9b8f6c7,Sebastian Berg,2013-07-25 16:10:54,DEP: Deprecate that comparisons ignore errors.,3759,numpy/lib/polynomial.py
+9b8f6c7,Sebastian Berg,2013-07-25 16:10:54,DEP: Deprecate that comparisons ignore errors.,3759,numpy/polynomial/polytemplate.py
+19feb88,Charles Harris,2014-05-04 08:34:25,Merge pull request #4666 from ElDeveloper/issue-3488,3488
+8bc4d45,Charles Harris,2014-05-04 06:18:21,BUG: Fix use of setuptools.command.install._install.,4664,numpy/distutils/command/install.py
+31e969b,Yoshiki Vázquez Baeza,2014-05-04 00:29:37,DOC/FIX: Fix error in documentation,3488,numpy/lib/shape_base.py
+be3f0b1,Charles Harris,2014-04-30 15:17:50,MAINT: Refactor numpy/polynomial/_polybase.py,4631,numpy/polynomial/_polybase.py
+e24486e,Alex Stewart,2014-05-02 10:07:01,Fix for #4655: Make fftpack._raw_fft threadsafe,4655,numpy/fft/fftpack.py
+dad468e,Charles Harris,2014-05-01 18:07:12,BUG: Fix memory leak.,4652
+52d5d10,Charles Harris,2014-04-05 18:23:05,Merge pull request #4591 from szpy/bugfixes,650
+0b02990,szpy,2014-04-05 18:04:09,BUG: Prevent division by zero. Closes #650.,650
+079ca4d,Daniel da Silva,2014-04-04 23:48:58,ENH: Better error w/ line num for bad column count in np.loadtxt(),2591,numpy/lib/npyio.py
+079ca4d,Daniel da Silva,2014-04-04 23:48:58,ENH: Better error w/ line num for bad column count in np.loadtxt(),2591,numpy/lib/tests/test_io.py
+06aafa5,Tim Burgess,2013-05-29 10:40:40,BUG: Fix for issue #3213,3213,numpy/ma/core.py
+06aafa5,Tim Burgess,2013-05-29 10:40:40,BUG: Fix for issue #3213,3213,numpy/ma/tests/test_core.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/_polybase.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/chebyshev.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/hermite.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/hermite_e.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/laguerre.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/legendre.py
+1eb81b7,Charles Harris,2014-03-21 14:53:18,"ENH, MAINT: Use an abstract base class for the polynomial classes.",634,numpy/polynomial/polynomial.py
+c437672,Julian Taylor,2014-03-25 00:06:08,BUG: fix unaligned access of new indexing,4314,numpy/core/tests/test_indexing.py
+123b319,Sebastian Berg,2014-02-24 15:22:44,ENH: Speed improvements and deprecations for np.select,3259,numpy/lib/function_base.py
+123b319,Sebastian Berg,2014-02-24 15:22:44,ENH: Speed improvements and deprecations for np.select,3259,numpy/lib/tests/test_function_base.py
+ad8e2c7,Charles Harris,2014-03-17 13:13:48,Merge pull request #4502 from mwiebe/einsumfix,4485
+10e289c,Mark Wiebe,2014-03-16 20:40:23,BUG: Buffered stride was erroneously marked fixed (fixes #4485),4485
+f8942f5,Daniel da Silva,2014-03-15 15:05:13,DOC: specify that 2d array must be non-empty in np.poly error message.,2092,numpy/lib/polynomial.py
+a22bb0e,Daniel da Silva,2014-03-13 21:58:05,"BUG: Fix commutativity of {dot,multiply,inner}(scalar, matrix_of_objs)",2469,numpy/core/tests/test_multiarray.py
+a22bb0e,Daniel da Silva,2014-03-13 21:58:05,"BUG: Fix commutativity of {dot,multiply,inner}(scalar, matrix_of_objs)",2469,numpy/core/tests/test_ufunc.py
+dfe6c7e,Charles Harris,2014-03-13 09:20:32,Merge pull request #4473 from Sankarshan-Mudkavi/fix-gh-2208,2208
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/setup.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testArray.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testFarray.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testFortran.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testMatrix.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testSuperTensor.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testTensor.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,doc/swig/test/testVector.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/setup.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testArray.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testFarray.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testFortran.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testMatrix.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testSuperTensor.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testTensor.py
+a38888c,Charles Harris,2014-03-12 11:19:40,MAINT: Move doc/swig to tools/swig.,2384,tools/swig/test/testVector.py
+0c82f69,Sankarshan Mudkavi,2014-03-12 13:18:38,"Added tests for fix in alignment of subarrays, gh-2208",2208,numpy/core/tests/test_dtype.py
+424b56e,Charles Harris,2014-03-12 08:16:57,Merge pull request #4479 from leomao/master,3285
+3d419a1,LeoMao,2014-03-11 16:15:21,"when initialize a vectorize object, always set self._ufunc to None first. fix #3285",3285,numpy/lib/function_base.py
+c1031bd,Daniel da Silva,2014-03-09 22:43:13,"ENH: Explicitly use __eq__ in assert_equal(a,b)",2552,numpy/testing/utils.py
+1a977ac,Sankarshan Mudkavi,2014-03-07 14:54:52,"BUG: Fixes gh-2208, alignment in subarrays",2208
+1dc0002,Charles Harris,2014-03-05 12:09:11,Merge pull request #4402 from meltingwax/meltingwax/4357,4357
+460adc0,Daniel da Silva,2014-02-28 23:39:14,BUG: Fixes SystemError in dtype(user_defined_type).name,4357,numpy/core/tests/test_dtype.py
+726937e,Daniel da Silva,2014-03-03 18:47:24,BUG: Fix deepcopy() of rank-zero arrays.,3311,numpy/core/tests/test_regression.py
+e9afd40,Julian Taylor,2014-03-03 19:30:39,Merge pull request #4414 from mosessky/master,4354
+53b17c5,Charles Harris,2014-03-02 14:41:31,BUG: DOC: Fix documentation build.,4346
+76ecffa,Charles Harris,2014-03-01 20:29:56,Merge pull request #4401 from meltingwax/meltingwax/4359,4359
+2371f13,Daniel da Silva,2014-03-01 21:11:07,BUG: Fix infinite recursion in str.format of flex arrays (Fixes #4359).,4359,numpy/core/tests/test_regression.py
+18cda3b,Julian Taylor,2014-03-02 02:55:30,BUG: fix non-c99 fallback for np.inf input to log1p/expm1,4225,numpy/core/tests/test_umath.py
+6bfd6d4,Charles Harris,2014-02-28 17:03:08,DOC: Document ldexp and frexp.,2354,numpy/add_newdocs.py
+6bfd6d4,Charles Harris,2014-02-28 17:03:08,DOC: Document ldexp and frexp.,2354,numpy/core/code_generators/ufunc_docstrings.py
+df84ecf,Julian Taylor,2014-02-27 20:39:12,BUG: accept non arrays in cor and corrcoeff,4295,numpy/lib/function_base.py
+df84ecf,Julian Taylor,2014-02-27 20:39:12,BUG: accept non arrays in cor and corrcoeff,4295,numpy/lib/tests/test_function_base.py
+73750e6,Charles Harris,2014-02-26 17:23:24,DOC: Improve the documentation of numpy.load.,2807,numpy/lib/npyio.py
+3392529,Charles Harris,2014-02-26 13:07:32,DOC: Fix documentation of normed in histogram2d and histogramdd.,2423,numpy/lib/function_base.py
+3392529,Charles Harris,2014-02-26 13:07:32,DOC: Fix documentation of normed in histogram2d and histogramdd.,2423,numpy/lib/twodim_base.py
+997f65e,seberg,2014-02-26 15:50:39,Merge pull request #4333 from charris/fix-gh-2312,2312
+6c4e642,Sebastian Berg,2014-02-22 18:18:23,BUG: Hang on to originally filled Py_Buffer view.,3175
+65a73df,Charles Harris,2014-02-22 08:58:19,Merge pull request #4344 from jaimefrio/unique-sort,2799
+fdb219f,Julian Taylor,2014-02-22 12:14:44,BUG: handle non integer types for multinomial/dirichlet size,3173,numpy/random/tests/test_random.py
+a712c67,jaimefrio,2014-02-21 16:35:32,BUG: Fixes #2799 Use `np.sort` instead of `sorted` when the input is a list and no indices are requested. Fixes #2799.,2799,numpy/lib/arraysetops.py
+a712c67,jaimefrio,2014-02-21 16:35:32,BUG: Fixes #2799 Use `np.sort` instead of `sorted` when the input is a list and no indices are requested. Fixes #2799.,2799,numpy/lib/tests/test_arraysetops.py
+dd85748,Charles Harris,2014-02-21 15:15:32,Merge pull request #4342 from seberg/issue-4340,4340
+fd399aa,Sebastian Berg,2014-02-21 21:13:29,"TST: do not use ""ignore"" to filter warnings",4340,numpy/lib/tests/test_function_base.py
+fd399aa,Sebastian Berg,2014-02-21 21:13:29,"TST: do not use ""ignore"" to filter warnings",4340,numpy/lib/tests/test_nanfunctions.py
+b9454f5,jaimefrio,2014-02-20 22:15:47,BUG: Fix broadcasting in np.cross (solves #2624),2624,numpy/core/numeric.py
+b9454f5,jaimefrio,2014-02-20 22:15:47,BUG: Fix broadcasting in np.cross (solves #2624),2624,numpy/core/tests/test_numeric.py
+34d7bee,Charles Harris,2014-02-20 10:08:06,Merge pull request #4315 from charris/fix-gh-2408,2408
+1058717,Charles Harris,2014-02-20 08:55:07,"MAINT: #2312, Make all tofile failures raise IOError.",2312
+1b83d85,Charles Harris,2014-02-17 14:47:44,"BUG: #2408, Fix f2py Python 3 error message string bug.",2408
+a500052,Charles Harris,2014-02-16 12:50:03,"DOC: Typo, replace PyArrayDescr_Check by PyArray_DescrCheck.",588
+1c2ac8f,Charles Harris,2014-02-16 11:27:45,BUG: Make interp return NaN at NaN interpolation points.,605,numpy/lib/tests/test_function_base.py
+1f2f6b6,Charles Harris,2014-02-16 10:11:12,BUG: Fix typo in f2py/cfuncs.py.,636,numpy/f2py/cfuncs.py
+59057c7,Julian Taylor,2014-02-14 18:45:18,BUG: fix NULL dereference on longdouble conversion error,627,numpy/core/tests/test_scalarmath.py
+05b2364,seberg,2014-01-27 09:34:16,Merge pull request #4234 from jennystone/Branch1,3368
+3d8da08,Janani,2014-01-26 16:18:34,BUG: Removed the inconsistencies of the function ma.count The inconsistency of ma.count when appled on masked_array with mask as 'nomask' has been removed. the return type of the function has also been standardized according to the docs.Corresponding changes in testing to check the functioning of ma.count Closes gh-3368 and gh-4228,3368,numpy/ma/core.py
+3d8da08,Janani,2014-01-26 16:18:34,BUG: Removed the inconsistencies of the function ma.count The inconsistency of ma.count when appled on masked_array with mask as 'nomask' has been removed. the return type of the function has also been standardized according to the docs.Corresponding changes in testing to check the functioning of ma.count Closes gh-3368 and gh-4228,3368,numpy/ma/tests/test_core.py
+7488ebe,Lars Buitinck,2014-01-12 17:34:10,DOC: site.cfg: warn against OpenBLAS and multiprocessing,654
+ecc20a3,Julian Taylor,2013-12-23 12:57:37,BUG: Ensure signed division of stride for pairwise sum,4136
+86df1b1,Charles Harris,2013-12-20 15:16:06,Merge pull request #4102 from seberg/issue-612,612
+e7fe68a,Charles Harris,2013-12-20 11:06:29,Merge pull request #4103 from seberg/issue-616,616
+c91b4c3,Sebastian Berg,2013-12-20 16:35:00,BUG: Fix array_split empty array type and add FutureWarning,612,numpy/lib/shape_base.py
+c91b4c3,Sebastian Berg,2013-12-20 16:35:00,BUG: Fix array_split empty array type and add FutureWarning,612,numpy/lib/tests/test_shape_base.py
+03d3747,Lev Abalkin,2013-12-10 19:15:14,BUG: Propagate error when assigning an instance to an array item.,2276,numpy/core/tests/test_multiarray.py
+753d611,Eric Moore,2013-10-29 18:40:30,BUG: fix handling of infs in hypot on windows,2385,numpy/core/tests/test_umath.py
+54d3559,seberg,2013-10-21 02:36:37,Merge pull request #3952 from JStech/issue_2052,2052
+c71f366,John Stechschulte,2013-10-19 10:51:55,BUG: #2052 del scalar subscript causes segfault,2052,numpy/core/tests/test_multiarray.py
+84c52d8,Joseph Martinot-Lagarde,2013-10-08 23:33:26,BUG: cov/corrcoef complex input and empty arrays,597,numpy/lib/function_base.py
+84c52d8,Joseph Martinot-Lagarde,2013-10-08 23:33:26,BUG: cov/corrcoef complex input and empty arrays,597,numpy/lib/tests/test_function_base.py
+ba3697d,Joseph Martinot-Lagarde,2013-10-09 12:56:10,TST: Regression test for gh-2561,2561,numpy/lib/tests/test_regression.py
+293b9e0,Joseph Martinot-Lagarde,2013-10-09 12:55:08,BUG: Disable check for oldstyle classes in python3,2561,numpy/lib/utils.py
+15bb858,Charles Harris,2013-10-06 09:54:48,BUG: Include sunmath.h in npy_math.h when __SUNPRO_CC defined.,3871
+cc99961,Ralf Gommers,2013-10-04 12:11:41,"DOC: make docstrings of matrix properties (.T, .H, .I, .A, .A1) work.",1939,numpy/matrixlib/defmatrix.py
+688df31,Yaron de Leeuw,2013-09-15 20:49:35,Fixes in the npyio documentation,587,numpy/lib/npyio.py
+fd6cfd6,Charles Harris,2013-08-11 20:52:39,ENH: Make the ndarray diagonal method return a view.,596,numpy/add_newdocs.py
+fd6cfd6,Charles Harris,2013-08-11 20:52:39,ENH: Make the ndarray diagonal method return a view.,596,numpy/core/fromnumeric.py
+fd6cfd6,Charles Harris,2013-08-11 20:52:39,ENH: Make the ndarray diagonal method return a view.,596,numpy/core/tests/test_multiarray.py
+cb0a4f0,Charles Harris,2013-08-11 17:09:09,BUG: Fix variable declaration after statement.,3598
+d10832b,Charles Harris,2013-08-11 14:34:25,BUG: Fix test_operand_flags test.,3363,numpy/core/tests/test_ufunc.py
+0c1f94d,Fernando Perez,2013-06-25 11:16:43,BUG: Fix exceptions being swallowed by fromiter.,2592
+8f547d3,Charles Harris,2013-06-16 17:40:58,Merge pull request #3448 from efiring/ma_compress,2495
+5e977d8,Charles Harris,2013-06-16 17:39:13,Merge pull request #3447 from efiring/ma_mvoid_len,576
+216d8cb,Eric Firing,2013-06-15 15:31:52,BUG: add __len__ method to ma.mvoid; closes #576,576,numpy/ma/core.py
+216d8cb,Eric Firing,2013-06-15 15:31:52,BUG: add __len__ method to ma.mvoid; closes #576,576,numpy/ma/tests/test_core.py
+c2465b6,Eric Firing,2013-06-15 16:47:55,BUG: np.ma.compress treated inputs in wrong order; closes #2495,2495,numpy/ma/core.py
+c2465b6,Eric Firing,2013-06-15 16:47:55,BUG: np.ma.compress treated inputs in wrong order; closes #2495,2495,numpy/ma/tests/test_core.py
+bb8c89d,Charles Harris,2013-06-16 06:17:53,Merge pull request #3449 from efiring/mvoid_setitem,2403
+fb4edf7,Eric Firing,2013-06-15 21:33:17,BUG: field assignment in masked array did not reset mask; closes #2403,2403,numpy/ma/core.py
+fb4edf7,Eric Firing,2013-06-15 21:33:17,BUG: field assignment in masked array did not reset mask; closes #2403,2403,numpy/ma/tests/test_core.py
+e036deb,Charles Harris,2013-06-15 09:56:29,Merge pull request #3440 from WarrenWeckesser/bug-ma-average,2684
+ace8ee7,Warren Weckesser,2013-06-15 11:22:05,BUG: ma: ma.average didn't handle complex arrays correctly (issue gh-2684),2684,numpy/ma/extras.py
+ace8ee7,Warren Weckesser,2013-06-15 11:22:05,BUG: ma: ma.average didn't handle complex arrays correctly (issue gh-2684),2684,numpy/ma/tests/test_extras.py
+e50475a,bebert218,2013-05-22 13:58:38,BUG: The npv function in financial.py was incorrectly implemented.,649,numpy/lib/financial.py
+e50475a,bebert218,2013-05-22 13:58:38,BUG: The npv function in financial.py was incorrectly implemented.,649,numpy/lib/tests/test_financial.py
+5ce8e28,Charles Harris,2013-02-28 19:31:57,Merge pull request #2988 from ewmoore/methdot2697,2687
+a226daa,Bradley M. Froehle,2013-02-24 21:31:28,BUG: Choose a more unique PY_ARRAY_UNIQUE_SYMBOL in f2py.,2521
+1d04300,Eric Moore,2013-02-14 22:45:39,BUG: gh-2687 make multiarray dot method accept out array and keyword args.,2687,numpy/core/tests/test_multiarray.py
+161bfe7,seberg,2013-01-06 02:40:54,Merge pull request #2882 from seberg/issue2503,2503
+2be873f,Sebastian Berg,2013-01-03 16:42:48,BUG: Fix CheckStrides and strides setter checks for available memory,2503,numpy/core/tests/test_multiarray.py
+75bb79c,Ondřej Čertík,2012-12-27 09:13:26,DOC: Thoroughly document datetime issues,568
+15022cb,Ondřej Čertík,2012-12-26 20:35:16,FIX: Use the NPY_TIME_T macro everywhere,568
+c95da7d,Mark Wiebe,2012-12-09 13:26:47,TST: Add a test for bug gh-2668,2668,numpy/core/tests/test_regression.py
+686bcfd,njsmith,2012-12-08 11:57:25,Merge pull request #2747 from mdboom/fix-masked-recarrays-with-objects,2432
+761ba5d,Dan Hipschman,2012-12-06 21:01:43,Fix distutils build_src with 'c++' in swig_opts and a c++ comment in the .i file (issue #2551),2551,numpy/distutils/command/build_src.py
+7678c98,Charles Harris,2012-11-23 09:46:40,TST: Add test for gh-2757.,2757,numpy/ma/tests/test_regression.py
+38c150c,Charles Harris,2012-11-23 09:33:05,"BUG: gh-2757, masked array var method should zero masked out parameter.",2757,numpy/ma/core.py
+0196aed,Michael Droettboom,2012-11-15 13:45:45,"Fixes #2432.  Rather than creating a new data array and assigning to it (which doesn't work when it is a recarray containing object fields), just create a copy with the np.array constructor.",2432,numpy/ma/core.py
+2654ede,Ondřej Čertík,2012-11-13 08:35:59,FIX: Python 3.2 debug assertion,646
+58c1bf7,Ralf Gommers,2012-11-05 20:47:23,BUG: fix download link in setup.py (which is shown on PyPi).,2243,setup.py
+ca27396,Travis E. Oliphant,2012-10-09 21:56:53,Merge pull request #444 from 87/fix_array_iface,291
+a8ffb48,Sebastian Berg,2012-10-01 19:32:26,TST: Complex to bool conversion (Ticket 2218),2218,numpy/core/tests/test_regression.py
+f085bc2,Sebastian Berg,2012-10-01 19:24:41,BUG: Fix complex to bool conversion in lowlevel_strided_loops,2218
+12e8079,Sebastian Berg,2012-09-18 18:39:25,BUG: PyErr_SetObject does not steal reference.,2125
+7d30cad,Ondřej Čertík,2012-09-02 09:35:43,Merge pull request #397 from certik/fix2189,2189
+0713354,Ondřej Čertík,2012-08-31 16:02:50,FIX: Add a test for Ticket #2066,2066,numpy/core/tests/test_regression.py
+cb5a27e,Ondřej Čertík,2012-08-30 19:52:48,BUG: Add a test for Ticket #2189,2189,numpy/core/tests/test_regression.py
+c6d8734,Ondřej Čertík,2012-08-31 14:45:39,Merge pull request #401 from jayvius/get-view-fix,2187
+ecbd938,Ondřej Čertík,2012-08-29 17:36:02,FIX: bug in np.where and recarray swapping,2185,numpy/core/tests/test_regression.py
+578a419,Travis E. Oliphant,2012-07-17 19:26:39,Merge pull request #352 from HackerSchool12/bugfix808,808
+b26c675,Nathaniel J. Smith,2012-07-12 13:20:20,[FIX] Make np.random.shuffle less brain-dead,2074,numpy/random/tests/test_random.py
+b26c675,Nathaniel J. Smith,2012-07-12 13:20:20,[FIX] Make np.random.shuffle less brain-dead,2074,numpy/random/tests/test_regression.py
+b26c675,Nathaniel J. Smith,2012-07-12 13:20:20,[FIX] Make np.random.shuffle less brain-dead,2074,numpy/testing/tests/test_utils.py
+2c04244,Loftie Ellis,2012-07-10 17:20:53,"BUG: Ticket #808: Insert was not performing properly when an integer was the argument passed to be used as the item to be insterted, and a list was passed as the positions. This was fixed by simply duplicating the item to be inserted so that it was a list of equal length and then control was passed to the already exsisting code to handel this case",808,numpy/lib/function_base.py
+2c04244,Loftie Ellis,2012-07-10 17:20:53,"BUG: Ticket #808: Insert was not performing properly when an integer was the argument passed to be used as the item to be insterted, and a list was passed as the positions. This was fixed by simply duplicating the item to be inserted so that it was a list of equal length and then control was passed to the already exsisting code to handel this case",808,numpy/lib/tests/test_function_base.py
+6966bdc,Eric Fode,2012-07-10 14:09:44,"BUG: ticket #2028: When min_scalar was not checking to see if numbers could fit into unsigned long longs. This was fixed by adding an extra case to function to check if the passed number could fit into a unsigned long long if it could not fit into anything else. Additionaly, regression tests were added.",2028,numpy/core/tests/test_multiarray.py
+7bd9185,rgommers,2010-11-08 21:24:59,TST: mark longdouble tests for spacing/nextafter as knownfail on PPC.,1664,numpy/core/tests/test_umath.py
+3b9a0fe,njsmith,2012-07-06 14:01:54,Merge pull request #328 from yarikoptic/master,2178
+0e3a3d9,Yaroslav Halchenko,2012-07-02 16:38:09,ENH: unittest for preceeding commit fixing #2178,2178,numpy/lib/tests/test_io.py
+4df2444,Yaroslav Halchenko,2012-07-02 16:03:53,"BUG: do not ""own"" the FID for GzipFile and file if provided to load already opened (ticket #2178)",2178,numpy/lib/npyio.py
+c8beafd,Travis E. Oliphant,2012-06-12 00:58:30,Merge pull request #290 from mforbes/new-vectorize-clean,2100
+127ae2f,Michael McNeil Forbes,2012-04-06 14:52:56,"ENH: Add kwarg support for vectorize (tickets #2100, #1156, and #1487)",2100,numpy/lib/function_base.py
+127ae2f,Michael McNeil Forbes,2012-04-06 14:52:56,"ENH: Add kwarg support for vectorize (tickets #2100, #1156, and #1487)",2100,numpy/lib/tests/test_function_base.py
+4542c43,Mark Wiebe,2012-05-28 14:14:41,BUG: Add a new flag to nditer to indicate when op uses buffering,2144
+e41267b,Travis E. Oliphant,2012-05-19 19:08:43,Merge pull request #283 from rgommers/ticket-1755-knownfail,1755
+977878a,Ralf Gommers,2012-05-19 15:47:39,TST: mark test for floating point exceptions as knownfail.  See #1755.,1755,numpy/core/tests/test_numeric.py
+3277506,Charles Harris,2012-04-20 22:24:06,"BUG: ticket #1578, fix PyArray_Scalar.",1578
+d78746b,Charles Harris,2012-04-17 19:52:01,"BUG: ticket #1578, fix UNICODE_getitem.",1578
+0574e05,Ralf Gommers,2012-04-15 12:48:48,TST: filter Cython warning on import of random module.  Closes #2103.,2103,numpy/random/__init__.py
+0679842,Charles Harris,2012-04-14 20:21:30,"Revert ""BUG: ticket #1578, Fix python-debug warning for python >= 2.7.""",1578
+d50f961,Charles Harris,2012-04-11 12:43:34,TST: Add test for ticket #1578,1578,numpy/core/tests/test_regression.py
+0a3a954,Charles Harris,2012-04-11 07:51:53,"BUG: ticket #1578, Fix python-debug warning for python >= 2.7.",1578
+b6b5ba1,Ralf Gommers,2012-04-05 21:40:49,BUG: fix regression for indexing chararrays with empty list. Closes #1948.,1948,numpy/core/defchararray.py
+b6b5ba1,Ralf Gommers,2012-04-05 21:40:49,BUG: fix regression for indexing chararrays with empty list. Closes #1948.,1948,numpy/core/tests/test_defchararray.py
+11859c0,Charles Harris,2012-04-04 17:10:05,"BUG: ticket #2097, fix bounds checking in searchsorted when sorter invoked.",2097,numpy/core/tests/test_multiarray.py
+372666a,Nicolas Pinto,2012-03-14 19:11:37,"BUG: ticket #2073, fix float16 __array_interface__ bug.",2073
+dbf2351,Bryan Van de Ven,2012-03-19 10:08:33,"BUG: ticket #2063, make unique return consistent index.",2063,numpy/core/tests/test_regression.py
+dbf2351,Bryan Van de Ven,2012-03-19 10:08:33,"BUG: ticket #2063, make unique return consistent index.",2063,numpy/lib/arraysetops.py
+960a86b,Charles Harris,2012-03-24 14:49:07,"BUG: ticket #2086, make datetime and timedelta recognize byte order.",2086,numpy/core/tests/test_datetime.py
+0168296,Ralf Gommers,2012-03-25 14:54:03,DOC: label datetime support as experimental. Closes #2072.,2072
+41f7d21,Ralf Gommers,2012-03-25 14:44:23,DOC: label the current NA implementation as experimental in 1.7.x,2072,numpy/add_newdocs.py
+3503c5f,Ralf Gommers,2012-03-19 14:01:51,Merge pull request #236 from charris/fixes-2.4,2071
+a4dbfc1,Ralf Gommers,2012-03-14 23:19:47,Merge pull request #229 from npinto/system_info_lib_dirs.,993
+5268fe6,David Cournapeau,2012-03-05 22:43:56,BUG: fix #2017 by ignoring type_num in the hash input.,2017,numpy/core/tests/test_dtype.py
+91f87e1,Bryan Van de Ven,2012-02-20 11:32:57,BUG: Fix ticket #1990.,1990,numpy/compat/py3k.py
+91f87e1,Bryan Van de Ven,2012-02-20 11:32:57,BUG: Fix ticket #1990.,1990,numpy/core/tests/test_regression.py
+09f01d8,Bryan Van de Ven,2012-02-24 16:21:57,BUG: fix ticket #2029.,2029,numpy/core/tests/test_maskna.py
+ba40918,Ralf Gommers,2012-02-29 23:23:18,BLD: fix Cygwin build error.  Closes #1944.  Thanks to Sebastian Sohr.,1944
+ae3dd33,Travis E. Oliphant,2012-02-13 21:46:24,Merge pull request #207 from teoliphant/2033-fast-power-fix,2033
+aa2b608,Travis E. Oliphant,2012-02-12 20:53:37,BUG: Fix Ticket #2033 and fix fast_power behavior for integer arrays.,2033,numpy/core/tests/test_umath.py
+7e202a2,Charles Harris,2012-02-12 19:22:12,"BUG: ticket #2046, deleting array attributes causes segfault.",2046,numpy/core/tests/test_multiarray.py
+4c0576f,Travis E. Oliphant,2012-02-06 17:15:01,ENH: Add ability to pickle ufuncs as requested in ticket #1743,1743,numpy/core/__init__.py
+4c0576f,Travis E. Oliphant,2012-02-06 17:15:01,ENH: Add ability to pickle ufuncs as requested in ticket #1743,1743,numpy/core/tests/test_ufunc.py
+48d6edb,Ralf Gommers,2012-02-04 12:08:13,BUG: fix incorrect exception handling in arrayprint.  Closes ticket 2038.,2038,numpy/core/arrayprint.py
+b95db7f,Warren Weckesser,2012-01-22 19:37:26,"BUG: multiarray: in array_setscalar, check that the array is writeable (ticket #1622)",1622
+e74585d,Mark Wiebe,2012-01-21 18:12:41,TST: Add a test for ticket #2027,2027,numpy/core/tests/test_einsum.py
+7d909e3,Mark Wiebe,2012-01-21 18:03:17,"BUG: einsum: Fix issue #2027, inner loop 3rd data pointer was not being incremented",2027
+d36e076,Charles Harris,2012-01-18 17:06:20,BUG: Fix ticket #2021.,2021,numpy/core/tests/test_regression.py
+1475319,Paul Anton Letnes,2011-11-27 14:35:59,BUG: savetxt now handles complex arrays.  Closes #1573.,1573,numpy/lib/npyio.py
+1475319,Paul Anton Letnes,2011-11-27 14:35:59,BUG: savetxt now handles complex arrays.  Closes #1573.,1573,numpy/lib/tests/test_io.py
+7f302cc,David Cournapeau,2011-11-21 06:03:44,BUG: fix #1984 (generate correct version.py).,1984
+073bc39,Rui Pereira,2011-09-08 09:06:52,TST: skip umath complex tests on all platforms except linux.  Closes #1926.,1926,numpy/core/tests/test_umath_complex.py
+01b200b,Mark Wiebe,2011-08-18 16:23:24,BUG: nditer: The nditer was reusing the reduce loop inappropriately (#1938),1938,numpy/core/tests/test_nditer.py
+cdf1ff1,Charles Harris,2011-08-20 10:15:17,Merge branch 'pull-140',1936
+a54a0bd,Mark Wiebe,2011-08-18 20:37:36,BUG: loadtxt: There was some extra nesting for subarray dtypes (Ticket #1936),1936,numpy/lib/npyio.py
+a54a0bd,Mark Wiebe,2011-08-18 20:37:36,BUG: loadtxt: There was some extra nesting for subarray dtypes (Ticket #1936),1936,numpy/lib/tests/test_regression.py
+5cf0a07,Paul Anton Letnes,2011-07-31 21:04:59,"ENH: Add provision for headers and footers to savetxt, fixes ticket 1236. I suggest using a separate keyword argument for structured arrays. It might also be nice to be able to add a manual header.",1236,numpy/lib/npyio.py
+5cf0a07,Paul Anton Letnes,2011-07-31 21:04:59,"ENH: Add provision for headers and footers to savetxt, fixes ticket 1236. I suggest using a separate keyword argument for structured arrays. It might also be nice to be able to add a manual header.",1236,numpy/lib/tests/test_io.py
+dba98cc,Ralf Gommers,2011-08-02 17:34:38,BLD: fix build for py3k + pip. Closes #1857. Thanks to Erik Bray.,1857,numpy/distutils/ccompiler.py
+dba98cc,Ralf Gommers,2011-08-02 17:34:38,BLD: fix build for py3k + pip. Closes #1857. Thanks to Erik Bray.,1857,setup.py
+57b56bc,Ralf Gommers,2011-08-10 22:59:09,BUG: fix failing npyio test under py3k.  Thanks to Derek Homeier. Closes #1793.,1793,numpy/lib/npyio.py
+57b56bc,Ralf Gommers,2011-08-10 22:59:09,BUG: fix failing npyio test under py3k.  Thanks to Derek Homeier. Closes #1793.,1793,numpy/lib/tests/test_io.py
+72ab385,Paul Anton Letnes,2011-07-28 22:50:58,ENH: let genfromtxt return empty array for empty input file instead of an error.,1793,numpy/lib/npyio.py
+72ab385,Paul Anton Letnes,2011-07-28 22:50:58,ENH: let genfromtxt return empty array for empty input file instead of an error.,1793,numpy/lib/tests/test_io.py
+1b62bdf,David Huard,2011-07-20 14:36:35,BUG: fixed histogramdd bug with empty inputs.  Closes #1899.,1899,numpy/lib/function_base.py
+1b62bdf,David Huard,2011-07-20 14:36:35,BUG: fixed histogramdd bug with empty inputs.  Closes #1899.,1899,numpy/lib/tests/test_function_base.py
+1b62bdf,David Huard,2011-07-20 14:36:35,BUG: fixed histogramdd bug with empty inputs.  Closes #1899.,1899,numpy/lib/tests/test_twodim_base.py
+8e94868,Mark Wiebe,2011-07-06 15:29:15,BUG: iter: writeonly operands weren't always being buffered correctly (Ticket #1895/1896),1895,numpy/core/tests/test_ufunc.py
+5e4a407,Ralf Gommers,2011-06-22 23:09:16,BUG:py3k: fix error with recarry. Patch by C. Gohlke. Closes #1843.,1843,numpy/compat/py3k.py
+5e4a407,Ralf Gommers,2011-06-22 23:09:16,BUG:py3k: fix error with recarry. Patch by C. Gohlke. Closes #1843.,1843,numpy/core/tests/test_records.py
+192ac74,Mark Wiebe,2011-06-28 22:40:06,BUG: nditer: Error in detecting double reduction loop (Fixes #1885),1885,numpy/core/tests/test_einsum.py
+192ac74,Mark Wiebe,2011-06-28 22:40:06,BUG: nditer: Error in detecting double reduction loop (Fixes #1885),1885,numpy/core/tests/test_iterator.py
+f57f1ef,Mark Wiebe,2011-06-21 19:07:58,BUG: dtype: Struct dtype size wasn't being padded for alignment (Ticket #1790),1790,numpy/core/tests/test_dtype.py
+adab903,Ralf Gommers,2011-06-21 21:46:49,TST: fix py3k failure for arrayprint. Closes #1875. Thanks to Derek Homeier.,1875,numpy/core/tests/test_arrayprint.py
+4e52c48,Mark Wiebe,2011-06-19 17:41:40,BUG: core: Fix corner case of object array assignment (#1870),1870,numpy/core/tests/test_regression.py
+afe25c1,Mark Wiebe,2011-06-16 12:42:32,BUG: ufunc: Type promotion output must always be in NBO (fixes #1867),1867,numpy/core/tests/test_ufunc.py
+a1e7be3,Mark Wiebe,2011-06-09 10:01:35,BUG: core: PyArray_NewFromDescr needs to update flags when strides != NULL (fixes #1863,1863,numpy/core/tests/test_numeric.py
+6441c2a,rgommers,2011-05-29 15:38:06,ENH: speed up in1d() in the case of ar1 >> ar2. Closes #1603.,1603,numpy/lib/arraysetops.py
+6441c2a,rgommers,2011-05-29 15:38:06,ENH: speed up in1d() in the case of ar1 >> ar2. Closes #1603.,1603,numpy/lib/tests/test_arraysetops.py
+3071eab,Mark Wiebe,2011-05-21 15:04:05,BUG: Regression of object <-> structured array data copying (ticket #1838),1838,numpy/core/tests/test_iterator.py
+3071eab,Mark Wiebe,2011-05-21 15:04:05,BUG: Regression of object <-> structured array data copying (ticket #1838),1838,numpy/core/tests/test_regression.py
+4a2ad9e,Mark Wiebe,2011-05-21 12:01:33,BUG: Iterator reduction buffering bug when the inner loop is bigger than the buffer size (ticket #1837),1837,numpy/core/tests/test_einsum.py
+d8de71d,Ralf Gommers,2011-04-03 14:59:36,"ENH: Ticket #1218, allow use of custom formatters in array2string and set_printoptions. Add tests for the new functionality.",1218,numpy/core/arrayprint.py
+d8de71d,Ralf Gommers,2011-04-03 14:59:36,"ENH: Ticket #1218, allow use of custom formatters in array2string and set_printoptions. Add tests for the new functionality.",1218,numpy/core/tests/test_arrayprint.py
+dea352c,Charles Harris,2011-04-21 20:30:41,"BUG: ticket #1805, replace type char by signed char for tables.",1805
+973b112,Mark Wiebe,2011-04-13 13:19:27,BUG: Fix type promotion regression for ufuncs (Ticket #1798),1798
+492ae11,Mark Wiebe,2011-04-13 12:56:30,BUG: Fix type promotion regression for the result_type function (Ticket #1798),1798
+137ec8e,Ralf Gommers,2011-04-22 19:52:39,BUG: fix random.test_noncentral_f issue under win64 + MSVC9. Closes #1801.,1801
+9fc9db1,Ralf Gommers,2011-04-22 19:29:29,"BUG: numpy doesn't compile anymore with ifort using -O3, changing to -O1.",1378,numpy/distutils/fcompiler/intel.py
+49882c4,Mark Wiebe,2011-04-05 18:34:43,BUG: Work around the fact that Python 2.6 doesn't support %lld in PyString_Format,1795
+ce0019c,Derek Homeir,2011-04-04 08:13:54,"BUG: ticket #1071, fix loadtxt to handle tab delimited data with missing values in the last column and add test for same.",1071,numpy/lib/npyio.py
+ce0019c,Derek Homeir,2011-04-04 08:13:54,"BUG: ticket #1071, fix loadtxt to handle tab delimited data with missing values in the last column and add test for same.",1071,numpy/lib/tests/test_io.py
+a311969,Ralf Gommers,2011-04-03 12:33:07,ENH: add ndmin keyword to loadtxt. Closes #1562.,1562,numpy/lib/npyio.py
+a311969,Ralf Gommers,2011-04-03 12:33:07,ENH: add ndmin keyword to loadtxt. Closes #1562.,1562,numpy/lib/tests/test_io.py
+e340e66,Ralf Gommers,2011-04-03 12:04:35,ENH: return empty array from loadtxt for an empty file. Closes #1752.,1752,numpy/lib/npyio.py
+e340e66,Ralf Gommers,2011-04-03 12:04:35,ENH: return empty array from loadtxt for an empty file. Closes #1752.,1752,numpy/lib/tests/test_io.py
+a15b605,Charles Harris,2011-04-02 20:19:55,TST: add test for ticket #1458.,1458,numpy/lib/tests/test_io.py
+3d61227,Derek Homier,2011-04-02 20:16:32,"ENH: ticket #1458, make loadtxt(..., unpack=True) unpack structured array fields.",1458,numpy/lib/npyio.py
+9b354f4,Charles Harris,2011-04-02 17:08:34,TST: Add test for ticket #1559.,1559,numpy/ma/tests/test_regression.py
+7b39b9e,Pauli Virtanen,2011-04-02 22:56:41,BUG: core/pickle: use only non-interned strings as buffer in unpickled arrays (#1708),1708,numpy/core/tests/test_regression.py
+5e8e8ed,Charles Harris,2011-04-02 14:36:14,"BUG: ticket #1428, allow int64 and uint64 integer types to be specified in genfromtxt.",1428,numpy/lib/_iotools.py
+5e8e8ed,Charles Harris,2011-04-02 14:36:14,"BUG: ticket #1428, allow int64 and uint64 integer types to be specified in genfromtxt.",1428,numpy/lib/tests/test__iotools.py
+f9c7bde,Eli Stevens,2011-03-24 21:50:27,ENH: Changes (and tests) to allow exporting half-floats through the buffer interface. (#1789),1789,numpy/core/_internal.py
+f9c7bde,Eli Stevens,2011-03-24 21:50:27,ENH: Changes (and tests) to allow exporting half-floats through the buffer interface. (#1789),1789,numpy/core/tests/test_multiarray.py
+65b77ee,Pauli Virtanen,2011-04-02 19:54:04,BUG: core: make complex division by zero to yield inf properly (#1776),1776,numpy/core/tests/test_scalarmath.py
+65b77ee,Pauli Virtanen,2011-04-02 19:54:04,BUG: core: make complex division by zero to yield inf properly (#1776),1776,numpy/core/tests/test_umath.py
+857e191,Michael Droettboom,2011-03-31 15:47:54,"DOC: Changes required to the configuration to start building docs with matplotlib's plot_directive.  Requires that matplotlib have the new ""merged"" plot_directive. (#1074)",1074,doc/source/conf.py
+1dcf0c9,Ralf Gommers,2011-03-29 20:02:13,BUG: handle empty inputs in cov and corrcoef. Closes #1773.,1773,numpy/lib/function_base.py
+1dcf0c9,Ralf Gommers,2011-03-29 20:02:13,BUG: handle empty inputs in cov and corrcoef. Closes #1773.,1773,numpy/lib/tests/test_function_base.py
+689b68c,Ralf Gommers,2011-04-01 21:21:12,TST: lower precision for one more test in random. Closes #1768. Again.,1768,numpy/random/tests/test_random.py
+51a1895,Pauli Virtanen,2011-03-30 22:24:41,BUG: lib: catch SWIG NameError in lookfor (#1704),1704,numpy/lib/utils.py
+d8b1b5a,Ralf Gommers,2011-03-30 18:30:58,DOC: correct note about correspondence vstack and concatenate. Closes #1446.,1446,numpy/core/shape_base.py
+2788f53,Ralf Gommers,2011-03-25 17:06:19,ENH: distutils: provide better support for C++ code on HPUX. Closes #1383.,1383,numpy/distutils/unixccompiler.py
+135e941,Ralf Gommers,2011-03-25 16:03:00,BUG: distutils: update HP compiler flags. Closes #1377.,1377,numpy/distutils/fcompiler/hpux.py
+dce8638,Ralf Gommers,2011-03-29 19:02:39,BUG: make np.median() work for 0-D arrays. Also add tests. Closes #1747.,1747,numpy/lib/function_base.py
+dce8638,Ralf Gommers,2011-03-29 19:02:39,BUG: make np.median() work for 0-D arrays. Also add tests. Closes #1747.,1747,numpy/lib/tests/test_function_base.py
+c2081ae,Ralf Gommers,2011-03-25 12:25:26,DOC: add deprecation section to docstandard. Closes #1501.,1501
+9c570e8,Ralf Gommers,2011-03-25 12:08:31,"DOC: update References section of docstandard. Closes #1509, #1524.",1509
+b11ae17,Ralf Gommers,2011-03-25 12:02:44,DOC: add description of how to document modules to the doc standard.,1280
+225f28c,Pearu Peterson,2011-03-27 13:26:05,"BUG: f2py fix to scan literal strings with ! character, fixes ticket #1228",1228,numpy/f2py/crackfortran.py
+88e8c15,Mark Wiebe,2011-03-22 14:32:11,ENH: Add scalar support for the format() function introduced in Python 2.6 (#1675),1675,numpy/core/tests/test_print.py
+73ea5e7,Mark Wiebe,2011-03-23 14:40:03,BUG: PyArray_CopyAndTranspose function was buggy (#766),766,numpy/core/tests/test_api.py
+ac2c160,Mark Wiebe,2011-03-25 12:37:14,DOC: Add a note about None values in the average documentation (#1180),1180,numpy/lib/function_base.py
+c31bcc6,Mark Wiebe,2011-03-24 12:22:12,BUG: Array shape formatting strings were wrong in the iterator (#1780),1780
+3d00f4a,Ralf Gommers,2011-03-22 14:55:14,DEP: change behavior of out-of-order selection of recarray fields by name.,1431,numpy/core/_internal.py
+3d00f4a,Ralf Gommers,2011-03-22 14:55:14,DEP: change behavior of out-of-order selection of recarray fields by name.,1431,numpy/core/tests/test_records.py
+5ee9804,Ralf Gommers,2011-03-16 10:44:23,TST: lower precision of lognormal test a little more. Closes #1768.,1768,numpy/random/tests/test_random.py
+cb063b2,Ralf Gommers,2011-03-15 10:33:51,TST: Some tests in random module were failing on RHEL4 due to too high precision.,1768,numpy/random/tests/test_random.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_array_from_pyobj.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_assumed_shape.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_callback.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_kind.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_mixed.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_return_character.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_return_complex.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_return_integer.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_return_logical.py
+f8c38cb,Pearu Peterson,2011-03-11 14:00:10,BUG: Fixed ticket #1767. Replaced assert with assert_ calls.,1767,numpy/f2py/tests/test_return_real.py
+87e0f55,Pearu Peterson,2011-03-11 09:40:33,Merge remote branch 'upstream/master' into f2py-assumed-shape,960
+dede269,rgommers,2011-03-09 22:10:13,ENH: add Intel 64-bit C compiler. Closes #960.,960,numpy/distutils/ccompiler.py
+dede269,rgommers,2011-03-09 22:10:13,ENH: add Intel 64-bit C compiler. Closes #960.,960,numpy/distutils/intelccompiler.py
+9e28fce,Mark Wiebe,2011-03-10 12:07:49,BUG: Broadcast shape was backwards in error message (Ticket #1762),1762,numpy/core/tests/test_new_iterator.py
+ce9fea2,rgommers,2011-03-09 21:29:09,BUG: fix 64-bit Intel Fortran compiler detection. Closes #1448.,1448,numpy/distutils/fcompiler/intel.py
+ce9fea2,rgommers,2011-03-09 21:29:09,BUG: fix 64-bit Intel Fortran compiler detection. Closes #1448.,1448,numpy/distutils/tests/test_fcompiler_intel.py
+60adb1a,Charles Harris,2011-03-07 18:24:35,BUG: Preliminary fix for ticket #1757.,1757
+b28b115,Mark Wiebe,2011-03-07 12:04:05,BUG: Field's subarray access of scalar was incorrectly Fortran (Ticket #1760),1760,numpy/core/tests/test_regression.py
+c081ad7,rgommers,2011-03-07 12:55:55,"DOC: Revert part of previous commit, moving umath docs did not work.",1759,numpy/add_newdocs.py
+c081ad7,rgommers,2011-03-07 12:55:55,"DOC: Revert part of previous commit, moving umath docs did not work.",1759,numpy/core/code_generators/ufunc_docstrings.py
+898e6bd,rgommers,2011-03-06 18:04:45,TST: add test for random distributions. Closes #1512.,1512,numpy/random/tests/test_random.py
+cfff750,Mark Wiebe,2011-03-04 11:16:12,BUG: Fix CastToType to handle string->string casts (ticket #1748),1748,numpy/core/tests/test_regression.py
+ee0831a,rgommers,2011-03-02 15:57:33,"BUG: fix up shared library extension, which changed in Python 3.2. Closes #1749.",1749,numpy/distutils/fcompiler/__init__.py
+ee0831a,rgommers,2011-03-02 15:57:33,"BUG: fix up shared library extension, which changed in Python 3.2. Closes #1749.",1749,numpy/distutils/system_info.py
+ee0831a,rgommers,2011-03-02 15:57:33,"BUG: fix up shared library extension, which changed in Python 3.2. Closes #1749.",1749,numpy/tests/test_ctypeslib.py
+fa5ea04,Mark Wiebe,2011-02-06 17:49:12,BUG: core: Fix regression ticket #1735,1735,numpy/core/tests/test_regression.py
+2635398,Mark Wiebe,2011-02-06 15:48:45,ENH: core: Add new GetArrayParamsFromObject API function (fixes #1081),1081,numpy/core/code_generators/numpy_api.py
+2635398,Mark Wiebe,2011-02-06 15:48:45,ENH: core: Add new GetArrayParamsFromObject API function (fixes #1081),1081,numpy/core/tests/test_regression.py
+2635398,Mark Wiebe,2011-02-06 15:48:45,ENH: core: Add new GetArrayParamsFromObject API function (fixes #1081),1081,numpy/lib/tests/test_io.py
+cdac120,rgommers,2011-01-25 22:02:40,PY3K: add PyPI classifier for Python 3. Closes #1698.,1698,setup.py
+b7fbd32,Justin Peel,2011-01-24 14:42:40,"BUG: Ticket #1690, fix overflow error in randint. Slightly modified from the original by committer.",1690,numpy/random/tests/test_random.py
+ae6416a,rgommers,2010-12-12 19:01:56,STY: clean up unused code. Closes #1409. Thanks to Bruce Southey.,1409,numpy/distutils/ccompiler.py
+437e555,Justin Peel,2011-01-23 16:56:15,"BUG: Ticket #1703, make fromfile work with dtype=np.bool_ and floats.",1703,numpy/core/tests/test_multiarray.py
+173cb74,Charles Harris,2011-01-23 15:58:39,"ENH: Ticket 1695, add test for find_common_type with booleans.",1695,numpy/core/tests/test_regression.py
+3ec5795,Justin Peel,2011-01-23 13:54:25,"BUG: Ticket 1490, fix searchsorted when both key and array are byteswapped.",1490,numpy/core/tests/test_multiarray.py
+0baf0ec,cgholke,2011-01-23 13:20:23,BUG: Ticket #1660. Fix windows 64 bug so that fromfile works for files > 2GB.,1660
+9451260,chanley,2010-12-27 12:16:14,Apply patch by bsouthey in Ticket #1475 to turn off appropriate tests when ctypes is not installed.  This is of particular importance to STScI since this test is breaking our nightly build/test setup.,1475,numpy/lib/tests/test_type_check.py
+e2e2652,Pearu Peterson,2010-12-03 21:04:21,BUG: Fixes ticket 1693.,1693,numpy/f2py/crackfortran.py
+67ed62e,Pearu Peterson,2010-12-02 22:04:10,BUG: Fix ticket 1679.,1679,numpy/f2py/crackfortran.py
+8d0b581,rgommers,2010-11-30 22:14:37,ENH: add support for the PathScale compilers on Linux. Closes #1043.,1043,numpy/distutils/ccompiler.py
+8d0b581,rgommers,2010-11-30 22:14:37,ENH: add support for the PathScale compilers on Linux. Closes #1043.,1043,numpy/distutils/fcompiler/__init__.py
+8d0b581,rgommers,2010-11-30 22:14:37,ENH: add support for the PathScale compilers on Linux. Closes #1043.,1043,numpy/distutils/fcompiler/pathf95.py
+8d0b581,rgommers,2010-11-30 22:14:37,ENH: add support for the PathScale compilers on Linux. Closes #1043.,1043,numpy/distutils/pathccompiler.py
+9273a61,rgommers,2010-11-28 09:42:34,DOC: BUG: correct description of ndarray iterator. Closes #1687.,1687
+cfd4c05,Charles Harris,2010-11-24 20:10:10,TST: Add regression test for ticket #1676.,1676,numpy/lib/tests/test_regression.py
+de4de92,pierregm,2010-11-13 19:45:37,genfromtxt: Taking more adequate testing values when updating converters: bug #1665,1665,numpy/lib/_iotools.py
+de4de92,pierregm,2010-11-13 19:45:37,genfromtxt: Taking more adequate testing values when updating converters: bug #1665,1665,numpy/lib/npyio.py
+de4de92,pierregm,2010-11-13 19:45:37,genfromtxt: Taking more adequate testing values when updating converters: bug #1665,1665,numpy/lib/tests/test_io.py
+fad376e,pierregm,2010-11-13 17:54:44,Fix bug #1656,1656,numpy/lib/_iotools.py
+fad376e,pierregm,2010-11-13 17:54:44,Fix bug #1656,1656,numpy/lib/tests/test_io.py
+a9d936e,pierregm,2010-10-13 12:06:23,Fixing genfromtxt: names w/ usecols (bug #1636),1636,numpy/lib/npyio.py
+a9d936e,pierregm,2010-10-13 12:06:23,Fixing genfromtxt: names w/ usecols (bug #1636),1636,numpy/lib/tests/test_io.py
+435c726,rgommers,2010-10-19 21:45:27,BUG: fix issue with incorrect Fortran arch flags. Closes #1399.,1399,numpy/distutils/fcompiler/gnu.py
+12e936a,rgommers,2010-11-03 19:39:49,DOC: BUG: fix bug in example of np.spacing. Closes #1659.,1659,numpy/core/code_generators/ufunc_docstrings.py
+fd19f04,Mark Wiebe,2010-10-26 15:59:37,"BUG: core: Enabled keyword argument for 'order' parameter where it was missing, and tweaked some docs (#1581)",1581,numpy/add_newdocs.py
+fd19f04,Mark Wiebe,2010-10-26 15:59:37,"BUG: core: Enabled keyword argument for 'order' parameter where it was missing, and tweaked some docs (#1581)",1581,numpy/core/fromnumeric.py
+fd19f04,Mark Wiebe,2010-10-26 15:59:37,"BUG: core: Enabled keyword argument for 'order' parameter where it was missing, and tweaked some docs (#1581)",1581,numpy/core/tests/test_multiarray.py
+93f7521,Pauli Virtanen,2010-10-11 23:58:50,"BUG: core: implement a long-int loop for ldexp, for cases where int != long (#1633)",1633,numpy/core/tests/test_umath.py
+1ee71d9,pierregm,2010-10-12 17:46:28,Added tests to test_eq_w_None (bug #1493),1493,numpy/ma/tests/test_core.py
+61d945b,pierregm,2010-10-11 22:24:26,Add more tests to test_eq_w_None (bug #1493),1493,numpy/ma/tests/test_core.py
+11ee694,Pauli Virtanen,2010-10-11 00:40:13,BUG: core: richcompare must indicate undefined comparison via Py_NotImplemented (fixes #1491),1491,numpy/core/tests/test_regression.py
+d7ff907,Pauli Virtanen,2010-10-10 23:50:53,BUG: lib: clean up ancient-Python era stuff from IndexExpression (#1196),1196,numpy/lib/index_tricks.py
+d7ff907,Pauli Virtanen,2010-10-10 23:50:53,BUG: lib: clean up ancient-Python era stuff from IndexExpression (#1196),1196,numpy/lib/tests/test_index_tricks.py
+a16ee31,Pauli Virtanen,2010-10-10 20:09:20,BUG: core: fix duplicate name problems in dtype.names setting (#1598),1598,numpy/core/tests/test_regression.py
+2be8914,Pauli Virtanen,2010-10-10 19:20:52,BUG: core: fix uint64 -> Python int cast (fixes #1287),1287,numpy/core/tests/test_regression.py
+7213c5d,pierregm,2010-09-13 12:34:37,* fixed 'flatten_dtype' to support fields w/ titles (bug #1591). Thx to Stefan vdW for the fix. * added a unittest for flatten_dtype,1591,numpy/lib/_iotools.py
+7213c5d,pierregm,2010-09-13 12:34:37,* fixed 'flatten_dtype' to support fields w/ titles (bug #1591). Thx to Stefan vdW for the fix. * added a unittest for flatten_dtype,1591,numpy/lib/tests/test__iotools.py
+336cd47,Pauli Virtanen,2010-09-11 16:56:14,"BUG: core: on Python3, seek file handle to the current position in npy_PyFile_Dup (fixing #1610)",1610,numpy/core/tests/test_regression.py
+b45222e,Pauli Virtanen,2010-09-11 15:47:22,BUG: core: sync Python 3 file handle position in tofile/fromfile (fixes #1610),1610,numpy/core/tests/test_regression.py
+3843e86,Pauli Virtanen,2010-09-11 14:52:07,BUG: core: fix _dotblas usage on Py3 (fixes #1609),1609,numpy/core/tests/test_blasdot.py
+3843e86,Pauli Virtanen,2010-09-11 14:52:07,BUG: core: fix _dotblas usage on Py3 (fixes #1609),1609,tools/py3tool.py
+bf8f5f4,Pauli Virtanen,2010-09-05 15:23:39,BUG: core/buffer: ensure that array_dealloc runs correctly even when PyErr flag is set (fixes #1605),1605
+2b1f276,Pauli Virtanen,2010-09-04 13:08:27,BUG: distutils: use // in a binary search (fixes #1604 on Python 3),1604,numpy/distutils/command/config.py
+07b7bf3,rgommers,2010-09-04 10:17:19,TST: Change outdated message for knownfail described in #1081.,1081,numpy/core/tests/test_regression.py
+9752b73,rgommers,2010-09-04 09:51:57,"Add doc/swig, doc/cython and doc/pyrex dirs back. Closes #1088.",1088,setup.py
+71dfaec,rgommers,2010-08-25 12:30:32,BUG: Fix bug on Windows in fromfile/tofile. Closes #1583. Thanks to C. Gohkle.,1583
+0855992,rgommers,2010-08-14 13:44:49,DEP: deprecate behavior for out-of-order field indexing of recarrays. See #1431.,1431,numpy/core/_internal.py
+0855992,rgommers,2010-08-14 13:44:49,DEP: deprecate behavior for out-of-order field indexing of recarrays. See #1431.,1431,numpy/core/tests/test_records.py
+fe3a17a,rgommers,2010-08-14 13:43:19,BUG: workaround for undefined isnan/isinf in VS2008. Closes #1502.,1502
+1994e4a,Charles Harris,2010-08-11 01:18:21,BUG: Make mapdomain work for multidimensional arrays as advertized in the documentation. Fixes ticket #1554.,1554,numpy/polynomial/polyutils.py
+1994e4a,Charles Harris,2010-08-11 01:18:21,BUG: Make mapdomain work for multidimensional arrays as advertized in the documentation. Fixes ticket #1554.,1554,numpy/polynomial/tests/test_polyutils.py
+ae2ebe1,Charles Harris,2010-08-10 17:24:23,ENH: Add some tests for ticket #1579. Do some cleanups.,1579,numpy/lib/tests/test_twodim_base.py
+4d40dff,Charles Harris,2010-08-10 17:24:20,BUG: Fix ticket #1579. Do some cleanups.,1579,numpy/lib/twodim_base.py
+3ab71ce,pierregm,2010-08-09 19:27:14,* fixed numpy.ma.extras.flatnotmasked_contiguous (bug #1576),1576,numpy/ma/extras.py
+0c058e7,rgommers,2010-08-08 07:32:32,ENH: Make atleast_3d respect ndarray subclasses. Closes #1560.,1560,numpy/core/shape_base.py
+c2f9eae,rgommers,2010-08-08 06:41:28,TST: fix memmap test error. Closes #1550. Thanks to Christoph Gohlke.,1550,numpy/core/tests/test_memmap.py
+8626a75,Pauli Virtanen,2010-08-03 21:38:16,BUG: core/3K: use bytes.maketrans instead of the deprecated string.maketrans (fixes #1571),1571,numpy/core/code_generators/generate_umath.py
+7232a10,Pauli Virtanen,2010-08-03 21:37:48,BUG: core: fix a missed PyCObject call (#1571),1571
+c7978bd,Pauli Virtanen,2010-07-31 13:48:52,BUG: core: fix refcount error in PyArray_Take (#939),939,numpy/core/tests/test_regression.py
+869ccb8,Pauli Virtanen,2010-07-31 13:07:42,BUG: core/umath: fix powers of complex 0 (#1271),1271,numpy/core/tests/test_umath.py
+62ebd8e,Pauli Virtanen,2010-07-31 11:49:25,TST: Add tests for matlib. Closes #1242.,1242,numpy/matlib.py
+62ebd8e,Pauli Virtanen,2010-07-31 11:49:25,TST: Add tests for matlib. Closes #1242.,1242,numpy/tests/test_matlib.py
+d1a661d,rgommers,2010-07-31 04:41:08,ENH: Make trapz work with ndarray subclasses. Thanks to Ryan May. Closes #1438.,1438,numpy/lib/function_base.py
+d1a661d,rgommers,2010-07-31 04:41:08,ENH: Make trapz work with ndarray subclasses. Thanks to Ryan May. Closes #1438.,1438,numpy/lib/tests/test_function_base.py
+a761330,Pauli Virtanen,2010-07-29 20:07:57,BUG: core/umath: do not create views unnecessarily in ndarray.__array_prepare__ (fixes #1548),1548,numpy/core/tests/test_regression.py
+67668c8,Pauli Virtanen,2010-07-28 21:00:15,"BUG: support assignment x[(0,)] = foo in ndarray subtypes (#1563)",1563,numpy/core/tests/test_regression.py
+88bcac2,rgommers,2010-07-28 15:09:57,"BUG: New implementation of base_repr. Fixes #1549, is several times faster and adds tests. Thanks to K. Maglione.",1549,numpy/core/numeric.py
+88bcac2,rgommers,2010-07-28 15:09:57,"BUG: New implementation of base_repr. Fixes #1549, is several times faster and adds tests. Thanks to K. Maglione.",1549,numpy/core/tests/test_numeric.py
+dc3aa18,rgommers,2010-07-26 14:06:51,DOC: Merge wiki changes for RandomState as far as possible. Closes #1503.,1503
+e659183,Pauli Virtanen,2010-07-18 20:55:56,BUG: core: fix argmax and argmin NaN handling to conform with max/min (#1429),1429,numpy/core/tests/test_multiarray.py
+eab3c1e,Pauli Virtanen,2010-07-18 17:50:28,BUG: core: make set_string_function(None) to restore the functions to what they are on import (#1130),1130,numpy/add_newdocs.py
+eab3c1e,Pauli Virtanen,2010-07-18 17:50:28,BUG: core: make set_string_function(None) to restore the functions to what they are on import (#1130),1130,numpy/core/numeric.py
+eab3c1e,Pauli Virtanen,2010-07-18 17:50:28,BUG: core: make set_string_function(None) to restore the functions to what they are on import (#1130),1130,numpy/core/tests/test_numeric.py
+1985497,Pauli Virtanen,2010-07-18 17:17:58,BUG: core: format 'nan' and 'inf' also in array repr by default (#1050),1050,numpy/core/arrayprint.py
+1985497,Pauli Virtanen,2010-07-18 17:17:58,BUG: core: format 'nan' and 'inf' also in array repr by default (#1050),1050,numpy/core/tests/test_arrayprint.py
+0868330,Pauli Virtanen,2010-07-17 15:15:56,BUG: core: harmonize complex number formatting with Python 2.7 (#1534),1534
+237ed35,Pauli Virtanen,2010-07-09 08:11:39,BUG: random: accept Python long as input to np.random.permutation (#1535),1535,numpy/random/tests/test_random.py
+9b86617,Pauli Virtanen,2010-06-27 11:07:15,BUG: lib: fix sinc to handle array-like inputs properly (fixes #1523),1523,numpy/lib/function_base.py
+9b86617,Pauli Virtanen,2010-06-27 11:07:15,BUG: lib: fix sinc to handle array-like inputs properly (fixes #1523),1523,numpy/lib/tests/test_function_base.py
+6d438e6,Pauli Virtanen,2010-06-19 13:41:39,BUG: f2py: replace a string exception with a real one (fixes #1515),1515,numpy/f2py/capi_maps.py
+e786456,rgommers,2010-06-02 14:54:52,BUG: Enable compiling Fortran code on OS X for ppc64 arch.,1399,numpy/distutils/fcompiler/gnu.py
+a26c364,Charles Harris,2010-05-28 15:53:17,BUG: Fix typo. Closes ticket #1496.,1496
+cb3fb06,Charles Harris,2010-05-26 02:55:09,BUG: Fix failed detection of unsigned integers in _nanop. Fixes ticket #1300.,1300,numpy/lib/function_base.py
+9b0b467,dhuard,2010-05-25 16:48:09,Added tests for float96 for ldexp (ticket #866).,866,numpy/core/tests/test_umath.py
+c7e5351,dhuard,2010-05-25 13:32:03,Fix for ticket #866 (ldexp on 64 bits). Tested on ubuntu 64 bits.,866,numpy/core/tests/test_umath.py
+700512a,Charles Harris,2010-05-24 15:47:29,BUG: Make interp handle 'right' keyword correctly. Add check for empty arrays of sample points. Closes ticket #1064.,1064
+ea2be6e,pierregm,2010-05-16 23:31:21,* Added `apply_over_axes` as requested in ticket #1480,1480,numpy/ma/extras.py
+ea2be6e,pierregm,2010-05-16 23:31:21,* Added `apply_over_axes` as requested in ticket #1480,1480,numpy/ma/tests/test_extras.py
+97a38c4,pierregm,2010-05-16 23:05:30,* add a `replace_space` option to NameValidator * Force a file to be opened in 'U' mode (bug #1473),1473,numpy/lib/_iotools.py
+97a38c4,pierregm,2010-05-16 23:05:30,* add a `replace_space` option to NameValidator * Force a file to be opened in 'U' mode (bug #1473),1473,numpy/lib/npyio.py
+97a38c4,pierregm,2010-05-16 23:05:30,* add a `replace_space` option to NameValidator * Force a file to be opened in 'U' mode (bug #1473),1473,numpy/lib/tests/test_io.py
+5b4964b,Pauli Virtanen,2010-05-13 10:54:44,BUG: core: remove a double-DECREF in _import_umath (fixes #1483),1483,numpy/core/code_generators/generate_ufunc_api.py
+010072e,Pauli Virtanen,2010-05-11 20:44:05,BUG: linalg: check array byte order before passing it to lapack_lite (fixes #1482),1482
+75f99ab,Pauli Virtanen,2010-05-08 16:34:39,BUG: lib: make loadtxt work on Py3 when fh returns unicode (fixes #1479),1479,numpy/lib/npyio.py
+8a6767f,Pauli Virtanen,2010-05-08 16:34:28,BUG: core: ensure we have GIL before calling PyOS_string_to_double (fixes #1345),1345,numpy/core/tests/test_regression.py
+20757e2,Pauli Virtanen,2010-05-06 08:05:05,"numpy.scipy.org: add license information (#1478), tidy up CSS",1478
+63ef871,Pauli Virtanen,2010-05-05 19:28:02,BUG: core: ensure keywords[] list is NULL terminated in array_choose (might be related to #1476),1476
+9836bea,Pauli Virtanen,2010-05-05 19:27:46,BUG: use PyOS_string_to_double on Python 2.7,1345
+30e4150,Charles Harris,2010-05-05 03:34:47,ENH: Add slogdet to the linalg module. The patch is from njs with slogdet substituted for sign_log_det. Closes ticket #1402.,1402,numpy/linalg/__init__.py
+30e4150,Charles Harris,2010-05-05 03:34:47,ENH: Add slogdet to the linalg module. The patch is from njs with slogdet substituted for sign_log_det. Closes ticket #1402.,1402,numpy/linalg/linalg.py
+30e4150,Charles Harris,2010-05-05 03:34:47,ENH: Add slogdet to the linalg module. The patch is from njs with slogdet substituted for sign_log_det. Closes ticket #1402.,1402,numpy/linalg/tests/test_linalg.py
+632623d,Charles Harris,2010-05-05 02:50:00,BUG: Make polyder return a poly1d for the zeroeth order derivative when the input is a poly1d. Fixes ticket #1249.,1249,numpy/lib/polynomial.py
+7a0429a,Pauli Virtanen,2010-04-26 08:16:44,BUG: core: fix a reference count bug in umath:InitOtherOperators (cf #1464),1464
+e045799,Pauli Virtanen,2010-04-25 17:26:08,"BUG: fix reference count bug in set_numeric_ops (fixes #1464, #1462)",1464
+8088b49,Charles Harris,2010-04-25 09:57:19,ENH: Remove order keyword from ndarray.resize. This is pretty much Scott Sinclair's patch from ticket #840.,840,numpy/add_newdocs.py
+8088b49,Charles Harris,2010-04-25 09:57:19,ENH: Remove order keyword from ndarray.resize. This is pretty much Scott Sinclair's patch from ticket #840.,840,numpy/core/tests/test_multiarray.py
+8088b49,Charles Harris,2010-04-25 09:57:19,ENH: Remove order keyword from ndarray.resize. This is pretty much Scott Sinclair's patch from ticket #840.,840,numpy/core/tests/test_regression.py
+6688b8d,pierregm,2010-03-22 01:45:40,* Use putmask instead of fancy indexing in _nanop (bug #1421),1421,numpy/lib/function_base.py
+6688b8d,pierregm,2010-03-22 01:45:40,* Use putmask instead of fancy indexing in _nanop (bug #1421),1421,numpy/lib/tests/test_function_base.py
+81140fe,Pauli Virtanen,2010-03-18 21:43:07,"BUG: lib: fix #1435, np.gradient should use zeros_like",1435,numpy/lib/function_base.py
+81140fe,Pauli Virtanen,2010-03-18 21:43:07,"BUG: lib: fix #1435, np.gradient should use zeros_like",1435,numpy/lib/tests/test_function_base.py
+3b63fc8,pierregm,2010-03-18 15:23:08,* fixed mvoid.__repr__ * fixed mvoid.__str__ for Python 2.4 (bug #1373) * add support to 'fill_value' and 'hardmask' in arange/empty/identity/zeros/ones (#1391) * intercept invalid values in `power` and derived * added empty_like/ones_like/zeros_like to the numpy.ma namespace * Allow indices as masked arrays in numpy.ma.take (#1418) * test_core : temporarily disable warnings when using numpy ufuncs on MaskedArray,1373,numpy/ma/core.py
+3b63fc8,pierregm,2010-03-18 15:23:08,* fixed mvoid.__repr__ * fixed mvoid.__str__ for Python 2.4 (bug #1373) * add support to 'fill_value' and 'hardmask' in arange/empty/identity/zeros/ones (#1391) * intercept invalid values in `power` and derived * added empty_like/ones_like/zeros_like to the numpy.ma namespace * Allow indices as masked arrays in numpy.ma.take (#1418) * test_core : temporarily disable warnings when using numpy ufuncs on MaskedArray,1373,numpy/ma/tests/test_core.py
+3b63fc8,pierregm,2010-03-18 15:23:08,* fixed mvoid.__repr__ * fixed mvoid.__str__ for Python 2.4 (bug #1373) * add support to 'fill_value' and 'hardmask' in arange/empty/identity/zeros/ones (#1391) * intercept invalid values in `power` and derived * added empty_like/ones_like/zeros_like to the numpy.ma namespace * Allow indices as masked arrays in numpy.ma.take (#1418) * test_core : temporarily disable warnings when using numpy ufuncs on MaskedArray,1373,numpy/ma/tests/test_old_ma.py
+a1427e0,mdroe,2010-02-22 20:54:57,Add very basic sanity test for getting include directories (related to ticket #1405),1405,numpy/core/tests/test_regression.py
+755e6eb,mdroe,2010-02-22 19:36:24,Add regression test for ticket #1405,1405,numpy/core/tests/test_regression.py
+18c907f,Charles Harris,2010-02-14 06:53:05,BUG: Apply patch to fix ticket #1326.,1326,numpy/core/tests/test_regression.py
+49c5dc1,Travis Oliphant,2010-02-04 15:07:51,"BUG: Fix #1376, indentation problem.",1376,numpy/distutils/fcompiler/gnu.py
+fd4618b,Travis Oliphant,2010-02-04 14:44:48,BUG: Fix #1379 by applying supplied patch.,1379
+58b5fb9,Travis Oliphant,2010-02-04 14:40:55,BUG: Fix #1388. Return NULL after setting error.   Also simplify ctypeslib prep_simple function.,1388,numpy/ctypeslib.py
+1473800,David Cournapeau,2010-02-02 04:54:53,BUG: fix #1387. Raise ValueError for empty input to bincount.,1387,numpy/lib/tests/test_regression.py
+41ba074,David Cournapeau,2010-02-01 10:56:51,BUG: fix performance issue (#1308).,1308
+786f775,Travis Oliphant,2010-01-24 23:11:57,Apply ifort.patch from ticket #1372 to allow Intel Fortran Compiler 11.1 to be called by numpy.distutils.,1372,numpy/distutils/fcompiler/__init__.py
+786f775,Travis Oliphant,2010-01-24 23:11:57,Apply ifort.patch from ticket #1372 to allow Intel Fortran Compiler 11.1 to be called by numpy.distutils.,1372,numpy/distutils/fcompiler/intel.py
+84b0dfd,Charles Harris,2010-01-20 16:24:49,BUG: Fix ticket #1336 again. Merge for r8072 introduced a regression.,1336
+2bdd749,Charles Harris,2010-01-16 04:33:05,Fix bus error resulting from inlined gcc memcpy alignment assumptions. Fixes ticket #1336.,1336
+d24bb94,pierregm,2010-01-06 08:38:14,* Switch the order of optional parameters in ma.argsort for compatibiity w/ np.argsort (bug #1349),1349,numpy/ma/core.py
+d24bb94,pierregm,2010-01-06 08:38:14,* Switch the order of optional parameters in ma.argsort for compatibiity w/ np.argsort (bug #1349),1349,numpy/ma/tests/test_core.py
+2e28be8,pierregm,2009-12-18 15:35:08,* fix .tolist() for mvoid objects (bug #1330),1330,numpy/ma/core.py
+2e28be8,pierregm,2009-12-18 15:35:08,* fix .tolist() for mvoid objects (bug #1330),1330,numpy/ma/tests/test_core.py
+bc2232b,pierregm,2009-12-18 04:49:20,* Add support for `fill_value` to mvoid * Simplify mvoid._get_data * Simplify MaskedArray.tolist and add support for individually masked fields (bug #1330),1330,numpy/ma/core.py
+bc2232b,pierregm,2009-12-18 04:49:20,* Add support for `fill_value` to mvoid * Simplify mvoid._get_data * Simplify MaskedArray.tolist and add support for individually masked fields (bug #1330),1330,numpy/ma/tests/test_core.py
+b5e472e,David Cournapeau,2009-12-13 11:20:55,BUG: #1329: fix spacing for large values.,1329,numpy/core/tests/test_umath.py
+bfdb22a,David Cournapeau,2009-12-12 09:15:51,BUG: fix #1273: npy-pkg-info files did not work for eggs.,1273,numpy/core/setup.py
+794a6c4,Pauli Virtanen,2009-12-10 19:12:41,ENH: emit ComplexWarning when casting complex to real (addresses #1319),1319,numpy/core/numeric.py
+794a6c4,Pauli Virtanen,2009-12-10 19:12:41,ENH: emit ComplexWarning when casting complex to real (addresses #1319),1319,numpy/core/tests/test_multiarray.py
+f253ac2,David Cournapeau,2009-12-08 08:00:58,"BUG: fix #1317, uncaught SIGFPE when doing MIN_INT32 / -1.",1317,numpy/core/tests/test_regression.py
+801f2b2,Pauli Virtanen,2009-12-07 22:22:45,BUG: Fix bugs in complex pow (fixes #1313),1313,numpy/core/tests/test_umath_complex.py
+9fef443,pierregm,2009-12-07 20:28:09,* Bugfix #1173 and #1174 (Michael D.),1173,numpy/ma/core.py
+9fef443,pierregm,2009-12-07 20:28:09,* Bugfix #1173 and #1174 (Michael D.),1173,numpy/ma/tests/test_core.py
+577dbbd,Pauli Virtanen,2009-12-06 16:20:07,BUG: add a work-around for #1312 -- don't define bf_releasebuffer at all,1312,numpy/core/tests/test_regression.py
+914c498,Travis Oliphant,2009-12-04 12:50:12,"Fix #1175 by only returning NotImplemented in the special case of a 2-input and 1-output ufunc.  Otherwise, a NotImplemented error is raised.",1175
+c355e71,Travis Oliphant,2009-12-04 00:00:22,BUG: Fix #1254 which allowed duplicate name and title entries.,1254,numpy/core/tests/test_regression.py
+85995f9,Travis Oliphant,2009-12-03 21:13:01,Port the fix of the memory-leak reported in #1222 to the trunk.,1222
+fd0866f,Travis Oliphant,2009-12-02 22:07:16,Fix Ticket #1108 by initializing correctly the block of data corresponding to the identity for the ufunc used during reduceat with a buffer.,1108
+17e51af,David Cournapeau,2009-11-27 18:59:55,BUG: (#1221) special case mac os x in numpyconfig.h,1221,numpy/core/setup.py
+17e51af,David Cournapeau,2009-11-27 18:59:55,BUG: (#1221) special case mac os x in numpyconfig.h,1221,numpy/distutils/misc_util.py
+a783074,David Cournapeau,2009-11-27 10:23:31,TST: add a regression test for #1081 (not fixed yet).,1081,numpy/core/tests/test_regression.py
+2d4edf2,David Cournapeau,2009-11-27 09:46:18,BUG: (#1078): fix segfault when creating arrays with a sequence which contains 0d array.,1078,numpy/core/tests/test_regression.py
+d699777,Pauli Virtanen,2009-11-13 19:18:10,"BUG: use %g format in assert_array_*_nulp (fix #1297, thanks to Neil Muller)",1297,numpy/testing/utils.py
+3122ee5,Pauli Virtanen,2009-11-12 20:55:40,"BUG: setuptools does not run install_clib automatically -- run it manually in install_data, if setuptools is present (fix #1194)",1194,numpy/distutils/command/install.py
+3122ee5,Pauli Virtanen,2009-11-12 20:55:40,"BUG: setuptools does not run install_clib automatically -- run it manually in install_data, if setuptools is present (fix #1194)",1194,numpy/distutils/command/install_data.py
+5aa2bb4,pierregm,2009-11-10 19:55:19,* fixed rec.fromrecords for an explicit dtype with an object field (bug #1283),1283,numpy/core/records.py
+5aa2bb4,pierregm,2009-11-10 19:55:19,* fixed rec.fromrecords for an explicit dtype with an object field (bug #1283),1283,numpy/core/tests/test_records.py
+faea0c8,Pauli Virtanen,2009-11-07 21:06:31,"Allow only axis=0 and axis=None for 0-d arrays, and disallow axis>MAX_DIMS (addresses #1286)",1286,numpy/core/tests/test_multiarray.py
+1dba64c,Pauli Virtanen,2009-11-06 09:59:50,linalg: support '0-norm' (scipy ticket #1037),1037,numpy/linalg/linalg.py
+1dba64c,Pauli Virtanen,2009-11-06 09:59:50,linalg: support '0-norm' (scipy ticket #1037),1037,numpy/linalg/tests/test_linalg.py
+a5ebfbb,Charles Harris,2009-11-06 01:53:14,BUG Fix ticket #1285. Problem located by cgranade.,1285,numpy/f2py/cfuncs.py
+c0479b2,Charles Harris,2009-11-03 01:52:51,Apply fix for sun compilation from beffa. Closes ticket #1248.,1248,numpy/distutils/fcompiler/sun.py
+1a8afce,mdroe,2009-10-28 13:32:40,Fix #1276 - comparing string and unicode arrays broken,1276,numpy/core/tests/test_defchararray.py
+11de890,Pearu Peterson,2009-10-25 09:37:31,Introduced intent(align4|align8|align16) attributes. Fixes scipy ticket 794 after using intent(align8) in the corresponding scipy pyf files.,794,numpy/f2py/auxfuncs.py
+11de890,Pearu Peterson,2009-10-25 09:37:31,Introduced intent(align4|align8|align16) attributes. Fixes scipy ticket 794 after using intent(align8) in the corresponding scipy pyf files.,794,numpy/f2py/crackfortran.py
+c660ae4,Charles Harris,2009-10-21 02:13:51,Complete fix to ticket #1229.,1229
+4c297e1,Pauli Virtanen,2009-10-20 21:09:21,Fix bug in regression test for #1259,1259,numpy/core/tests/test_regression.py
+10bc904,Charles Harris,2009-10-20 20:03:24,Apply patch from mdroe to fix ticket #1267. Reformat multiline comments in patch to conform to coding style.,1267,numpy/core/tests/test_regression.py
+2251993,Pauli Virtanen,2009-10-15 22:12:13,Add regression test for #1259,1259,numpy/core/tests/test_regression.py
+bbe934c,mdroe,2009-10-14 19:15:43,Fix #1256: repr of masked array crashes with Unicode elements,1256,numpy/ma/core.py
+bbe934c,mdroe,2009-10-14 19:15:43,Fix #1256: repr of masked array crashes with Unicode elements,1256,numpy/ma/tests/test_regression.py
+29f9857,mdroe,2009-10-14 17:03:38,Fix #1198: Copying objects where the stride between them is not a multiple of sizeof(PyObject*) fails.,1198,numpy/core/tests/test_regression.py
+80851e3,pierregm,2009-10-12 04:45:31,* _iotools.StringConverter   - prevents an explicit default to be overwritten during upgrade * io.genfromtxt   - deprecate `skiprows` for `skip_header`   - deprecate `missing` for `missing_values`   - `missing_values` can now be a sequence   - add support for `filling_values` * fixed ticket #1257,1257,numpy/lib/_iotools.py
+80851e3,pierregm,2009-10-12 04:45:31,* _iotools.StringConverter   - prevents an explicit default to be overwritten during upgrade * io.genfromtxt   - deprecate `skiprows` for `skip_header`   - deprecate `missing` for `missing_values`   - `missing_values` can now be a sequence   - add support for `filling_values` * fixed ticket #1257,1257,numpy/lib/io.py
+80851e3,pierregm,2009-10-12 04:45:31,* _iotools.StringConverter   - prevents an explicit default to be overwritten during upgrade * io.genfromtxt   - deprecate `skiprows` for `skip_header`   - deprecate `missing` for `missing_values`   - `missing_values` can now be a sequence   - add support for `filling_values` * fixed ticket #1257,1257,numpy/lib/tests/test__iotools.py
+80851e3,pierregm,2009-10-12 04:45:31,* _iotools.StringConverter   - prevents an explicit default to be overwritten during upgrade * io.genfromtxt   - deprecate `skiprows` for `skip_header`   - deprecate `missing` for `missing_values`   - `missing_values` can now be a sequence   - add support for `filling_values` * fixed ticket #1257,1257,numpy/lib/tests/test_io.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/lib/_iotools.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/lib/io.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/lib/tests/test__iotools.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/lib/tests/test_io.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/ma/core.py
+8cad335,pierregm,2009-10-09 02:17:30,* ma.masked_equal : force the `fill_value` of the output to `value` (ticket #1253),1238,numpy/ma/tests/test_core.py
+6386708,pierregm,2009-10-06 03:47:07,"* _iotools.StringConverter   - use '1' instead of '0' to test the update   - add `iterupgrade` to upgrade from an iterator * io.genfromtxt (bug #1212)   - use `iterupgrade` to upgrade the converters, and reprocess if there's a problem to catch the offending line",1212,numpy/lib/_iotools.py
+6386708,pierregm,2009-10-06 03:47:07,"* _iotools.StringConverter   - use '1' instead of '0' to test the update   - add `iterupgrade` to upgrade from an iterator * io.genfromtxt (bug #1212)   - use `iterupgrade` to upgrade the converters, and reprocess if there's a problem to catch the offending line",1212,numpy/lib/io.py
+6386708,pierregm,2009-10-06 03:47:07,"* _iotools.StringConverter   - use '1' instead of '0' to test the update   - add `iterupgrade` to upgrade from an iterator * io.genfromtxt (bug #1212)   - use `iterupgrade` to upgrade the converters, and reprocess if there's a problem to catch the offending line",1212,numpy/lib/tests/test_io.py
+31de18a,pierregm,2009-10-05 06:46:22,* Add warnings to genfromtxt describing inconsistencies in the number of columns (bug #1212),1212,numpy/lib/_iotools.py
+31de18a,pierregm,2009-10-05 06:46:22,* Add warnings to genfromtxt describing inconsistencies in the number of columns (bug #1212),1212,numpy/lib/io.py
+31de18a,pierregm,2009-10-05 06:46:22,* Add warnings to genfromtxt describing inconsistencies in the number of columns (bug #1212),1212,numpy/lib/tests/test_io.py
+68e62cc,Charles Harris,2009-09-30 20:40:40,Fix ticket #1243. Patch from gnutino.,1243,numpy/lib/utils.py
+07b0347,Charles Harris,2009-09-27 15:42:23,Apply patch from cmattoon to change '/' to '//'. Closes ticket #1230.,1230,numpy/core/numerictypes.py
+af37d0f,Charles Harris,2009-09-27 14:39:33,Apply patch from Luca Citi to Speed up some reduce ufuncs. Closes ticket #1237.,1237
+65d6067,Charles Harris,2009-09-23 02:17:03,Apply Luca's fixes for ticket #1229.,1229
+eba8839,David Cournapeau,2009-09-16 04:50:52,BUG: fix #1194.,1194,numpy/distutils/command/build_src.py
+bbe188e,pierregm,2009-08-30 18:08:08,* Bugfix for ticket #1207,1207,numpy/ma/core.py
+bbe188e,pierregm,2009-08-30 18:08:08,* Bugfix for ticket #1207,1207,numpy/ma/tests/test_core.py
+1df2235,Pauli Virtanen,2009-08-29 18:37:35,"Fix #1168: fix functionality broken in r7132, and make get_package_path more robust",1168,numpy/testing/nosetester.py
+5c5d5d2,Travis Oliphant,2009-08-25 13:04:09,Add patch in ticket #1138 which fixes mirr function to be the same as Excel and OO Calc.,1138,numpy/lib/financial.py
+0a78665,pierregm,2009-08-06 17:00:23,* fixed np.ma.average on integersw/ mask (bug #1188),1188,numpy/ma/core.py
+0a78665,pierregm,2009-08-06 17:00:23,* fixed np.ma.average on integersw/ mask (bug #1188),1188,numpy/ma/extras.py
+0a78665,pierregm,2009-08-06 17:00:23,* fixed np.ma.average on integersw/ mask (bug #1188),1188,numpy/ma/tests/test_extras.py
+d0bba52,pierregm,2009-08-06 16:38:54,* fixed _from_methods to run on ndarrays (bug #1187),1187,numpy/ma/core.py
+d0bba52,pierregm,2009-08-06 16:38:54,* fixed _from_methods to run on ndarrays (bug #1187),1187,numpy/ma/tests/test_core.py
+1319b2c,Robert Cimrman,2009-07-20 11:59:40,"Fix to setdiff1d (and masked version) + tests (#1133, by N.C.)",1133,numpy/lib/arraysetops.py
+1319b2c,Robert Cimrman,2009-07-20 11:59:40,"Fix to setdiff1d (and masked version) + tests (#1133, by N.C.)",1133,numpy/lib/tests/test_arraysetops.py
+1319b2c,Robert Cimrman,2009-07-20 11:59:40,"Fix to setdiff1d (and masked version) + tests (#1133, by N.C.)",1133,numpy/ma/extras.py
+1319b2c,Robert Cimrman,2009-07-20 11:59:40,"Fix to setdiff1d (and masked version) + tests (#1133, by N.C.)",1133,numpy/ma/tests/test_extras.py
+e84fbd6,Charles Harris,2009-07-19 17:32:49,"Add parisc and alpha to supported cpus. Patch from armin76, fixes ticket #1178.",1178
+c80006f,Travis Oliphant,2009-07-16 04:29:27,Fix #728 again.  This time don't use max on a partially-ordered set.,728,numpy/core/numerictypes.py
+c80006f,Travis Oliphant,2009-07-16 04:29:27,Fix #728 again.  This time don't use max on a partially-ordered set.,728,numpy/core/tests/test_numerictypes.py
+ec034e7,Pauli Virtanen,2009-07-12 22:53:28,Fixed #1168: more robust NoseTester package name detection (patch by Gaël Varoquaux),1168,numpy/testing/nosetester.py
+656cca1,Pauli Virtanen,2009-07-12 22:36:33,Fixed #1162: make matrix_power accept lists etc. as input,1162,numpy/core/defmatrix.py
+656cca1,Pauli Virtanen,2009-07-12 22:36:33,Fixed #1162: make matrix_power accept lists etc. as input,1162,numpy/core/tests/test_defmatrix.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/lib/arraysetops.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/lib/function_base.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/lib/info.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/lib/tests/test_arraysetops.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/ma/extras.py
+c1c0533,Robert Cimrman,2009-07-08 15:46:09,"Enhancements to arraysetops (ticket #1133, by Neil Crighton)",1133,numpy/ma/tests/test_extras.py
+b36a2c1,Charles Harris,2009-07-07 01:54:32,"Oops, branches reversed in fix for ticket #1159. Do it right.",1159
+b2c38b0,Charles Harris,2009-07-07 01:44:43,Make complex division more robust against over/under flow. Fixes ticket #1159.,1159
+144d790,Pauli Virtanen,2009-07-04 12:59:02,Fix versioning and inclusion to ref. guide in docs for #1132,1132,numpy/lib/index_tricks.py
+144d790,Pauli Virtanen,2009-07-04 12:59:02,Fix versioning and inclusion to ref. guide in docs for #1132,1132,numpy/lib/twodim_base.py
+8e96f6a,David Cournapeau,2009-06-30 10:08:27,BUG: Fix NPY_* macros for endianness (#1154).,1154,numpy/core/code_generators/generate_numpy_api.py
+dfd3b74,pierregm,2009-06-29 16:10:11,* Bugfix #1129. Thanks to Reggie.,1129,numpy/ma/core.py
+dfd3b74,pierregm,2009-06-29 16:10:11,* Bugfix #1129. Thanks to Reggie.,1129,numpy/ma/tests/test_core.py
+7371ce1,Charles Harris,2009-06-28 00:42:01,"Fix ticket #1152. When fewer than count elements are read in fromfile, return an array containing all that were read even if the resulting array is empty. No warning message is printed to stderr in this case.",1152
+6cfb1c6,Pauli Virtanen,2009-06-19 13:01:20,Fixed #1140: avoid div-by-zero in iter_coords_get for size=0 arrays,1140,numpy/lib/tests/test_index_tricks.py
+6cfb1c6,Pauli Virtanen,2009-06-19 13:01:20,Fixed #1140: avoid div-by-zero in iter_coords_get for size=0 arrays,1140,numpy/lib/tests/test_regression.py
+8e1b5cf,David Cournapeau,2009-06-09 02:46:05,BUG#1134: Fix handling of depends arg when not given in add_library.,1134,numpy/core/setup.py
+8e1b5cf,David Cournapeau,2009-06-09 02:46:05,BUG#1134: Fix handling of depends arg when not given in add_library.,1134,numpy/distutils/misc_util.py
+4cbf4a6,Charles Harris,2009-06-01 18:01:46,"Fix ticket #1122, out of place declaration.",1122
+49728cd,Charles Harris,2009-05-23 16:13:49,Add test for ticket #1106.,1106,numpy/core/tests/test_regression.py
+ec904b0,Charles Harris,2009-05-23 14:49:06,Fix ticket #1106.,1106
+174ac98,Charles Harris,2009-05-23 02:45:22,Fix ticket #1115. I'll add some tests later.,1115
+87f11ed,David Cournapeau,2009-05-20 03:58:59,"Bug: fix #1111, forgot to consider PPC64 architecture in endian definition.",1111
+2506c5c,Charles Harris,2009-05-16 03:59:15,"Fix ticket #1109. Remove the only remaining use of a string exception from the multiarray module. The string is still in the module dictionary so the  ABI doesn't change, but none of the c code uses it. Any code that *expects* a string exception will break, but I regard this as fixing a bug instead of an addition. There were no other string exceptions used by the code in numpy/core/src.",1109
+1a613e1,Pauli Virtanen,2009-04-24 20:31:22,Fixed #1095: make polyint work well with object arrays,1095,numpy/lib/polynomial.py
+1a613e1,Pauli Virtanen,2009-04-24 20:31:22,Fixed #1095: make polyint work well with object arrays,1095,numpy/lib/tests/test_polynomial.py
+5e0e955,Charles Harris,2009-04-11 22:00:46,Fix ticket #1053. Basically the patch from Sturla Molden.,1053,numpy/core/memmap.py
+e02bf24,Charles Harris,2009-04-10 01:58:27,Fix ticket #928,928,numpy/lib/function_base.py
+e02bf24,Charles Harris,2009-04-10 01:58:27,Fix ticket #928,928,numpy/lib/tests/test_regression.py
+97ffd1e,Charles Harris,2009-04-09 04:19:26,Fix ticket #1080 and add regression test. Do some small cleanup in the process.,1080,numpy/core/tests/test_regression.py
+cdf6562,Pauli Virtanen,2009-03-30 19:06:31,"Fixed #852: avoid filename clashes in savez, by using a secure temporary file name",852,numpy/lib/io.py
+cdf6562,Pauli Virtanen,2009-03-30 19:06:31,"Fixed #852: avoid filename clashes in savez, by using a secure temporary file name",852,numpy/lib/tests/test_io.py
+f29ca7f,David Cournapeau,2009-03-28 07:55:40,BUG: Fix goftran universal flags settings (#1067).,1067,numpy/distutils/fcompiler/gnu.py
+0f2fcb2,David Cournapeau,2009-03-23 07:24:58,Fix regression test for #1062.,1062,numpy/core/tests/test_regression.py
+6b4bdd1,David Cournapeau,2009-03-23 07:24:44,Add regression test for #1062.,1062,numpy/core/tests/test_regression.py
+8640579,David Cournapeau,2009-03-23 06:44:47,BUG: Fix #1061.,1061
+527eebd,David Cournapeau,2009-03-23 06:44:33,Add regression test for #1061.,1061,numpy/core/tests/test_regression.py
+a1e2f9b,Charles Harris,2009-03-14 20:18:53,Fix tickets #921 and #923. Add regression tests.,921,numpy/random/tests/test_random.py
+8f15bfc,David Cournapeau,2009-03-11 07:37:47,"Use NPY_NAN instead of computing a nan - also fix #920, since NPY_NAN is a positive nan.",920
+7382496,Charles Harris,2009-03-10 17:51:03,Fix ticket #1048.,1048
+4a45e03,Pauli Virtanen,2009-03-10 00:23:09,Fixed #950: fix bug in dotblas 0D input detection.,950,numpy/core/tests/test_regression.py
+d771e4e,Pauli Virtanen,2009-03-09 23:09:55,"Fixed #836: ensure z**3 = z*z*z, z**2 == z*z and z**1 == z for complex pow+inf.",836,numpy/core/tests/test_umath.py
+9d6b9b9,Pauli Virtanen,2009-03-09 20:49:55,Fixed #745: make assert_array_almost_equal work with object arrays,745,numpy/testing/tests/test_utils.py
+9d6b9b9,Pauli Virtanen,2009-03-09 20:49:55,Fixed #745: make assert_array_almost_equal work with object arrays,745,numpy/testing/utils.py
+46b375c,dhuard,2009-03-09 16:12:57,Applied Anand's patch fixing Ticket #986 regarding the domain of the Von Mises random variable generator. Regression test added.,986,numpy/random/tests/test_random.py
+4a63253,Charles Harris,2009-03-09 01:00:12,Fix ticket #944.,944,numpy/lib/polynomial.py
+4a63253,Charles Harris,2009-03-09 01:00:12,Fix ticket #944.,944,numpy/lib/tests/test_regression.py
+e40a3f1,David Cournapeau,2009-03-02 16:12:45,Do not use old noprefix header in dotblas (#945).,945
+47caf64,David Cournapeau,2009-03-02 15:08:27,Allow c in dtype for charray (#917).,917,numpy/core/defchararray.py
+47caf64,David Cournapeau,2009-03-02 15:08:27,Allow c in dtype for charray (#917).,917,numpy/core/tests/test_defchararray.py
+4644a29,Pauli Virtanen,2009-03-01 17:07:06,"Fixed #1008: loss of precision issues in arcsin, arcsinh, arctan, arctanh",1008,numpy/core/tests/test_umath.py
+919eef5,David Cournapeau,2009-02-22 03:41:06,"Merged revisions 6398-6400,6410,6421-6424,6426-6428,6431,6433,6441-6442 via svnmerge from http://svn.scipy.org/svn/numpy/trunk",918
+16287f8,Charles Harris,2009-02-21 04:41:17,"Remove terminating "";"" from macro to fix ticket #918.",918
+da364a1,David Cournapeau,2009-02-20 16:37:01,"Merged revisions 6185-6187,6191-6221,6235-6238,6240-6241,6244,6250-6251,6253,6256,6258,6260-6261,6263,6265-6266,6268,6271,6283-6286,6291-6316,6320-6352,6354,6356,6358-6368,6370-6373,6398-6400,6410,6421-6424 via svnmerge from http://svn.scipy.org/svn/numpy/trunk",970
+fb4035f,David Cournapeau,2009-02-15 12:03:15,"Merged revisions 6191-6221,6235-6238,6240-6241,6244,6250-6251,6253,6256,6258,6260-6261,6263,6265-6266,6268,6271,6283-6286,6291-6316,6320-6352,6354,6356,6358-6368 via svnmerge from http://svn.scipy.org/svn/numpy/trunk",970
+114c5c6,Pauli Virtanen,2009-02-09 20:18:08,Fix #955: fix errobj leak in scalarmath floating point error handling,955,numpy/core/tests/test_regression.py
+aeb090d,Alan McIntyre,2009-02-05 20:11:40,Issue #957: - Fix problems with test decorators when used on test generators. - The skip/fail arguments for skipif and knownfailureif can now be   either a bool or a callable that returns a bool. - Added tests for the test decorators.,957,numpy/testing/decorators.py
+aeb090d,Alan McIntyre,2009-02-05 20:11:40,Issue #957: - Fix problems with test decorators when used on test generators. - The skip/fail arguments for skipif and knownfailureif can now be   either a bool or a callable that returns a bool. - Added tests for the test decorators.,957,numpy/testing/tests/test_decorators.py
+d94861c,pierregm,2009-01-07 22:34:51,"* Renamed `torecords` to `toflex`, keeping `torecords` as an alias * Introduced `fromflex`, to reconstruct a masked_array from the output of `toflex` (can’t `use fromrecords` as it would clash with `numpy.ma.mrecords.fromrecords`) * Fixed a bug in MaskedBinaryOperation (#979) (wrong array broadcasting)",979,numpy/ma/core.py
+d94861c,pierregm,2009-01-07 22:34:51,"* Renamed `torecords` to `toflex`, keeping `torecords` as an alias * Introduced `fromflex`, to reconstruct a masked_array from the output of `toflex` (can’t `use fromrecords` as it would clash with `numpy.ma.mrecords.fromrecords`) * Fixed a bug in MaskedBinaryOperation (#979) (wrong array broadcasting)",979,numpy/ma/tests/test_core.py
+c5137ea,pierregm,2009-01-06 20:35:37,* Bugfix #961,961,numpy/ma/core.py
+f838125,Jarrod Millman,2009-01-01 07:56:53,add default include dir for Fedora/Red Hat (see SciPy ticket 817),817,numpy/distutils/system_info.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/ctypeslib.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/testing/__init__.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/testing/noseclasses.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/testing/nosetester.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/testing/numpytest.py
+99d8b6a,Alan McIntyre,2008-12-31 23:46:34,Remove the following deprecated items from numpy.testing:,784,numpy/testing/parametric.py
+1bb5bb5,Pauli Virtanen,2008-12-31 01:14:47,Fix #951: make tests to clean temp files properly,951,numpy/core/tests/test_memmap.py
+1bb5bb5,Pauli Virtanen,2008-12-31 01:14:47,Fix #951: make tests to clean temp files properly,951,numpy/core/tests/test_multiarray.py
+9c869d6,David Cournapeau,2008-12-27 11:46:08,"BUG (#827): close temp file before reopning them on windows, and make sure they are not automatically deleted on close either (2.6and higher specific).",827,numpy/lib/tests/test_io.py
+4251fe7,David Cournapeau,2008-12-27 10:43:41,"BUG (#970): this commit should fix the actual bug, which albeeit linked to commir r6200, was caused in anoter code path.",970,numpy/distutils/fcompiler/compaq.py
+6bbab81,David Cournapeau,2008-12-27 10:15:30,BUG (#970): fix a python 2.6 bug in distutils which caused an unhelpful Error:None message when trying to build with no VS installed and without the -c mingw32 option.,970,numpy/distutils/command/config.py
+d10d563,David Cournapeau,2008-12-22 13:23:03,"Merged revisions 6108,6110,6112-6127,6129-6134,6136-6138,6140-6149,6174-6175,6179-6182,6185-6187 via svnmerge from http://svn.scipy.org/svn/numpy/trunk",954
+4f1e635,David Cournapeau,2008-12-16 18:04:24,BUG: Do not harcode fortran runtime when copying it on windows. Should fix #969.,969,numpy/distutils/fcompiler/gnu.py
+f947ff3,Pauli Virtanen,2008-12-13 16:18:04,"Get lstsq and eigvals from numpy.linalg, not from numpy.dual. Addresses Scipy ticket #800",800,numpy/lib/polynomial.py
+f947ff3,Pauli Virtanen,2008-12-13 16:18:04,"Get lstsq and eigvals from numpy.linalg, not from numpy.dual. Addresses Scipy ticket #800",800,numpy/ma/extras.py
+1720603,Stefan van der Walt,2008-11-29 12:07:07,Add memory map support to `load` [patch by Gael Varoquaux].  Closes #954.,954,numpy/lib/io.py
+d1cc65d,pierregm,2008-11-24 19:12:05,* added ddof to np.matrix.var (bug fix #861),861,numpy/core/defmatrix.py
+d1cc65d,pierregm,2008-11-24 19:12:05,* added ddof to np.matrix.var (bug fix #861),861,numpy/core/tests/test_defmatrix.py
+3a1ffcc,pierregm,2008-11-21 17:12:47,* Prevent the shape of a 1d-singleton to be lost when interacting with masked (bug fix #948),948,numpy/ma/core.py
+3a1ffcc,pierregm,2008-11-21 17:12:47,* Prevent the shape of a 1d-singleton to be lost when interacting with masked (bug fix #948),948,numpy/ma/tests/test_core.py
+03287a6,David Cournapeau,2008-10-05 08:28:42,Merged revisions 5737-5912 via svnmerge from http://svn.scipy.org/svn/numpy/branches/clean_math_config,905
+50d1e8e,David Cournapeau,2008-10-05 07:00:33,Merged revisions 5882-5911 via svnmerge from http://svn.scipy.org/svn/numpy/trunk,925
+a0e082a,Travis Oliphant,2008-10-03 15:55:52,Fix ticket #925,925,numpy/core/tests/test_multiarray.py
+0282bcd,David Cournapeau,2008-09-13 07:04:41,Merged revisions 5762-5811 via svnmerge from http://svn.scipy.org/svn/numpy/trunk,905
+27d5aff,Stefan van der Walt,2008-09-09 13:38:34,FIX: Loadtxt raises on empty input (closes #908).,908,numpy/lib/io.py
+27d5aff,Stefan van der Walt,2008-09-09 13:38:34,FIX: Loadtxt raises on empty input (closes #908).,908,numpy/lib/tests/test_io.py
+c265a81,pierregm,2008-09-05 23:38:44,* fixed deepcopy of masked arrays (bug #906),906,numpy/ma/core.py
+c265a81,pierregm,2008-09-05 23:38:44,* fixed deepcopy of masked arrays (bug #906),906,numpy/ma/tests/test_core.py
+ce75d26,dhuard,2008-09-05 13:58:00,Applied patch from R. May fixing ticket #905 (loadtxt). Fixed other bug occurring when both usecols and converters are provided. Added related regression tests.,905,numpy/lib/io.py
+ce75d26,dhuard,2008-09-05 13:58:00,Applied patch from R. May fixing ticket #905 (loadtxt). Fixed other bug occurring when both usecols and converters are provided. Added related regression tests.,905,numpy/lib/tests/test_io.py
+d0db38a,Travis Oliphant,2008-08-29 12:58:42,Add test for ticket #882 fix.,882,numpy/core/tests/test_regression.py
+adc0cc2,Travis Oliphant,2008-08-29 12:47:34,Fix 0-length sequence error in #882.,882
+ec588c7,David Cournapeau,2008-08-29 02:33:38,Fix regression test for #771.,771,numpy/core/tests/test_regression.py
+eda3f09,Travis Oliphant,2008-08-27 14:31:18,Apply modified version of Andrew Dalke's patch in #874 to create a quicker-loading numpy.,874,numpy/_import_tools.py
+eda3f09,Travis Oliphant,2008-08-27 14:31:18,Apply modified version of Andrew Dalke's patch in #874 to create a quicker-loading numpy.,874,numpy/core/memmap.py
+eda3f09,Travis Oliphant,2008-08-27 14:31:18,Apply modified version of Andrew Dalke's patch in #874 to create a quicker-loading numpy.,874,numpy/core/numerictypes.py
+eda3f09,Travis Oliphant,2008-08-27 14:31:18,Apply modified version of Andrew Dalke's patch in #874 to create a quicker-loading numpy.,874,numpy/lib/_datasource.py
+eda3f09,Travis Oliphant,2008-08-27 14:31:18,Apply modified version of Andrew Dalke's patch in #874 to create a quicker-loading numpy.,874,numpy/lib/format.py
+88c8abb,Charles Harris,2008-08-27 03:17:51,"Revert r5698, r5699, and r5702 until build problems are fixed. Fix ticket #878 differently.",878,numpy/core/code_generators/generate_umath.py
+88c8abb,Charles Harris,2008-08-27 03:17:51,"Revert r5698, r5699, and r5702 until build problems are fixed. Fix ticket #878 differently.",878,numpy/lib/ufunclike.py
+755cc21,Charles Harris,2008-08-26 19:32:02,Small style cleanup. Need work for ticket #893.,893,numpy/ma/extras.py
+2c7654a,Charles Harris,2008-08-26 19:30:50,BUG: fix part of ticket #893,893,numpy/ma/core.py
+a51e8e3,Travis Oliphant,2008-08-24 02:26:44,BUG: Fix to ticket #816: calling object_() Segfaults.,816,numpy/core/tests/test_regression.py
+ded1bf7,Travis Oliphant,2008-08-06 17:34:56,Fix ticket #877 along with other bugs not yet reported for data-types with titles.,877
+ce5fc0a,David Cournapeau,2008-08-04 12:00:34,Add test for #844 (inner product pb with atlas).,844,numpy/core/tests/test_blasdot.py
+20a3dc5,Charles Harris,2008-07-20 19:24:54,Fix ticket #794.,794,numpy/core/tests/test_regression.py
+f90a924,Charles Harris,2008-07-16 21:30:07,Fix ticket #849. Thanks to Michael Abbott. The added check for NULL descr isn't really needed here because the typenums used don't allow such returns. But knowing that requires knowledge of PyArray_DescrFromType internals and not checking makes the code fragile.,849
+b788f25,Pauli Virtanen,2008-07-16 21:01:31,Fix ticket #837. Avoid infinite loop in fromfile/fromstring by ensuring that *_skip_separator always consumes at least one character or fails.,837,numpy/core/tests/test_multiarray.py
+f48abc5,Charles Harris,2008-07-16 20:23:29,Fix ticket #850. Thanks to Michael Abbott for the patch.,850
+ebf8dce,Travis Oliphant,2008-07-08 17:02:15,Fix ref-count leak in Ticket #843,843
+a3adda5,Charles Harris,2008-06-28 17:05:37,Fix ticket #828 by explicitly sorting keys instead of relying on pprint. Thanks to Neil Muller for the analysis and patch.,828,numpy/lib/format.py
+8408929,Charles Harris,2008-06-27 05:26:25,Add regression test for #825.,825,numpy/core/tests/test_regression.py
+b8c5c9c,Charles Harris,2008-06-07 22:43:03,"Fix missing return value, closes ticket #813.",813
+abd2bda,Christoph Weidemann,2008-06-07 05:08:06,Testcases for ticket #791,791,numpy/core/tests/test_regression.py
+8c6fc02,Travis Oliphant,2008-06-05 23:27:52,Fix more in ticket #791.,791,numpy/core/tests/test_regression.py
+222043b,dhuard,2008-06-05 17:40:15,added verbose argument to assert_array_equal in assert_equal. Fixes ticket #810.,810,numpy/testing/utils.py
+29175fc,pierregm,2008-06-03 23:14:16,"core * masked_values now accept a shrink argument * fixed the divide_tolerance to numpy.finfo(float).tiny (bug #807) * in MaskedArray.__idiv__, use np.where instead of np.putmask to mask the denominator",807,numpy/ma/core.py
+29175fc,pierregm,2008-06-03 23:14:16,"core * masked_values now accept a shrink argument * fixed the divide_tolerance to numpy.finfo(float).tiny (bug #807) * in MaskedArray.__idiv__, use np.where instead of np.putmask to mask the denominator",807,numpy/ma/tests/test_core.py
+b547bbf,pierregm,2008-06-03 21:23:15,"core: * use the ""import numpy as np"" convention * use np.function instead of (from)numeric.function * CHANGE : when using named fields, the fill_value is now a void-ndarray (and no longer a tuple) * _check_fill_value now checks that an existing fill_value is compatible with a new dtype (bug #806) * fix_invalid now accepts the mask keyword * MaskedArray.__new__ doesn't run _check_fill_value when the fill_value is None * add the astype method, to support the conversion of fill_value when needed. * arange/empty/empty_like/ones/zeros are now available through _convert2ma",806,numpy/ma/core.py
+b547bbf,pierregm,2008-06-03 21:23:15,"core: * use the ""import numpy as np"" convention * use np.function instead of (from)numeric.function * CHANGE : when using named fields, the fill_value is now a void-ndarray (and no longer a tuple) * _check_fill_value now checks that an existing fill_value is compatible with a new dtype (bug #806) * fix_invalid now accepts the mask keyword * MaskedArray.__new__ doesn't run _check_fill_value when the fill_value is None * add the astype method, to support the conversion of fill_value when needed. * arange/empty/empty_like/ones/zeros are now available through _convert2ma",806,numpy/ma/mrecords.py
+b547bbf,pierregm,2008-06-03 21:23:15,"core: * use the ""import numpy as np"" convention * use np.function instead of (from)numeric.function * CHANGE : when using named fields, the fill_value is now a void-ndarray (and no longer a tuple) * _check_fill_value now checks that an existing fill_value is compatible with a new dtype (bug #806) * fix_invalid now accepts the mask keyword * MaskedArray.__new__ doesn't run _check_fill_value when the fill_value is None * add the astype method, to support the conversion of fill_value when needed. * arange/empty/empty_like/ones/zeros are now available through _convert2ma",806,numpy/ma/tests/test_core.py
+b547bbf,pierregm,2008-06-03 21:23:15,"core: * use the ""import numpy as np"" convention * use np.function instead of (from)numeric.function * CHANGE : when using named fields, the fill_value is now a void-ndarray (and no longer a tuple) * _check_fill_value now checks that an existing fill_value is compatible with a new dtype (bug #806) * fix_invalid now accepts the mask keyword * MaskedArray.__new__ doesn't run _check_fill_value when the fill_value is None * add the astype method, to support the conversion of fill_value when needed. * arange/empty/empty_like/ones/zeros are now available through _convert2ma",806,numpy/ma/testutils.py
+ca33dd3,Charles Harris,2008-05-24 16:41:19,Define copy_string to memcpy. Closes ticket #666.,666
+ae31c23,Travis Oliphant,2008-05-22 03:43:55,Fix ticket #789 again.,789,numpy/core/tests/test_regression.py
+d8c0928,David Cournapeau,2008-05-22 02:02:36,Fix #789 by Alan Mcintyre.,789,numpy/core/tests/test_regression.py
+d5519c4,Stefan van der Walt,2008-05-15 09:50:58,Add test for #788 [patch by Eric Firing].,788,numpy/core/setup.py
+d5519c4,Stefan van der Walt,2008-05-15 09:50:58,Add test for #788 [patch by Eric Firing].,788,numpy/core/tests/test_records.py
+d5519c4,Stefan van der Walt,2008-05-15 09:50:58,Add test for #788 [patch by Eric Firing].,788,numpy/core/tests/test_regression.py
+f968b18,Pearu Peterson,2008-05-15 07:56:05,Changed an idiom of appending strings to a buffer. Fixes numpy ticket 792.,792
+e3d0fec,Travis Oliphant,2008-05-13 16:40:19,Fix ticket #791.,791,numpy/core/tests/test_multiarray.py
+e3d0fec,Travis Oliphant,2008-05-13 16:40:19,Fix ticket #791.,791,numpy/lib/io.py
+890c8cd,Pauli Virtanen,2008-05-08 08:02:15,Test for ticket #551 part of r5140,551,numpy/core/tests/test_regression.py
+c32a389,Travis Oliphant,2008-05-07 20:24:34," * Make matrices return 1-dimensional array on item selection for 1.2\n * Remove (now un-needed) tolist method from matrices\n * For ticket #551, copy data if start of memory is not aligned on itemsize location in optimized blas wrapper.",551,numpy/core/defmatrix.py
+28b0f98,Stefan van der Walt,2008-04-28 07:35:55,Site.cfg can still have DEFAULT section (closes #751).,751
+95235b9,Charles Harris,2008-04-26 23:29:01,Code style cleanups and fix for ticket #743. Lets try this without corrupted merge files.,743
+772b0da,Charles Harris,2008-04-22 03:48:21,Fix incorrect output types for some ufuncs. This fixes ticket #747.,747,numpy/core/code_generators/generate_umath.py
+cb7de97,Jarrod Millman,2008-04-20 11:24:30,"Reverting r4481, see #723",723,numpy/distutils/ccompiler.py
+b4be377,Pauli Virtanen,2008-04-19 23:28:05,Fixing #738: Even more careful drive letter handling. And make the tests actually pass on Windows.,738,numpy/lib/_datasource.py
+b4be377,Pauli Virtanen,2008-04-19 23:28:05,Fixing #738: Even more careful drive letter handling. And make the tests actually pass on Windows.,738,numpy/lib/tests/test__datasource.py
+3888ac4,Pauli Virtanen,2008-04-19 22:29:47,Fixing #738: remember to sanitize away also Windows drive letters,738,numpy/lib/_datasource.py
+5fc5deb,Pauli Virtanen,2008-04-19 21:45:35,Fix bug #738 and add corresponding tests.,738,numpy/lib/_datasource.py
+5fc5deb,Pauli Virtanen,2008-04-19 21:45:35,Fix bug #738 and add corresponding tests.,738,numpy/lib/tests/test__datasource.py
+a0726b5,Travis Oliphant,2008-04-11 07:08:13,Add lookfor function from ticket #734,734,numpy/lib/utils.py
+3811cb8,Travis Oliphant,2008-04-11 06:59:11,Add one more test from ticket #728,728,numpy/lib/tests/test_index_tricks.py
+7e1350d,Travis Oliphant,2008-04-11 06:53:49,Fixed #728 scalar coercion problem with mixed types and r_,728,numpy/core/numerictypes.py
+7e1350d,Travis Oliphant,2008-04-11 06:53:49,Fixed #728 scalar coercion problem with mixed types and r_,728,numpy/core/tests/test_numerictypes.py
+7e1350d,Travis Oliphant,2008-04-11 06:53:49,Fixed #728 scalar coercion problem with mixed types and r_,728,numpy/lib/index_tricks.py
+7e1350d,Travis Oliphant,2008-04-11 06:53:49,Fixed #728 scalar coercion problem with mixed types and r_,728,numpy/lib/tests/test_index_tricks.py
+be25d94,Stefan van der Walt,2008-04-10 09:15:00,"Add check for printing complex dtypes, closes #693.",693,numpy/core/tests/test_regression.py
+9b56ad4,Robert Kern,2008-04-09 20:13:22,Fix #581.,581,numpy/random/tests/test_random.py
+6a94903,Pearu Peterson,2008-04-09 14:38:15,Apply modified patch from ticket 673. The patch is effective when using unoptimized lapack shipped with numpy [tested] or if optimized lapack library does not have xerbla_ defined [not tested],673,numpy/linalg/setup.py
+bda689e,Stefan van der Walt,2008-04-09 11:38:26,Regression test for ticket #714.,714,numpy/core/tests/test_regression.py
+737f9a1,dhuard,2008-04-09 00:56:39,Formatted the docstring. Added comment regarding the handling of missing values. Addresses ticket #717.,717,numpy/lib/io.py
+e4e3018,aarchiba,2008-04-08 18:49:18,"Added function for computing condition number, with tests and docs; closes #622.",622,numpy/linalg/linalg.py
+e4e3018,aarchiba,2008-04-08 18:49:18,"Added function for computing condition number, with tests and docs; closes #622.",622,numpy/linalg/tests/test_linalg.py
+f2e6d8e,dhuard,2008-04-04 20:13:24,Modified io._getconv to allow loading values stored as float as integers arrays. Added test to check the behavior as suggested in the comment from b. southey in ticket #623,623,numpy/lib/io.py
+f2e6d8e,dhuard,2008-04-04 20:13:24,Modified io._getconv to allow loading values stored as float as integers arrays. Added test to check the behavior as suggested in the comment from b. southey in ticket #623,623,numpy/lib/tests/test_io.py
+8784a1a,dhuard,2008-04-03 14:06:33,Fixed a bug with loadtxt and savetxt failing on record arrays. This addresses ticket #623. Added simple tests for loadtxt and savetxt.,623,numpy/lib/io.py
+8784a1a,dhuard,2008-04-03 14:06:33,Fixed a bug with loadtxt and savetxt failing on record arrays. This addresses ticket #623. Added simple tests for loadtxt and savetxt.,623,numpy/lib/tests/test_io.py
+a0cac20,Travis Oliphant,2008-03-28 05:08:21,Add test for fix to #713.,713,numpy/core/tests/test_regression.py
+084582b,Travis Oliphant,2008-03-27 03:38:14,Added patch from ticket #610 to allow floats in interp.,610,numpy/lib/function_base.py
+5025237,Stefan van der Walt,2008-03-22 16:31:25,Add test for ticket #632.,632,numpy/core/tests/test_regression.py
+2805147,Stefan van der Walt,2008-03-22 16:25:58,Add test for #629.,629,numpy/core/tests/test_scalarmath.py
+50a4053,Stefan van der Walt,2008-03-22 14:47:02,Add regression test for ticket #702.,702,numpy/core/tests/test_regression.py
+64d3185,Stefan van der Walt,2008-03-22 14:38:22,Add regression test for #555.,555,numpy/core/tests/test_regression.py
+fd1cbdf,David Cournapeau,2008-03-22 07:04:43,Include patch from jsbronder to fix ticket #644 related to nocona cpu detection.,644,numpy/distutils/cpuinfo.py
+b2bbe26,Travis Oliphant,2008-03-22 06:55:41,Re-generated the pyrex mtrand code after fixing seed setting bug: ticket #555,555
+a3e6098,Travis Oliphant,2008-03-22 06:45:57,Attempt to fix ticket #555,555
+5696770,Travis Oliphant,2008-03-22 04:23:42,Change iteration loop number to a defined value and increment it.  Should fix ticket #706.,706
+dd868d8,Travis Oliphant,2008-03-22 03:06:28,Fix ticket #702 (as well as other speed ups).,702
+e949b18,Travis Oliphant,2008-03-22 01:00:25,Fix ticket #670.,670
+be077da,Travis Oliphant,2008-03-22 00:24:21,More complete fix to #647 so that fast copy is not attempted on portions of record arrays.,647
+9b9fcfc,Travis Oliphant,2008-03-22 00:10:11,Add regression test in Ticket #711 which is the fix by pv,711,numpy/core/tests/test_regression.py
+e26b067,Travis Oliphant,2008-03-21 23:54:58,Fix ticket #711 by more carefully guarding object array reference counting.,711
+971218b,David Cournapeau,2008-03-21 13:35:50,Add regression for #627.,627,numpy/linalg/tests/test_regression.py
+ea1b836,David Cournapeau,2008-03-21 13:28:29,Add regression test for #662.,662,numpy/linalg/tests/test_regression.py
+948e086,David Cournapeau,2008-03-21 13:08:21,Add regression test for #628.,628,numpy/lib/tests/test_regression.py
+c9e6f30,David Cournapeau,2008-03-21 12:49:41,Fix typo (bug #704).,704,numpy/distutils/command/build_clib.py
+344a859,Stefan van der Walt,2008-03-21 09:15:56,"Fix memory leak in _copy_from0d.  Investigated by Matthieu, patched by pv.  Closes #633.",633,numpy/core/tests/test_regression.py
+c70befd,pierregm,2008-03-18 22:03:34,- fixed masked_where (bug #703) - simplified 'masked_invalid' and added it to __all__ - added the 'out' optional parameter to .mean,703,numpy/ma/core.py
+c70befd,pierregm,2008-03-18 22:03:34,- fixed masked_where (bug #703) - simplified 'masked_invalid' and added it to __all__ - added the 'out' optional parameter to .mean,703,numpy/ma/tests/test_core.py
+d40e565,Charles Harris,2008-03-16 02:40:57,"Rewrite average and document it. Remove inappropriate test of average. This should close ticket 700, but someone else should check the documentation to see if the new function does what it is supposed to, whatever the heck that was.",700,numpy/lib/function_base.py
+d40e565,Charles Harris,2008-03-16 02:40:57,"Rewrite average and document it. Remove inappropriate test of average. This should close ticket 700, but someone else should check the documentation to see if the new function does what it is supposed to, whatever the heck that was.",700,numpy/lib/tests/test_function_base.py
+6b3b8d4,dhuard,2008-03-14 15:19:58,Added test for 4D histogramdd case. Ticket 690.,690,numpy/lib/tests/test_function_base.py
+e3fbd79,Stefan van der Walt,2008-03-12 08:08:57,Add regression test for r4798 (ticket #658).,658,numpy/core/tests/test_regression.py
+5db434d,Stefan van der Walt,2008-03-11 07:14:54,Add regression test for ticket #608.,608,numpy/core/tests/test_regression.py
+0ef3f8b,Charles Harris,2008-03-06 05:03:02,Apply David's patch to fix ticket 653.,653,numpy/distutils/cpuinfo.py
+a783bfd,Charles Harris,2008-03-05 06:20:04,Fix ticket 597. The conversion of negative numbers to uint64 returned the wrong values.,597,numpy/core/tests/test_regression.py
+6a63cc3,Robert Kern,2008-02-29 21:21:04,"Fix #643. This doesn't resolve *all* of the issues of working within a Turkish locale, but this will work around the bug that the OLPC project found.",643,numpy/core/code_generators/generate_umath.py
+6a63cc3,Robert Kern,2008-02-29 21:21:04,"Fix #643. This doesn't resolve *all* of the issues of working within a Turkish locale, but this will work around the bug that the OLPC project found.",643,numpy/core/numerictypes.py
+4ded091,Stefan van der Walt,2008-02-13 20:37:28,Add regression tests for tickets #657 and #658.,657,numpy/core/tests/test_regression.py
+7711db0,Travis Oliphant,2008-02-13 06:11:19,Fix ticket #658 which is a segfault on a corner case for copy detection.,658
+3af7329,pierregm,2008-01-30 18:32:11,maskedarray.core: * fixed __getitem__ on records when fill_value is not set * fixed _extrema_operation.reduce to accept non arrays as arguments (ticket #645),645,numpy/ma/core.py
+74eec4e,Travis Oliphant,2008-01-29 03:14:01,Fix fromstring to match fromfile behavior when parsing integers (base-10 only).  Ticket #650,650,numpy/add_newdocs.py
+c1efbb1,Travis Oliphant,2008-01-22 19:44:13,Fix bug in ticket #592 for non-array sequence bin arguments.,592,numpy/lib/function_base.py
+db45fc7,Stefan van der Walt,2008-01-10 19:33:10,Fix concatenation.  Closes ticket #642.,642,numpy/ma/core.py
+db45fc7,Stefan van der Walt,2008-01-10 19:33:10,Fix concatenation.  Closes ticket #642.,642,numpy/ma/tests/test_core.py
+6dbe4f3,Stefan van der Walt,2007-11-18 22:44:06,Fix indexing with array scalar. Closes #603.,603,numpy/core/tests/test_regression.py
+4ae613d,Stefan van der Walt,2007-11-18 00:00:37,Fix arange output byteorder.  Closes ticket #616.,616,numpy/core/tests/test_regression.py
+86a257e,Travis Oliphant,2007-10-29 01:07:46,Fix memory leak in seterr exposed during str(a).  Fixes #602,602
+1f0d060,Travis Oliphant,2007-10-26 22:33:14,Fix ticket #599,599,numpy/core/fromnumeric.py
+0dbf6c3,Travis Oliphant,2007-10-26 21:44:47,Add test for #600 fix.,600,numpy/core/tests/test_regression.py
+9034d6b,Travis Oliphant,2007-10-26 21:39:08,Finish fixing ticket #600,600
+21b4bee,Jarrod Millman,2007-10-19 04:33:58,raise error if histogram is called with a decending range to bin into (see #586),586,numpy/lib/function_base.py
+bee1070,Travis Oliphant,2007-10-17 04:06:29,Fix ticket #592: segfault with bitwise_or inplace,592,numpy/core/tests/test_regression.py
+8095de4,Travis Oliphant,2007-10-09 03:08:26,Fix Ticket #588: problem with negative striding and fast blas implementation of dot,588,numpy/core/tests/test_regression.py
+8095de4,Travis Oliphant,2007-10-09 03:08:26,Fix Ticket #588: problem with negative striding and fast blas implementation of dot,588,numpy/lib/function_base.py
+325cd58,Stefan van der Walt,2007-09-30 10:41:27,Fix tri when dtype is bool (closes ticket #574).,574,numpy/lib/tests/test_twodim_base.py
+325cd58,Stefan van der Walt,2007-09-30 10:41:27,Fix tri when dtype is bool (closes ticket #574).,574,numpy/lib/twodim_base.py
+a64b5f0,Travis Oliphant,2007-09-21 16:54:38,Add a fix for ticket #582 by adding a framework for clearing the floating point exception registers for extension modules compiled with different compilers.,582,numpy/core/code_generators/generate_ufunc_api.py
+06832eb,Travis Oliphant,2007-09-21 01:22:44,Fix ticket #546: invalid argmax for non-native arrays.,546,numpy/core/tests/test_regression.py
+c189d6d,Stefan van der Walt,2007-09-20 06:45:23,Add regression test for ticket #572.,572,numpy/core/tests/test_regression.py
+b1cc248,Travis Oliphant,2007-09-20 02:08:54,Fix ticket #572:  memory leak in _insert for 0-d input.,572
+ff21b48,Stefan van der Walt,2007-08-07 10:31:44,Make sure we import numpy's configuration. Closes ticket #565.,565,numpy/__init__.py
+5d48245,Stefan van der Walt,2007-08-06 12:42:58,Fix string conversion of polynomial when leading coefficients are zero. Closes ticket #564.,564,numpy/lib/polynomial.py
+5d48245,Stefan van der Walt,2007-08-06 12:42:58,Fix string conversion of polynomial when leading coefficients are zero. Closes ticket #564.,564,numpy/lib/tests/test_polynomial.py
+2994141,Stefan van der Walt,2007-07-27 14:36:28,Convert large integer scalars to long instead of to int [patch by Xavier].  Closes ticket #549.,549,numpy/core/tests/test_scalarmath.py
+eb12ad4,Stefan van der Walt,2007-07-24 07:46:07,Fix polygon division. Closes ticket #553.,553,numpy/core/tests/test_regression.py
+eb12ad4,Stefan van der Walt,2007-07-24 07:46:07,Fix polygon division. Closes ticket #553.,553,numpy/lib/polynomial.py
+134e4bb,Stefan van der Walt,2007-07-23 13:12:55,Fix randint. Closes ticket #552.,552,numpy/core/tests/test_regression.py
+134e4bb,Stefan van der Walt,2007-07-23 13:12:55,Fix randint. Closes ticket #552.,552,numpy/oldnumeric/random_array.py
+855587e,Stefan van der Walt,2007-07-16 17:42:56,Clean up fromnumeric docstrings.  Closes ticket #543.,543,numpy/core/fromnumeric.py
+7b76ca7,Pearu Peterson,2007-06-05 18:54:28,Fix ticket 535.,535,setup.py
+bbfdf12,cookedm,2007-06-03 04:26:22,"Fix #534, introduced by r3856. The return when exe_cache had something in it meant that FCompiler.find_executables would be executed *once*, regardless of how many subclasses called it.",534,numpy/distutils/fcompiler/__init__.py
+9ddd860,Pearu Peterson,2007-05-25 08:16:26,fix ticket 526,526,numpy/distutils/fcompiler/__init__.py
+b6664e2,Stefan van der Walt,2007-05-23 12:43:09,Add regression test for ticket #501 [patch by Andrew Straw].,501,numpy/core/tests/test_regression.py
+74057de,Travis Oliphant,2007-05-22 23:12:03,Fix ticket #501 which caused some array printing problems,501,numpy/core/arrayprint.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,command/build_clib.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,command/build_src.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,fcompiler/gnu.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,fcompiler/intel.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,misc_util.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,system_info.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/f2py_ext/setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/f2py_f90_ext/setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/gen_ext/setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/pyrex_ext/setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/setup.py
+4c657ed,cookedm,2007-05-16 15:27:12,Merged revisions 3732-3768 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,515,tests/swig_ext/setup.py
+1135754,cookedm,2007-05-14 09:25:11,"With gfortran, compile modern Xeon's with EM64T with -march=nocona (#515)",515,numpy/distutils/fcompiler/gnu.py
+3584753,Charles Harris,2007-05-13 23:22:17,Add patch from dhuard to histogramdd. Fixes ticket #509.,509,numpy/lib/function_base.py
+3584753,Charles Harris,2007-05-13 23:22:17,Add patch from dhuard to histogramdd. Fixes ticket #509.,509,numpy/lib/tests/test_function_base.py
+6ec4281,Charles Harris,2007-05-13 20:15:09,Fix ticket #506 by applying the patch from cdavid.,506
+6d8010c,Travis Oliphant,2007-05-10 22:42:48,Fix ticket #514 (and probably others) due to inappropriate fixing of largest string type on common type conversion.,514
+9795a2c,cookedm,2007-04-30 22:11:03,[distutils-revamp branch] Merged revisions 3485-3731 via svnmerge from http://svn.scipy.org/svn/numpy/trunk/numpy/distutils,491
+41861b5,Travis Oliphant,2007-04-20 20:27:01,Fix byte-swapping error on conversion to Object array from big-endian array (byte-swapping was happening twice in that case).  This fixes #503.,503
+ad22a17,Robert Kern,2007-04-04 17:25:29,Fix #491,491,numpy/distutils/misc_util.py
+ad22a17,Robert Kern,2007-04-04 17:25:29,Fix #491,491,numpy/f2py/__version__.py
+ad22a17,Robert Kern,2007-04-04 17:25:29,Fix #491,491,numpy/version.py
+f03bfae,cookedm,2007-04-02 12:08:34,"Fixes #488. In rk_interval, use rk_random if the interval size is less than 2**32. For 64-bit machines, this means results will agree with 32-bit machines, and will be faster for these interval sizes (one less rk_random evaluation).",488
+b158139,Travis Oliphant,2007-04-01 19:49:58,Fix segfault in ticket #487,487
+f89443c,Travis Oliphant,2007-03-29 19:21:58,Fix ticket #485 by improving how a dtype variable reports its length.,485
+6d9195d,Travis Oliphant,2006-09-23 17:59:06,Fix for #291,291,numpy/lib/shape_base.py

@@ -1,0 +1,1067 @@
+file,method,params,startlineno,endlineno
+setup.py,read,fname,10,11
+src\ralph\apps.py,ready,self,10,21
+src\ralph\helpers.py,add_request_to_form,"form_class, request",4,6
+src\ralph\helpers.py,get_model_view_url_name,"model, view_name, with_admin_namespace=True",9,19
+src\ralph\helpers.py,generate_pdf_response,"pdf_data, file_name",22,34
+src\ralph\__init__.py,monkey_options_init,"self, meta, app_label",7,9
+src\ralph\__main__.py,main,"settings_module='ralph.settings', force=False",6,14
+src\ralph\__main__.py,dev,,17,18
+src\ralph\__main__.py,test,,21,25
+src\ralph\__main__.py,prod,,28,29
+src\ralph\accounts\admin.py,_simplify_permissions,"self, queryset",42,63
+src\ralph\accounts\admin.py,__init__,"self, *args, **kwargs",69,73
+src\ralph\accounts\admin.py,url,"self, item",78,84
+src\ralph\accounts\admin.py,user_licence,"self, item",88,104
+src\ralph\accounts\admin.py,report_failure,"self, item",106,115
+src\ralph\accounts\admin.py,url,"self, item",121,127
+src\ralph\accounts\admin.py,get_user,self,135,138
+src\ralph\accounts\admin.py,get_asset_queryset,self,140,143
+src\ralph\accounts\admin.py,get_licence_queryset,self,145,148
+src\ralph\accounts\admin.py,get_context_data,"self, **kwargs",150,165
+src\ralph\accounts\admin.py,get_user,self,174,175
+src\ralph\accounts\admin.py,get_context_data,"self, **kwargs",184,191
+src\ralph\accounts\admin.py,get_queryset,"self, *args, **kwargs",232,234
+src\ralph\accounts\admin.py,_ldap_groups,self,246,252
+src\ralph\accounts\admin.py,ldap_mapping,"self, obj",254,255
+src\ralph\accounts\admin.py,users_list,"self, obj",258,265
+src\ralph\accounts\admin.py,formfield_for_manytomany,"self, db_field, request=None, **kwargs",269,276
+src\ralph\accounts\ldap.py,staff_superuser_populate,"sender, user, ldap_user, **kwargs",16,22
+src\ralph\accounts\ldap.py,mirror_groups,self,25,61
+src\ralph\accounts\ldap.py,manager_country_attribute_populate,"sender, user, ldap_user, **kwargs",67,93
+src\ralph\accounts\ldap.py,_get_group,"self, group_dn, ldap_user, group_search",99,104
+src\ralph\accounts\ldap.py,user_groups,"self, ldap_user, group_search",106,122
+src\ralph\accounts\ldap.py,group_name_from_info,"self, group_info",124,136
+src\ralph\accounts\models.py,has_region,user,21,26
+src\ralph\accounts\models.py,object_has_region,user,41,46
+src\ralph\accounts\models.py,__str__,self,141,145
+src\ralph\accounts\models.py,api_token_key,self,147,152
+src\ralph\accounts\models.py,regions_ids,self,154,162
+src\ralph\accounts\models.py,has_any_perms,"self, perms, obj=None",165,166
+src\ralph\accounts\models.py,save,"self, *args, **kwargs",168,175
+src\ralph\accounts\models.py,autocomplete_str,self,177,179
+src\ralph\accounts\models.py,create_auth_token,"sender, instance=None, created=False, **kwargs",182,188
+src\ralph\accounts\views.py,user_licence,"self, item",15,28
+src\ralph\accounts\views.py,get_context_data,"self, **kwargs",34,59
+src\ralph\accounts\views.py,get_links,self,61,74
+src\ralph\accounts\views.py,get_user,self,76,77
+src\ralph\accounts\management\commands\ldap_sync.py,_truncate,"field_key, field_name, ldap_dict",24,32
+src\ralph\accounts\management\commands\ldap_sync.py,__init__,self,37,42
+src\ralph\accounts\management\commands\ldap_sync.py,__enter__,self,45,46
+src\ralph\accounts\management\commands\ldap_sync.py,__exit__,"self, type, value, traceback",48,49
+src\ralph\accounts\management\commands\ldap_sync.py,__init__,"self, backend",58,84
+src\ralph\accounts\management\commands\ldap_sync.py,get_group_from_db,"self, name",87,89
+src\ralph\accounts\management\commands\ldap_sync.py,handle,"self, user",91,103
+src\ralph\accounts\management\commands\ldap_sync.py,_create_or_update_user,"self, user_dn, ldap_dict",111,116
+src\ralph\accounts\management\commands\ldap_sync.py,_disconnect,self,118,119
+src\ralph\accounts\management\commands\ldap_sync.py,_run_ldap_query,"self, query",121,159
+src\ralph\accounts\management\commands\ldap_sync.py,_get_users,self,161,169
+src\ralph\accounts\management\commands\ldap_sync.py,_load_backend,self,171,177
+src\ralph\accounts\management\commands\ldap_sync.py,check_settings_existence,self,179,194
+src\ralph\accounts\management\commands\ldap_sync.py,handle,"self, *args, **kwargs",196,207
+src\ralph\accounts\management\commands\ldap_sync.py,populate_users,self,209,217
+src\ralph\accounts\tests\tests.py,test_long_surname_is_truncated,self,26,33
+src\ralph\accounts\tests\tests.py,test_short_surname_stays_unmodified,self,36,40
+src\ralph\accounts\tests\tests.py,test_truncate_works_when_no_sn,self,42,44
+src\ralph\accounts\tests\tests.py,_get_mocked_ldap_user,"self, attrs",50,55
+src\ralph\accounts\tests\tests.py,attrs,self,52,54
+src\ralph\accounts\tests\tests.py,test_manager_country_attribute_populate_country,self,57,68
+src\ralph\accounts\tests\tests.py,test_manager_country_attribute_populate_unicode_in_manager,self,70,86
+src\ralph\accounts\tests\tests.py,test_get_user_list,self,90,94
+src\ralph\accounts\tests\tests.py,test_get_user_details,self,96,117
+src\ralph\accounts\tests\tests.py,test_create_user_should_raise_method_not_allowed,self,120,129
+src\ralph\accounts\tests\tests.py,test_patch_user,self,132,145
+src\ralph\accounts\tests\tests.py,test_patch_user_when_user_is_not_superuser_should_raise_forbidden,self,147,157
+src\ralph\admin\apps.py,ready,self,12,13
+src\ralph\admin\autocomplete.py,render_to_json_response,"self, context, **response_kwargs",24,28
+src\ralph\admin\autocomplete.py,autocomplete_tooltip,self,35,47
+src\ralph\admin\autocomplete.py,get,"self, request, *args, **kwargs",56,76
+src\ralph\admin\autocomplete.py,get_autocomplete_queryset,self,83,84
+src\ralph\admin\autocomplete.py,get_urls,self,86,116
+src\ralph\admin\autocomplete.py,dispatch,"self, request, *args, **kwargs",93,97
+src\ralph\admin\autocomplete.py,get_queryset,"self, user",99,105
+src\ralph\admin\autocomplete.py,dispatch,"self, request, *args, **kwargs",123,134
+src\ralph\admin\autocomplete.py,get_query_filters,"self, queryset, query, search_fields",136,165
+src\ralph\admin\autocomplete.py,get_base_ids,"self, model, value",167,185
+src\ralph\admin\autocomplete.py,get_queryset,"self, user",187,222
+src\ralph\admin\decorators.py,__init__,"self, target_model",23,26
+src\ralph\admin\decorators.py,__call__,"self, view",28,46
+src\ralph\admin\fields.py,__init__,"self, allow_duplicates=True, *args, **kwargs",21,23
+src\ralph\admin\fields.py,validate,"self, values",25,39
+src\ralph\admin\fields.py,to_python,"self, value",41,47
+src\ralph\admin\fields.py,to_python,"self, value",52,57
+src\ralph\admin\fields.py,equal_count_validator,"self, cleaned_data",80,96
+src\ralph\admin\fields.py,any_in_multivalues_validator,"self, data",98,123
+src\ralph\admin\fields.py,rows_of_required,,103,110
+src\ralph\admin\fields.py,check_field_uniqueness,"self, model, field_name, values",125,147
+src\ralph\admin\fields.py,check_uniqness,"self, data",149,160
+src\ralph\admin\fields.py,extend_empty_fields_at_the_end,"self, data",162,184
+src\ralph\admin\fields.py,clean,self,186,192
+src\ralph\admin\filters.py,date_format_to_human,value,26,45
+src\ralph\admin\filters.py,__init__,"self, field, request, params, model, model_admin, field_path",52,67
+src\ralph\admin\filters.py,value,self,70,76
+src\ralph\admin\filters.py,has_output,self,78,79
+src\ralph\admin\filters.py,lookups,"self, request, model_admin",81,82
+src\ralph\admin\filters.py,expected_parameters,self,84,85
+src\ralph\admin\filters.py,choices_list,self,95,97
+src\ralph\admin\filters.py,choices_list,"self, value",99,101
+src\ralph\admin\filters.py,choices,"self, cl",103,116
+src\ralph\admin\filters.py,queryset,"self, request, queryset",119,121
+src\ralph\admin\filters.py,__init__,"self, field, request, params, model, model_admin, field_path",138,151
+src\ralph\admin\filters.py,expected_parameters,self,153,154
+src\ralph\admin\filters.py,value,self,156,159
+src\ralph\admin\filters.py,queryset,"self, request, queryset",162,185
+src\ralph\admin\filters.py,choices,"self, cl",187,195
+src\ralph\admin\filters.py,queryset,"self, request, queryset",206,217
+src\ralph\admin\filters.py,choices,"self, cl",219,231
+src\ralph\admin\filters.py,queryset,"self, request, queryset",241,248
+src\ralph\admin\filters.py,choices,"self, cl",250,253
+src\ralph\admin\filters.py,label_for_instance,"self, obj",262,263
+src\ralph\admin\filters.py,choices_list,self,265,269
+src\ralph\admin\filters.py,__init__,"self, field, request, params, model, model_admin, field_path",279,281
+src\ralph\admin\filters.py,queryset,"self, request, queryset",283,292
+src\ralph\admin\filters.py,get_related_url,self,294,298
+src\ralph\admin\filters.py,choices,"self, cl",302,346
+src\ralph\admin\filters.py,__init__,"self, field, request, params, model, model_admin, field_path",354,356
+src\ralph\admin\filters.py,_get_level_indicator,"self, obj",358,364
+src\ralph\admin\filters.py,label_for_instance,"self, obj",366,369
+src\ralph\admin\filters.py,__init__,"self, request, params, model, model_admin",379,381
+src\ralph\admin\filters.py,lookups,"self, request, model_admin",383,385
+src\ralph\admin\filters.py,choices,"self, cl",388,391
+src\ralph\admin\filters.py,queryset,"self, request, queryset",394,401
+src\ralph\admin\filters.py,register_custom_filters,,404,441
+src\ralph\admin\helpers.py,get_admin_url,"obj, action",7,12
+src\ralph\admin\helpers.py,get_field_by_relation_path,"model, field_path",16,25
+src\ralph\admin\helpers.py,get_field_title_by_relation_path,"model, field_path",28,40
+src\ralph\admin\helpers.py,get_value_by_relation_path,"obj, field_path",43,52
+src\ralph\admin\helpers.py,getattr_dunder,"obj, attr",55,63
+src\ralph\admin\mixins.py,get_inline_media,,35,41
+src\ralph\admin\mixins.py,__init__,"self, *args, **kwargs",48,50
+src\ralph\admin\mixins.py,formfield_for_foreignkey,"self, db_field, request=None, **kwargs",52,64
+src\ralph\admin\mixins.py,_check_form,"self, cls, model",76,91
+src\ralph\admin\mixins.py,__init__,"self, *args, **kwargs",111,117
+src\ralph\admin\mixins.py,get_form,"self, request, obj=None, **kwargs",119,124
+src\ralph\admin\mixins.py,has_view_permission,"self, request, obj=None",126,129
+src\ralph\admin\mixins.py,has_change_permission,"self, request, obj=None",131,135
+src\ralph\admin\mixins.py,get_changelist,"self, request, **kwargs",137,139
+src\ralph\admin\mixins.py,get_list_display_links,"self, request, list_display",141,145
+src\ralph\admin\mixins.py,_initialize_search_form,"self, extra_context",147,156
+src\ralph\admin\mixins.py,changelist_view,"self, request, extra_context=None",160,186
+src\ralph\admin\mixins.py,get_actions,"self, request",189,200
+src\ralph\admin\mixins.py,changeform_view,"self, request, object_id=None, form_url='', extra_context=None",202,216
+src\ralph\admin\mixins.py,formfield_for_manytomany,"self, db_field, request=None, **kwargs",219,223
+src\ralph\admin\mixins.py,get_changelist_form,"self, request, **kwargs",225,241
+src\ralph\admin\mixins.py,_add_recovery_to_extra_context,"self, extra_context",243,246
+src\ralph\admin\mixins.py,revision_view,"self, request, object_id, version_id, extra_context=None",248,253
+src\ralph\admin\mixins.py,get_list_display,"self, request",256,268
+src\ralph\admin\mixins.py,get_queryset,"self, *args, **kwargs",270,273
+src\ralph\admin\mixins.py,media,self,282,284
+src\ralph\admin\mixins.py,get_context_data,"self, **kwargs",302,308
+src\ralph\admin\mixins.py,get_queryset,"self, request",323,329
+src\ralph\admin\mixins.py,get_list_display,"self, request",331,361
+src\ralph\admin\mixins.py,bulk_edit_action,"self, request, queryset",363,374
+src\ralph\admin\sites.py,_get_views,"self, admin",18,19
+src\ralph\admin\sites.py,register,"self, model_or_iterable, *args, **kwargs",21,29
+src\ralph\admin\sites.py,get_urls,"self, *args, **kwargs",31,49
+src\ralph\admin\sites.py,get_extra_view_menu_items,self,51,68
+src\ralph\admin\sites.py,get_item,"model, view, change_view=False",55,59
+src\ralph\admin\sitetrees.py,ralph_item,"*args, **kwargs",17,39
+src\ralph\admin\sitetrees.py,get_menu_items_for_admin,"name, perm",45,48
+src\ralph\admin\sitetrees.py,section,"section_name, app, model",52,80
+src\ralph\admin\widgets.py,media,self,27,34
+src\ralph\admin\widgets.py,render,"self, name, value, attrs=None",37,39
+src\ralph\admin\widgets.py,__init__,"self, attrs=None, choices=()",43,45
+src\ralph\admin\widgets.py,media,self,47,51
+src\ralph\admin\widgets.py,value_from_datadict,"self, data, files, name",54,58
+src\ralph\admin\widgets.py,render,"self, name, value, attrs=None, choices=()",60,69
+src\ralph\admin\widgets.py,render_all_option,"self, slug",73,77
+src\ralph\admin\widgets.py,render_option,"self, selected_choices, option_value, option_label",79,86
+src\ralph\admin\widgets.py,render_options,"self, choices, selected_choices",89,126
+src\ralph\admin\widgets.py,__init__,"self, field, admin_site, attrs=None, using=None, **kwargs",130,137
+src\ralph\admin\widgets.py,media,self,139,142
+src\ralph\admin\widgets.py,get_url_parameters,self,145,149
+src\ralph\admin\widgets.py,get_related_url,"self, info, action, *args",151,155
+src\ralph\admin\widgets.py,render,"self, name, value, attrs=None",158,280
+src\ralph\admin\templatetags\admin_change_list.py,admin_paginator_number,"cl, i",11,27
+src\ralph\admin\templatetags\ralph_tags.py,download_attachment,context,22,28
+src\ralph\admin\templatetags\ralph_tags.py,views_tabs,"context, views, name=None, obj=None",33,48
+src\ralph\admin\templatetags\ralph_tags.py,contextual_search_form,"context, search_url, search_fields",51,58
+src\ralph\admin\templatetags\ralph_tags.py,ralph_submit_row,context,61,72
+src\ralph\admin\templatetags\ralph_tags.py,get_attr,"obj, attr",75,84
+src\ralph\admin\templatetags\ralph_tags.py,get_verbose_name,"obj, name",87,96
+src\ralph\admin\templatetags\ralph_tags.py,transition_history,obj,99,122
+src\ralph\admin\templatetags\ralph_tags.py,raven_js,,126,131
+src\ralph\admin\tests\tests_autocomplete.py,setUp,self,11,22
+src\ralph\admin\tests\tests_autocomplete.py,test_or,self,24,32
+src\ralph\admin\tests\tests_autocomplete.py,test_or_empty,self,34,42
+src\ralph\admin\tests\tests_autocomplete.py,test_not_or,self,44,52
+src\ralph\admin\tests\tests_autocomplete.py,test_not_or_empty,self,54,62
+src\ralph\admin\tests\tests_fields.py,test_extend_empty_fields_at_the_end,self,36,46
+src\ralph\admin\tests\tests_fields.py,test_extend_empty_fields_at_the_end_with_empty_row,self,49,59
+src\ralph\admin\tests\tests_fields.py,test_works_for_single_value_each,self,62,69
+src\ralph\admin\tests\tests_fields.py,test_works_for_multi_value_each,self,71,78
+src\ralph\admin\tests\tests_fields.py,test_works_for_multi_value_with_empty_holes,self,80,88
+src\ralph\admin\tests\tests_fields.py,test_works_for_multi_value_with_empty_holes_at_the_end,self,90,98
+src\ralph\admin\tests\tests_fields.py,test_works_for_multi_value_with_extension_to_longest_field,self,100,108
+src\ralph\admin\tests\tests_fields.py,test_valid_when_different_count,self,110,118
+src\ralph\admin\tests\tests_fields.py,test_not_valid_when_empty_multivalues,self,120,126
+src\ralph\admin\tests\tests_fields.py,test_not_valid_when_none_multivalue_passed,self,128,136
+src\ralph\admin\tests\tests_fields.py,test_field_works_for_single_value,self,140,143
+src\ralph\admin\tests\tests_fields.py,test_field_works_for_multi_value,self,145,148
+src\ralph\admin\tests\tests_fields.py,test_field_not_valid_when_duplicates,self,150,154
+src\ralph\admin\tests\tests_fields.py,test_field_valid_when_duplicates_allowed,self,156,159
+src\ralph\admin\tests\tests_fields.py,test_field_strips_whitespaces,self,161,164
+src\ralph\admin\tests\tests_fields.py,test_field_allows_blank_elements,self,166,169
+src\ralph\admin\tests\tests_filters.py,setUpClass,cls,33,56
+src\ralph\admin\tests\tests_filters.py,test_date_format_to_human,self,58,60
+src\ralph\admin\tests\tests_filters.py,test_boolean_filter,self,62,73
+src\ralph\admin\tests\tests_filters.py,test_choices_filter,self,75,98
+src\ralph\admin\tests\tests_filters.py,test_text_filter,self,100,111
+src\ralph\admin\tests\tests_filters.py,test_text_filter_with_separator,self,113,124
+src\ralph\admin\tests\tests_filters.py,test_text_filter_with_separator_and_whitespace,self,126,137
+src\ralph\admin\tests\tests_filters.py,test_text_filter_contains,self,139,150
+src\ralph\admin\tests\tests_filters.py,test_date_filter,self,152,166
+src\ralph\admin\tests\tests_filters.py,test_date_filter_start,self,168,182
+src\ralph\admin\tests\tests_filters.py,test_date_filter_end,self,184,198
+src\ralph\admin\tests\tests_filters.py,test_related_field,self,200,213
+src\ralph\admin\tests\tests_filters.py,test_decimal_filter,self,215,229
+src\ralph\admin\tests\tests_filters.py,test_decimal_filter_start,self,231,245
+src\ralph\admin\tests\tests_filters.py,test_decimal_filter_end,self,247,261
+src\ralph\admin\tests\tests_filters.py,test_liquidated_status_filter,self,263,284
+src\ralph\admin\tests\tests_functional.py,new_test_view,"klass, view_name=None",29,37
+src\ralph\admin\tests\tests_functional.py,setUp,self,43,48
+src\ralph\admin\tests\tests_functional.py,_register_model_in_admin,"self, model, admin_model=RalphAdmin",50,52
+src\ralph\admin\tests\tests_functional.py,test_dynamic_register_model_to_admin_panel,self,54,62
+src\ralph\admin\tests\tests_functional.py,test_extra_list_view_via_class_attr,self,64,77
+src\ralph\admin\tests\tests_functional.py,test_extra_change_view_via_class_attr,self,80,95
+src\ralph\admin\tests\tests_functional.py,test_visit_extra_list_view,self,98,109
+src\ralph\admin\tests\tests_functional.py,test_visit_extra_detail_view,self,111,125
+src\ralph\admin\tests\tests_functional.py,test_extra_list_view_via_decorator,self,127,143
+src\ralph\admin\tests\tests_functional.py,test_extra_change_view_via_decorator,self,146,164
+src\ralph\admin\tests\tests_functional.py,test_register_decorator_raise_value_error_incorrect_view_type,self,167,175
+src\ralph\admin\tests\tests_functional.py,test_register_decorator_raise_value_error_incorrect_target_view,self,177,185
+src\ralph\admin\tests\tests_functional.py,test_many_tabs_link,self,187,209
+src\ralph\admin\tests\tests_functional.py,_change_list_factory,"self, model, model_admin, request, list_display=None",214,229
+src\ralph\admin\tests\tests_functional.py,_get_ordering_list,"self, model, model_admin, params, list_display",232,242
+src\ralph\admin\tests\tests_functional.py,test_sort_related,"self, ordering_params, list_display, expected_ordering",244,309
+src\ralph\admin\tests\tests_helpers.py,test_return_ok_when_simply_field,self,10,13
+src\ralph\admin\tests\tests_helpers.py,test_return_ok_when_long_path,self,15,17
+src\ralph\admin\tests\tests_helpers.py,test_raise_exception_when_no_field,self,19,22
+src\ralph\admin\tests\tests_helpers.py,test_getattr_dunder,self,24,33
+src\ralph\admin\tests\tests_multiadd.py,setUp,self,17,29
+src\ralph\admin\tests\tests_multiadd.py,tests_multi_add_bo,self,31,53
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_dc_with_not_required_field,self,55,77
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_is_empty_field,self,79,95
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_smaller_number_of_lines,self,97,113
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_duplicate_sn,self,115,134
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_barcode_and_sn_empty,self,137,156
+src\ralph\admin\tests\tests_multiadd.py,test_multi_add_is_sn_exists,self,159,183
+src\ralph\admin\tests\tests_multiadd.py,tests_multi_add_validation_integer,self,186,211
+src\ralph\admin\tests\tests_widgets.py,setUp,self,8,16
+src\ralph\admin\tests\tests_widgets.py,test_render,self,18,22
+src\ralph\admin\tests\tests_widgets.py,test_render_selected_option,self,24,27
+src\ralph\admin\tests\tests_widgets.py,test_get_value_from_dict,self,29,35
+src\ralph\admin\views\extra.py,dispatch,"self, request, model, views, *args, **kwargs",22,25
+src\ralph\admin\views\extra.py,post_register,"cls, namespace, model",27,40
+src\ralph\admin\views\extra.py,get_name,self,43,48
+src\ralph\admin\views\extra.py,get_extra_view_base_template,self,50,55
+src\ralph\admin\views\extra.py,get_context_data,"self, **kwargs",57,63
+src\ralph\admin\views\extra.py,get_template_names,self,65,75
+src\ralph\admin\views\extra.py,get_context_data,"self, **kwargs",82,85
+src\ralph\admin\views\extra.py,get_url_pattern,"cls, model",87,90
+src\ralph\admin\views\extra.py,__new__,"cls, name, bases, attrs",95,106
+src\ralph\admin\views\extra.py,dispatch,"self, request, model, pk, *args, **kwargs",122,124
+src\ralph\admin\views\extra.py,get_context_data,"self, **kwargs",126,131
+src\ralph\admin\views\extra.py,get_url_pattern,"cls, model",133,136
+src\ralph\admin\views\extra.py,dispatch,"self, request, model, pk, *args, **kwargs",142,157
+src\ralph\admin\views\main.py,__init__,"self, request, *args, **kwargs",12,14
+src\ralph\admin\views\main.py,get_filters_params,"self, params=None",16,21
+src\ralph\admin\views\main.py,get_ordering_from_related_model_admin,"self, prefix, field_name",23,42
+src\ralph\admin\views\main.py,get_ordering,"self, request, queryset",44,55
+src\ralph\admin\views\main.py,get_queryset,"self, request",57,61
+src\ralph\admin\views\multiadd.py,dispatch,"self, request, object_pk, model, *args, **kwargs",29,40
+src\ralph\admin\views\multiadd.py,get_form,self,42,68
+src\ralph\admin\views\multiadd.py,get_context_data,"self, **kwargs",70,75
+src\ralph\admin\views\multiadd.py,post,"self, request, *args, **kwargs",77,88
+src\ralph\admin\views\multiadd.py,form_invalid,"self, form",90,93
+src\ralph\admin\views\multiadd.py,get_url_name,self,95,101
+src\ralph\admin\views\multiadd.py,_get_ancestors_pointers,"self, model",103,108
+src\ralph\admin\views\multiadd.py,form_valid,"self, form",110,144
+src\ralph\admin\views\multiadd.py,multiadd_info_fields,self,166,168
+src\ralph\admin\views\multiadd.py,get_multiadd_fields,"self, obj=None",170,171
+src\ralph\admin\views\multiadd.py,get_url_name,"self, with_namespace=True",173,174
+src\ralph\admin\views\multiadd.py,add_view,"self, request, form_url='', extra_context=None",176,183
+src\ralph\admin\views\multiadd.py,change_view,"self, request, object_id, form_url='', extra_context=None",185,194
+src\ralph\admin\views\multiadd.py,get_urls,self,197,207
+src\ralph\admin\views\multiadd.py,response_add,"self, request, obj, post_url_continue=None",209,219
+src\ralph\api\permissions.py,has_permission,"self, request, view",9,14
+src\ralph\api\routers.py,get_api_root_view,self,17,54
+src\ralph\api\routers.py,_check_viewset_permissions,"self, request, viewset",30,31
+src\ralph\api\routers.py,get,"self, request, *args, **kwargs",33,52
+src\ralph\api\serializers.py,__init__,"self, choices, **kwargs",38,41
+src\ralph\api\serializers.py,to_representation,"self, obj",43,50
+src\ralph\api\serializers.py,to_internal_value,"self, data",52,61
+src\ralph\api\serializers.py,__init__,"self, lookup_fields, *args, **kwargs",68,70
+src\ralph\api\serializers.py,to_internal_value,"self, data",72,85
+src\ralph\api\serializers.py,__new__,"cls, name, bases, attrs",95,102
+src\ralph\api\serializers.py,serializer_related_field,self,122,131
+src\ralph\api\serializers.py,get_default_field_names,"self, declared_fields, model_info",133,144
+src\ralph\api\serializers.py,get_fields,"self, *args, **kwargs",147,156
+src\ralph\api\serializers.py,build_field,"self, field_name, info, model_class, nested_depth",158,170
+src\ralph\api\serializers.py,build_nested_field,"self, field_name, relation_info, nested_depth",172,199
+src\ralph\api\serializers.py,build_field,"self, *args, **kwargs",210,220
+src\ralph\api\serializers.py,__new__,"cls, name, bases, attrs",227,236
+src\ralph\api\utils.py,__init__,"self, *args, **kwargs",18,34
+src\ralph\api\utils.py,get_queryset,self,36,42
+src\ralph\api\utils.py,get_queryset,self,51,59
+src\ralph\api\utils.py,get_serializer,"self, *args, **kwargs",61,73
+src\ralph\api\utils.py,__init__,"self, *args, **kwargs",82,84
+src\ralph\api\utils.py,to_representation,"self, data",86,90
+src\ralph\api\utils.py,many_init,"cls, *args, **kwargs",101,119
+src\ralph\api\viewsets.py,__init__,"self, *args, **kwargs",28,30
+src\ralph\api\viewsets.py,_set_admin_search_fields,self,32,48
+src\ralph\api\viewsets.py,__init__,"self, *args, **kwargs",63,72
+src\ralph\api\viewsets.py,get_serializer_class,self,75,103
+src\ralph\api\viewsets.py,__new__,"cls, name, bases, attrs",110,116
+src\ralph\api\viewsets.py,__init__,"self, *args, **kwargs",126,129
+src\ralph\api\viewsets.py,get_queryset,self,131,157
+src\ralph\api\tests\api.py,validate_name,"self, value",32,33
+src\ralph\api\tests\test_routers.py,test_router_user_has_access_to_foo,self,10,15
+src\ralph\api\tests\test_routers.py,test_router_user_has_not_access_to_foo,self,17,22
+src\ralph\api\tests\test_routers.py,test_router_user_not_staff_has_not_access_to_foo,self,24,29
+src\ralph\api\tests\test_serializers.py,setUp,self,24,25
+src\ralph\api\tests\test_serializers.py,test_reversed_choices,self,27,32
+src\ralph\api\tests\test_serializers.py,test_to_representation_should_return_choice_text,self,36,39
+src\ralph\api\tests\test_serializers.py,test_to_internal_value_should_map_choice_text_to_id,self,42,45
+src\ralph\api\tests\test_serializers.py,test_to_internal_value_with_choice_not_found_should_raise_validation_error,self,48,50
+src\ralph\api\tests\test_serializers.py,setUp,self,54,57
+src\ralph\api\tests\test_serializers.py,test_get_serializer_related_field_when_safe_request,self,59,66
+src\ralph\api\tests\test_serializers.py,test_get_serializer_related_field_when_not_safe_request,self,69,76
+src\ralph\api\tests\test_serializers.py,test_serializer_request_assigned_to_related_field,self,79,87
+src\ralph\api\tests\test_serializers.py,test_serializer_request_assigned_to_related_declared_field,self,89,97
+src\ralph\api\tests\test_viewsets.py,setUp,self,28,41
+src\ralph\api\tests\test_viewsets.py,test_should_raise_attributeerror_when_ralph_permission_missing,self,43,45
+src\ralph\api\tests\test_viewsets.py,test_should_raise_attributeerror_when_permission_for_object_filter_missing,self,47,49
+src\ralph\api\tests\test_viewsets.py,test_get_serializer_class_should_return_base_when_safe_request,self,51,55
+src\ralph\api\tests\test_viewsets.py,test_get_serializer_class_should_return_dynamic_when_not_safe_request,self,57,70
+src\ralph\api\tests\test_viewsets.py,test_get_serializer_class_should_return_defined_when_not_safe_request_and_save_serializer_class_defined,self,73,77
+src\ralph\api\tests\test_viewsets.py,test_extend_filter_fields,self,79,88
+src\ralph\api\tests\test_viewsets.py,test_options_filtering,self,90,92
+src\ralph\api\tests\test_viewsets.py,test_get_filter_fields_from_admin,self,96,99
+src\ralph\api\tests\_base.py,setUpClass,cls,11,38
+src\ralph\api\tests\_base.py,create_user,"name, **kwargs",17,24
+src\ralph\api\tests\_base.py,add_perm,"user, perm",30,33
+src\ralph\api\tests\_base.py,_create_users,cls,47,61
+src\ralph\api\tests\_base.py,create_user,"name, **kwargs",49,56
+src\ralph\api\tests\_base.py,setUpClass,cls,64,67
+src\ralph\api\tests\_base.py,setUp,self,69,71
+src\ralph\assets\admin.py,get_queryset,"self, request",96,97
+src\ralph\assets\admin.py,assets_count,"self, instance",99,100
+src\ralph\assets\admin.py,get_actions,"self, request",112,113
+src\ralph\assets\admin.py,repr,"self, obj",138,139
+src\ralph\assets\country_utils.py,iso2_to_iso3,iso2_country,57,59
+src\ralph\assets\country_utils.py,iso3_to_iso2,iso3_country,62,64
+src\ralph\assets\invoice_report.py,invoice_report,"self, request, queryset",34,43
+src\ralph\assets\invoice_report.py,_validate,"self, queryset",46,58
+src\ralph\assets\invoice_report.py,_get_non_unique_error,"self, queryset",61,84
+src\ralph\assets\invoice_report.py,_generate_invoice_report,"self, request, queryset",87,99
+src\ralph\assets\invoice_report.py,_get_report_data,"self, request, queryset",101,124
+src\ralph\assets\invoice_report.py,_get_pdf_content,"self, data",126,146
+src\ralph\assets\invoice_report.py,_get_invoice_report_queryset,"self, queryset",148,152
+src\ralph\assets\invoice_report.py,_parse_item,"self, item",154,169
+src\ralph\assets\_migration_helpers.py,baseobject_migration,"apps, schema_editor, app_name, model_name, rewrite_fields=None",10,77
+src\ralph\assets\_migration_helpers.py,_foreign_key_check_wrap,operations,83,97
+src\ralph\assets\_migration_helpers.py,__init__,"self, app_name, model_name, rewrite_fields=None",104,151
+src\ralph\assets\api\serializers.py,_save_environments,"self, instance, environments",79,99
+src\ralph\assets\api\serializers.py,create,"self, validated_data",102,106
+src\ralph\assets\api\serializers.py,update,"self, instance, validated_data",108,113
+src\ralph\assets\models\assets.py,__str__,self,77,78
+src\ralph\assets\models\assets.py,get_absolute_url,self,80,81
+src\ralph\assets\models\assets.py,get_autocomplete_queryset,cls,83,85
+src\ralph\assets\models\assets.py,__str__,self,92,93
+src\ralph\assets\models\assets.py,get_autocomplete_queryset,cls,98,100
+src\ralph\assets\models\assets.py,__str__,self,158,165
+src\ralph\assets\models\assets.py,_get_layout_class,"self, field",168,170
+src\ralph\assets\models\assets.py,get_front_layout_class,self,172,173
+src\ralph\assets\models\assets.py,get_back_layout_class,self,175,176
+src\ralph\assets\models\assets.py,__str__,self,197,198
+src\ralph\assets\models\assets.py,formatted_hostname,"self, fill='5'",209,214
+src\ralph\assets\models\assets.py,increment_hostname,"cls, prefix, postfix=''",217,229
+src\ralph\assets\models\assets.py,__str__,self,231,232
+src\ralph\assets\models\assets.py,__str__,self,241,242
+src\ralph\assets\models\assets.py,__str__,self,341,342
+src\ralph\assets\models\assets.py,get_deprecation_months,self,344,347
+src\ralph\assets\models\assets.py,is_depreciated,"self, date=None",350,360
+src\ralph\assets\models\assets.py,get_depreciated_months,self,362,365
+src\ralph\assets\models\assets.py,is_deprecated,"self, date=None",367,370
+src\ralph\assets\models\assets.py,generate_hostname,"self, commit=True, template_vars=None, request=None",372,396
+src\ralph\assets\models\assets.py,render_template,template,373,376
+src\ralph\assets\models\assets.py,_liquidated_at,"self, date",399,404
+src\ralph\assets\models\assets.py,clean,self,406,412
+src\ralph\assets\models\assets.py,save,"self, *args, **kwargs",416,426
+src\ralph\assets\models\components.py,__str__,self,39,40
+src\ralph\assets\tests\test_api.py,setUp,self,29,37
+src\ralph\assets\tests\test_api.py,test_get_environment,self,39,45
+src\ralph\assets\tests\test_api.py,test_create_environment,self,47,55
+src\ralph\assets\tests\test_api.py,test_patch_environment,self,57,65
+src\ralph\assets\tests\test_api.py,test_get_service,self,67,75
+src\ralph\assets\tests\test_api.py,test_create_service,self,78,100
+src\ralph\assets\tests\test_api.py,test_create_service_with_names_instead_of_ids,self,102,124
+src\ralph\assets\tests\test_api.py,test_create_service_with_nulls,self,126,148
+src\ralph\assets\tests\test_api.py,test_create_service_with_without_profit_center_and_support_team,self,150,170
+src\ralph\assets\tests\test_api.py,test_patch_service,self,172,188
+src\ralph\assets\tests\test_api.py,test_patch_service_keep_environments_when_not_in_request,self,190,213
+src\ralph\assets\tests\test_api.py,test_patch_service_keep_environments_ids,self,215,238
+src\ralph\assets\tests\test_api.py,test_get_service_environment,self,240,247
+src\ralph\assets\tests\test_api.py,test_create_service_should_return_method_not_allowed,self,250,258
+src\ralph\assets\tests\test_api.py,test_patch_service_should_return_method_not_allowed,self,261,270
+src\ralph\assets\tests\test_api.py,setUp,self,275,277
+src\ralph\assets\tests\test_api.py,test_get_manufacturer_list,self,279,285
+src\ralph\assets\tests\test_api.py,test_get_manufacturer_details,self,288,292
+src\ralph\assets\tests\test_api.py,test_create_manufacturer,self,294,302
+src\ralph\assets\tests\test_api.py,test_patch_manufacturer,self,304,312
+src\ralph\assets\tests\test_api.py,setUp,self,316,318
+src\ralph\assets\tests\test_api.py,test_get_category_list,self,320,326
+src\ralph\assets\tests\test_api.py,test_get_category_details,self,329,333
+src\ralph\assets\tests\test_api.py,test_create_category,self,335,348
+src\ralph\assets\tests\test_api.py,test_create_category_with_parent,self,350,362
+src\ralph\assets\tests\test_api.py,test_patch_category,self,364,372
+src\ralph\assets\tests\test_api.py,setUp,self,376,379
+src\ralph\assets\tests\test_api.py,test_get_asset_model_list,self,381,387
+src\ralph\assets\tests\test_api.py,test_get_asset_model_details,self,390,394
+src\ralph\assets\tests\test_api.py,test_create_asset_model,self,396,408
+src\ralph\assets\tests\test_api.py,test_patch_asset_model,self,410,418
+src\ralph\assets\tests\test_api.py,setUp,self,422,425
+src\ralph\assets\tests\test_api.py,test_get_base_objects_list,self,427,433
+src\ralph\assets\tests\test_api.py,test_get_asset_model_details,self,435,439
+src\ralph\attachments\admin.py,__init__,"self, *args, **kwargs",17,28
+src\ralph\attachments\admin.py,get_urls,self,30,41
+src\ralph\attachments\admin.py,serve_attachment,"self, request, id, filename",43,55
+src\ralph\attachments\forms.py,save,"self, commit=True",24,59
+src\ralph\attachments\helpers.py,get_file_path,"instance, filename, default_dir='attachments'",7,25
+src\ralph\attachments\helpers.py,add_attachment_from_disk,"objs, local_path_to_file, owner, description=''",28,66
+src\ralph\attachments\models.py,get_attachments_for_object,"self, obj",17,29
+src\ralph\attachments\models.py,create_from_file_path,"self, file_path, uploaded_by",32,40
+src\ralph\attachments\models.py,get_items_for_object,"self, obj",44,56
+src\ralph\attachments\models.py,attach,"self, pk, content_type, attachments",59,71
+src\ralph\attachments\models.py,dettach,"self, pk, content_type, attachments",73,81
+src\ralph\attachments\models.py,refresh,"self, obj, new_objects=None, deleted_objects=None",83,93
+src\ralph\attachments\models.py,__str__,self,121,123
+src\ralph\attachments\models.py,get_md5_sum,"cls, file",126,134
+src\ralph\attachments\models.py,save,"self, *args, **kwargs",136,144
+src\ralph\attachments\models.py,_safe_filename,filename,146,158
+src\ralph\attachments\models.py,__str__,self,173,175
+src\ralph\attachments\views.py,get_formset,"self, request",18,32
+src\ralph\attachments\views.py,get,"self, request, *args, **kwargs",34,39
+src\ralph\attachments\views.py,get_context_data,"self, *args, **kwargs",41,53
+src\ralph\attachments\views.py,post,"self, request, *args, **kwargs",55,66
+src\ralph\attachments\views.py,formset_valid,"self, formset",68,78
+src\ralph\attachments\views.py,formset_invalid,"self, formset",80,85
+src\ralph\attachments\tests\test_models.py,test_saved_original_name,self,7,14
+src\ralph\attachments\tests\test_models.py,test_get_all_attachments_for_object,self,16,24
+src\ralph\attachments\tests\__init__.py,create_attachment_for_object,"self, obj, filename=None, user=None, content=b'some content'",17,32
+src\ralph\back_office\admin.py,__init__,"self, *args, **kwargs",61,64
+src\ralph\back_office\admin.py,get_multiadd_fields,"self, obj=None",153,163
+src\ralph\back_office\models.py,_is_field_in_transition_actions,"actions, field_name",63,70
+src\ralph\back_office\models.py,get_user_iso3_country_name,user,73,80
+src\ralph\back_office\models.py,_check_user_assigned,instances,83,88
+src\ralph\back_office\models.py,autocomplete_if_release_report,"actions, objects, field_name='user'",91,114
+src\ralph\back_office\models.py,country_code,self,147,150
+src\ralph\back_office\models.py,__str__,self,152,153
+src\ralph\back_office\models.py,__repr__,self,155,156
+src\ralph\back_office\models.py,validate_imei,self,158,160
+src\ralph\back_office\models.py,clean,self,162,166
+src\ralph\back_office\models.py,is_liquidated,"self, date=None",169,178
+src\ralph\back_office\models.py,_try_assign_hostname,"self, commit=False, country=None, force=False, request=None",180,193
+src\ralph\back_office\models.py,get_autocomplete_queryset,cls,195,198
+src\ralph\back_office\models.py,assign_user,"cls, instances, request, **kwargs",201,216
+src\ralph\back_office\models.py,assign_licence,"cls, instances, request, **kwargs",218,232
+src\ralph\back_office\models.py,assign_owner,"cls, instances, request, **kwargs",235,255
+src\ralph\back_office\models.py,unassign_owner,"cls, instances, request, **kwargs",257,263
+src\ralph\back_office\models.py,unassign_user,"cls, instances, request, **kwargs",265,271
+src\ralph\back_office\models.py,assign_loan_end_date,"cls, instances, request, **kwargs",273,286
+src\ralph\back_office\models.py,unassign_loan_end_date,"cls, instances, request, **kwargs",288,292
+src\ralph\back_office\models.py,assign_warehouse,"cls, instances, request, **kwargs",294,306
+src\ralph\back_office\models.py,assign_office_infrastructure,"cls, instances, request, **kwargs",308,322
+src\ralph\back_office\models.py,add_remarks,"cls, instances, request, **kwargs",324,335
+src\ralph\back_office\models.py,assign_task_url,"cls, instances, request, **kwargs",338,348
+src\ralph\back_office\models.py,unassign_licences,"cls, instances, request, **kwargs",350,353
+src\ralph\back_office\models.py,change_hostname,"cls, instances, request, **kwargs",355,372
+src\ralph\back_office\models.py,change_user_and_owner,"cls, instances, request, **kwargs",375,400
+src\ralph\back_office\models.py,_generate_report,"cls, name, request, instances, language",402,443
+src\ralph\back_office\models.py,release_report,"cls, instances, request, **kwargs",446,464
+src\ralph\back_office\models.py,return_report,"cls, instances, request, **kwargs",467,485
+src\ralph\back_office\models.py,loan_report,"cls, instances, request, **kwargs",488,506
+src\ralph\back_office\models.py,hostname_assigning,"sender, instance, raw, using, **kwargs",510,525
+src\ralph\back_office\views.py,get_context_data,"self, **kwargs",12,45
+src\ralph\back_office\views.py,get_context_data,"self, **kwargs",55,77
+src\ralph\back_office\tests\test_api.py,setUp,self,19,30
+src\ralph\back_office\tests\test_api.py,test_get_back_office_assets_list,self,32,37
+src\ralph\back_office\tests\test_api.py,test_get_back_office_asset_details,self,40,51
+src\ralph\back_office\tests\test_api.py,test_create_back_office_asset,self,54,75
+src\ralph\back_office\tests\test_api.py,test_patch_back_office_asset,self,77,89
+src\ralph\back_office\tests\test_models.py,setUpClass,cls,26,31
+src\ralph\back_office\tests\test_models.py,_check_hostname_not_generated,"self, asset",33,36
+src\ralph\back_office\tests\test_models.py,_check_hostname_is_generated,"self, asset",38,41
+src\ralph\back_office\tests\test_models.py,test_generate_first_hostname,self,43,58
+src\ralph\back_office\tests\test_models.py,test_generate_next_hostname,self,60,74
+src\ralph\back_office\tests\test_models.py,test_cant_generate_hostname_for_model_without_category,self,76,81
+src\ralph\back_office\tests\test_models.py,test_can_generate_hostname_for_model_with_hostname,self,83,87
+src\ralph\back_office\tests\test_models.py,test_generate_next_hostname_out_of_range,self,89,103
+src\ralph\back_office\tests\test_models.py,test_convert_iso2_to_iso3,self,105,106
+src\ralph\back_office\tests\test_models.py,test_convert_iso3_to_iso2,self,108,109
+src\ralph\back_office\tests\test_models.py,test_validate_imei,self,111,116
+src\ralph\back_office\tests\test_models.py,setUpClass,cls,120,129
+src\ralph\back_office\tests\test_models.py,setUp,self,132,150
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname,self,153,155
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_no_change,self,157,161
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_no_hostname,self,163,167
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_forced,self,169,173
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_with_country,self,175,177
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_category_without_code,self,179,184
+src\ralph\back_office\tests\test_models.py,test_try_assign_hostname_when_status_in_progress,self,186,192
+src\ralph\back_office\tests\test_models.py,test_get_autocomplete_queryset,self,194,196
+src\ralph\back_office\tests\test_models.py,setUpClass,cls,200,208
+src\ralph\back_office\tests\test_models.py,setUp,self,210,224
+src\ralph\back_office\tests\test_models.py,test_change_hostname,self,226,239
+src\ralph\back_office\tests\test_models.py,test_assign_owner,self,241,252
+src\ralph\back_office\tests\test_models.py,try_change_status_to_in_progress_during_transition,self,255,268
+src\ralph\back_office\tests\test_models.py,test_return_report_when_user_not_assigned,self,270,279
+src\ralph\data_center\admin.py,get_multiadd_fields,"self, obj=None",170,177
+src\ralph\data_center\admin.py,server_room_name,"self, obj",204,205
+src\ralph\data_center\admin.py,data_center_name,"self, obj",209,210
+src\ralph\data_center\admin.py,formfield_for_foreignkey,"self, db_field, request, **kwargs",214,220
+src\ralph\data_center\forms\network.py,validate_is_management,forms,6,26
+src\ralph\data_center\forms\network.py,clean,self,33,34
+src\ralph\data_center\models\choices.py,is_width,"cls, orientation",29,34
+src\ralph\data_center\models\choices.py,is_depth,"cls, orientation",36,41
+src\ralph\data_center\models\components.py,get_total_size,self,31,32
+src\ralph\data_center\models\components.py,__str__,self,38,39
+src\ralph\data_center\models\components.py,get_total_mounts,self,57,62
+src\ralph\data_center\models\components.py,get_size,self,64,65
+src\ralph\data_center\models\components.py,__str__,self,72,73
+src\ralph\data_center\models\networks.py,network_validator,value,15,19
+src\ralph\data_center\models\networks.py,get_network_tree,qs=None,22,67
+src\ralph\data_center\models\networks.py,get_subnetworks_qs,network,34,39
+src\ralph\data_center\models\networks.py,recursive_tree,network,41,55
+src\ralph\data_center\models\networks.py,__str__,self,76,77
+src\ralph\data_center\models\networks.py,__str__,self,120,121
+src\ralph\data_center\models\networks.py,__str__,self,243,244
+src\ralph\data_center\models\networks.py,save,"self, *args, **kwargs",246,263
+src\ralph\data_center\models\networks.py,__contains__,"self, what",265,290
+src\ralph\data_center\models\networks.py,is_private,self,292,297
+src\ralph\data_center\models\networks.py,get_subnetworks,"self, networks=None",299,321
+src\ralph\data_center\models\networks.py,from_ip,"cls, ip",323,326
+src\ralph\data_center\models\networks.py,all_from_ip,"cls, ip",328,336
+src\ralph\data_center\models\networks.py,network,self,338,340
+src\ralph\data_center\models\networks.py,get_total_ips,self,342,346
+src\ralph\data_center\models\networks.py,get_subaddresses,self,348,359
+src\ralph\data_center\models\networks.py,get_free_ips,self,361,373
+src\ralph\data_center\models\networks.py,get_ip_usage_range,self,375,392
+src\ralph\data_center\models\networks.py,sorting_key,obj,384,390
+src\ralph\data_center\models\networks.py,get_ip_usage_aggregated,self,394,440
+src\ralph\data_center\models\networks.py,f,a,414,425
+src\ralph\data_center\models\networks.py,get_netmask,self,442,447
+src\ralph\data_center\models\networks.py,__str__,self,510,511
+src\ralph\data_center\models\networks.py,save,"self, allow_device_change=True, *args, **kwargs",513,525
+src\ralph\data_center\models\physical.py,__init__,"self, slot_no, orientation",44,46
+src\ralph\data_center\models\physical.py,get_orientation_desc,self,48,49
+src\ralph\data_center\models\physical.py,get_absolute_url,self,51,52
+src\ralph\data_center\models\physical.py,generate_gaps,"cls, items",54,80
+src\ralph\data_center\models\physical.py,get_number,slot_no,56,59
+src\ralph\data_center\models\physical.py,handle_missing,slot_no,70,72
+src\ralph\data_center\models\physical.py,rack_set,self,94,98
+src\ralph\data_center\models\physical.py,server_rooms,self,100,102
+src\ralph\data_center\models\physical.py,__str__,self,104,105
+src\ralph\data_center\models\physical.py,__str__,self,111,112
+src\ralph\data_center\models\physical.py,get_orientation_desc,self,139,140
+src\ralph\data_center\models\physical.py,__str__,self,142,146
+src\ralph\data_center\models\physical.py,__str__,self,178,185
+src\ralph\data_center\models\physical.py,get_orientation_desc,self,187,188
+src\ralph\data_center\models\physical.py,get_root_assets,"self, side=None",190,199
+src\ralph\data_center\models\physical.py,get_free_u,self,201,208
+src\ralph\data_center\models\physical.py,get_pdus,self,210,214
+src\ralph\data_center\models\physical.py,__init__,"self, *args, **kwargs",289,292
+src\ralph\data_center\models\physical.py,__str__,self,294,295
+src\ralph\data_center\models\physical.py,__repr__,self,297,298
+src\ralph\data_center\models\physical.py,save,"self, *args, **kwargs",300,304
+src\ralph\data_center\models\physical.py,get_orientation_desc,self,306,307
+src\ralph\data_center\models\physical.py,cores_count,self,309,313
+src\ralph\data_center\models\physical.py,_validate_orientation,self,315,334
+src\ralph\data_center\models\physical.py,_validate_position_in_rack,self,336,348
+src\ralph\data_center\models\physical.py,clean,self,350,365
+src\ralph\data_center\models\physical.py,get_related_assets,self,367,382
+src\ralph\data_center\models\physical.py,get_autocomplete_queryset,cls,384,387
+src\ralph\data_center\models\physical.py,change_rack,"cls, instances, request, **kwargs",390,404
+src\ralph\data_center\models\physical.py,__str__,self,426,430
+src\ralph\data_center\models\virtual.py,__str__,self,12,13
+src\ralph\data_center\models\virtual.py,__str__,self,21,22
+src\ralph\data_center\models\virtual.py,__str__,self,30,31
+src\ralph\data_center\models\virtual.py,__str__,self,36,37
+src\ralph\data_center\tests\test_api.py,setUp,self,27,36
+src\ralph\data_center\tests\test_api.py,test_get_data_center_assets_list,self,38,43
+src\ralph\data_center\tests\test_api.py,test_get_data_center_asset_details,self,46,55
+src\ralph\data_center\tests\test_api.py,test_create_data_center_asset,self,58,72
+src\ralph\data_center\tests\test_api.py,test_create_data_center_with_tags,self,74,90
+src\ralph\data_center\tests\test_api.py,test_patch_data_center_asset,self,92,104
+src\ralph\data_center\tests\test_api.py,setUp,self,108,114
+src\ralph\data_center\tests\test_api.py,test_get_rack_list,self,117,122
+src\ralph\data_center\tests\test_api.py,test_get_rack_details,self,125,140
+src\ralph\data_center\tests\test_api.py,test_create_rack,self,142,156
+src\ralph\data_center\tests\test_api.py,test_create_rack_skip_accessories,self,158,170
+src\ralph\data_center\tests\test_api.py,test_patch_rack,self,172,182
+src\ralph\data_center\tests\test_api.py,setUp,self,186,192
+src\ralph\data_center\tests\test_api.py,test_get_rack_accessory_list,self,195,200
+src\ralph\data_center\tests\test_api.py,test_get_rack_accessory_details,self,203,224
+src\ralph\data_center\tests\test_api.py,test_create_rack_accessory,self,227,241
+src\ralph\data_center\tests\test_api.py,test_patch_rack_accessory,self,243,251
+src\ralph\data_center\tests\test_forms.py,test_validate_one_management,self,14,32
+src\ralph\data_center\tests\test_forms.py,test_validate_not_management,self,34,49
+src\ralph\data_center\tests\test_models.py,setUp,self,20,49
+src\ralph\data_center\tests\test_models.py,test_get_netmask,self,51,53
+src\ralph\data_center\tests\test_models.py,test_get_subnetworks,self,55,62
+src\ralph\data_center\tests\test_models.py,test_get_address_summary,self,64,71
+src\ralph\data_center\tests\test_models.py,test_get_ip_usage_aggregated,self,73,107
+src\ralph\data_center\tests\test_models.py,test_get_network_tree,self,109,139
+src\ralph\data_center\tests\test_models.py,test_ip_is_public_or_no,self,141,149
+src\ralph\data_center\tests\test_models.py,setUp,self,154,159
+src\ralph\data_center\tests\test_models.py,test_should_pass_when_slot_no_is_correct,"self, slot_no",162,179
+src\ralph\data_center\tests\test_models.py,test_should_raise_validation_error_when_slot_no_is_incorrect,"self, slot_no",181,199
+src\ralph\data_center\tests\test_models.py,test_should_pass_when_orientation_is_correct,"self, position, orientation",201,216
+src\ralph\data_center\tests\test_models.py,test_should_raise_validation_error_when_orientation_is_correct,"self, position, orientation",218,232
+src\ralph\data_center\tests\test_models.py,test_should_pass_when_position_in_rack_is_correct,"self, position, rack_max_height",234,245
+src\ralph\data_center\tests\test_models.py,test_should_pass_when_position_in_rack_is_null,self,247,250
+src\ralph\data_center\tests\test_models.py,test_should_raise_validation_error_when_position_in_rack_is_incorrect,"self, position, rack_max_height",252,263
+src\ralph\data_center\tests\test_models.py,test_change_rack_in_descendants,self,265,270
+src\ralph\data_center\tests\test_models.py,test_get_autocomplete_queryset,self,272,274
+src\ralph\data_center\views\ui.py,get_context_data,"self, **kwargs",12,54
+src\ralph\data_center\views\ui.py,get_context_data,"self, **kwargs",66,76
+src\ralph\data_center\views\ui.py,get_context_data,"self, **kwargs",88,119
+src\ralph\data_importer\mixins.py,get_or_init_instance,"self, instance_loader, row",14,21
+src\ralph\data_importer\mixins.py,after_save_instance,"self, instance, dry_run",24,30
+src\ralph\data_importer\mixins.py,export_field,"self, field, obj",33,48
+src\ralph\data_importer\models.py,__str__,self,20,23
+src\ralph\data_importer\models.py,get_object_from_old_pk,"cls, model, old_pk",26,43
+src\ralph\data_importer\models.py,create,"cls, obj, old_pk",46,61
+src\ralph\data_importer\models.py,get_imported_id,"cls, obj",64,83
+src\ralph\data_importer\resources.py,dehydrate_price,"self, bo_asset",113,114
+src\ralph\data_importer\resources.py,dehydrate_depreciation_rate,"self, bo_asset",116,117
+src\ralph\data_importer\resources.py,dehydrate_price,"self, dc_asset",216,217
+src\ralph\data_importer\resources.py,dehydrate_depreciation_rate,"self, dc_asset",219,220
+src\ralph\data_importer\resources.py,dehydrate_price,"self, licence",269,270
+src\ralph\data_importer\resources.py,dehydrate_price,"self, support",309,310
+src\ralph\data_importer\widgets.py,get_imported_obj,"model, old_pk",15,42
+src\ralph\data_importer\widgets.py,clean,"self, value",49,59
+src\ralph\data_importer\widgets.py,clean,"self, value",66,70
+src\ralph\data_importer\widgets.py,clean,"self, value",77,102
+src\ralph\data_importer\widgets.py,clean,"self, value",109,128
+src\ralph\data_importer\widgets.py,clean,"self, value",135,143
+src\ralph\data_importer\widgets.py,clean,"self, value",147,148
+src\ralph\data_importer\widgets.py,clean,"self, value",158,169
+src\ralph\data_importer\widgets.py,render,"self, value",171,176
+src\ralph\data_importer\management\commands\importer.py,get_resource,model_name,24,34
+src\ralph\data_importer\management\commands\importer.py,add_arguments,"self, parser",41,72
+src\ralph\data_importer\management\commands\importer.py,from_zip,"self, options",75,82
+src\ralph\data_importer\management\commands\importer.py,from_dir,"self, options",84,99
+src\ralph\data_importer\management\commands\importer.py,delete_objs,"self, data, model",101,116
+src\ralph\data_importer\management\commands\importer.py,from_file,"self, options",118,170
+src\ralph\data_importer\management\commands\importer.py,handle,"self, *args, **options",172,179
+src\ralph\data_importer\management\commands\import_attachments.py,add_arguments,"self, parser",41,50
+src\ralph\data_importer\management\commands\import_attachments.py,save_transition_history,"self, directory",53,129
+src\ralph\data_importer\management\commands\import_attachments.py,save_attachments,"self, directory",131,186
+src\ralph\data_importer\management\commands\import_attachments.py,handle,"self, *args, **options",189,206
+src\ralph\data_importer\tests\test_commands.py,setUp,self,28,79
+src\ralph\data_importer\tests\test_commands.py,test_get_resource,self,81,84
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_warehouse,self,86,100
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_back_office_asset,self,102,128
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_regions,self,131,148
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_with_tab,self,151,168
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_with_skipid,self,170,194
+src\ralph\data_importer\tests\test_commands.py,test_importer_command_with_semicolon,self,196,213
+src\ralph\data_importer\tests\test_commands.py,test_imported_object,self,215,258
+src\ralph\data_importer\tests\test_commands.py,test_from_dir_command,self,260,276
+src\ralph\data_importer\tests\test_commands.py,test_from_zipfile_command,self,278,295
+src\ralph\dc_view\apps.py,ready,self,9,11
+src\ralph\dc_view\tests.py,setUp,self,30,76
+src\ralph\dc_view\tests.py,tearDown,self,79,80
+src\ralph\dc_view\tests.py,test_get,self,82,141
+src\ralph\dc_view\serializers\models_serializer.py,admin_link,"self, obj",26,32
+src\ralph\dc_view\serializers\models_serializer.py,get_service_env,"self, obj",41,46
+src\ralph\dc_view\serializers\models_serializer.py,get_orientation_desc,"self, obj",48,49
+src\ralph\dc_view\serializers\models_serializer.py,get_type,"self, obj",87,88
+src\ralph\dc_view\serializers\models_serializer.py,get_management,"self, obj",90,91
+src\ralph\dc_view\serializers\models_serializer.py,get_type,"self, obj",109,110
+src\ralph\dc_view\serializers\models_serializer.py,get_orientation_desc,"self, obj",112,113
+src\ralph\dc_view\serializers\models_serializer.py,get_type,"self, obj",125,126
+src\ralph\dc_view\serializers\models_serializer.py,update,"self, data",145,150
+src\ralph\dc_view\serializers\models_serializer.py,create,"self, data",152,157
+src\ralph\dc_view\views\api.py,get_object,"self, pk",18,22
+src\ralph\dc_view\views\api.py,_get_assets,"self, rack",24,28
+src\ralph\dc_view\views\api.py,_get_rack_data,"self, rack",30,31
+src\ralph\dc_view\views\api.py,_get_accessories,"self, rack",33,37
+src\ralph\dc_view\views\api.py,_get_pdus,"self, rack",39,40
+src\ralph\dc_view\views\api.py,get,"self, request, rack_id, format=None",42,50
+src\ralph\dc_view\views\api.py,put,"self, request, rack_id, format=None",52,58
+src\ralph\dc_view\views\api.py,post,"self, request, format=None",60,65
+src\ralph\dc_view\views\api.py,get_object,"self, pk",72,76
+src\ralph\dc_view\views\api.py,get,"self, request, data_center_id, format=None",78,85
+src\ralph\dc_view\views\ui.py,get_context_data,"self, **kwargs",9,13
+src\ralph\domains\models\domains.py,__str__,self,73,74
+src\ralph\domains\models\domains.py,__str__,self,91,96
+src\ralph\lib\api\utils.py,determine_metadata,"self, request, view",9,16
+src\ralph\lib\api\utils.py,get_field_info,"self, field",18,26
+src\ralph\lib\external_services\base.py,__init__,"self, service_name",20,27
+src\ralph\lib\external_services\base.py,run,"self, **kwargs",30,52
+src\ralph\lib\external_services\conf.py,get_redis_connection_params,,4,6
+src\ralph\lib\external_services\helpers.py,obj_to_dict,"model_instance, fields=None",7,13
+src\ralph\lib\foundation\templatetags\foundation_alert.py,alert,"message, css_class='success', is_close=True",6,9
+src\ralph\lib\foundation\templatetags\foundation_form.py,label,field,6,9
+src\ralph\lib\foundation\templatetags\foundation_form.py,field,"field, is_admin=True, show_label=True",12,18
+src\ralph\lib\foundation\templatetags\foundation_form.py,field_alone,field,22,25
+src\ralph\lib\foundation\templatetags\foundation_form.py,errors,form,28,31
+src\ralph\lib\mixins\fields.py,to_python,"self, value",9,13
+src\ralph\lib\mixins\fields.py,to_python,"self, value",36,37
+src\ralph\lib\mixins\fields.py,get_prep_value,"self, value",39,40
+src\ralph\lib\mixins\fields.py,formfield,"self, **kwargs",42,47
+src\ralph\lib\mixins\fields.py,__init__,"self, *args, **kwargs",73,76
+src\ralph\lib\mixins\fields.py,limit_choices,self,78,89
+src\ralph\lib\mixins\fields.py,get_limit_models,self,91,95
+src\ralph\lib\mixins\forms.py,__init__,"self, *args, **kwargs",9,17
+src\ralph\lib\mixins\models.py,__str__,self,17,18
+src\ralph\lib\mixins\models.py,__str__,self,28,29
+src\ralph\lib\mixins\models.py,save,"self, update_last_seen=False, *args, **kwargs",59,62
+src\ralph\lib\mixins\models.py,get_absolute_url,self,66,70
+src\ralph\lib\mixins\tests\test_fields.py,test_limit_choices,self,12,23
+src\ralph\lib\mixins\tests\test_models.py,test_returned_url,self,8,11
+src\ralph\lib\network\__init__.py,hostname,"ip, reverse=False",11,20
+src\ralph\lib\permissions\admin.py,get_fieldsets,"self, request, obj=None",14,37
+src\ralph\lib\permissions\admin.py,condition,field,20,27
+src\ralph\lib\permissions\admin.py,get_readonly_fields,"self, request, obj=None",39,45
+src\ralph\lib\permissions\admin.py,get_form,"self, request, obj=None, **kwargs",48,56
+src\ralph\lib\permissions\admin.py,get_list_display,"self, request",58,67
+src\ralph\lib\permissions\admin.py,_check_foreign_keys_permissions,self,71,89
+src\ralph\lib\permissions\admin.py,clean,self,92,94
+src\ralph\lib\permissions\admin.py,_check_obj_permission,"self, request, obj=None",102,109
+src\ralph\lib\permissions\admin.py,has_change_permission,"self, request, obj=None",111,114
+src\ralph\lib\permissions\admin.py,has_delete_permission,"self, request, obj=None",117,120
+src\ralph\lib\permissions\admin.py,get_queryset,"self, request",123,131
+src\ralph\lib\permissions\admin.py,get_field_queryset,"self, db, db_field, request",133,144
+src\ralph\lib\permissions\api.py,filter_queryset,"self, request, queryset, view",29,33
+src\ralph\lib\permissions\api.py,has_object_permission,"self, request, view, obj",44,48
+src\ralph\lib\permissions\api.py,get_field_names,"self, declared_fields, model_info",58,77
+src\ralph\lib\permissions\api.py,_get_read_only_fields,self,79,90
+src\ralph\lib\permissions\api.py,get_extra_kwargs,self,92,103
+src\ralph\lib\permissions\api.py,run_validation,"self, data=empty",105,118
+src\ralph\lib\permissions\api.py,build_relational_field,"self, field_name, relation_info",129,143
+src\ralph\lib\permissions\api.py,is_staff,user,146,150
+src\ralph\lib\permissions\api.py,has_permission,"self, request, view",158,159
+src\ralph\lib\permissions\api.py,get_required_permissions,"self, method, model_cls",183,192
+src\ralph\lib\permissions\api.py,_check_model_permissions,"self, request, view",194,211
+src\ralph\lib\permissions\api.py,has_permission,"self, request, view",213,216
+src\ralph\lib\permissions\apps.py,ready,self,12,13
+src\ralph\lib\permissions\models.py,get_perm_key,"action, class_name, field_name",8,27
+src\ralph\lib\permissions\models.py,__init__,"self, func=None, name=None",49,56
+src\ralph\lib\permissions\models.py,__call__,"self, user, *, skip_superuser_rights=False",58,69
+src\ralph\lib\permissions\models.py,_apply_operator,"self, other, operator_",71,85
+src\ralph\lib\permissions\models.py,func,"*args, **kwargs",79,80
+src\ralph\lib\permissions\models.py,__and__,"self, other",88,89
+src\ralph\lib\permissions\models.py,__or__,"self, other",91,92
+src\ralph\lib\permissions\models.py,__repr__,self,94,95
+src\ralph\lib\permissions\models.py,__new__,"cls, name, bases, attrs",121,141
+src\ralph\lib\permissions\models.py,_init_blacklist,"cls, permissions, bases",143,150
+src\ralph\lib\permissions\models.py,_init_meta_permissions,"cls, new_class",152,170
+src\ralph\lib\permissions\models.py,_init_object_permissions,"cls, permissions, bases, apply_bases=True",173,181
+src\ralph\lib\permissions\models.py,has_access_to_field,"cls, field_name, user, action='change'",188,222
+src\ralph\lib\permissions\models.py,allowed_fields,"cls, user, action='change'",224,254
+src\ralph\lib\permissions\models.py,has_permission_to_object,"self, user",263,273
+src\ralph\lib\permissions\models.py,_get_objects_for_user,"cls, user, queryset=None",275,284
+src\ralph\lib\permissions\views.py,view_permission_dispatch,func,16,38
+src\ralph\lib\permissions\views.py,wraps,"self, request, *args, **kwargs",20,37
+src\ralph\lib\permissions\views.py,__new__,"cls, name, bases, attrs",47,55
+src\ralph\lib\permissions\views.py,update_extra_view_permissions,**kwargs,58,95
+src\ralph\lib\permissions\tests\models.py,is_author,user,12,14
+src\ralph\lib\permissions\tests\models.py,is_collabolator,user,17,19
+src\ralph\lib\permissions\tests\models.py,has_long_title,user,22,24
+src\ralph\lib\permissions\tests\models.py,__str__,self,37,38
+src\ralph\lib\permissions\tests\test_api.py,setUp,self,15,16
+src\ralph\lib\permissions\tests\test_api.py,test_filter_objects_list_should_return_only_visible_by_user,self,18,23
+src\ralph\lib\permissions\tests\test_api.py,test_get_single_object_should_success_when_user_has_permissions,self,25,29
+src\ralph\lib\permissions\tests\test_api.py,test_get_single_object_should_fail_when_user_doesnt_have_permissions,self,31,35
+src\ralph\lib\permissions\tests\test_api.py,setUp,self,39,40
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_see_field_when_he_has_change_access_to_it,self,42,47
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_see_field_when_he_has_readonly_access_to_it,self,49,54
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_see_field_when_he_has_no_access_to_it,self,56,61
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_update_field_when_he_has_change_access_to_it,self,63,70
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_update_field_when_he_has_readonly_access_to_it,self,72,79
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_update_field_when_he_has_no_access_to_it,self,81,90
+src\ralph\lib\permissions\tests\test_api.py,setUpClass,cls,95,122
+src\ralph\lib\permissions\tests\test_api.py,create_user,"name, **kwargs",101,108
+src\ralph\lib\permissions\tests\test_api.py,add_perm,"user, perm",114,117
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_get_model_when_he_has_any_permission,"self, username",124,133
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_get_model_when_he_has_any_access,self,135,139
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_get_model_when_he_is_not_staff,self,141,145
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_add_model_when_he_has_add_access,self,147,151
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_add_model_when_he_has_not_add_access,self,153,157
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_patch_model_when_he_has_change_access,self,159,163
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_put_model_when_he_has_change_access,self,165,169
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_patch_model_when_he_has_not_change_access,self,171,175
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_put_model_when_he_has_not_change_access,self,177,181
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_delete_model_when_he_has_delete_access,self,183,187
+src\ralph\lib\permissions\tests\test_api.py,test_user_should_not_delete_model_when_he_has_not_delete_access,self,189,193
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,setUpClass,cls,16,51
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_get_perm_key,self,53,57
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_superuser_change_has_access_to_field,self,59,65
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_user_change_has_access_to_field,self,69,75
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_view_has_access_to_field,self,79,85
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_superuser_allowed_fields,self,89,100
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_user_allowed_fields,self,102,108
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_user_not_allowed_fields,self,110,118
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_get_list_display,self,121,135
+src\ralph\lib\permissions\tests\test_permissions_by_field.py,test_get_empty_list_display,self,138,148
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,setUp,self,20,23
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author,self,26,30
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author_and_collaborator,self,33,38
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author_or_collaborator,self,42,47
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author_or_collaborator_and_has_long_title,self,51,58
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author_or_collaborator_when_superuser,self,61,63
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_is_author_or_collaborator_when_superuser_and_skip_superuser_rights,self,65,72
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,setUp,self,79,80
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_author_should_have_access_to_his_article,self,82,84
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_superuser_should_have_access_to_any_article,self,87,89
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_collabolator_should_have_access_to_his_article,self,92,93
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_user_should_not_have_access_to_not_his_artictle,self,95,102
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_superuser_should_have_access_to_any_long_article,self,105,107
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_author_should_have_access_to_long_article_when_it_is_long,self,110,112
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_author_should_not_have_access_to_long_article_when_it_is_not_long,self,115,117
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_get_objects_for_user,"self, article_cls, username, count",120,132
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_get_object_for_superuser,self,135,142
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,setUp,self,152,153
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_save_valid_foreign_key_should_pass,self,155,160
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_save_invalid_foreign_key_should_have_form_errors,self,162,169
+src\ralph\lib\permissions\tests\test_permissions_per_object.py,test_save_invalid_m2m_should_have_form_errors,self,172,179
+src\ralph\lib\permissions\tests\test_permission_view.py,get,"self, request",16,17
+src\ralph\lib\permissions\tests\test_permission_view.py,setUp,self,28,46
+src\ralph\lib\permissions\tests\test_permission_view.py,test_codename,self,48,51
+src\ralph\lib\permissions\tests\test_permission_view.py,test_user_not_perm,self,54,59
+src\ralph\lib\permissions\tests\test_permission_view.py,test_user_with_perm,self,61,66
+src\ralph\lib\permissions\tests\test_permission_view.py,test_user_root,self,68,73
+src\ralph\lib\permissions\tests\_base.py,_create_users_and_articles,self,10,78
+src\ralph\lib\polymorphic\models.py,iterator,self,25,84
+src\ralph\lib\polymorphic\models.py,_clone,"self, *args, **kwargs",86,94
+src\ralph\lib\polymorphic\models.py,polymorphic_select_related,"self, **kwargs",96,107
+src\ralph\lib\polymorphic\models.py,polymorphic_prefetch_related,"self, **kwargs",109,121
+src\ralph\lib\polymorphic\models.py,__new__,"cls, name, bases, attrs",135,153
+src\ralph\lib\polymorphic\models.py,save,"self, *args, **kwargs",176,182
+src\ralph\lib\polymorphic\tests\models.py,__str__,self,28,29
+src\ralph\lib\polymorphic\tests\models.py,__str__,self,37,38
+src\ralph\lib\polymorphic\tests\tests_models.py,setUpClass,cls,16,30
+src\ralph\lib\polymorphic\tests\tests_models.py,test_polymorphic_metaclass,self,33,35
+src\ralph\lib\polymorphic\tests\tests_models.py,test_content_type_save,self,38,41
+src\ralph\lib\polymorphic\tests\tests_models.py,test_get_descendants_models,self,44,47
+src\ralph\lib\polymorphic\tests\tests_models.py,test_polymorphic_queryset,self,49,67
+src\ralph\lib\polymorphic\tests\tests_models.py,test_polymorphic_queryset_with_select_related,self,69,83
+src\ralph\lib\polymorphic\tests\tests_models.py,test_polymorphic_queryset_ordering,self,85,87
+src\ralph\lib\polymorphic\tests\tests_models.py,test_polymorphic_queryset_use_regular_iterator,self,89,91
+src\ralph\lib\table\table.py,__init__,"self, queryset, list_display, additional_row_method=None, request=None",34,50
+src\ralph\lib\table\table.py,get_headers,self,52,68
+src\ralph\lib\table\table.py,get_field_value,"self, item, field",70,98
+src\ralph\lib\table\table.py,get_table_content,self,100,129
+src\ralph\lib\table\tests.py,setUpClass,cls,11,14
+src\ralph\lib\table\tests.py,test_queryset_render,self,16,26
+src\ralph\lib\table\tests.py,test_custom_field,self,28,43
+src\ralph\lib\table\tests.py,url,"self, item",30,31
+src\ralph\lib\table\tests.py,test_additional_row_method,self,45,60
+src\ralph\lib\table\tests.py,bar_url,"self, item",47,48
+src\ralph\lib\table\templatetags\table.py,table,table_rows,6,11
+src\ralph\lib\template\loaders.py,get_template_path,"self, template_name, template_dirs=None",46,59
+src\ralph\lib\template\loaders.py,load_template_source,"self, template_name, template_dirs=None",61,67
+src\ralph\lib\transitions\admin.py,get_formset,"self, request, obj=None, **kwargs",23,27
+src\ralph\lib\transitions\admin.py,has_add_permission,"self, request",36,37
+src\ralph\lib\transitions\admin.py,get_transition_url_name,"self, with_namespace=True",44,46
+src\ralph\lib\transitions\admin.py,get_transition_bulk_url_name,"self, with_namespace=True",49,50
+src\ralph\lib\transitions\admin.py,change_view,"self, request, object_id, form_url='', extra_context=None",52,59
+src\ralph\lib\transitions\admin.py,get_urls,self,62,78
+src\ralph\lib\transitions\admin.py,get_actions,"self, request",80,87
+src\ralph\lib\transitions\admin.py,get_admin_action_from_transition,"self, transition",89,111
+src\ralph\lib\transitions\admin.py,transition_action_redirect,"cls, request, queryset, transition",92,105
+src\ralph\lib\transitions\apps.py,ready,self,11,19
+src\ralph\lib\transitions\decorators.py,transition_action,"method=None, **kwargs",7,26
+src\ralph\lib\transitions\decorators.py,decorator,func,8,22
+src\ralph\lib\transitions\decorators.py,wrapper,"*args, **kwargs",19,21
+src\ralph\lib\transitions\exceptions.py,__init__,"self, message, errors",9,12
+src\ralph\lib\transitions\forms.py,wrap_action_name,action,15,27
+src\ralph\lib\transitions\forms.py,__init__,"self, *args, **kwargs",31,55
+src\ralph\lib\transitions\forms.py,clean,self,57,70
+src\ralph\lib\transitions\models.py,_generate_transition_history,"instance, transition, user, attachment, history_kwargs, action_names, field",50,78
+src\ralph\lib\transitions\models.py,_get_history_dict,"data, instance, runned_funcs",82,105
+src\ralph\lib\transitions\models.py,_check_type_instances,instances,108,116
+src\ralph\lib\transitions\models.py,_check_and_get_transition,"obj, transition, field",119,145
+src\ralph\lib\transitions\models.py,_check_instances_for_transition,"instances, transition",148,173
+src\ralph\lib\transitions\models.py,_check_action_with_instances,"instances, transition",177,180
+src\ralph\lib\transitions\models.py,_check_user_perm_for_transition,"user, transition",183,188
+src\ralph\lib\transitions\models.py,_create_graph_from_actions,"actions, instance",192,201
+src\ralph\lib\transitions\models.py,_sort_graph_topologically,graph,204,224
+src\ralph\lib\transitions\models.py,_order_actions_by_requirements,"actions, instance",227,231
+src\ralph\lib\transitions\models.py,run_field_transition,"instances, transition_obj_or_name, field, data={}, **kwargs",234,297
+src\ralph\lib\transitions\models.py,get_available_transitions_for_field,"instance, field, user=None",300,318
+src\ralph\lib\transitions\models.py,__new__,"cls, name, bases, attrs",327,344
+src\ralph\lib\transitions\models.py,__str__,self,355,356
+src\ralph\lib\transitions\models.py,__str__,self,370,371
+src\ralph\lib\transitions\models.py,permission_info,self,373,378
+src\ralph\lib\transitions\models.py,transitions_for_model,"cls, model, user=None",381,387
+src\ralph\lib\transitions\models.py,get_pure_actions,"self, instance",390,392
+src\ralph\lib\transitions\models.py,has_form,"self, instance",395,399
+src\ralph\lib\transitions\models.py,__str__,self,410,411
+src\ralph\lib\transitions\models.py,actions_for_model,"cls, model",413,416
+src\ralph\lib\transitions\models.py,__str__,self,434,435
+src\ralph\lib\transitions\models.py,update_models_attrs,,438,453
+src\ralph\lib\transitions\models.py,update_transitions_affter_migrate,**kwargs,456,477
+src\ralph\lib\transitions\models.py,post_delete_transition,"sender, instance, **kwargs",482,484
+src\ralph\lib\transitions\models.py,post_save_transition,"sender, instance, **kwargs",487,495
+src\ralph\lib\transitions\models.py,create_permission,"sender, instance, created, **kwargs",498,509
+src\ralph\lib\transitions\views.py,_objects_are_valid,self,31,36
+src\ralph\lib\transitions\views.py,collect_actions,"self, transition",38,45
+src\ralph\lib\transitions\views.py,form_fields_from_actions,self,47,82
+src\ralph\lib\transitions\views.py,dispatch,"self, request, *args, **kwargs",84,97
+src\ralph\lib\transitions\views.py,get_context_data,"self, **kwargs",99,106
+src\ralph\lib\transitions\views.py,get_form,self,108,114
+src\ralph\lib\transitions\views.py,form_invalid,"self, form",116,118
+src\ralph\lib\transitions\views.py,form_valid,"self, form=None",120,138
+src\ralph\lib\transitions\views.py,_is_valid,self,140,158
+src\ralph\lib\transitions\views.py,run_and_redirect,"self, request, *args, **kwargs",160,161
+src\ralph\lib\transitions\views.py,get,"self, request, *args, **kwargs",163,164
+src\ralph\lib\transitions\views.py,post,"self, request, *args, **kwargs",166,175
+src\ralph\lib\transitions\views.py,get_success_url,self,177,178
+src\ralph\lib\transitions\views.py,dispatch,"self, request, transition_pk, model, *args, **kwargs",183,191
+src\ralph\lib\transitions\views.py,get_success_url,self,193,199
+src\ralph\lib\transitions\views.py,dispatch,"self, request, object_pk, transition_pk, model, *args, **kwargs",204,211
+src\ralph\lib\transitions\views.py,get_success_url,self,213,214
+src\ralph\lib\transitions\templatetags\transitions_tags.py,available_transitions,"context, obj, field",6,22
+src\ralph\lib\transitions\tests\test_admin.py,setUp,self,10,12
+src\ralph\lib\transitions\tests\test_admin.py,test_url_for_transition,self,14,19
+src\ralph\lib\transitions\tests\test_admin.py,test_should_save_attachment_url_in_session,self,22,35
+src\ralph\lib\transitions\tests\test_forms.py,test_raise_error_when_instance_is_empty,self,8,10
+src\ralph\lib\transitions\tests\test_forms.py,test_raise_error_when_instance_is_incorrect,self,12,16
+src\ralph\lib\transitions\tests\test_forms.py,test_action_choices,self,18,25
+src\ralph\lib\transitions\tests\test_forms.py,test_source_choices,self,28,35
+src\ralph\lib\transitions\tests\test_forms.py,test_target_choices,self,38,46
+src\ralph\lib\transitions\tests\test_forms.py,test_should_raise_vaild_error_when_user_checked_two_or_more_actions_with_attachment,self,49,64
+src\ralph\lib\transitions\tests\test_models.py,mocked_action,"*args, **kwargs",23,29
+src\ralph\lib\transitions\tests\test_models.py,test_create_transition_should_create_perm,self,33,39
+src\ralph\lib\transitions\tests\test_models.py,test_delete_transition_should_delete_perm,self,41,48
+src\ralph\lib\transitions\tests\test_models.py,test_change_name_should_change_perm_name_and_codename,self,50,60
+src\ralph\lib\transitions\tests\test_models.py,setUp,self,65,70
+src\ralph\lib\transitions\tests\test_models.py,test_model_should_not_found_in_registry,self,73,77
+src\ralph\lib\transitions\tests\test_models.py,test_transition_change_status,self,79,88
+src\ralph\lib\transitions\tests\test_models.py,test_run_action_during_transition,self,90,99
+src\ralph\lib\transitions\tests\test_models.py,test_run_transition_from_string,self,101,111
+src\ralph\lib\transitions\tests\test_models.py,test_run_non_existent_transition,self,114,118
+src\ralph\lib\transitions\tests\test_models.py,test_available_transitions,self,120,135
+src\ralph\lib\transitions\tests\test_models.py,test_forbidden_transition,self,138,151
+src\ralph\lib\transitions\tests\test_models.py,test_create_graph_from_actions,self,153,163
+src\ralph\lib\transitions\tests\test_models.py,test_create_graph_from_actions_when_requirement_not_in_transition,self,166,175
+src\ralph\lib\transitions\tests\test_models.py,test_topological_sort,self,178,188
+src\ralph\lib\transitions\tests\test_models.py,test_topological_sort_cycle,self,190,198
+src\ralph\lib\transitions\tests\__init__.py,setUpClass,cls,16,19
+src\ralph\lib\transitions\tests\__init__.py,_get_form,"self, obj=None",21,25
+src\ralph\lib\transitions\tests\__init__.py,_create_transition,"self, model, name, actions=None, field='status', source=None, target=None",27,46
+src\ralph\licences\api.py,validate,"self, data",34,37
+src\ralph\licences\models.py,create_from_string,"cls, string_name, *args, **kwargs",32,34
+src\ralph\licences\models.py,create_from_string,"cls, asset_type, string_name",45,47
+src\ralph\licences\models.py,licences,self,49,53
+src\ralph\licences\models.py,get_queryset,self,60,94
+src\ralph\licences\models.py,__str__,self,199,205
+src\ralph\licences\models.py,used,self,208,223
+src\ralph\licences\models.py,get_sum,qs,221,222
+src\ralph\licences\models.py,free,self,225,229
+src\ralph\licences\models.py,get_autocomplete_queryset,cls,231,236
+src\ralph\licences\models.py,__str__,self,256,258
+src\ralph\licences\models.py,clean,self,261,270
+src\ralph\licences\models.py,__str__,self,285,287
+src\ralph\licences\tests\tests_models.py,setUp,self,13,18
+src\ralph\licences\tests\tests_models.py,test_region_validate,self,20,30
+src\ralph\licences\tests\tests_models.py,setUp,self,34,39
+src\ralph\licences\tests\tests_models.py,test_get_autocomplete_queryset,self,41,47
+src\ralph\licences\tests\tests_models.py,test_get_autocomplete_queryset_all_used,self,50,62
+src\ralph\licences\tests\test_api.py,setUp,self,13,22
+src\ralph\licences\tests\test_api.py,test_get_licence_list,self,25,29
+src\ralph\licences\tests\test_api.py,test_get_licence_with_user_details,self,31,51
+src\ralph\licences\tests\test_api.py,test_get_licence_with_base_object_details,self,54,60
+src\ralph\licences\tests\test_api.py,test_api_region_validate_error,self,64,74
+src\ralph\licences\tests\test_api.py,test_api_region_validate_ok,self,77,88
+src\ralph\licences\tests\test_functional.py,setUp,self,14,21
+src\ralph\licences\tests\test_functional.py,test_add_base_object_licence_ok,self,23,45
+src\ralph\licences\tests\test_functional.py,test_add_base_object_licence_error,self,47,66
+src\ralph\reports\base.py,__init__,"self, name, count='0', parent=None, children=[], link=None, **kwargs",8,15
+src\ralph\reports\base.py,add_child,"self, child",17,19
+src\ralph\reports\base.py,add_to_count,"self, count",21,22
+src\ralph\reports\base.py,update_count,self,24,26
+src\ralph\reports\base.py,ancestors,self,28,33
+src\ralph\reports\base.py,to_dict,self,35,38
+src\ralph\reports\base.py,__str__,self,41,42
+src\ralph\reports\base.py,get,"self, name",48,49
+src\ralph\reports\base.py,get_or_create,"self, name",51,58
+src\ralph\reports\base.py,add,"self, name, count='0', parent=None, unique=True, link=None",60,74
+src\ralph\reports\base.py,roots,self,76,78
+src\ralph\reports\base.py,leaves,self,80,82
+src\ralph\reports\base.py,to_dict,self,84,91
+src\ralph\reports\base.py,traverse,node,85,90
+src\ralph\reports\forms.py,clean,self,9,16
+src\ralph\reports\models.py,get_report_file_path,"instance, filename",9,11
+src\ralph\reports\models.py,clean,self,22,27
+src\ralph\reports\models.py,__str__,self,45,46
+src\ralph\reports\models.py,name,self,48,50
+src\ralph\reports\tests.py,setUp,self,31,34
+src\ralph\reports\tests.py,_create_models,self,36,71
+src\ralph\reports\tests.py,_create_assets,self,74,103
+src\ralph\reports\tests.py,_get_item,"self, data, name",105,110
+src\ralph\reports\tests.py,_get_report,"self, report_class, mode=None",112,115
+src\ralph\reports\tests.py,test_category_model_tree,self,117,127
+src\ralph\reports\tests.py,test_category_model_status_tree,self,129,146
+src\ralph\reports\tests.py,setUp,self,150,167
+src\ralph\reports\tests.py,test_asset_relation,self,170,185
+src\ralph\reports\tests.py,test_num_queries_dc,self,187,191
+src\ralph\reports\tests.py,test_num_queries_bo,self,194,199
+src\ralph\reports\tests.py,test_licence_relation,self,202,230
+src\ralph\reports\tests.py,test_clean_metod,self,235,246
+src\ralph\reports\views.py,get_choice_name,"choices_class, key, default='------'",22,30
+src\ralph\reports\views.py,get_response,"self, request, result",39,57
+src\ralph\reports\views.py,__init__,self,86,87
+src\ralph\reports\views.py,execute,"self, model, dc=None",89,94
+src\ralph\reports\views.py,prepare,"self, model, dc",96,97
+src\ralph\reports\views.py,is_async,"self, request",99,100
+src\ralph\reports\views.py,datacenters,self,102,116
+src\ralph\reports\views.py,get_model,"self, asset_type='all'",119,123
+src\ralph\reports\views.py,active_sidebar_item,self,125,127
+src\ralph\reports\views.py,get_template_names,"self, *args, **kwargs",129,130
+src\ralph\reports\views.py,get_result,"self, request, model, *args, **kwargs",132,133
+src\ralph\reports\views.py,dispatch,"self, request, *args, **kwargs",135,144
+src\ralph\reports\views.py,get_context_data,"self, **kwargs",146,166
+src\ralph\reports\views.py,get,"self, request, *args, **kwargs",168,172
+src\ralph\reports\views.py,modes,self,181,183
+src\ralph\reports\views.py,prepare,"self, model, *args, **kwargs",191,205
+src\ralph\reports\views.py,prepare,"self, model, *args, **kwargs",214,236
+src\ralph\reports\views.py,prepare,"self, model, *args, **kwargs",245,272
+src\ralph\reports\views.py,prepare,"self, model, dc=None",282,300
+src\ralph\reports\views.py,prepare,"self, model, *args, **kwargs",339,350
+src\ralph\reports\views.py,prepare,"self, model, *args, **kwargs",376,453
+src\ralph\settings\base.py,os_env_true,"var, default=''",8,9
+src\ralph\settings\dev.py,only_true,request,4,6
+src\ralph\supports\models.py,__init__,"self, *args, **kwargs",100,102
+src\ralph\supports\models.py,get_natural_end_support,self,104,105
+src\ralph\supports\models.py,__str__,self,107,108
+src\ralph\supports\models.py,autocomplete_str,self,110,113
+src\ralph\supports\tests\test_api.py,setUp,self,14,16
+src\ralph\supports\tests\test_api.py,test_get_supports_list,self,18,23
+src\ralph\supports\tests\test_api.py,test_get_support_details,self,26,34
+src\ralph\supports\tests\test_api.py,test_create_support,self,38,55
+src\ralph\supports\tests\test_api.py,test_patch_support,self,57,69
+src\ralph\supports\tests\test_autocomplete.py,setUp,self,16,23
+src\ralph\supports\tests\test_autocomplete.py,test_autocomplete_json,self,25,52
+src\ralph\tests\factories.py,groups,"self, create, extracted, **kwargs",16,24
+src\ralph\tests\factories.py,email,self,26,28
+src\ralph\tests\factories.py,_generate,"cls, create, attrs",30,35
+src\ralph\tests\mixins.py,login_as_user,"self, user=None, password='ralph', *args, **kwargs",14,21
+src\ralph\tests\mixins.py,reload_urls,self,28,44
+src\ralph\tests\models.py,pack,"cls, instances, request, **kwargs",51,58
+src\ralph\tests\models.py,go_to_post_office,"cls, instances, **kwargs",61,68

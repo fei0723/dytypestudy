@@ -1,0 +1,1483 @@
+file,method,params,startlineno,endlineno
+setup.py,compile_client,,24,35
+setup.py,get_version,,61,68
+client\powerline.py,eintr_retry_call,"func, *args, **kwargs",42,49
+client\powerline.py,tobytes,s,62,66
+docs\source\powerline_autodoc.py,formatvalue,val,15,19
+docs\source\powerline_autodoc.py,can_document_member,"cls, member, membername, isattr, parent",24,27
+docs\source\powerline_autodoc.py,format_args,self,29,31
+docs\source\powerline_autodoc.py,__init__,"self, repr_contents",35,36
+docs\source\powerline_autodoc.py,__repr__,self,38,39
+docs\source\powerline_autodoc.py,can_document_member,"cls, member, membername, isattr, parent",43,48
+docs\source\powerline_autodoc.py,import_object,"self, *args, **kwargs",50,58
+docs\source\powerline_autodoc.py,setup,app,61,64
+docs\source\powerline_automan.py,get_authors,,23,44
+docs\source\powerline_automan.py,__init__,self,49,50
+docs\source\powerline_automan.py,add_parser,"self, command, *args, **kwargs",52,54
+docs\source\powerline_automan.py,parse_argument,"*args, **kwargs",60,79
+docs\source\powerline_automan.py,__init__,self,89,91
+docs\source\powerline_automan.py,add_argument,"self, *args, **kwargs",93,94
+docs\source\powerline_automan.py,add_argument_group,"self, *args, **kwargs",96,98
+docs\source\powerline_automan.py,__init__,"self, ret, condition, start=u'[', end=u']'",102,106
+docs\source\powerline_automan.py,__enter__,"self, *args",108,110
+docs\source\powerline_automan.py,__exit__,"self, *args",112,114
+docs\source\powerline_automan.py,insert_separators,"ret, sep",117,120
+docs\source\powerline_automan.py,format_usage_arguments,"arguments, base_length=None",123,201
+docs\source\powerline_automan.py,parse_argparse_text,text,207,215
+docs\source\powerline_automan.py,flatten_groups,arguments,218,224
+docs\source\powerline_automan.py,format_arguments,arguments,227,262
+docs\source\powerline_automan.py,format_subcommand_usage,"arguments, subcommands, progname, base_length",268,279
+docs\source\powerline_automan.py,format_subcommands,subcommands,282,296
+docs\source\powerline_automan.py,__init__,"self, description=None, help=None",300,304
+docs\source\powerline_automan.py,add_argument,"self, *args, **kwargs",306,307
+docs\source\powerline_automan.py,add_subparsers,self,309,311
+docs\source\powerline_automan.py,add_mutually_exclusive_group,self,313,315
+docs\source\powerline_automan.py,automan_usage,"self, prog",317,327
+docs\source\powerline_automan.py,automan_description,self,329,334
+docs\source\powerline_automan.py,run,self,343,386
+docs\source\powerline_automan.py,setup,app,389,390
+powerline\colorscheme.py,get_attrs_flag,attrs,15,24
+powerline\colorscheme.py,pick_gradient_value,"grad_list, gradient_level",27,32
+powerline\colorscheme.py,__init__,"self, colorscheme_config, colors_config",36,60
+powerline\colorscheme.py,get_gradient,"self, gradient, gradient_level",62,66
+powerline\colorscheme.py,get_group_props,"self, mode, trans, group, translate_colors=True",68,96
+powerline\colorscheme.py,get_highlighting,"self, groups, mode, gradient_level=None",98,115
+powerline\ipython.py,__init__,"self, prompt",11,12
+powerline\ipython.py,__str__,self,14,15
+powerline\ipython.py,__add__,"self, s",17,23
+powerline\ipython.py,init,"self, **kwargs",27,31
+powerline\ipython.py,get_config_paths,self,34,38
+powerline\ipython.py,get_local_themes,"self, local_themes",40,41
+powerline\ipython.py,load_main_config,self,43,47
+powerline\ipython.py,load_theme_config,"self, name",49,53
+powerline\ipython.py,do_setup,"self, wrefs",55,59
+powerline\pdb.py,init,"self, **kwargs",16,20
+powerline\pdb.py,do_setup,"self, pdb",23,25
+powerline\pdb.py,load_main_config,self,27,32
+powerline\pdb.py,load_theme_config,"self, name",34,41
+powerline\pdb.py,get_config_paths,self,43,45
+powerline\renderer.py,construct_returned_value,"rendered_highlighted, segments, width, output_raw, output_width",91,98
+powerline\renderer.py,__init__,"self, theme_config, local_themes, theme_kwargs, pl, ambiwidth='1', **options",155,178
+powerline\renderer.py,get_theme,"self, matcher_info",197,207
+powerline\renderer.py,shutdown,self,209,214
+powerline\renderer.py,get_segment_info,"self, segment_info, mode",216,238
+powerline\renderer.py,render_above_lines,"self, **kwargs",240,251
+powerline\renderer.py,render,"self, mode=None, width=None, side=None, line='0', output_raw=False, output_width=False, segment_info=None, matcher_info=None",253,298
+powerline\renderer.py,compute_divider_widths,"self, theme",301,309
+powerline\renderer.py,do_render,"self, mode, width, side, line, output_raw, output_width, segment_info, theme",313,385
+powerline\renderer.py,_prepare_segments,"self, segments, calculate_contents_len",387,397
+powerline\renderer.py,_render_length,"self, theme, segments, divider_widths",399,454
+powerline\renderer.py,_render_segments,"self, theme, segments, render_highlighted=True",456,555
+powerline\renderer.py,escape,"self, string",557,560
+powerline\renderer.py,hlstyle,"fg=None, bg=None, attrs=None",562,569
+powerline\renderer.py,hl,"self, contents, fg=None, bg=None, attrs=None",571,577
+powerline\segment.py,list_segment_key_values,"segment, theme_configs, segment_data, key, function_name=None, name=None, module=None, default=None",7,41
+powerline\segment.py,get_segment_key,"merge, *args, **kwargs",44,58
+powerline\segment.py,get_function,"data, segment",61,70
+powerline\segment.py,get_string,"data, segment",73,75
+powerline\segment.py,get_attr_func,"contents_func, key, args, is_space_func=False",85,100
+powerline\segment.py,expand_func,"pl, amount, segment",92,97
+powerline\segment.py,process_segment_lister,"pl, segment_info, parsed_segments, side, mode, colorscheme, lister, subsegments, patcher_args",103,135
+powerline\segment.py,set_segment_highlighting,"pl, colorscheme, segment, mode",138,164
+powerline\segment.py,process_segment,"pl, side, segment_info, parsed_segments, segment, mode, colorscheme",167,222
+powerline\segment.py,gen_segment_getter,"pl, ext, common_config, theme_configs, default_module, get_module_attr, top_theme",254,450
+powerline\segment.py,get_key,"merge, segment, module, function_name, name, key, default=None",261,262
+powerline\segment.py,get_selector,function_name,265,273
+powerline\segment.py,get_segment_selector,"segment, selector_type",275,301
+powerline\segment.py,gen_display_condition,segment,303,317
+powerline\segment.py,get,"segment, side",319,447
+powerline\shell.py,init,"self, args, **kwargs",9,11
+powerline\shell.py,load_main_config,self,13,17
+powerline\shell.py,load_theme_config,"self, name",19,23
+powerline\shell.py,get_config_paths,self,25,26
+powerline\shell.py,get_local_themes,"self, local_themes",28,34
+powerline\shell.py,do_setup,"self, obj",37,38
+powerline\theme.py,requires_segment_info,func,10,12
+powerline\theme.py,requires_filesystem_watcher,func,15,17
+powerline\theme.py,new_empty_segment_line,,20,23
+powerline\theme.py,add_spaces_left,"pl, amount, segment",27,28
+powerline\theme.py,add_spaces_right,"pl, amount, segment",31,32
+powerline\theme.py,add_spaces_center,"pl, amount, segment",35,37
+powerline\theme.py,__init__,"self, ext, theme_config, common_config, pl, get_module_attr, top_theme, colorscheme, main_theme_config=None, run_once=False, shutdown_event=None",48,104
+powerline\theme.py,shutdown,self,106,113
+powerline\theme.py,get_divider,"self, side=u'left', type=u'soft'",115,117
+powerline\theme.py,get_spaces,self,119,120
+powerline\theme.py,get_line_number,self,122,123
+powerline\theme.py,get_segments,"self, side=None, line='0', segment_info=None, mode=None",125,181
+powerline\vim.py,_override_from,"config, override_varname, key=None",21,32
+powerline\vim.py,__init__,"self, varname",41,46
+powerline\vim.py,emit,"self, record",48,52
+powerline\vim.py,init,"self, pyeval=u'PowerlinePyeval', **kwargs",56,66
+powerline\vim.py,create_window_statusline_constructor,self,69,71
+powerline\vim.py,create_window_statusline_constructor,self,73,77
+powerline\vim.py,add_local_theme,"self, key, config",94,134
+powerline\vim.py,load_main_config,self,138,148
+powerline\vim.py,load_theme_config,"self, name",150,154
+powerline\vim.py,get_local_themes,"self, local_themes",157,172
+powerline\vim.py,get_matcher,"self, match_name",176,181
+powerline\vim.py,get_config_paths,self,183,187
+powerline\vim.py,do_setup,"self, pyeval=None, pycmd=None, can_replace_pyeval=True, _local_themes=()",189,250
+powerline\vim.py,reset_highlight,self,252,261
+powerline\vim.py,new_win_idx,"self, window_id",263,279
+powerline\vim.py,old_win_idx,"self, window_id",281,296
+powerline\vim.py,statusline,"self, window_id",298,302
+powerline\vim.py,tabline,self,304,305
+powerline\vim.py,new_window,self,307,308
+powerline\vim.py,do_pyeval,,310,318
+powerline\vim.py,setup_components,"self, components",320,330
+powerline\vim.py,set_pycmd,new_pycmd,336,338
+powerline\vim.py,get_default_pycmd,,341,342
+powerline\vim.py,setup,"*args, **kwargs",345,347
+powerline\__init__.py,_config_loader_condition,path,23,26
+powerline\__init__.py,_find_config_files,"search_paths, config_file, config_loader=None, loader_callback=None",29,42
+powerline\__init__.py,__init__,"self, use_daemon_threads, logger, ext",65,70
+powerline\__init__.py,_log,"self, attr, msg, *args, **kwargs",72,87
+powerline\__init__.py,critical,"self, msg, *args, **kwargs",89,90
+powerline\__init__.py,exception,"self, msg, *args, **kwargs",92,93
+powerline\__init__.py,info,"self, msg, *args, **kwargs",95,96
+powerline\__init__.py,error,"self, msg, *args, **kwargs",98,99
+powerline\__init__.py,warn,"self, msg, *args, **kwargs",101,102
+powerline\__init__.py,debug,"self, msg, *args, **kwargs",104,105
+powerline\__init__.py,get_fallback_logger,stream=None,111,128
+powerline\__init__.py,_generate_change_callback,"lock, key, dictionary",131,135
+powerline\__init__.py,on_file_change,path,132,134
+powerline\__init__.py,get_config_paths,,138,153
+powerline\__init__.py,generate_config_finder,get_config_paths=get_config_paths,156,170
+powerline\__init__.py,load_config,"cfg_path, find_config_files, config_loader, loader_callback=None",173,200
+powerline\__init__.py,_set_log_handlers,"common_config, logger, get_module_attr, stream=None",203,259
+powerline\__init__.py,create_logger,"common_config, use_daemon_threads=True, ext=u'__unknown__', import_paths=None, imported_modules=None, stream=None",262,298
+powerline\__init__.py,finish_common_config,"encoding, common_config",301,338
+powerline\__init__.py,reraise,exception,352,356
+powerline\__init__.py,gen_module_attr_getter,"pl, import_paths, imported_modules",359,389
+powerline\__init__.py,get_module_attr,"module, attr, prefix=u'powerline'",360,387
+powerline\__init__.py,_get_log_keys,common_config,397,408
+powerline\__init__.py,__init__,"self, *args, **kwargs",445,447
+powerline\__init__.py,init,"self, ext, renderer_module=None, run_once=False, logger=None, use_daemon_threads=True, shutdown_event=None, config_loader=None",449,506
+powerline\__init__.py,create_logger,self,514,531
+powerline\__init__.py,create_renderer,"self, load_main=False, load_colors=False, load_colorscheme=False, load_theme=False",534,678
+powerline\__init__.py,setup_components,"self, components",688,696
+powerline\__init__.py,get_config_paths,,698,707
+powerline\__init__.py,load_config,"self, cfg_path, cfg_type",709,725
+powerline\__init__.py,_purge_configs,"self, cfg_type",728,731
+powerline\__init__.py,load_main_config,self,733,738
+powerline\__init__.py,_load_hierarhical_config,"self, cfg_type, levels, ignore_levels",740,779
+powerline\__init__.py,load_colorscheme_config,"self, name",781,794
+powerline\__init__.py,load_theme_config,"self, name",796,807
+powerline\__init__.py,load_colors_config,self,809,814
+powerline\__init__.py,get_local_themes,local_themes,816,830
+powerline\__init__.py,update_renderer,self,832,852
+powerline\__init__.py,render,"self, *args, **kwargs",854,870
+powerline\__init__.py,render_above_lines,"self, *args, **kwargs",872,885
+powerline\__init__.py,setup,"self, *args, **kwargs",887,896
+powerline\__init__.py,do_setup,,898,905
+powerline\__init__.py,reload,self,907,934
+powerline\__init__.py,shutdown,"self, set_event=True",936,956
+powerline\__init__.py,__enter__,self,958,959
+powerline\__init__.py,__exit__,"self, *args",961,962
+powerline\__init__.py,exception,"self, msg, *args, **kwargs",964,974
+powerline\bindings\config.py,list_all_tmux_configs,,35,50
+powerline\bindings\config.py,get_tmux_configs,version,55,62
+powerline\bindings\config.py,source_tmux_files,"pl, args, tmux_version=None, source_tmux_file=source_tmux_file",65,86
+powerline\bindings\config.py,__init__,"self, ext, config_path",90,93
+powerline\bindings\config.py,__getattr__,"self, attr",95,96
+powerline\bindings\config.py,init_tmux_environment,"pl, args, set_tmux_environment=set_tmux_environment",99,173
+powerline\bindings\config.py,get_highlighting,group,109,110
+powerline\bindings\config.py,tmux_setup,"pl, args",179,212
+powerline\bindings\config.py,set_tmux_environment_nosource,"varname, value, remove=True",183,184
+powerline\bindings\config.py,replace_cb,match,186,187
+powerline\bindings\config.py,replace_env,s,189,190
+powerline\bindings\config.py,source_tmux_file_nosource,fname,192,199
+powerline\bindings\config.py,get_main_config,args,215,218
+powerline\bindings\config.py,create_powerline_logger,args,221,225
+powerline\bindings\config.py,check_command,cmd,228,230
+powerline\bindings\config.py,deduce_command,,233,257
+powerline\bindings\config.py,shell_command,"pl, args",261,266
+powerline\bindings\config.py,uses,"pl, args",269,283
+powerline\bindings\awesome\powerline-awesome.py,read_to_log,"pl, client",22,30
+powerline\bindings\bar\powerline-bar.py,init,self,18,19
+powerline\bindings\bar\powerline-bar.py,render,reschedule=False,34,42
+powerline\bindings\bar\powerline-bar.py,update,evt,44,46
+powerline\bindings\i3\powerline-i3.py,render,"event=None, data=None, sub=None",32,38
+powerline\bindings\ipython\post_0_11.py,__init__,"self, ip, powerline",14,16
+powerline\bindings\ipython\post_0_11.py,powerline,"self, line",18,23
+powerline\bindings\ipython\post_0_11.py,__init__,"self, shell",27,28
+powerline\bindings\ipython\post_0_11.py,prompt_count,self,30,32
+powerline\bindings\ipython\post_0_11.py,__init__,"self, powerline, shell",36,39
+powerline\bindings\ipython\post_0_11.py,render,"self, name, color=True, *args, **kwargs",41,56
+powerline\bindings\ipython\post_0_11.py,__call__,self,62,67
+powerline\bindings\ipython\post_0_11.py,init,"self, ip",71,76
+powerline\bindings\ipython\post_0_11.py,do_setup,"self, ip, shutdown_hook",78,87
+powerline\bindings\ipython\post_0_11.py,load_ipython_extension,ip,93,102
+powerline\bindings\ipython\post_0_11.py,unload_ipython_extension,ip,105,106
+powerline\bindings\ipython\pre_0_11.py,__init__,"self, cache",17,18
+powerline\bindings\ipython\pre_0_11.py,prompt_count,self,20,22
+powerline\bindings\ipython\pre_0_11.py,__init__,"self, powerline, powerline_last_in, old_prompt",26,33
+powerline\bindings\ipython\pre_0_11.py,__str__,self,35,37
+powerline\bindings\ipython\pre_0_11.py,set_p_str,self,39,47
+powerline\bindings\ipython\pre_0_11.py,set_colors,,51,53
+powerline\bindings\ipython\pre_0_11.py,__str__,self,61,65
+powerline\bindings\ipython\pre_0_11.py,set_p_str,self,67,70
+powerline\bindings\ipython\pre_0_11.py,auto_rewrite,self,72,77
+powerline\bindings\ipython\pre_0_11.py,set_p_str,self,85,89
+powerline\bindings\ipython\pre_0_11.py,init,"self, config_overrides=None, theme_overrides={}, config_paths=None",98,102
+powerline\bindings\ipython\pre_0_11.py,ipython_magic,"self, ip, parameter_s=u''",104,108
+powerline\bindings\ipython\pre_0_11.py,do_setup,"self, ip, shutdown_hook",110,121
+powerline\bindings\ipython\pre_0_11.py,__call__,self,127,132
+powerline\bindings\ipython\pre_0_11.py,setup,**kwargs,135,146
+powerline\bindings\ipython\pre_0_11.py,late_startup_hook,,141,143
+powerline\bindings\pdb\__init__.py,__new__,"cls, s, encoding=None",18,24
+powerline\bindings\pdb\__init__.py,__len__,self,51,52
+powerline\bindings\pdb\__init__.py,__getitem__,"self, *args",54,55
+powerline\bindings\pdb\__init__.py,__getslice__,"self, *args",57,58
+powerline\bindings\pdb\__init__.py,add,"encoding, *args",60,70
+powerline\bindings\pdb\__init__.py,__add__,"self, other",72,73
+powerline\bindings\pdb\__init__.py,__radd__,"self, other",75,76
+powerline\bindings\pdb\__init__.py,__unicode__,self,78,79
+powerline\bindings\pdb\__init__.py,__new__,"cls, s, encoding=None",82,93
+powerline\bindings\pdb\__init__.py,__str__,self,95,96
+powerline\bindings\pdb\__init__.py,__getitem__,"self, *args",98,99
+powerline\bindings\pdb\__init__.py,__getslice__,"self, *args",101,102
+powerline\bindings\pdb\__init__.py,add,"encoding, *args",104,111
+powerline\bindings\pdb\__init__.py,__add__,"self, other",113,114
+powerline\bindings\pdb\__init__.py,__radd__,"self, other",116,117
+powerline\bindings\pdb\__init__.py,encode,"self, *args, **kwargs",119,120
+powerline\bindings\pdb\__init__.py,use_powerline_prompt,cls,125,165
+powerline\bindings\pdb\__init__.py,prompt,self,135,143
+powerline\bindings\pdb\__init__.py,prompt,"self, _",145,147
+powerline\bindings\pdb\__init__.py,prompt,self,149,151
+powerline\bindings\pdb\__init__.py,main,,168,183
+powerline\bindings\pdb\__init__.py,__init__,self,178,179
+powerline\bindings\qtile\widget.py,do_setup,"self, obj",11,12
+powerline\bindings\qtile\widget.py,__init__,"self, timeout='2', text=' ', width=CALCULATED, side=u'right', update_interval=None, **config",18,24
+powerline\bindings\qtile\widget.py,update,self,26,31
+powerline\bindings\qtile\widget.py,cmd_update,"self, text",33,34
+powerline\bindings\qtile\widget.py,cmd_get,self,36,37
+powerline\bindings\qtile\widget.py,timer_setup,self,39,42
+powerline\bindings\qtile\widget.py,_configure,"self, qtile, bar",44,57
+powerline\bindings\tmux\__init__.py,get_tmux_executable_name,,16,23
+powerline\bindings\tmux\__init__.py,_run_tmux,"runner, args",26,27
+powerline\bindings\tmux\__init__.py,run_tmux_command,*args,30,32
+powerline\bindings\tmux\__init__.py,get_tmux_output,"pl, *args",35,37
+powerline\bindings\tmux\__init__.py,set_tmux_environment,"varname, value, remove=True",40,58
+powerline\bindings\tmux\__init__.py,source_tmux_file,fname,61,67
+powerline\bindings\tmux\__init__.py,get_tmux_version,pl,75,82
+powerline\bindings\vim\__init__.py,get_vim_encoding,,21,22
+powerline\bindings\vim\__init__.py,get_vim_encoding,,24,25
+powerline\bindings\vim\__init__.py,get_vim_encoding,,27,28
+powerline\bindings\vim\__init__.py,get_vim_encoding,,30,31
+powerline\bindings\vim\__init__.py,python_to_vim,o,64,65
+powerline\bindings\vim\__init__.py,str_to_bytes,s,69,70
+powerline\bindings\vim\__init__.py,unicode_eval,expr,72,74
+powerline\bindings\vim\__init__.py,str_to_bytes,s,76,77
+powerline\bindings\vim\__init__.py,unicode_eval,expr,79,80
+powerline\bindings\vim\__init__.py,safe_bytes_eval,expr,83,90
+powerline\bindings\vim\__init__.py,eval_bytes,expr,95,99
+powerline\bindings\vim\__init__.py,eval_unicode,expr,102,106
+powerline\bindings\vim\__init__.py,vim_get_func,"f, rettype=None",122,129
+powerline\bindings\vim\__init__.py,__init__,"self, f, rettype=None",146,148
+powerline\bindings\vim\__init__.py,__call__,"self, *args",150,153
+powerline\bindings\vim\__init__.py,vim_get_autoload_func,"f, rettype=None",158,163
+powerline\bindings\vim\__init__.py,vim_func_exists,f,167,173
+powerline\bindings\vim\__init__.py,vim_func_exists,f,175,179
+powerline\bindings\vim\__init__.py,vim_getvar,varname,205,206
+powerline\bindings\vim\__init__.py,bufvar_exists,"buffer, varname",208,210
+powerline\bindings\vim\__init__.py,vim_getwinvar,"segment_info, varname",212,213
+powerline\bindings\vim\__init__.py,vim_global_exists,name,215,221
+powerline\bindings\vim\__init__.py,vim_getvar,varname,228,233
+powerline\bindings\vim\__init__.py,bufvar_exists,"buffer, varname",235,240
+powerline\bindings\vim\__init__.py,vim_getwinvar,"segment_info, varname",243,248
+powerline\bindings\vim\__init__.py,vim_global_exists,name,250,251
+powerline\bindings\vim\__init__.py,vim_command_exists,name,254,255
+powerline\bindings\vim\__init__.py,getbufvar,*args,263,264
+powerline\bindings\vim\__init__.py,_vim_to_python,value,270,271
+powerline\bindings\vim\__init__.py,vim_getbufoption,"info, option",275,276
+powerline\bindings\vim\__init__.py,vim_getoption,option,278,279
+powerline\bindings\vim\__init__.py,vim_setoption,"option, value",281,282
+powerline\bindings\vim\__init__.py,vim_getbufoption,"info, option",284,285
+powerline\bindings\vim\__init__.py,vim_getoption,option,287,288
+powerline\bindings\vim\__init__.py,vim_setoption,"option, value",290,292
+powerline\bindings\vim\__init__.py,list_tabpage_buffers_segment_info,segment_info,299,302
+powerline\bindings\vim\__init__.py,__nonzero__,,306,308
+powerline\bindings\vim\__init__.py,get_buffer,number,312,316
+powerline\bindings\vim\__init__.py,__init__,"self, window",321,323
+powerline\bindings\vim\__init__.py,__getitem__,"self, key",325,329
+powerline\bindings\vim\__init__.py,get,"self, key, default=None",331,335
+powerline\bindings\vim\__init__.py,__init__,"self, tabnr, number",340,343
+powerline\bindings\vim\__init__.py,buffer,self,345,347
+powerline\bindings\vim\__init__.py,__init__,"self, number",352,353
+powerline\bindings\vim\__init__.py,__eq__,"self, tabpage",355,358
+powerline\bindings\vim\__init__.py,window,self,360,362
+powerline\bindings\vim\__init__.py,_last_tab_nr,,364,365
+powerline\bindings\vim\__init__.py,current_tabpage,,367,368
+powerline\bindings\vim\__init__.py,list_tabpages,,370,371
+powerline\bindings\vim\__init__.py,__getitem__,"self, key",374,383
+powerline\bindings\vim\__init__.py,list_tabpage_buffers_segment_info,segment_info,385,388
+powerline\bindings\vim\__init__.py,__getitem__,key,393,395
+powerline\bindings\vim\__init__.py,get,"key, default=None",397,399
+powerline\bindings\vim\__init__.py,__setitem__,"key, value",401,409
+powerline\bindings\vim\__init__.py,buffer_name,segment_info,415,416
+powerline\bindings\vim\__init__.py,buffer_name,segment_info,420,426
+powerline\bindings\vim\__init__.py,powerline_vim_strtrans_error,e,432,436
+powerline\bindings\vim\__init__.py,register_buffer_cache,cachedict,446,459
+powerline\bindings\vim\__init__.py,on_bwipe,,462,466
+powerline\bindings\vim\__init__.py,create_ruby_dpowerline,,472,481
+powerline\bindings\zsh\__init__.py,shutdown,,21,23
+powerline\bindings\zsh\__init__.py,get_var_config,var,26,36
+powerline\bindings\zsh\__init__.py,config_override,self,44,46
+powerline\bindings\zsh\__init__.py,theme_override,self,48,50
+powerline\bindings\zsh\__init__.py,config_path,self,52,66
+powerline\bindings\zsh\__init__.py,jobnum,self,68,70
+powerline\bindings\zsh\__init__.py,string,s,73,77
+powerline\bindings\zsh\__init__.py,__getitem__,key,81,86
+powerline\bindings\zsh\__init__.py,get,"key, default=None",88,93
+powerline\bindings\zsh\__init__.py,__contains__,key,95,101
+powerline\bindings\zsh\__init__.py,zsh_expand,s,113,117
+powerline\bindings\zsh\__init__.py,init,"self, **kwargs",121,122
+powerline\bindings\zsh\__init__.py,precmd,self,124,126
+powerline\bindings\zsh\__init__.py,do_setup,"self, zsh_globals",128,135
+powerline\bindings\zsh\__init__.py,__init__,"self, powerline, side, theme, savedpsvar=None, savedps=None, above=False",141,148
+powerline\bindings\zsh\__init__.py,__str__,self,150,194
+powerline\bindings\zsh\__init__.py,__del__,self,196,199
+powerline\bindings\zsh\__init__.py,set_prompt,"powerline, psvar, side, theme, above=False",202,212
+powerline\bindings\zsh\__init__.py,reload,,215,217
+powerline\bindings\zsh\__init__.py,reload_config,,220,222
+powerline\bindings\zsh\__init__.py,setup,zsh_globals,225,228
+powerline\commands\config.py,__init__,"self, function, name=None",10,12
+powerline\commands\config.py,__call__,"self, *args, **kwargs",14,15
+powerline\commands\config.py,__str__,self,17,18
+powerline\commands\config.py,parse_args,"self, *args, **kwargs",35,42
+powerline\commands\config.py,get_argparser,ArgumentParser=ConfigArgParser,45,109
+powerline\commands\daemon.py,get_argparser,ArgumentParser=argparse.ArgumentParser,7,24
+powerline\commands\lint.py,get_argparser,ArgumentParser=argparse.ArgumentParser,7,21
+powerline\commands\main.py,arg_to_unicode,s,19,20
+powerline\commands\main.py,arg_to_unicode,s,22,23
+powerline\commands\main.py,finish_args,"environ, args",26,65
+powerline\commands\main.py,int_or_sig,s,68,72
+powerline\commands\main.py,get_argparser,ArgumentParser=argparse.ArgumentParser,75,159
+powerline\commands\main.py,write_output,"args, powerline, segment_info, write",162,182
+powerline\lib\config.py,open_file,path,15,16
+powerline\lib\config.py,load_json_config,"config_file_path, load=json.load, open_file=open_file",19,21
+powerline\lib\config.py,__call__,"self, *args, **kwargs",25,26
+powerline\lib\config.py,watch,"self, *args, **kwargs",28,29
+powerline\lib\config.py,__init__,"self, *args, **kwargs",33,36
+powerline\lib\config.py,__call__,"self, *args, **kwargs",38,39
+powerline\lib\config.py,watch,"self, *args, **kwargs",41,42
+powerline\lib\config.py,unwatch,"self, *args, **kwargs",44,45
+powerline\lib\config.py,transfer_calls,"self, watcher",47,49
+powerline\lib\config.py,__init__,"self, shutdown_event=None, watcher=None, watcher_type=None, load=load_json_config, run_once=False",53,76
+powerline\lib\config.py,set_watcher,"self, watcher_type, force=False",78,86
+powerline\lib\config.py,set_pl,"self, pl",88,89
+powerline\lib\config.py,set_interval,"self, interval",91,92
+powerline\lib\config.py,register,"self, function, path",94,104
+powerline\lib\config.py,register_missing,"self, condition_function, function, key",106,126
+powerline\lib\config.py,unregister_functions,"self, removed_functions",128,139
+powerline\lib\config.py,unregister_missing,"self, removed_functions",141,153
+powerline\lib\config.py,load,"self, path",155,162
+powerline\lib\config.py,update,self,164,207
+powerline\lib\config.py,run,self,209,212
+powerline\lib\config.py,exception,"self, msg, *args, **kwargs",214,218
+powerline\lib\debug.py,print_cycles,"objects, outstream=sys.stdout, show_progress=False",12,97
+powerline\lib\debug.py,print_path,path,24,58
+powerline\lib\debug.py,recurse,"obj, start, all, current_path",60,88
+powerline\lib\dict.py,mergeargs,"argvalue, remove=False",8,14
+powerline\lib\dict.py,_clear_special_values,d,17,30
+powerline\lib\dict.py,mergedicts,"d1, d2, remove=True",33,47
+powerline\lib\dict.py,mergedefaults,"d1, d2",50,59
+powerline\lib\dict.py,_setmerged,"d1, d2",62,64
+powerline\lib\dict.py,mergedicts_copy,"d1, d2",67,80
+powerline\lib\encoding.py,get_preferred_file_name_encoding,,20,26
+powerline\lib\encoding.py,get_preferred_file_contents_encoding,,30,35
+powerline\lib\encoding.py,get_preferred_output_encoding,,39,49
+powerline\lib\encoding.py,get_preferred_input_encoding,,53,63
+powerline\lib\encoding.py,get_preferred_arguments_encoding,,67,78
+powerline\lib\encoding.py,get_preferred_environment_encoding,,82,87
+powerline\lib\encoding.py,get_unicode_writer,"stream=sys.stdout, encoding=None, errors=u'replace'",91,113
+powerline\lib\humanize_bytes.py,humanize_bytes,"num, suffix=u'B', si_prefix=False",10,25
+powerline\lib\inotify.py,load_inotify,,26,66
+powerline\lib\inotify.py,__init__,"self, cloexec=True, nonblock=True",114,131
+powerline\lib\inotify.py,handle_error,self,133,138
+powerline\lib\inotify.py,__del__,self,140,147
+powerline\lib\inotify.py,close,self,149,155
+powerline\lib\inotify.py,read,"self, get_name=True",157,181
+powerline\lib\inotify.py,process_event,"self, *args",183,184
+powerline\lib\memoize.py,default_cache_key,**kwargs,9,10
+powerline\lib\memoize.py,__init__,"self, timeout, cache_key=default_cache_key, cache_reg_func=None",15,19
+powerline\lib\memoize.py,__call__,"self, func",21,42
+powerline\lib\memoize.py,decorated_function,**kwargs,22,41
+powerline\lib\monotonic.py,monotonic,,28,29
+powerline\lib\monotonic.py,mach_timebase_info,,56,59
+powerline\lib\monotonic.py,monotonic,,64,65
+powerline\lib\monotonic.py,monotonic,,93,97
+powerline\lib\overrides.py,parse_value,s,9,31
+powerline\lib\overrides.py,keyvaluesplit,s,34,44
+powerline\lib\overrides.py,parsedotval,s,47,68
+powerline\lib\overrides.py,parse_override_var,s,71,79
+powerline\lib\path.py,realpath,path,7,8
+powerline\lib\path.py,join,*components,11,18
+powerline\lib\shell.py,run_cmd,"pl, cmd, stdin=None, strip=True",19,41
+powerline\lib\shell.py,asrun,"pl, ascript",44,46
+powerline\lib\shell.py,readlines,"cmd, cwd",49,62
+powerline\lib\shell.py,which,"cmd, mode=(os.F_OK | os.X_OK), path=None",70,132
+powerline\lib\shell.py,_access_check,"fn, mode",82,86
+powerline\lib\threaded.py,__init__,self,14,15
+powerline\lib\threaded.py,is_alive,self,17,18
+powerline\lib\threaded.py,start,self,20,24
+powerline\lib\threaded.py,join,"self, *args, **kwargs",26,29
+powerline\lib\threaded.py,__init__,self,40,46
+powerline\lib\threaded.py,__call__,"self, pl, update_first=True, **kwargs",48,67
+powerline\lib\threaded.py,set_update_value,self,69,80
+powerline\lib\threaded.py,get_update_value,"self, update=False",82,85
+powerline\lib\threaded.py,run,self,87,100
+powerline\lib\threaded.py,shutdown,self,102,107
+powerline\lib\threaded.py,set_interval,"self, interval=None",109,115
+powerline\lib\threaded.py,set_state,"self, interval=None, update_first=True, shutdown_event=None, **kwargs",117,121
+powerline\lib\threaded.py,startup,"self, pl, **kwargs",123,131
+powerline\lib\threaded.py,critical,"self, *args, **kwargs",133,134
+powerline\lib\threaded.py,exception,"self, *args, **kwargs",136,137
+powerline\lib\threaded.py,info,"self, *args, **kwargs",139,140
+powerline\lib\threaded.py,error,"self, *args, **kwargs",142,143
+powerline\lib\threaded.py,warn,"self, *args, **kwargs",145,146
+powerline\lib\threaded.py,debug,"self, *args, **kwargs",148,149
+powerline\lib\threaded.py,argspecobjs,self,151,156
+powerline\lib\threaded.py,additional_args,self,158,159
+powerline\lib\threaded.py,omitted_args,"self, name, method",161,171
+powerline\lib\threaded.py,__init__,self,179,184
+powerline\lib\threaded.py,key,**kwargs,186,188
+powerline\lib\threaded.py,render,"self, update_value, update_first, key=None, after_update=False, **kwargs",190,217
+powerline\lib\threaded.py,update_one,"self, crashed, updates, key",219,227
+powerline\lib\threaded.py,update,"self, old_update_value",229,248
+powerline\lib\threaded.py,set_state,"self, interval=None, update_first=True, shutdown_event=None, **kwargs",250,253
+powerline\lib\threaded.py,render_one,"update_state, **kwargs",255,257
+powerline\lib\unicode.py,unichr,ch,27,32
+powerline\lib\unicode.py,u,s,35,41
+powerline\lib\unicode.py,tointiter,s,45,48
+powerline\lib\unicode.py,tointiter,s,50,53
+powerline\lib\unicode.py,powerline_decode_error,e,56,62
+powerline\lib\unicode.py,register_strwidth_error,strwidth,71,103
+powerline\lib\unicode.py,powerline_encode_strwidth_error,e,96,99
+powerline\lib\unicode.py,out_u,s,106,118
+powerline\lib\unicode.py,safe_unicode,s,121,147
+powerline\lib\unicode.py,string,s,163,167
+powerline\lib\unicode.py,string,s,169,173
+powerline\lib\unicode.py,surrogate_pair_to_character,"high, low",190,193
+powerline\lib\unicode.py,strwidth_ucs_4,"width_data, string",247,254
+powerline\lib\unicode.py,strwidth_ucs_2,"width_data, string",267,276
+powerline\lib\url.py,urllib_read,url,13,17
+powerline\lib\__init__.py,wraps_saveargs,wrapped,7,12
+powerline\lib\__init__.py,dec,wrapper,8,11
+powerline\lib\__init__.py,add_divider_highlight_group,highlight_group,15,28
+powerline\lib\__init__.py,dec,func,16,27
+powerline\lib\__init__.py,f,**kwargs,17,26
+powerline\lib\vcs\bzr.py,write,"self, arg",17,20
+powerline\lib\vcs\bzr.py,branch_name_from_config_file,"directory, config_file",26,37
+powerline\lib\vcs\bzr.py,__init__,"self, directory, create_watcher",44,46
+powerline\lib\vcs\bzr.py,status,"self, path=None",48,69
+powerline\lib\vcs\bzr.py,do_status,"self, directory, path",71,75
+powerline\lib\vcs\bzr.py,_status,"self, directory, path",77,99
+powerline\lib\vcs\bzr.py,branch,self,101,107
+powerline\lib\vcs\git.py,branch_name_from_config_file,"directory, config_file",18,27
+powerline\lib\vcs\git.py,git_directory,directory,30,46
+powerline\lib\vcs\git.py,__init__,"self, directory, create_watcher",52,54
+powerline\lib\vcs\git.py,status,"self, path=None",56,84
+powerline\lib\vcs\git.py,branch,self,86,93
+powerline\lib\vcs\git.py,ignore_event,"path, name",101,103
+powerline\lib\vcs\git.py,do_status,"self, directory, path",105,156
+powerline\lib\vcs\git.py,__init__,"self, *args, **kwargs",159,162
+powerline\lib\vcs\git.py,ignore_event,"path, name",164,169
+powerline\lib\vcs\git.py,_gitcmd,"self, directory, *args",171,172
+powerline\lib\vcs\git.py,do_status,"self, directory, path",174,198
+powerline\lib\vcs\mercurial.py,branch_name_from_config_file,"directory, config_file",13,19
+powerline\lib\vcs\mercurial.py,__init__,"self, directory, create_watcher",29,32
+powerline\lib\vcs\mercurial.py,_repo,"self, directory",34,37
+powerline\lib\vcs\mercurial.py,status,"self, path=None",39,61
+powerline\lib\vcs\mercurial.py,do_status,"self, directory, path",63,77
+powerline\lib\vcs\mercurial.py,branch,self,79,85
+powerline\lib\vcs\__init__.py,generate_directories,path,15,25
+powerline\lib\vcs\__init__.py,file_watcher,create_watcher,31,35
+powerline\lib\vcs\__init__.py,branch_watcher,create_watcher,41,45
+powerline\lib\vcs\__init__.py,get_branch_name,"directory, config_file, get_func, create_watcher",53,84
+powerline\lib\vcs\__init__.py,__init__,self,88,91
+powerline\lib\vcs\__init__.py,update_maps,"self, keypath, directory, dirstate_file, ignore_file_name, extra_ignore_files",93,107
+powerline\lib\vcs\__init__.py,invalidate,"self, dirstate_file=None, ignore_file=None",109,113
+powerline\lib\vcs\__init__.py,ignore_files,"self, keypath",115,117
+powerline\lib\vcs\__init__.py,get_file_status,"directory, dirstate_file, file_path, ignore_file_name, get_func, create_watcher, extra_ignore_files=()",123,182
+powerline\lib\vcs\__init__.py,__init__,"self, pl",186,188
+powerline\lib\vcs\__init__.py,cache_and_get,"self, key, status",190,194
+powerline\lib\vcs\__init__.py,__call__,"self, repo",196,203
+powerline\lib\vcs\__init__.py,tree_status,"repo, pl",209,213
+powerline\lib\vcs\__init__.py,guess,"path, create_watcher",229,242
+powerline\lib\vcs\__init__.py,get_fallback_create_watcher,,245,249
+powerline\lib\vcs\__init__.py,debug,,252,276
+powerline\lib\watcher\inotify.py,__init__,"self, expire_time='10'",16,22
+powerline\lib\watcher\inotify.py,expire_watches,self,24,28
+powerline\lib\watcher\inotify.py,process_event,"self, wd, mask, cookie, name",30,67
+powerline\lib\watcher\inotify.py,unwatch,"self, path",69,79
+powerline\lib\watcher\inotify.py,watch,"self, path",81,102
+powerline\lib\watcher\inotify.py,is_watching,"self, path",104,106
+powerline\lib\watcher\inotify.py,__call__,"self, path",108,128
+powerline\lib\watcher\inotify.py,close,self,130,137
+powerline\lib\watcher\inotify.py,__init__,"self, bdir",149,150
+powerline\lib\watcher\inotify.py,__init__,"self, basedir, ignore_event=None",156,161
+powerline\lib\watcher\inotify.py,watch_tree,self,163,170
+powerline\lib\watcher\inotify.py,add_watches,"self, base, top_level=True",172,212
+powerline\lib\watcher\inotify.py,add_watch,"self, path",214,234
+powerline\lib\watcher\inotify.py,process_event,"self, wd, mask, cookie, name",236,262
+powerline\lib\watcher\inotify.py,__call__,self,264,268
+powerline\lib\watcher\stat.py,__init__,self,12,14
+powerline\lib\watcher\stat.py,watch,"self, path",16,19
+powerline\lib\watcher\stat.py,unwatch,"self, path",21,24
+powerline\lib\watcher\stat.py,is_watching,"self, path",26,28
+powerline\lib\watcher\stat.py,__call__,"self, path",30,40
+powerline\lib\watcher\stat.py,close,self,42,44
+powerline\lib\watcher\tree.py,__init__,"self, basedir",16,17
+powerline\lib\watcher\tree.py,__call__,self,19,20
+powerline\lib\watcher\tree.py,__init__,"self, pl, watcher_type, expire_time",24,29
+powerline\lib\watcher\tree.py,get_watcher,"self, path, ignore_event",31,54
+powerline\lib\watcher\tree.py,watch,"self, path, ignore_event=None",56,60
+powerline\lib\watcher\tree.py,expire_old_queries,self,62,69
+powerline\lib\watcher\tree.py,__call__,"self, path, ignore_event=None",71,90
+powerline\lib\watcher\uv.py,import_pyuv,,24,33
+powerline\lib\watcher\uv.py,__init__,"self, loop",39,42
+powerline\lib\watcher\uv.py,_async_cb,"self, handle",44,46
+powerline\lib\watcher\uv.py,run,self,48,49
+powerline\lib\watcher\uv.py,join,self,51,53
+powerline\lib\watcher\uv.py,start_uv_thread,,59,65
+powerline\lib\watcher\uv.py,normpath,"path, fenc",68,73
+powerline\lib\watcher\uv.py,__init__,self,77,86
+powerline\lib\watcher\uv.py,_start_watch_1_x,"self, path",88,91
+powerline\lib\watcher\uv.py,_start_watch_0_x,"self, path",93,98
+powerline\lib\watcher\uv.py,watch,"self, path",101,112
+powerline\lib\watcher\uv.py,unwatch,"self, path",114,121
+powerline\lib\watcher\uv.py,is_watching,"self, path",123,125
+powerline\lib\watcher\uv.py,__del__,self,127,136
+powerline\lib\watcher\uv.py,__init__,self,140,142
+powerline\lib\watcher\uv.py,_record_event,"self, path, fsevent_handle, filename, events, error",144,149
+powerline\lib\watcher\uv.py,_stopped_watching,"self, path, *args",151,152
+powerline\lib\watcher\uv.py,__call__,"self, path",154,163
+powerline\lib\watcher\uv.py,__init__,"self, basedir, ignore_event=None",169,174
+powerline\lib\watcher\uv.py,watch_directory,"self, path",176,178
+powerline\lib\watcher\uv.py,watch_one_directory,"self, dirname",180,184
+powerline\lib\watcher\uv.py,_stopped_watching,"self, path, *args",186,187
+powerline\lib\watcher\uv.py,_record_event,"self, path, fsevent_handle, filename, events, error",189,204
+powerline\lib\watcher\uv.py,__call__,self,206,207
+powerline\lib\watcher\__init__.py,create_file_watcher,"pl, watcher_type=u'auto', expire_time='10'",13,61
+powerline\lib\watcher\__init__.py,create_tree_watcher,"pl, watcher_type=u'auto', expire_time='10'",64,76
+powerline\lint\checks.py,get_function_strings,"function_name, context, ext",47,53
+powerline\lint\checks.py,check_matcher_func,"ext, match_name, data, context, echoerr",56,95
+powerline\lint\checks.py,check_ext,"ext, data, context, echoerr",98,116
+powerline\lint\checks.py,check_config,"d, theme, data, context, echoerr",119,138
+powerline\lint\checks.py,check_top_theme,"theme, data, context, echoerr",141,149
+powerline\lint\checks.py,check_color,"color, data, context, echoerr",152,163
+powerline\lint\checks.py,check_translated_group_name,"group, data, context, echoerr",166,167
+powerline\lint\checks.py,check_group,"group, data, context, echoerr",170,242
+powerline\lint\checks.py,listed_key,"d, k",178,182
+powerline\lint\checks.py,check_key_compatibility,"segment, data, context, echoerr",245,291
+powerline\lint\checks.py,check_segment_module,"module, data, context, echoerr",294,306
+powerline\lint\checks.py,check_full_segment_data,"segment, data, context, echoerr",309,346
+powerline\lint\checks.py,check_hl_group_name,"hl_group, context_mark, context, echoerr",354,368
+powerline\lint\checks.py,check_segment_function,"function_name, data, context, echoerr",371,532
+powerline\lint\checks.py,hl_group_in_colorscheme,"hl_group, cconfig, allow_gradients, data, context, echoerr",535,582
+powerline\lint\checks.py,hl_exists,"hl_group, data, context, echoerr, allow_gradients=False",585,601
+powerline\lint\checks.py,check_highlight_group,"hl_group, data, context, echoerr",604,615
+powerline\lint\checks.py,check_highlight_groups,"hl_groups, data, context, echoerr",618,636
+powerline\lint\checks.py,check_segment_data_key,"key, data, context, echoerr",639,674
+powerline\lint\checks.py,check_args_variant,"func, args, data, context, echoerr",684,722
+powerline\lint\checks.py,check_args,"get_functions, args, data, context, echoerr",725,744
+powerline\lint\checks.py,get_one_segment_function,"data, context, echoerr",747,754
+powerline\lint\checks.py,register_common_name,"name, cmodule, cname",760,764
+powerline\lint\checks.py,get_all_possible_functions,"data, context, echoerr",767,791
+powerline\lint\checks.py,check_exinclude_function,"name, data, context, echoerr",794,802
+powerline\lint\checks.py,check_log_file_level,"this_level, data, context, echoerr",805,835
+powerline\lint\checks.py,check_logging_handler,"handler_name, data, context, echoerr",838,866
+powerline\lint\context.py,join,"self, iterable",12,13
+powerline\lint\context.py,list_themes,"data, context",19,32
+powerline\lint\context.py,__new__,"cls, base, context_key=None, context_value=None",47,55
+powerline\lint\context.py,key,self,57,59
+powerline\lint\context.py,enter_key,"self, value, key",61,62
+powerline\lint\context.py,enter_item,"self, name, item",64,65
+powerline\lint\context.py,enter,"self, context_key, context_value",67,68
+powerline\lint\imp.py,__init__,"self, import_paths",10,11
+powerline\lint\imp.py,__enter__,self,13,15
+powerline\lint\imp.py,__exit__,"self, *args",17,18
+powerline\lint\imp.py,import_function,"function_type, name, data, context, echoerr, module",21,46
+powerline\lint\imp.py,import_segment,"*args, **kwargs",49,50
+powerline\lint\inspect.py,getconfigargspec,obj,9,61
+powerline\lint\selfcheck.py,havemarks,"*args, **kwargs",7,16
+powerline\lint\spec.py,__init__,"self, **keys",69,78
+powerline\lint\spec.py,update,"self, **keys",80,94
+powerline\lint\spec.py,copy,"self, copied=None",96,111
+powerline\lint\spec.py,_update,"self, d, copied",113,128
+powerline\lint\spec.py,unknown_spec,"self, keyfunc, spec",130,160
+powerline\lint\spec.py,unknown_msg,"self, msgfunc",162,176
+powerline\lint\spec.py,context_message,"self, msg",178,192
+powerline\lint\spec.py,check_type,"self, value, context_mark, data, context, echoerr, types",194,217
+powerline\lint\spec.py,check_func,"self, value, context_mark, data, context, echoerr, func, msg_func",219,255
+powerline\lint\spec.py,check_list,"self, value, context_mark, data, context, echoerr, item_func, msg_func",257,297
+powerline\lint\spec.py,check_either,"self, value, context_mark, data, context, echoerr, start, end",299,329
+powerline\lint\spec.py,check_tuple,"self, value, context_mark, data, context, echoerr, start, end",331,357
+powerline\lint\spec.py,check_printable,"self, value, context_mark, data, context, echoerr, _",359,372
+powerline\lint\spec.py,printable,"self, *args",374,377
+powerline\lint\spec.py,type,"self, *args",379,390
+powerline\lint\spec.py,len,"self, comparison, cint, msg_func=None",408,434
+powerline\lint\spec.py,cmp,"self, comparison, cint, msg_func=None",436,469
+powerline\lint\spec.py,unsigned,"self, msg_func=None",471,486
+powerline\lint\spec.py,list,"self, item_func, msg_func=None",488,508
+powerline\lint\spec.py,tuple,"self, *specs",510,542
+powerline\lint\spec.py,func,"self, func, msg_func=None",544,550
+powerline\lint\spec.py,re,"self, regex, msg_func=None",552,572
+powerline\lint\spec.py,ident,"self, msg_func=None",574,588
+powerline\lint\spec.py,oneof,"self, collection, msg_func=None",590,608
+powerline\lint\spec.py,error,"self, msg",610,629
+powerline\lint\spec.py,either,"self, *specs",631,643
+powerline\lint\spec.py,optional,self,645,654
+powerline\lint\spec.py,required,self,656,669
+powerline\lint\spec.py,match_checks,"self, *args",671,687
+powerline\lint\spec.py,match,"self, value, context_mark=None, data=None, context=(), echoerr=echoerr",689,749
+powerline\lint\spec.py,__getitem__,"self, key",751,754
+powerline\lint\spec.py,__setitem__,"self, key, value",756,759
+powerline\lint\__init__.py,open_file,path,30,31
+powerline\lint\__init__.py,generate_json_config_loader,lhadproblem,34,41
+powerline\lint\__init__.py,load_json_config,"config_file_path, load=load, open_file=open_file",35,40
+powerline\lint\__init__.py,register_common_names,,314,315
+powerline\lint\__init__.py,load_json_file,path,318,325
+powerline\lint\__init__.py,updated_with_config,d,328,335
+powerline\lint\__init__.py,find_all_ext_config_files,"search_paths, subdir",338,378
+powerline\lint\__init__.py,dict2,d,382,383
+powerline\lint\__init__.py,check,"paths=None, debug=False, echoerr=echoerr, require_ext=None",386,618
+powerline\lint\markedjson\composer.py,__init__,self,17,18
+powerline\lint\markedjson\composer.py,check_node,self,20,26
+powerline\lint\markedjson\composer.py,get_node,self,28,31
+powerline\lint\markedjson\composer.py,get_single_node,self,33,55
+powerline\lint\markedjson\composer.py,compose_document,self,57,67
+powerline\lint\markedjson\composer.py,compose_node,"self, parent, index",69,78
+powerline\lint\markedjson\composer.py,compose_scalar_node,self,80,86
+powerline\lint\markedjson\composer.py,compose_sequence_node,self,88,100
+powerline\lint\markedjson\composer.py,compose_mapping_node,self,102,119
+powerline\lint\markedjson\constructor.py,marked,func,16,20
+powerline\lint\markedjson\constructor.py,f,"self, node, *args, **kwargs",17,19
+powerline\lint\markedjson\constructor.py,__init__,self,30,33
+powerline\lint\markedjson\constructor.py,check_data,self,35,37
+powerline\lint\markedjson\constructor.py,get_data,self,39,42
+powerline\lint\markedjson\constructor.py,get_single_data,self,44,49
+powerline\lint\markedjson\constructor.py,construct_document,"self, node",51,61
+powerline\lint\markedjson\constructor.py,construct_object,"self, node, deep=False",63,90
+powerline\lint\markedjson\constructor.py,construct_scalar,"self, node",92,100
+powerline\lint\markedjson\constructor.py,construct_sequence,"self, node, deep=False",102,111
+powerline\lint\markedjson\constructor.py,construct_mapping,"self, node, deep=False",114,145
+powerline\lint\markedjson\constructor.py,add_constructor,"cls, tag, constructor",147,151
+powerline\lint\markedjson\constructor.py,construct_scalar,"self, node",155,160
+powerline\lint\markedjson\constructor.py,flatten_mapping,"self, node",162,200
+powerline\lint\markedjson\constructor.py,construct_mapping,"self, node, deep=False",202,205
+powerline\lint\markedjson\constructor.py,construct_yaml_null,"self, node",207,210
+powerline\lint\markedjson\constructor.py,construct_yaml_bool,"self, node",212,215
+powerline\lint\markedjson\constructor.py,construct_yaml_int,"self, node",217,228
+powerline\lint\markedjson\constructor.py,construct_yaml_float,"self, node",230,239
+powerline\lint\markedjson\constructor.py,construct_yaml_str,"self, node",241,242
+powerline\lint\markedjson\constructor.py,construct_yaml_seq,"self, node",244,247
+powerline\lint\markedjson\constructor.py,construct_yaml_map,"self, node",249,253
+powerline\lint\markedjson\constructor.py,construct_undefined,"self, node",255,259
+powerline\lint\markedjson\error.py,repl,s,38,39
+powerline\lint\markedjson\error.py,strtrans,s,42,43
+powerline\lint\markedjson\error.py,__init__,"self, name, line, column, buffer, pointer, old_mark=None, merged_marks=None",47,54
+powerline\lint\markedjson\error.py,copy,self,56,57
+powerline\lint\markedjson\error.py,get_snippet,"self, indent='4', max_length='75'",59,82
+powerline\lint\markedjson\error.py,advance_string,"self, diff",85,90
+powerline\lint\markedjson\error.py,set_old_mark,"self, old_mark",92,104
+powerline\lint\markedjson\error.py,set_merged_mark,"self, merged_mark",106,107
+powerline\lint\markedjson\error.py,to_string,"self, indent='0', head_text=u'in ', add_snippet=True",109,135
+powerline\lint\markedjson\error.py,__str__,self,138,139
+powerline\lint\markedjson\error.py,__unicode__,self,141,142
+powerline\lint\markedjson\error.py,__str__,self,144,145
+powerline\lint\markedjson\error.py,__eq__,"self, other",147,151
+powerline\lint\markedjson\error.py,echoerr,**kwargs,156,159
+powerline\lint\markedjson\error.py,echoerr,**kwargs,161,164
+powerline\lint\markedjson\error.py,format_error,"context=None, context_mark=None, problem=None, problem_mark=None, note=None, indent='0'",167,186
+powerline\lint\markedjson\error.py,__init__,"self, context=None, context_mark=None, problem=None, problem_mark=None, note=None",190,191
+powerline\lint\markedjson\error.py,__init__,"self, echoerr, logger, indent='0'",197,200
+powerline\lint\markedjson\error.py,__call__,"self, **kwargs",202,205
+powerline\lint\markedjson\error.py,__init__,"self, echoerr, message=u'', separator_message=u''",211,217
+powerline\lint\markedjson\error.py,__call__,"self, **kwargs",219,222
+powerline\lint\markedjson\error.py,next_variant,self,224,225
+powerline\lint\markedjson\error.py,echo_all,self,227,236
+powerline\lint\markedjson\error.py,__nonzero__,self,238,239
+powerline\lint\markedjson\events.py,__init__,"self, start_mark=None, end_mark=None",7,9
+powerline\lint\markedjson\events.py,__repr__,self,11,20
+powerline\lint\markedjson\events.py,__init__,"self, start_mark=None, end_mark=None",24,26
+powerline\lint\markedjson\events.py,__init__,"self, implicit, start_mark=None, end_mark=None, flow_style=None",30,35
+powerline\lint\markedjson\events.py,__init__,"self, start_mark=None, end_mark=None, encoding=None",44,47
+powerline\lint\markedjson\events.py,__init__,"self, start_mark=None, end_mark=None, explicit=None, version=None, tags=None",55,60
+powerline\lint\markedjson\events.py,__init__,"self, start_mark=None, end_mark=None, explicit=None",64,67
+powerline\lint\markedjson\events.py,__init__,"self, implicit, value, start_mark=None, end_mark=None, style=None",75,81
+powerline\lint\markedjson\loader.py,__init__,"self, stream",14,21
+powerline\lint\markedjson\loader.py,echoerr,"self, *args, **kwargs",23,25
+powerline\lint\markedjson\markedvalue.py,gen_new,cls,7,13
+powerline\lint\markedjson\markedvalue.py,__new__,"arg_cls, value, mark",8,12
+powerline\lint\markedjson\markedvalue.py,gen_init,cls,16,19
+powerline\lint\markedjson\markedvalue.py,__init__,"self, value, mark",17,18
+powerline\lint\markedjson\markedvalue.py,gen_getnewargs,cls,22,25
+powerline\lint\markedjson\markedvalue.py,__getnewargs__,self,23,24
+powerline\lint\markedjson\markedvalue.py,_proc_partition,"self, part_result",32,38
+powerline\lint\markedjson\markedvalue.py,rpartition,"self, sep",40,41
+powerline\lint\markedjson\markedvalue.py,partition,"self, sep",43,44
+powerline\lint\markedjson\markedvalue.py,__new__,"arg_cls, value, mark",61,66
+powerline\lint\markedjson\markedvalue.py,setmerged,"self, d",68,72
+powerline\lint\markedjson\markedvalue.py,__setitem__,"self, key, value",74,91
+powerline\lint\markedjson\markedvalue.py,update,"self, *args, **kwargs",93,95
+powerline\lint\markedjson\markedvalue.py,copy,self,97,98
+powerline\lint\markedjson\markedvalue.py,__init__,"self, value, mark",108,110
+powerline\lint\markedjson\markedvalue.py,gen_marked_value,"value, mark, use_special_classes=True",126,151
+powerline\lint\markedjson\markedvalue.py,copy,self,135,136
+powerline\lint\markedjson\nodes.py,__init__,"self, tag, value, start_mark, end_mark",6,10
+powerline\lint\markedjson\nodes.py,__repr__,self,12,27
+powerline\lint\markedjson\nodes.py,__init__,"self, tag, value, start_mark=None, end_mark=None, style=None",33,38
+powerline\lint\markedjson\nodes.py,__init__,"self, tag, value, start_mark=None, end_mark=None, flow_style=None",42,47
+powerline\lint\markedjson\parser.py,__init__,self,14,19
+powerline\lint\markedjson\parser.py,dispose,self,21,24
+powerline\lint\markedjson\parser.py,check_event,"self, *choices",26,37
+powerline\lint\markedjson\parser.py,peek_event,self,39,44
+powerline\lint\markedjson\parser.py,get_event,self,46,53
+powerline\lint\markedjson\parser.py,parse_stream_start,self,59,67
+powerline\lint\markedjson\parser.py,parse_implicit_document_start,self,69,83
+powerline\lint\markedjson\parser.py,parse_document_start,self,85,101
+powerline\lint\markedjson\parser.py,parse_document_end,self,103,113
+powerline\lint\markedjson\parser.py,parse_document_content,self,115,116
+powerline\lint\markedjson\parser.py,parse_node,"self, indentless_sequence=False",118,148
+powerline\lint\markedjson\parser.py,parse_flow_sequence_first_entry,self,150,153
+powerline\lint\markedjson\parser.py,parse_flow_sequence_entry,"self, first=False",155,180
+powerline\lint\markedjson\parser.py,parse_flow_sequence_entry_mapping_end,self,182,185
+powerline\lint\markedjson\parser.py,parse_flow_mapping_first_key,self,187,190
+powerline\lint\markedjson\parser.py,parse_flow_mapping_key,"self, first=False",192,242
+powerline\lint\markedjson\parser.py,parse_flow_mapping_value,self,244,254
+powerline\lint\markedjson\reader.py,__init__,"self, stream",28,51
+powerline\lint\markedjson\reader.py,peek,"self, index='0'",53,58
+powerline\lint\markedjson\reader.py,prefix,"self, length='1'",60,63
+powerline\lint\markedjson\reader.py,update_pointer,"self, length",65,76
+powerline\lint\markedjson\reader.py,forward,"self, length='1'",78,81
+powerline\lint\markedjson\reader.py,get_mark,self,83,84
+powerline\lint\markedjson\reader.py,check_printable,"self, data",86,93
+powerline\lint\markedjson\reader.py,update,"self, length",96,126
+powerline\lint\markedjson\reader.py,update_raw,"self, size='-1'",128,141
+powerline\lint\markedjson\resolver.py,__init__,self,22,24
+powerline\lint\markedjson\resolver.py,add_implicit_resolver,"cls, tag, regexp, first",26,33
+powerline\lint\markedjson\resolver.py,descend_resolver,"self, current_node, current_index",35,55
+powerline\lint\markedjson\resolver.py,ascend_resolver,self,57,61
+powerline\lint\markedjson\resolver.py,check_resolver_prefix,"self, depth, path, kind, current_node, current_index",63,82
+powerline\lint\markedjson\resolver.py,resolve,"self, kind, value, implicit, mark=None",84,106
+powerline\lint\markedjson\scanner.py,__init__,"self, token_number, index, line, column, mark",37,42
+powerline\lint\markedjson\scanner.py,__init__,self,46,90
+powerline\lint\markedjson\scanner.py,check_token,"self, *choices",94,104
+powerline\lint\markedjson\scanner.py,peek_token,self,106,111
+powerline\lint\markedjson\scanner.py,get_token,self,113,119
+powerline\lint\markedjson\scanner.py,need_more_tokens,self,123,132
+powerline\lint\markedjson\scanner.py,fetch_more_tokens,self,134,187
+powerline\lint\markedjson\scanner.py,next_possible_simple_key,self,192,205
+powerline\lint\markedjson\scanner.py,stale_possible_simple_keys,self,207,216
+powerline\lint\markedjson\scanner.py,save_possible_simple_key,self,218,229
+powerline\lint\markedjson\scanner.py,remove_possible_simple_key,self,231,234
+powerline\lint\markedjson\scanner.py,fetch_stream_start,self,238,246
+powerline\lint\markedjson\scanner.py,fetch_stream_end,self,248,261
+powerline\lint\markedjson\scanner.py,fetch_flow_sequence_start,self,263,264
+powerline\lint\markedjson\scanner.py,fetch_flow_mapping_start,self,266,267
+powerline\lint\markedjson\scanner.py,fetch_flow_collection_start,"self, TokenClass",269,283
+powerline\lint\markedjson\scanner.py,fetch_flow_sequence_end,self,285,286
+powerline\lint\markedjson\scanner.py,fetch_flow_mapping_end,self,288,289
+powerline\lint\markedjson\scanner.py,fetch_flow_collection_end,"self, TokenClass",291,305
+powerline\lint\markedjson\scanner.py,fetch_value,self,307,323
+powerline\lint\markedjson\scanner.py,fetch_flow_entry,self,325,336
+powerline\lint\markedjson\scanner.py,fetch_double,self,338,346
+powerline\lint\markedjson\scanner.py,fetch_plain,self,348,356
+powerline\lint\markedjson\scanner.py,check_plain,self,360,361
+powerline\lint\markedjson\scanner.py,scan_to_next_token,self,365,367
+powerline\lint\markedjson\scanner.py,scan_flow_scalar,self,369,386
+powerline\lint\markedjson\scanner.py,scan_flow_scalar_non_spaces,"self, start_mark",402,457
+powerline\lint\markedjson\scanner.py,scan_flow_scalar_spaces,"self, start_mark",459,480
+powerline\lint\markedjson\scanner.py,scan_plain,self,482,499
+powerline\lint\markedjson\tokens.py,__init__,"self, start_mark, end_mark",6,8
+powerline\lint\markedjson\tokens.py,__repr__,self,10,20
+powerline\lint\markedjson\tokens.py,__init__,"self, start_mark=None, end_mark=None, encoding=None",26,29
+powerline\lint\markedjson\tokens.py,__init__,"self, value, plain, start_mark, end_mark, style=None",67,72
+powerline\lint\markedjson\__init__.py,load,"stream, Loader=Loader",7,19
+powerline\listers\pdb.py,frame_lister,"pl, segment_info, full_stack=False, maxframes='3'",7,36
+powerline\listers\vim.py,tabpage_updated_segment_info,"segment_info, tabpage",13,26
+powerline\listers\vim.py,tablister,"pl, segment_info, **kwargs",29,57
+powerline\listers\vim.py,add_multiplier,"tabpage, dct",45,47
+powerline\listers\vim.py,buffer_updated_segment_info,"segment_info, buffer",61,70
+powerline\listers\vim.py,bufferlister,"pl, segment_info, show_unlisted=False, **kwargs",73,121
+powerline\listers\vim.py,add_multiplier,"buffer, dct",91,93
+powerline\matchers\vim\__init__.py,help,matcher_info,9,10
+powerline\matchers\vim\__init__.py,cmdwin,matcher_info,13,15
+powerline\matchers\vim\__init__.py,quickfix,matcher_info,18,19
+powerline\matchers\vim\plugin\commandt.py,commandt,matcher_info,9,11
+powerline\matchers\vim\plugin\gundo.py,gundo,matcher_info,9,11
+powerline\matchers\vim\plugin\gundo.py,gundo_preview,matcher_info,14,16
+powerline\matchers\vim\plugin\nerdtree.py,nerdtree,matcher_info,13,15
+powerline\renderers\bar.py,hlstyle,"*args, **kwargs",18,21
+powerline\renderers\bar.py,hl,"self, contents, fg=None, bg=None, attrs=None",23,36
+powerline\renderers\bar.py,render,"self, *args, **kwargs",38,41
+powerline\renderers\i3bar.py,hlstyle,"*args, **kwargs",15,18
+powerline\renderers\i3bar.py,hl,"self, contents, fg=None, bg=None, attrs=None",20,34
+powerline\renderers\pango_markup.py,hlstyle,"*args, **kwargs",13,16
+powerline\renderers\pango_markup.py,hl,"self, contents, fg=None, bg=None, attrs=None",18,34
+powerline\renderers\pdb.py,get_segment_info,"self, segment_info, mode",17,22
+powerline\renderers\pdb.py,set_pdb,"self, pdb",24,34
+powerline\renderers\pdb.py,render,"self, **kwargs",36,39
+powerline\renderers\pdb.py,do_render,"self, **kwargs",42,47
+powerline\renderers\tmux.py,attrs_to_tmux_attrs,attrs,8,25
+powerline\renderers\tmux.py,render,"self, width=None, segment_info={}, **kwargs",34,39
+powerline\renderers\tmux.py,hlstyle,"self, fg=None, bg=None, attrs=None",41,59
+powerline\renderers\tmux.py,get_segment_info,"self, segment_info, mode",61,70
+powerline\renderers\vim.py,__init__,"self, *args, **kwargs",35,45
+powerline\renderers\vim.py,shutdown,self,47,51
+powerline\renderers\vim.py,add_local_theme,"self, matcher, theme",53,56
+powerline\renderers\vim.py,get_matched_theme,"self, match",58,63
+powerline\renderers\vim.py,get_theme,"self, matcher_info",65,72
+powerline\renderers\vim.py,strwidth,"self, string",76,79
+powerline\renderers\vim.py,strwidth,string,81,83
+powerline\renderers\vim.py,get_segment_info,"self, segment_info, mode",85,86
+powerline\renderers\vim.py,render,"self, window=None, window_id=None, winnr=None, is_tabline=False",88,121
+powerline\renderers\vim.py,reset_highlight,self,123,124
+powerline\renderers\vim.py,hlstyle,"self, fg=None, bg=None, attrs=None",126,185
+powerline\renderers\ipython\__init__.py,get_segment_info,"self, segment_info, mode",11,14
+powerline\renderers\ipython\__init__.py,get_theme,"self, matcher_info",16,29
+powerline\renderers\ipython\__init__.py,shutdown,self,31,35
+powerline\renderers\ipython\__init__.py,render,"self, **kwargs",37,39
+powerline\renderers\ipython\__init__.py,do_render,"self, segment_info, **kwargs",41,45
+powerline\renderers\ipython\__init__.py,__init__,"self, **kwargs",65,68
+powerline\renderers\ipython\__init__.py,render_above_lines,"self, *args, **kwargs",70,71
+powerline\renderers\ipython\__init__.py,render,"self, is_prompt, *args, **kwargs",73,75
+powerline\renderers\ipython\__init__.py,shutdown,"self, *args, **kwargs",77,79
+powerline\renderers\shell\ksh.py,render,"self, *args, **kwargs",15,16
+powerline\renderers\shell\tcsh.py,do_render,"self, **kwargs",15,28
+powerline\renderers\shell\__init__.py,int_to_rgb,num,9,13
+powerline\renderers\shell\__init__.py,__init__,"self, old_widths=None, **kwargs",27,29
+powerline\renderers\shell\__init__.py,render,"self, segment_info, **kwargs",31,36
+powerline\renderers\shell\__init__.py,do_render,"self, output_width, segment_info, side, theme, width=None, **kwargs",39,87
+powerline\renderers\shell\__init__.py,hlstyle,"self, fg=None, bg=None, attrs=None",89,146
+powerline\renderers\shell\__init__.py,get_theme,"self, matcher_info",148,160
+powerline\segments\i3wm.py,calcgrp,w,10,19
+powerline\segments\i3wm.py,workspaces,"pl, segment_info, only_show=None, output=None, strip='0'",22,57
+powerline\segments\i3wm.py,mode,"pl, segment_info, names={u'default': None}",61,74
+powerline\segments\ipython.py,prompt_count,"pl, segment_info",7,9
+powerline\segments\pdb.py,current_line,"pl, segment_info",9,13
+powerline\segments\pdb.py,current_file,"pl, segment_info, basename=True",16,26
+powerline\segments\pdb.py,current_code_name,"pl, segment_info",29,33
+powerline\segments\pdb.py,current_context,"pl, segment_info",36,48
+powerline\segments\pdb.py,stack_depth,"pl, segment_info, full_stack=False",51,61
+powerline\segments\shell.py,jobnum,"pl, segment_info, show_zero=False",10,22
+powerline\segments\shell.py,last_status,"pl, segment_info",25,33
+powerline\segments\shell.py,last_pipe_status,"pl, segment_info",36,53
+powerline\segments\shell.py,mode,"pl, segment_info, override={u'vicmd': u'COMMND', u'viins': u'INSERT'}, default=None",56,84
+powerline\segments\shell.py,continuation,"pl, segment_info, omit_cmdsubst=True, right_align=False, renames={}",87,132
+powerline\segments\shell.py,get_shortened_path,"self, pl, segment_info, use_shortened_path=True, **kwargs",137,143
+powerline\segments\tmux.py,attached_clients,"pl, minimum='1'",7,22
+powerline\segments\__init__.py,argspecobjs,self,26,27
+powerline\segments\__init__.py,argspecobjs,self,29,30
+powerline\segments\__init__.py,omitted_args,"self, name, method",39,52
+powerline\segments\__init__.py,additional_args,,54,58
+powerline\segments\__init__.py,with_docstring,"instance, doc",61,63
+powerline\segments\common\bat.py,_fetch_battery_info,pl,11,163
+powerline\segments\common\bat.py,_get_battery_status,pl,73,81
+powerline\segments\common\bat.py,_get_battery_status,pl,98,102
+powerline\segments\common\bat.py,_get_battery_status,pl,122,124
+powerline\segments\common\bat.py,_get_battery_status,pl,148,154
+powerline\segments\common\bat.py,_get_battery_status,pl,166,179
+powerline\segments\common\bat.py,_failing_get_status,pl,169,170
+powerline\segments\common\bat.py,battery,"pl, format=u'{ac_state} {capacity:3.0%}', steps='5', gamify=False, full_heart=u'O', empty_heart=u'O', online=u'C', offline=u' '",182,254
+powerline\segments\common\env.py,environment,"pl, segment_info, variable=None",11,18
+powerline\segments\common\env.py,virtualenv,"pl, segment_info, ignore_venv=False, ignore_conda=False",21,35
+powerline\segments\common\env.py,argspecobjs,self,40,43
+powerline\segments\common\env.py,omitted_args,"self, name, method",45,49
+powerline\segments\common\env.py,get_shortened_path,"self, pl, segment_info, shorten_home=True, **kwargs",51,68
+powerline\segments\common\env.py,__call__,"self, pl, segment_info, dir_shorten_len=None, dir_limit_depth=None, use_path_separator=False, ellipsis=u'...', **kwargs",70,103
+powerline\segments\common\env.py,_get_user,,136,137
+powerline\segments\common\env.py,_get_user,,140,141
+powerline\segments\common\env.py,_get_user,,153,154
+powerline\segments\common\env.py,user,"pl, hide_user=None, hide_domain=False",162,190
+powerline\segments\common\mail.py,key,"username, password, server=u'imap.gmail.com', port=IMAP4_SSL_PORT, folder=u'INBOX', use_ssl=None, **kwargs",19,23
+powerline\segments\common\mail.py,compute_state,"self, key",25,37
+powerline\segments\common\mail.py,render_one,"unread_count, max_msgs=None, **kwargs",39,52
+powerline\segments\common\net.py,hostname,"pl, segment_info, only_if_ssh=False, exclude_domain=False",16,29
+powerline\segments\common\net.py,_external_ip,query_url=u'http://ipv4.icanhazip.com/',32,33
+powerline\segments\common\net.py,set_state,"self, query_url=u'http://ipv4.icanhazip.com/', **kwargs",39,41
+powerline\segments\common\net.py,update,"self, old_ip",43,44
+powerline\segments\common\net.py,render,"self, ip, **kwargs",46,49
+powerline\segments\common\net.py,internal_ip,"pl, interface=u'auto', ipv='4'",71,72
+powerline\segments\common\net.py,_interface_key,interface,89,101
+powerline\segments\common\net.py,internal_ip,"pl, interface=u'auto', ipv='4'",103,122
+powerline\segments\common\net.py,_get_bytes,interface,155,163
+powerline\segments\common\net.py,_get_interfaces,,165,172
+powerline\segments\common\net.py,_get_bytes,interface,174,179
+powerline\segments\common\net.py,_get_interfaces,,181,185
+powerline\segments\common\net.py,key,"interface=u'auto', **kwargs",192,194
+powerline\segments\common\net.py,compute_state,"self, interface",196,238
+powerline\segments\common\net.py,render_one,"self, idata, recv_format=u'DL {value:>8}', sent_format=u'UL {value:>8}', suffix=u'B/s', si_prefix=False, **kwargs",240,276
+powerline\segments\common\players.py,_convert_state,state,19,28
+powerline\segments\common\players.py,_convert_seconds,seconds,31,33
+powerline\segments\common\players.py,__call__,"self, format=u'{state_symbol} {artist} - {title} ({total})', state_symbols=STATE_SYMBOLS, **kwargs",37,53
+powerline\segments\common\players.py,get_player_status,"self, pl",56,57
+powerline\segments\common\players.py,argspecobjs,self,59,62
+powerline\segments\common\players.py,omitted_args,"self, name, method",64,65
+powerline\segments\common\players.py,get_player_status,"self, pl",122,156
+powerline\segments\common\players.py,get_player_status,"self, pl, host=u'localhost', password=None, port='6600'",170,212
+powerline\segments\common\players.py,_get_dbus_player_status,"pl, player_name, **kwargs",241,243
+powerline\segments\common\players.py,_get_dbus_player_status,"pl, bus_name, player_path, iface_prop, iface_player, player_name=u'player'",245,272
+powerline\segments\common\players.py,get_player_status,"self, pl",301,308
+powerline\segments\common\players.py,get_player_status,"self, pl",322,361
+powerline\segments\common\players.py,get_player_status,"self, pl",386,393
+powerline\segments\common\players.py,get_player_status,"self, pl",407,421
+powerline\segments\common\players.py,get_player_status,"self, pl",435,469
+powerline\segments\common\sys.py,system_load,"pl, format=u'{avg:.1f}', threshold_good='1', threshold_bad='2', track_cpu_count=False",16,66
+powerline\segments\common\sys.py,update,"self, old_cpu",75,76
+powerline\segments\common\sys.py,run,self,78,83
+powerline\segments\common\sys.py,render,"self, cpu_percent, format=u'{0:.0f}%', **kwargs",85,91
+powerline\segments\common\sys.py,startup,**kwargs,97,99
+powerline\segments\common\sys.py,start,,101,103
+powerline\segments\common\sys.py,shutdown,,105,107
+powerline\segments\common\sys.py,render,"cpu_percent, pl, format=u'{0:.0f}%', **kwargs",109,112
+powerline\segments\common\sys.py,_get_uptime,,128,130
+powerline\segments\common\sys.py,_get_uptime,,135,136
+powerline\segments\common\sys.py,_get_uptime,,138,139
+powerline\segments\common\sys.py,_get_uptime,,141,142
+powerline\segments\common\sys.py,uptime,"pl, days_format=u'{days:d}d', hours_format=u' {hours:d}h', minutes_format=u' {minutes:d}m', seconds_format=u' {seconds:d}s', shorten_len='3'",145,176
+powerline\segments\common\time.py,date,"pl, format=u'%Y-%m-%d', istime=False",7,27
+powerline\segments\common\time.py,fuzzy_time,"pl, unicode_text=False",37,94
+powerline\segments\common\vcs.py,get_directory,segment_info,14,16
+powerline\segments\common\vcs.py,__call__,"self, pl, segment_info, create_watcher, status_colors=False, ignore_statuses=()",18,39
+powerline\segments\common\wthr.py,key,"location_query=None, **kwargs",109,111
+powerline\segments\common\wthr.py,get_request_url,"self, location_query",113,135
+powerline\segments\common\wthr.py,compute_state,"self, location_query",137,163
+powerline\segments\common\wthr.py,render_one,"self, weather, icons=None, unit=u'C', temp_format=None, temp_coldest='-30', temp_hottest='40', **kwargs",165,198
+powerline\segments\vim\__init__.py,window_cached,func,66,83
+powerline\segments\vim\__init__.py,ret,"segment_info, **kwargs",69,81
+powerline\segments\vim\__init__.py,mode,"pl, segment_info, override=None",86,101
+powerline\segments\vim\__init__.py,visual_range,"pl, segment_info, CTRL_V_text=u'{rows} x {vcols}', v_text_oneline=u'C:{vcols}', v_text_multiline=u'L:{rows}', V_text=u'L:{rows}'",104,153
+powerline\segments\vim\__init__.py,modified_indicator,"pl, segment_info, text=u'+'",157,164
+powerline\segments\vim\__init__.py,tab_modified_indicator,"pl, segment_info, text=u'+'",167,182
+powerline\segments\vim\__init__.py,paste_indicator,"pl, segment_info, text=u'PASTE'",185,192
+powerline\segments\vim\__init__.py,readonly_indicator,"pl, segment_info, text=u'RO'",195,202
+powerline\segments\vim\__init__.py,file_scheme,"pl, segment_info",208,231
+powerline\segments\vim\__init__.py,file_directory,"pl, segment_info, remove_scheme=True, shorten_user=True, shorten_cwd=True, shorten_home=False",234,273
+powerline\segments\vim\__init__.py,file_name,"pl, segment_info, display_no_file=False, no_file_text=u'[No file]'",276,296
+powerline\segments\vim\__init__.py,file_size,"pl, suffix=u'B', si_prefix=False",299,314
+powerline\segments\vim\__init__.py,file_format,"pl, segment_info",317,326
+powerline\segments\vim\__init__.py,file_encoding,"pl, segment_info",329,338
+powerline\segments\vim\__init__.py,file_type,"pl, segment_info",341,350
+powerline\segments\vim\__init__.py,window_title,"pl, segment_info",353,364
+powerline\segments\vim\__init__.py,line_percent,"pl, segment_info, gradient=False",367,384
+powerline\segments\vim\__init__.py,position,"pl, position_strings={u'top': u'Top', u'bottom': u'Bot', u'all': u'All'}, gradient=False",388,422
+powerline\segments\vim\__init__.py,line_current,"pl, segment_info",426,429
+powerline\segments\vim\__init__.py,line_count,"pl, segment_info",432,435
+powerline\segments\vim\__init__.py,col_current,"pl, segment_info",438,442
+powerline\segments\vim\__init__.py,virtcol_current,"pl, gradient=True",445,460
+powerline\segments\vim\__init__.py,modified_buffers,"pl, text=u'+ ', join_str=u', '",463,478
+powerline\segments\vim\__init__.py,get_directory,segment_info,486,490
+powerline\segments\vim\__init__.py,file_vcs_status,"pl, segment_info, create_watcher",513,535
+powerline\segments\vim\__init__.py,trailing_whitespace,"pl, segment_info",541,587
+powerline\segments\vim\__init__.py,tabnr,"pl, segment_info, show_current=True",590,603
+powerline\segments\vim\__init__.py,bufnr,"pl, segment_info, show_current=True",606,615
+powerline\segments\vim\__init__.py,winnr,"pl, segment_info, show_current=True",618,627
+powerline\segments\vim\__init__.py,detect_text_csv_dialect,"text, display_name, header_text=None",634,637
+powerline\segments\vim\__init__.py,read_csv,"l, dialect, fin=next",646,655
+powerline\segments\vim\__init__.py,read_csv,"l, dialect, fin=next",657,658
+powerline\segments\vim\__init__.py,process_csv_buffer,"pl, buffer, line, col, display_name",661,710
+powerline\segments\vim\__init__.py,csv_col_current,"pl, segment_info, display_name=u'auto', name_format=u' ({column_name:.15})'",713,742
+powerline\segments\vim\__init__.py,tab,"pl, segment_info, end=False",745,760
+powerline\segments\vim\plugin\capslock.py,capslock_indicator,"pl, segment_info, text=u'CAPS'",13,30
+powerline\segments\vim\plugin\commandt.py,initialize,,12,39
+powerline\segments\vim\plugin\commandt.py,finder,pl,46,60
+powerline\segments\vim\plugin\commandt.py,path,pl,76,96
+powerline\segments\vim\plugin\nerdtree.py,nerdtree,pl,13,24
+powerline\segments\vim\plugin\syntastic.py,syntastic,"pl, err_format=u'ERR: \ue0a1 {first_line} ({num}) ', warn_format=u'WARN: \ue0a1 {first_line} ({num}) '",13,43
+powerline\segments\vim\plugin\tagbar.py,current_tag,"segment_info, pl, flags=u's'",17,51
+powerline\selectors\vim.py,single_tab,"pl, segment_info, mode",7,10
+scripts\powerline-release.py,parse_version,s,21,48
+scripts\powerline-release.py,setup_py_filter,filter_func,51,59
+scripts\powerline-release.py,setup_py_develop_filter,"line, version_string",62,65
+scripts\powerline-release.py,setup_py_master_filter,"line, version_string",68,73
+scripts\powerline-release.py,merge,"version_string, rev, **kwargs",76,105
+scripts\powerline-release.py,push,"version_string, rev, **kwargs",108,111
+scripts\powerline-release.py,upload,**args,114,116
+scripts\powerline-release.py,get_gh,"user, password",122,126
+scripts\powerline-release.py,create_ebuilds,"version_string, overlay, user, **kwargs",129,192
+scripts\powerline-release.py,update_overlay,"version_string, user, password, **kwargs",195,202
+scripts\powerline-release.py,create_release,"version, user, password=None, run_stages=None, **kwargs",215,221
+tests\matchers.py,always_true,matcher_info,5,6
+tests\setup_statusline_catcher.py,_powerline_test_render_function,"*args, **kwargs",12,15
+tests\test_cmdline.py,test_main_err,self,21,56
+tests\test_cmdline.py,flush,,26,28
+tests\test_cmdline.py,test_main_normal,self,58,138
+tests\test_configuration.py,highlighted_string,"s, group, **kwargs",17,24
+tests\test_configuration.py,with_new_config,func,173,177
+tests\test_configuration.py,f,self,174,176
+tests\test_configuration.py,add_args,func,180,186
+tests\test_configuration.py,f,self,181,185
+tests\test_configuration.py,assertRenderEqual,"self, p, output, **kwargs",190,191
+tests\test_configuration.py,assertRenderLinesEqual,"self, p, output, **kwargs",193,194
+tests\test_configuration.py,test_without_above,"self, p, config",198,203
+tests\test_configuration.py,test_with_above,"self, config",205,226
+tests\test_configuration.py,test_display,"self, p, config",230,235
+tests\test_configuration.py,test_group_redirects,"self, p, config",239,256
+tests\test_configuration.py,test_group_redirects_no_main,"self, p, config",258,271
+tests\test_configuration.py,test_group_redirects_no_top_default,"self, p, config",273,284
+tests\test_configuration.py,test_group_redirects_no_test_default,"self, p, config",286,301
+tests\test_configuration.py,test_group_redirects_only_main,"self, p, config",303,320
+tests\test_configuration.py,test_group_redirects_only_top_default,"self, p, config",323,336
+tests\test_configuration.py,test_group_redirects_only_test_default,"self, p, config",338,349
+tests\test_configuration.py,test_hierarchy,"self, p, config",353,355
+tests\test_configuration.py,test_no_main,"self, p, config",357,361
+tests\test_configuration.py,test_no_powerline,"self, p, config",363,369
+tests\test_configuration.py,test_no_default,"self, p, config",371,378
+tests\test_configuration.py,test_only_default,"self, p, config",381,387
+tests\test_configuration.py,test_only_main,"self, p, config",389,398
+tests\test_configuration.py,test_only_powerline,"self, p, config",401,410
+tests\test_configuration.py,test_nothing,"self, p, config",413,424
+tests\test_configuration.py,test_include_modes,"self, p, config",429,441
+tests\test_configuration.py,test_exclude_modes,"self, p, config",443,455
+tests\test_configuration.py,test_exinclude_modes,"self, p, config",457,469
+tests\test_configuration.py,test_exinclude_function_nonexistent_module,"self, p, config",471,480
+tests\test_configuration.py,test_exinclude_function,"self, p, config",482,526
+tests\test_configuration.py,foo,"*args, **kwargs",495,499
+tests\test_configuration.py,bar,"*args, **kwargs",501,505
+tests\test_configuration.py,test_exinclude_modes_override_functions,"self, p, config",528,550
+tests\test_configuration.py,foo,"*args, **kwargs",540,541
+tests\test_configuration.py,test_no_attributes,"self, p, config",554,566
+tests\test_configuration.py,m1,"divider=u', ', **kwargs",556,557
+tests\test_configuration.py,test_segment_datas,"self, p, config",568,592
+tests\test_configuration.py,m1,"divider=u', ', **kwargs",570,571
+tests\test_configuration.py,test_expand,"self, p, config",594,612
+tests\test_configuration.py,m1,"divider=u', ', **kwargs",596,597
+tests\test_configuration.py,expand,"pl, amount, segment, **kwargs",599,600
+tests\test_configuration.py,test_truncate,"self, p, config",614,631
+tests\test_configuration.py,m1,"divider=u', ', **kwargs",616,617
+tests\test_configuration.py,truncate,"pl, amount, segment, **kwargs",619,620
+tests\test_configuration.py,test_segment_data,"self, p, config",635,675
+tests\test_configuration.py,m1,**kwargs,637,638
+tests\test_configuration.py,m2,**kwargs,640,641
+tests\test_configuration.py,test_escapes,"self, config",679,685
+tests\test_configuration.py,test_tmux_escapes,"self, config",687,694
+tests\test_configuration.py,test_screen_escapes,"self, config",696,703
+tests\test_configuration.py,test_fbterm_escapes,"self, config",705,712
+tests\test_configuration.py,test_fbterm_tmux_escapes,"self, config",714,722
+tests\test_configuration.py,test_fbterm_screen_escapes,"self, config",724,732
+tests\test_configuration.py,test_term_truecolor_escapes,"self, config",734,741
+tests\test_configuration.py,test_term_truecolor_fbterm_escapes,"self, config",743,751
+tests\test_configuration.py,test_term_truecolor_tmux_escapes,"self, config",753,761
+tests\test_configuration.py,test_term_truecolor_screen_escapes,"self, config",763,771
+tests\test_configuration.py,test_environ_update,self,775,790
+tests\test_configuration.py,test_local_themes,self,792,817
+tests\test_configuration.py,setUpClass,cls,819,821
+tests\test_configuration.py,tearDownClass,cls,823,825
+tests\test_configuration.py,test_bar,self,829,835
+tests\test_configuration.py,test_bar_escape,"self, config",838,849
+tests\test_config_merging.py,mkdir_recursive,directory,109,113
+tests\test_config_merging.py,get_config_paths,self,117,120
+tests\test_config_merging.py,__init__,"self, tree, p_kwargs={u'run_once': True}",127,130
+tests\test_config_merging.py,__enter__,"self, *args",132,153
+tests\test_config_merging.py,__exit__,"self, *args",155,160
+tests\test_config_merging.py,assertRenderEqual,"self, p, output, **kwargs",164,165
+tests\test_config_merging.py,test_not_merged_config,self,167,169
+tests\test_config_merging.py,test_root_config_merging,self,171,192
+tests\test_config_merging.py,test_top_theme_merging,self,194,207
+tests\test_config_merging.py,test_colors_config_merging,self,209,243
+tests\test_config_merging.py,test_colorschemes_merging,self,245,253
+tests\test_config_merging.py,test_theme_merging,self,255,265
+tests\test_config_reload.py,with_new_config,func,112,116
+tests\test_config_reload.py,f,self,113,115
+tests\test_config_reload.py,assertAccessEvents,"self, p, *args",120,128
+tests\test_config_reload.py,test_noreload,"self, config",130,140
+tests\test_config_reload.py,test_reload_main,"self, config",142,202
+tests\test_config_reload.py,test_reload_unexistent,"self, config",204,239
+tests\test_config_reload.py,test_reload_colors,"self, config",241,251
+tests\test_config_reload.py,test_reload_colorscheme,"self, config",253,263
+tests\test_config_reload.py,test_reload_theme,"self, config",265,275
+tests\test_config_reload.py,test_reload_top_theme,"self, config",277,287
+tests\test_config_reload.py,test_reload_theme_main,"self, config",289,301
+tests\test_config_reload.py,test_run_once_no_theme_reload,"self, config",303,314
+tests\test_lib.py,thread_number,,47,48
+tests\test_lib.py,test_threaded_segment,self,52,247
+tests\test_lib.py,set_state,"self, **kwargs",63,66
+tests\test_lib.py,update,"self, update_value",68,78
+tests\test_lib.py,render,"self, update, **kwargs",80,85
+tests\test_lib.py,test_kw_threaded_segment,self,249,370
+tests\test_lib.py,key,"_key=(None, ), **kwargs",257,260
+tests\test_lib.py,compute_state,"self, key",262,270
+tests\test_lib.py,render_one,"self, state, **kwargs",272,277
+tests\test_lib.py,test_mergedicts,self,374,385
+tests\test_lib.py,test_add_divider_highlight_group,self,387,392
+tests\test_lib.py,decorated_function_name,**kwargs,388,389
+tests\test_lib.py,test_humanize_bytes,self,394,401
+tests\test_lib.py,assertStringsIdentical,"self, s1, s2",415,417
+tests\test_lib.py,test_unicode,self,419,420
+tests\test_lib.py,test_unichr,self,422,425
+tests\test_lib.py,test_u,self,427,431
+tests\test_lib.py,test_tointiter,self,433,434
+tests\test_lib.py,test_decode_error,self,436,438
+tests\test_lib.py,test_register_strwidth_error,self,440,443
+tests\test_lib.py,test_out_u,self,445,448
+tests\test_lib.py,test_safe_unicode,self,450,462
+tests\test_lib.py,__str__,self,459,460
+tests\test_lib.py,test_FailedUnicode,self,464,466
+tests\test_lib.py,test_string,self,468,470
+tests\test_lib.py,test_surrogate_pair_to_character,self,472,473
+tests\test_lib.py,test_strwidth_ucs_4,self,475,489
+tests\test_lib.py,east_asian_width,ch,481,484
+tests\test_lib.py,test_strwidth_ucs_2,self,491,496
+tests\test_lib.py,do_branch_rename_test,"self, repo, q",500,515
+tests\test_lib.py,test_git,self,517,549
+tests\test_lib.py,test_git_sym,self,551,566
+tests\test_lib.py,test_mercurial,self,568,584
+tests\test_lib.py,test_bzr,self,586,657
+tests\test_lib.py,setUpClass,cls,659,679
+tests\test_lib.py,tearDownClass,cls,681,690
+tests\test_lib_config.py,pop_all,self,16,20
+tests\test_lib_config.py,on_load,key,26,27
+tests\test_lib_config.py,check_file,path,30,34
+tests\test_lib_config.py,test_update_missing,self,38,47
+tests\test_logging.py,assertMatches,"self, text, regexp",25,28
+tests\test_logging.py,close_handlers,logger,32,34
+tests\test_logging.py,test_stderr_handler_is_default,self,38,48
+tests\test_logging.py,test_stream_override,self,50,62
+tests\test_logging.py,test_explicit_none,self,64,76
+tests\test_logging.py,test_explicit_stream_handler,self,78,90
+tests\test_logging.py,test_explicit_stream_handler_implicit_stream,self,92,104
+tests\test_logging.py,test_file_handler,self,106,124
+tests\test_logging.py,test_file_handler_create_dir,self,126,147
+tests\test_logging.py,test_multiple_files,self,149,172
+tests\test_logging.py,test_multiple_files_and_stream,self,174,197
+tests\test_logging.py,test_handler_args,self,199,219
+tests\test_logging.py,test_handler_args_kwargs,self,221,247
+tests\test_logging.py,test_logger_level,self,249,272
+tests\test_logging.py,test_logger_level_not_overriding_default,self,274,291
+tests\test_logging.py,test_top_log_level,self,293,313
+tests\test_logging.py,test_logger_format,self,315,332
+tests\test_logging.py,test_top_log_format,self,334,354
+tests\test_logging.py,test_args_formatting,self,358,368
+tests\test_logging.py,test_prefix_formatting,self,371,383
+tests\test_logging.py,test_kwargs_formatting,self,386,396
+tests\test_logging.py,test_args_kwargs_formatting,self,399,409
+tests\test_logging.py,test_exception_formatting,self,412,426
+tests\test_logging.py,test_levels,self,429,445
+tests\test_logging.py,setUpModule,,452,457
+tests\test_logging.py,tearDownModule,,460,462
+tests\test_provided_config_files.py,exception,"self, *args, **kwargs",26,28
+tests\test_provided_config_files.py,get_logger,stream=None,31,43
+tests\test_provided_config_files.py,test_vim,self,47,100
+tests\test_provided_config_files.py,check_output,"mode, args, kwargs",71,83
+tests\test_provided_config_files.py,setUpClass,cls,102,104
+tests\test_provided_config_files.py,tearDownClass,cls,106,108
+tests\test_provided_config_files.py,test_tmux,self,112,121
+tests\test_provided_config_files.py,test_zsh,self,123,137
+tests\test_provided_config_files.py,test_bash,self,139,145
+tests\test_provided_config_files.py,test_ipython,self,147,164
+tests\test_provided_config_files.py,test_wm,self,166,173
+tests\test_provided_config_files.py,setUpModule,,180,187
+tests\test_provided_config_files.py,tearDownModule,,190,196
+tests\test_segments.py,get_dummy_guess,**kwargs,22,29
+tests\test_segments.py,guess,"path, create_watcher",24,25
+tests\test_segments.py,guess,"path, create_watcher",27,28
+tests\test_segments.py,test_last_status,self,33,49
+tests\test_segments.py,test_last_pipe_status,self,52,80
+tests\test_segments.py,test_jobnum,self,83,92
+tests\test_segments.py,test_continuation,self,94,191
+tests\test_segments.py,test_cwd,self,195,303
+tests\test_segments.py,getcwd,,200,205
+tests\test_segments.py,test_attached_clients,self,307,317
+tests\test_segments.py,get_tmux_output,"pl, cmd, *args",308,312
+tests\test_segments.py,setUpClass,cls,321,324
+tests\test_segments.py,test_hostname,self,330,348
+tests\test_segments.py,test_external_ip,self,350,353
+tests\test_segments.py,test_internal_ip,self,355,422
+tests\test_segments.py,test_network_load,self,424,485
+tests\test_segments.py,gb,interface,425,426
+tests\test_segments.py,_get_bytes,interface,430,431
+tests\test_segments.py,gb2,interface,447,450
+tests\test_segments.py,__eq__,"self, i",477,478
+tests\test_segments.py,test_user,self,491,529
+tests\test_segments.py,__init__,"self, pid",495,496
+tests\test_segments.py,username,self,498,499
+tests\test_segments.py,test_cwd,self,532,629
+tests\test_segments.py,getcwd,,537,542
+tests\test_segments.py,test_virtualenv,self,631,667
+tests\test_segments.py,test_environment,self,669,676
+tests\test_segments.py,test_branch,self,682,738
+tests\test_segments.py,test_date,self,745,755
+tests\test_segments.py,test_fuzzy_time,self,757,776
+tests\test_segments.py,test_uptime,self,782,798
+tests\test_segments.py,_get_uptime,,794,795
+tests\test_segments.py,test_system_load,self,800,812
+tests\test_segments.py,test_cpu_load_percent,self,815,830
+tests\test_segments.py,test_weather,self,837,882
+tests\test_segments.py,test_workspaces,self,886,936
+tests\test_segments.py,test_mode,self,939,944
+tests\test_segments.py,test_email_imap_alert,self,950,952
+tests\test_segments.py,test_now_playing,self,958,960
+tests\test_segments.py,test_battery,self,966,1025
+tests\test_segments.py,_get_battery_status,pl,969,970
+tests\test_segments.py,test_battery_with_ac_online,self,1029,1040
+tests\test_segments.py,_get_battery_status,pl,1032,1033
+tests\test_segments.py,test_battery_with_ac_offline,self,1043,1054
+tests\test_segments.py,_get_battery_status,pl,1046,1047
+tests\test_segments.py,test_mode,self,1059,1069
+tests\test_segments.py,test_visual_range,self,1071,1115
+tests\test_segments.py,test_modified_indicator,self,1117,1126
+tests\test_segments.py,test_paste_indicator,self,1128,1134
+tests\test_segments.py,test_readonly_indicator,self,1136,1142
+tests\test_segments.py,test_file_scheme,self,1144,1151
+tests\test_segments.py,test_file_directory,self,1153,1173
+tests\test_segments.py,test_file_name,self,1175,1190
+tests\test_segments.py,test_file_size,self,1192,1197
+tests\test_segments.py,test_file_opts,self,1199,1211
+tests\test_segments.py,test_window_title,self,1214,1219
+tests\test_segments.py,test_line_percent,self,1221,1233
+tests\test_segments.py,test_line_count,self,1235,1244
+tests\test_segments.py,test_position,self,1246,1267
+tests\test_segments.py,test_cursor_current,self,1269,1278
+tests\test_segments.py,test_modified_buffers,self,1281,1283
+tests\test_segments.py,test_branch,self,1285,1318
+tests\test_segments.py,test_file_vcs_status,self,1321,1335
+tests\test_segments.py,test_trailing_whitespace,self,1337,1354
+tests\test_segments.py,test_tabnr,self,1356,1360
+tests\test_segments.py,test_tab,self,1362,1371
+tests\test_segments.py,test_bufnr,self,1374,1378
+tests\test_segments.py,test_winnr,self,1380,1384
+tests\test_segments.py,test_segment_info,self,1386,1406
+tests\test_segments.py,test_csv_col_current,self,1409,1476
+tests\test_segments.py,csv_col_current,**kwargs,1413,1415
+tests\test_segments.py,setUpClass,cls,1478,1484
+tests\test_segments.py,tearDownClass,cls,1486,1488
+tests\test_segments.py,test_current_line,self,1492,1494
+tests\test_segments.py,test_current_file,self,1496,1505
+tests\test_segments.py,test_current_code_name,self,1507,1514
+tests\test_segments.py,test_current_context,self,1516,1523
+tests\test_segments.py,test_stack_depth,self,1525,1534
+tests\test_segments.py,setUpModule,,1540,1545
+tests\test_segments.py,tearDownModule,,1548,1550
+tests\test_selectors.py,test_single_tab,self,16,21
+tests\test_selectors.py,setUpClass,cls,23,27
+tests\test_selectors.py,tearDownClass,cls,29,31
+tests\test_watcher.py,clear_dir,dir,22,27
+tests\test_watcher.py,set_watcher_tests,l,30,88
+tests\test_watcher.py,test_inotify_file_watcher,"self, use_bytes=use_bytes",34,39
+tests\test_watcher.py,test_uv_file_watcher,"self, use_bytes=use_bytes",41,47
+tests\test_watcher.py,test_inotify_tree_watcher,"self, use_bytes=use_bytes",49,54
+tests\test_watcher.py,test_uv_tree_watcher,"self, use_bytes=use_bytes",56,62
+tests\test_watcher.py,test_inotify_file_watcher_is_watching,"self, use_bytes=use_bytes",64,69
+tests\test_watcher.py,test_stat_file_watcher_is_watching,"self, use_bytes=use_bytes",71,73
+tests\test_watcher.py,test_uv_file_watcher_is_watching,"self, use_bytes=use_bytes",75,80
+tests\test_watcher.py,do_test_for_change,"self, watcher, path",92,98
+tests\test_watcher.py,do_test_file_watcher,"self, w, use_bytes=False",100,147
+tests\test_watcher.py,do_test_tree_watcher,"self, tw, use_bytes=False",149,198
+tests\test_watcher.py,do_test_file_watcher_is_watching,"self, w, use_bytes=False",200,223
+tests\test_watcher.py,setUpModule,,231,235
+tests\test_watcher.py,tearDownModule,,238,240
+tests\vim.py,_set_thread_id,,24,27
+tests\vim.py,_print_log,,34,37
+tests\vim.py,_vim,func,40,52
+tests\vim.py,f,"*args, **kwargs",44,50
+tests\vim.py,_unicode,func,55,70
+tests\vim.py,f,"*args, **kwargs",62,68
+tests\vim.py,__init__,self,74,76
+tests\vim.py,__len__,self,78,80
+tests\vim.py,__getitem__,"self, item",82,84
+tests\vim.py,__setitem__,"self, item, value",86,88
+tests\vim.py,__iter__,self,90,92
+tests\vim.py,__contains__,"self, item",94,96
+tests\vim.py,_keys,self,98,100
+tests\vim.py,_pop,"self, *args, **kwargs",102,104
+tests\vim.py,__init__,"self, objtype",111,114
+tests\vim.py,__getitem__,"self, item",116,118
+tests\vim.py,__len__,self,120,122
+tests\vim.py,__iter__,self,124,126
+tests\vim.py,_pop,"self, idx",128,133
+tests\vim.py,_append,"self, *args, **kwargs",135,137
+tests\vim.py,_new,"self, *args, **kwargs",139,144
+tests\vim.py,_construct_result,r,147,161
+tests\vim.py,_str_func,func,164,170
+tests\vim.py,f,"*args, **kwargs",167,169
+tests\vim.py,_log_print,,173,176
+tests\vim.py,command,cmd,183,222
+tests\vim.py,eval,expr,225,302
+tests\vim.py,bindeval,expr,305,318
+tests\vim.py,_emul_mode,*args,321,327
+tests\vim.py,_emul_getbufvar,"bufnr, varname",330,352
+tests\vim.py,_emul_getwinvar,"winnr, varname",355,358
+tests\vim.py,_emul_setwinvar,"winnr, varname, value",361,363
+tests\vim.py,_emul_virtcol,expr,366,372
+tests\vim.py,_emul_getpos,expr,378,384
+tests\vim.py,_emul_fnamemodify,"path, modstring",387,400
+tests\vim.py,_emul_expand,expr,403,409
+tests\vim.py,_emul_bufnr,expr,412,416
+tests\vim.py,_emul_exists,ident,419,425
+tests\vim.py,_emul_line2byte,line,428,433
+tests\vim.py,_emul_line,expr,436,444
+tests\vim.py,_emul_strtrans,s,447,451
+tests\vim.py,_emul_bufname,bufnr,454,460
+tests\vim.py,__init__,"self, number, buffer=None, cursor=('1', '0'), width='80'",467,483
+tests\vim.py,__repr__,self,486,487
+tests\vim.py,__init__,"self, number",491,493
+tests\vim.py,_new_window,"self, **kwargs",495,497
+tests\vim.py,_close_window,"self, winnr, open_window=True",499,506
+tests\vim.py,_close,self,508,513
+tests\vim.py,__init__,"self, name=None",523,543
+tests\vim.py,name,self,545,551
+tests\vim.py,name,"self, name",553,564
+tests\vim.py,__getitem__,"self, line",566,567
+tests\vim.py,__setitem__,"self, line, value",569,574
+tests\vim.py,__setslice__,"self, *args",576,581
+tests\vim.py,__getslice__,"self, *args",583,584
+tests\vim.py,__len__,self,586,587
+tests\vim.py,__repr__,self,589,590
+tests\vim.py,__del__,self,592,609
+tests\vim.py,buffer,self,613,615
+tests\vim.py,window,self,617,619
+tests\vim.py,tabpage,self,621,623
+tests\vim.py,_init,,632,644
+tests\vim.py,_get_segment_info,,647,667
+tests\vim.py,_launch_event,event,671,673
+tests\vim.py,_start_mode,mode,676,683
+tests\vim.py,_undo,,686,694
+tests\vim.py,_edit,name=None,697,704
+tests\vim.py,_tabnew,name=None,707,715
+tests\vim.py,_new,name=None,718,720
+tests\vim.py,_split,,723,725
+tests\vim.py,_close,"winnr, wipe=True",728,736
+tests\vim.py,_bw,bufnr=None,739,750
+tests\vim.py,_b,bufnr,753,755
+tests\vim.py,_set_cursor,"line, col",758,764
+tests\vim.py,_get_buffer,,767,769
+tests\vim.py,_set_bufoption,"option, value, bufnr=None",772,776
+tests\vim.py,__init__,"self, func, *args, **kwargs",780,781
+tests\vim.py,__enter__,self,783,786
+tests\vim.py,__exit__,"self, *args",788,789
+tests\vim.py,_set_dict,"d, new, setfunc=None",792,806
+tests\vim.py,setfunc,"k, v",795,796
+tests\vim.py,__init__,"self, **new",810,811
+tests\vim.py,__enter__,self,813,815
+tests\vim.py,__exit__,"self, *args",817,818
+tests\vim.py,__init__,"self, new",822,823
+tests\vim.py,__enter__,self,825,828
+tests\vim.py,__exit__,"self, *args",830,831
+tests\vim.py,__init__,"self, d, **new",835,837
+tests\vim.py,__enter__,self,839,840
+tests\vim.py,__exit__,"self, *args",842,845
+tests\vim.py,__enter__,self,849,850
+tests\vim.py,__exit__,"self, *args",852,853
+tests\vim.py,__init__,"self, new",857,858
+tests\vim.py,__enter__,self,860,865
+tests\vim.py,__exit__,"self, *args",867,868
+tests\vim.py,__init__,"self, *args, **kwargs",872,874
+tests\vim.py,__enter__,self,876,877
+tests\vim.py,__exit__,"self, *args",879,880
+tests\vim.py,__init__,"self, **kwargs",884,885
+tests\vim.py,__enter__,self,887,890
+tests\vim.py,__exit__,"self, *args",892,897
+tests\vim.py,_with,"key, *args, **kwargs",900,923
+tests\lib\config_mock.py,__init__,"self, config",19,22
+tests\lib\config_mock.py,loader_condition,"self, path",24,25
+tests\lib\config_mock.py,find_config_files,"self, cfg_path, config_loader, loader_callback",27,39
+tests\lib\config_mock.py,load_json_config,"self, config_file_path, *args, **kwargs",41,51
+tests\lib\config_mock.py,pop_events,self,53,57
+tests\lib\config_mock.py,log_call,func,60,65
+tests\lib\config_mock.py,ret,"self, *args, **kwargs",61,64
+tests\lib\config_mock.py,__init__,self,72,73
+tests\lib\config_mock.py,watch,"self, file",75,77
+tests\lib\config_mock.py,__call__,"self, file",79,85
+tests\lib\config_mock.py,_reset,"self, files",87,90
+tests\lib\config_mock.py,unsubscribe,self,92,94
+tests\lib\config_mock.py,__init__,self,98,100
+tests\lib\config_mock.py,_add_msg,"self, attr, msg",102,104
+tests\lib\config_mock.py,_pop_msgs,self,106,110
+tests\lib\config_mock.py,__getattr__,"self, attr",112,113
+tests\lib\config_mock.py,hlstyle,"self, fg=None, bg=None, attrs=None",117,118
+tests\lib\config_mock.py,hlstyle,"self, fg=None, bg=None, attrs=None",122,126
+tests\lib\config_mock.py,__init__,"self, _helpers, **kwargs",133,136
+tests\lib\config_mock.py,get_local_themes,local_themes,138,140
+tests\lib\config_mock.py,get_config_paths,,142,144
+tests\lib\config_mock.py,_will_create_renderer,self,146,147
+tests\lib\config_mock.py,_pop_events,self,149,150
+tests\lib\config_mock.py,__init__,"self, _helpers, **kwargs",157,163
+tests\lib\config_mock.py,get_powerline,"config, **kwargs",167,176
+tests\lib\config_mock.py,select_renderer,simpler_renderer=False,180,182
+tests\lib\config_mock.py,get_powerline_raw,"helpers, PowerlineClass, replace_gcp=False, **kwargs",185,204
+tests\lib\config_mock.py,get_config_paths,,192,194
+tests\lib\config_mock.py,swap_attributes,"config, powerline_module",207,216
+tests\lib\config_mock.py,add_watcher_events,"p, *args, **kwargs",220,226
+tests\lib\fsconfig.py,__init__,"self, _paths, *args, **kwargs",18,20
+tests\lib\fsconfig.py,get_config_paths,self,22,23
+tests\lib\fsconfig.py,mkdir_recursive,directory,26,30
+tests\lib\fsconfig.py,__init__,"self, tree, p_kwargs={u'run_once': True}, root=CONFIG_DIR, get_config_paths=(lambda p: (p, )), create_p=False",36,49
+tests\lib\fsconfig.py,__enter__,"self, *args",51,76
+tests\lib\fsconfig.py,__exit__,"self, *args",78,83
+tests\lib\terminal.py,__init__,"self, lib, rows, cols, cmd, args, cwd=None, env=None",14,25
+tests\lib\terminal.py,run,self,27,46
+tests\lib\terminal.py,resize,"self, rows, cols",48,53
+tests\lib\terminal.py,__getitem__,"self, position",55,57
+tests\lib\terminal.py,read,self,59,63
+tests\lib\terminal.py,send,"self, data",65,67
+tests\lib\vterm.py,__init__,"self, library, name, rettype, args",10,17
+tests\lib\vterm.py,__call__,"self, *args, **kwargs",20,21
+tests\lib\vterm.py,__repr__,self,23,26
+tests\lib\vterm.py,__init__,"self, lib, **kwargs",31,37
+tests\lib\vterm.py,get_functions,lib,86,113
+tests\lib\vterm.py,__init__,"self, color",120,123
+tests\lib\vterm.py,color_key,self,125,127
+tests\lib\vterm.py,__init__,"self, vtsc",131,146
+tests\lib\vterm.py,__init__,"self, functions, screen",151,153
+tests\lib\vterm.py,__getitem__,"self, position",155,161
+tests\lib\vterm.py,reset,"self, hard",163,164
+tests\lib\vterm.py,__init__,"self, lib, rows, cols",168,172
+tests\lib\vterm.py,push,"self, data",174,177
+tests\lib\vterm.py,resize,"self, rows, cols",179,180
+tests\lib\vterm.py,__del__,self,182,186
+tests\lib\__init__.py,__init__,self,9,16
+tests\lib\__init__.py,__init__,"self, **kwargs",32,33
+tests\lib\__init__.py,urllib_read,query_url,36,50
+tests\lib\__init__.py,__init__,"self, output, err",54,56
+tests\lib\__init__.py,communicate,self,58,59
+tests\lib\__init__.py,__init__,"self, name, new",63,65
+tests\lib\__init__.py,__enter__,self,67,74
+tests\lib\__init__.py,__exit__,"self, *args",76,80
+tests\lib\__init__.py,replace_module,"name, new=None, **kwargs",83,86
+tests\lib\__init__.py,new_module,"name, **kwargs",89,93
+tests\lib\__init__.py,__init__,"self, obj, *args",97,100
+tests\lib\__init__.py,__enter__,self,102,110
+tests\lib\__init__.py,__exit__,"self, *args",112,119
+tests\lib\__init__.py,replace_module_module,"module, name, **kwargs",125,126
+tests\lib\__init__.py,__init__,"self, d, key, new, r=None",130,134
+tests\lib\__init__.py,__enter__,self,136,139
+tests\lib\__init__.py,__exit__,"self, *args",141,148
+tests\lib\__init__.py,replace_item,"d, key, new",151,152
+tests\lib\__init__.py,replace_env,"key, new, environ=None, **kwargs",155,158
+tests\test_in_vterm\test_tmux.py,cell_properties_key_to_shell_escape,cell_properties_key,24,31
+tests\test_in_vterm\test_tmux.py,test_expected_result,"p, expected_result, cols, rows, print_logs",35,96
+tests\test_in_vterm\test_tmux.py,get_expected_result,"tmux_version, expected_result_old, expected_result_1_7=None, expected_result_new=None, expected_result_2_0=None",99,107
+tests\test_in_vterm\test_tmux.py,main,attempts='3',110,317
+tests\test_shells\pdb-script.py,nop,_,2,3
+tests\test_shells\pdb-script.py,__init__,self,7,11
+tests\test_shells\pdb-script.py,bar,cls,13,15
+tests\test_shells\pdb-script.py,baz,,17,19
+tests\test_shells\pdb-script.py,bra,self,21,22
+tests\test_shells\pdb-script.py,brah,,25,26
+tests\test_shells\run_script.py,get_argparser,ArgumentParser=argparse.ArgumentParser,16,24
+tests\test_shells\run_script.py,main,,27,120
+tools\colors_find.py,get_lab,"name, rgb",13,19
+tools\colors_find.py,find_color,"urgb, colors",29,37
+tools\colors_find.py,lab_to_csi,lab,43,46
+tools\colors_find.py,get_upscaled_values,rgb,49,50
+tools\colors_find.py,get_rgb,lab,53,56
+tools\generate_gradients.py,num2,s,22,26
+tools\generate_gradients.py,rgbint_to_lab,rgbint,29,34
+tools\generate_gradients.py,color,s,40,44
+tools\generate_gradients.py,nums,s,47,48
+tools\generate_gradients.py,linear_gradient,"start_value, stop_value, start_offset, stop_offset, offset",51,52
+tools\generate_gradients.py,lab_gradient,"slab, elab, soff, eoff, off",55,60
+tools\generate_gradients.py,generate_gradient_function,DATA,64,71
+tools\generate_gradients.py,gradient_function,y,65,70
+tools\generate_gradients.py,get_upscaled_values,rgb,74,75
+tools\generate_gradients.py,get_rgb,lab,78,81
+tools\generate_gradients.py,find_color,"ulab, colors, ctrans",84,94
+tools\generate_gradients.py,print_color,color,97,103
+tools\generate_gradients.py,print_colors,"colors, num",106,110
+tools\generate_gradients.py,dec_scale_generator,num,113,125
+tools\generate_gradients.py,compute_steps,"gradient, weights",128,141
+tools\generate_gradients.py,show_scale,"rng, num_output",151,173

@@ -1,0 +1,3081 @@
+file,method,params,startlineno,endlineno
+setup.py,run,self,74,81
+setup.py,build_extension,"self, ext",85,94
+demos\appengine\blog.py,administrator,method,40,56
+demos\appengine\blog.py,wrapper,"self, *args, **kwargs",42,55
+demos\appengine\blog.py,get_current_user,self,61,64
+demos\appengine\blog.py,get_login_url,self,66,67
+demos\appengine\blog.py,get_template_namespace,self,69,73
+demos\appengine\blog.py,get,self,77,83
+demos\appengine\blog.py,get,"self, slug",87,90
+demos\appengine\blog.py,get,self,94,96
+demos\appengine\blog.py,get,self,100,103
+demos\appengine\blog.py,get,self,107,111
+demos\appengine\blog.py,post,self,113,142
+demos\appengine\blog.py,render,"self, entry",146,147
+demos\benchmark\benchmark.py,get,self,50,51
+demos\benchmark\benchmark.py,_log,self,53,54
+demos\benchmark\benchmark.py,handle_sigchld,"sig, frame",56,57
+demos\benchmark\benchmark.py,main,,59,64
+demos\benchmark\benchmark.py,run,,66,84
+demos\benchmark\chunk_benchmark.py,get,self,18,22
+demos\benchmark\chunk_benchmark.py,main,,25,46
+demos\benchmark\chunk_benchmark.py,callback,response,30,34
+demos\benchmark\gen_benchmark.py,e2,callback,19,21
+demos\benchmark\gen_benchmark.py,e1,,23,26
+demos\benchmark\gen_benchmark.py,c2,,28,30
+demos\benchmark\gen_benchmark.py,c1,,32,35
+demos\benchmark\gen_benchmark.py,main,,37,44
+demos\benchmark\stack_context_benchmark.py,enter_exit,"self, count",12,19
+demos\benchmark\stack_context_benchmark.py,call_wrapped,"self, count",21,31
+demos\benchmark\stack_context_benchmark.py,call_wrapped_inner,"self, queue, count",33,38
+demos\benchmark\stack_context_benchmark.py,make_context,self,41,42
+demos\benchmark\stack_context_benchmark.py,__context,self,44,46
+demos\benchmark\stack_context_benchmark.py,make_context,self,49,50
+demos\benchmark\stack_context_benchmark.py,__handle_exception,"self, typ, value, tb",52,53
+demos\benchmark\stack_context_benchmark.py,main,,55,72
+demos\benchmark\template_benchmark.py,render,,54,55
+demos\benchmark\template_benchmark.py,main,,57,64
+demos\blog\blog.py,__init__,self,47,74
+demos\blog\blog.py,maybe_create_tables,self,76,85
+demos\blog\blog.py,db,self,89,91
+demos\blog\blog.py,get_current_user,self,93,96
+demos\blog\blog.py,any_author_exists,self,98,99
+demos\blog\blog.py,get,self,103,109
+demos\blog\blog.py,get,"self, slug",113,116
+demos\blog\blog.py,get,self,120,123
+demos\blog\blog.py,get,self,127,131
+demos\blog\blog.py,get,self,135,141
+demos\blog\blog.py,post,self,143,170
+demos\blog\blog.py,get,self,174,175
+demos\blog\blog.py,post,self,177,190
+demos\blog\blog.py,get,self,194,199
+demos\blog\blog.py,post,self,201,215
+demos\blog\blog.py,get,self,219,221
+demos\blog\blog.py,render,"self, entry",225,226
+demos\blog\blog.py,main,,229,233
+demos\chat\chatdemo.py,__init__,self,33,36
+demos\chat\chatdemo.py,wait_for_messages,"self, cursor=None",38,54
+demos\chat\chatdemo.py,cancel_wait,"self, future",56,59
+demos\chat\chatdemo.py,new_messages,"self, messages",61,68
+demos\chat\chatdemo.py,get,self,76,77
+demos\chat\chatdemo.py,post,self,81,94
+demos\chat\chatdemo.py,post,self,98,107
+demos\chat\chatdemo.py,on_connection_close,self,109,110
+demos\chat\chatdemo.py,main,,113,128
+demos\facebook\facebook.py,__init__,self,33,51
+demos\facebook\facebook.py,get_current_user,self,55,58
+demos\facebook\facebook.py,get,self,62,66
+demos\facebook\facebook.py,_on_stream,"self, stream",68,73
+demos\facebook\facebook.py,get,self,77,92
+demos\facebook\facebook.py,_on_auth,"self, user",94,98
+demos\facebook\facebook.py,get,self,102,104
+demos\facebook\facebook.py,render,"self, post",108,109
+demos\facebook\facebook.py,main,,112,119
+demos\helloworld\helloworld.py,get,self,28,29
+demos\helloworld\helloworld.py,main,,32,39
+demos\s3server\s3server.py,start,"port, root_directory='/tmp/s3', bucket_depth='0'",46,51
+demos\s3server\s3server.py,__init__,"self, root_directory, bucket_depth='0'",61,70
+demos\s3server\s3server.py,render_xml,"self, value",76,86
+demos\s3server\s3server.py,_render_parts,"self, value, parts=[]",88,104
+demos\s3server\s3server.py,_object_path,"self, bucket, object_name",106,115
+demos\s3server\s3server.py,get,self,119,131
+demos\s3server\s3server.py,get,"self, bucket_name",136,187
+demos\s3server\s3server.py,put,"self, bucket_name",190,197
+demos\s3server\s3server.py,delete,"self, bucket_name",199,209
+demos\s3server\s3server.py,get,"self, bucket, object_name",213,227
+demos\s3server\s3server.py,put,"self, bucket, object_name",229,245
+demos\s3server\s3server.py,delete,"self, bucket, object_name",247,255
+demos\twitter\twitterdemo.py,get_current_user,self,45,49
+demos\twitter\twitterdemo.py,get,self,52,58
+demos\twitter\twitterdemo.py,get,self,61,69
+demos\twitter\twitterdemo.py,get,self,72,73
+demos\twitter\twitterdemo.py,main,,75,90
+demos\websocket\chatdemo.py,__init__,self,36,47
+demos\websocket\chatdemo.py,get,self,51,52
+demos\websocket\chatdemo.py,get_compression_options,self,59,61
+demos\websocket\chatdemo.py,open,self,63,64
+demos\websocket\chatdemo.py,on_close,self,66,67
+demos\websocket\chatdemo.py,update_cache,"cls, chat",69,73
+demos\websocket\chatdemo.py,send_updates,"cls, chat",75,82
+demos\websocket\chatdemo.py,on_message,"self, message",84,95
+demos\websocket\chatdemo.py,main,,98,102
+demos\webspider\webspider.py,get_links_from_url,url,17,37
+demos\webspider\webspider.py,remove_fragment,url,40,42
+demos\webspider\webspider.py,get_links,html,45,58
+demos\webspider\webspider.py,__init__,self,47,49
+demos\webspider\webspider.py,handle_starttag,"self, tag, attrs",51,54
+demos\webspider\webspider.py,main,,61,100
+demos\webspider\webspider.py,fetch_url,,67,85
+demos\webspider\webspider.py,worker,,87,90
+maint\scripts\test_resolvers.py,main,,25,55
+maint\scripts\custom_fixers\fix_future_imports.py,is_docstring,stmt,9,11
+maint\scripts\custom_fixers\fix_future_imports.py,start_tree,"self, tree, filename",18,19
+maint\scripts\custom_fixers\fix_future_imports.py,new_future_import,"self, old",21,29
+maint\scripts\custom_fixers\fix_future_imports.py,transform,"self, node, results",31,33
+maint\scripts\custom_fixers\fix_future_imports.py,finish_tree,"self, tree, filename",35,59
+maint\scripts\custom_fixers\fix_unicode_literal.py,transform,"self, node, results",17,19
+maint\test\appengine\common\cgi_runtests.py,all,,39,40
+maint\test\appengine\common\cgi_runtests.py,main,,42,51
+maint\test\cython\cythonapp_test.py,test_native_coroutine,self,9,12
+maint\test\cython\cythonapp_test.py,test_decorated_coroutine,self,14,17
+maint\test\cython\cythonapp_test.py,test_arg_replacer_function,self,21,27
+maint\test\cython\cythonapp_test.py,test_arg_replacer_method,self,29,35
+maint\test\cython\pythonmodule.py,hello,,3,6
+maint\test\redbot\red_test.py,get,self,15,16
+maint\test\redbot\red_test.py,get,"self, path",19,20
+maint\test\redbot\red_test.py,post,self,23,25
+maint\test\redbot\red_test.py,get,self,28,35
+maint\test\redbot\red_test.py,get,"self, computed_etag",38,39
+maint\test\redbot\red_test.py,compute_etag,self,41,42
+maint\test\redbot\red_test.py,get_handlers,self,45,51
+maint\test\redbot\red_test.py,get_app_kwargs,self,54,55
+maint\test\redbot\red_test.py,get_allowed_warnings,self,57,64
+maint\test\redbot\red_test.py,get_allowed_errors,self,67,68
+maint\test\redbot\red_test.py,check_url,"self, path, method='GET', body=None, headers=None, expected_status='200', allowed_warnings=None, allowed_errors=None",70,107
+maint\test\redbot\red_test.py,run_redbot,"self, url, method, body, headers",109,120
+maint\test\redbot\red_test.py,work,,112,115
+maint\test\redbot\red_test.py,test_hello,self,122,123
+maint\test\redbot\red_test.py,test_static,self,125,131
+maint\test\redbot\red_test.py,test_static_versioned_url,self,133,135
+maint\test\redbot\red_test.py,test_redirect,self,137,138
+maint\test\redbot\red_test.py,test_permanent_redirect,self,140,141
+maint\test\redbot\red_test.py,test_404,self,143,144
+maint\test\redbot\red_test.py,test_post,self,146,154
+maint\test\redbot\red_test.py,test_chunked,self,156,157
+maint\test\redbot\red_test.py,test_strong_etag_match,self,159,165
+maint\test\redbot\red_test.py,test_multiple_strong_etag_match,self,167,173
+maint\test\redbot\red_test.py,test_strong_etag_not_match,self,175,181
+maint\test\redbot\red_test.py,test_multiple_strong_etag_not_match,self,183,189
+maint\test\redbot\red_test.py,test_wildcard_etag,self,191,198
+maint\test\redbot\red_test.py,test_weak_etag_match,self,200,206
+maint\test\redbot\red_test.py,test_multiple_weak_etag_match,self,208,214
+maint\test\redbot\red_test.py,test_weak_etag_not_match,self,216,222
+maint\test\redbot\red_test.py,test_multiple_weak_etag_not_match,self,224,230
+maint\test\redbot\red_test.py,get_app,self,233,234
+maint\test\redbot\red_test.py,get_app,self,237,238
+maint\test\redbot\red_test.py,get_allowed_errors,self,240,247
+maint\test\websocket\client.py,run_tests,,13,36
+maint\test\websocket\client.py,main,,38,43
+maint\test\websocket\server.py,on_message,"self, message",11,12
+maint\test\websocket\server.py,get_compression_options,self,14,15
+maint\vm\windows\bootstrap.py,download_to_cache,"url, local_name=None",40,48
+maint\vm\windows\bootstrap.py,main,,50,68
+tornado\auth.py,_auth_future_to_callback,"callback, future",107,113
+tornado\auth.py,_auth_return_future,f,116,142
+tornado\auth.py,wrapper,"*args, **kwargs",125,141
+tornado\auth.py,handle_exception,"typ, value, tb",133,138
+tornado\auth.py,authenticate_redirect,"self, callback_uri=None, ax_attrs=['name', 'email', 'language', 'username'], callback=None",152,175
+tornado\auth.py,get_authenticated_user,"self, callback, http_client=None",177,197
+tornado\auth.py,_openid_args,"self, callback_uri, ax_attrs=[], oauth_scope=None",199,245
+tornado\auth.py,_on_authentication_verified,"self, future, response",247,305
+tornado\auth.py,get_ax_arg,uri,262,274
+tornado\auth.py,get_auth_http_client,self,307,313
+tornado\auth.py,authorize_redirect,"self, callback_uri=None, extra_params=None, http_client=None, callback=None",332,377
+tornado\auth.py,get_authenticated_user,"self, callback, http_client=None",379,411
+tornado\auth.py,_oauth_request_token_url,"self, callback_uri=None, extra_params=None",413,436
+tornado\auth.py,_on_request_token,"self, authorize_url, callback_uri, callback, response",438,455
+tornado\auth.py,_oauth_access_token_url,"self, request_token",457,479
+tornado\auth.py,_on_access_token,"self, future, response",481,488
+tornado\auth.py,_oauth_consumer_token,self,490,495
+tornado\auth.py,_oauth_get_user_future,"self, access_token, callback",497,515
+tornado\auth.py,_oauth_get_user,"self, access_token, callback",517,518
+tornado\auth.py,_on_oauth_get_user,"self, access_token, future, user_future",520,529
+tornado\auth.py,_oauth_request_parameters,"self, url, access_token, parameters={}, method='GET'",531,557
+tornado\auth.py,get_auth_http_client,self,559,565
+tornado\auth.py,authorize_redirect,"self, redirect_uri=None, client_id=None, client_secret=None, extra_params=None, callback=None, scope=None, response_type='code'",579,608
+tornado\auth.py,_oauth_request_token_url,"self, redirect_uri=None, client_id=None, client_secret=None, code=None, extra_params=None",610,622
+tornado\auth.py,oauth2_request,"self, url, callback, access_token=None, post_args=None, **args",624,670
+tornado\auth.py,_on_oauth2_request,"self, future, response",672,678
+tornado\auth.py,get_auth_http_client,self,680,688
+tornado\auth.py,authenticate_redirect,"self, callback_uri=None, callback=None",731,747
+tornado\auth.py,twitter_request,"self, path, callback=None, access_token=None, post_args=None, **args",749,813
+tornado\auth.py,_on_twitter_request,"self, future, response",815,821
+tornado\auth.py,_oauth_consumer_token,self,823,828
+tornado\auth.py,_oauth_get_user_future,"self, access_token",830,837
+tornado\auth.py,get_authenticated_user,"self, redirect_uri, code, callback",864,916
+tornado\auth.py,_on_access_token,"self, future, response",918,925
+tornado\auth.py,get_authenticated_user,"self, redirect_uri, client_id, client_secret, code, callback, extra_fields=None",935,980
+tornado\auth.py,_on_access_token,"self, redirect_uri, client_id, client_secret, future, fields, response",982,999
+tornado\auth.py,_on_get_user_info,"self, future, session, fields, user",1002,1012
+tornado\auth.py,facebook_request,"self, path, callback, access_token=None, post_args=None, **args",1014,1071
+tornado\auth.py,_oauth_signature,"consumer_token, method, url, parameters={}, token=None",1074,1095
+tornado\auth.py,_oauth10a_signature,"consumer_token, method, url, parameters={}, token=None",1098,1119
+tornado\auth.py,_oauth_escape,val,1122,1125
+tornado\auth.py,_oauth_parse_response,body,1128,1139
+tornado\autoreload.py,start,"io_loop=None, check_time='500'",118,135
+tornado\autoreload.py,wait,,138,147
+tornado\autoreload.py,watch,filename,150,155
+tornado\autoreload.py,add_reload_hook,fn,158,166
+tornado\autoreload.py,_reload_on_update,modify_times,169,192
+tornado\autoreload.py,_check_file,"modify_times, path",195,205
+tornado\autoreload.py,_reload,,208,250
+tornado\autoreload.py,main,,259,333
+tornado\concurrent.py,__init__,"self, exc_info",107,109
+tornado\concurrent.py,activate,self,111,115
+tornado\concurrent.py,clear,self,117,119
+tornado\concurrent.py,__del__,self,121,124
+tornado\concurrent.py,__init__,self,163,171
+tornado\concurrent.py,__await__,self,182,188
+tornado\concurrent.py,cancel,self,190,196
+tornado\concurrent.py,cancelled,self,198,204
+tornado\concurrent.py,running,self,206,208
+tornado\concurrent.py,done,self,210,212
+tornado\concurrent.py,_clear_tb_log,self,214,218
+tornado\concurrent.py,result,"self, timeout=None",220,234
+tornado\concurrent.py,exception,"self, timeout=None",236,249
+tornado\concurrent.py,add_done_callback,"self, fn",251,262
+tornado\concurrent.py,set_result,"self, result",264,271
+tornado\concurrent.py,set_exception,"self, exception",273,278
+tornado\concurrent.py,exc_info,self,280,286
+tornado\concurrent.py,set_exc_info,"self, exc_info",288,307
+tornado\concurrent.py,_check_done,self,309,311
+tornado\concurrent.py,_set_done,self,313,321
+tornado\concurrent.py,__del__,self,327,336
+tornado\concurrent.py,is_future,x,346,347
+tornado\concurrent.py,submit,"self, fn, *args, **kwargs",351,357
+tornado\concurrent.py,shutdown,"self, wait=True",359,360
+tornado\concurrent.py,run_on_executor,"*args, **kwargs",365,401
+tornado\concurrent.py,run_on_executor_decorator,fn,382,394
+tornado\concurrent.py,wrapper,"self, *args, **kwargs",386,393
+tornado\concurrent.py,return_future,f,407,490
+tornado\concurrent.py,wrapper,"*args, **kwargs",448,489
+tornado\concurrent.py,handle_error,"typ, value, tb",455,457
+tornado\concurrent.py,run_callback,future,482,487
+tornado\concurrent.py,chain_future,"a, b",493,510
+tornado\concurrent.py,copy,future,499,509
+tornado\curl_httpclient.py,initialize,"self, io_loop, max_clients='10', defaults=None",40,66
+tornado\curl_httpclient.py,close,self,68,75
+tornado\curl_httpclient.py,fetch_impl,"self, request, callback",77,80
+tornado\curl_httpclient.py,_handle_socket,"self, event, fd, multi, data",82,110
+tornado\curl_httpclient.py,_set_timeout,"self, msecs",112,117
+tornado\curl_httpclient.py,_handle_events,"self, fd, events",119,135
+tornado\curl_httpclient.py,_handle_timeout,self,137,166
+tornado\curl_httpclient.py,_handle_force_timeout,self,168,180
+tornado\curl_httpclient.py,_finish_pending_requests,self,182,194
+tornado\curl_httpclient.py,_process_queue,self,196,233
+tornado\curl_httpclient.py,_finish,"self, curl, curl_error=None, curl_message=None",235,271
+tornado\curl_httpclient.py,handle_callback_exception,"self, callback",273,274
+tornado\curl_httpclient.py,_curl_create,self,276,281
+tornado\curl_httpclient.py,_curl_setup_request,"self, curl, request, buffer, headers",283,462
+tornado\curl_httpclient.py,write_function,chunk,309,310
+tornado\curl_httpclient.py,ioctl,cmd,414,416
+tornado\curl_httpclient.py,_curl_header_callback,"self, headers, header_callback, header_line",464,480
+tornado\curl_httpclient.py,_curl_debug,"self, debug_type, debug_msg",482,490
+tornado\curl_httpclient.py,__init__,"self, errno, message",494,496
+tornado\escape.py,xhtml_escape,value,57,69
+tornado\escape.py,xhtml_unescape,value,72,74
+tornado\escape.py,json_encode,value,80,88
+tornado\escape.py,json_decode,value,91,93
+tornado\escape.py,squeeze,value,96,98
+tornado\escape.py,url_escape,"value, plus=True",101,113
+tornado\escape.py,url_unescape,"value, encoding='utf-8', plus=True",120,141
+tornado\escape.py,url_unescape,"value, encoding='utf-8', plus=True",145,170
+tornado\escape.py,parse_qs_bytes,"qs, keep_blank_values=False, strict_parsing=False",172,187
+tornado\escape.py,utf8,value,193,205
+tornado\escape.py,to_unicode,value,210,222
+tornado\escape.py,to_basestring,value,238,253
+tornado\escape.py,recursive_unicode,obj,256,270
+tornado\escape.py,linkify,"text, shorten=False, extra_params='', require_protocol=False, permitted_protocols=['http', 'https']",282,375
+tornado\escape.py,make_link,m,316,369
+tornado\escape.py,_convert_entity,m,378,390
+tornado\escape.py,_build_unicode_map,,393,397
+tornado\gen.py,isawaitable,x,124,125
+tornado\gen.py,_value_from_stopiteration,e,157,169
+tornado\gen.py,engine,func,172,204
+tornado\gen.py,wrapper,"*args, **kwargs",191,203
+tornado\gen.py,final_callback,future,195,199
+tornado\gen.py,coroutine,"func, replace_callback=True",207,242
+tornado\gen.py,_make_coroutine_wrapper,"func, replace_callback",245,309
+tornado\gen.py,wrapper,"*args, **kwargs",257,308
+tornado\gen.py,__init__,"self, value=None",332,336
+tornado\gen.py,__init__,"self, *args, **kwargs",392,409
+tornado\gen.py,done,self,411,417
+tornado\gen.py,next,self,419,430
+tornado\gen.py,_done_callback,"self, done",432,436
+tornado\gen.py,_return_result,"self, done",438,445
+tornado\gen.py,__aiter__,self,447,449
+tornado\gen.py,__anext__,self,451,455
+tornado\gen.py,start,"self, runner",464,469
+tornado\gen.py,is_ready,self,471,476
+tornado\gen.py,get_result,self,478,484
+tornado\gen.py,__init__,"self, key",502,503
+tornado\gen.py,start,"self, runner",505,507
+tornado\gen.py,is_ready,self,509,510
+tornado\gen.py,get_result,self,512,513
+tornado\gen.py,__init__,"self, key",522,523
+tornado\gen.py,start,"self, runner",525,526
+tornado\gen.py,is_ready,self,528,529
+tornado\gen.py,get_result,self,531,532
+tornado\gen.py,__init__,"self, keys",546,547
+tornado\gen.py,start,"self, runner",549,550
+tornado\gen.py,is_ready,self,552,553
+tornado\gen.py,get_result,self,555,556
+tornado\gen.py,Task,"func, *args, **kwargs",559,585
+tornado\gen.py,handle_exception,"typ, value, tb",573,577
+tornado\gen.py,set_result,result,579,582
+tornado\gen.py,__init__,"self, future, io_loop=None",589,596
+tornado\gen.py,start,"self, runner",598,606
+tornado\gen.py,is_ready,self,608,612
+tornado\gen.py,get_result,self,614,618
+tornado\gen.py,_contains_yieldpoint,children,621,631
+tornado\gen.py,multi,"children, quiet_exceptions=()",634,683
+tornado\gen.py,__init__,"self, children, quiet_exceptions=()",707,721
+tornado\gen.py,start,"self, runner",723,725
+tornado\gen.py,is_ready,self,727,731
+tornado\gen.py,get_result,self,733,751
+tornado\gen.py,multi_future,"children, quiet_exceptions=()",754,808
+tornado\gen.py,callback,f,783,801
+tornado\gen.py,maybe_future,x,811,829
+tornado\gen.py,with_timeout,"timeout, future, io_loop=None, quiet_exceptions=()",832,890
+tornado\gen.py,error_callback,future,865,871
+tornado\gen.py,timeout_callback,,873,876
+tornado\gen.py,sleep,duration,893,909
+tornado\gen.py,__init__,"self, gen, result_future, first_yielded",938,956
+tornado\gen.py,register_callback,"self, key",958,966
+tornado\gen.py,is_ready,"self, key",968,972
+tornado\gen.py,set_result,"self, key, result",974,983
+tornado\gen.py,pop_result,"self, key",985,988
+tornado\gen.py,run,self,990,1049
+tornado\gen.py,handle_yield,"self, yielded",1051,1099
+tornado\gen.py,start_yield_point,,1062,1072
+tornado\gen.py,cb,,1081,1083
+tornado\gen.py,result_callback,"self, key",1101,1103
+tornado\gen.py,handle_exception,"self, typ, value, tb",1105,1112
+tornado\gen.py,_deactivate_stack_context,self,1114,1117
+tornado\gen.py,_argument_adapter,callback,1122,1136
+tornado\gen.py,wrapper,"*args, **kwargs",1129,1135
+tornado\gen.py,_wrap_awaitable,x,1154,1197
+tornado\gen.py,convert_yielded,yielded,1200,1222
+tornado\http1connection.py,__init__,self,37,38
+tornado\http1connection.py,__init__,"self, logger",46,47
+tornado\http1connection.py,__enter__,self,49,50
+tornado\http1connection.py,__exit__,"self, typ, value, tb",52,55
+tornado\http1connection.py,__init__,"self, no_keep_alive=False, chunk_size=None, max_header_size=None, header_timeout=None, max_body_size=None, body_timeout=None, decompress=False",61,81
+tornado\http1connection.py,__init__,"self, stream, is_client, params=None, context=None",90,136
+tornado\http1connection.py,read_response,"self, delegate",138,151
+tornado\http1connection.py,_read_message,"self, delegate",153,261
+tornado\http1connection.py,_clear_callbacks,self,263,273
+tornado\http1connection.py,set_close_callback,"self, callback",275,281
+tornado\http1connection.py,_on_connection_close,self,283,293
+tornado\http1connection.py,close,self,295,300
+tornado\http1connection.py,detach,self,302,315
+tornado\http1connection.py,set_body_timeout,"self, timeout",317,322
+tornado\http1connection.py,set_max_body_size,"self, max_body_size",324,329
+tornado\http1connection.py,write_headers,"self, start_line, headers, chunk=None, callback=None",331,394
+tornado\http1connection.py,_format_chunk,"self, chunk",396,409
+tornado\http1connection.py,write,"self, chunk, callback=None",411,430
+tornado\http1connection.py,finish,self,432,459
+tornado\http1connection.py,_on_write_complete,"self, future",461,472
+tornado\http1connection.py,_can_keep_alive,"self, start_line, headers",474,486
+tornado\http1connection.py,_finish_request,"self, future",488,497
+tornado\http1connection.py,_parse_headers,"self, data",499,514
+tornado\http1connection.py,_read_body,"self, code, headers, delegate",516,557
+tornado\http1connection.py,_read_fixed_body,"self, content_length, delegate",559,569
+tornado\http1connection.py,_read_chunked_body,"self, delegate",571,595
+tornado\http1connection.py,_read_body_until_close,"self, delegate",597,602
+tornado\http1connection.py,__init__,"self, delegate, chunk_size",608,611
+tornado\http1connection.py,headers_received,"self, start_line, headers",613,622
+tornado\http1connection.py,data_received,"self, chunk",624,639
+tornado\http1connection.py,finish,self,641,651
+tornado\http1connection.py,on_connection_close,self,653,654
+tornado\http1connection.py,__init__,"self, stream, params=None, context=None",659,671
+tornado\http1connection.py,close,self,673,685
+tornado\http1connection.py,start_serving,"self, delegate",687,696
+tornado\http1connection.py,_server_request_loop,"self, delegate",698,722
+tornado\httpclient.py,__init__,"self, async_client_class=None, **kwargs",74,79
+tornado\httpclient.py,__del__,self,81,82
+tornado\httpclient.py,close,self,84,89
+tornado\httpclient.py,fetch,"self, request, **kwargs",91,103
+tornado\httpclient.py,configurable_base,cls,143,145
+tornado\httpclient.py,configurable_default,cls,147,150
+tornado\httpclient.py,_async_clients,cls,152,157
+tornado\httpclient.py,__new__,"cls, io_loop=None, force_instance=False, **kwargs",159,176
+tornado\httpclient.py,initialize,"self, io_loop, defaults=None",178,183
+tornado\httpclient.py,close,self,185,204
+tornado\httpclient.py,fetch,"self, request, callback=None, raise_error=True, **kwargs",206,258
+tornado\httpclient.py,handle_future,future,239,249
+tornado\httpclient.py,handle_response,response,252,256
+tornado\httpclient.py,fetch_impl,"self, request, callback",260,261
+tornado\httpclient.py,configure,"cls, impl, **kwargs",263,283
+tornado\httpclient.py,__init__,"self, url, method='GET', headers=None, body=None, auth_username=None, auth_password=None, auth_mode=None, connect_timeout=None, request_timeout=None, if_modified_since=None, follow_redirects=None, max_redirects=None, user_agent=None, use_gzip=None, network_interface=None, streaming_callback=None, header_callback=None, prepare_curl_callback=None, proxy_host=None, proxy_port=None, proxy_username=None, proxy_password=None, allow_nonstandard_methods=None, validate_cert=None, ca_certs=None, allow_ipv6=None, client_key=None, client_cert=None, body_producer=None, expect_100_continue=False, decompress_response=None, ssl_options=None",302,458
+tornado\httpclient.py,headers,self,460,462
+tornado\httpclient.py,headers,"self, value",464,469
+tornado\httpclient.py,body,self,471,473
+tornado\httpclient.py,body,"self, value",475,477
+tornado\httpclient.py,body_producer,self,479,481
+tornado\httpclient.py,body_producer,"self, value",483,485
+tornado\httpclient.py,streaming_callback,self,487,489
+tornado\httpclient.py,streaming_callback,"self, value",491,493
+tornado\httpclient.py,header_callback,self,495,497
+tornado\httpclient.py,header_callback,"self, value",499,501
+tornado\httpclient.py,prepare_curl_callback,self,503,505
+tornado\httpclient.py,prepare_curl_callback,"self, value",507,509
+tornado\httpclient.py,__init__,"self, request, code, headers=None, buffer=None, effective_url=None, error=None, request_time=None, time_info=None, reason=None",542,570
+tornado\httpclient.py,_get_body,self,572,578
+tornado\httpclient.py,rethrow,self,582,585
+tornado\httpclient.py,__repr__,self,587,589
+tornado\httpclient.py,__init__,"self, code, message=None, response=None",606,610
+tornado\httpclient.py,__str__,self,612,613
+tornado\httpclient.py,__init__,"self, request, defaults",621,623
+tornado\httpclient.py,__getattr__,"self, name",625,632
+tornado\httpclient.py,main,,635,658
+tornado\httpserver.py,__init__,"self, *args, **kwargs",128,134
+tornado\httpserver.py,initialize,"self, request_callback, no_keep_alive=False, io_loop=None, xheaders=False, ssl_options=None, protocol=None, decompress_request=False, chunk_size=None, max_header_size=None, idle_connection_timeout=None, body_timeout=None, max_body_size=None, max_buffer_size=None",136,156
+tornado\httpserver.py,configurable_base,cls,158,160
+tornado\httpserver.py,configurable_default,cls,162,164
+tornado\httpserver.py,close_all_connections,self,166,171
+tornado\httpserver.py,handle_stream,"self, stream, address",173,179
+tornado\httpserver.py,start_request,"self, server_conn, request_conn",181,182
+tornado\httpserver.py,on_close,"self, server_conn",184,185
+tornado\httpserver.py,__init__,"self, stream, address, protocol",189,212
+tornado\httpserver.py,__str__,self,214,223
+tornado\httpserver.py,_apply_xheaders,"self, headers",225,238
+tornado\httpserver.py,_unapply_xheaders,self,240,247
+tornado\httpserver.py,__init__,"self, server, server_conn, request_conn",254,265
+tornado\httpserver.py,headers_received,"self, start_line, headers",267,275
+tornado\httpserver.py,data_received,"self, chunk",277,281
+tornado\httpserver.py,finish,self,283,290
+tornado\httpserver.py,on_connection_close,self,292,297
+tornado\httpserver.py,_cleanup,self,299,301
+tornado\httputil.py,__init__,"self, size",81,84
+tornado\httputil.py,__missing__,"self, key",86,96
+tornado\httputil.py,__init__,"self, *args, **kwargs",129,140
+tornado\httputil.py,add,"self, name, value",144,153
+tornado\httputil.py,get_list,"self, name",155,158
+tornado\httputil.py,get_all,self,160,168
+tornado\httputil.py,parse_line,"self, line",170,185
+tornado\httputil.py,parse,"cls, headers",187,199
+tornado\httputil.py,__setitem__,"self, name, value",203,206
+tornado\httputil.py,__getitem__,"self, name",208,209
+tornado\httputil.py,__delitem__,"self, name",211,214
+tornado\httputil.py,__len__,self,216,217
+tornado\httputil.py,__iter__,self,219,220
+tornado\httputil.py,copy,self,222,224
+tornado\httputil.py,__init__,"self, method=None, uri=None, version='HTTP/1.0', headers=None, body=None, host=None, files=None, connection=None, start_line=None",324,349
+tornado\httputil.py,supports_http_1_1,self,351,359
+tornado\httputil.py,cookies,self,361,372
+tornado\httputil.py,write,"self, chunk, callback=None",374,384
+tornado\httputil.py,finish,self,386,394
+tornado\httputil.py,full_url,self,396,398
+tornado\httputil.py,request_time,self,400,405
+tornado\httputil.py,get_ssl_certificate,"self, binary_form=False",407,430
+tornado\httputil.py,_parse_body,self,432,439
+tornado\httputil.py,__repr__,self,441,445
+tornado\httputil.py,start_request,"self, server_conn, request_conn",470,480
+tornado\httputil.py,on_close,"self, server_conn",482,488
+tornado\httputil.py,headers_received,"self, start_line, headers",496,509
+tornado\httputil.py,data_received,"self, chunk",511,516
+tornado\httputil.py,finish,self,518,520
+tornado\httputil.py,on_connection_close,self,522,528
+tornado\httputil.py,write_headers,"self, start_line, headers, chunk=None, callback=None",536,550
+tornado\httputil.py,write,"self, chunk, callback=None",552,558
+tornado\httputil.py,finish,self,560,563
+tornado\httputil.py,url_concat,"url, args",566,584
+tornado\httputil.py,_parse_request_range,range_header,600,646
+tornado\httputil.py,_get_content_range,"start, end, total",649,661
+tornado\httputil.py,_int_or_none,val,664,668
+tornado\httputil.py,parse_body_arguments,"content_type, body, arguments, files, headers=None",671,704
+tornado\httputil.py,parse_multipart_form_data,"boundary, data, arguments, files",707,750
+tornado\httputil.py,format_timestamp,ts,753,771
+tornado\httputil.py,parse_request_start_line,line,778,793
+tornado\httputil.py,parse_response_start_line,line,800,813
+tornado\httputil.py,_parseparam,s,822,832
+tornado\httputil.py,_parse_header,line,835,855
+tornado\httputil.py,_encode_header,"key, pdict",858,875
+tornado\httputil.py,doctests,,878,880
+tornado\httputil.py,split_host_and_port,netloc,883,897
+tornado\ioloop.py,instance,,148,162
+tornado\ioloop.py,initialized,,164,167
+tornado\ioloop.py,install,self,169,177
+tornado\ioloop.py,clear_instance,,179,186
+tornado\ioloop.py,current,instance=True,188,210
+tornado\ioloop.py,make_current,self,212,225
+tornado\ioloop.py,clear_current,,227,229
+tornado\ioloop.py,configurable_base,cls,231,233
+tornado\ioloop.py,configurable_default,cls,235,245
+tornado\ioloop.py,initialize,"self, make_current=None",247,254
+tornado\ioloop.py,close,"self, all_fds=False",256,281
+tornado\ioloop.py,add_handler,"self, fd, handler, events",283,300
+tornado\ioloop.py,update_handler,"self, fd, events",302,309
+tornado\ioloop.py,remove_handler,"self, fd",311,318
+tornado\ioloop.py,set_blocking_signal_threshold,"self, seconds, action",320,332
+tornado\ioloop.py,set_blocking_log_threshold,"self, seconds",334,341
+tornado\ioloop.py,log_stack,"self, signal, frame",343,350
+tornado\ioloop.py,start,self,352,358
+tornado\ioloop.py,_setup_logging,self,360,374
+tornado\ioloop.py,stop,self,376,398
+tornado\ioloop.py,run_sync,"self, func, timeout=None",400,453
+tornado\ioloop.py,run,,429,444
+tornado\ioloop.py,time,self,455,468
+tornado\ioloop.py,add_timeout,"self, deadline, callback, *args, **kwargs",470,502
+tornado\ioloop.py,call_later,"self, delay, callback, *args, **kwargs",504,515
+tornado\ioloop.py,call_at,"self, when, callback, *args, **kwargs",517,531
+tornado\ioloop.py,remove_timeout,"self, timeout",533,540
+tornado\ioloop.py,add_callback,"self, callback, *args, **kwargs",542,555
+tornado\ioloop.py,add_callback_from_signal,"self, callback, *args, **kwargs",557,567
+tornado\ioloop.py,spawn_callback,"self, callback, *args, **kwargs",569,580
+tornado\ioloop.py,add_future,"self, future, callback",582,592
+tornado\ioloop.py,_run_callback,"self, callback",594,617
+tornado\ioloop.py,handle_callback_exception,"self, callback",619,629
+tornado\ioloop.py,split_fd,"self, fd",631,650
+tornado\ioloop.py,close_fd,"self, fd",652,670
+tornado\ioloop.py,initialize,"self, impl, time_func=None, **kwargs",680,704
+tornado\ioloop.py,close,"self, all_fds=False",706,716
+tornado\ioloop.py,add_handler,"self, fd, handler, events",718,721
+tornado\ioloop.py,update_handler,"self, fd, events",723,725
+tornado\ioloop.py,remove_handler,"self, fd",727,734
+tornado\ioloop.py,set_blocking_signal_threshold,"self, seconds, action",736,744
+tornado\ioloop.py,start,self,746,901
+tornado\ioloop.py,stop,self,903,906
+tornado\ioloop.py,time,self,908,909
+tornado\ioloop.py,call_at,"self, deadline, callback, *args, **kwargs",911,917
+tornado\ioloop.py,remove_timeout,"self, timeout",919,926
+tornado\ioloop.py,add_callback,"self, callback, *args, **kwargs",928,958
+tornado\ioloop.py,add_callback_from_signal,"self, callback, *args, **kwargs",960,962
+tornado\ioloop.py,__init__,"self, deadline, callback, io_loop",971,976
+tornado\ioloop.py,__lt__,"self, other",982,984
+tornado\ioloop.py,__le__,"self, other",986,988
+tornado\ioloop.py,__init__,"self, callback, callback_time, io_loop=None",1006,1013
+tornado\ioloop.py,start,self,1015,1019
+tornado\ioloop.py,stop,self,1021,1026
+tornado\ioloop.py,is_running,self,1028,1033
+tornado\ioloop.py,_run,self,1035,1043
+tornado\ioloop.py,_schedule_next,self,1045,1053
+tornado\iostream.py,__init__,"self, real_error=None",99,101
+tornado\iostream.py,__init__,"self, io_loop=None, max_buffer_size=None, read_chunk_size=None, max_write_buffer_size=None",136,188
+tornado\iostream.py,fileno,self,190,192
+tornado\iostream.py,close_fd,self,194,200
+tornado\iostream.py,write_to_fd,"self, data",202,207
+tornado\iostream.py,read_from_fd,self,209,217
+tornado\iostream.py,get_fd_error,self,219,227
+tornado\iostream.py,read_until_regex,"self, regex, callback=None, max_bytes=None",229,261
+tornado\iostream.py,read_until,"self, delimiter, callback=None, max_bytes=None",263,292
+tornado\iostream.py,read_bytes,"self, num_bytes, callback=None, streaming_callback=None, partial=False",294,322
+tornado\iostream.py,read_until_close,"self, callback=None, streaming_callback=None",324,358
+tornado\iostream.py,write,"self, data, callback=None",360,402
+tornado\iostream.py,set_close_callback,"self, callback",404,412
+tornado\iostream.py,close,"self, exc_info=False",414,438
+tornado\iostream.py,_maybe_run_close_callback,self,440,468
+tornado\iostream.py,reading,self,470,472
+tornado\iostream.py,writing,self,474,476
+tornado\iostream.py,closed,self,478,480
+tornado\iostream.py,set_nodelay,"self, value",482,495
+tornado\iostream.py,_handle_events,"self, fd, events",497,548
+tornado\iostream.py,_run_callback,"self, callback, *args",550,583
+tornado\iostream.py,wrapper,,551,567
+tornado\iostream.py,_read_to_buffer_loop,self,585,643
+tornado\iostream.py,_handle_read,self,645,658
+tornado\iostream.py,_set_read_callback,"self, callback",660,667
+tornado\iostream.py,_run_read_callback,"self, size, streaming",669,686
+tornado\iostream.py,_try_inline_read,self,688,719
+tornado\iostream.py,_read_to_buffer,self,721,752
+tornado\iostream.py,_run_streaming_callback,self,754,760
+tornado\iostream.py,_read_from_buffer,"self, pos",762,770
+tornado\iostream.py,_find_read_pos,self,772,818
+tornado\iostream.py,_check_max_bytes,"self, delimiter, size",820,825
+tornado\iostream.py,_handle_write,self,827,874
+tornado\iostream.py,_consume,"self, loc",876,881
+tornado\iostream.py,_check_closed,self,883,885
+tornado\iostream.py,_maybe_add_error_listener,self,887,901
+tornado\iostream.py,_add_io_state,"self, state",903,934
+tornado\iostream.py,_is_connreset,"self, exc",936,942
+tornado\iostream.py,__init__,"self, socket, *args, **kwargs",993,996
+tornado\iostream.py,fileno,self,998,999
+tornado\iostream.py,close_fd,self,1001,1003
+tornado\iostream.py,get_fd_error,self,1005,1008
+tornado\iostream.py,read_from_fd,self,1010,1021
+tornado\iostream.py,write_to_fd,"self, data",1023,1024
+tornado\iostream.py,connect,"self, address, callback=None, server_hostname=None",1026,1089
+tornado\iostream.py,start_tls,"self, server_side, ssl_options=None, server_hostname=None",1091,1174
+tornado\iostream.py,close_callback,,1156,1169
+tornado\iostream.py,_handle_connect,self,1176,1197
+tornado\iostream.py,set_nodelay,"self, value",1199,1210
+tornado\iostream.py,__init__,"self, *args, **kwargs",1224,1246
+tornado\iostream.py,reading,self,1248,1249
+tornado\iostream.py,writing,self,1251,1252
+tornado\iostream.py,_do_ssl_handshake,self,1254,1298
+tornado\iostream.py,_run_ssl_connect_callback,self,1300,1308
+tornado\iostream.py,_verify_cert,"self, peercert",1310,1335
+tornado\iostream.py,_handle_read,self,1337,1341
+tornado\iostream.py,_handle_write,self,1343,1347
+tornado\iostream.py,connect,"self, address, callback=None, server_hostname=None",1349,1354
+tornado\iostream.py,_handle_connect,self,1356,1377
+tornado\iostream.py,wait_for_handshake,"self, callback=None",1379,1408
+tornado\iostream.py,write_to_fd,"self, data",1410,1422
+tornado\iostream.py,read_from_fd,self,1424,1452
+tornado\iostream.py,_is_connreset,"self, e",1454,1457
+tornado\iostream.py,__init__,"self, fd, *args, **kwargs",1468,1471
+tornado\iostream.py,fileno,self,1473,1474
+tornado\iostream.py,close_fd,self,1476,1477
+tornado\iostream.py,write_to_fd,"self, data",1479,1480
+tornado\iostream.py,read_from_fd,self,1482,1498
+tornado\iostream.py,_double_prefix,deque,1501,1507
+tornado\iostream.py,_merge_prefix,"deque, size",1510,1545
+tornado\iostream.py,doctests,,1548,1550
+tornado\locale.py,get,*locale_codes,64,75
+tornado\locale.py,set_default_locale,code,78,89
+tornado\locale.py,load_translations,"directory, encoding=None",92,179
+tornado\locale.py,load_gettext_translations,"directory, domain",182,222
+tornado\locale.py,get_supported_locales,,225,227
+tornado\locale.py,get_closest,"cls, *locale_codes",236,252
+tornado\locale.py,get,"cls, code",254,272
+tornado\locale.py,__init__,"self, code, translations",274,292
+tornado\locale.py,translate,"self, message, plural_message=None, count=None",294,302
+tornado\locale.py,pgettext,"self, context, message, plural_message=None, count=None",304,305
+tornado\locale.py,format_date,"self, date, gmt_offset='0', relative=True, shorter=False, full_format=False",307,390
+tornado\locale.py,format_day,"self, date, gmt_offset='0', dow=True",393,410
+tornado\locale.py,list,"self, parts",413,427
+tornado\locale.py,friendly_number,"self, value",430,439
+tornado\locale.py,translate,"self, message, plural_message=None, count=None",444,454
+tornado\locale.py,pgettext,"self, context, message, plural_message=None, count=None",456,459
+tornado\locale.py,__init__,"self, code, translations",464,475
+tornado\locale.py,translate,"self, message, plural_message=None, count=None",477,482
+tornado\locale.py,pgettext,"self, context, message, plural_message=None, count=None",484,520
+tornado\locks.py,__init__,self,34,36
+tornado\locks.py,_garbage_collect,self,38,44
+tornado\locks.py,__init__,self,106,108
+tornado\locks.py,__repr__,self,110,114
+tornado\locks.py,wait,"self, timeout=None",116,132
+tornado\locks.py,on_timeout,,125,127
+tornado\locks.py,notify,"self, n='1'",134,144
+tornado\locks.py,notify_all,self,146,148
+tornado\locks.py,__init__,self,193,194
+tornado\locks.py,__repr__,self,196,198
+tornado\locks.py,is_set,self,200,202
+tornado\locks.py,set,self,204,210
+tornado\locks.py,clear,self,212,218
+tornado\locks.py,wait,"self, timeout=None",220,229
+tornado\locks.py,__init__,"self, obj",240,241
+tornado\locks.py,__enter__,self,243,244
+tornado\locks.py,__exit__,"self, exc_type, exc_val, exc_tb",246,247
+tornado\locks.py,__init__,"self, value='1'",345,350
+tornado\locks.py,__repr__,self,352,358
+tornado\locks.py,release,self,360,375
+tornado\locks.py,acquire,"self, timeout=None",377,397
+tornado\locks.py,on_timeout,,390,392
+tornado\locks.py,__enter__,self,399,401
+tornado\locks.py,__aenter__,self,406,408
+tornado\locks.py,__aexit__,"self, typ, value, tb",410,412
+tornado\locks.py,__init__,"self, value='1'",423,425
+tornado\locks.py,release,self,427,431
+tornado\locks.py,__init__,self,472,473
+tornado\locks.py,__repr__,self,475,478
+tornado\locks.py,acquire,"self, timeout=None",480,486
+tornado\locks.py,release,self,488,498
+tornado\locks.py,__enter__,self,500,502
+tornado\locks.py,__aenter__,self,506,508
+tornado\locks.py,__aexit__,"self, typ, value, tb",510,512
+tornado\log.py,_stderr_supports_color,,51,60
+tornado\log.py,_safe_unicode,s,63,67
+tornado\log.py,__init__,"self, color=True, fmt=DEFAULT_FORMAT, datefmt=DEFAULT_DATE_FORMAT, colors=DEFAULT_COLORS",92,130
+tornado\log.py,format,"self, record",132,176
+tornado\log.py,enable_pretty_logging,"options=None, logger=None",179,217
+tornado\log.py,define_logging_options,options=None,220,259
+tornado\netutil.py,bind_sockets,"port, address=None, family=socket.AF_UNSPEC, backlog=_DEFAULT_BACKLOG, flags=None, reuse_port=False",113,200
+tornado\netutil.py,bind_unix_socket,"file, mode='384', backlog=_DEFAULT_BACKLOG",203,230
+tornado\netutil.py,add_accept_handler,"sock, callback, io_loop=None",233,275
+tornado\netutil.py,accept_handler,"fd, events",248,274
+tornado\netutil.py,is_valid_ip,ip,278,296
+tornado\netutil.py,configurable_base,cls,317,319
+tornado\netutil.py,configurable_default,cls,321,323
+tornado\netutil.py,resolve,"self, host, port, family=socket.AF_UNSPEC, callback=None",325,338
+tornado\netutil.py,close,self,340,346
+tornado\netutil.py,initialize,"self, io_loop=None, executor=None, close_executor=True",362,369
+tornado\netutil.py,close,self,371,374
+tornado\netutil.py,resolve,"self, host, port, family=socket.AF_UNSPEC",376,387
+tornado\netutil.py,initialize,"self, io_loop=None",396,397
+tornado\netutil.py,initialize,"self, io_loop=None, num_threads='10'",419,422
+tornado\netutil.py,_create_threadpool,"cls, num_threads",424,435
+tornado\netutil.py,initialize,"self, resolver, mapping",446,448
+tornado\netutil.py,close,self,450,451
+tornado\netutil.py,resolve,"self, host, port, *args, **kwargs",453,458
+tornado\netutil.py,ssl_options_to_context,ssl_options,468,498
+tornado\netutil.py,ssl_wrap_socket,"socket, ssl_options, server_hostname=None, **kwargs",501,521
+tornado\options.py,__init__,self,111,116
+tornado\options.py,_normalize_name,"self, name",118,119
+tornado\options.py,__getattr__,"self, name",121,125
+tornado\options.py,__setattr__,"self, name, value",127,131
+tornado\options.py,__iter__,self,133,134
+tornado\options.py,__contains__,"self, name",136,138
+tornado\options.py,__getitem__,"self, name",140,141
+tornado\options.py,__setitem__,"self, name, value",143,144
+tornado\options.py,items,self,146,151
+tornado\options.py,groups,self,153,158
+tornado\options.py,group_dict,"self, group",160,179
+tornado\options.py,as_dict,self,181,187
+tornado\options.py,define,"self, name, default=None, type=None, help=None, metavar=None, multiple=False, group=None, callback=None",189,256
+tornado\options.py,parse_command_line,"self, args=None, final=True",258,299
+tornado\options.py,parse_config_file,"self, path, final=True",301,321
+tornado\options.py,print_help,"self, file=None",323,351
+tornado\options.py,_help_callback,"self, value",353,356
+tornado\options.py,add_parse_callback,"self, callback",358,360
+tornado\options.py,run_parse_callbacks,self,362,364
+tornado\options.py,mockable,self,366,381
+tornado\options.py,__init__,"self, options",396,399
+tornado\options.py,__getattr__,"self, name",401,402
+tornado\options.py,__setattr__,"self, name, value",404,407
+tornado\options.py,__delattr__,"self, name",409,410
+tornado\options.py,__init__,"self, name, default=None, type=basestring_type, help=None, metavar=None, multiple=False, file_name=None, group_name=None, callback=None",416,430
+tornado\options.py,value,self,432,433
+tornado\options.py,parse,"self, value",435,457
+tornado\options.py,set,"self, value",459,474
+tornado\options.py,_parse_datetime,"self, value",490,496
+tornado\options.py,_parse_timedelta,"self, value",515,530
+tornado\options.py,_parse_bool,"self, value",532,533
+tornado\options.py,_parse_string,"self, value",535,536
+tornado\options.py,define,"name, default=None, type=None, help=None, metavar=None, multiple=False, group=None, callback=None",546,554
+tornado\options.py,parse_command_line,"args=None, final=True",557,562
+tornado\options.py,parse_config_file,"path, final=True",565,570
+tornado\options.py,print_help,file=None,573,578
+tornado\options.py,add_parse_callback,callback,581,586
+tornado\process.py,cpu_count,,63,76
+tornado\process.py,_reseed_random,,79,90
+tornado\process.py,_pipe_cloexec,,93,97
+tornado\process.py,fork_processes,"num_processes, max_restarts='100'",103,184
+tornado\process.py,start_child,i,139,149
+tornado\process.py,task_id,,187,193
+tornado\process.py,__init__,"self, *args, **kwargs",215,251
+tornado\process.py,set_exit_callback,"self, callback",253,271
+tornado\process.py,wait_for_exit,"self, raise_error=True",273,298
+tornado\process.py,callback,ret,291,296
+tornado\process.py,initialize,"cls, io_loop=None",300,319
+tornado\process.py,uninitialize,cls,321,327
+tornado\process.py,_cleanup,cls,329,332
+tornado\process.py,_try_cleanup_process,"cls, pid",334,346
+tornado\process.py,_set_returncode,"self, status",348,357
+tornado\queues.py,_set_timeout,"future, timeout",37,44
+tornado\queues.py,on_timeout,,39,40
+tornado\queues.py,__init__,"self, q",48,49
+tornado\queues.py,__anext__,self,51,52
+tornado\queues.py,__init__,"self, maxsize='0'",123,136
+tornado\queues.py,maxsize,self,138,141
+tornado\queues.py,qsize,self,143,145
+tornado\queues.py,empty,self,147,148
+tornado\queues.py,full,self,150,154
+tornado\queues.py,put,"self, item, timeout=None",156,170
+tornado\queues.py,put_nowait,"self, item",172,186
+tornado\queues.py,get,"self, timeout=None",188,200
+tornado\queues.py,get_nowait,self,202,218
+tornado\queues.py,task_done,self,220,236
+tornado\queues.py,join,"self, timeout=None",238,244
+tornado\queues.py,__aiter__,self,246,248
+tornado\queues.py,_init,self,251,252
+tornado\queues.py,_get,self,254,255
+tornado\queues.py,_put,"self, item",257,258
+tornado\queues.py,__put_internal,"self, item",261,264
+tornado\queues.py,_consume_expired,self,266,272
+tornado\queues.py,__repr__,self,274,276
+tornado\queues.py,__str__,self,278,279
+tornado\queues.py,_format,self,281,291
+tornado\queues.py,_init,self,318,319
+tornado\queues.py,_put,"self, item",321,322
+tornado\queues.py,_get,self,324,325
+tornado\queues.py,_init,self,350,351
+tornado\queues.py,_put,"self, item",353,354
+tornado\queues.py,_get,self,356,357
+tornado\simple_httpclient.py,_default_ca_certs,,42,46
+tornado\simple_httpclient.py,initialize,"self, io_loop, max_clients='10', hostname_mapping=None, max_buffer_size='104857600', resolver=None, defaults=None, max_header_size=None, max_body_size=None",58,114
+tornado\simple_httpclient.py,close,self,116,120
+tornado\simple_httpclient.py,fetch_impl,"self, request, callback",122,137
+tornado\simple_httpclient.py,_process_queue,self,139,148
+tornado\simple_httpclient.py,_connection_class,self,150,151
+tornado\simple_httpclient.py,_handle_request,"self, request, release_callback, final_callback",153,157
+tornado\simple_httpclient.py,_release_fetch,"self, key",159,161
+tornado\simple_httpclient.py,_remove_timeout,"self, key",163,168
+tornado\simple_httpclient.py,_on_timeout,"self, key",170,177
+tornado\simple_httpclient.py,__init__,"self, io_loop, client, request, release_callback, final_callback, max_buffer_size, tcp_client, max_header_size, max_body_size",183,236
+tornado\simple_httpclient.py,_get_ssl_options,"self, scheme",238,285
+tornado\simple_httpclient.py,_on_timeout,self,287,290
+tornado\simple_httpclient.py,_remove_timeout,self,292,295
+tornado\simple_httpclient.py,_on_connect,"self, stream",297,375
+tornado\simple_httpclient.py,_create_connection,"self, stream",377,387
+tornado\simple_httpclient.py,_write_body,"self, start_read",389,406
+tornado\simple_httpclient.py,on_body_written,fut,397,401
+tornado\simple_httpclient.py,_read_response,self,408,413
+tornado\simple_httpclient.py,_release,self,415,419
+tornado\simple_httpclient.py,_run_callback,"self, response",421,426
+tornado\simple_httpclient.py,_handle_exception,"self, typ, value, tb",428,451
+tornado\simple_httpclient.py,on_connection_close,self,453,461
+tornado\simple_httpclient.py,headers_received,"self, first_line, headers",463,479
+tornado\simple_httpclient.py,_should_follow_redirect,self,481,484
+tornado\simple_httpclient.py,finish,self,486,532
+tornado\simple_httpclient.py,_on_end_request,self,534,535
+tornado\simple_httpclient.py,data_received,"self, chunk",537,544
+tornado\stack_context.py,__init__,self,83,84
+tornado\stack_context.py,__init__,"self, context_factory",108,111
+tornado\stack_context.py,_deactivate,self,113,114
+tornado\stack_context.py,enter,self,117,120
+tornado\stack_context.py,exit,"self, type, value, traceback",122,124
+tornado\stack_context.py,__enter__,self,129,140
+tornado\stack_context.py,__exit__,"self, type, value, traceback",142,161
+tornado\stack_context.py,__init__,"self, exception_handler",177,179
+tornado\stack_context.py,_deactivate,self,181,182
+tornado\stack_context.py,exit,"self, type, value, traceback",184,186
+tornado\stack_context.py,__enter__,self,188,193
+tornado\stack_context.py,__exit__,"self, type, value, traceback",195,209
+tornado\stack_context.py,__enter__,self,219,221
+tornado\stack_context.py,__exit__,"self, type, value, traceback",223,224
+tornado\stack_context.py,_remove_deactivated,contexts,227,250
+tornado\stack_context.py,wrap,fn,253,349
+tornado\stack_context.py,null_wrapper,"*args, **kwargs",271,277
+tornado\stack_context.py,wrapped,"*args, **kwargs",281,346
+tornado\stack_context.py,_handle_exception,"tail, exc",352,362
+tornado\stack_context.py,run_with_stack_context,"context, func",365,388
+tornado\tcpclient.py,__init__,"self, addrinfo, io_loop, connect",50,58
+tornado\tcpclient.py,split,addrinfo,60,78
+tornado\tcpclient.py,start,"self, timeout=_INITIAL_CONNECT_TIMEOUT",80,83
+tornado\tcpclient.py,try_connect,"self, addrs",85,98
+tornado\tcpclient.py,on_connect_done,"self, addrs, af, addr, future",100,122
+tornado\tcpclient.py,set_timout,"self, timeout",124,126
+tornado\tcpclient.py,on_timeout,self,128,130
+tornado\tcpclient.py,clear_timeout,self,132,134
+tornado\tcpclient.py,__init__,"self, resolver=None, io_loop=None",143,150
+tornado\tcpclient.py,close,self,152,154
+tornado\tcpclient.py,connect,"self, host, port, af=socket.AF_UNSPEC, ssl_options=None, max_buffer_size=None",156,175
+tornado\tcpclient.py,_create_stream,"self, max_buffer_size, af, addr",177,183
+tornado\tcpserver.py,__init__,"self, io_loop=None, ssl_options=None, max_buffer_size=None, read_chunk_size=None",91,116
+tornado\tcpserver.py,listen,"self, port, address=''",118,127
+tornado\tcpserver.py,add_sockets,"self, sockets",129,144
+tornado\tcpserver.py,add_socket,"self, socket",146,148
+tornado\tcpserver.py,bind,"self, port, address=None, family=socket.AF_UNSPEC, backlog='128', reuse_port=False",150,175
+tornado\tcpserver.py,start,"self, num_processes='1'",177,203
+tornado\tcpserver.py,stop,self,205,213
+tornado\tcpserver.py,handle_stream,"self, stream, address",215,230
+tornado\tcpserver.py,_handle_connection,"self, connection, address",232,273
+tornado\template.py,filter_whitespace,"mode, text",218,240
+tornado\template.py,__init__,"self, template_string, name='<string>', loader=None, compress_whitespace=_UNSET, autoescape=_UNSET, whitespace=None",252,318
+tornado\template.py,generate,"self, **kwargs",320,345
+tornado\template.py,_generate_python,"self, loader",347,361
+tornado\template.py,_get_ancestors,"self, loader",363,372
+tornado\template.py,__init__,"self, autoescape=_DEFAULT_AUTOESCAPE, namespace=None, whitespace=None",382,408
+tornado\template.py,reset,self,410,413
+tornado\template.py,resolve_path,"self, name, parent_path=None",415,417
+tornado\template.py,load,"self, name, parent_path=None",419,425
+tornado\template.py,_create_template,"self, name",427,428
+tornado\template.py,__init__,"self, root_directory, **kwargs",434,436
+tornado\template.py,resolve_path,"self, name, parent_path=None",438,447
+tornado\template.py,_create_template,"self, name",449,453
+tornado\template.py,__init__,"self, dict, **kwargs",458,460
+tornado\template.py,resolve_path,"self, name, parent_path=None",462,468
+tornado\template.py,_create_template,"self, name",470,471
+tornado\template.py,each_child,self,475,476
+tornado\template.py,generate,"self, writer",478,479
+tornado\template.py,find_named_blocks,"self, loader, named_blocks",481,483
+tornado\template.py,__init__,"self, template, body",487,490
+tornado\template.py,generate,"self, writer",492,498
+tornado\template.py,each_child,self,500,501
+tornado\template.py,__init__,"self, chunks",505,506
+tornado\template.py,generate,"self, writer",508,510
+tornado\template.py,each_child,self,512,513
+tornado\template.py,__init__,"self, name, body, template, line",517,521
+tornado\template.py,each_child,self,523,524
+tornado\template.py,generate,"self, writer",526,529
+tornado\template.py,find_named_blocks,"self, loader, named_blocks",531,533
+tornado\template.py,__init__,"self, name",537,538
+tornado\template.py,__init__,"self, name, reader, line",542,545
+tornado\template.py,find_named_blocks,"self, loader, named_blocks",547,549
+tornado\template.py,generate,"self, writer",551,554
+tornado\template.py,__init__,"self, method, line, body=None",558,561
+tornado\template.py,each_child,self,563,564
+tornado\template.py,generate,"self, writer",566,576
+tornado\template.py,__init__,"self, statement, line, body=None",580,583
+tornado\template.py,each_child,self,585,586
+tornado\template.py,generate,"self, writer",588,593
+tornado\template.py,__init__,"self, statement, line",597,599
+tornado\template.py,generate,"self, writer",601,604
+tornado\template.py,__init__,"self, statement, line",608,610
+tornado\template.py,generate,"self, writer",612,613
+tornado\template.py,__init__,"self, expression, line, raw=False",617,620
+tornado\template.py,generate,"self, writer",622,632
+tornado\template.py,__init__,"self, expression, line",636,638
+tornado\template.py,__init__,"self, value, line, whitespace",642,645
+tornado\template.py,generate,"self, writer",647,656
+tornado\template.py,__init__,"self, message, filename, lineno",668,673
+tornado\template.py,__str__,self,675,676
+tornado\template.py,__init__,"self, file, named_blocks, loader, current_template",680,687
+tornado\template.py,indent_size,self,689,690
+tornado\template.py,indent,self,692,702
+tornado\template.py,__enter__,_,694,696
+tornado\template.py,__exit__,"_, *args",698,700
+tornado\template.py,include,"self, template, line",704,715
+tornado\template.py,__enter__,_,709,710
+tornado\template.py,__exit__,"_, *args",712,713
+tornado\template.py,write_line,"self, line, line_number, indent=None",717,725
+tornado\template.py,__init__,"self, name, text, whitespace",729,734
+tornado\template.py,find,"self, needle, start='0', end=None",736,748
+tornado\template.py,consume,"self, count=None",750,757
+tornado\template.py,remaining,self,759,760
+tornado\template.py,__len__,self,762,763
+tornado\template.py,__getitem__,"self, key",765,779
+tornado\template.py,__str__,self,781,782
+tornado\template.py,raise_parse_error,"self, msg",784,785
+tornado\template.py,_format_code,code,788,791
+tornado\template.py,_parse,"reader, template, in_block=None, in_loop=None",794,975
+tornado\testing.py,get_unused_port,,79,92
+tornado\testing.py,bind_unused_port,reuse_port=False,95,103
+tornado\testing.py,get_async_test_timeout,,106,116
+tornado\testing.py,__init__,"self, orig_method",128,129
+tornado\testing.py,__call__,"self, *args, **kwargs",131,138
+tornado\testing.py,__getattr__,"self, name",140,146
+tornado\testing.py,__init__,"self, methodName='runTest', **kwargs",211,223
+tornado\testing.py,setUp,self,225,228
+tornado\testing.py,tearDown,self,230,246
+tornado\testing.py,get_new_ioloop,self,248,253
+tornado\testing.py,_handle_exception,"self, typ, value, tb",255,262
+tornado\testing.py,__rethrow,self,264,268
+tornado\testing.py,run,"self, result=None",270,277
+tornado\testing.py,stop,"self, _arg=None, **kwargs",279,291
+tornado\testing.py,wait,"self, condition=None, timeout=None",293,335
+tornado\testing.py,timeout_func,,312,319
+tornado\testing.py,setUp,self,370,378
+tornado\testing.py,get_http_client,self,380,381
+tornado\testing.py,get_http_server,self,383,385
+tornado\testing.py,get_app,self,387,391
+tornado\testing.py,fetch,"self, path, **kwargs",393,402
+tornado\testing.py,get_httpserver_options,self,404,408
+tornado\testing.py,get_http_port,self,410,415
+tornado\testing.py,get_protocol,self,417,418
+tornado\testing.py,get_url,"self, path",420,423
+tornado\testing.py,tearDown,self,425,432
+tornado\testing.py,get_http_client,self,440,442
+tornado\testing.py,get_httpserver_options,self,444,445
+tornado\testing.py,get_ssl_options,self,447,457
+tornado\testing.py,get_protocol,self,459,460
+tornado\testing.py,gen_test,"func=None, timeout=None",463,545
+tornado\testing.py,wrap,f,497,535
+tornado\testing.py,pre_coroutine,"self, *args, **kwargs",506,513
+tornado\testing.py,post_coroutine,"self, *args, **kwargs",520,534
+tornado\testing.py,run,"self, result=None",572,593
+tornado\testing.py,__init__,"self, logger, regex, required=True",613,629
+tornado\testing.py,filter,"self, record",631,638
+tornado\testing.py,__enter__,self,640,642
+tornado\testing.py,__exit__,"self, typ, value, tb",644,647
+tornado\testing.py,main,**kwargs,650,732
+tornado\util.py,__getattr__,"self, name",38,42
+tornado\util.py,__setattr__,"self, name, value",44,45
+tornado\util.py,__init__,self,54,58
+tornado\util.py,decompress,"self, value, max_length=None",60,71
+tornado\util.py,unconsumed_tail,self,73,77
+tornado\util.py,flush,self,79,85
+tornado\util.py,import_object,name,98,127
+tornado\util.py,errno_from_exception,e,158,173
+tornado\util.py,_re_unescape_replacement,match,179,183
+tornado\util.py,re_unescape,s,187,191
+tornado\util.py,__new__,"cls, *args, **kwargs",217,232
+tornado\util.py,configurable_base,cls,234,241
+tornado\util.py,configurable_default,cls,243,246
+tornado\util.py,initialize,self,248,255
+tornado\util.py,configure,"cls, impl, **kwargs",257,271
+tornado\util.py,configured_class,cls,273,279
+tornado\util.py,_save_configuration,cls,281,284
+tornado\util.py,_restore_configuration,"cls, saved",286,290
+tornado\util.py,__init__,"self, func, name",300,306
+tornado\util.py,_getargnames,"self, func",308,321
+tornado\util.py,get_old_value,"self, args, kwargs, default=None",323,331
+tornado\util.py,replace,"self, new_value, args, kwargs",333,352
+tornado\util.py,timedelta_to_seconds,td,355,357
+tornado\util.py,_websocket_mask_python,"mask, data",360,379
+tornado\util.py,doctests,,395,397
+tornado\web.py,__init__,"self, application, request, **kwargs",159,183
+tornado\web.py,initialize,self,185,204
+tornado\web.py,settings,self,206,209
+tornado\web.py,head,"self, *args, **kwargs",211,212
+tornado\web.py,get,"self, *args, **kwargs",214,215
+tornado\web.py,post,"self, *args, **kwargs",217,218
+tornado\web.py,delete,"self, *args, **kwargs",220,221
+tornado\web.py,patch,"self, *args, **kwargs",223,224
+tornado\web.py,put,"self, *args, **kwargs",226,227
+tornado\web.py,options,"self, *args, **kwargs",229,230
+tornado\web.py,prepare,self,232,247
+tornado\web.py,on_finish,self,249,257
+tornado\web.py,on_connection_close,self,259,276
+tornado\web.py,clear,self,278,288
+tornado\web.py,set_default_headers,self,290,298
+tornado\web.py,set_status,"self, status_code, reason=None",300,316
+tornado\web.py,get_status,self,318,320
+tornado\web.py,set_header,"self, name, value",322,329
+tornado\web.py,add_header,"self, name, value",331,337
+tornado\web.py,clear_header,"self, name",339,346
+tornado\web.py,_convert_header_value,"self, value",350,366
+tornado\web.py,get_argument,"self, name, default=_ARG_DEFAULT, strip=True",370,381
+tornado\web.py,get_arguments,"self, name, strip=True",383,396
+tornado\web.py,get_body_argument,"self, name, default=_ARG_DEFAULT, strip=True",398,413
+tornado\web.py,get_body_arguments,"self, name, strip=True",415,424
+tornado\web.py,get_query_argument,"self, name, default=_ARG_DEFAULT, strip=True",426,441
+tornado\web.py,get_query_arguments,"self, name, strip=True",443,452
+tornado\web.py,_get_argument,"self, name, default, source, strip=True",454,460
+tornado\web.py,_get_arguments,"self, name, source, strip=True",462,473
+tornado\web.py,decode_argument,"self, value, name=None",475,492
+tornado\web.py,cookies,self,494,498
+tornado\web.py,get_cookie,"self, name, default=None",500,504
+tornado\web.py,set_cookie,"self, name, value, domain=None, expires=None, path='/', expires_days=None, **kwargs",506,545
+tornado\web.py,clear_cookie,"self, name, path='/', domain=None",547,557
+tornado\web.py,clear_all_cookies,"self, path='/', domain=None",559,570
+tornado\web.py,set_secure_cookie,"self, name, value, expires_days='30', version=None, **kwargs",572,596
+tornado\web.py,create_signed_value,"self, name, value, version=None",598,619
+tornado\web.py,get_secure_cookie,"self, name, value=None, max_age_days='31', min_version=None",621,638
+tornado\web.py,get_secure_cookie_key_version,"self, name, value=None",640,648
+tornado\web.py,redirect,"self, url, permanent=False, status=None",650,666
+tornado\web.py,write,"self, chunk",668,695
+tornado\web.py,render,"self, template_name, **kwargs",697,781
+tornado\web.py,is_absolute,path,734,735
+tornado\web.py,render_string,"self, template_name, **kwargs",783,806
+tornado\web.py,get_template_namespace,self,808,829
+tornado\web.py,create_template_loader,"self, template_path",831,850
+tornado\web.py,flush,"self, include_footers=False, callback=None",852,898
+tornado\web.py,finish,"self, chunk=None",900,939
+tornado\web.py,send_error,"self, status_code='500', **kwargs",941,978
+tornado\web.py,write_error,"self, status_code, **kwargs",980,1002
+tornado\web.py,locale,self,1005,1022
+tornado\web.py,locale,"self, value",1024,1026
+tornado\web.py,get_user_locale,self,1028,1036
+tornado\web.py,get_browser_locale,"self, default='en_US'",1038,1060
+tornado\web.py,current_user,self,1062,1096
+tornado\web.py,current_user,"self, value",1098,1100
+tornado\web.py,get_current_user,self,1102,1107
+tornado\web.py,get_login_url,self,1109,1115
+tornado\web.py,get_template_path,self,1117,1123
+tornado\web.py,xsrf_token,self,1125,1174
+tornado\web.py,_get_raw_xsrf_token,self,1176,1198
+tornado\web.py,_decode_xsrf_token,"self, cookie",1200,1234
+tornado\web.py,check_xsrf_cookie,self,1236,1269
+tornado\web.py,xsrf_form_html,self,1271,1285
+tornado\web.py,static_url,"self, path, include_host=None, **kwargs",1287,1320
+tornado\web.py,require_setting,"self, name, feature='this feature'",1322,1326
+tornado\web.py,reverse_url,"self, name, *args",1328,1330
+tornado\web.py,compute_etag,self,1332,1343
+tornado\web.py,set_etag_header,self,1345,1354
+tornado\web.py,check_etag_header,self,1356,1393
+tornado\web.py,_stack_context_handle_exception,"self, type, value, traceback",1395,1404
+tornado\web.py,_execute,"self, transforms, *args, **kwargs",1406,1458
+tornado\web.py,data_received,"self, chunk",1460,1465
+tornado\web.py,_log,self,1467,1474
+tornado\web.py,_request_summary,self,1476,1478
+tornado\web.py,_handle_request_exception,"self, e",1480,1504
+tornado\web.py,log_exception,"self, typ, value, tb",1506,1524
+tornado\web.py,_ui_module,"self, name, module",1526,1534
+tornado\web.py,render,"*args, **kwargs",1527,1533
+tornado\web.py,_ui_method,"self, method",1536,1537
+tornado\web.py,_clear_headers_for_304,self,1539,1548
+tornado\web.py,asynchronous,method,1551,1624
+tornado\web.py,wrapper,"self, *args, **kwargs",1598,1623
+tornado\web.py,future_complete,f,1612,1615
+tornado\web.py,stream_request_body,cls,1627,1652
+tornado\web.py,_has_stream_request_body,cls,1655,1658
+tornado\web.py,removeslash,method,1661,1681
+tornado\web.py,wrapper,"self, *args, **kwargs",1668,1680
+tornado\web.py,addslash,method,1684,1702
+tornado\web.py,wrapper,"self, *args, **kwargs",1691,1701
+tornado\web.py,__init__,"self, handlers=None, default_host='', transforms=None, **settings",1756,1800
+tornado\web.py,listen,"self, port, address='', **kwargs",1802,1826
+tornado\web.py,add_handlers,"self, host_pattern, host_handlers",1828,1857
+tornado\web.py,add_transform,"self, transform_class",1859,1860
+tornado\web.py,_get_host_handlers,"self, request",1862,1873
+tornado\web.py,_load_ui_methods,"self, methods",1875,1886
+tornado\web.py,_load_ui_modules,"self, modules",1888,1902
+tornado\web.py,start_request,"self, server_conn, request_conn",1904,1906
+tornado\web.py,__call__,"self, request",1908,1912
+tornado\web.py,reverse_url,"self, name, *args",1914,1925
+tornado\web.py,log_request,"self, handler",1927,1946
+tornado\web.py,__init__,"self, application, connection",1950,1958
+tornado\web.py,headers_received,"self, start_line, headers",1960,1966
+tornado\web.py,set_request,"self, request",1968,1971
+tornado\web.py,_find_handler,self,1973,2008
+tornado\web.py,data_received,"self, data",2010,2014
+tornado\web.py,finish,self,2016,2022
+tornado\web.py,on_connection_close,self,2024,2028
+tornado\web.py,execute,self,2030,2059
+tornado\web.py,__init__,"self, status_code='500', log_message=None, *args, **kwargs",2084,2090
+tornado\web.py,__str__,self,2092,2099
+tornado\web.py,__init__,"self, arg_name",2137,2140
+tornado\web.py,initialize,"self, status_code",2145,2146
+tornado\web.py,prepare,self,2148,2149
+tornado\web.py,check_xsrf_cookie,self,2151,2155
+tornado\web.py,initialize,"self, url, permanent=True",2167,2169
+tornado\web.py,get,self,2171,2172
+tornado\web.py,initialize,"self, path, default_filename=None",2246,2248
+tornado\web.py,reset,cls,2250,2253
+tornado\web.py,head,"self, path",2255,2256
+tornado\web.py,get,"self, path, include_body=True",2258,2332
+tornado\web.py,compute_etag,self,2334,2346
+tornado\web.py,set_headers,self,2348,2370
+tornado\web.py,should_return_304,self,2372,2390
+tornado\web.py,get_absolute_path,"cls, root, path",2392,2407
+tornado\web.py,validate_absolute_path,"self, root, absolute_path",2409,2459
+tornado\web.py,get_content,"cls, abspath, start=None, end=None",2461,2496
+tornado\web.py,get_content_version,"cls, abspath",2498,2514
+tornado\web.py,_stat,self,2516,2519
+tornado\web.py,get_content_size,self,2521,2533
+tornado\web.py,get_modified_time,self,2535,2546
+tornado\web.py,get_content_type,self,2548,2566
+tornado\web.py,set_extra_headers,"self, path",2568,2570
+tornado\web.py,get_cache_time,"self, path, modified, mime_type",2572,2583
+tornado\web.py,make_static_url,"cls, settings, path, include_version=True",2585,2613
+tornado\web.py,parse_url_path,"self, url_path",2615,2626
+tornado\web.py,get_version,"cls, settings, path",2628,2643
+tornado\web.py,_get_cached_version,"cls, abs_path",2645,2658
+tornado\web.py,initialize,"self, fallback",2677,2678
+tornado\web.py,prepare,self,2680,2682
+tornado\web.py,__init__,"self, request",2692,2693
+tornado\web.py,transform_first_chunk,"self, status_code, headers, chunk, finishing",2695,2696
+tornado\web.py,transform_chunk,"self, chunk, finishing",2698,2699
+tornado\web.py,__init__,"self, request",2728,2729
+tornado\web.py,_compressible_type,"self, ctype",2731,2732
+tornado\web.py,transform_first_chunk,"self, status_code, headers, chunk, finishing",2734,2759
+tornado\web.py,transform_chunk,"self, chunk, finishing",2761,2771
+tornado\web.py,authenticated,method,2774,2801
+tornado\web.py,wrapper,"self, *args, **kwargs",2785,2800
+tornado\web.py,__init__,"self, handler",2813,2817
+tornado\web.py,current_user,self,2819,2821
+tornado\web.py,render,"self, *args, **kwargs",2823,2825
+tornado\web.py,embedded_javascript,self,2827,2830
+tornado\web.py,javascript_files,self,2832,2838
+tornado\web.py,embedded_css,self,2840,2843
+tornado\web.py,css_files,self,2845,2851
+tornado\web.py,html_head,self,2853,2857
+tornado\web.py,html_body,self,2859,2863
+tornado\web.py,render_string,"self, path, **kwargs",2865,2867
+tornado\web.py,render,"self, text, **kwargs",2871,2872
+tornado\web.py,render,self,2876,2877
+tornado\web.py,__init__,"self, handler",2895,2899
+tornado\web.py,render,"self, path, **kwargs",2901,2912
+tornado\web.py,set_resources,**kwargs,2902,2910
+tornado\web.py,_get_resources,"self, key",2914,2915
+tornado\web.py,embedded_javascript,self,2917,2918
+tornado\web.py,javascript_files,self,2920,2927
+tornado\web.py,embedded_css,self,2929,2930
+tornado\web.py,css_files,self,2932,2939
+tornado\web.py,html_head,self,2941,2942
+tornado\web.py,html_body,self,2944,2945
+tornado\web.py,__init__,"self, handler, ui_modules",2950,2952
+tornado\web.py,__getitem__,"self, key",2954,2955
+tornado\web.py,__getattr__,"self, key",2957,2961
+tornado\web.py,__init__,"self, pattern, handler, kwargs=None, name=None",2966,2996
+tornado\web.py,__repr__,self,2998,3001
+tornado\web.py,_find_groups,self,3003,3033
+tornado\web.py,reverse,"self, *args",3035,3047
+tornado\web.py,_time_independent_equals,"a, b",3055,3065
+tornado\web.py,create_signed_value,"secret, name, value, version=None, clock=None, key_version=None",3068,3114
+tornado\web.py,format_field,s,3096,3097
+tornado\web.py,_get_version,value,3121,3141
+tornado\web.py,decode_signed_value,"secret, name, value, max_age_days='31', clock=None, min_version=None",3144,3167
+tornado\web.py,_decode_signed_value_v1,"secret, name, value, max_age_days, clock",3170,3197
+tornado\web.py,_decode_fields_v2,value,3200,3217
+tornado\web.py,_consume_field,s,3201,3210
+tornado\web.py,_decode_signed_value_v2,"secret, name, value, max_age_days, clock",3220,3245
+tornado\web.py,get_signature_key_version,value,3248,3258
+tornado\web.py,_create_signature_v1,"secret, *parts",3261,3265
+tornado\web.py,_create_signature_v2,"secret, s",3268,3271
+tornado\web.py,_unquote_or_none,s,3274,3283
+tornado\websocket.py,__init__,"self, application, request, **kwargs",130,136
+tornado\websocket.py,get,"self, *args, **kwargs",138,194
+tornado\websocket.py,write_message,"self, message, binary=False",196,217
+tornado\websocket.py,select_subprotocol,"self, subprotocols",219,230
+tornado\websocket.py,get_compression_options,self,232,243
+tornado\websocket.py,open,"self, *args, **kwargs",245,252
+tornado\websocket.py,on_message,"self, message",254,259
+tornado\websocket.py,ping,"self, data",261,265
+tornado\websocket.py,on_pong,"self, data",267,269
+tornado\websocket.py,on_close,self,271,282
+tornado\websocket.py,close,"self, code=None, reason=None",284,302
+tornado\websocket.py,check_origin,"self, origin",304,344
+tornado\websocket.py,set_nodelay,"self, value",346,360
+tornado\websocket.py,on_connection_close,self,362,368
+tornado\websocket.py,send_error,"self, *args, **kwargs",370,378
+tornado\websocket.py,get_websocket_protocol,self,380,384
+tornado\websocket.py,_wrap_method,method,387,393
+tornado\websocket.py,_disallow_for_websocket,"self, *args, **kwargs",388,392
+tornado\websocket.py,__init__,"self, handler",403,408
+tornado\websocket.py,_run_callback,"self, callback, *args, **kwargs",410,420
+tornado\websocket.py,on_connection_close,self,422,423
+tornado\websocket.py,_abort,self,425,430
+tornado\websocket.py,__init__,"self, persistent, max_wbits",434,445
+tornado\websocket.py,_create_compressor,self,447,449
+tornado\websocket.py,compress,"self, data",451,456
+tornado\websocket.py,__init__,"self, persistent, max_wbits",460,470
+tornado\websocket.py,_create_decompressor,self,472,473
+tornado\websocket.py,decompress,"self, data",475,477
+tornado\websocket.py,__init__,"self, handler, mask_outgoing=False, compression_options=None",494,518
+tornado\websocket.py,accept_connection,self,520,528
+tornado\websocket.py,_handle_websocket_headers,self,530,538
+tornado\websocket.py,compute_accept_value,key,540,548
+tornado\websocket.py,_challenge_response,self,550,552
+tornado\websocket.py,_accept_connection,self,554,597
+tornado\websocket.py,_parse_extensions_header,"self, headers",599,604
+tornado\websocket.py,_process_server_headers,"self, key, headers",606,622
+tornado\websocket.py,_get_compressor_options,"self, side, agreed_parameters",624,635
+tornado\websocket.py,_create_compressors,"self, side, agreed_parameters",637,650
+tornado\websocket.py,_write_frame,"self, fin, opcode, data, flags='0'",652,677
+tornado\websocket.py,write_message,"self, message, binary=False",679,692
+tornado\websocket.py,write_ping,"self, data",694,697
+tornado\websocket.py,_receive_frame,self,699,703
+tornado\websocket.py,_on_frame_start,"self, data",705,738
+tornado\websocket.py,_on_frame_length_16,"self, data",740,749
+tornado\websocket.py,_on_frame_length_64,"self, data",751,760
+tornado\websocket.py,_on_masking_key,"self, data",762,769
+tornado\websocket.py,_on_masked_frame_data,"self, data",771,773
+tornado\websocket.py,_on_frame_data,"self, data",775,811
+tornado\websocket.py,_handle_message,"self, opcode, data",813,849
+tornado\websocket.py,close,"self, code=None, reason=None",851,874
+tornado\websocket.py,__init__,"self, io_loop, request, on_message_callback=None, compression_options=None",883,915
+tornado\websocket.py,close,"self, code=None, reason=None",917,931
+tornado\websocket.py,on_connection_close,self,933,938
+tornado\websocket.py,_on_http_response,"self, response",940,946
+tornado\websocket.py,headers_received,"self, start_line, headers",948,970
+tornado\websocket.py,write_message,"self, message, binary=False",972,974
+tornado\websocket.py,read_message,"self, callback=None",976,995
+tornado\websocket.py,on_message,"self, message",997,1004
+tornado\websocket.py,on_pong,"self, data",1006,1007
+tornado\websocket.py,get_websocket_protocol,self,1009,1011
+tornado\websocket.py,websocket_connect,"url, io_loop=None, callback=None, connect_timeout=None, on_message_callback=None, compression_options=None",1014,1062
+tornado\wsgi.py,to_wsgi_str,s,57,59
+tornado\wsgi.py,from_wsgi_str,s,61,63
+tornado\wsgi.py,to_wsgi_str,s,65,67
+tornado\wsgi.py,from_wsgi_str,s,69,71
+tornado\wsgi.py,__call__,"self, environ, start_response",81,82
+tornado\wsgi.py,__init__,"self, method, start_response, context",92,99
+tornado\wsgi.py,set_close_callback,"self, callback",101,104
+tornado\wsgi.py,write_headers,"self, start_line, headers, chunk=None, callback=None",106,120
+tornado\wsgi.py,write,"self, chunk, callback=None",122,132
+tornado\wsgi.py,finish,self,134,141
+tornado\wsgi.py,__init__,"self, remote_ip, protocol",145,147
+tornado\wsgi.py,__str__,self,149,150
+tornado\wsgi.py,__init__,"self, application",185,190
+tornado\wsgi.py,__call__,"self, environ, start_response",192,228
+tornado\wsgi.py,__init__,"self, wsgi_application",265,266
+tornado\wsgi.py,__call__,"self, request",268,306
+tornado\wsgi.py,start_response,"status, response_headers, exc_info=None",272,275
+tornado\wsgi.py,environ,request,308,343
+tornado\wsgi.py,_log,"self, status_code, request",345,355
+tornado\platform\asyncio.py,initialize,"self, asyncio_loop, close_loop=False, **kwargs",44,53
+tornado\platform\asyncio.py,close,"self, all_fds=False",55,63
+tornado\platform\asyncio.py,add_handler,"self, fd, handler, events",65,77
+tornado\platform\asyncio.py,update_handler,"self, fd, events",79,98
+tornado\platform\asyncio.py,remove_handler,"self, fd",100,110
+tornado\platform\asyncio.py,_handle_events,"self, fd, events",112,114
+tornado\platform\asyncio.py,start,self,116,126
+tornado\platform\asyncio.py,stop,self,128,129
+tornado\platform\asyncio.py,call_at,"self, when, callback, *args, **kwargs",131,137
+tornado\platform\asyncio.py,remove_timeout,"self, timeout",139,140
+tornado\platform\asyncio.py,add_callback,"self, callback, *args, **kwargs",142,147
+tornado\platform\asyncio.py,initialize,"self, **kwargs",162,164
+tornado\platform\asyncio.py,initialize,"self, **kwargs",180,188
+tornado\platform\asyncio.py,to_tornado_future,asyncio_future,191,198
+tornado\platform\asyncio.py,to_asyncio_future,tornado_future,201,213
+tornado\platform\auto.py,set_close_exec,fd,33,34
+tornado\platform\caresresolver.py,initialize,"self, io_loop=None",25,28
+tornado\platform\caresresolver.py,_sock_state_cb,"self, fd, readable, writable",30,41
+tornado\platform\caresresolver.py,_handle_events,"self, fd, events",43,50
+tornado\platform\caresresolver.py,resolve,"self, host, port, family='0'",52,79
+tornado\platform\common.py,__init__,self,17,67
+tornado\platform\common.py,fileno,self,69,70
+tornado\platform\common.py,write_fileno,self,72,73
+tornado\platform\common.py,wake,self,75,79
+tornado\platform\common.py,consume,self,81,88
+tornado\platform\common.py,close,self,90,92
+tornado\platform\epoll.py,initialize,"self, **kwargs",25,26
+tornado\platform\interface.py,set_close_exec,fd,27,29
+tornado\platform\interface.py,fileno,self,41,47
+tornado\platform\interface.py,write_fileno,self,49,51
+tornado\platform\interface.py,wake,self,53,55
+tornado\platform\interface.py,consume,self,57,59
+tornado\platform\interface.py,close,self,61,63
+tornado\platform\kqueue.py,__init__,self,28,30
+tornado\platform\kqueue.py,fileno,self,32,33
+tornado\platform\kqueue.py,close,self,35,36
+tornado\platform\kqueue.py,register,"self, fd, events",38,42
+tornado\platform\kqueue.py,modify,"self, fd, events",44,46
+tornado\platform\kqueue.py,unregister,"self, fd",48,50
+tornado\platform\kqueue.py,_control,"self, fd, events, flags",52,63
+tornado\platform\kqueue.py,poll,"self, timeout",65,86
+tornado\platform\kqueue.py,initialize,"self, **kwargs",90,91
+tornado\platform\posix.py,set_close_exec,fd,27,29
+tornado\platform\posix.py,_set_nonblocking,fd,32,34
+tornado\platform\posix.py,__init__,self,38,45
+tornado\platform\posix.py,fileno,self,47,48
+tornado\platform\posix.py,write_fileno,self,50,51
+tornado\platform\posix.py,wake,self,53,57
+tornado\platform\posix.py,consume,self,59,66
+tornado\platform\posix.py,close,self,68,70
+tornado\platform\select.py,__init__,self,29,33
+tornado\platform\select.py,close,self,35,36
+tornado\platform\select.py,register,"self, fd, events",38,46
+tornado\platform\select.py,modify,"self, fd, events",52,54
+tornado\platform\select.py,unregister,"self, fd",56,59
+tornado\platform\select.py,poll,"self, timeout",61,71
+tornado\platform\select.py,initialize,"self, **kwargs",75,76
+tornado\platform\twisted.py,__init__,"self, reactor, seconds, f, *args, **kw",60,66
+tornado\platform\twisted.py,_called,self,68,74
+tornado\platform\twisted.py,getTime,self,76,77
+tornado\platform\twisted.py,cancel,self,79,82
+tornado\platform\twisted.py,delay,"self, seconds",84,88
+tornado\platform\twisted.py,reset,"self, seconds",90,94
+tornado\platform\twisted.py,active,self,96,97
+tornado\platform\twisted.py,__init__,"self, io_loop=None",129,146
+tornado\platform\twisted.py,start_if_necessary,,143,145
+tornado\platform\twisted.py,seconds,self,149,150
+tornado\platform\twisted.py,callLater,"self, seconds, f, *args, **kw",152,155
+tornado\platform\twisted.py,getDelayedCalls,self,157,158
+tornado\platform\twisted.py,_removeDelayedCall,"self, dc",160,162
+tornado\platform\twisted.py,callFromThread,"self, f, *args, **kw",165,172
+tornado\platform\twisted.py,installWaker,self,176,177
+tornado\platform\twisted.py,wakeUp,self,179,180
+tornado\platform\twisted.py,_invoke_callback,"self, fd, events",183,208
+tornado\platform\twisted.py,addReader,"self, reader",210,227
+tornado\platform\twisted.py,addWriter,"self, writer",229,245
+tornado\platform\twisted.py,removeReader,"self, reader",247,261
+tornado\platform\twisted.py,removeWriter,"self, writer",263,277
+tornado\platform\twisted.py,removeAll,self,279,280
+tornado\platform\twisted.py,getReaders,self,282,283
+tornado\platform\twisted.py,getWriters,self,285,286
+tornado\platform\twisted.py,stop,self,291,294
+tornado\platform\twisted.py,crash,self,296,298
+tornado\platform\twisted.py,doIteration,"self, delay",300,301
+tornado\platform\twisted.py,mainLoop,self,303,312
+tornado\platform\twisted.py,__init__,self,321,323
+tornado\platform\twisted.py,listenTCP,"self, port, factory, backlog='50', interface=''",325,330
+tornado\platform\twisted.py,listenUDP,"self, port, protocol, interface='', maxPacketSize='8192'",332,336
+tornado\platform\twisted.py,install,io_loop=None,339,359
+tornado\platform\twisted.py,__init__,"self, fd, fileobj, handler",364,370
+tornado\platform\twisted.py,fileno,self,372,373
+tornado\platform\twisted.py,doRead,self,375,377
+tornado\platform\twisted.py,doWrite,self,379,381
+tornado\platform\twisted.py,connectionLost,"self, reason",383,386
+tornado\platform\twisted.py,logPrefix,self,388,389
+tornado\platform\twisted.py,initialize,"self, reactor=None, **kwargs",412,418
+tornado\platform\twisted.py,close,"self, all_fds=False",420,427
+tornado\platform\twisted.py,add_handler,"self, fd, handler, events",429,439
+tornado\platform\twisted.py,update_handler,"self, fd, events",441,458
+tornado\platform\twisted.py,remove_handler,"self, fd",460,469
+tornado\platform\twisted.py,start,self,471,481
+tornado\platform\twisted.py,stop,self,483,484
+tornado\platform\twisted.py,add_timeout,"self, deadline, callback, *args, **kwargs",486,498
+tornado\platform\twisted.py,remove_timeout,"self, timeout",500,502
+tornado\platform\twisted.py,add_callback,"self, callback, *args, **kwargs",504,507
+tornado\platform\twisted.py,add_callback_from_signal,"self, callback, *args, **kwargs",509,510
+tornado\platform\twisted.py,initialize,"self, io_loop=None",530,541
+tornado\platform\twisted.py,resolve,"self, host, port, family='0'",543,570
+tornado\platform\twisted.py,_,d,573,585
+tornado\platform\twisted.py,errback,failure,577,583
+tornado\platform\windows.py,set_close_exec,fd,17,20
+tornado\test\asyncio_test.py,get_new_ioloop,self,31,34
+tornado\test\asyncio_test.py,test_asyncio_callback,self,36,39
+tornado\test\asyncio_test.py,test_asyncio_future,self,41,47
+tornado\test\asyncio_test.py,test_asyncio_yield_from,self,49,62
+tornado\test\asyncio_test.py,test_asyncio_adapter,self,64,113
+tornado\test\asyncio_test.py,tornado_coroutine,,70,73
+tornado\test\auth_test.py,initialize,"self, test",19,20
+tornado\test\auth_test.py,get,self,22,30
+tornado\test\auth_test.py,on_user,"self, user",32,35
+tornado\test\auth_test.py,post,self,39,42
+tornado\test\auth_test.py,initialize,"self, test, version",46,50
+tornado\test\auth_test.py,_oauth_consumer_token,self,52,53
+tornado\test\auth_test.py,get,self,55,62
+tornado\test\auth_test.py,on_user,"self, user",64,67
+tornado\test\auth_test.py,_oauth_get_user,"self, access_token, callback",69,74
+tornado\test\auth_test.py,get,self,79,90
+tornado\test\auth_test.py,initialize,"self, version",94,95
+tornado\test\auth_test.py,_oauth_consumer_token,self,97,98
+tornado\test\auth_test.py,get,self,100,105
+tornado\test\auth_test.py,get,self,109,110
+tornado\test\auth_test.py,get,self,114,115
+tornado\test\auth_test.py,initialize,"self, test",119,120
+tornado\test\auth_test.py,get,self,122,125
+tornado\test\auth_test.py,initialize,"self, test",129,132
+tornado\test\auth_test.py,get,self,134,147
+tornado\test\auth_test.py,get,self,151,152
+tornado\test\auth_test.py,get,self,156,157
+tornado\test\auth_test.py,initialize,"self, test",161,165
+tornado\test\auth_test.py,get_auth_http_client,self,167,168
+tornado\test\auth_test.py,get,self,172,177
+tornado\test\auth_test.py,on_user,"self, user",179,182
+tornado\test\auth_test.py,get,self,186,195
+tornado\test\auth_test.py,get,self,199,207
+tornado\test\auth_test.py,get,self,211,223
+tornado\test\auth_test.py,get,self,227,239
+tornado\test\auth_test.py,get,self,243,244
+tornado\test\auth_test.py,get,"self, screen_name",248,258
+tornado\test\auth_test.py,get,self,262,270
+tornado\test\auth_test.py,get_app,self,274,317
+tornado\test\auth_test.py,test_openid_redirect,self,319,323
+tornado\test\auth_test.py,test_openid_get_user,self,325,329
+tornado\test\auth_test.py,test_oauth10_redirect,self,331,339
+tornado\test\auth_test.py,test_oauth10_get_user,self,341,348
+tornado\test\auth_test.py,test_oauth10_request_parameters,self,350,357
+tornado\test\auth_test.py,test_oauth10a_redirect,self,359,367
+tornado\test\auth_test.py,test_oauth10a_get_user,self,369,376
+tornado\test\auth_test.py,test_oauth10a_request_parameters,self,378,385
+tornado\test\auth_test.py,test_oauth10a_get_user_coroutine_exception,self,387,391
+tornado\test\auth_test.py,test_oauth2_redirect,self,393,396
+tornado\test\auth_test.py,test_facebook_login,self,398,403
+tornado\test\auth_test.py,base_twitter_redirect,"self, url",405,414
+tornado\test\auth_test.py,test_twitter_redirect,self,416,417
+tornado\test\auth_test.py,test_twitter_redirect_gen_engine,self,419,420
+tornado\test\auth_test.py,test_twitter_redirect_gen_coroutine,self,422,423
+tornado\test\auth_test.py,test_twitter_get_user,self,425,437
+tornado\test\auth_test.py,test_twitter_show_user,self,439,443
+tornado\test\auth_test.py,test_twitter_show_user_error,self,445,449
+tornado\test\auth_test.py,test_twitter_show_user_future,self,451,455
+tornado\test\auth_test.py,test_twitter_show_user_future_error,self,457,460
+tornado\test\auth_test.py,initialize,"self, test",464,468
+tornado\test\auth_test.py,get,self,470,490
+tornado\test\auth_test.py,get,self,494,498
+tornado\test\auth_test.py,post,self,502,507
+tornado\test\auth_test.py,get,self,512,517
+tornado\test\auth_test.py,get_app,self,522,535
+tornado\test\auth_test.py,test_google_login,self,538,544
+tornado\test\concurrent_test.py,sync_future,"self, callback",41,43
+tornado\test\concurrent_test.py,async_future,"self, callback",45,47
+tornado\test\concurrent_test.py,immediate_failure,"self, callback",49,51
+tornado\test\concurrent_test.py,delayed_failure,"self, callback",53,55
+tornado\test\concurrent_test.py,return_value,"self, callback",57,62
+tornado\test\concurrent_test.py,no_result_future,"self, callback",64,66
+tornado\test\concurrent_test.py,test_immediate_failure,self,68,75
+tornado\test\concurrent_test.py,test_return_value,self,77,79
+tornado\test\concurrent_test.py,test_callback_kw,self,81,85
+tornado\test\concurrent_test.py,test_callback_positional,self,87,93
+tornado\test\concurrent_test.py,test_no_callback,self,95,97
+tornado\test\concurrent_test.py,test_none_callback_kw,self,99,102
+tornado\test\concurrent_test.py,test_none_callback_pos,self,104,106
+tornado\test\concurrent_test.py,test_async_future,self,108,114
+tornado\test\concurrent_test.py,test_async_future_gen,self,116,119
+tornado\test\concurrent_test.py,test_delayed_failure,self,121,127
+tornado\test\concurrent_test.py,test_kw_only_callback,self,129,134
+tornado\test\concurrent_test.py,f,**kwargs,130,132
+tornado\test\concurrent_test.py,test_error_in_callback,self,136,140
+tornado\test\concurrent_test.py,test_no_result_future,self,142,147
+tornado\test\concurrent_test.py,test_no_result_future_callback,self,149,153
+tornado\test\concurrent_test.py,test_future_traceback,self,155,172
+tornado\test\concurrent_test.py,f,callback,157,166
+tornado\test\concurrent_test.py,handle_stream,"self, stream, address",179,182
+tornado\test\concurrent_test.py,handle_read,"self, data",184,192
+tornado\test\concurrent_test.py,__init__,"self, port, io_loop",200,202
+tornado\test\concurrent_test.py,process_response,"self, data",204,209
+tornado\test\concurrent_test.py,capitalize,"self, request_data, callback=None",213,223
+tornado\test\concurrent_test.py,handle_connect,self,225,228
+tornado\test\concurrent_test.py,handle_read,"self, data",230,236
+tornado\test\concurrent_test.py,capitalize,"self, request_data, callback",240,247
+tornado\test\concurrent_test.py,handle_connect,self,249,252
+tornado\test\concurrent_test.py,handle_read,"self, data",254,257
+tornado\test\concurrent_test.py,capitalize,"self, request_data, callback",261,273
+tornado\test\concurrent_test.py,setUp,self,277,282
+tornado\test\concurrent_test.py,tearDown,self,284,286
+tornado\test\concurrent_test.py,test_callback,self,288,291
+tornado\test\concurrent_test.py,test_callback_error,self,293,295
+tornado\test\concurrent_test.py,test_future,self,297,301
+tornado\test\concurrent_test.py,test_future_error,self,303,307
+tornado\test\concurrent_test.py,test_generator,self,309,316
+tornado\test\concurrent_test.py,f,,310,314
+tornado\test\concurrent_test.py,test_generator_error,self,318,325
+tornado\test\concurrent_test.py,f,,319,323
+tornado\test\concurrent_test.py,test_no_calling,self,342,355
+tornado\test\concurrent_test.py,__init__,"self, io_loop",345,347
+tornado\test\concurrent_test.py,f,self,349,351
+tornado\test\concurrent_test.py,test_call_with_no_args,self,357,370
+tornado\test\concurrent_test.py,__init__,"self, io_loop",360,362
+tornado\test\concurrent_test.py,f,self,364,366
+tornado\test\concurrent_test.py,test_call_with_io_loop,self,372,385
+tornado\test\concurrent_test.py,__init__,"self, io_loop",375,377
+tornado\test\concurrent_test.py,f,self,379,381
+tornado\test\concurrent_test.py,test_call_with_executor,self,387,400
+tornado\test\concurrent_test.py,__init__,"self, io_loop",390,392
+tornado\test\concurrent_test.py,f,self,394,396
+tornado\test\concurrent_test.py,test_call_with_both,self,402,415
+tornado\test\concurrent_test.py,__init__,"self, io_loop",405,407
+tornado\test\concurrent_test.py,f,self,409,411
+tornado\test\curl_httpclient_test.py,get_http_client,self,26,31
+tornado\test\curl_httpclient_test.py,get,self,35,70
+tornado\test\curl_httpclient_test.py,get,self,74,75
+tornado\test\curl_httpclient_test.py,get,self,79,80
+tornado\test\curl_httpclient_test.py,setUp,self,85,87
+tornado\test\curl_httpclient_test.py,get_app,self,89,93
+tornado\test\curl_httpclient_test.py,create_client,"self, **kwargs",96,99
+tornado\test\curl_httpclient_test.py,test_prepare_curl_callback_stack_context,self,101,115
+tornado\test\curl_httpclient_test.py,error_handler,"typ, value, tb",104,107
+tornado\test\curl_httpclient_test.py,test_digest_auth,self,117,120
+tornado\test\curl_httpclient_test.py,test_custom_reason,self,122,124
+tornado\test\curl_httpclient_test.py,test_fail_custom_reason,self,126,128
+tornado\test\curl_httpclient_test.py,test_failed_setup,self,130,134
+tornado\test\escape_test.py,test_linkify,self,136,139
+tornado\test\escape_test.py,test_xhtml_escape,self,141,155
+tornado\test\escape_test.py,test_xhtml_unescape_numeric,self,157,168
+tornado\test\escape_test.py,test_url_escape_unicode,self,170,180
+tornado\test\escape_test.py,test_url_unescape_unicode,self,182,193
+tornado\test\escape_test.py,test_url_escape_quote_plus,self,195,206
+tornado\test\escape_test.py,test_escape_return_types,self,208,212
+tornado\test\escape_test.py,test_json_decode,self,214,221
+tornado\test\escape_test.py,test_json_encode,self,223,230
+tornado\test\escape_test.py,test_squeeze,self,232,233
+tornado\test\escape_test.py,test_recursive_unicode,self,235,245
+tornado\test\gen_test.py,setUp,self,30,32
+tornado\test\gen_test.py,named_context,"self, name",34,42
+tornado\test\gen_test.py,context,,35,41
+tornado\test\gen_test.py,run_gen,"self, f",44,46
+tornado\test\gen_test.py,delay_callback,"self, iterations, callback, arg",48,54
+tornado\test\gen_test.py,async_future,"self, result, callback",56,58
+tornado\test\gen_test.py,async_exception,"self, e",60,63
+tornado\test\gen_test.py,test_no_yield,self,65,69
+tornado\test\gen_test.py,f,,66,68
+tornado\test\gen_test.py,test_inline_cb,self,71,78
+tornado\test\gen_test.py,f,,72,77
+tornado\test\gen_test.py,test_ioloop_cb,self,80,86
+tornado\test\gen_test.py,f,,81,85
+tornado\test\gen_test.py,test_exception_phase1,self,88,92
+tornado\test\gen_test.py,f,,89,91
+tornado\test\gen_test.py,test_exception_phase2,self,94,100
+tornado\test\gen_test.py,f,,95,99
+tornado\test\gen_test.py,test_exception_in_task_phase1,self,102,113
+tornado\test\gen_test.py,fail_task,callback,103,104
+tornado\test\gen_test.py,f,,106,112
+tornado\test\gen_test.py,test_exception_in_task_phase2,self,115,127
+tornado\test\gen_test.py,fail_task,callback,117,118
+tornado\test\gen_test.py,f,,120,126
+tornado\test\gen_test.py,test_with_arg,self,129,136
+tornado\test\gen_test.py,f,,130,135
+tornado\test\gen_test.py,test_with_arg_tuple,self,138,145
+tornado\test\gen_test.py,f,,139,144
+tornado\test\gen_test.py,test_key_reuse,self,147,153
+tornado\test\gen_test.py,f,,148,152
+tornado\test\gen_test.py,test_key_reuse_tuple,self,155,161
+tornado\test\gen_test.py,f,,156,160
+tornado\test\gen_test.py,test_key_mismatch,self,163,169
+tornado\test\gen_test.py,f,,164,168
+tornado\test\gen_test.py,test_key_mismatch_tuple,self,171,177
+tornado\test\gen_test.py,f,,172,176
+tornado\test\gen_test.py,test_leaked_callback,self,179,184
+tornado\test\gen_test.py,f,,180,183
+tornado\test\gen_test.py,test_leaked_callback_tuple,self,186,191
+tornado\test\gen_test.py,f,,187,190
+tornado\test\gen_test.py,test_parallel_callback,self,193,204
+tornado\test\gen_test.py,f,,194,203
+tornado\test\gen_test.py,test_bogus_yield,self,206,210
+tornado\test\gen_test.py,f,,207,209
+tornado\test\gen_test.py,test_bogus_yield_tuple,self,212,216
+tornado\test\gen_test.py,f,,213,215
+tornado\test\gen_test.py,test_reuse,self,218,225
+tornado\test\gen_test.py,f,,219,223
+tornado\test\gen_test.py,test_task,self,227,232
+tornado\test\gen_test.py,f,,228,231
+tornado\test\gen_test.py,test_wait_all,self,234,242
+tornado\test\gen_test.py,f,,235,241
+tornado\test\gen_test.py,test_exception_in_yield,self,244,253
+tornado\test\gen_test.py,f,,245,252
+tornado\test\gen_test.py,test_resume_after_exception_in_yield,self,255,266
+tornado\test\gen_test.py,f,,256,265
+tornado\test\gen_test.py,test_orphaned_callback,self,268,277
+tornado\test\gen_test.py,f,,269,271
+tornado\test\gen_test.py,test_multi,self,279,287
+tornado\test\gen_test.py,f,,280,286
+tornado\test\gen_test.py,test_multi_dict,self,289,297
+tornado\test\gen_test.py,f,,290,296
+tornado\test\gen_test.py,test_multi_yieldpoint_delayed,self,302,312
+tornado\test\gen_test.py,f,,303,311
+tornado\test\gen_test.py,test_multi_yieldpoint_dict_delayed,self,314,324
+tornado\test\gen_test.py,f,,315,323
+tornado\test\gen_test.py,test_multi_future_delayed,self,326,336
+tornado\test\gen_test.py,f,,327,335
+tornado\test\gen_test.py,test_multi_future_dict_delayed,self,338,348
+tornado\test\gen_test.py,f,,339,347
+tornado\test\gen_test.py,test_multi_performance,self,350,359
+tornado\test\gen_test.py,test_multi_empty,self,361,367
+tornado\test\gen_test.py,test_multi_mixed_types,self,369,376
+tornado\test\gen_test.py,test_future,self,378,381
+tornado\test\gen_test.py,test_multi_future,self,383,386
+tornado\test\gen_test.py,test_multi_future_duplicate,self,388,392
+tornado\test\gen_test.py,test_multi_dict_future,self,394,397
+tornado\test\gen_test.py,test_multi_exceptions,self,399,416
+tornado\test\gen_test.py,test_multi_future_exceptions,self,418,436
+tornado\test\gen_test.py,test_arguments,self,438,465
+tornado\test\gen_test.py,f,,439,464
+tornado\test\gen_test.py,task_func,callback,458,459
+tornado\test\gen_test.py,test_stack_context_leak,self,467,494
+tornado\test\gen_test.py,_stack_depth,,470,478
+tornado\test\gen_test.py,inner,callback,480,483
+tornado\test\gen_test.py,outer,,485,492
+tornado\test\gen_test.py,test_stack_context_leak_exception,self,496,514
+tornado\test\gen_test.py,inner,callback,498,501
+tornado\test\gen_test.py,outer,,503,512
+tornado\test\gen_test.py,function_with_stack_context,"self, callback",516,525
+tornado\test\gen_test.py,step2,,520,522
+tornado\test\gen_test.py,test_wait_transfer_stack_context,self,527,535
+tornado\test\gen_test.py,test_task_transfer_stack_context,self,537,540
+tornado\test\gen_test.py,test_raise_after_stop,self,542,551
+tornado\test\gen_test.py,f,,545,548
+tornado\test\gen_test.py,test_sync_raise_return,self,553,562
+tornado\test\gen_test.py,f,,556,559
+tornado\test\gen_test.py,test_async_raise_return,self,564,572
+tornado\test\gen_test.py,f,,565,569
+tornado\test\gen_test.py,test_sync_raise_return_value,self,574,580
+tornado\test\gen_test.py,f,,575,577
+tornado\test\gen_test.py,test_sync_raise_return_value_tuple,self,582,588
+tornado\test\gen_test.py,f,,583,585
+tornado\test\gen_test.py,test_async_raise_return_value,self,590,597
+tornado\test\gen_test.py,f,,591,594
+tornado\test\gen_test.py,test_async_raise_return_value_tuple,self,599,606
+tornado\test\gen_test.py,f,,600,603
+tornado\test\gen_test.py,test_return_value,self,608,616
+tornado\test\gen_test.py,f,,611,613
+tornado\test\gen_test.py,test_return_value_tuple,self,618,626
+tornado\test\gen_test.py,f,,621,623
+tornado\test\gen_test.py,test_task_refcounting,self,628,645
+tornado\test\gen_test.py,f,,632,641
+tornado\test\gen_test.py,setUp,self,649,654
+tornado\test\gen_test.py,tearDown,self,656,658
+tornado\test\gen_test.py,test_sync_gen_return,self,660,667
+tornado\test\gen_test.py,f,,662,664
+tornado\test\gen_test.py,test_async_gen_return,self,669,677
+tornado\test\gen_test.py,f,,671,674
+tornado\test\gen_test.py,test_sync_return,self,679,686
+tornado\test\gen_test.py,f,,681,683
+tornado\test\gen_test.py,test_async_return,self,688,699
+tornado\test\gen_test.py,test_async_early_return,self,701,716
+tornado\test\gen_test.py,test_async_await,self,718,731
+tornado\test\gen_test.py,test_async_await_mixed_multi_native_future,self,733,749
+tornado\test\gen_test.py,f2,,742,745
+tornado\test\gen_test.py,test_async_await_mixed_multi_native_yieldpoint,self,751,768
+tornado\test\gen_test.py,f2,,760,763
+tornado\test\gen_test.py,test_sync_return_no_value,self,770,777
+tornado\test\gen_test.py,f,,772,774
+tornado\test\gen_test.py,test_async_return_no_value,self,779,788
+tornado\test\gen_test.py,f,,782,785
+tornado\test\gen_test.py,test_sync_raise,self,790,801
+tornado\test\gen_test.py,f,,792,794
+tornado\test\gen_test.py,test_async_raise,self,803,812
+tornado\test\gen_test.py,f,,805,808
+tornado\test\gen_test.py,test_pass_callback,self,814,821
+tornado\test\gen_test.py,f,,816,818
+tornado\test\gen_test.py,test_replace_yieldpoint_exception,self,823,841
+tornado\test\gen_test.py,f1,,827,829
+tornado\test\gen_test.py,f2,,831,836
+tornado\test\gen_test.py,test_swallow_yieldpoint_exception,self,843,860
+tornado\test\gen_test.py,f1,,847,849
+tornado\test\gen_test.py,f2,,851,856
+tornado\test\gen_test.py,test_replace_context_exception,self,862,884
+tornado\test\gen_test.py,f2,,870,879
+tornado\test\gen_test.py,test_swallow_context_exception,self,886,903
+tornado\test\gen_test.py,f2,,890,899
+tornado\test\gen_test.py,test_moment,self,905,929
+tornado\test\gen_test.py,f,"name, yieldable",909,913
+tornado\test\gen_test.py,test_sleep,self,931,934
+tornado\test\gen_test.py,test_py3_leak_exception_context,self,936,958
+tornado\test\gen_test.py,inner,iteration,942,944
+tornado\test\gen_test.py,get,self,962,975
+tornado\test\gen_test.py,get,self,979,991
+tornado\test\gen_test.py,get,self,995,1009
+tornado\test\gen_test.py,get,self,1013,1020
+tornado\test\gen_test.py,get,self,1024,1030
+tornado\test\gen_test.py,get,self,1034,1039
+tornado\test\gen_test.py,get,self,1043,1055
+tornado\test\gen_test.py,fail_task,callback,1049,1050
+tornado\test\gen_test.py,prepare,self,1060,1064
+tornado\test\gen_test.py,get,self,1066,1072
+tornado\test\gen_test.py,prepare,self,1076,1079
+tornado\test\gen_test.py,get,self,1081,1082
+tornado\test\gen_test.py,get_app,self,1095,1107
+tornado\test\gen_test.py,test_sequence_handler,self,1110,1112
+tornado\test\gen_test.py,test_coroutine_sequence_handler,self,1114,1116
+tornado\test\gen_test.py,test_coroutine_unfinished_sequence_handler,self,1118,1120
+tornado\test\gen_test.py,test_task_handler,self,1122,1124
+tornado\test\gen_test.py,test_exception_handler,self,1126,1130
+tornado\test\gen_test.py,test_coroutine_exception_handler,self,1132,1136
+tornado\test\gen_test.py,test_yield_exception_handler,self,1138,1140
+tornado\test\gen_test.py,test_undecorated_coroutines,self,1142,1144
+tornado\test\gen_test.py,test_async_prepare_error_handler,self,1146,1148
+tornado\test\gen_test.py,test_native_coroutine_handler,self,1150,1154
+tornado\test\gen_test.py,test_timeout,self,1158,1162
+tornado\test\gen_test.py,test_completes_before_timeout,self,1164,1171
+tornado\test\gen_test.py,test_fails_before_timeout,self,1173,1181
+tornado\test\gen_test.py,test_already_resolved,self,1183,1189
+tornado\test\gen_test.py,test_timeout_concurrent_future,self,1191,1197
+tornado\test\gen_test.py,test_completed_concurrent_future,self,1199,1204
+tornado\test\gen_test.py,test_empty_iterator,self,1208,1217
+tornado\test\gen_test.py,test_already_done,self,1219,1268
+tornado\test\gen_test.py,finish_coroutines,"self, iteration, futures",1270,1280
+tornado\test\gen_test.py,test_iterator,self,1282,1307
+tornado\test\gen_test.py,test_iterator_async_await,self,1309,1346
+tornado\test\gen_test.py,test_no_ref,self,1348,1355
+tornado\test\httpclient_test.py,get,self,31,34
+tornado\test\httpclient_test.py,post,self,38,40
+tornado\test\httpclient_test.py,put,self,44,46
+tornado\test\httpclient_test.py,prepare,self,50,53
+tornado\test\httpclient_test.py,get,self,57,63
+tornado\test\httpclient_test.py,get,self,67,68
+tornado\test\httpclient_test.py,get,"self, count",72,77
+tornado\test\httpclient_test.py,post,self,81,82
+tornado\test\httpclient_test.py,get,self,86,87
+tornado\test\httpclient_test.py,get,self,91,93
+tornado\test\httpclient_test.py,_clear_headers_for_304,self,95,98
+tornado\test\httpclient_test.py,patch,self,103,105
+tornado\test\httpclient_test.py,method,self,111,112
+tornado\test\httpclient_test.py,get_app,self,122,136
+tornado\test\httpclient_test.py,test_patch_receives_payload,self,138,142
+tornado\test\httpclient_test.py,test_hello_world,self,144,153
+tornado\test\httpclient_test.py,test_streaming_callback,self,155,162
+tornado\test\httpclient_test.py,test_post,self,164,168
+tornado\test\httpclient_test.py,test_chunked,self,170,178
+tornado\test\httpclient_test.py,test_chunked_close,self,180,211
+tornado\test\httpclient_test.py,write_response,"stream, request_data",185,198
+tornado\test\httpclient_test.py,accept_callback,"conn, address",200,205
+tornado\test\httpclient_test.py,test_streaming_stack_context,self,213,231
+tornado\test\httpclient_test.py,error_handler,"typ, value, tb",217,219
+tornado\test\httpclient_test.py,streaming_cb,chunk,221,224
+tornado\test\httpclient_test.py,test_basic_auth,self,233,236
+tornado\test\httpclient_test.py,test_basic_auth_explicit_mode,self,238,242
+tornado\test\httpclient_test.py,test_unsupported_auth_mode,self,244,253
+tornado\test\httpclient_test.py,test_follow_redirect,self,255,263
+tornado\test\httpclient_test.py,test_credentials_in_url,self,265,270
+tornado\test\httpclient_test.py,test_body_encoding,self,272,295
+tornado\test\httpclient_test.py,test_types,self,297,302
+tornado\test\httpclient_test.py,test_header_callback,self,304,330
+tornado\test\httpclient_test.py,header_callback,header_line,309,317
+tornado\test\httpclient_test.py,streaming_callback,chunk,319,324
+tornado\test\httpclient_test.py,test_header_callback_stack_context,self,332,346
+tornado\test\httpclient_test.py,error_handler,"typ, value, tb",335,337
+tornado\test\httpclient_test.py,header_callback,header_line,339,341
+tornado\test\httpclient_test.py,test_configure_defaults,self,348,358
+tornado\test\httpclient_test.py,test_header_types,self,360,373
+tornado\test\httpclient_test.py,test_multi_line_headers,self,375,399
+tornado\test\httpclient_test.py,write_response,"stream, request_data",380,388
+tornado\test\httpclient_test.py,accept_callback,"conn, address",390,393
+tornado\test\httpclient_test.py,test_304_with_content_length,self,401,408
+tornado\test\httpclient_test.py,test_final_callback_stack_context,self,410,429
+tornado\test\httpclient_test.py,handle_callback_exception,callback,421,423
+tornado\test\httpclient_test.py,test_future_interface,self,431,434
+tornado\test\httpclient_test.py,test_future_http_error,self,436,441
+tornado\test\httpclient_test.py,test_future_http_error_no_raise,self,443,446
+tornado\test\httpclient_test.py,test_reuse_request_from_response,self,448,459
+tornado\test\httpclient_test.py,test_all_methods,self,461,472
+tornado\test\httpclient_test.py,test_body_sanity_checks,self,474,499
+tornado\test\httpclient_test.py,test_put_307,self,517,521
+tornado\test\httpclient_test.py,test_request_set,self,525,529
+tornado\test\httpclient_test.py,test_default_set,self,531,534
+tornado\test\httpclient_test.py,test_both_set,self,536,540
+tornado\test\httpclient_test.py,test_neither_set,self,542,545
+tornado\test\httpclient_test.py,test_bad_attribute,self,547,551
+tornado\test\httpclient_test.py,test_defaults_none,self,553,555
+tornado\test\httpclient_test.py,test_str,self,559,564
+tornado\test\httpclient_test.py,setUp,self,568,589
+tornado\test\httpclient_test.py,tearDown,self,591,603
+tornado\test\httpclient_test.py,stop_server,,592,599
+tornado\test\httpclient_test.py,get_url,"self, path",605,606
+tornado\test\httpclient_test.py,test_sync_client,self,608,610
+tornado\test\httpclient_test.py,test_sync_client_error,self,612,617
+tornado\test\httpclient_test.py,test_headers,self,621,623
+tornado\test\httpclient_test.py,test_headers_setter,self,625,628
+tornado\test\httpclient_test.py,test_null_headers_setter,self,630,633
+tornado\test\httpclient_test.py,test_body,self,635,637
+tornado\test\httpclient_test.py,test_body_setter,self,639,642
+tornado\test\httpclient_test.py,test_if_modified_since,self,644,648
+tornado\test\httpclient_test.py,test_copy,self,652,656
+tornado\test\httpclient_test.py,test_str,self,658,660
+tornado\test\httpserver_test.py,read_stream_body,"stream, callback",30,45
+tornado\test\httpserver_test.py,headers_received,"self, start_line, headers",36,37
+tornado\test\httpserver_test.py,data_received,"self, chunk",39,40
+tornado\test\httpserver_test.py,finish,self,42,43
+tornado\test\httpserver_test.py,get_app,self,49,50
+tornado\test\httpserver_test.py,fetch_json,"self, *args, **kwargs",52,55
+tornado\test\httpserver_test.py,initialize,"self, protocol='http'",59,60
+tornado\test\httpserver_test.py,get,self,62,65
+tornado\test\httpserver_test.py,post,self,67,68
+tornado\test\httpserver_test.py,get_app,self,82,84
+tornado\test\httpserver_test.py,get_ssl_options,self,88,90
+tornado\test\httpserver_test.py,get_ssl_version,self,92,93
+tornado\test\httpserver_test.py,test_ssl,self,95,97
+tornado\test\httpserver_test.py,test_large_post,self,99,103
+tornado\test\httpserver_test.py,test_non_ssl_request,self,105,117
+tornado\test\httpserver_test.py,test_error_logging,self,119,127
+tornado\test\httpserver_test.py,get_ssl_version,self,136,137
+tornado\test\httpserver_test.py,get_ssl_version,self,142,143
+tornado\test\httpserver_test.py,get_ssl_version,self,148,149
+tornado\test\httpserver_test.py,get_ssl_options,self,154,158
+tornado\test\httpserver_test.py,test_missing_arguments,self,162,165
+tornado\test\httpserver_test.py,test_missing_key,self,168,189
+tornado\test\httpserver_test.py,post,self,194,198
+tornado\test\httpserver_test.py,get_handlers,self,204,206
+tornado\test\httpserver_test.py,get_app,self,208,209
+tornado\test\httpserver_test.py,raw_fetch,"self, headers, body, newline='\r\n'",211,221
+tornado\test\httpserver_test.py,test_multipart_form,self,223,246
+tornado\test\httpserver_test.py,test_newlines,self,248,253
+tornado\test\httpserver_test.py,test_100_continue,self,255,281
+tornado\test\httpserver_test.py,get,self,285,286
+tornado\test\httpserver_test.py,post,self,288,289
+tornado\test\httpserver_test.py,prepare,self,293,316
+tornado\test\httpserver_test.py,post,self,318,320
+tornado\test\httpserver_test.py,get,self,322,323
+tornado\test\httpserver_test.py,check_type,"self, name, obj, expected_type",325,329
+tornado\test\httpserver_test.py,get_app,self,333,336
+tornado\test\httpserver_test.py,test_query_string_encoding,self,339,342
+tornado\test\httpserver_test.py,test_empty_query_string,self,344,347
+tornado\test\httpserver_test.py,test_empty_post_parameters,self,349,352
+tornado\test\httpserver_test.py,test_types,self,354,362
+tornado\test\httpserver_test.py,test_double_slash,self,364,370
+tornado\test\httpserver_test.py,test_malformed_body,self,372,385
+tornado\test\httpserver_test.py,get_app,self,389,391
+tornado\test\httpserver_test.py,setUp,self,394,398
+tornado\test\httpserver_test.py,tearDown,self,400,402
+tornado\test\httpserver_test.py,test_empty_request,self,404,407
+tornado\test\httpserver_test.py,test_malformed_first_line,self,409,416
+tornado\test\httpserver_test.py,test_malformed_headers,self,418,423
+tornado\test\httpserver_test.py,test_chunked_request_body,self,425,442
+tornado\test\httpserver_test.py,get,self,447,449
+tornado\test\httpserver_test.py,get_httpserver_options,self,451,452
+tornado\test\httpserver_test.py,test_ip_headers,self,454,490
+tornado\test\httpserver_test.py,test_scheme_headers,self,492,508
+tornado\test\httpserver_test.py,get_app,self,512,513
+tornado\test\httpserver_test.py,get_httpserver_options,self,515,518
+tornado\test\httpserver_test.py,test_request_without_xprotocol,self,520,529
+tornado\test\httpserver_test.py,get,self,534,535
+tornado\test\httpserver_test.py,get_httpserver_options,self,537,538
+tornado\test\httpserver_test.py,test_manual_protocol,self,540,541
+tornado\test\httpserver_test.py,setUp,self,556,566
+tornado\test\httpserver_test.py,tearDown,self,568,572
+tornado\test\httpserver_test.py,test_unix_socket,self,574,583
+tornado\test\httpserver_test.py,test_unix_socket_bad_request,self,585,592
+tornado\test\httpserver_test.py,get_app,self,601,628
+tornado\test\httpserver_test.py,get,self,603,604
+tornado\test\httpserver_test.py,post,self,606,607
+tornado\test\httpserver_test.py,get,self,610,613
+tornado\test\httpserver_test.py,get,self,616,618
+tornado\test\httpserver_test.py,on_connection_close,self,620,624
+tornado\test\httpserver_test.py,setUp,self,630,632
+tornado\test\httpserver_test.py,tearDown,self,634,642
+tornado\test\httpserver_test.py,connect,self,645,648
+tornado\test\httpserver_test.py,read_headers,self,650,657
+tornado\test\httpserver_test.py,read_response,self,659,663
+tornado\test\httpserver_test.py,close,self,665,667
+tornado\test\httpserver_test.py,test_two_requests,self,669,675
+tornado\test\httpserver_test.py,test_request_close,self,677,684
+tornado\test\httpserver_test.py,test_http10,self,687,696
+tornado\test\httpserver_test.py,test_http10_keepalive,self,698,707
+tornado\test\httpserver_test.py,test_http10_keepalive_extra_crlf,self,709,718
+tornado\test\httpserver_test.py,test_pipelined_requests,self,720,725
+tornado\test\httpserver_test.py,test_pipelined_cancel,self,727,732
+tornado\test\httpserver_test.py,test_cancel_during_download,self,734,740
+tornado\test\httpserver_test.py,test_finish_while_closed,self,742,746
+tornado\test\httpserver_test.py,test_keepalive_chunked,self,748,759
+tornado\test\httpserver_test.py,get_app,self,763,764
+tornado\test\httpserver_test.py,post_gzip,"self, body",766,773
+tornado\test\httpserver_test.py,test_uncompressed,self,775,777
+tornado\test\httpserver_test.py,get_httpserver_options,self,781,782
+tornado\test\httpserver_test.py,test_gzip,self,784,786
+tornado\test\httpserver_test.py,test_gzip_unsupported,self,790,796
+tornado\test\httpserver_test.py,get_http_client,self,804,807
+tornado\test\httpserver_test.py,get_httpserver_options,self,809,810
+tornado\test\httpserver_test.py,__init__,"self, connection",813,814
+tornado\test\httpserver_test.py,headers_received,"self, start_line, headers",816,817
+tornado\test\httpserver_test.py,data_received,"self, chunk",819,820
+tornado\test\httpserver_test.py,finish,self,822,828
+tornado\test\httpserver_test.py,get_app,self,830,834
+tornado\test\httpserver_test.py,start_request,"self, server_conn, request_conn",832,833
+tornado\test\httpserver_test.py,fetch_chunk_sizes,"self, **kwargs",836,846
+tornado\test\httpserver_test.py,compress,"self, body",848,856
+tornado\test\httpserver_test.py,test_regular_body,self,858,861
+tornado\test\httpserver_test.py,test_compressed_body,self,863,865
+tornado\test\httpserver_test.py,test_chunked_body,self,869,875
+tornado\test\httpserver_test.py,body_producer,write,870,872
+tornado\test\httpserver_test.py,test_chunked_compressed,self,877,885
+tornado\test\httpserver_test.py,body_producer,write,881,883
+tornado\test\httpserver_test.py,get_app,self,889,890
+tornado\test\httpserver_test.py,get_httpserver_options,self,892,893
+tornado\test\httpserver_test.py,test_small_headers,self,895,898
+tornado\test\httpserver_test.py,test_large_headers,self,900,906
+tornado\test\httpserver_test.py,get_app,self,911,912
+tornado\test\httpserver_test.py,get_httpserver_options,self,914,915
+tornado\test\httpserver_test.py,setUp,self,917,919
+tornado\test\httpserver_test.py,tearDown,self,921,924
+tornado\test\httpserver_test.py,connect,self,926,931
+tornado\test\httpserver_test.py,test_unused_connection,self,933,936
+tornado\test\httpserver_test.py,test_idle_after_use,self,938,953
+tornado\test\httpserver_test.py,get_app,self,957,982
+tornado\test\httpserver_test.py,put,self,959,960
+tornado\test\httpserver_test.py,initialize,self,964,965
+tornado\test\httpserver_test.py,prepare,self,967,973
+tornado\test\httpserver_test.py,data_received,"self, data",975,976
+tornado\test\httpserver_test.py,put,self,978,979
+tornado\test\httpserver_test.py,get_httpserver_options,self,984,985
+tornado\test\httpserver_test.py,get_http_client,self,987,990
+tornado\test\httpserver_test.py,test_small_body,self,992,996
+tornado\test\httpserver_test.py,test_large_body_buffered,self,998,1001
+tornado\test\httpserver_test.py,test_large_body_buffered_chunked,self,1003,1007
+tornado\test\httpserver_test.py,test_large_body_streaming,self,1009,1012
+tornado\test\httpserver_test.py,test_large_body_streaming_chunked,self,1014,1018
+tornado\test\httpserver_test.py,test_large_body_streaming_override,self,1020,1023
+tornado\test\httpserver_test.py,test_large_body_streaming_chunked_override,self,1025,1028
+tornado\test\httpserver_test.py,test_timeout,self,1030,1043
+tornado\test\httpserver_test.py,test_body_size_override_reset,self,1045,1064
+tornado\test\httpserver_test.py,get_app,self,1068,1087
+tornado\test\httpserver_test.py,handle_request,request,1072,1086
+tornado\test\httpserver_test.py,test_legacy_interface,self,1089,1093
+tornado\test\httputil_test.py,test_url_concat_no_query_params,self,19,24
+tornado\test\httputil_test.py,test_url_concat_encode_args,self,26,31
+tornado\test\httputil_test.py,test_url_concat_trailing_q,self,33,38
+tornado\test\httputil_test.py,test_url_concat_q_with_no_trailing_amp,self,40,45
+tornado\test\httputil_test.py,test_url_concat_trailing_amp,self,47,52
+tornado\test\httputil_test.py,test_url_concat_mult_params,self,54,59
+tornado\test\httputil_test.py,test_url_concat_no_params,self,61,66
+tornado\test\httputil_test.py,test_file_upload,self,70,82
+tornado\test\httputil_test.py,test_unquoted_names,self,84,97
+tornado\test\httputil_test.py,test_special_filenames,self,99,122
+tornado\test\httputil_test.py,test_boundary_starts_and_ends_with_quotes,self,124,136
+tornado\test\httputil_test.py,test_missing_headers,self,138,148
+tornado\test\httputil_test.py,test_invalid_content_disposition,self,150,161
+tornado\test\httputil_test.py,test_line_does_not_end_with_correct_line_break,self,163,173
+tornado\test\httputil_test.py,test_content_disposition_header_without_name_parameter,self,175,186
+tornado\test\httputil_test.py,test_data_after_final_boundary,self,188,204
+tornado\test\httputil_test.py,test_multi_line,self,208,230
+tornado\test\httputil_test.py,test_unicode_newlines,self,232,269
+tornado\test\httputil_test.py,test_optional_cr,self,271,280
+tornado\test\httputil_test.py,test_copy,self,283,298
+tornado\test\httputil_test.py,test_pickle_roundtrip,self,300,308
+tornado\test\httputil_test.py,test_setdefault,self,310,319
+tornado\test\httputil_test.py,check,"self, value",327,328
+tornado\test\httputil_test.py,test_unix_time_float,self,330,331
+tornado\test\httputil_test.py,test_unix_time_int,self,333,334
+tornado\test\httputil_test.py,test_struct_time,self,336,337
+tornado\test\httputil_test.py,test_time_tuple,self,339,342
+tornado\test\httputil_test.py,test_datetime,self,344,345
+tornado\test\httputil_test.py,test_default_constructor,self,351,355
+tornado\test\httputil_test.py,test_body_is_a_byte_string,self,357,359
+tornado\test\httputil_test.py,test_parse_request_start_line,self,367,372
+tornado\test\import_test.py,test_import_everything,self,7,36
+tornado\test\import_test.py,test_import_pycurl,self,41,47
+tornado\test\ioloop_test.py,__init__,self,28,30
+tornado\test\ioloop_test.py,time,self,32,33
+tornado\test\ioloop_test.py,sleep,"self, t",35,36
+tornado\test\ioloop_test.py,poll,"self, timeout",38,43
+tornado\test\ioloop_test.py,initialize,self,53,56
+tornado\test\ioloop_test.py,sleep,"self, t",58,60
+tornado\test\ioloop_test.py,test_add_callback_wakeup,self,64,80
+tornado\test\ioloop_test.py,callback,,68,70
+tornado\test\ioloop_test.py,schedule_callback,,72,76
+tornado\test\ioloop_test.py,test_add_callback_wakeup_other_thread,self,82,94
+tornado\test\ioloop_test.py,target,,84,88
+tornado\test\ioloop_test.py,test_add_timeout_timedelta,self,96,98
+tornado\test\ioloop_test.py,test_multiple_add,self,100,112
+tornado\test\ioloop_test.py,test_remove_without_add,self,114,121
+tornado\test\ioloop_test.py,test_add_callback_from_signal,self,123,127
+tornado\test\ioloop_test.py,test_add_callback_from_signal_other_thread,self,129,138
+tornado\test\ioloop_test.py,test_add_callback_while_closing,self,140,159
+tornado\test\ioloop_test.py,target,,145,149
+tornado\test\ioloop_test.py,test_handle_callback_exception,self,161,172
+tornado\test\ioloop_test.py,handle_callback_exception,callback,164,166
+tornado\test\ioloop_test.py,test_read_while_writeable,self,174,191
+tornado\test\ioloop_test.py,handler,"fd, events",181,183
+tornado\test\ioloop_test.py,test_remove_timeout_after_fire,self,193,197
+tornado\test\ioloop_test.py,test_remove_timeout_cleanup,self,199,211
+tornado\test\ioloop_test.py,test_remove_timeout_from_timeout,self,213,232
+tornado\test\ioloop_test.py,t1,,221,223
+tornado\test\ioloop_test.py,t2,,226,227
+tornado\test\ioloop_test.py,test_timeout_with_arguments,self,234,244
+tornado\test\ioloop_test.py,test_add_timeout_return,self,246,251
+tornado\test\ioloop_test.py,test_call_at_return,self,253,256
+tornado\test\ioloop_test.py,test_call_later_return,self,258,261
+tornado\test\ioloop_test.py,test_close_file_object,self,263,288
+tornado\test\ioloop_test.py,__init__,"self, sockobj",272,274
+tornado\test\ioloop_test.py,fileno,self,276,277
+tornado\test\ioloop_test.py,close,self,279,281
+tornado\test\ioloop_test.py,test_handler_callback_file_object,self,290,313
+tornado\test\ioloop_test.py,handle_connection,"fd, events",295,299
+tornado\test\ioloop_test.py,test_mixed_fd_fileobj,self,315,326
+tornado\test\ioloop_test.py,f,"fd, events",318,319
+tornado\test\ioloop_test.py,test_reentrant,self,328,343
+tornado\test\ioloop_test.py,callback,,333,339
+tornado\test\ioloop_test.py,test_exception_logging,self,345,353
+tornado\test\ioloop_test.py,test_exception_logging_future,self,355,364
+tornado\test\ioloop_test.py,callback,,358,361
+tornado\test\ioloop_test.py,test_exception_logging_native_coro,self,366,377
+tornado\test\ioloop_test.py,test_spawn_callback,self,378,389
+tornado\test\ioloop_test.py,test_remove_handler_from_handler,self,391,417
+tornado\test\ioloop_test.py,handle_read,"fd, events",402,407
+tornado\test\ioloop_test.py,setUp,self,423,425
+tornado\test\ioloop_test.py,tearDown,self,427,429
+tornado\test\ioloop_test.py,test_default_current,self,431,438
+tornado\test\ioloop_test.py,test_non_current,self,440,454
+tornado\test\ioloop_test.py,f,,447,449
+tornado\test\ioloop_test.py,test_force_current,self,456,463
+tornado\test\ioloop_test.py,setUp,self,467,469
+tornado\test\ioloop_test.py,add_callback,"self, callback, *args, **kwargs",471,472
+tornado\test\ioloop_test.py,context,"self, name",474,478
+tornado\test\ioloop_test.py,test_pre_wrap,self,480,494
+tornado\test\ioloop_test.py,f1,,483,486
+tornado\test\ioloop_test.py,test_pre_wrap_with_args,self,496,513
+tornado\test\ioloop_test.py,f1,"foo, bar",501,504
+tornado\test\ioloop_test.py,add_callback,"self, callback, *args, **kwargs",518,519
+tornado\test\ioloop_test.py,test_add_future_threads,self,524,530
+tornado\test\ioloop_test.py,test_add_future_stack_context,self,532,562
+tornado\test\ioloop_test.py,task,,535,542
+tornado\test\ioloop_test.py,callback,future,544,546
+tornado\test\ioloop_test.py,handle_exception,"typ, value, traceback",548,551
+tornado\test\ioloop_test.py,setUp,self,566,567
+tornado\test\ioloop_test.py,tearDown,self,569,570
+tornado\test\ioloop_test.py,test_sync_result,self,572,574
+tornado\test\ioloop_test.py,test_sync_exception,self,576,578
+tornado\test\ioloop_test.py,test_async_result,self,580,585
+tornado\test\ioloop_test.py,f,,581,584
+tornado\test\ioloop_test.py,test_async_exception,self,587,593
+tornado\test\ioloop_test.py,f,,588,591
+tornado\test\ioloop_test.py,test_current,self,595,598
+tornado\test\ioloop_test.py,f,,596,597
+tornado\test\ioloop_test.py,test_timeout,self,600,604
+tornado\test\ioloop_test.py,f,,601,603
+tornado\test\ioloop_test.py,test_native_coroutine,self,606,612
+tornado\test\ioloop_test.py,setUp,self,616,618
+tornado\test\ioloop_test.py,tearDown,self,620,621
+tornado\test\ioloop_test.py,test_basic,self,623,632
+tornado\test\ioloop_test.py,cb,,626,627
+tornado\test\ioloop_test.py,test_overrun,self,634,654
+tornado\test\ioloop_test.py,cb,,645,650
+tornado\test\iostream_test.py,_server_ssl_options,,31,34
+tornado\test\iostream_test.py,get,self,39,40
+tornado\test\iostream_test.py,_make_client_iostream,self,44,45
+tornado\test\iostream_test.py,get_app,self,47,48
+tornado\test\iostream_test.py,test_connection_closed,self,50,58
+tornado\test\iostream_test.py,test_read_until_close,self,60,69
+tornado\test\iostream_test.py,test_read_zero_bytes,self,71,93
+tornado\test\iostream_test.py,test_write_while_connecting,self,95,125
+tornado\test\iostream_test.py,connected_callback,,99,101
+tornado\test\iostream_test.py,write_callback,,108,110
+tornado\test\iostream_test.py,test_future_interface,self,127,143
+tornado\test\iostream_test.py,test_future_close_while_reading,self,145,152
+tornado\test\iostream_test.py,test_future_read_until_close,self,154,167
+tornado\test\iostream_test.py,_make_server_iostream,"self, connection, **kwargs",171,172
+tornado\test\iostream_test.py,_make_client_iostream,"self, connection, **kwargs",174,175
+tornado\test\iostream_test.py,make_iostream_pair,"self, **kwargs",177,196
+tornado\test\iostream_test.py,accept_callback,"connection, address",181,183
+tornado\test\iostream_test.py,connect_callback,,185,187
+tornado\test\iostream_test.py,test_streaming_callback_with_data_in_buffer,self,198,213
+tornado\test\iostream_test.py,closed_callback,chunk,205,206
+tornado\test\iostream_test.py,test_write_zero_bytes,self,215,222
+tornado\test\iostream_test.py,test_connection_refused,self,224,248
+tornado\test\iostream_test.py,connect_callback,,233,235
+tornado\test\iostream_test.py,test_gaierror,self,250,265
+tornado\test\iostream_test.py,test_read_callback_error,self,267,283
+tornado\test\iostream_test.py,test_streaming_callback,self,285,313
+tornado\test\iostream_test.py,streaming_callback,data,291,293
+tornado\test\iostream_test.py,final_callback,data,295,298
+tornado\test\iostream_test.py,test_streaming_until_close,self,315,340
+tornado\test\iostream_test.py,streaming_callback,data,321,323
+tornado\test\iostream_test.py,close_callback,data,325,328
+tornado\test\iostream_test.py,test_streaming_until_close_future,self,342,365
+tornado\test\iostream_test.py,client_task,,347,349
+tornado\test\iostream_test.py,server_task,,351,356
+tornado\test\iostream_test.py,f,,358,360
+tornado\test\iostream_test.py,test_delayed_close_callback,self,367,390
+tornado\test\iostream_test.py,callback1,data,378,381
+tornado\test\iostream_test.py,callback2,data,383,384
+tornado\test\iostream_test.py,test_future_delayed_close_callback,self,392,410
+tornado\test\iostream_test.py,f,self,398,405
+tornado\test\iostream_test.py,test_close_buffered_data,self,412,438
+tornado\test\iostream_test.py,test_read_until_close_after_close,self,440,458
+tornado\test\iostream_test.py,test_read_until_close_with_error,self,460,470
+tornado\test\iostream_test.py,test_streaming_read_until_close_after_close,self,472,491
+tornado\test\iostream_test.py,test_large_read_until,self,493,515
+tornado\test\iostream_test.py,test_close_callback_with_pending_read,self,517,539
+tornado\test\iostream_test.py,test_inline_read_error,self,541,558
+tornado\test\iostream_test.py,test_async_read_error_logging,self,560,580
+tornado\test\iostream_test.py,fake_read_from_fd,,571,573
+tornado\test\iostream_test.py,test_future_close_callback,self,582,603
+tornado\test\iostream_test.py,close_callback,,588,590
+tornado\test\iostream_test.py,test_read_bytes_partial,self,605,628
+tornado\test\iostream_test.py,test_read_until_max_bytes,self,630,655
+tornado\test\iostream_test.py,test_read_until_max_bytes_inline,self,657,672
+tornado\test\iostream_test.py,test_read_until_max_bytes_ignores_extra,self,674,688
+tornado\test\iostream_test.py,test_read_until_regex_max_bytes,self,690,715
+tornado\test\iostream_test.py,test_read_until_regex_max_bytes_inline,self,717,732
+tornado\test\iostream_test.py,test_read_until_regex_max_bytes_ignores_extra,self,734,748
+tornado\test\iostream_test.py,test_small_reads_from_large_buffer,self,750,763
+tornado\test\iostream_test.py,test_small_read_untils_from_large_buffer,self,765,778
+tornado\test\iostream_test.py,test_flow_control,self,780,798
+tornado\test\iostream_test.py,_make_client_iostream,self,802,803
+tornado\test\iostream_test.py,_make_client_iostream,self,807,809
+tornado\test\iostream_test.py,_make_server_iostream,"self, connection, **kwargs",813,814
+tornado\test\iostream_test.py,_make_client_iostream,"self, connection, **kwargs",816,817
+tornado\test\iostream_test.py,_make_server_iostream,"self, connection, **kwargs",821,826
+tornado\test\iostream_test.py,_make_client_iostream,"self, connection, **kwargs",828,831
+tornado\test\iostream_test.py,_make_server_iostream,"self, connection, **kwargs",839,847
+tornado\test\iostream_test.py,_make_client_iostream,"self, connection, **kwargs",849,852
+tornado\test\iostream_test.py,setUp,self,856,871
+tornado\test\iostream_test.py,tearDown,self,873,879
+tornado\test\iostream_test.py,accept,"self, connection, address",881,885
+tornado\test\iostream_test.py,client_send_line,"self, line",887,891
+tornado\test\iostream_test.py,server_send_line,"self, line",893,897
+tornado\test\iostream_test.py,client_start_tls,"self, ssl_options=None, server_hostname=None",899,902
+tornado\test\iostream_test.py,server_start_tls,"self, ssl_options=None",904,907
+tornado\test\iostream_test.py,test_start_tls_smtp,self,909,928
+tornado\test\iostream_test.py,test_handshake_fail,self,930,939
+tornado\test\iostream_test.py,test_check_hostname,self,941,958
+tornado\test\iostream_test.py,connect_to_server,"self, server_cls",962,978
+tornado\test\iostream_test.py,test_wait_for_handshake_callback,self,980,998
+tornado\test\iostream_test.py,handle_stream,"self, stream, address",986,990
+tornado\test\iostream_test.py,handshake_done,self,992,995
+tornado\test\iostream_test.py,test_wait_for_handshake_future,self,1000,1016
+tornado\test\iostream_test.py,handle_stream,"self, stream, address",1006,1008
+tornado\test\iostream_test.py,handle_connection,"self, stream",1010,1013
+tornado\test\iostream_test.py,test_wait_for_handshake_already_waiting_error,self,1018,1032
+tornado\test\iostream_test.py,handle_stream,"self, stream, address",1024,1026
+tornado\test\iostream_test.py,handshake_done,self,1028,1029
+tornado\test\iostream_test.py,test_wait_for_handshake_already_connected,self,1034,1050
+tornado\test\iostream_test.py,handle_stream,"self, stream, address",1039,1041
+tornado\test\iostream_test.py,handshake_done,self,1043,1044
+tornado\test\iostream_test.py,handshake2_done,self,1046,1047
+tornado\test\iostream_test.py,test_pipe_iostream,self,1055,1078
+tornado\test\iostream_test.py,test_pipe_iostream_big_write,self,1080,1096
+tornado\test\locale_test.py,clear_locale_cache,self,18,20
+tornado\test\locale_test.py,setUp,self,22,26
+tornado\test\locale_test.py,tearDown,self,28,31
+tornado\test\locale_test.py,test_csv,self,33,38
+tornado\test\locale_test.py,test_csv_bom,self,41,60
+tornado\test\locale_test.py,test_gettext,self,62,74
+tornado\test\locale_test.py,test_non_ascii_name,self,78,82
+tornado\test\locale_test.py,test_format_date,self,86,113
+tornado\test\locale_test.py,test_friendly_number,self,115,117
+tornado\test\locale_test.py,test_list,self,119,124
+tornado\test\locale_test.py,test_format_day,self,126,130
+tornado\test\locks_test.py,setUp,self,24,26
+tornado\test\locks_test.py,record_done,"self, future, key",28,36
+tornado\test\locks_test.py,callback,_,30,35
+tornado\test\locks_test.py,test_repr,self,38,43
+tornado\test\locks_test.py,test_notify,self,45,49
+tornado\test\locks_test.py,test_notify_1,self,51,60
+tornado\test\locks_test.py,test_notify_n,self,62,74
+tornado\test\locks_test.py,test_notify_all,self,76,87
+tornado\test\locks_test.py,test_wait_timeout,self,89,95
+tornado\test\locks_test.py,test_wait_timeout_preempted,self,97,105
+tornado\test\locks_test.py,test_notify_n_with_timeout,self,107,128
+tornado\test\locks_test.py,test_notify_all_with_timeout,self,130,142
+tornado\test\locks_test.py,test_nested_notify,self,144,157
+tornado\test\locks_test.py,test_garbage_collection,self,159,176
+tornado\test\locks_test.py,test_repr,self,180,186
+tornado\test\locks_test.py,test_event,self,188,198
+tornado\test\locks_test.py,test_event_timeout,self,200,208
+tornado\test\locks_test.py,test_event_set_multiple,self,210,214
+tornado\test\locks_test.py,test_event_wait_clear,self,216,223
+tornado\test\locks_test.py,test_negative_value,self,227,228
+tornado\test\locks_test.py,test_repr,self,230,238
+tornado\test\locks_test.py,test_acquire,self,240,258
+tornado\test\locks_test.py,test_acquire_timeout,self,260,275
+tornado\test\locks_test.py,test_acquire_timeout_preempted,self,277,286
+tornado\test\locks_test.py,test_release_unacquired,self,288,298
+tornado\test\locks_test.py,test_garbage_collection,self,300,320
+tornado\test\locks_test.py,test_context_manager,self,324,331
+tornado\test\locks_test.py,test_context_manager_async_await,self,333,347
+tornado\test\locks_test.py,test_context_manager_exception,self,349,357
+tornado\test\locks_test.py,test_context_manager_timeout,self,359,366
+tornado\test\locks_test.py,test_context_manager_timeout_error,self,368,376
+tornado\test\locks_test.py,test_context_manager_contended,self,378,396
+tornado\test\locks_test.py,f,index,383,388
+tornado\test\locks_test.py,test_yield_sem,self,398,404
+tornado\test\locks_test.py,test_context_manager_misuse,self,406,411
+tornado\test\locks_test.py,test_release_unacquired,self,415,427
+tornado\test\locks_test.py,test_repr,self,431,436
+tornado\test\locks_test.py,test_acquire_release,self,438,444
+tornado\test\locks_test.py,test_acquire_fifo,self,446,462
+tornado\test\locks_test.py,f,idx,453,456
+tornado\test\locks_test.py,test_acquire_fifo_async_with,self,464,482
+tornado\test\locks_test.py,test_acquire_timeout,self,484,492
+tornado\test\locks_test.py,test_multi_release,self,494,499
+tornado\test\locks_test.py,test_yield_lock,self,501,507
+tornado\test\locks_test.py,test_context_manager_misuse,self,509,514
+tornado\test\log_test.py,ignore_bytes_warning,,35,39
+tornado\test\log_test.py,setUp,self,47,64
+tornado\test\log_test.py,tearDown,self,66,69
+tornado\test\log_test.py,make_handler,"self, filename",71,76
+tornado\test\log_test.py,get_output,self,78,85
+tornado\test\log_test.py,test_basic_logging,self,87,89
+tornado\test\log_test.py,test_bytes_logging,self,91,95
+tornado\test\log_test.py,test_utf8_logging,self,97,108
+tornado\test\log_test.py,test_bytes_exception_logging,self,110,120
+tornado\test\log_test.py,make_handler,"self, filename",124,128
+tornado\test\log_test.py,test_unicode_logging,self,130,132
+tornado\test\log_test.py,setUp,self,136,141
+tornado\test\log_test.py,test_log_file,self,143,161
+tornado\test\log_test.py,test_log_file_with_timed_rotating,self,163,183
+tornado\test\log_test.py,test_wrong_rotate_mode_value,self,185,194
+tornado\test\log_test.py,logs_present,"self, statement, args=None",199,213
+tornado\test\log_test.py,test_default,self,215,216
+tornado\test\log_test.py,test_tornado_default,self,218,219
+tornado\test\log_test.py,test_disable_command_line,self,221,223
+tornado\test\log_test.py,test_disable_command_line_case_insensitive,self,225,227
+tornado\test\log_test.py,test_disable_code_string,self,229,231
+tornado\test\log_test.py,test_disable_code_none,self,233,235
+tornado\test\log_test.py,test_disable_override,self,237,241
+tornado\test\netutil_test.py,test_localhost,self,37,40
+tornado\test\netutil_test.py,test_future_interface,self,42,47
+tornado\test\netutil_test.py,test_bad_host,self,53,62
+tornado\test\netutil_test.py,handler,"exc_typ, exc_val, exc_tb",54,56
+tornado\test\netutil_test.py,test_future_interface_bad_host,self,64,68
+tornado\test\netutil_test.py,_failing_getaddrinfo,*args,71,73
+tornado\test\netutil_test.py,setUp,self,78,80
+tornado\test\netutil_test.py,setUp,self,87,91
+tornado\test\netutil_test.py,tearDown,self,93,95
+tornado\test\netutil_test.py,setUp,self,101,103
+tornado\test\netutil_test.py,tearDown,self,105,107
+tornado\test\netutil_test.py,setUp,self,111,115
+tornado\test\netutil_test.py,tearDown,self,117,119
+tornado\test\netutil_test.py,test_import,self,126,146
+tornado\test\netutil_test.py,setUp,self,158,160
+tornado\test\netutil_test.py,setUp,self,170,172
+tornado\test\netutil_test.py,test_is_valid_ip,self,176,188
+tornado\test\netutil_test.py,test_same_port_allocation,self,192,202
+tornado\test\netutil_test.py,test_reuse_port,self,204,213
+tornado\test\options_test.py,test_parse_command_line,self,27,31
+tornado\test\options_test.py,test_parse_config_file,self,33,40
+tornado\test\options_test.py,test_parse_callbacks,self,42,62
+tornado\test\options_test.py,callback,,46,47
+tornado\test\options_test.py,test_help,self,64,74
+tornado\test\options_test.py,test_subcommand,self,76,96
+tornado\test\options_test.py,test_setattr,self,98,102
+tornado\test\options_test.py,test_setattr_type_check,self,104,110
+tornado\test\options_test.py,test_setattr_with_callback,self,112,117
+tornado\test\options_test.py,_sample_options,self,119,123
+tornado\test\options_test.py,test_iter,self,125,128
+tornado\test\options_test.py,test_getitem,self,130,132
+tornado\test\options_test.py,test_setitem,self,134,138
+tornado\test\options_test.py,test_items,self,140,145
+tornado\test\options_test.py,test_as_dict,self,147,150
+tornado\test\options_test.py,test_group_dict,self,152,164
+tornado\test\options_test.py,test_mock_patch,self,166,186
+tornado\test\options_test.py,test_types,self,188,209
+tornado\test\options_test.py,test_multiple_string,self,211,215
+tornado\test\options_test.py,test_multiple_int,self,217,221
+tornado\test\options_test.py,test_error_redefine,self,223,229
+tornado\test\options_test.py,test_dash_underscore_cli,self,231,242
+tornado\test\options_test.py,test_dash_underscore_file,self,244,252
+tornado\test\options_test.py,test_dash_underscore_introspection,self,254,271
+tornado\test\process_test.py,skip_if_twisted,,21,24
+tornado\test\process_test.py,get_app,self,32,43
+tornado\test\process_test.py,get,self,34,42
+tornado\test\process_test.py,tearDown,self,45,58
+tornado\test\process_test.py,test_multi_process,self,60,134
+tornado\test\process_test.py,get_url,path,68,69
+tornado\test\process_test.py,fetch,"url, fail_ok=False",98,103
+tornado\test\process_test.py,test_subprocess,self,139,165
+tornado\test\process_test.py,test_close_stdin,self,167,179
+tornado\test\process_test.py,test_stderr,self,181,189
+tornado\test\process_test.py,test_sigchild,self,191,201
+tornado\test\process_test.py,test_sigchild_future,self,203,211
+tornado\test\process_test.py,test_sigchild_signal,self,213,224
+tornado\test\process_test.py,test_wait_for_exit_raise,self,226,234
+tornado\test\process_test.py,test_wait_for_exit_raise_disabled,self,236,243
+tornado\test\queues_test.py,test_repr_and_str,self,25,46
+tornado\test\queues_test.py,test_order,self,48,54
+tornado\test\queues_test.py,test_maxsize,self,56,74
+tornado\test\queues_test.py,test_blocking_get,self,78,82
+tornado\test\queues_test.py,test_nonblocking_get,self,84,87
+tornado\test\queues_test.py,test_nonblocking_get_exception,self,89,91
+tornado\test\queues_test.py,test_get_with_putters,self,93,99
+tornado\test\queues_test.py,test_blocking_get_wait,self,101,108
+tornado\test\queues_test.py,test_get_timeout,self,110,119
+tornado\test\queues_test.py,test_get_timeout_preempted,self,121,127
+tornado\test\queues_test.py,test_get_clears_timed_out_putters,self,129,143
+tornado\test\queues_test.py,test_get_clears_timed_out_getters,self,145,157
+tornado\test\queues_test.py,test_async_for,self,159,175
+tornado\test\queues_test.py,test_blocking_put,self,179,183
+tornado\test\queues_test.py,test_nonblocking_put_exception,self,185,188
+tornado\test\queues_test.py,test_put_with_getters,self,190,198
+tornado\test\queues_test.py,test_nonblocking_put_with_getters,self,200,211
+tornado\test\queues_test.py,test_blocking_put_wait,self,213,221
+tornado\test\queues_test.py,test_put_timeout,self,223,237
+tornado\test\queues_test.py,test_put_timeout_preempted,self,239,246
+tornado\test\queues_test.py,test_put_clears_timed_out_putters,self,248,261
+tornado\test\queues_test.py,test_put_clears_timed_out_getters,self,263,277
+tornado\test\queues_test.py,test_float_maxsize,self,279,299
+tornado\test\queues_test.py,test_task_done_underflow,self,305,307
+tornado\test\queues_test.py,test_task_done,self,309,329
+tornado\test\queues_test.py,worker,,317,323
+tornado\test\queues_test.py,test_task_done_delay,self,331,343
+tornado\test\queues_test.py,test_join_empty_queue,self,345,349
+tornado\test\queues_test.py,test_join_timeout,self,351,356
+tornado\test\queues_test.py,test_order,self,362,374
+tornado\test\queues_test.py,test_order,self,380,392
+tornado\test\queues_test.py,test_producer_consumer,self,396,419
+tornado\test\queues_test.py,consumer,,405,409
+tornado\test\queues_test.py,producer,,411,414
+tornado\test\runtests.py,all,,59,60
+tornado\test\runtests.py,run,"self, test",64,72
+tornado\test\runtests.py,__init__,"self, *args, **kwargs",77,80
+tornado\test\runtests.py,filter,"self, record",82,87
+tornado\test\runtests.py,main,,90,176
+tornado\test\runtests.py,configure_ioloop,,142,150
+tornado\test\simple_httpclient_test.py,get_http_client,self,30,34
+tornado\test\simple_httpclient_test.py,initialize,"self, queue, wake_callback",38,40
+tornado\test\simple_httpclient_test.py,get,self,42,47
+tornado\test\simple_httpclient_test.py,get,self,51,53
+tornado\test\simple_httpclient_test.py,get,self,57,59
+tornado\test\simple_httpclient_test.py,head,self,63,64
+tornado\test\simple_httpclient_test.py,options,self,68,70
+tornado\test\simple_httpclient_test.py,get,self,74,78
+tornado\test\simple_httpclient_test.py,post,self,82,86
+tornado\test\simple_httpclient_test.py,get,self,90,93
+tornado\test\simple_httpclient_test.py,get,self,97,98
+tornado\test\simple_httpclient_test.py,get,self,102,113
+tornado\test\simple_httpclient_test.py,post,self,117,118
+tornado\test\simple_httpclient_test.py,prepare,self,123,125
+tornado\test\simple_httpclient_test.py,get_app,self,129,150
+tornado\test\simple_httpclient_test.py,test_singleton,self,152,163
+tornado\test\simple_httpclient_test.py,test_connection_limit,self,165,190
+tornado\test\simple_httpclient_test.py,test_redirect_connection_limit,self,192,198
+tornado\test\simple_httpclient_test.py,test_gzip,self,200,213
+tornado\test\simple_httpclient_test.py,test_max_redirects,self,215,222
+tornado\test\simple_httpclient_test.py,test_header_reuse,self,224,229
+tornado\test\simple_httpclient_test.py,test_see_other_redirect,self,231,238
+tornado\test\simple_httpclient_test.py,test_request_timeout,self,240,254
+tornado\test\simple_httpclient_test.py,test_ipv6,self,256,277
+tornado\test\simple_httpclient_test.py,xtest_multiple_content_length_accepted,self,279,288
+tornado\test\simple_httpclient_test.py,test_head_request,self,290,294
+tornado\test\simple_httpclient_test.py,test_options_request,self,296,301
+tornado\test\simple_httpclient_test.py,test_no_content,self,303,316
+tornado\test\simple_httpclient_test.py,test_host_header,self,318,326
+tornado\test\simple_httpclient_test.py,test_connection_refused,self,328,346
+tornado\test\simple_httpclient_test.py,test_queue_timeout,self,348,362
+tornado\test\simple_httpclient_test.py,test_no_content_length,self,364,369
+tornado\test\simple_httpclient_test.py,sync_body_producer,"self, write",371,373
+tornado\test\simple_httpclient_test.py,async_body_producer,"self, write",375,379
+tornado\test\simple_httpclient_test.py,test_sync_body_producer_chunked,self,381,385
+tornado\test\simple_httpclient_test.py,test_sync_body_producer_content_length,self,387,392
+tornado\test\simple_httpclient_test.py,test_async_body_producer_chunked,self,394,398
+tornado\test\simple_httpclient_test.py,test_async_body_producer_content_length,self,400,405
+tornado\test\simple_httpclient_test.py,test_native_body_producer_chunked,self,407,418
+tornado\test\simple_httpclient_test.py,test_native_body_producer_content_length,self,420,432
+tornado\test\simple_httpclient_test.py,test_100_continue,self,434,438
+tornado\test\simple_httpclient_test.py,test_100_continue_early_response,self,440,446
+tornado\test\simple_httpclient_test.py,body_producer,write,441,442
+tornado\test\simple_httpclient_test.py,test_streaming_follow_redirects,self,448,464
+tornado\test\simple_httpclient_test.py,setUp,self,468,470
+tornado\test\simple_httpclient_test.py,create_client,"self, **kwargs",472,474
+tornado\test\simple_httpclient_test.py,setUp,self,478,480
+tornado\test\simple_httpclient_test.py,create_client,"self, **kwargs",482,485
+tornado\test\simple_httpclient_test.py,test_ssl_options,self,487,489
+tornado\test\simple_httpclient_test.py,test_ssl_context,self,491,496
+tornado\test\simple_httpclient_test.py,test_ssl_options_handshake_fail,self,498,503
+tornado\test\simple_httpclient_test.py,test_ssl_context_handshake_fail,self,505,512
+tornado\test\simple_httpclient_test.py,test_error_logging,self,514,522
+tornado\test\simple_httpclient_test.py,setUp,self,526,528
+tornado\test\simple_httpclient_test.py,tearDown,self,530,532
+tornado\test\simple_httpclient_test.py,test_max_clients,self,534,554
+tornado\test\simple_httpclient_test.py,respond_100,"self, request",558,568
+tornado\test\simple_httpclient_test.py,respond_200,self,570,573
+tornado\test\simple_httpclient_test.py,get_app,self,575,577
+tornado\test\simple_httpclient_test.py,test_100_continue,self,579,583
+tornado\test\simple_httpclient_test.py,respond_204,"self, request",587,605
+tornado\test\simple_httpclient_test.py,get_app,self,607,608
+tornado\test\simple_httpclient_test.py,test_204_no_content,self,610,615
+tornado\test\simple_httpclient_test.py,setUp,self,619,625
+tornado\test\simple_httpclient_test.py,get_app,self,628,629
+tornado\test\simple_httpclient_test.py,test_hostname_mapping,self,631,636
+tornado\test\simple_httpclient_test.py,test_port_mapping,self,638,642
+tornado\test\simple_httpclient_test.py,setUp,self,646,655
+tornado\test\simple_httpclient_test.py,resolve,"self, *args, **kwargs",649,650
+tornado\test\simple_httpclient_test.py,get_app,self,657,658
+tornado\test\simple_httpclient_test.py,test_resolve_timeout,self,660,662
+tornado\test\simple_httpclient_test.py,get_app,self,666,678
+tornado\test\simple_httpclient_test.py,get,self,668,670
+tornado\test\simple_httpclient_test.py,get,self,673,675
+tornado\test\simple_httpclient_test.py,get_http_client,self,680,681
+tornado\test\simple_httpclient_test.py,test_small_headers,self,683,686
+tornado\test\simple_httpclient_test.py,test_large_headers,self,688,691
+tornado\test\simple_httpclient_test.py,get_app,self,695,705
+tornado\test\simple_httpclient_test.py,get,self,697,698
+tornado\test\simple_httpclient_test.py,get,self,701,702
+tornado\test\simple_httpclient_test.py,get_http_client,self,707,708
+tornado\test\simple_httpclient_test.py,test_small_body,self,710,713
+tornado\test\simple_httpclient_test.py,test_large_body,self,715,718
+tornado\test\simple_httpclient_test.py,get_app,self,722,728
+tornado\test\simple_httpclient_test.py,get,self,725,726
+tornado\test\simple_httpclient_test.py,get_http_client,self,730,732
+tornado\test\simple_httpclient_test.py,test_large_body,self,734,737
+tornado\test\simple_httpclient_test.py,get_app,self,741,749
+tornado\test\simple_httpclient_test.py,get,self,744,747
+tornado\test\simple_httpclient_test.py,get_http_client,self,751,752
+tornado\test\simple_httpclient_test.py,test_chunked_with_content_length,self,754,759
+tornado\test\stack_context_test.py,__init__,"self, app, request, io_loop",17,19
+tornado\test\stack_context_test.py,get,self,21,26
+tornado\test\stack_context_test.py,part2,self,28,32
+tornado\test\stack_context_test.py,part3,self,34,36
+tornado\test\stack_context_test.py,write_error,"self, status_code, **kwargs",38,42
+tornado\test\stack_context_test.py,get_app,self,46,48
+tornado\test\stack_context_test.py,test_stack_context,self,50,55
+tornado\test\stack_context_test.py,handle_response,"self, response",57,59
+tornado\test\stack_context_test.py,setUp,self,63,65
+tornado\test\stack_context_test.py,context,"self, name",67,71
+tornado\test\stack_context_test.py,test_exit_library_context,self,75,97
+tornado\test\stack_context_test.py,library_function,callback,76,81
+tornado\test\stack_context_test.py,library_inner_callback,callback,83,86
+tornado\test\stack_context_test.py,final_callback,,88,94
+tornado\test\stack_context_test.py,test_deactivate,self,99,129
+tornado\test\stack_context_test.py,f1,,102,105
+tornado\test\stack_context_test.py,f2,,107,110
+tornado\test\stack_context_test.py,f3,,112,115
+tornado\test\stack_context_test.py,f4,,117,123
+tornado\test\stack_context_test.py,f5,,125,127
+tornado\test\stack_context_test.py,test_deactivate_order,self,131,175
+tornado\test\stack_context_test.py,check_contexts,,134,143
+tornado\test\stack_context_test.py,make_wrapped_function,,145,156
+tornado\test\stack_context_test.py,test_isolation_nonempty,self,177,197
+tornado\test\stack_context_test.py,f1,,181,185
+tornado\test\stack_context_test.py,f2,,187,189
+tornado\test\stack_context_test.py,f3,,191,194
+tornado\test\stack_context_test.py,test_isolation_empty,self,199,217
+tornado\test\stack_context_test.py,f1,,203,207
+tornado\test\stack_context_test.py,f2,,209,210
+tornado\test\stack_context_test.py,f3,,212,214
+tornado\test\stack_context_test.py,test_yield_in_with,self,219,237
+tornado\test\stack_context_test.py,f,,220,228
+tornado\test\stack_context_test.py,test_yield_outside_with,self,239,245
+tornado\test\stack_context_test.py,test_yield_in_with_exception_stack_context,self,247,256
+tornado\test\stack_context_test.py,f,,249,252
+tornado\test\stack_context_test.py,test_yield_outside_with_exception_stack_context,self,258,263
+tornado\test\stack_context_test.py,test_run_with_stack_context,self,265,285
+tornado\test\stack_context_test.py,f1,,267,273
+tornado\test\stack_context_test.py,f2,,275,279
+tornado\test\tcpclient_test.py,__init__,"self, family",36,41
+tornado\test\tcpclient_test.py,handle_stream,"self, stream, address",43,44
+tornado\test\tcpclient_test.py,stop,self,46,49
+tornado\test\tcpclient_test.py,setUp,self,53,56
+tornado\test\tcpclient_test.py,start_server,"self, family",58,62
+tornado\test\tcpclient_test.py,stop_server,self,64,67
+tornado\test\tcpclient_test.py,tearDown,self,69,72
+tornado\test\tcpclient_test.py,skipIfLocalhostV4,self,74,81
+tornado\test\tcpclient_test.py,do_test_connect,"self, family, host",83,90
+tornado\test\tcpclient_test.py,test_connect_ipv4_ipv4,self,92,93
+tornado\test\tcpclient_test.py,test_connect_ipv4_dual,self,95,96
+tornado\test\tcpclient_test.py,test_connect_ipv6_ipv6,self,98,101
+tornado\test\tcpclient_test.py,test_connect_ipv6_dual,self,103,108
+tornado\test\tcpclient_test.py,test_connect_unspec_ipv4,self,110,111
+tornado\test\tcpclient_test.py,test_connect_unspec_ipv6,self,113,116
+tornado\test\tcpclient_test.py,test_connect_unspec_dual,self,118,119
+tornado\test\tcpclient_test.py,test_refused_ipv4,self,121,126
+tornado\test\tcpclient_test.py,test_one_family,self,130,137
+tornado\test\tcpclient_test.py,test_mixed,self,139,146
+tornado\test\tcpclient_test.py,__init__,self,151,152
+tornado\test\tcpclient_test.py,close,self,154,155
+tornado\test\tcpclient_test.py,setUp,self,157,162
+tornado\test\tcpclient_test.py,tearDown,self,164,169
+tornado\test\tcpclient_test.py,create_stream,"self, af, addr",171,174
+tornado\test\tcpclient_test.py,assert_pending,"self, *keys",176,177
+tornado\test\tcpclient_test.py,resolve_connect,"self, af, addr, success",179,185
+tornado\test\tcpclient_test.py,start_connect,"self, addrinfo",187,191
+tornado\test\tcpclient_test.py,test_immediate_success,self,193,198
+tornado\test\tcpclient_test.py,test_immediate_failure,self,200,205
+tornado\test\tcpclient_test.py,test_one_family_second_try,self,207,213
+tornado\test\tcpclient_test.py,test_one_family_second_try_failure,self,215,221
+tornado\test\tcpclient_test.py,test_one_family_second_try_timeout,self,223,233
+tornado\test\tcpclient_test.py,test_two_families_immediate_failure,self,235,242
+tornado\test\tcpclient_test.py,test_two_families_timeout,self,244,253
+tornado\test\tcpclient_test.py,test_success_after_timeout,self,255,264
+tornado\test\tcpclient_test.py,test_all_fail,self,266,280
+tornado\test\tcpserver_test.py,test_handle_stream_coroutine_logging,self,13,39
+tornado\test\tcpserver_test.py,handle_stream,"self, stream, address",18,22
+tornado\test\template_test.py,test_simple,self,14,17
+tornado\test\template_test.py,test_bytes,self,19,22
+tornado\test\template_test.py,test_expressions,self,24,26
+tornado\test\template_test.py,test_comment,self,28,31
+tornado\test\template_test.py,test_include,self,33,39
+tornado\test\template_test.py,test_extends,self,41,54
+tornado\test\template_test.py,test_relative_load,self,56,63
+tornado\test\template_test.py,test_escaping,self,65,71
+tornado\test\template_test.py,test_unicode_template,self,73,75
+tornado\test\template_test.py,test_unicode_literal_expression,self,77,88
+tornado\test\template_test.py,test_custom_namespace,self,90,92
+tornado\test\template_test.py,test_apply,self,94,98
+tornado\test\template_test.py,upper,s,95,96
+tornado\test\template_test.py,test_unicode_apply,self,100,104
+tornado\test\template_test.py,upper,s,101,102
+tornado\test\template_test.py,test_bytes_apply,self,106,110
+tornado\test\template_test.py,upper,s,107,108
+tornado\test\template_test.py,test_if,self,112,115
+tornado\test\template_test.py,test_if_empty_body,self,117,119
+tornado\test\template_test.py,test_try,self,121,129
+tornado\test\template_test.py,test_comment_directive,self,131,133
+tornado\test\template_test.py,test_break_continue,self,135,149
+tornado\test\template_test.py,test_break_outside_loop,self,151,156
+tornado\test\template_test.py,test_break_in_apply,self,158,165
+tornado\test\template_test.py,test_no_inherit_future,self,167,174
+tornado\test\template_test.py,test_non_ascii_name,self,176,178
+tornado\test\template_test.py,test_error_line_number_expression,self,182,191
+tornado\test\template_test.py,test_error_line_number_directive,self,193,202
+tornado\test\template_test.py,test_error_line_number_module,self,204,215
+tornado\test\template_test.py,test_error_line_number_include,self,217,227
+tornado\test\template_test.py,test_error_line_number_extends_base_error,self,229,239
+tornado\test\template_test.py,test_error_line_number_extends_sub_error,self,241,255
+tornado\test\template_test.py,test_multi_includes,self,257,268
+tornado\test\template_test.py,test_details,self,272,281
+tornado\test\template_test.py,setUp,self,285,324
+tornado\test\template_test.py,test_default_off,self,327,338
+tornado\test\template_test.py,test_default_on,self,342,353
+tornado\test\template_test.py,test_unextended_block,self,357,363
+tornado\test\template_test.py,test_extended_block,self,365,378
+tornado\test\template_test.py,render,name,368,369
+tornado\test\template_test.py,test_raw_expression,self,380,386
+tornado\test\template_test.py,render,name,383,384
+tornado\test\template_test.py,test_custom_escape,self,389,405
+tornado\test\template_test.py,py_escape,s,393,395
+tornado\test\template_test.py,render,"template, name",397,399
+tornado\test\template_test.py,test_manual_minimize_whitespace,self,407,419
+tornado\test\template_test.py,test_whitespace_by_filename,self,421,445
+tornado\test\template_test.py,test_whitespace_by_loader,self,447,462
+tornado\test\template_test.py,test_whitespace_directive,self,464,475
+tornado\test\template_test.py,setUp,self,479,480
+tornado\test\template_test.py,test_utf8_in_file,self,482,485
+tornado\test\testing_test.py,set_environ,"name, value",15,26
+tornado\test\testing_test.py,test_exception_in_callback,self,30,36
+tornado\test\testing_test.py,test_wait_timeout,self,38,54
+tornado\test\testing_test.py,test_subsequent_wait_calls,self,56,64
+tornado\test\testing_test.py,test_multiple_errors,self,66,75
+tornado\test\testing_test.py,fail,message,67,68
+tornado\test\testing_test.py,test_undecorated_generator,self,79,87
+tornado\test\testing_test.py,test_gen,self,81,82
+tornado\test\testing_test.py,test_undecorated_coroutine,self,89,107
+tornado\test\testing_test.py,test_undecorated_generator_with_skip,self,109,118
+tornado\test\testing_test.py,test_gen,self,111,113
+tornado\test\testing_test.py,test_other_return,self,120,128
+tornado\test\testing_test.py,test_other_return,self,122,123
+tornado\test\testing_test.py,test_set_up_tear_down,self,132,157
+tornado\test\testing_test.py,setUp,self,145,146
+tornado\test\testing_test.py,tearDown,self,148,149
+tornado\test\testing_test.py,test,self,152,153
+tornado\test\testing_test.py,setUp,self,161,163
+tornado\test\testing_test.py,tearDown,self,165,167
+tornado\test\testing_test.py,test_sync,self,169,171
+tornado\test\testing_test.py,test_async,self,173,176
+tornado\test\testing_test.py,test_timeout,self,178,196
+tornado\test\testing_test.py,test,self,180,182
+tornado\test\testing_test.py,test_no_timeout,self,198,206
+tornado\test\testing_test.py,test,self,200,203
+tornado\test\testing_test.py,test_timeout_environment_variable,self,208,218
+tornado\test\testing_test.py,test_long_timeout,self,209,212
+tornado\test\testing_test.py,test_no_timeout_environment_variable,self,220,231
+tornado\test\testing_test.py,test_short_timeout,self,221,224
+tornado\test\testing_test.py,test_with_method_args,self,233,240
+tornado\test\testing_test.py,test_with_args,"self, *args",234,237
+tornado\test\testing_test.py,test_with_method_kwargs,self,242,249
+tornado\test\testing_test.py,test_with_kwargs,"self, **kwargs",243,246
+tornado\test\testing_test.py,test_native_coroutine,self,251,259
+tornado\test\testing_test.py,test_native_coroutine_timeout,self,261,274
+tornado\test\twisted_test.py,save_signal_handlers,,79,89
+tornado\test\twisted_test.py,restore_signal_handlers,saved,92,94
+tornado\test\twisted_test.py,setUp,self,98,101
+tornado\test\twisted_test.py,tearDown,self,103,105
+tornado\test\twisted_test.py,test_whenRunning,self,110,116
+tornado\test\twisted_test.py,whenRunningCallback,self,118,121
+tornado\test\twisted_test.py,anotherWhenRunningCallback,self,123,124
+tornado\test\twisted_test.py,test_callLater,self,129,138
+tornado\test\twisted_test.py,callLaterCallback,self,140,143
+tornado\test\twisted_test.py,test_callLater,self,148,163
+tornado\test\twisted_test.py,callLaterCallback1,self,165,167
+tornado\test\twisted_test.py,callLaterCallback2,self,169,172
+tornado\test\twisted_test.py,setUp,self,177,179
+tornado\test\twisted_test.py,tearDown,self,181,183
+tornado\test\twisted_test.py,_newThreadRun,self,185,189
+tornado\test\twisted_test.py,_fnCalledFromThread,self,191,193
+tornado\test\twisted_test.py,_whenRunningCallback,self,195,197
+tornado\test\twisted_test.py,testCallFromThread,self,199,201
+tornado\test\twisted_test.py,setUp,self,206,208
+tornado\test\twisted_test.py,_fnCalledInThread,"self, *args, **kwargs",210,212
+tornado\test\twisted_test.py,_whenRunningCallback,self,214,215
+tornado\test\twisted_test.py,testCallInThread,self,217,219
+tornado\test\twisted_test.py,__init__,"self, fd, callback",223,225
+tornado\test\twisted_test.py,logPrefix,self,227,228
+tornado\test\twisted_test.py,close,self,230,231
+tornado\test\twisted_test.py,fileno,self,233,234
+tornado\test\twisted_test.py,readConnectionLost,"self, reason",236,237
+tornado\test\twisted_test.py,connectionLost,"self, reason",239,240
+tornado\test\twisted_test.py,doRead,self,242,243
+tornado\test\twisted_test.py,__init__,"self, fd, callback",249,251
+tornado\test\twisted_test.py,logPrefix,self,253,254
+tornado\test\twisted_test.py,close,self,256,257
+tornado\test\twisted_test.py,fileno,self,259,260
+tornado\test\twisted_test.py,connectionLost,"self, reason",262,263
+tornado\test\twisted_test.py,doWrite,self,265,266
+tornado\test\twisted_test.py,_set_nonblocking,"self, fd",273,275
+tornado\test\twisted_test.py,setUp,self,277,285
+tornado\test\twisted_test.py,tearDown,self,287,290
+tornado\test\twisted_test.py,_testReadWrite,self,292,315
+tornado\test\twisted_test.py,checkReadInput,fd,299,301
+tornado\test\twisted_test.py,writeOnce,fd,303,306
+tornado\test\twisted_test.py,testReadWrite,self,317,319
+tornado\test\twisted_test.py,_testNoWriter,self,321,348
+tornado\test\twisted_test.py,checkReadInput,fd,326,327
+tornado\test\twisted_test.py,stopTest,,329,333
+tornado\test\twisted_test.py,testNoWriter,self,350,352
+tornado\test\twisted_test.py,setUp,self,361,365
+tornado\test\twisted_test.py,tearDown,self,367,371
+tornado\test\twisted_test.py,start_twisted_server,self,373,381
+tornado\test\twisted_test.py,render_GET,"self, request",377,378
+tornado\test\twisted_test.py,start_tornado_server,self,383,391
+tornado\test\twisted_test.py,get,self,385,386
+tornado\test\twisted_test.py,run_ioloop,self,393,396
+tornado\test\twisted_test.py,run_reactor,self,398,401
+tornado\test\twisted_test.py,tornado_fetch,"self, url, runner",403,414
+tornado\test\twisted_test.py,callback,response,407,409
+tornado\test\twisted_test.py,twisted_fetch,"self, url, runner",416,452
+tornado\test\twisted_test.py,__init__,"self, finished",423,424
+tornado\test\twisted_test.py,dataReceived,"self, data",426,427
+tornado\test\twisted_test.py,connectionLost,"self, reason",429,430
+tornado\test\twisted_test.py,callback,response,432,435
+tornado\test\twisted_test.py,shutdown,failure,438,448
+tornado\test\twisted_test.py,twisted_coroutine_fetch,"self, url, runner",454,472
+tornado\test\twisted_test.py,f,,457,469
+tornado\test\twisted_test.py,testTwistedServerTornadoClientIOLoop,self,474,478
+tornado\test\twisted_test.py,testTwistedServerTornadoClientReactor,self,480,484
+tornado\test\twisted_test.py,testTornadoServerTwistedClientIOLoop,self,486,490
+tornado\test\twisted_test.py,testTornadoServerTwistedClientReactor,self,492,496
+tornado\test\twisted_test.py,testTornadoServerTwistedCoroutineClientIOLoop,self,498,503
+tornado\test\twisted_test.py,test_success,self,509,518
+tornado\test\twisted_test.py,fn,,510,516
+tornado\test\twisted_test.py,test_failure,self,520,528
+tornado\test\twisted_test.py,fn,,521,525
+tornado\test\twisted_test.py,make_test_subclass,test_class,619,670
+tornado\test\twisted_test.py,setUp,self,623,630
+tornado\test\twisted_test.py,tearDown,self,632,635
+tornado\test\twisted_test.py,flushWarnings,"self, *args, **kwargs",637,653
+tornado\test\twisted_test.py,buildReactor,self,655,657
+tornado\test\twisted_test.py,unbuildReactor,"self, reactor",659,667
+tornado\test\twisted_test.py,initialize,"self, **kwargs",700,707
+tornado\test\twisted_test.py,close,"self, all_fds=False",709,715
+tornado\test\twisted_test.py,stop,self,717,729
+tornado\test\twisted_test.py,f,,724,728
+tornado\test\util.py,refusing_port,,46,63
+tornado\test\util.py,exec_test,"caller_globals, caller_locals, s",66,78
+tornado\test\util_test.py,test_two_arg_exception,self,19,36
+tornado\test\util_test.py,__init__,"self, a, b",24,26
+tornado\test\util_test.py,configurable_base,cls,40,42
+tornado\test\util_test.py,configurable_default,cls,44,46
+tornado\test\util_test.py,initialize,"self, pos_arg=None, a=None",50,52
+tornado\test\util_test.py,initialize,"self, pos_arg=None, b=None",56,58
+tornado\test\util_test.py,setUp,self,62,63
+tornado\test\util_test.py,tearDown,self,65,66
+tornado\test\util_test.py,checkSubclasses,self,68,77
+tornado\test\util_test.py,test_default,self,79,88
+tornado\test\util_test.py,test_config_class,self,90,100
+tornado\test\util_test.py,test_config_args,self,102,116
+tornado\test\util_test.py,test_config_class_args,self,118,132
+tornado\test\util_test.py,test_unicode_escapes,self,136,137
+tornado\test\util_test.py,test_no_inherit_future,self,143,151
+tornado\test\util_test.py,setUp,self,155,158
+tornado\test\util_test.py,function,"x, y, callback=None, z=None",156,157
+tornado\test\util_test.py,test_omitted,self,160,165
+tornado\test\util_test.py,test_position,self,167,172
+tornado\test\util_test.py,test_keyword,self,174,179
+tornado\test\util_test.py,test_timedelta_to_seconds,self,183,185
+tornado\test\util_test.py,test_import_member,self,189,190
+tornado\test\util_test.py,test_import_member_unicode,self,192,193
+tornado\test\util_test.py,test_import_module,self,195,196
+tornado\test\util_test.py,test_import_module_unicode,self,198,202
+tornado\test\util_test.py,test_re_unescape,self,206,214
+tornado\test\util_test.py,test_re_unescape_raises_error_on_invalid_input,self,216,222
+tornado\test\websocket_test.py,initialize,"self, close_future, compression_options=None",37,39
+tornado\test\websocket_test.py,get_compression_options,self,41,42
+tornado\test\websocket_test.py,on_close,self,44,45
+tornado\test\websocket_test.py,on_message,"self, message",49,50
+tornado\test\websocket_test.py,on_message,"self, message",54,55
+tornado\test\websocket_test.py,open,self,59,67
+tornado\test\websocket_test.py,get,self,71,72
+tornado\test\websocket_test.py,open,self,76,78
+tornado\test\websocket_test.py,prepare,self,82,84
+tornado\test\websocket_test.py,on_message,"self, message",86,87
+tornado\test\websocket_test.py,ws_connect,"self, path, compression_options=None",91,96
+tornado\test\websocket_test.py,close,"self, ws",98,106
+tornado\test\websocket_test.py,get_app,self,110,121
+tornado\test\websocket_test.py,test_http_request,self,124,127
+tornado\test\websocket_test.py,test_websocket_gen,self,129,135
+tornado\test\websocket_test.py,test_websocket_callbacks,self,137,148
+tornado\test\websocket_test.py,test_binary_message,self,150,156
+tornado\test\websocket_test.py,test_unicode_message,self,158,164
+tornado\test\websocket_test.py,test_error_in_on_message,self,166,173
+tornado\test\websocket_test.py,test_websocket_http_fail,self,175,179
+tornado\test\websocket_test.py,test_websocket_http_success,self,181,184
+tornado\test\websocket_test.py,test_websocket_network_fail,self,186,195
+tornado\test\websocket_test.py,test_websocket_close_buffered_data,self,197,205
+tornado\test\websocket_test.py,test_websocket_headers,self,207,215
+tornado\test\websocket_test.py,test_server_close_reason,self,217,230
+tornado\test\websocket_test.py,test_client_close_reason,self,232,238
+tornado\test\websocket_test.py,test_async_prepare,self,240,247
+tornado\test\websocket_test.py,test_check_origin_valid_no_path,self,249,261
+tornado\test\websocket_test.py,test_check_origin_valid_with_path,self,263,275
+tornado\test\websocket_test.py,test_check_origin_invalid_partial_url,self,277,287
+tornado\test\websocket_test.py,test_check_origin_invalid,self,289,302
+tornado\test\websocket_test.py,test_check_origin_invalid_subdomains,self,304,317
+tornado\test\websocket_test.py,get_app,self,323,328
+tornado\test\websocket_test.py,get_server_compression_options,self,331,332
+tornado\test\websocket_test.py,get_client_compression_options,self,334,335
+tornado\test\websocket_test.py,test_message_sizes,self,337,352
+tornado\test\websocket_test.py,verify_wire_bytes,"self, bytes_in, bytes_out",357,360
+tornado\test\websocket_test.py,get_server_compression_options,self,369,370
+tornado\test\websocket_test.py,get_client_compression_options,self,374,375
+tornado\test\websocket_test.py,get_server_compression_options,self,379,380
+tornado\test\websocket_test.py,get_client_compression_options,self,382,383
+tornado\test\websocket_test.py,verify_wire_bytes,"self, bytes_in, bytes_out",385,389
+tornado\test\websocket_test.py,test_mask,self,394,407
+tornado\test\websocket_test.py,mask,"self, mask, data",411,412
+tornado\test\websocket_test.py,mask,"self, mask, data",417,418
+tornado\test\web_test.py,wsgi_safe,cls,40,42
+tornado\test\web_test.py,get_app,self,51,53
+tornado\test\web_test.py,get_handlers,self,55,56
+tornado\test\web_test.py,get_app_kwargs,self,58,59
+tornado\test\web_test.py,get_handlers,self,67,68
+tornado\test\web_test.py,get,self,72,73
+tornado\test\web_test.py,__init__,"self, cookie_secret='0123456789', key_version=None",78,85
+tornado\test\web_test.py,get_cookie,"self, name",87,88
+tornado\test\web_test.py,set_cookie,"self, name, value, expires_days=None",90,91
+tornado\test\web_test.py,test_round_trip,self,96,100
+tornado\test\web_test.py,test_cookie_tampering_future_timestamp,self,102,129
+tornado\test\web_test.py,test_arbitrary_bytes,self,131,136
+tornado\test\web_test.py,test_round_trip,self,146,149
+tornado\test\web_test.py,test_key_version_roundtrip,self,151,155
+tornado\test\web_test.py,test_key_version_roundtrip_differing_version,self,157,161
+tornado\test\web_test.py,test_key_version_increment_version,self,163,170
+tornado\test\web_test.py,test_key_version_invalidate_version,self,172,181
+tornado\test\web_test.py,get_handlers,self,185,241
+tornado\test\web_test.py,get,self,187,192
+tornado\test\web_test.py,get,self,195,196
+tornado\test\web_test.py,get,self,199,203
+tornado\test\web_test.py,get,self,206,209
+tornado\test\web_test.py,get,self,212,217
+tornado\test\web_test.py,get,self,220,221
+tornado\test\web_test.py,get,self,224,225
+tornado\test\web_test.py,get,self,228,232
+tornado\test\web_test.py,test_set_cookie,self,244,249
+tornado\test\web_test.py,test_get_cookie,self,252,260
+tornado\test\web_test.py,test_set_cookie_domain,self,262,265
+tornado\test\web_test.py,test_cookie_special_char,self,267,288
+tornado\test\web_test.py,test_set_cookie_overwrite,self,290,294
+tornado\test\web_test.py,test_set_cookie_max_age,self,296,300
+tornado\test\web_test.py,test_set_cookie_expires_days,self,302,311
+tornado\test\web_test.py,test_set_cookie_false_flags,self,313,321
+tornado\test\web_test.py,initialize,"self, login_url",325,326
+tornado\test\web_test.py,get_login_url,self,328,329
+tornado\test\web_test.py,get,self,331,334
+tornado\test\web_test.py,get_handlers,self,338,342
+tornado\test\web_test.py,test_relative_auth_redirect,self,344,349
+tornado\test\web_test.py,test_absolute_auth_redirect,self,351,358
+tornado\test\web_test.py,initialize,"self, test",362,363
+tornado\test\web_test.py,get,self,365,367
+tornado\test\web_test.py,on_connection_close,self,369,370
+tornado\test\web_test.py,get_handlers,self,374,375
+tornado\test\web_test.py,test_connection_close,self,377,382
+tornado\test\web_test.py,on_handler_waiting,self,384,386
+tornado\test\web_test.py,on_connection_close,self,388,390
+tornado\test\web_test.py,get,"self, *path_args",394,415
+tornado\test\web_test.py,get_handlers,self,419,421
+tornado\test\web_test.py,fetch_json,"self, path",424,425
+tornado\test\web_test.py,test_group_question_mark,self,427,432
+tornado\test\web_test.py,test_group_encoding,self,434,439
+tornado\test\web_test.py,test_slashes,self,441,451
+tornado\test\web_test.py,test_error,self,453,457
+tornado\test\web_test.py,prepare,self,461,485
+tornado\test\web_test.py,get,"self, path_component",487,491
+tornado\test\web_test.py,post,"self, path_component",493,495
+tornado\test\web_test.py,check_type,"self, name, obj, expected_type",497,501
+tornado\test\web_test.py,decode_argument,"self, value, name=None",505,512
+tornado\test\web_test.py,get,"self, arg",514,522
+tornado\test\web_test.py,describe,s,515,520
+tornado\test\web_test.py,get,self,527,528
+tornado\test\web_test.py,get,self,532,533
+tornado\test\web_test.py,get,"self, path",537,538
+tornado\test\web_test.py,get,self,544,547
+tornado\test\web_test.py,step2,self,549,551
+tornado\test\web_test.py,step3,self,553,555
+tornado\test\web_test.py,get,self,559,563
+tornado\test\web_test.py,get,self,567,573
+tornado\test\web_test.py,get,self,577,588
+tornado\test\web_test.py,get,self,592,600
+tornado\test\web_test.py,prepare,self,604,611
+tornado\test\web_test.py,prepare,self,615,618
+tornado\test\web_test.py,get_app_kwargs,self,626,641
+tornado\test\web_test.py,tearDown,self,643,645
+tornado\test\web_test.py,get_handlers,self,647,664
+tornado\test\web_test.py,fetch_json,"self, *args, **kwargs",666,669
+tornado\test\web_test.py,test_types,self,671,681
+tornado\test\web_test.py,test_decode_argument,self,683,701
+tornado\test\web_test.py,test_decode_argument_invalid_unicode,self,704,710
+tornado\test\web_test.py,test_decode_argument_plus,self,712,721
+tornado\test\web_test.py,test_reverse_url,self,724,734
+tornado\test\web_test.py,test_uimodule_unescaped,self,736,739
+tornado\test\web_test.py,test_uimodule_resources,self,741,764
+tornado\test\web_test.py,test_optional_path,self,766,770
+tornado\test\web_test.py,test_multi_header,self,772,775
+tornado\test\web_test.py,test_redirect,self,777,783
+tornado\test\web_test.py,test_web_redirect,self,785,791
+tornado\test\web_test.py,test_web_redirect_double_slash,self,793,796
+tornado\test\web_test.py,test_header_injection,self,798,800
+tornado\test\web_test.py,test_get_argument,self,802,821
+tornado\test\web_test.py,test_get_query_arguments,self,823,835
+tornado\test\web_test.py,test_get_body_arguments,self,837,851
+tornado\test\web_test.py,test_no_gzip,self,853,856
+tornado\test\web_test.py,get_handlers,self,860,862
+tornado\test\web_test.py,test_flow_control,self,865,866
+tornado\test\web_test.py,test_empty_flush,self,868,870
+tornado\test\web_test.py,get_handlers,self,875,905
+tornado\test\web_test.py,get,self,877,880
+tornado\test\web_test.py,get,self,883,887
+tornado\test\web_test.py,write_error,"self, status_code, **kwargs",889,894
+tornado\test\web_test.py,get,self,897,898
+tornado\test\web_test.py,write_error,"self, status_code, **kwargs",900,901
+tornado\test\web_test.py,test_default,self,908,916
+tornado\test\web_test.py,test_write_error,self,918,926
+tornado\test\web_test.py,test_failed_write_error,self,928,932
+tornado\test\web_test.py,get_handlers,self,942,975
+tornado\test\web_test.py,get,"self, path",944,946
+tornado\test\web_test.py,get,"self, path",952,970
+tornado\test\web_test.py,get_app_kwargs,self,977,978
+tornado\test\web_test.py,test_static_files,self,980,986
+tornado\test\web_test.py,test_static_compressed_files,self,988,998
+tornado\test\web_test.py,test_static_url,self,1000,1003
+tornado\test\web_test.py,test_absolute_static_url,self,1005,1010
+tornado\test\web_test.py,test_relative_version_exclusion,self,1013,1015
+tornado\test\web_test.py,test_absolute_version_exclusion,self,1017,1020
+tornado\test\web_test.py,test_include_host_override,self,1022,1024
+tornado\test\web_test.py,_trigger_include_host_check,"self, include_host",1026,1029
+tornado\test\web_test.py,get_and_head,"self, *args, **kwargs",1031,1049
+tornado\test\web_test.py,test_static_304_if_modified_since,self,1051,1057
+tornado\test\web_test.py,test_static_304_if_none_match,self,1059,1063
+tornado\test\web_test.py,test_static_if_modified_since_pre_epoch,self,1065,1071
+tornado\test\web_test.py,test_static_if_modified_since_time_zone,self,1073,1085
+tornado\test\web_test.py,test_static_etag,self,1087,1090
+tornado\test\web_test.py,test_static_with_range,self,1092,1101
+tornado\test\web_test.py,test_static_with_range_full_file,self,1103,1113
+tornado\test\web_test.py,test_static_with_range_full_past_end,self,1115,1123
+tornado\test\web_test.py,test_static_with_range_partial_past_end,self,1125,1133
+tornado\test\web_test.py,test_static_with_range_end_edge,self,1135,1141
+tornado\test\web_test.py,test_static_with_range_neg_end,self,1143,1149
+tornado\test\web_test.py,test_static_invalid_range,self,1151,1154
+tornado\test\web_test.py,test_static_unsatisfiable_range_zero_suffix,self,1156,1161
+tornado\test\web_test.py,test_static_unsatisfiable_range_invalid_start,self,1163,1168
+tornado\test\web_test.py,test_static_head,self,1170,1177
+tornado\test\web_test.py,test_static_head_range,self,1179,1186
+tornado\test\web_test.py,test_static_range_if_none_match,self,1188,1196
+tornado\test\web_test.py,test_static_404,self,1198,1200
+tornado\test\web_test.py,test_path_traversal_protection,self,1202,1213
+tornado\test\web_test.py,test_root_static_path,self,1215,1224
+tornado\test\web_test.py,get_app_kwargs,self,1229,1231
+tornado\test\web_test.py,get_handlers,self,1233,1234
+tornado\test\web_test.py,test_static_default_filename,self,1236,1239
+tornado\test\web_test.py,test_static_default_redirect,self,1241,1244
+tornado\test\web_test.py,get_app_kwargs,self,1249,1251
+tornado\test\web_test.py,get_handlers,self,1253,1255
+tornado\test\web_test.py,test_serve,self,1258,1260
+tornado\test\web_test.py,get_handlers,self,1265,1314
+tornado\test\web_test.py,make_static_url,"cls, settings, path",1267,1274
+tornado\test\web_test.py,parse_url_path,"self, url_path",1276,1280
+tornado\test\web_test.py,get_absolute_path,"cls, settings, path",1282,1284
+tornado\test\web_test.py,validate_absolute_path,"self, root, absolute_path",1286,1287
+tornado\test\web_test.py,get_content,"self, path, start=None, end=None",1289,1294
+tornado\test\web_test.py,get_content_size,self,1296,1299
+tornado\test\web_test.py,get_modified_time,self,1301,1302
+tornado\test\web_test.py,get_version,"cls, settings, path",1304,1306
+tornado\test\web_test.py,get,"self, path",1309,1310
+tornado\test\web_test.py,get_app_kwargs,self,1316,1318
+tornado\test\web_test.py,test_serve,self,1320,1322
+tornado\test\web_test.py,test_static_url,self,1324,1327
+tornado\test\web_test.py,initialize,"self, reply",1333,1334
+tornado\test\web_test.py,get,self,1336,1337
+tornado\test\web_test.py,get_handlers,self,1339,1340
+tornado\test\web_test.py,test_host_matching,self,1342,1362
+tornado\test\web_test.py,get_handlers,self,1367,1373
+tornado\test\web_test.py,get,"self, path",1369,1370
+tornado\test\web_test.py,test_named_urlspec_groups,self,1375,1380
+tornado\test\web_test.py,get,self,1386,1390
+tornado\test\web_test.py,test_clear_header,self,1392,1395
+tornado\test\web_test.py,get,self,1401,1403
+tornado\test\web_test.py,test_304_headers,self,1405,1416
+tornado\test\web_test.py,get,self,1422,1425
+tornado\test\web_test.py,get_http_client,self,1427,1429
+tornado\test\web_test.py,test_status,self,1431,1443
+tornado\test\web_test.py,get,self,1449,1450
+tornado\test\web_test.py,test_date_header,self,1452,1457
+tornado\test\web_test.py,get,self,1463,1464
+tornado\test\web_test.py,get_http_client,self,1466,1468
+tornado\test\web_test.py,test_raise_with_reason,self,1470,1474
+tornado\test\web_test.py,test_httperror_str,self,1476,1477
+tornado\test\web_test.py,get_handlers,self,1482,1486
+tornado\test\web_test.py,get_app_kwargs,self,1488,1489
+tornado\test\web_test.py,test_error_xsrf,self,1491,1493
+tornado\test\web_test.py,test_404_xsrf,self,1495,1497
+tornado\test\web_test.py,get,self,1503,1507
+tornado\test\web_test.py,get_app_kwargs,self,1509,1512
+tornado\test\web_test.py,test_gzip,self,1514,1523
+tornado\test\web_test.py,test_gzip_static,self,1525,1534
+tornado\test\web_test.py,test_gzip_not_requested,self,1536,1539
+tornado\test\web_test.py,test_vary_already_present,self,1541,1544
+tornado\test\web_test.py,prepare,self,1550,1551
+tornado\test\web_test.py,get,"self, path",1553,1555
+tornado\test\web_test.py,get_handlers,self,1557,1559
+tornado\test\web_test.py,test_pos,self,1561,1565
+tornado\test\web_test.py,test_kw,self,1567,1571
+tornado\test\web_test.py,get,self,1577,1579
+tornado\test\web_test.py,test_clear_all_cookies,self,1581,1588
+tornado\test\web_test.py,get,self,1598,1605
+tornado\test\web_test.py,write_error,"self, status_code, **kwargs",1607,1614
+tornado\test\web_test.py,log_exception,"self, typ, value, tb",1616,1621
+tornado\test\web_test.py,test_http_error,self,1623,1628
+tornado\test\web_test.py,test_unknown_error,self,1630,1634
+tornado\test\web_test.py,test_known_error,self,1636,1642
+tornado\test\web_test.py,get,self,1648,1649
+tornado\test\web_test.py,log_exception,"self, typ, value, tb",1651,1652
+tornado\test\web_test.py,test_buggy_log_exception,self,1654,1658
+tornado\test\web_test.py,get,self,1667,1668
+tornado\test\web_test.py,value,self,1670,1671
+tornado\test\web_test.py,get_app_kwargs,self,1673,1688
+tornado\test\web_test.py,my_ui_method,"handler, x",1674,1676
+tornado\test\web_test.py,render,"self, x",1679,1681
+tornado\test\web_test.py,tearDown,self,1690,1693
+tornado\test\web_test.py,test_ui_method,self,1695,1698
+tornado\test\web_test.py,get,self,1705,1711
+tornado\test\web_test.py,test_catch_error,self,1713,1717
+tornado\test\web_test.py,get,self,1724,1728
+tornado\test\web_test.py,log_exception,"self, typ, value, tb",1730,1731
+tornado\test\web_test.py,test_multi_exception,self,1733,1745
+tornado\test\web_test.py,prepare,self,1751,1753
+tornado\test\web_test.py,get_user_locale,self,1755,1756
+tornado\test\web_test.py,get_current_user,self,1758,1759
+tornado\test\web_test.py,get,self,1761,1762
+tornado\test\web_test.py,test_set_properties,self,1764,1768
+tornado\test\web_test.py,get_app_kwargs,self,1773,1790
+tornado\test\web_test.py,render,self,1775,1776
+tornado\test\web_test.py,render,self,1779,1780
+tornado\test\web_test.py,tearDown,self,1792,1794
+tornado\test\web_test.py,get_handlers,self,1796,1835
+tornado\test\web_test.py,prepare,self,1798,1799
+tornado\test\web_test.py,get_current_user,self,1801,1803
+tornado\test\web_test.py,get,self,1806,1808
+tornado\test\web_test.py,get,self,1811,1813
+tornado\test\web_test.py,get_template_namespace,self,1816,1820
+tornado\test\web_test.py,get,self,1823,1825
+tornado\test\web_test.py,get,self,1828,1830
+tornado\test\web_test.py,test_get_current_user_is_lazy,self,1837,1841
+tornado\test\web_test.py,test_get_current_user_works,self,1843,1845
+tornado\test\web_test.py,test_get_current_user_from_ui_module_is_lazy,self,1847,1849
+tornado\test\web_test.py,test_get_current_user_from_ui_module_works,self,1851,1853
+tornado\test\web_test.py,test_unimplemented_standard_methods,self,1861,1867
+tornado\test\web_test.py,other,self,1874,1877
+tornado\test\web_test.py,test_unimplemented_patch,self,1879,1883
+tornado\test\web_test.py,test_unimplemented_other,self,1885,1888
+tornado\test\web_test.py,method,self,1894,1895
+tornado\test\web_test.py,test_standard_methods,self,1899,1907
+tornado\test\web_test.py,patch,self,1914,1915
+tornado\test\web_test.py,other,self,1917,1918
+tornado\test\web_test.py,test_patch,self,1920,1922
+tornado\test\web_test.py,test_other,self,1924,1927
+tornado\test\web_test.py,prepare,self,1933,1934
+tornado\test\web_test.py,get,self,1936,1940
+tornado\test\web_test.py,test_finish_in_prepare,self,1942,1944
+tornado\test\web_test.py,get_handlers,self,1949,1951
+tornado\test\web_test.py,test_404,self,1953,1957
+tornado\test\web_test.py,get_handlers,self,1963,1964
+tornado\test\web_test.py,get_app_kwargs,self,1966,1972
+tornado\test\web_test.py,get,self,1968,1970
+tornado\test\web_test.py,test_404,self,1974,1977
+tornado\test\web_test.py,get_handlers,self,1982,1983
+tornado\test\web_test.py,get_app_kwargs,self,1985,1987
+tornado\test\web_test.py,test_403,self,1989,1991
+tornado\test\web_test.py,get_handlers,self,1996,2000
+tornado\test\web_test.py,test_handler_by_name,self,2003,2009
+tornado\test\web_test.py,get_handlers,self,2013,2047
+tornado\test\web_test.py,initialize,"self, test",2016,2017
+tornado\test\web_test.py,prepare,self,2019,2020
+tornado\test\web_test.py,data_received,"self, data",2022,2023
+tornado\test\web_test.py,get,self,2025,2027
+tornado\test\web_test.py,prepare,self,2031,2034
+tornado\test\web_test.py,initialize,"self, test",2038,2039
+tornado\test\web_test.py,on_connection_close,self,2041,2043
+tornado\test\web_test.py,connect,"self, url, connection_close",2049,2058
+tornado\test\web_test.py,test_streaming_body,self,2060,2081
+tornado\test\web_test.py,test_early_return,self,2083,2087
+tornado\test\web_test.py,test_early_return_with_data,self,2089,2094
+tornado\test\web_test.py,test_close_during_upload,self,2096,2101
+tornado\test\web_test.py,initialize,"self, test",2110,2113
+tornado\test\web_test.py,in_method,"self, method",2115,2125
+tornado\test\web_test.py,prepare,self,2127,2132
+tornado\test\web_test.py,post,self,2134,2138
+tornado\test\web_test.py,get_httpserver_options,self,2142,2145
+tornado\test\web_test.py,get_http_client,self,2147,2149
+tornado\test\web_test.py,test_flow_control_fixed_body,self,2152,2159
+tornado\test\web_test.py,test_flow_control_chunked_body,self,2161,2172
+tornado\test\web_test.py,body_producer,write,2163,2166
+tornado\test\web_test.py,test_flow_control_compressed_body,self,2174,2186
+tornado\test\web_test.py,get_handlers,self,2191,2197
+tornado\test\web_test.py,data_received,"self, data",2193,2196
+tornado\test\web_test.py,get_handlers,self,2204,2211
+tornado\test\web_test.py,get_handlers,self,2216,2240
+tornado\test\web_test.py,get,self,2222,2228
+tornado\test\web_test.py,get,self,2231,2237
+tornado\test\web_test.py,test_content_length_too_high,self,2242,2253
+tornado\test\web_test.py,test_content_length_too_low,self,2255,2266
+tornado\test\web_test.py,get,self,2271,2282
+tornado\test\web_test.py,test_client_close,self,2284,2288
+tornado\test\web_test.py,past,self,2295,2296
+tornado\test\web_test.py,present,self,2298,2299
+tornado\test\web_test.py,test_known_values,self,2301,2327
+tornado\test\web_test.py,test_name_swap,self,2329,2340
+tornado\test\web_test.py,test_expired,self,2342,2350
+tornado\test\web_test.py,test_payload_tampering,self,2352,2366
+tornado\test\web_test.py,validate,prefix,2356,2359
+tornado\test\web_test.py,test_signature_tampering,self,2368,2390
+tornado\test\web_test.py,validate,sig,2371,2374
+tornado\test\web_test.py,test_non_ascii,self,2392,2398
+tornado\test\web_test.py,test_key_versioning_read_write_default_key,self,2400,2407
+tornado\test\web_test.py,test_key_versioning_read_write_non_default_key,self,2409,2416
+tornado\test\web_test.py,test_key_versioning_invalid_key,self,2418,2427
+tornado\test\web_test.py,test_key_version_retrieval,self,2429,2435
+tornado\test\web_test.py,get,self,2441,2446
+tornado\test\web_test.py,post,self,2448,2449
+tornado\test\web_test.py,get_app_kwargs,self,2451,2452
+tornado\test\web_test.py,setUp,self,2454,2456
+tornado\test\web_test.py,get_token,"self, old_token=None, version=None",2458,2467
+tornado\test\web_test.py,cookie_headers,"self, token=None",2469,2472
+tornado\test\web_test.py,test_xsrf_fail_no_token,self,2474,2477
+tornado\test\web_test.py,test_xsrf_fail_body_no_cookie,self,2479,2484
+tornado\test\web_test.py,test_xsrf_fail_cookie_no_body,self,2486,2491
+tornado\test\web_test.py,test_xsrf_success_short_token,self,2493,2498
+tornado\test\web_test.py,test_xsrf_success_non_hex_token,self,2500,2505
+tornado\test\web_test.py,test_xsrf_success_post_body,self,2507,2512
+tornado\test\web_test.py,test_xsrf_success_query_string,self,2514,2519
+tornado\test\web_test.py,test_xsrf_success_header,self,2521,2525
+tornado\test\web_test.py,test_distinct_tokens,self,2527,2533
+tornado\test\web_test.py,test_cross_user,self,2535,2552
+tornado\test\web_test.py,test_refresh_token,self,2554,2570
+tornado\test\web_test.py,test_versioning,self,2572,2595
+tornado\test\web_test.py,get,self,2601,2602
+tornado\test\web_test.py,get_app_kwargs,self,2604,2606
+tornado\test\web_test.py,test_xsrf_httponly,self,2608,2610
+tornado\test\web_test.py,get,self,2616,2623
+tornado\test\web_test.py,test_finish_exception,self,2625,2631
+tornado\test\web_test.py,get_handlers,self,2636,2648
+tornado\test\web_test.py,get,self,2638,2640
+tornado\test\web_test.py,get,self,2643,2645
+tornado\test\web_test.py,test_removeslash,self,2651,2658
+tornado\test\web_test.py,test_addslash,self,2660,2667
+tornado\test\web_test.py,get_handlers,self,2672,2681
+tornado\test\web_test.py,get,"self, computed_etag",2674,2675
+tornado\test\web_test.py,compute_etag,self,2677,2678
+tornado\test\web_test.py,test_wildcard_etag,self,2684,2687
+tornado\test\web_test.py,test_strong_etag_match,self,2689,2692
+tornado\test\web_test.py,test_multiple_strong_etag_match,self,2694,2697
+tornado\test\web_test.py,test_strong_etag_not_match,self,2699,2702
+tornado\test\web_test.py,test_multiple_strong_etag_not_match,self,2704,2707
+tornado\test\web_test.py,test_weak_etag_match,self,2709,2712
+tornado\test\web_test.py,test_multiple_weak_etag_match,self,2714,2717
+tornado\test\web_test.py,test_weak_etag_not_match,self,2719,2722
+tornado\test\web_test.py,test_multiple_weak_etag_not_match,self,2724,2727
+tornado\test\web_test.py,_test_etag,"self, computed_etag, etags, status_code",2729,2734
+tornado\test\web_test.py,get,self,2740,2745
+tornado\test\web_test.py,test_missing_remote_ip,self,2747,2749
+tornado\test\web_test.py,test_copy,self,2753,2758
+tornado\test\web_test.py,test_listen,self,2762,2765
+tornado\test\web_test.py,test_reverse,self,2769,2770
+tornado\test\wsgi_test.py,wsgi_app,"self, environ, start_response",12,16
+tornado\test\wsgi_test.py,get_app,self,18,19
+tornado\test\wsgi_test.py,test_simple,self,21,23
+tornado\test\wsgi_test.py,get_app,self,27,43
+tornado\test\wsgi_test.py,get,self,29,30
+tornado\test\wsgi_test.py,get,"self, path",33,34
+tornado\test\wsgi_test.py,test_simple,self,46,48
+tornado\test\wsgi_test.py,test_path_quoting,self,50,52
+tornado\test\wsgi_test.py,test_types,self,54,62
+tornado\test\wsgi_test.py,get_app,self,72,73
+tornado\test\wsgi_test.py,wrap_web_tests_application,,76,85
+tornado\test\wsgi_test.py,get_app,self,80,83
+tornado\test\wsgi_test.py,wrap_web_tests_adapter,,89,98
+tornado\test\wsgi_test.py,get_app,self,93,96
