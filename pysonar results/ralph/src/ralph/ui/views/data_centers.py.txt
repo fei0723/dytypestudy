@@ -1,0 +1,11 @@
+<<DataCenterView>> <<11:284-298>> <<type>> <<CLASS>> <<ANCHOR>>
+<<submodule_name>> <<12:311-325>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<template_name>> <<13:343-356>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get_context_data>> <<15:397-413>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:414-418>> <<DataCenterView>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<15:422-428>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<context>> <<16:440-447>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<DataCenterView>> <<16:456-470>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:472-476>> <<DataCenterView>> <<VARIABLE>> <<LINK>>
+<<context>> <<17:514-521>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<18:581-588>> <<?>> <<VARIABLE>> <<LINK>>

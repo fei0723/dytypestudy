@@ -1,0 +1,15 @@
+<<__future__>> <<19:768-778>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__metaclass__>> <<20:831-844>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<CallbackModule>> <<24:950-964>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CALLBACK_VERSION>> <<31:1145-1161>> <<float>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CALLBACK_TYPE>> <<32:1173-1186>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CALLBACK_NAME>> <<33:1203-1216>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<v2_runner_on_skipped>> <<35:1239-1259>> <<function>> <<METHOD>> <<ANCHOR>>
+<<v2_playbook_item_on_skipped>> <<38:1300-1327>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1260-1264>> <<CallbackModule>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<35:1266-1272>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<38:1328-1332>> <<CallbackModule>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<38:1334-1340>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<19:787-802>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:804-812>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:814-828>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<AdminUrlTestCase>> <<7:107-123>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_returned_url>> <<8:144-161>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<8:162-166>> <<AdminUrlTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<9:178-181>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<10:224-228>> <<AdminUrlTestCase>> <<VARIABLE>> <<LINK>>
+<<obj>> <<11:279-282>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<11:288-291>> <<?>> <<VARIABLE>> <<LINK>>

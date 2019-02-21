@@ -1,0 +1,10 @@
+<<IsSuperuserOrReadonly>> <<5:104-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<has_permission>> <<9:243-257>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:258-262>> <<IsSuperuserOrReadonly>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<9:264-271>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<view>> <<9:273-277>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<10:319-326>> <<?>> <<VARIABLE>> <<LINK>>
+<<view>> <<10:328-332>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<11:353-360>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<13:419-426>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<14:453-460>> <<?>> <<VARIABLE>> <<LINK>>

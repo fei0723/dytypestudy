@@ -1,0 +1,15 @@
+<<__future__>> <<17:729-739>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__metaclass__>> <<18:792-805>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<ShellModule>> <<22:886-897>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_SHELL_EMBEDDED_PY_EOL>> <<25:969-991>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_REDIRECT_ALLNULL>> <<26:1006-1029>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_LEFT>> <<27:1052-1067>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_RIGHT>> <<28:1080-1096>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<env_prefix>> <<30:1115-1125>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<30:1126-1130>> <<ShellModule>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<30:1134-1140>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:748-763>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<17:765-773>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<17:775-789>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ShellModule>> <<31:1176-1187>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<31:1189-1193>> <<ShellModule>> <<VARIABLE>> <<LINK>>

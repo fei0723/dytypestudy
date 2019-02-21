@@ -1,0 +1,7 @@
+<<PROD_HOSTS>> <<10:207-217>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<DEV_HOSTS>> <<11:254-263>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<PROJECT_DIR>> <<13:300-311>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SITE_PACKAGES_DIR>> <<14:337-354>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PIP_INSTALL>> <<17:408-419>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<env>> <<17:420-423>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<env>> <<18:434-437>> <<?>> <<VARIABLE>> <<LINK>>

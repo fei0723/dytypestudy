@@ -1,0 +1,2 @@
+<<DirectConnectClientException>> <<24:1154-1182>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DirectConnectServerException>> <<28:1216-1244>> <<type>> <<CLASS>> <<ANCHOR>>

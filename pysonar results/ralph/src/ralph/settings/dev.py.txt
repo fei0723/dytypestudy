@@ -1,0 +1,11 @@
+<<only_true>> <<4:46-55>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<DEBUG>> <<8:123-128>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<INSTALLED_APPS>> <<10:139-153>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<MIDDLEWARE_CLASSES>> <<15:229-247>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<DEBUG_TOOLBAR_CONFIG>> <<19:335-355>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<ROOT_URLCONF>> <<23:423-435>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<RAISE_ITEMS_ERRORS_ON_DEBUG>> <<27:577-604>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<30:671-677>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<request>> <<4:56-63>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<logger>> <<31:725-731>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<32:776-782>> <<?>> <<VARIABLE>> <<LINK>>

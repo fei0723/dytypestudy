@@ -1,0 +1,11 @@
+<<all_ventures>> <<10:244-256>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<all_roles>> <<23:594-603>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<v>> <<12:296-297>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<r>> <<25:643-644>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<v>> <<14:392-393>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<16:459-460>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<17:524-525>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<18:551-552>> <<?>> <<VARIABLE>> <<LINK>>
+<<r>> <<29:814-815>> <<?>> <<VARIABLE>> <<LINK>>
+<<r>> <<29:837-838>> <<?>> <<VARIABLE>> <<LINK>>
+<<r>> <<29:853-854>> <<?>> <<VARIABLE>> <<LINK>>

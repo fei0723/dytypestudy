@@ -1,0 +1,14 @@
+<<IPython>> <<6:63-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<6:71-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<capture>> <<6:77-84>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<IPython>> <<7:113-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<7:121-126>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<shimmodule>> <<7:127-137>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_shim_warning>> <<9:164-181>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<w>> <<11:280-281>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<IPython>> <<13:340-347>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<capture_output>> <<6:92-106>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<7:145-156>> <<type>> <<VARIABLE>> <<LINK>>
+<<w>> <<14:371-372>> <<?>> <<VARIABLE>> <<LINK>>
+<<w>> <<15:402-403>> <<?>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<15:418-429>> <<type>> <<VARIABLE>> <<LINK>>

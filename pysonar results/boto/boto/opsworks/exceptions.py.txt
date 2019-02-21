@@ -1,0 +1,7 @@
+<<boto>> <<22:1149-1153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<22:1154-1163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<25:1200-1225>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ValidationException>> <<29:1267-1286>> <<type>> <<CLASS>> <<ANCHOR>>
+<<JSONResponseError>> <<22:1171-1188>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<25:1226-1243>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<29:1287-1304>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<__future__>> <<21:817-827>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__metaclass__>> <<22:880-893>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<InventoryScriptParser>> <<29:992-1013>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CONDITION>> <<31:1039-1048>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<absolute_import>> <<21:836-851>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<21:853-861>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<21:863-877>> <<_Feature>> <<VARIABLE>> <<LINK>>

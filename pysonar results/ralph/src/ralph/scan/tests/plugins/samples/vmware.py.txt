@@ -1,0 +1,2 @@
+<<VMWARE_SAMPLE>> <<3:27-40>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<VMWARE_SAMPLE_SUBDEV_NO_MAC>> <<249:7180-7207>> <<dict>> <<SCOPE>> <<ANCHOR>>

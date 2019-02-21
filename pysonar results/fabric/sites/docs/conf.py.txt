@@ -1,0 +1,5 @@
+<<autodoc_default_flags>> <<12:362-383>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<16:514-520>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<18:620-626>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<intersphinx_mapping>> <<20:703-722>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<22:793-799>> <<str>> <<VARIABLE>> <<LINK>>

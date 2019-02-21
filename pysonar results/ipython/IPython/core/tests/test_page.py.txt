@@ -1,0 +1,6 @@
+<<IPython>> <<11:461-468>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<11:469-473>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_detect_screen_size>> <<13:493-516>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<page>> <<11:481-485>> <<module>> <<VARIABLE>> <<LINK>>
+<<page>> <<16:597-601>> <<module>> <<VARIABLE>> <<LINK>>
+<<_detect_screen_size>> <<16:602-621>> <<function>> <<VARIABLE>> <<LINK>>

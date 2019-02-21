@@ -1,0 +1,11 @@
+<<ReportTemplateFormset>> <<8:188-209>> <<type>> <<CLASS>> <<ANCHOR>>
+<<clean>> <<9:239-244>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:245-249>> <<ReportTemplateFormset>> <<PARAMETER>> <<ANCHOR>>
+<<row>> <<11:306-309>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<defaults>> <<10:261-269>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<counted>> <<13:367-374>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<11:321-325>> <<ReportTemplateFormset>> <<VARIABLE>> <<LINK>>
+<<row>> <<11:306-309>> <<?>> <<VARIABLE>> <<LINK>>
+<<row>> <<11:287-290>> <<?>> <<VARIABLE>> <<LINK>>
+<<defaults>> <<13:385-393>> <<list>> <<VARIABLE>> <<LINK>>
+<<counted>> <<14:413-420>> <<?>> <<VARIABLE>> <<LINK>>

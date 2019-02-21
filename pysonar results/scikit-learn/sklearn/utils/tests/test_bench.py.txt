@@ -1,0 +1,8 @@
+<<sklearn>> <<4:26-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:34-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bench>> <<4:40-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_total_seconds>> <<8:113-131>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<delta>> <<9:140-145>> <<datetime>> <<VARIABLE>> <<ANCHOR>>
+<<total_seconds>> <<4:53-66>> <<function>> <<VARIABLE>> <<LINK>>
+<<total_seconds>> <<11:269-282>> <<function>> <<VARIABLE>> <<LINK>>
+<<delta>> <<11:283-288>> <<datetime>> <<VARIABLE>> <<LINK>>

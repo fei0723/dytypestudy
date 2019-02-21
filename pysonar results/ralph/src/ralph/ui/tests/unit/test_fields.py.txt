@@ -1,0 +1,4 @@
+<<TestIPWithHostnameField>> <<15:357-380>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_field_invalid_when_ip_number_missing>> <<18:444-485>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<18:486-490>> <<TestIPWithHostnameField>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:507-511>> <<TestIPWithHostnameField>> <<VARIABLE>> <<LINK>>

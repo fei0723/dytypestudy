@@ -1,0 +1,2 @@
+<<size_divisor>> <<10:207-219>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<speed_divisor>> <<28:534-547>> <<dict>> <<SCOPE>> <<ANCHOR>>

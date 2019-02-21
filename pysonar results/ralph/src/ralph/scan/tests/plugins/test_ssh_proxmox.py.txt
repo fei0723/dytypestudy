@@ -1,0 +1,17 @@
+<<LSB_RELEASE_1>> <<17:364-377>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LSB_RELEASE_2>> <<23:500-513>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SshProxmoxPluginTest>> <<31:650-670>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_add_prefix>> <<33:693-708>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_get_proxmox_version>> <<43:963-987>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<43:988-992>> <<SshProxmoxPluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<ssh>> <<44:1004-1007>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ssh>> <<49:1157-1160>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<33:709-713>> <<SshProxmoxPluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<LSB_RELEASE_1>> <<44:1038-1051>> <<str>> <<VARIABLE>> <<LINK>>
+<<self>> <<45:1064-1068>> <<SshProxmoxPluginTest>> <<VARIABLE>> <<LINK>>
+<<ssh>> <<46:1116-1119>> <<?>> <<VARIABLE>> <<LINK>>
+<<LSB_RELEASE_2>> <<49:1191-1204>> <<str>> <<VARIABLE>> <<LINK>>
+<<self>> <<50:1217-1221>> <<SshProxmoxPluginTest>> <<VARIABLE>> <<LINK>>
+<<ssh>> <<51:1269-1272>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<34:725-729>> <<SshProxmoxPluginTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:837-841>> <<SshProxmoxPluginTest>> <<VARIABLE>> <<LINK>>

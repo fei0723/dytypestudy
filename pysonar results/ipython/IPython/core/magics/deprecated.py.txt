@@ -1,0 +1,14 @@
+<<IPython>> <<17:637-644>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<17:645-649>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<magic>> <<17:650-655>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<class>> <<24:908-913>> <<type>> <<CLASS>> <<ANCHOR>>
+<<install_profiles>> <<28:1012-1028>> <<function>> <<METHOD>> <<ANCHOR>>
+<<install_default_config>> <<39:1498-1520>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<28:1029-1033>> <<class>> <<PARAMETER>> <<ANCHOR>>
+<<parameter_s>> <<28:1035-1046>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<39:1521-1525>> <<class>> <<PARAMETER>> <<ANCHOR>>
+<<parameter_s>> <<39:1527-1538>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<Magics>> <<17:663-669>> <<type>> <<VARIABLE>> <<LINK>>
+<<magics_class>> <<17:671-683>> <<function>> <<VARIABLE>> <<LINK>>
+<<line_magic>> <<17:685-695>> <<function>> <<VARIABLE>> <<LINK>>
+<<Magics>> <<24:931-937>> <<type>> <<VARIABLE>> <<LINK>>

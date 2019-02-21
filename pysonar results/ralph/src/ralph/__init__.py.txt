@@ -1,0 +1,16 @@
+<<__version__>> <<1:0-11>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<monkey_options_init>> <<7:81-100>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<13:368-372>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<meta>> <<13:374-378>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app_label>> <<13:380-389>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<7:101-105>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<meta>> <<7:107-111>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app_label>> <<7:113-122>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<monkey_options_init>> <<13:396-415>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:422-426>> <<?>> <<VARIABLE>> <<LINK>>
+<<meta>> <<14:428-432>> <<?>> <<VARIABLE>> <<LINK>>
+<<app_label>> <<14:434-443>> <<None>> <<VARIABLE>> <<LINK>>
+<<self>> <<8:130-134>> <<?>> <<VARIABLE>> <<LINK>>
+<<meta>> <<8:148-152>> <<?>> <<VARIABLE>> <<LINK>>
+<<app_label>> <<8:154-163>> <<None>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:170-174>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<register>> <<13:318-326>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<OWNER_ICONS>> <<16:353-364>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<cmdb_table>> <<24:573-583>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<owner_icon>> <<29:670-680>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<table_header>> <<24:584-596>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<table_body>> <<24:598-608>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<url_query>> <<24:610-619>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<owner>> <<29:681-686>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<icon_class>> <<31:721-731>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<icon_class>> <<33:772-782>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<owner>> <<30:697-702>> <<?>> <<VARIABLE>> <<LINK>>
+<<OWNER_ICONS>> <<31:734-745>> <<dict>> <<VARIABLE>> <<LINK>>
+<<OWNER_ICONS>> <<33:785-796>> <<dict>> <<VARIABLE>> <<LINK>>
+<<owner>> <<33:801-806>> <<?>> <<VARIABLE>> <<LINK>>
+<<OWNER_ICONS>> <<33:816-827>> <<dict>> <<VARIABLE>> <<LINK>>
+<<icon_class>> <<34:858-868>> <<str>> <<VARIABLE>> <<LINK>>

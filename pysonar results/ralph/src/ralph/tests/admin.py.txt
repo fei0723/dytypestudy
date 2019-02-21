@@ -1,0 +1,7 @@
+<<CarAdmin>> <<9:270-278>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ordering>> <<10:297-305>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_filter>> <<11:322-333>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ManufacturerAdmin>> <<15:381-398>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ordering>> <<16:417-425>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<OrderAdmin>> <<20:478-488>> <<type>> <<CLASS>> <<ANCHOR>>
+<<change_views>> <<21:547-559>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

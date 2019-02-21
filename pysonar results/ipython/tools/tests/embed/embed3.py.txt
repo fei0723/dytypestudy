@@ -1,0 +1,9 @@
+<<IPython>> <<3:126-133>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<terminal>> <<3:134-142>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<embed>> <<3:143-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<user_ns>> <<5:181-188>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<ISE>> <<6:215-218>> <<InteractiveShellEmbed>> <<SCOPE>> <<ANCHOR>>
+<<InteractiveShellEmbed>> <<3:156-177>> <<type>> <<VARIABLE>> <<LINK>>
+<<InteractiveShellEmbed>> <<6:221-242>> <<type>> <<VARIABLE>> <<LINK>>
+<<ISE>> <<7:297-300>> <<InteractiveShellEmbed>> <<VARIABLE>> <<LINK>>
+<<user_ns>> <<7:310-317>> <<dict>> <<VARIABLE>> <<LINK>>

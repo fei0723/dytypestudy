@@ -1,0 +1,15 @@
+<<is_extra_available>> <<12:274-292>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_extra_data>> <<24:541-555>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<24:556-560>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<24:563-567>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<handlers>> <<35:916-924>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<handler>> <<42:1175-1182>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<12:293-297>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<19:438-439>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<35:975-979>> <<?>> <<VARIABLE>> <<LINK>>
+<<handlers>> <<36:994-1002>> <<list>> <<VARIABLE>> <<LINK>>
+<<handlers>> <<38:1037-1045>> <<list>> <<VARIABLE>> <<LINK>>
+<<handlers>> <<42:1185-1193>> <<list>> <<VARIABLE>> <<LINK>>
+<<handler>> <<43:1216-1223>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<43:1225-1229>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<19:486-490>> <<?>> <<VARIABLE>> <<LINK>>

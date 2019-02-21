@@ -1,0 +1,8 @@
+<<sklearn>> <<9:249-256>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<datasets>> <<9:257-265>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<setup_module>> <<12:296-308>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<module>> <<12:309-315>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data_home>> <<13:323-332>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<get_data_home>> <<9:273-286>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_data_home>> <<13:335-348>> <<function>> <<VARIABLE>> <<LINK>>
+<<data_home>> <<14:375-384>> <<str>> <<VARIABLE>> <<LINK>>

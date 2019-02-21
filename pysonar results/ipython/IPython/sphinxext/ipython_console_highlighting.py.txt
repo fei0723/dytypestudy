@@ -1,0 +1,15 @@
+<<IPython>> <<7:122-129>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<7:130-133>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lexers>> <<7:134-140>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<setup>> <<9:164-169>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipy2>> <<23:814-818>> <<IPyLexer>> <<SCOPE>> <<ANCHOR>>
+<<ipy3>> <<24:846-850>> <<IPyLexer>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<9:170-173>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<metadata>> <<16:512-520>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<IPyLexer>> <<7:148-156>> <<type>> <<VARIABLE>> <<LINK>>
+<<IPyLexer>> <<23:821-829>> <<type>> <<VARIABLE>> <<LINK>>
+<<IPyLexer>> <<24:853-861>> <<type>> <<VARIABLE>> <<LINK>>
+<<ipy2>> <<26:912-916>> <<IPyLexer>> <<VARIABLE>> <<LINK>>
+<<ipy2>> <<27:952-956>> <<IPyLexer>> <<VARIABLE>> <<LINK>>
+<<ipy3>> <<28:992-996>> <<IPyLexer>> <<VARIABLE>> <<LINK>>
+<<metadata>> <<17:593-601>> <<dict>> <<VARIABLE>> <<LINK>>

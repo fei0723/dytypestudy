@@ -1,0 +1,7 @@
+<<api_urls>> <<10:324-332>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<api_urls>> <<22:786-794>> <<{list||list}>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<24:835-846>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<u>> <<10:351-352>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<api_urls>> <<22:786-794>> <<list>> <<VARIABLE>> <<LINK>>
+<<api_urls>> <<26:915-923>> <<{list||list}>> <<VARIABLE>> <<LINK>>
+<<u>> <<10:372-373>> <<?>> <<VARIABLE>> <<LINK>>

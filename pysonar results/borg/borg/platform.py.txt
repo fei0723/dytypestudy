@@ -1,0 +1,10 @@
+<<API_VERSION>> <<10:431-442>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<acl_get>> <<12:458-465>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<acl_set>> <<15:529-536>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<12:466-470>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<item>> <<12:472-476>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<st>> <<12:478-480>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<numeric_owner>> <<12:482-495>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<15:537-541>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<item>> <<15:543-547>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<numeric_owner>> <<15:549-562>> <<?>> <<PARAMETER>> <<ANCHOR>>

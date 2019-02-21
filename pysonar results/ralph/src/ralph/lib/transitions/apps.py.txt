@@ -1,0 +1,5 @@
+<<TransitionAppConfig>> <<7:134-153>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:171-175>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<9:207-219>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<11:247-252>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:253-257>> <<TransitionAppConfig>> <<PARAMETER>> <<ANCHOR>>

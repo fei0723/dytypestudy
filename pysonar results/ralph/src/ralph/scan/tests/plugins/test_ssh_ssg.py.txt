@@ -1,0 +1,8 @@
+<<SshSsgPluginTest>> <<17:409-425>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_ssh_ssg>> <<19:448-460>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<19:461-465>> <<SshSsgPluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<check_port>> <<22:566-576>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<SSH>> <<24:660-663>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<check_port>> <<25:678-688>> <<?>> <<VARIABLE>> <<LINK>>
+<<SSH>> <<26:722-725>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:828-832>> <<SshSsgPluginTest>> <<VARIABLE>> <<LINK>>

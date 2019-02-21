@@ -1,0 +1,15 @@
+<<boto>> <<22:1149-1153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<22:1154-1163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DuplicateRequest>> <<25:1198-1214>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DomainLimitExceeded>> <<29:1254-1273>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InvalidInput>> <<33:1313-1325>> <<type>> <<CLASS>> <<ANCHOR>>
+<<OperationLimitExceeded>> <<37:1365-1387>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UnsupportedTLD>> <<41:1427-1441>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TLDRulesViolation>> <<45:1481-1498>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<22:1171-1186>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<25:1215-1230>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<29:1274-1289>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<33:1326-1341>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<37:1388-1403>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<41:1442-1457>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<45:1499-1514>> <<type>> <<VARIABLE>> <<LINK>>

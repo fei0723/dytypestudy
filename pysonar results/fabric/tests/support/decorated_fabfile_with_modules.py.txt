@@ -1,0 +1,7 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<decorators>> <<1:12-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<module_fabtasks>> <<2:43-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<module_fabtasks>> <<2:62-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<foo>> <<5:82-85>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<bar>> <<8:106-109>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<task>> <<1:30-34>> <<function>> <<VARIABLE>> <<LINK>>

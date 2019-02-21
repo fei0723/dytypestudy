@@ -1,0 +1,15 @@
+<<__future__>> <<3:30-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fabric>> <<9:132-138>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<9:139-146>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<12:198-199>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<readme>> <<13:206-212>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<15:227-243>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<33:693-709>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<35:747-763>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<with_statement>> <<3:48-62>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<get_version>> <<9:154-165>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<13:215-216>> <<file>> <<VARIABLE>> <<LINK>>
+<<readme>> <<30:643-649>> <<str>> <<VARIABLE>> <<LINK>>
+<<get_version>> <<40:828-839>> <<function>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<42:963-979>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<49:1220-1236>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<boto>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mturk>> <<1:10-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<connection>> <<1:16-26>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MTurkConnection>> <<3:82-97>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_process_request>> <<9:268-284>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:285-289>> <<MTurkConnection>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<9:292-296>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<saved_args>> <<10:312-322>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<MTurkConnection>> <<1:53-72>> <<type>> <<VARIABLE>> <<LINK>>
+<<MTurkConnection>> <<3:98-117>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:325-329>> <<MTurkConnection>> <<VARIABLE>> <<LINK>>
+<<args>> <<11:415-419>> <<?>> <<VARIABLE>> <<LINK>>
+<<saved_args>> <<11:381-391>> <<?>> <<VARIABLE>> <<LINK>>

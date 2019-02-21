@@ -1,0 +1,4 @@
+<<IPython>> <<2:86-93>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<embed>> <<2:101-106>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed>> <<4:127-132>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed>> <<5:183-188>> <<function>> <<VARIABLE>> <<LINK>>

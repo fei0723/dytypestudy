@@ -1,0 +1,15 @@
+<<boto>> <<26:1176-1180>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plugin>> <<26:1181-1187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<NotReadyToAuthenticate>> <<29:1213-1235>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AuthHandler>> <<33:1269-1280>> <<type>> <<CLASS>> <<ANCHOR>>
+<<capability>> <<35:1297-1307>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<37:1324-1332>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<add_auth>> <<54:1870-1878>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<37:1333-1337>> <<AuthHandler>> <<PARAMETER>> <<ANCHOR>>
+<<host>> <<37:1339-1343>> <<HmacAuthV4Handler>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<37:1345-1351>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<provider>> <<37:1353-1361>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<54:1879-1883>> <<AuthHandler>> <<PARAMETER>> <<ANCHOR>>
+<<http_request>> <<54:1885-1897>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Plugin>> <<26:1195-1201>> <<type>> <<VARIABLE>> <<LINK>>
+<<Plugin>> <<33:1281-1287>> <<type>> <<VARIABLE>> <<LINK>>

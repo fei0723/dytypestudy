@@ -1,0 +1,17 @@
+<<notifications_error_handler>> <<17:374-401>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<job>> <<17:402-405>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exc_type>> <<17:407-415>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exc_value>> <<17:417-426>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<traceback>> <<17:428-437>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attempt>> <<18:445-452>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<attempt>> <<21:614-621>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<queue>> <<22:632-637>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_job>> <<23:696-703>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<job>> <<18:455-458>> <<?>> <<VARIABLE>> <<LINK>>
+<<attempt>> <<19:490-497>> <<?>> <<VARIABLE>> <<LINK>>
+<<attempt>> <<21:614-621>> <<?>> <<VARIABLE>> <<LINK>>
+<<queue>> <<23:706-711>> <<?>> <<VARIABLE>> <<LINK>>
+<<job>> <<26:815-818>> <<?>> <<VARIABLE>> <<LINK>>
+<<attempt>> <<31:941-948>> <<int>> <<VARIABLE>> <<LINK>>
+<<new_job>> <<31:915-922>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_job>> <<32:954-961>> <<?>> <<VARIABLE>> <<LINK>>

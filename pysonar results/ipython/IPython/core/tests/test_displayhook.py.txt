@@ -1,0 +1,16 @@
+<<IPython>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<1:13-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<1:21-26>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ip>> <<3:67-69>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_output_displayed>> <<5:93-114>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_output_quiet>> <<14:382-399>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<AssertPrints>> <<1:34-46>> <<type>> <<VARIABLE>> <<LINK>>
+<<AssertNotPrints>> <<1:48-63>> <<type>> <<VARIABLE>> <<LINK>>
+<<AssertNotPrints>> <<17:471-486>> <<type>> <<VARIABLE>> <<LINK>>
+<<ip>> <<18:502-504>> <<?>> <<VARIABLE>> <<LINK>>
+<<AssertNotPrints>> <<20:560-575>> <<type>> <<VARIABLE>> <<LINK>>
+<<ip>> <<21:591-593>> <<?>> <<VARIABLE>> <<LINK>>
+<<AssertPrints>> <<8:190-202>> <<type>> <<VARIABLE>> <<LINK>>
+<<ip>> <<9:217-219>> <<?>> <<VARIABLE>> <<LINK>>
+<<AssertPrints>> <<11:274-286>> <<type>> <<VARIABLE>> <<LINK>>
+<<ip>> <<12:302-304>> <<?>> <<VARIABLE>> <<LINK>>

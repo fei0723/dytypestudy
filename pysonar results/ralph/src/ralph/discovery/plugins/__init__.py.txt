@@ -1,0 +1,4 @@
+<<loader>> <<8:92-98>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<8:100-104>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ispkg>> <<8:106-111>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<9:192-196>> <<?>> <<VARIABLE>> <<LINK>>

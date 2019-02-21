@@ -1,0 +1,12 @@
+<<sklearn>> <<11:403-410>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<11:411-416>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<11:417-424>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sklearn>> <<13:478-485>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<datasets>> <<13:486-494>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<setup_module>> <<16:525-537>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<rcv1_dir>> <<20:644-652>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<check_skip_network>> <<11:432-450>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_data_home>> <<13:502-515>> <<function>> <<VARIABLE>> <<LINK>>
+<<check_skip_network>> <<17:546-564>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_data_home>> <<20:668-681>> <<function>> <<VARIABLE>> <<LINK>>
+<<rcv1_dir>> <<21:720-728>> <<str>> <<VARIABLE>> <<LINK>>

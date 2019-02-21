@@ -1,0 +1,6 @@
+<<register>> <<13:295-303>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<extra_inclusion>> <<17:356-371>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<17:372-376>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<17:379-383>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<18:423-427>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<18:430-434>> <<?>> <<VARIABLE>> <<LINK>>

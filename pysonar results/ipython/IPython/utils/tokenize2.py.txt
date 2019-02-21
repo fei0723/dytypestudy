@@ -1,0 +1,2 @@
+<<_tokenize_py3>> <<7:104-117>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_tokenize_py2>> <<9:145-158>> <<module>> <<VARIABLE>> <<ANCHOR>>

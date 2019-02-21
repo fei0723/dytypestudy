@@ -1,0 +1,5 @@
+<<__future__>> <<2:30-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Migration>> <<8:149-158>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<10:189-201>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<13:220-230>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<unicode_literals>> <<2:48-64>> <<_Feature>> <<VARIABLE>> <<LINK>>

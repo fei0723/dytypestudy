@@ -1,0 +1,13 @@
+<<boto>> <<7:196-200>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<7:201-210>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SWFDomainAlreadyExistsError>> <<10:246-273>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SWFLimitExceededError>> <<17:381-402>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SWFOperationNotPermittedError>> <<24:529-558>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SWFTypeAlreadyExistsError>> <<30:651-676>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SWFWorkflowExecutionAlreadyStartedError>> <<37:808-847>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SWFResponseError>> <<7:218-234>> <<type>> <<VARIABLE>> <<LINK>>
+<<SWFResponseError>> <<10:274-290>> <<type>> <<VARIABLE>> <<LINK>>
+<<SWFResponseError>> <<17:403-419>> <<type>> <<VARIABLE>> <<LINK>>
+<<SWFResponseError>> <<24:559-575>> <<type>> <<VARIABLE>> <<LINK>>
+<<SWFResponseError>> <<30:677-693>> <<type>> <<VARIABLE>> <<LINK>>
+<<SWFResponseError>> <<37:848-864>> <<type>> <<VARIABLE>> <<LINK>>

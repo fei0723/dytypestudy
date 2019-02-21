@@ -1,0 +1,12 @@
+<<__author__>> <<3:63-73>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<4:98-109>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<sklearn>> <<7:128-135>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<7:136-141>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<7:142-149>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<e>> <<12:256-257>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_top_import_error>> <<13:264-281>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sklearn>> <<10:188-195>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_top_import_error>> <<11:210-227>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<test_import_skl>> <<16:295-310>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<e>> <<13:284-285>> <<?>> <<VARIABLE>> <<LINK>>
+<<_top_import_error>> <<20:507-524>> <<None>> <<VARIABLE>> <<LINK>>

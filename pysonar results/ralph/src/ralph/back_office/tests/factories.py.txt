@@ -1,0 +1,17 @@
+<<WarehouseFactory>> <<10:293-309>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<12:338-342>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<14:411-415>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<15:426-431>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<BackOfficeAssetFactory>> <<18:455-477>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hostname>> <<20:506-514>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<region>> <<21:562-568>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<model>> <<22:610-615>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<warehouse>> <<23:671-680>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<force_depreciation>> <<24:725-743>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<26:765-769>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<27:780-785>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<n>> <<12:369-370>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<20:541-542>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<WarehouseFactory>> <<23:702-718>> <<type>> <<VARIABLE>> <<LINK>>
+<<n>> <<12:394-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<20:554-555>> <<?>> <<VARIABLE>> <<LINK>>

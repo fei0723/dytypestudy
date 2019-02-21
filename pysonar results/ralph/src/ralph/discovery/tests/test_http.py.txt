@@ -1,0 +1,15 @@
+<<DiscoveryHttpTest>> <<14:339-356>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_guess_family_dell_when_data_from_dell_server>> <<16:379-428>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_guess_family_xen_when_data_from_xen>> <<25:775-815>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:816-820>> <<DiscoveryHttpTest>> <<PARAMETER>> <<ANCHOR>>
+<<headers>> <<26:832-839>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<family>> <<27:854-860>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<16:429-433>> <<DiscoveryHttpTest>> <<PARAMETER>> <<ANCHOR>>
+<<headers>> <<17:445-452>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<family>> <<22:685-691>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<headers>> <<27:876-883>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1295-1299>> <<DiscoveryHttpTest>> <<VARIABLE>> <<LINK>>
+<<family>> <<38:1312-1318>> <<?>> <<VARIABLE>> <<LINK>>
+<<headers>> <<22:707-714>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:731-735>> <<DiscoveryHttpTest>> <<VARIABLE>> <<LINK>>
+<<family>> <<23:748-754>> <<?>> <<VARIABLE>> <<LINK>>

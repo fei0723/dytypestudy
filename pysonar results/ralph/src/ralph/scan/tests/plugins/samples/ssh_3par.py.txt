@@ -1,0 +1,4 @@
+<<SHOWSYS_1>> <<3:27-36>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SHOWSYS_2>> <<8:316-325>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SHOWSYS_3>> <<13:602-611>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SHOWSYS_WHITESPACES>> <<18:879-898>> <<str>> <<SCOPE>> <<ANCHOR>>

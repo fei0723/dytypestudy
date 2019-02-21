@@ -1,0 +1,5 @@
+<<DCViewConfig>> <<5:74-86>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<6:109-113>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<7:137-149>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<9:173-178>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:179-183>> <<DCViewConfig>> <<PARAMETER>> <<ANCHOR>>

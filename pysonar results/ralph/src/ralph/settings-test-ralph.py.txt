@@ -1,0 +1,5 @@
+<<DATABASES>> <<4:28-37>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<PLUGGABLE_APPS>> <<16:263-277>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<SOUTH_TESTS_MIGRATE>> <<18:302-321>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<ASSETS_AUTO_ASSIGN_HOSTNAME>> <<20:333-360>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<STATICFILES_STORAGE>> <<22:371-390>> <<str>> <<SCOPE>> <<ANCHOR>>

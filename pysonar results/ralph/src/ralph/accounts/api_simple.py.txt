@@ -1,0 +1,7 @@
+<<SimpleRalphUserSerializer>> <<7:127-152>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<8:185-189>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<9:200-205>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<10:234-240>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<read_only_fields>> <<11:305-321>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<depth>> <<12:340-345>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<11:324-330>> <<tuple>> <<VARIABLE>> <<LINK>>

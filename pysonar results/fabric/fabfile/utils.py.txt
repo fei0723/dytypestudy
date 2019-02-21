@@ -1,0 +1,14 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<contextlib>> <<3:46-56>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fabric>> <<5:87-93>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<5:94-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<msg>> <<9:142-145>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<txt>> <<9:146-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<with_statement>> <<1:23-37>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<contextmanager>> <<3:64-78>> <<function>> <<VARIABLE>> <<LINK>>
+<<hide>> <<5:105-109>> <<function>> <<VARIABLE>> <<LINK>>
+<<puts>> <<5:111-115>> <<function>> <<VARIABLE>> <<LINK>>
+<<puts>> <<10:157-161>> <<function>> <<VARIABLE>> <<LINK>>
+<<txt>> <<10:162-165>> <<?>> <<VARIABLE>> <<LINK>>
+<<hide>> <<11:205-209>> <<function>> <<VARIABLE>> <<LINK>>
+<<puts>> <<13:245-249>> <<function>> <<VARIABLE>> <<LINK>>

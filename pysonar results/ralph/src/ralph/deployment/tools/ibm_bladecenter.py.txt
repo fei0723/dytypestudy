@@ -1,0 +1,17 @@
+<<_connect_ssh>> <<15:346-358>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ssh_ibm_reboot>> <<24:524-538>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<24:539-541>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<bay>> <<24:543-546>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ip>> <<15:359-361>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ssh>> <<25:554-557>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<26:582-589>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<27:638-644>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_connect_ssh>> <<25:560-572>> <<function>> <<VARIABLE>> <<LINK>>
+<<ip>> <<25:573-575>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<17:406-408>> <<?>> <<VARIABLE>> <<LINK>>
+<<bay>> <<26:629-632>> <<?>> <<VARIABLE>> <<LINK>>
+<<ssh>> <<27:647-650>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<27:663-670>> <<str>> <<VARIABLE>> <<LINK>>
+<<result>> <<28:688-694>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<28:704-710>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<28:718-724>> <<?>> <<VARIABLE>> <<LINK>>

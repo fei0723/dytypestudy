@@ -1,0 +1,17 @@
+<<boto>> <<23:1183-1187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sts>> <<23:1188-1191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<connection>> <<23:1192-1202>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<boto>> <<24:1230-1234>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<regioninfo>> <<24:1235-1245>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<regions>> <<27:1286-1293>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<connect_to_region>> <<37:1527-1544>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<region_name>> <<37:1545-1556>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<kw_params>> <<37:1560-1569>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<region>> <<49:1945-1951>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<RegionInfo>> <<24:1253-1263>> <<type>> <<VARIABLE>> <<LINK>>
+<<get_regions>> <<24:1265-1276>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_regions>> <<34:1469-1480>> <<function>> <<VARIABLE>> <<LINK>>
+<<regions>> <<49:1955-1962>> <<function>> <<VARIABLE>> <<LINK>>
+<<region>> <<50:1978-1984>> <<?>> <<VARIABLE>> <<LINK>>
+<<region_name>> <<50:1993-2004>> <<?>> <<VARIABLE>> <<LINK>>
+<<region>> <<51:2026-2032>> <<?>> <<VARIABLE>> <<LINK>>

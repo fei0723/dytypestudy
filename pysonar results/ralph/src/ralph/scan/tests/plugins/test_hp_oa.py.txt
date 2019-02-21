@@ -1,0 +1,13 @@
+<<HP_OA_SAMPLE>> <<15:394-406>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<HpOaPluginTest>> <<18:442-456>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_get_parent_device>> <<20:479-501>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_handle_subdevices>> <<31:830-852>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<20:502-506>> <<HpOaPluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:853-857>> <<HpOaPluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<sample_device_info>> <<32:869-887>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<21:518-522>> <<HpOaPluginTest>> <<VARIABLE>> <<LINK>>
+<<HP_OA_SAMPLE>> <<22:568-580>> <<?>> <<VARIABLE>> <<LINK>>
+<<sample_device_info>> <<33:921-939>> <<dict>> <<VARIABLE>> <<LINK>>
+<<HP_OA_SAMPLE>> <<33:941-953>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<34:964-968>> <<HpOaPluginTest>> <<VARIABLE>> <<LINK>>
+<<sample_device_info>> <<35:995-1013>> <<dict>> <<VARIABLE>> <<LINK>>

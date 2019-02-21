@@ -1,0 +1,13 @@
+<<logger>> <<16:391-397>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Command>> <<19:439-446>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<22:547-551>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<requires_model_validation>> <<23:592-617>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<option_list>> <<25:632-643>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<35:882-888>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:889-893>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<35:896-900>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<change>> <<37:969-975>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<36:923-929>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<39:1135-1139>> <<Command>> <<VARIABLE>> <<LINK>>
+<<change>> <<39:1151-1157>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<40:1171-1177>> <<?>> <<VARIABLE>> <<LINK>>

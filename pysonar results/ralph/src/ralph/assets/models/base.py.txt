@@ -1,0 +1,5 @@
+<<BaseObjectMeta>> <<10:365-379>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<BaseObject>> <<19:522-532>> <<type>> <<CLASS>> <<ANCHOR>>
+<<parent>> <<30:708-714>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<remarks>> <<33:812-819>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<service_env>> <<34:856-867>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

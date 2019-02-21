@@ -1,0 +1,17 @@
+<<boto>> <<22:1149-1153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<22:1154-1163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<LimitExceededException>> <<25:1200-1222>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceInUseException>> <<29:1264-1286>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AccessDeniedException>> <<33:1328-1349>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<37:1391-1416>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InternalServiceException>> <<41:1458-1482>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ValidationException>> <<45:1524-1543>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IncompatibleVersionException>> <<49:1585-1613>> <<type>> <<CLASS>> <<ANCHOR>>
+<<JSONResponseError>> <<22:1171-1188>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<25:1223-1240>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<29:1287-1304>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<33:1350-1367>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<37:1417-1434>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<41:1483-1500>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<45:1544-1561>> <<type>> <<VARIABLE>> <<LINK>>
+<<JSONResponseError>> <<49:1614-1631>> <<type>> <<VARIABLE>> <<LINK>>

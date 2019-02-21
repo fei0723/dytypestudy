@@ -1,0 +1,9 @@
+<<Notification>> <<12:285-297>> <<type>> <<CLASS>> <<ANCHOR>>
+<<from_mail>> <<13:314-323>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<to_mail>> <<17:413-420>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<subject>> <<21:512-519>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<content_text>> <<25:609-621>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<content_html>> <<28:692-704>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<created>> <<31:776-783>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<sent>> <<36:908-912>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<remarks>> <<41:1025-1032>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

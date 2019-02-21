@@ -1,0 +1,10 @@
+<<SimpleResultSet>> <<22:1100-1115>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<27:1229-1237>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<27:1238-1242>> <<SimpleResultSet>> <<PARAMETER>> <<ANCHOR>>
+<<input_list>> <<27:1244-1254>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<28:1270-1271>> <<Key>> <<SCOPE>> <<ANCHOR>>
+<<is_truncated>> <<30:1329-1341>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<input_list>> <<28:1275-1285>> <<list>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:1300-1304>> <<SimpleResultSet>> <<VARIABLE>> <<LINK>>
+<<x>> <<29:1312-1313>> <<Key>> <<VARIABLE>> <<LINK>>
+<<self>> <<30:1324-1328>> <<SimpleResultSet>> <<VARIABLE>> <<LINK>>

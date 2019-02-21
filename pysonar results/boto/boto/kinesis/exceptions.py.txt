@@ -1,0 +1,17 @@
+<<boto>> <<23:1159-1163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<23:1164-1173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ProvisionedThroughputExceededException>> <<26:1208-1246>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LimitExceededException>> <<30:1286-1308>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ExpiredIteratorException>> <<34:1348-1372>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceInUseException>> <<38:1412-1434>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<42:1474-1499>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InvalidArgumentException>> <<46:1539-1563>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SubscriptionRequiredException>> <<50:1603-1632>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<23:1181-1196>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<26:1247-1262>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<30:1309-1324>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<34:1373-1388>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<38:1435-1450>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<42:1500-1515>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<46:1564-1579>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<50:1633-1648>> <<type>> <<VARIABLE>> <<LINK>>

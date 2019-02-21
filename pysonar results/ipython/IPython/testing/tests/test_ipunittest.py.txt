@@ -1,0 +1,17 @@
+<<IPython>> <<48:2029-2036>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<48:2037-2044>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ipunittest>> <<48:2045-2055>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<IPython>> <<49:2092-2099>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<49:2100-2105>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<py3compat>> <<49:2106-2115>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<simple_dt>> <<56:2380-2389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipdt_flush>> <<65:2483-2493>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipdt_indented_test>> <<86:2697-2715>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Foo>> <<105:2936-2939>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ipdt_method>> <<114:3212-3223>> <<function>> <<METHOD>> <<ANCHOR>>
+<<normaldt_method>> <<133:3533-3548>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<114:3224-3228>> <<Foo>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<133:3549-3553>> <<Foo>> <<PARAMETER>> <<ANCHOR>>
+<<ipdoctest>> <<48:2063-2072>> <<Doc2UnitTester>> <<VARIABLE>> <<LINK>>
+<<ipdocstring>> <<48:2074-2085>> <<function>> <<VARIABLE>> <<LINK>>
+<<doctest_refactor_print>> <<49:2123-2145>> <<function>> <<VARIABLE>> <<LINK>>

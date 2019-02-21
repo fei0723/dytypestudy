@@ -1,0 +1,10 @@
+<<tornado>> <<21:777-784>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ioloop>> <<21:785-791>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<EPollIOLoop>> <<24:821-832>> <<type>> <<CLASS>> <<ANCHOR>>
+<<initialize>> <<25:855-865>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:866-870>> <<EPollIOLoop>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<25:874-880>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<PollIOLoop>> <<21:799-809>> <<type>> <<VARIABLE>> <<LINK>>
+<<PollIOLoop>> <<24:833-843>> <<type>> <<VARIABLE>> <<LINK>>
+<<EPollIOLoop>> <<26:898-909>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:911-915>> <<EPollIOLoop>> <<VARIABLE>> <<LINK>>

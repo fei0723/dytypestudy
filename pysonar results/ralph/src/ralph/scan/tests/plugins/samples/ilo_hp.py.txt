@@ -1,0 +1,1 @@
+<<SAMPLE_RIBCL>> <<9:184-196>> <<str>> <<SCOPE>> <<ANCHOR>>

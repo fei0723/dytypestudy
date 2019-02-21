@@ -1,0 +1,2 @@
+<<foo>> <<1:4-7>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<bar>> <<4:28-31>> <<function>> <<FUNCTION>> <<ANCHOR>>

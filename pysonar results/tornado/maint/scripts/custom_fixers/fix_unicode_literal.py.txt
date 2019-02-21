@@ -1,0 +1,12 @@
+<<FixUnicodeLiteral>> <<5:81-98>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BM_compatible>> <<6:125-138>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<PATTERN>> <<7:151-158>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<transform>> <<17:296-305>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<17:306-310>> <<FixUnicodeLiteral>> <<PARAMETER>> <<ANCHOR>>
+<<node>> <<17:312-316>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<results>> <<17:318-325>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<arg>> <<18:337-340>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<results>> <<18:343-350>> <<?>> <<VARIABLE>> <<LINK>>
+<<node>> <<19:367-371>> <<?>> <<VARIABLE>> <<LINK>>
+<<arg>> <<19:391-394>> <<?>> <<VARIABLE>> <<LINK>>
+<<node>> <<19:409-413>> <<?>> <<VARIABLE>> <<LINK>>

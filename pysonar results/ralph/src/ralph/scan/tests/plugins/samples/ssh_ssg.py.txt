@@ -1,0 +1,1 @@
+<<SSH_SSG_SAMPLE>> <<3:27-41>> <<str>> <<SCOPE>> <<ANCHOR>>

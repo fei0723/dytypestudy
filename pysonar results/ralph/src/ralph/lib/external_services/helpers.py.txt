@@ -1,0 +1,14 @@
+<<json>> <<1:7-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<obj_to_dict>> <<7:97-108>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model_instance>> <<7:109-123>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fields>> <<7:125-131>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<serial_obj>> <<8:144-154>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<obj_as_dict>> <<11:241-252>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model_instance>> <<9:198-212>> <<?>> <<VARIABLE>> <<LINK>>
+<<fields>> <<9:222-228>> <<None>> <<VARIABLE>> <<LINK>>
+<<json>> <<11:255-259>> <<module>> <<VARIABLE>> <<LINK>>
+<<loads>> <<11:260-265>> <<function>> <<VARIABLE>> <<LINK>>
+<<serial_obj>> <<11:266-276>> <<?>> <<VARIABLE>> <<LINK>>
+<<model_instance>> <<12:316-330>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj_as_dict>> <<12:296-307>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj_as_dict>> <<13:363-374>> <<?>> <<VARIABLE>> <<LINK>>

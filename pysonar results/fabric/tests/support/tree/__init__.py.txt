@@ -1,0 +1,7 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<1:12-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<system>> <<3:38-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<db>> <<3:46-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<deploy>> <<7:65-71>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<build_docs>> <<11:99-109>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<task>> <<1:23-27>> <<function>> <<VARIABLE>> <<LINK>>

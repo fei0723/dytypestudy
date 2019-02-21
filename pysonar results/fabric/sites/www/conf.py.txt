@@ -1,0 +1,5 @@
+<<releases_github_path>> <<12:251-271>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<18:479-485>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<20:586-592>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<intersphinx_mapping>> <<21:633-652>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<22:671-677>> <<str>> <<VARIABLE>> <<LINK>>

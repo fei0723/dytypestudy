@@ -1,0 +1,4 @@
+<<NODE_SN>> <<3:27-34>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NODE_MAC>> <<5:79-87>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DEVICE_INFO_SAMPLE>> <<7:151-169>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VM_INFO_SAMPLE>> <<47:1001-1015>> <<str>> <<SCOPE>> <<ANCHOR>>

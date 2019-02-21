@@ -1,0 +1,10 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ClassBasedTask>> <<3:34-48>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<4:71-74>> <<function>> <<METHOD>> <<ANCHOR>>
+<<foo>> <<7:116-119>> <<ClassBasedTask>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<4:75-79>> <<ClassBasedTask>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<4:82-86>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tasks>> <<1:19-24>> <<module>> <<VARIABLE>> <<LINK>>
+<<tasks>> <<3:49-54>> <<module>> <<VARIABLE>> <<LINK>>
+<<Task>> <<3:55-59>> <<type>> <<VARIABLE>> <<LINK>>
+<<ClassBasedTask>> <<7:122-136>> <<type>> <<VARIABLE>> <<LINK>>

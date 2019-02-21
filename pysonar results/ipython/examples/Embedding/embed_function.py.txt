@@ -1,0 +1,8 @@
+<<IPython>> <<3:87-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<5:111-112>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<b>> <<6:119-120>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<c>> <<10:171-172>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<11:179-180>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<embed>> <<3:102-107>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed>> <<8:129-134>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed>> <<16:241-246>> <<function>> <<VARIABLE>> <<LINK>>

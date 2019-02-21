@@ -1,0 +1,5 @@
+<<tornado>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hello>> <<4:47-52>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<gen>> <<1:20-23>> <<module>> <<VARIABLE>> <<LINK>>
+<<gen>> <<5:67-70>> <<module>> <<VARIABLE>> <<LINK>>
+<<sleep>> <<5:71-76>> <<function>> <<VARIABLE>> <<LINK>>

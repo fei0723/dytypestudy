@@ -1,0 +1,8 @@
+<<SampleChoices>> <<11:232-245>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_>> <<12:261-262>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<simple>> <<14:287-293>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<not_simple>> <<15:313-323>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<difficult>> <<16:347-356>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_>> <<14:296-297>> <<?>> <<VARIABLE>> <<LINK>>
+<<_>> <<15:326-327>> <<?>> <<VARIABLE>> <<LINK>>
+<<_>> <<16:359-360>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,2 @@
+<<IPMI_FRU_SAMPLE>> <<3:27-42>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<IPMI_LAN_SAMPLE>> <<312:11116-11131>> <<str>> <<SCOPE>> <<ANCHOR>>

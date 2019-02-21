@@ -1,0 +1,2 @@
+<<version>> <<28:1105-1112>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_info>> <<29:1127-1139>> <<tuple>> <<SCOPE>> <<ANCHOR>>

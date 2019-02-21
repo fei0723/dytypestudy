@@ -1,0 +1,9 @@
+<<DeploymentFactory>> <<16:407-424>> <<type>> <<CLASS>> <<ANCHOR>>
+<<FACTORY_FOR>> <<17:451-462>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<device>> <<19:483-489>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<mac>> <<20:531-534>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ip>> <<21:557-559>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MassDeploymentFactory>> <<24:576-597>> <<type>> <<CLASS>> <<ANCHOR>>
+<<FACTORY_FOR>> <<25:624-635>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<PrebootFactory>> <<28:664-678>> <<type>> <<CLASS>> <<ANCHOR>>
+<<FACTORY_FOR>> <<29:705-716>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

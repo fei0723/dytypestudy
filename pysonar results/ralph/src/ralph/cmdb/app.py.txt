@@ -1,0 +1,14 @@
+<<Cmdb>> <<12:265-269>> <<type>> <<CLASS>> <<ANCHOR>>
+<<url_prefix>> <<15:325-335>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<module_name>> <<16:350-361>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<disp_name>> <<17:382-391>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<icon>> <<18:406-410>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default_settings_module>> <<19:438-461>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<21:492-500>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<21:501-505>> <<Cmdb>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<21:509-515>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Cmdb>> <<22:533-537>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:539-543>> <<Cmdb>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:659-663>> <<Cmdb>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:686-690>> <<Cmdb>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:727-731>> <<Cmdb>> <<VARIABLE>> <<LINK>>

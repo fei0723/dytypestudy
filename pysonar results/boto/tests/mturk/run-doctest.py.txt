@@ -1,0 +1,15 @@
+<<argparse>> <<1:7-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<doctest>> <<2:24-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<4:35-41>> <<ArgumentParser>> <<SCOPE>> <<ANCHOR>>
+<<args>> <<8:143-147>> <<{None||Namespace}>> <<SCOPE>> <<ANCHOR>>
+<<argparse>> <<4:44-52>> <<module>> <<VARIABLE>> <<LINK>>
+<<ArgumentParser>> <<4:53-67>> <<type>> <<VARIABLE>> <<LINK>>
+<<parser>> <<7:109-115>> <<ArgumentParser>> <<VARIABLE>> <<LINK>>
+<<add_argument>> <<7:116-128>> <<function>> <<VARIABLE>> <<LINK>>
+<<parser>> <<8:150-156>> <<ArgumentParser>> <<VARIABLE>> <<LINK>>
+<<parse_args>> <<8:157-167>> <<function>> <<VARIABLE>> <<LINK>>
+<<doctest>> <<10:173-180>> <<module>> <<VARIABLE>> <<LINK>>
+<<testfile>> <<10:181-189>> <<function>> <<VARIABLE>> <<LINK>>
+<<args>> <<11:193-197>> <<{None||Namespace}>> <<VARIABLE>> <<LINK>>
+<<doctest>> <<12:223-230>> <<module>> <<VARIABLE>> <<LINK>>
+<<REPORT_ONLY_FIRST_FAILURE>> <<12:231-256>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<socket>> <<5:120-126>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hostname>> <<11:211-219>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<11:220-222>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<reverse>> <<11:224-231>> <<bool>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<17:396-402>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<socket>> <<17:405-411>> <<module>> <<VARIABLE>> <<LINK>>
+<<ip>> <<17:430-432>> <<?>> <<VARIABLE>> <<LINK>>
+<<reverse>> <<18:468-475>> <<bool>> <<VARIABLE>> <<LINK>>
+<<result>> <<18:451-457>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<18:481-487>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,11 @@
+<<ReportTemplateInline>> <<6:204-224>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<7:251-256>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<formset>> <<8:279-286>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<extra>> <<9:316-321>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ReportLanguage>> <<13:364-378>> <<type>> <<CLASS>> <<ANCHOR>>
+<<list_display>> <<14:397-409>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ReportAdmin>> <<18:462-473>> <<type>> <<CLASS>> <<ANCHOR>>
+<<search_fields>> <<19:492-505>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_display>> <<20:523-535>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<inlines>> <<21:554-561>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ReportTemplateInline>> <<22:575-595>> <<type>> <<VARIABLE>> <<LINK>>

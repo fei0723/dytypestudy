@@ -1,0 +1,14 @@
+<<importlib>> <<2:30-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RalphAppConfig>> <<7:109-123>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_load_modules_when_ready>> <<8:141-165>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<10:197-202>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:203-207>> <<RalphAppConfig>> <<PARAMETER>> <<ANCHOR>>
+<<package>> <<16:388-395>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<17:432-438>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<import_module>> <<2:47-60>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:398-402>> <<RalphAppConfig>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:442-446>> <<RalphAppConfig>> <<VARIABLE>> <<LINK>>
+<<_load_modules_when_ready>> <<17:447-471>> <<list>> <<VARIABLE>> <<LINK>>
+<<import_module>> <<19:508-521>> <<function>> <<VARIABLE>> <<LINK>>
+<<package>> <<19:537-544>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<19:546-552>> <<str>> <<VARIABLE>> <<LINK>>

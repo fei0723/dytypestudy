@@ -1,0 +1,7 @@
+<<get_ipython>> <<17:646-657>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<IPython>> <<22:801-808>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<22:809-813>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<interactiveshell>> <<22:814-830>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InteractiveShell>> <<22:838-854>> <<type>> <<VARIABLE>> <<LINK>>
+<<InteractiveShell>> <<23:863-879>> <<type>> <<VARIABLE>> <<LINK>>
+<<InteractiveShell>> <<24:911-927>> <<type>> <<VARIABLE>> <<LINK>>

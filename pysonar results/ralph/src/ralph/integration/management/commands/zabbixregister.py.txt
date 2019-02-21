@@ -1,0 +1,15 @@
+<<Command>> <<20:481-488>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<24:577-581>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<requires_model_validation>> <<25:622-647>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<option_list>> <<26:660-671>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<36:924-930>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<36:931-935>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<36:938-942>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<interactive>> <<37:965-976>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<role_ids>> <<39:1047-1055>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<role_id>> <<46:1379-1386>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<role_ids>> <<42:1221-1229>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<44:1333-1339>> <<file>> <<VARIABLE>> <<LINK>>
+<<role_ids>> <<46:1390-1398>> <<?>> <<VARIABLE>> <<LINK>>
+<<role_id>> <<48:1449-1456>> <<?>> <<VARIABLE>> <<LINK>>
+<<interactive>> <<48:1481-1492>> <<?>> <<VARIABLE>> <<LINK>>

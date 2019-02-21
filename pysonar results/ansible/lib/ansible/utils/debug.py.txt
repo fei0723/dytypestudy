@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__metaclass__>> <<2:68-81>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<multiprocessing>> <<8:135-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<global_debug_lock>> <<12:204-221>> <<Lock>> <<SCOPE>> <<ANCHOR>>
+<<debug>> <<13:236-241>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<msg>> <<13:242-245>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:24-39>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<1:41-49>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:51-65>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<Lock>> <<8:158-162>> <<function>> <<VARIABLE>> <<LINK>>
+<<Lock>> <<12:224-228>> <<function>> <<VARIABLE>> <<LINK>>
+<<global_debug_lock>> <<15:282-299>> <<Lock>> <<VARIABLE>> <<LINK>>
+<<msg>> <<16:370-373>> <<?>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<17:389-395>> <<StringIO>> <<VARIABLE>> <<LINK>>
+<<flush>> <<17:396-401>> <<function>> <<VARIABLE>> <<LINK>>
+<<global_debug_lock>> <<18:413-430>> <<Lock>> <<VARIABLE>> <<LINK>>

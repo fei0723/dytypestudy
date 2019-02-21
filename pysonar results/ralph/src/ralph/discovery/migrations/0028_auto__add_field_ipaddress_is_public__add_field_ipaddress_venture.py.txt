@@ -1,0 +1,12 @@
+<<Migration>> <<8:145-154>> <<type>> <<CLASS>> <<ANCHOR>>
+<<forwards>> <<10:184-192>> <<function>> <<METHOD>> <<ANCHOR>>
+<<backwards>> <<22:769-778>> <<function>> <<METHOD>> <<ANCHOR>>
+<<models>> <<30:1021-1027>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<complete_apps>> <<-1:67270-67283>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<22:779-783>> <<Migration>> <<PARAMETER>> <<ANCHOR>>
+<<orm>> <<22:785-788>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<10:193-197>> <<Migration>> <<PARAMETER>> <<ANCHOR>>
+<<orm>> <<10:199-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:333-337>> <<Migration>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:566-570>> <<Migration>> <<VARIABLE>> <<LINK>>
+<<orm>> <<18:637-640>> <<?>> <<VARIABLE>> <<LINK>>

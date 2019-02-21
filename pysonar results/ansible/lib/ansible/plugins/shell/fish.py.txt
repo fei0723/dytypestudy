@@ -1,0 +1,17 @@
+<<__future__>> <<17:729-739>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__metaclass__>> <<18:792-805>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<ShellModule>> <<22:886-897>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_SHELL_AND>> <<24:916-926>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_OR>> <<25:942-951>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_LEFT>> <<26:966-981>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_RIGHT>> <<27:993-1009>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_GROUP_LEFT>> <<28:1021-1038>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_GROUP_RIGHT>> <<29:1049-1067>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<env_prefix>> <<31:1084-1094>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<31:1095-1099>> <<ShellModule>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<31:1103-1109>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:748-763>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<17:765-773>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<17:775-789>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ShellModule>> <<32:1145-1156>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1158-1162>> <<ShellModule>> <<VARIABLE>> <<LINK>>

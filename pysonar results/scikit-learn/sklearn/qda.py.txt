@@ -1,0 +1,5 @@
+<<warnings>> <<1:7-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<discriminant_analysis>> <<6:214-235>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<warnings>> <<2:17-25>> <<module>> <<VARIABLE>> <<LINK>>
+<<warn>> <<2:26-30>> <<function>> <<VARIABLE>> <<LINK>>
+<<QuadraticDiscriminantAnalysis>> <<6:276-279>> <<type>> <<VARIABLE>> <<LINK>>

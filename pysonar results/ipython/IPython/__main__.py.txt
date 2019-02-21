@@ -1,0 +1,3 @@
+<<IPython>> <<12:429-436>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<start_ipython>> <<12:444-457>> <<function>> <<VARIABLE>> <<LINK>>
+<<start_ipython>> <<14:461-474>> <<function>> <<VARIABLE>> <<LINK>>

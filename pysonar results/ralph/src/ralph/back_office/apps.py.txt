@@ -1,0 +1,3 @@
+<<BackOfficeConfig>> <<4:49-65>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:88-92>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<6:120-132>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

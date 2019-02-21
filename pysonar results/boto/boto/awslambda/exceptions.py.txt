@@ -1,0 +1,11 @@
+<<boto>> <<22:1149-1153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<22:1154-1163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InvalidRequestContentException>> <<25:1198-1228>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<29:1268-1293>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InvalidParameterValueException>> <<33:1333-1363>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ServiceException>> <<37:1403-1419>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<22:1171-1186>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<25:1229-1244>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<29:1294-1309>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<33:1364-1379>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<37:1420-1435>> <<type>> <<VARIABLE>> <<LINK>>

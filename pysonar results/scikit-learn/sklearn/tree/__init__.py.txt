@@ -1,0 +1,11 @@
+<<tree>> <<6:122-126>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tree>> <<7:164-168>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tree>> <<8:205-209>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tree>> <<9:244-248>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<export>> <<10:282-288>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:315-322>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DecisionTreeClassifier>> <<6:134-156>> <<type>> <<VARIABLE>> <<LINK>>
+<<DecisionTreeRegressor>> <<7:176-197>> <<type>> <<VARIABLE>> <<LINK>>
+<<ExtraTreeClassifier>> <<8:217-236>> <<type>> <<VARIABLE>> <<LINK>>
+<<ExtraTreeRegressor>> <<9:256-274>> <<type>> <<VARIABLE>> <<LINK>>
+<<export_graphviz>> <<10:296-311>> <<function>> <<VARIABLE>> <<LINK>>

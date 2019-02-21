@@ -1,0 +1,14 @@
+<<ListElement>> <<25:1214-1225>> <<type>> <<CLASS>> <<ANCHOR>>
+<<startElement>> <<31:1372-1384>> <<function>> <<METHOD>> <<ANCHOR>>
+<<endElement>> <<34:1442-1452>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<34:1453-1457>> <<ListElement>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<34:1459-1463>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<34:1465-1470>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<connection>> <<34:1472-1482>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:1385-1389>> <<ListElement>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<31:1391-1395>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attrs>> <<31:1397-1402>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<connection>> <<31:1404-1414>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<35:1497-1501>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1528-1532>> <<ListElement>> <<VARIABLE>> <<LINK>>
+<<value>> <<36:1540-1545>> <<?>> <<VARIABLE>> <<LINK>>

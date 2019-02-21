@@ -1,0 +1,13 @@
+<<tornado>> <<2:87-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ioloop>> <<2:95-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<3:122-129>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<netutil>> <<3:130-137>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<resolver>> <<10:401-409>> <<ThreadedResolver>> <<SCOPE>> <<ANCHOR>>
+<<IOLoop>> <<2:109-115>> <<type>> <<VARIABLE>> <<LINK>>
+<<ThreadedResolver>> <<3:145-161>> <<type>> <<VARIABLE>> <<LINK>>
+<<ThreadedResolver>> <<10:412-428>> <<type>> <<VARIABLE>> <<LINK>>
+<<IOLoop>> <<11:432-438>> <<type>> <<VARIABLE>> <<LINK>>
+<<current>> <<11:439-446>> <<function>> <<VARIABLE>> <<LINK>>
+<<run_sync>> <<11:449-457>> <<function>> <<VARIABLE>> <<LINK>>
+<<resolver>> <<11:466-474>> <<ThreadedResolver>> <<VARIABLE>> <<LINK>>
+<<resolve>> <<11:475-482>> <<function>> <<VARIABLE>> <<LINK>>

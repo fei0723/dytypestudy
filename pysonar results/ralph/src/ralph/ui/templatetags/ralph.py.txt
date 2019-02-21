@@ -1,0 +1,6 @@
+<<register>> <<13:294-302>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<extless_static>> <<17:355-369>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<17:370-374>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<23:596-600>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<23:627-631>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<24:662-666>> <<?>> <<VARIABLE>> <<LINK>>

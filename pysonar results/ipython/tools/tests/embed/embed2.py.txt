@@ -1,0 +1,5 @@
+<<IPython>> <<2:78-85>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<user_ns>> <<4:102-109>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<embed>> <<2:93-98>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed>> <<5:136-141>> <<function>> <<VARIABLE>> <<LINK>>
+<<user_ns>> <<5:150-157>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<Command>> <<15:381-388>> <<type>> <<CLASS>> <<ANCHOR>>
+<<args>> <<16:408-412>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<help>> <<17:437-441>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<19:501-507>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<19:508-512>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<19:515-519>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ip>> <<23:650-652>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<args>> <<20:549-553>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<23:673-677>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<26:805-807>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:891-895>> <<Command>> <<VARIABLE>> <<LINK>>
+<<ip>> <<28:933-935>> <<?>> <<VARIABLE>> <<LINK>>

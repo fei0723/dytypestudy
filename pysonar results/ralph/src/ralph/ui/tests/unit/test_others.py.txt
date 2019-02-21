@@ -1,0 +1,10 @@
+<<TestAddresses>> <<17:382-395>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_got_balancers_when_no_default_pool>> <<19:418-457>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<19:458-462>> <<TestAddresses>> <<PARAMETER>> <<ANCHOR>>
+<<lbvs>> <<20:474-478>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<balancers>> <<22:571-580>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<21:525-529>> <<TestAddresses>> <<VARIABLE>> <<LINK>>
+<<lbvs>> <<21:543-547>> <<?>> <<VARIABLE>> <<LINK>>
+<<lbvs>> <<22:603-607>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:626-630>> <<TestAddresses>> <<VARIABLE>> <<LINK>>
+<<balancers>> <<23:644-653>> <<list>> <<VARIABLE>> <<LINK>>

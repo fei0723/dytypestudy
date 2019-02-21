@@ -1,0 +1,16 @@
+<<TransitionError>> <<4:35-50>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TransitionNotAllowedError>> <<8:84-109>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<9:137-145>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<TransitionModelNotFoundError>> <<15:278-306>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<9:146-150>> <<TransitionNotAllowedError>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<9:152-159>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<errors>> <<9:161-167>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<11:219-226>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<errors>> <<12:251-257>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<TransitionError>> <<8:110-125>> <<type>> <<VARIABLE>> <<LINK>>
+<<TransitionError>> <<15:307-322>> <<type>> <<VARIABLE>> <<LINK>>
+<<message>> <<10:196-203>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<11:229-236>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:214-218>> <<TransitionNotAllowedError>> <<VARIABLE>> <<LINK>>
+<<errors>> <<12:260-266>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:246-250>> <<TransitionNotAllowedError>> <<VARIABLE>> <<LINK>>

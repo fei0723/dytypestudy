@@ -1,0 +1,4 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<decorators>> <<1:12-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<foo>> <<4:49-52>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<task>> <<1:30-34>> <<function>> <<VARIABLE>> <<LINK>>

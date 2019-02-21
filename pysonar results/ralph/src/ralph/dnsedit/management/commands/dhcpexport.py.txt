@@ -1,0 +1,8 @@
+<<Command>> <<14:287-294>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<18:373-377>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<requires_model_validation>> <<19:418-443>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<21:462-468>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<21:469-473>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<server_address>> <<21:475-489>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<None>> <<21:490-494>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<server_address>> <<24:664-678>> <<None>> <<VARIABLE>> <<LINK>>

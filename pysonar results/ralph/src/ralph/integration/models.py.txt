@@ -1,0 +1,14 @@
+<<IntegrationType>> <<13:325-340>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_>> <<14:356-357>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<custom>> <<16:382-388>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<zabbix>> <<17:408-414>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RoleIntegration>> <<20:440-455>> <<type>> <<CLASS>> <<ANCHOR>>
+<<venture_role>> <<21:472-484>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<type>> <<23:588-592>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<name>> <<26:794-798>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<value>> <<27:858-863>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_>> <<16:391-392>> <<?>> <<VARIABLE>> <<LINK>>
+<<_>> <<17:417-418>> <<?>> <<VARIABLE>> <<LINK>>
+<<IntegrationType>> <<24:699-714>> <<type>> <<VARIABLE>> <<LINK>>
+<<IntegrationType>> <<25:762-777>> <<type>> <<VARIABLE>> <<LINK>>
+<<custom>> <<25:778-784>> <<?>> <<VARIABLE>> <<LINK>>

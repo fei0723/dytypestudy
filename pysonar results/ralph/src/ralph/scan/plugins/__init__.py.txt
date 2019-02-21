@@ -1,0 +1,5 @@
+<<get_base_result_template>> <<11:207-231>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<plugin_name>> <<11:232-243>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<messages>> <<11:245-253>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<plugin_name>> <<15:394-405>> <<?>> <<VARIABLE>> <<LINK>>
+<<messages>> <<16:428-436>> <<list>> <<VARIABLE>> <<LINK>>

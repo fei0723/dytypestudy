@@ -1,0 +1,4 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<1:12-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<update_apt>> <<5:44-54>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<task>> <<1:23-27>> <<function>> <<VARIABLE>> <<LINK>>

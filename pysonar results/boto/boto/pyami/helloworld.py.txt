@@ -1,0 +1,9 @@
+<<boto>> <<22:1132-1136>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pyami>> <<22:1137-1142>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scriptbase>> <<22:1143-1153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HelloWorld>> <<24:1181-1191>> <<type>> <<CLASS>> <<ANCHOR>>
+<<main>> <<26:1216-1220>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<26:1221-1225>> <<HelloWorld>> <<PARAMETER>> <<ANCHOR>>
+<<ScriptBase>> <<22:1161-1171>> <<type>> <<VARIABLE>> <<LINK>>
+<<ScriptBase>> <<24:1192-1202>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:1237-1241>> <<HelloWorld>> <<VARIABLE>> <<LINK>>

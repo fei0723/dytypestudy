@@ -1,0 +1,13 @@
+<<set_close_exec>> <<27:965-979>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Waker>> <<32:1106-1111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<fileno>> <<41:1564-1570>> <<function>> <<METHOD>> <<ANCHOR>>
+<<write_fileno>> <<49:1800-1812>> <<function>> <<METHOD>> <<ANCHOR>>
+<<wake>> <<53:1933-1937>> <<function>> <<METHOD>> <<ANCHOR>>
+<<consume>> <<57:2058-2065>> <<function>> <<METHOD>> <<ANCHOR>>
+<<close>> <<61:2202-2207>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<49:1813-1817>> <<Waker>> <<PARAMETER>> <<ANCHOR>>
+<<fd>> <<27:980-982>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<57:2066-2070>> <<Waker>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<53:1938-1942>> <<Waker>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<61:2208-2212>> <<Waker>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<41:1571-1575>> <<Waker>> <<PARAMETER>> <<ANCHOR>>

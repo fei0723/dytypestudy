@@ -1,0 +1,17 @@
+<<fabric>> <<5:65-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<5:72-75>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<confirm>> <<8:99-106>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<question>> <<8:107-115>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<default>> <<8:117-124>> <<bool>> <<PARAMETER>> <<ANCHOR>>
+<<suffix>> <<22:669-675>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<suffix>> <<24:704-710>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<27:787-795>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<prompt>> <<5:83-89>> <<function>> <<VARIABLE>> <<LINK>>
+<<default>> <<21:651-658>> <<bool>> <<VARIABLE>> <<LINK>>
+<<prompt>> <<27:798-804>> <<function>> <<VARIABLE>> <<LINK>>
+<<question>> <<27:819-827>> <<?>> <<VARIABLE>> <<LINK>>
+<<suffix>> <<27:829-835>> <<str>> <<VARIABLE>> <<LINK>>
+<<response>> <<29:881-889>> <<str>> <<VARIABLE>> <<LINK>>
+<<default>> <<30:911-918>> <<bool>> <<VARIABLE>> <<LINK>>
+<<response>> <<32:946-954>> <<str>> <<VARIABLE>> <<LINK>>
+<<response>> <<35:1023-1031>> <<str>> <<VARIABLE>> <<LINK>>

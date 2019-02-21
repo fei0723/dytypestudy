@@ -1,0 +1,4 @@
+<<borg>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<archiver>> <<1:10-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<1:26-30>> <<function>> <<VARIABLE>> <<LINK>>
+<<main>> <<2:32-36>> <<function>> <<VARIABLE>> <<LINK>>

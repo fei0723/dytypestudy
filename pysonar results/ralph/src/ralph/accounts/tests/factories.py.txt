@@ -1,0 +1,17 @@
+<<RegionFactory>> <<8:159-172>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<10:201-205>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<12:258-262>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<13:273-278>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<django_get_or_create>> <<14:297-317>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<UserFactory>> <<17:340-351>> <<type>> <<CLASS>> <<ANCHOR>>
+<<username>> <<19:380-388>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<is_active>> <<20:441-450>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<22:471-475>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<23:486-491>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<TeamFactory>> <<26:515-526>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<27:553-557>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<29:622-626>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<30:637-642>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<django_get_or_create>> <<31:659-679>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<n>> <<19:415-416>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<19:432-433>> <<?>> <<VARIABLE>> <<LINK>>

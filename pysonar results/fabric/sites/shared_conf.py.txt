@@ -1,0 +1,15 @@
+<<html_theme_path>> <<8:117-132>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<extensions>> <<9:159-169>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<html_static_path>> <<11:248-264>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<html_theme>> <<12:299-309>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_theme_options>> <<13:325-343>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<html_sidebars>> <<26:666-679>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<project>> <<36:832-839>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<year>> <<37:852-856>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<copyright>> <<38:880-889>> <<{str||int}>> <<SCOPE>> <<ANCHOR>>
+<<master_doc>> <<39:918-928>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<templates_path>> <<40:940-954>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<exclude_trees>> <<41:973-986>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<source_suffix>> <<42:1001-1014>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<default_role>> <<43:1025-1037>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<year>> <<38:912-916>> <<int>> <<VARIABLE>> <<LINK>>

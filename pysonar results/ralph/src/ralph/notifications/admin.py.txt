@@ -1,0 +1,16 @@
+<<NotificationBaseAdmin>> <<13:281-302>> <<type>> <<CLASS>> <<ANCHOR>>
+<<list_display>> <<14:327-339>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<17:430-436>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<date_hierarchy>> <<21:557-571>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<search_fields>> <<22:589-602>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_filter>> <<23:656-667>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<readonly_fields>> <<24:685-700>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<has_add_permission>> <<26:755-773>> <<function>> <<METHOD>> <<ANCHOR>>
+<<has_delete_permission>> <<29:833-854>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:855-859>> <<NotificationBaseAdmin>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<29:861-868>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<29:870-873>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:774-778>> <<NotificationBaseAdmin>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<26:780-787>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<26:789-792>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<NotificationBaseAdmin>> <<32:940-961>> <<type>> <<VARIABLE>> <<LINK>>

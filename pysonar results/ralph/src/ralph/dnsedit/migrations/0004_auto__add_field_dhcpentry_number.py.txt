@@ -1,0 +1,17 @@
+<<Migration>> <<9:160-169>> <<type>> <<CLASS>> <<ANCHOR>>
+<<forwards>> <<11:199-207>> <<function>> <<METHOD>> <<ANCHOR>>
+<<backwards>> <<24:686-695>> <<function>> <<METHOD>> <<ANCHOR>>
+<<models>> <<29:819-825>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<complete_apps>> <<329:30361-30374>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<24:696-700>> <<Migration>> <<PARAMETER>> <<ANCHOR>>
+<<orm>> <<24:702-705>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<11:208-212>> <<Migration>> <<PARAMETER>> <<ANCHOR>>
+<<orm>> <<11:214-217>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<dhcp_entries>> <<18:489-501>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<item>> <<19:560-564>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<14:340-344>> <<Migration>> <<VARIABLE>> <<LINK>>
+<<orm>> <<18:504-507>> <<?>> <<VARIABLE>> <<LINK>>
+<<dhcp_entries>> <<19:568-580>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<20:634-638>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<20:599-603>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<21:661-665>> <<?>> <<VARIABLE>> <<LINK>>

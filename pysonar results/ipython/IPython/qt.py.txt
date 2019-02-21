@@ -1,0 +1,14 @@
+<<IPython>> <<10:232-239>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<10:240-245>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<shimmodule>> <<10:246-256>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_console>> <<18:540-548>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_qt>> <<21:653-656>> <<ShimModule>> <<SCOPE>> <<ANCHOR>>
+<<console>> <<23:715-722>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ShimModule>> <<10:264-274>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<10:276-287>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<13:396-407>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimModule>> <<18:587-597>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimModule>> <<21:659-669>> <<type>> <<VARIABLE>> <<LINK>>
+<<_console>> <<23:725-733>> <<?>> <<VARIABLE>> <<LINK>>
+<<_qt>> <<23:711-714>> <<ShimModule>> <<VARIABLE>> <<LINK>>
+<<_qt>> <<24:763-766>> <<ShimModule>> <<VARIABLE>> <<LINK>>

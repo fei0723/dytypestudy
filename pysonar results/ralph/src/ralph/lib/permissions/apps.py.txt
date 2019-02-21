@@ -1,0 +1,5 @@
+<<PermissionAppConfig>> <<8:194-213>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<9:231-235>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<10:267-279>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<12:307-312>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:313-317>> <<PermissionAppConfig>> <<PARAMETER>> <<ANCHOR>>

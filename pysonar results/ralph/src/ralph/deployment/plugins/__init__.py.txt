@@ -1,0 +1,4 @@
+<<loader>> <<6:51-57>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<6:59-63>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ispkg>> <<6:65-70>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<7:138-142>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<AUTHOR>> <<3:27-33>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<extensions>> <<7:84-94>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<exclude_patterns>> <<9:146-162>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<source_suffix>> <<10:177-190>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<master_doc>> <<11:201-211>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<project>> <<13:225-232>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<copyright>> <<14:245-254>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<16:284-291>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<release>> <<17:301-308>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pygments_style>> <<19:323-337>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<extlinks>> <<22:390-398>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<htmlhelp_basename>> <<28:545-562>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<latex_documents>> <<31:607-622>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<man_pages>> <<37:744-753>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<AUTHOR>> <<33:685-691>> <<str>> <<VARIABLE>> <<LINK>>
+<<AUTHOR>> <<39:835-841>> <<str>> <<VARIABLE>> <<LINK>>
+<<AUTHOR>> <<41:925-931>> <<str>> <<VARIABLE>> <<LINK>>

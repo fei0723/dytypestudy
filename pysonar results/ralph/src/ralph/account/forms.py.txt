@@ -1,0 +1,5 @@
+<<UserHomePageForm>> <<15:384-400>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<17:426-430>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<18:441-446>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<19:466-472>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<home_page>> <<22:519-528>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

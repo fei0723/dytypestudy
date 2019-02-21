@@ -1,0 +1,8 @@
+<<sklearn>> <<8:102-109>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__check_build>> <<8:110-123>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sklearn>> <<10:157-164>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<10:165-170>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<10:171-178>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_raise_build_error>> <<13:209-231>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<raise_build_error>> <<8:131-148>> <<function>> <<VARIABLE>> <<LINK>>
+<<raise_build_error>> <<14:267-284>> <<function>> <<VARIABLE>> <<LINK>>

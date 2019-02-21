@@ -1,0 +1,9 @@
+<<notify_puppet_agent>> <<18:440-459>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<commit_hook>> <<27:622-633>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<18:460-467>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<contents>> <<19:475-483>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<20:504-505>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<27:634-641>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<19:486-493>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<21:536-537>> <<?>> <<VARIABLE>> <<LINK>>
+<<contents>> <<21:554-562>> <<?>> <<VARIABLE>> <<LINK>>

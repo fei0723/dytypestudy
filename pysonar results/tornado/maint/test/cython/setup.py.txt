@@ -1,0 +1,6 @@
+<<Cython>> <<6:76-82>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<ext_modules>> <<9:117-128>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<ext_modules>> <<11:148-159>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Cython>> <<8:96-102>> <<None>> <<VARIABLE>> <<LINK>>
+<<Cython>> <<11:160-166>> <<None>> <<VARIABLE>> <<LINK>>
+<<ext_modules>> <<16:302-313>> <<{None||?}>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<ipdoctest>> <<11:243-252>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<17:388-389>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pp>> <<17:374-376>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<IPDocTestRunner>> <<11:260-275>> <<type>> <<VARIABLE>> <<LINK>>
+<<x>> <<17:388-389>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<17:380-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<IPDocTestRunner>> <<18:461-476>> <<type>> <<VARIABLE>> <<LINK>>
+<<pp>> <<19:498-500>> <<list>> <<VARIABLE>> <<LINK>>
+<<ipdoctest>> <<19:502-511>> <<module>> <<VARIABLE>> <<LINK>>
+<<IPythonDoctest>> <<19:512-526>> <<type>> <<VARIABLE>> <<LINK>>

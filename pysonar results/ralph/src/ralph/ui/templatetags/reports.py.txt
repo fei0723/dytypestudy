@@ -1,0 +1,13 @@
+<<register>> <<10:213-221>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<wait_for_results>> <<14:318-334>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<links>> <<22:515-520>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<items>> <<22:521-526>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<item>> <<24:616-620>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<autoreload>> <<14:335-345>> <<bool>> <<PARAMETER>> <<ANCHOR>>
+<<reload_frequency>> <<14:352-368>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<items>> <<24:624-629>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<24:616-620>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<24:593-597>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<24:603-607>> <<?>> <<VARIABLE>> <<LINK>>
+<<autoreload>> <<16:411-421>> <<bool>> <<VARIABLE>> <<LINK>>
+<<reload_frequency>> <<17:452-468>> <<int>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<DEBUG>> <<3:40-45>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<TEST_DB_ENGINE>> <<5:57-71>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<DATABASES>> <<12:319-328>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<INSTALLED_APPS>> <<20:500-514>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<PASSWORD_HASHERS>> <<27:643-659>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<STATICFILES_STORAGE>> <<29:717-736>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ROOT_URLCONF>> <<31:798-810>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<URLCONF_MODULES>> <<34:947-962>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<TEST_DB_ENGINE>> <<7:123-137>> <<?>> <<VARIABLE>> <<LINK>>
+<<ROOT_URLCONF>> <<34:985-997>> <<str>> <<VARIABLE>> <<LINK>>

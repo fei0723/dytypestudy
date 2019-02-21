@@ -1,0 +1,8 @@
+<<dict_vectorizer>> <<7:183-198>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hashing>> <<8:228-235>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<image>> <<9:264-269>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:328-335>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DictVectorizer>> <<7:206-220>> <<type>> <<VARIABLE>> <<LINK>>
+<<FeatureHasher>> <<8:243-256>> <<type>> <<VARIABLE>> <<LINK>>
+<<img_to_graph>> <<9:277-289>> <<function>> <<VARIABLE>> <<LINK>>
+<<grid_to_graph>> <<9:291-304>> <<function>> <<VARIABLE>> <<LINK>>

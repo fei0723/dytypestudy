@@ -1,0 +1,6 @@
+<<base_info>> <<3:27-36>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cpu_info>> <<77:4255-4263>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<memory_info>> <<182:9974-9985>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<nic_info>> <<345:18509-18517>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pci_info>> <<609:32147-32155>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<physical_disk_info>> <<1167:62751-62769>> <<str>> <<SCOPE>> <<ANCHOR>>

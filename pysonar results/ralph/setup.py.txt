@@ -1,0 +1,6 @@
+<<read>> <<10:167-171>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<fname>> <<10:172-177>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<read>> <<15:294-298>> <<function>> <<VARIABLE>> <<LINK>>
+<<fname>> <<11:237-242>> <<str>> <<VARIABLE>> <<LINK>>
+<<read>> <<19:545-549>> <<function>> <<VARIABLE>> <<LINK>>
+<<read>> <<19:564-568>> <<function>> <<VARIABLE>> <<LINK>>

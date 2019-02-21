@@ -1,0 +1,17 @@
+<<_patched_send_soap>> <<15:394-412>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_patched_get_session_id>> <<30:1108-1131>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<HttpIbmSystemXTest>> <<34:1223-1241>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_http_ibm_system_x>> <<44:1492-1514>> <<function>> <<METHOD>> <<ANCHOR>>
+<<post_url>> <<15:413-421>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<session_id>> <<15:423-433>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<15:435-442>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ip_address>> <<30:1132-1142>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<user>> <<30:1144-1148>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<password>> <<30:1150-1158>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<44:1515-1519>> <<HttpIbmSystemXTest>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<16:514-521>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<18:641-648>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<20:751-758>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<22:871-878>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<24:986-993>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<45:1531-1535>> <<HttpIbmSystemXTest>> <<VARIABLE>> <<LINK>>

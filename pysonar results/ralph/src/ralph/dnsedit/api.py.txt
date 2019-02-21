@@ -1,0 +1,15 @@
+<<THROTTLE_AT>> <<20:590-601>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<TIMEFRAME>> <<21:644-653>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<EXPIRATION>> <<22:694-704>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<PowerDnsRecordResource>> <<25:756-778>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<27:804-808>> <<type>> <<CLASS>> <<ANCHOR>>
+<<queryset>> <<28:819-827>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<authentication>> <<29:860-874>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<authorization>> <<30:909-922>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<filtering>> <<35:1051-1060>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<cache>> <<40:1166-1171>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_allowed_methods>> <<41:1197-1217>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<throttle>> <<42:1237-1245>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<THROTTLE_AT>> <<43:1288-1299>> <<?>> <<VARIABLE>> <<LINK>>
+<<TIMEFRAME>> <<44:1324-1333>> <<?>> <<VARIABLE>> <<LINK>>
+<<EXPIRATION>> <<45:1359-1369>> <<?>> <<VARIABLE>> <<LINK>>

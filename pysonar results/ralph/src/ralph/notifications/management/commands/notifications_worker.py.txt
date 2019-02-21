@@ -1,0 +1,12 @@
+<<logger>> <<20:558-564>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Command>> <<46:1273-1280>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<47:1300-1304>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<49:1354-1360>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<49:1361-1365>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<49:1368-1372>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<e>> <<55:1633-1634>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<worker>> <<51:1412-1418>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<21:606-612>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<52:1486-1492>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<53:1518-1524>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<54:1584-1590>> <<?>> <<VARIABLE>> <<LINK>>

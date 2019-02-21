@@ -1,0 +1,2 @@
+<<hello>> <<1:4-9>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<world>> <<5:42-47>> <<function>> <<FUNCTION>> <<ANCHOR>>

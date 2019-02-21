@@ -1,0 +1,15 @@
+<<SimpleLicenceSerializer>> <<9:218-241>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<10:274-278>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<11:289-294>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<depth>> <<12:314-319>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<exclude>> <<13:333-340>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SimpleLicenceUserSerializer>> <<16:411-438>> <<type>> <<CLASS>> <<ANCHOR>>
+<<licence>> <<17:465-472>> <<SimpleLicenceSerializer>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<19:514-518>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<20:529-534>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SimpleBaseObjectLicenceSerializer>> <<23:560-593>> <<type>> <<CLASS>> <<ANCHOR>>
+<<licence>> <<24:620-627>> <<SimpleLicenceSerializer>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<26:669-673>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<27:684-689>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SimpleLicenceSerializer>> <<17:475-498>> <<type>> <<VARIABLE>> <<LINK>>
+<<SimpleLicenceSerializer>> <<24:630-653>> <<type>> <<VARIABLE>> <<LINK>>

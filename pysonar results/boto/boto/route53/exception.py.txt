@@ -1,0 +1,5 @@
+<<boto>> <<23:1173-1177>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<23:1178-1187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DNSServerError>> <<26:1222-1236>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<23:1195-1210>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<26:1237-1252>> <<type>> <<VARIABLE>> <<LINK>>

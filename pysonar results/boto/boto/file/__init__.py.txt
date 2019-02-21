@@ -1,0 +1,13 @@
+<<boto>> <<22:1102-1106>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<boto>> <<24:1115-1119>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<file>> <<24:1120-1124>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<connection>> <<24:1125-1135>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<boto>> <<25:1178-1182>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<file>> <<25:1183-1187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<key>> <<25:1188-1191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<boto>> <<26:1209-1213>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<file>> <<26:1214-1218>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bucket>> <<26:1219-1225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<28:1243-1250>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<FileConnection>> <<24:1161-1171>> <<type>> <<VARIABLE>> <<LINK>>
+<<Key>> <<25:1199-1202>> <<type>> <<VARIABLE>> <<LINK>>

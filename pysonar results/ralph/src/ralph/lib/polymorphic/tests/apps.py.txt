@@ -1,0 +1,3 @@
+<<PolymorphicTestsConfig>> <<4:45-67>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:85-89>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<label>> <<6:127-132>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

@@ -1,0 +1,8 @@
+<<mimetypes>> <<1:7-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SimpleHTTPServer>> <<6:134-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mimetypes>> <<4:52-61>> <<module>> <<VARIABLE>> <<LINK>>
+<<init>> <<4:62-66>> <<function>> <<VARIABLE>> <<LINK>>
+<<mimetypes>> <<5:74-83>> <<module>> <<VARIABLE>> <<LINK>>
+<<add_type>> <<5:84-92>> <<function>> <<VARIABLE>> <<LINK>>
+<<SimpleHTTPServer>> <<7:156-172>> <<module>> <<VARIABLE>> <<LINK>>
+<<test>> <<7:173-177>> <<function>> <<VARIABLE>> <<LINK>>

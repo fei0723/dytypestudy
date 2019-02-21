@@ -1,0 +1,6 @@
+<<RalphAdminConfig>> <<7:129-145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:163-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<label>> <<9:189-194>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<10:216-228>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<12:256-261>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:262-266>> <<RalphAdminConfig>> <<PARAMETER>> <<ANCHOR>>

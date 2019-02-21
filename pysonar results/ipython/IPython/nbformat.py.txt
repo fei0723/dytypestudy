@@ -1,0 +1,7 @@
+<<IPython>> <<10:238-245>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<10:246-251>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<shimmodule>> <<10:252-262>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ShimModule>> <<10:270-280>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<10:282-293>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimWarning>> <<13:407-418>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShimModule>> <<18:585-595>> <<type>> <<VARIABLE>> <<LINK>>

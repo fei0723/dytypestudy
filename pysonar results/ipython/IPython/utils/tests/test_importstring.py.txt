@@ -1,0 +1,12 @@
+<<IPython>> <<16:606-613>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<16:614-619>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<importstring>> <<16:620-632>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_import_plain>> <<22:830-847>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_nested>> <<29:962-980>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_raises>> <<36:1132-1150>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<<?>>> <<32:1057-1062>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<<?>>> <<25:898-901>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<import_item>> <<16:640-651>> <<function>> <<VARIABLE>> <<LINK>>
+<<import_item>> <<38:1248-1259>> <<function>> <<VARIABLE>> <<LINK>>
+<<import_item>> <<32:1065-1076>> <<function>> <<VARIABLE>> <<LINK>>
+<<import_item>> <<25:904-915>> <<function>> <<VARIABLE>> <<LINK>>

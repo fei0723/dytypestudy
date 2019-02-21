@@ -1,0 +1,8 @@
+<<TEST_MODULES>> <<8:244-256>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<all>> <<39:1250-1253>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<main>> <<42:1336-1340>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<e>> <<47:1488-1489>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<54:1611-1615>> <<function>> <<VARIABLE>> <<LINK>>
+<<e>> <<48:1503-1504>> <<?>> <<VARIABLE>> <<LINK>>
+<<argv>> <<46:1454-1458>> <<list>> <<VARIABLE>> <<LINK>>
+<<TEST_MODULES>> <<40:1315-1327>> <<list>> <<VARIABLE>> <<LINK>>

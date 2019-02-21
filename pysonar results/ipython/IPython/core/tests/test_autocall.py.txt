@@ -1,0 +1,4 @@
+<<IPython>> <<8:396-403>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<8:404-409>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<doctest_autocall>> <<11:469-485>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<py3compat>> <<8:417-426>> <<module>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<boto>> <<4:171-175>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dynamodb>> <<4:176-184>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<types>> <<4:185-190>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<STRING>> <<8:265-271>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NUMBER>> <<9:279-285>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BINARY>> <<10:293-299>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<STRING_SET>> <<11:307-317>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NUMBER_SET>> <<12:326-336>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BINARY_SET>> <<13:345-355>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NULL>> <<14:364-368>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BOOLEAN>> <<15:379-386>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MAP>> <<16:397-400>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LIST>> <<17:408-412>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<QUERY_OPERATORS>> <<19:422-437>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<FILTER_OPERATORS>> <<29:596-612>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<NonBooleanDynamizer>> <<4:198-217>> <<type>> <<VARIABLE>> <<LINK>>
+<<Dynamizer>> <<4:219-228>> <<type>> <<VARIABLE>> <<LINK>>

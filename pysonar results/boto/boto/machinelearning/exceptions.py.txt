@@ -1,0 +1,17 @@
+<<boto>> <<23:1151-1155>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<23:1156-1165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InternalServerException>> <<26:1200-1223>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LimitExceededException>> <<30:1263-1285>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IdempotentParameterMismatchException>> <<34:1325-1361>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceInUseException>> <<38:1401-1423>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<42:1463-1488>> <<type>> <<CLASS>> <<ANCHOR>>
+<<PredictorNotMountedException>> <<46:1528-1556>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InvalidInputException>> <<50:1596-1617>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<23:1173-1188>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<26:1224-1239>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<30:1286-1301>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<34:1362-1377>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<38:1424-1439>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<42:1489-1504>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<46:1557-1572>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<50:1618-1633>> <<type>> <<VARIABLE>> <<LINK>>

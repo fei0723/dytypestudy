@@ -1,0 +1,16 @@
+<<SupportTypeFactory>> <<11:258-276>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<13:305-309>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<15:370-374>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<16:385-390>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<django_get_or_create>> <<17:414-434>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SupportFactory>> <<20:457-471>> <<type>> <<CLASS>> <<ANCHOR>>
+<<region>> <<22:500-506>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<support_type>> <<23:548-560>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<status>> <<24:607-613>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<contract_id>> <<25:639-650>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<date_to>> <<26:702-709>> <<date>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<28:744-748>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<29:759-764>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<n>> <<25:677-678>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<SupportTypeFactory>> <<23:582-600>> <<type>> <<VARIABLE>> <<LINK>>
+<<n>> <<25:693-694>> <<?>> <<VARIABLE>> <<LINK>>

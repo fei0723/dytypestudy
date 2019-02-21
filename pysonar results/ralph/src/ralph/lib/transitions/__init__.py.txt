@@ -1,0 +1,2 @@
+<<default_app_config>> <<8:332-350>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<10:405-412>> <<list>> <<SCOPE>> <<ANCHOR>>

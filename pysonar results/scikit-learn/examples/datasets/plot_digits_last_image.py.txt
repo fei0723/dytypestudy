@@ -1,0 +1,6 @@
+<<sklearn>> <<25:698-705>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<digits>> <<30:786-792>> <<Bunch>> <<SCOPE>> <<ANCHOR>>
+<<datasets>> <<25:713-721>> <<module>> <<VARIABLE>> <<LINK>>
+<<datasets>> <<30:795-803>> <<module>> <<VARIABLE>> <<LINK>>
+<<load_digits>> <<30:804-815>> <<function>> <<VARIABLE>> <<LINK>>
+<<digits>> <<34:889-895>> <<Bunch>> <<VARIABLE>> <<LINK>>

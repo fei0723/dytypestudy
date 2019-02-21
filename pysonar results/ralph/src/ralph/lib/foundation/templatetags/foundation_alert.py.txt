@@ -1,0 +1,8 @@
+<<register>> <<3:31-39>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<alert>> <<7:126-131>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<message>> <<7:132-139>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<css_class>> <<7:141-150>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<is_close>> <<7:162-170>> <<bool>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<9:242-249>> <<?>> <<VARIABLE>> <<LINK>>
+<<css_class>> <<9:264-273>> <<str>> <<VARIABLE>> <<LINK>>
+<<is_close>> <<9:287-295>> <<bool>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<boto>> <<4:73-77>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exception>> <<4:78-87>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InvalidTypeException>> <<7:122-142>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LimitExceededException>> <<14:266-288>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InternalException>> <<21:390-407>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DisabledOperationException>> <<28:499-525>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResourceNotFoundException>> <<35:632-657>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BaseException>> <<42:769-782>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BotoServerError>> <<4:95-110>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<7:143-158>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<14:289-304>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<21:408-423>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<28:526-541>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<35:658-673>> <<type>> <<VARIABLE>> <<LINK>>
+<<BotoServerError>> <<42:783-798>> <<type>> <<VARIABLE>> <<LINK>>

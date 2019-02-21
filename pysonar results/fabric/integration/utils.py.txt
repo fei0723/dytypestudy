@@ -1,0 +1,7 @@
+<<mod>> <<5:61-64>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Integration>> <<13:274-285>> <<type>> <<CLASS>> <<ANCHOR>>
+<<setup>> <<14:304-309>> <<function>> <<METHOD>> <<ANCHOR>>
+<<teardown>> <<18:402-410>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:310-314>> <<Integration>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<18:411-415>> <<Integration>> <<PARAMETER>> <<ANCHOR>>
+<<mod>> <<6:159-162>> <<str>> <<VARIABLE>> <<LINK>>

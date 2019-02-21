@@ -1,0 +1,11 @@
+<<VMWarePluginTest>> <<17:392-408>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_get_vm_info>> <<19:431-447>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_get_vm_info_subdev_no_mac>> <<91:3135-3165>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<19:448-452>> <<VMWarePluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<20:464-470>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<91:3166-3170>> <<VMWarePluginTest>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<93:3249-3255>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<21:514-518>> <<VMWarePluginTest>> <<VARIABLE>> <<LINK>>
+<<result>> <<22:545-551>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<94:3313-3317>> <<VMWarePluginTest>> <<VARIABLE>> <<LINK>>
+<<result>> <<94:3330-3336>> <<?>> <<VARIABLE>> <<LINK>>

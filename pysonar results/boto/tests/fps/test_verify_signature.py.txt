@@ -1,0 +1,14 @@
+<<boto>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fps>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<connection>> <<1:14-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<3:53-57>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<conn>> <<4:66-70>> <<FPSConnection>> <<VARIABLE>> <<ANCHOR>>
+<<params>> <<6:132-138>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<endpoint>> <<7:802-810>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<FPSConnection>> <<1:32-45>> <<type>> <<VARIABLE>> <<LINK>>
+<<test>> <<12:943-947>> <<function>> <<VARIABLE>> <<LINK>>
+<<FPSConnection>> <<4:73-86>> <<type>> <<VARIABLE>> <<LINK>>
+<<conn>> <<8:866-870>> <<FPSConnection>> <<VARIABLE>> <<LINK>>
+<<verify_signature>> <<8:871-887>> <<function>> <<VARIABLE>> <<LINK>>
+<<endpoint>> <<8:888-896>> <<str>> <<VARIABLE>> <<LINK>>
+<<params>> <<8:898-904>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<IPython>> <<7:126-133>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<7:134-138>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<error>> <<7:139-144>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<inspect_object>> <<12:214-228>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<complete_object>> <<18:308-323>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<18:324-327>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<prev_completions>> <<18:329-345>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<12:229-232>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<TryNext>> <<7:152-159>> <<type>> <<VARIABLE>> <<LINK>>

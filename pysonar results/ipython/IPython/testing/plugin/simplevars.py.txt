@@ -1,0 +1,2 @@
+<<x>> <<2:39-40>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<3:60-61>> <<int>> <<VARIABLE>> <<LINK>>

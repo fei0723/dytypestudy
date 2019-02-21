@@ -1,0 +1,7 @@
+<<settings_module>> <<61:2181-2196>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<project>> <<83:2994-3001>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<83:3002-3006>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<module>> <<61:2197-2203>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<settings_module>> <<94:3380-3395>> <<function>> <<VARIABLE>> <<LINK>>
+<<name>> <<94:3412-3416>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<80:2978-2984>> <<str>> <<VARIABLE>> <<LINK>>

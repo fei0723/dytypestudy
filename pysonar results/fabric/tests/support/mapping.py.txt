@@ -1,0 +1,12 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tasks>> <<1:12-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MappingTask>> <<3:39-50>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<4:73-76>> <<function>> <<METHOD>> <<ANCHOR>>
+<<mapping_task>> <<7:101-113>> <<MappingTask>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<8:144-148>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<4:77-81>> <<MappingTask>> <<PARAMETER>> <<ANCHOR>>
+<<Task>> <<1:25-29>> <<type>> <<VARIABLE>> <<LINK>>
+<<Task>> <<3:57-61>> <<type>> <<VARIABLE>> <<LINK>>
+<<MappingTask>> <<7:116-127>> <<type>> <<VARIABLE>> <<LINK>>
+<<mapping_task>> <<8:131-143>> <<MappingTask>> <<VARIABLE>> <<LINK>>
+<<name>> <<8:144-148>> <<str>> <<VARIABLE>> <<LINK>>
