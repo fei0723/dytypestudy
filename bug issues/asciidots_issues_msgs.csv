@@ -1,0 +1,404 @@
+ID,Title,Created At,Closed At,Issues,Errors,Messages,Body
+60,Bootstrap CDN being blocked due to CORS,2017-11-28T21:39:46Z,2017-12-02T07:31:26Z,"bug, demo",,,"In the [demo](http://ajanse.me/asciidots/demo), opening the console shows this error
+
+```
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).
+```"
+59,Filters (:;) do not work on IDs,2017-11-25T09:59:21Z,2017-11-25T21:01:10Z,,,,"Filter ``:`` and ``;`` were added recently in documentation.
+It seems that they do not operate on IDs.
+Is there a reason to restrict to values ?"
+58,Enhance error debugging,2017-11-17T23:12:50Z,,"discussion, enhancement, help wanted",RuntimeError,"RuntimeError: Dot tried to exit library it never entered.","Some asciidots programs have unspecified behaviour.
+One such example is when a dot spawned _inside_ a library's source code tries to exit (see https://github.com/aaronduino/asciidots/issues/54#issuecomment-344757596).
+
+Instead of _only_ an error message describing the error and how to resolve it, it would be helpful if it showed the dot's spawn coordinates and it's current coordinates.
+
+---
+
+Current error text:
+```
+...
+  File ""./dots/states.py"", line 144, in run
+    raise RuntimeError('Dot tried to exit library it never entered.\nThis is likely caused by a dot spawned inside a library trying to teleport out.')
+RuntimeError: Dot tried to exit library it never entered.
+This is likely caused by a dot spawned inside a library trying to teleport out.
+```
+
+Suggested error text:
+```
+...
+  File ""./dots/states.py"", line 144, in run
+    raise RuntimeError('Dot tried to exit library it never entered.\nThis is likely caused by a dot spawned inside a library trying to teleport out.')
+RuntimeError: Dot tried to exit library it never entered.
+This is likely caused by a dot spawned inside a library trying to teleport out.
+
+Spawned: Line 3, Col 17
+Current Location: Line 14, Col 9
+```
+
+---
+
+Yes? No? Maybe so?
+
+I'm open to any ideas and/or feedback."
+57,IndexError: pop from empty list,2017-11-15T22:59:15Z,2017-11-17T23:16:56Z,enhancement,,,"This error message needs to be clarified.
+
+See https://github.com/aaronduino/asciidots/issues/54#issuecomment-344757596"
+56,Add docs for `;` and `:` to main readme,2017-11-15T03:01:26Z,2017-11-17T23:23:26Z,"documentation, help wanted",,,"[Online docs](https://aaronduino.github.io/asciidots/docs/language.html) have it:
+
+> Some other useful characters include:
+> `:` - deletes dots traveling over it with a value of `0`
+> `;` - deletes dots traveling over it with a value of `1`"
+55,EOF support,2017-11-13T03:59:26Z,2017-12-09T18:40:13Z,"discussion, enhancement, help wanted",,,Anybody have any ideas for good ways to let asciidots code detect EOF (end of file) input?
+54,Function-like abstraction,2017-11-12T19:48:08Z,2017-11-15T03:06:32Z,help / question,,,"Consider this example. It searches for ""END\n"" in a sequence of inputs (entered as numbers because of #53). 
+```
+%$ENDF
+
+`` Exit when END\n sequence is found
+
+  /#69\/#78\/#68\/#10\
+.>*#?-E*#?-N*#?-D*#?-F---&
+ \----<----<----<----/
+
+``              wanted
+``                |
+`` Usage:   in -- X -- out OK
+``                |
+``               out NOK
+
+ /-----*\      /-----*\      /-----*\      /-----*\
+/E-\   v+\    /N-\   v+\    /D-\   v+\    /F-\   v+\
+|| |  .>~*\   || |  .>~*\   || |  .>~*\   || |  .>~*\
+|\{-}---/ |   |\{-}---/ |   |\{-}---/ |   |\{-}---/ |
+\---------/   \---------/   \---------/   \---------/
+```
+Code around E, N, D and F is exactly the same.
+Is there a way to not copy the whole function and use it in several places ?"
+53,ASCII input,2017-11-12T19:22:27Z,2017-11-18T00:26:14Z,"discussion, enhancement",,,"Quite ironically, asciidots does not seem to support ascii input.
+Or have I missed something ?
+
+This prints ascii based on (\n-separated) list of numbers:
+```
+.->#?-\
+  \#a$/
+```
+> $ echo -e ""66\n69\n78"" | asciidots example1.dots 
+> B
+> E
+> N
+> 
+> Aborted!
+
+With ascii input, this code is lost. It outputs \0 followed by \n.
+
+> $ echo ""BEN"" | asciidots example1.dots | hexdump -C
+> 
+> Aborted!
+> 00000000  00 0a                                             |..|
+> 00000002
+
+It might be useful to have a primitive that read one char of input and store its char number (https://docs.python.org/2/library/functions.html#ord) as dot value (exactly the opposite of `$a#`).
+Thus the program could take any arbitrary input.
+
+As a side effect of this small example, we see that it might be useful to test for EOF as well."
+52,add table of contents to README.md,2017-11-10T22:02:30Z,2017-11-12T00:30:49Z,"documentation, enhancement, help wanted",,,
+51,Add official dockerfile,2017-11-07T16:00:48Z,2017-11-08T02:59:49Z,,,,"From the discussion https://github.com/francois2metz/docker-asciidots/issues/1
+
+The last things to do would be to add an automated build in the docker hub. It make things simpler to users."
+50,Refactor char inheritance,2017-11-04T21:36:43Z,2017-12-24T23:08:31Z,"help wanted, refactoring",,,Python's `isinstance` should be used instead of inherited checks like `isWarp`
+49,slow down demo backend,2017-10-26T03:33:48Z,2017-12-06T22:52:22Z,"demo, enhancement",,,
+48,Clean up demo frontend code,2017-10-23T22:43:17Z,2017-10-26T04:05:18Z,"demo, refactoring",,,"gh-pages branch, index.html
+
+It is a _mess_.
+I wrote it in a rush, and it looks like it is the _complete opposite_ of every single style guide for html/js/css.
+
+Todo:
+- [ ] Separate into index.html, main.js, styles.css
+- [ ] Make example code handling more flexible and organized
+- [ ] Clean up in general"
+47,Clean up library search code,2017-10-21T04:29:37Z,2017-11-04T21:21:26Z,refactoring,,,https://github.com/aaronduino/asciidots/blob/master/dots/world.py#L172-L186
+46,Make asciidots error messages more descriptive,2017-10-21T04:27:19Z,2017-11-04T21:45:57Z,enhancement,,,"Some places where asciidots error messages need some love:
+- unsucessfully finding asciidots libraries
+
+In addition, there should be a warning when a program is run that doesn't have any dots (since the debugger just closes right now)."
+45,Document where asciidots libraries are looked for,2017-10-21T04:25:23Z,2017-11-04T21:20:26Z,documentation,,,
+44,upload to pypi,2017-10-14T01:41:09Z,2017-10-21T04:25:02Z,"enhancement, help wanted",,,"It would be great if people could just do something like:
+```
+pip install asciidots
+```
+
+[anowlcalledjosh did this a while back](https://github.com/anowlcalledjosh/asciidots/commit/afc222532b8408dd59824688b5a1efe09389cb0c), but I don't think his exact code works anymore."
+43,Documentation for storage.dots + external ressources,2017-10-07T06:41:31Z,2017-10-07T14:07:29Z,,,,"External ressources is just copied from the wiki, but I think it's a good idea to have them there too"
+42,New libs and small fixes,2017-10-02T08:45:47Z,2017-10-02T16:22:39Z,,,,"This adds a wait and a clone lib. I fixed val_to_id and improved negate_id (4 directions)
+
+Outside libs, I changed how TwoDotStates pair fixing btw a bug where `{+}` would be a pile (last dot always used instead of the first that was waiting)"
+41,Doc ! part 2,2017-10-02T08:04:41Z,2017-10-02T16:20:47Z,,,,"Almost all the doc for libs is done, it just needs compress and decompress to be done. "
+40,Docs !,2017-10-02T02:41:56Z,2017-10-02T02:44:29Z,,,,"I've started the docs for the libsm there sill some work to do, but this is a begging ;)
+
+Btw, your theme is amazingly pretty ;)"
+39,update backend to latest version of asciidots,2017-09-29T01:50:57Z,2017-10-02T22:23:58Z,,,,"Long story, but submodules aren't working on the backend
+
+The asciidots copy on the backend needs to be updated."
+38,Pos enhancements and new for_in_range librairy,2017-09-28T06:29:26Z,2017-09-28T22:35:15Z,,,,
+37,Delete unneeded files in gh-pages branch,2017-09-27T22:02:25Z,2017-09-28T22:50:16Z,,,,
+36,Online demo dropping characters... again,2017-09-27T01:12:47Z,2017-10-02T22:24:06Z,"bug, demo",,,"see #13 (closed issue)
+
+I suspect that an outdated demo frontend is being hosted"
+35,Fix exit when using the [&] or {&} operations,2017-09-19T19:02:24Z,2017-09-19T23:20:55Z,,,,
+34,One click is one tick,2017-09-16T14:28:24Z,2017-09-16T15:33:09Z,,,,"Hopefully, this corrects the last problem of dots moving twice, or none in a tick. "
+33,Wraps on the same line,2017-09-16T06:21:41Z,2017-09-28T22:34:40Z,bug,,,"We can't have two wraps on the same line. The culprit is [here](https://github.com/aaronduino/asciidots/blob/354f7ef87fd5c9cd175042a7c66a3a4f4151e109/dots/world.py#L250) but we can not remove it because if [breaks the libraries](https://github.com/aaronduino/asciidots/commit/9524f75c7008f1a604187177a54a56eadaa017ae)
+
+I think that we need to totally rewrite the library implementation but..."
+32,Nice stuff,2017-09-16T06:08:19Z,2017-09-16T06:15:03Z,,,,"A lot of different things were improved :
+- debug view shows when dots are on spaces and the debug doesnt overflows the console
+- interpreter catches exceptions as a context manager
+- Pos improvements (hashable, create from a tuple)
+- the changes between states doesn't take one tick
+- no more dotes on spaces 
+- dots move only once after `*` 
+An I fix hopefully fix all the bugs I've created in the PR..."
+31,Revamp the operators.dots,2017-09-12T20:17:46Z,2017-09-12T22:46:57Z,bug,,,"The showcase of all the operators doesn't work, as the parallel moving dots arrive too early at their destinations and lines start to write text while other lines are not finished yet. I would redo the sample, but I just opened the issue for awareness."
+30,Better State trasitions,2017-09-12T14:36:38Z,2017-09-12T22:22:15Z,,,,"Now, The dot can have a new state directly after leaving one, and doesn't need to wait one tick (go in travel state and then to whatever it must)
+
+Also with a cleanner exit (only one (or two because of signal) call to finish) at one place."
+29,Add ability to spawn dots in debugger,2017-09-11T23:04:06Z,2017-09-27T01:18:58Z,"enhancement, help wanted",,,"It would be great if the user could interactively spawn dots from the debugger to test their asciidots code.
+
+Maybe use [curses.getmouse](https://docs.python.org/3.6/library/curses.html#curses.getmouse) to allow the user to click where they want the dot?"
+28,Add scrolling to debugger,2017-09-11T23:01:09Z,2017-10-02T22:27:18Z,"enhancement, help wanted",,,"It would be great if arrow keys could move the viewport of the debugger.  
+This would be helpful for large asciidots programs."
+27,Updated chars.py and sample program operators.dots,2017-09-10T05:35:22Z,2017-09-10T21:23:59Z,,,,
+26,Get rid of unicode operators,2017-09-10T04:43:53Z,2017-09-10T21:26:22Z,,,,"It is called *Ascii*Dots after all.
+
+I propose getting rid of the following operators:
+
+> ÷: division
+> ≥: greater than or equal to
+> ≤: less than or equal to
+> ≠: not equal to"
+25,Merge pull request #1 from aaronduino/master,2017-09-10T03:10:02Z,2017-09-10T03:10:47Z,,,,fix bug where using {&} operator causes termination
+24,Add a Pos class for easier position use,2017-09-07T10:27:13Z,2017-09-08T23:19:37Z,,,,
+23,Expand documentation,2017-09-02T17:57:32Z,2017-10-02T22:40:42Z,,,,"Talk about unexpected chars, how a dot decides which direction to start in, etc."
+22,"Env class to hold what must be accessible from everywhere, less useless code and more comment and docstrings",2017-08-31T13:48:22Z,2017-09-01T01:13:03Z,,,,"After a discussion with @aaronduino, we concluded that introducing an env variable which everybody gets a reference was the best to avoid all the callbacks like `func_to_get_dots` etc...
+There is still some work to make the code more straitforward but I think it's a good start.
+
+During my search of all places to use env, i've added more docstrings and included typing hint in them.
+I've performed some small renaming to avoid camelcase for functions and names.
+
+The constants file needs to be competed (a lot) so there will be no more hardcoded value outside of this file (for instance all the chars)
+ "
+21,Interpreter change proposal: dots move at the same time,2017-08-30T16:48:34Z,2017-09-09T21:30:03Z,"discussion, help / question",,,"Right now, as seen in the readme's GIF, only one dot moves at a time.
+
+The proposal is to change that such that dots move in parallel (at the same time).
+
+At the time being, this mode can be enabled with the (temporary) `-p` flag.
+
+No test/sample programs are broken by enabling ""parallel mode"", and the only code that would be broken is code relying on interpreter quirks not specified in the readme's language/interpreter specs anyway.
+
+What does everyone think about this?
+Should ""parallel mode"" be implemented as default behaviour, or should the language be kept the same?
+
+Either way, I think the `-p` flag should be dropped once the decision is made."
+20,"Commenting, simplifying and more clear code",2017-08-28T13:55:34Z,2017-08-28T22:16:57Z,,,,"This fixes the behavior of outup in compat mode that weren't scrolling, add a constant module to have less hardcoded values in the other files.
+I've added a lot of comments in the parts I've read and understood and refactoring, renaming and removing useless code"
+19,Possible License Change Suggestions,2017-08-21T13:59:55Z,2017-08-28T22:22:55Z,discussion,,,"APGL-3 seems very strict, especially since I don't think anyone will be able to ""sell"" an esolang.
+
+Does anyone have ideas for a better license for this project?
+
+In addition, should the language specs be licensed under Creative Commons?"
+18,"Please expand the documentation around ""address"" and ""value""",2017-08-21T11:03:27Z,2017-08-26T10:35:23Z,"discussion, enhancement",,,"A dot can have an address and a value but it is unclear from the documentation what these mean and how (if at all) they interact. My first assumption was that the address was a index into a shared memory structure so you could have two dots backed by the same memory location with code like:
+
+    .-*-@1-#1000-$#-& `` outputs 1000 
+      |
+      \-@1-$#-& `` expected output of 1000 - actual output 0
+
+But empirically this is not how it works. My next guess was that a dot could have multiple values at different addresses.
+
+    .-*-@1-#1000-$#-@2-#2000-$#-@1-$#-& `` expected output of 1000,2000,1000 - actual output 1000,2000,2000
+
+But empirically this is not how it works either. It would seem that address and value are just two independent attributes on an a dot and there is no relationship between them or special meaning for either of them.
+
+I think it would be valuable to state this explicitly in the documentation or alternatively you could rename these concepts to something less misleading such as ""value1"" and ""value2"" or ""a"" and ""b""."
+17,Write more tests,2017-08-14T20:15:54Z,2017-09-28T22:50:02Z,help wanted,,,"Everyone-- Feel free to help contribute by writing some tests and adding them to unit_tests.bats
+
+Better testing is desperately needed"
+16,It does not run,2017-08-12T14:09:07Z,2017-08-12T21:20:26Z,,ModuleNotFoundError,"ModuleNotFoundError: No module named '_curses'`","When I try `python .\__main__.py .\samples\counter.dots` it will give me an error:
+`Traceback (most recent call last):
+  File "".\__main__.py"", line 6, in <module>
+    import curses
+  File ""C:\Program Files\Python36\lib\curses\__init__.py"", line 13, in <module>
+    from _curses import *
+ModuleNotFoundError: No module named '_curses'`
+
+Is this on my side, or did I forget something?"
+15,Running with debug doesn't wait for inputs,2017-08-10T17:35:51Z,2017-08-10T17:42:57Z,,_curses.error,"_curses.error: addwstr() returned ERR","When interpreting with the -d tag, there's no prompt for an input and the interpreter crashes as if an empty string was input.
+Everything works fine without the -d tag. Adding the -w tag fixes it, but outputs aren't preserved.
+Here's the crash message it gives when it gets to an input:
+```
+$ python __main__.py samples/factor.dots -d -a 0.1
+Traceback (most recent call last):
+  File ""__main__.py"", line 257, in <module>
+    main()
+  File ""/usr/lib/python3.6/site-packages/click/core.py"", line 722, in __call__
+    return self.main(*args, **kwargs)
+  File ""/usr/lib/python3.6/site-packages/click/core.py"", line 697, in main
+    rv = self.invoke(ctx)
+  File ""/usr/lib/python3.6/site-packages/click/core.py"", line 895, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""/usr/lib/python3.6/site-packages/click/core.py"", line 535, in invoke
+    return callback(*args, **kwargs)
+  File ""__main__.py"", line 253, in main
+    raise e
+  File ""__main__.py"", line 249, in main
+    interpreter.run()
+  File ""/home/james/Documents/asciidots/dots/interpreter.py"", line 40, in run
+    dot.simulate_tick()
+  File ""/home/james/Documents/asciidots/dots/dot.py"", line 79, in simulate_tick
+    self.state.run(char)
+  File ""/home/james/Documents/asciidots/dots/states.py"", line 9, in _decorator
+    func(self, *args, **kwargs)
+  File ""/home/james/Documents/asciidots/dots/states.py"", line 169, in run
+    self.parent.value = int(self.parent.callbacks.get_input())
+  File ""__main__.py"", line 73, in get_input
+    return self.curses_input(self.stdscr, curses.LINES - 2, 2, '?: ')
+  File ""__main__.py"", line 78, in curses_input
+    stdscr.addstr(r + 1, c, "" "" * (curses.COLS - 1))
+_curses.error: addwstr() returned ERR
+```
+Very nice language by the way, lots of fun 😃 "
+14,Add a Gitter chat badge to readme.md,2017-08-10T17:35:31Z,2017-08-10T17:44:26Z,,,,"### aaronduino/asciidots now has a Chat Room on Gitter
+
+@aaronduino has just created a chat room. You can visit it here: [https://gitter.im/asciidots/Lobby](https://gitter.im/asciidots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&content=body_link).
+
+This pull-request adds this badge to your readme.md:
+
+
+[![Gitter](https://badges.gitter.im/asciidots/Lobby.svg)](https://gitter.im/asciidots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+
+If my aim is a little off, please [let me know](https://github.com/gitterHQ/readme-badger/issues).
+
+Happy chatting.
+
+
+PS: [Click here](https://gitter.im/settings/badger/opt-out) if you would prefer not to receive automatic pull-requests from Gitter in future.
+"
+13,Online demo dropping characters,2017-08-10T03:58:29Z,2017-08-11T17:31:00Z,"bug, demo",,,"Code:
+
+```
+.->$""Hello, World!""\
+  \----------------/
+```
+
+Output:
+
+```
+---Starting---
+Hello, Wold!
+Helo,World!
+Hello, World!
+Hello,World
+Hello, World!
+Hello, World!
+ello, Wrld!
+Hello, World!
+Hello, World!
+Helo, World!
+---Stopped---
+```
+
+I think this is caused by socket messages being dropped.
+
+This will be fixed once #11 (optimizing bandwidth use) is fixed."
+12,Problems with debug mode,2017-08-10T03:44:19Z,2017-08-10T03:51:45Z,,,,"Hi again,
+
+I'm not getting any output when I run a program in debug mode with -s.
+
+Is this a known issue?"
+11,Optimize online demo,2017-08-10T02:38:46Z,2017-10-20T22:25:19Z,"demo, enhancement",,,"Right now, the server styles the code with ANSI and sends it over every tick.
+
+It would be better if javascript colors characters client-side and just asks the server for the coordinates of the dots.
+The javascript would then update _just that character_ with the appropriate color. (it would get rid of the color from where the dot _used to be_, of course)"
+10,ImportErrors,2017-08-10T00:47:10Z,2017-08-10T17:12:47Z,,,,"I am having a lot of issues with click, when I run ""$ python3 __main__.py ./samples/counter.dots"" (or any of the example files) I "" ImportError: No module named 'click' "" I can get it to import by changing line 7 to ""import click_package"", but then line 218 says 'click' is undefined. I am brand new to python and was just hoping to play around with this compiler. Please let me know if I am on the right path to fix this issue, or if I am way off. thank you."
+9,Crash When Running Examples With Debug,2017-08-09T05:23:04Z,2017-08-09T21:17:38Z,bug,_curses.error,"_curses.error: prefresh() returned ERR","Running python3 __main__.py samples/counter.dots  -d -a 1
+results in:
+
+~/asciidots$ python3 __main__.py samples/counter.dots  -d -a 1
+Traceback (most recent call last):
+  File ""__main__.py"", line 253, in <module>
+    main()
+  File ""/home/pdietl/.local/lib/python3.5/site-packages/click/core.py"", line 722, in __call__
+    return self.main(*args, **kwargs)
+  File ""/home/pdietl/.local/lib/python3.5/site-packages/click/core.py"", line 697, in main
+    rv = self.invoke(ctx)
+  File ""/home/pdietl/.local/lib/python3.5/site-packages/click/core.py"", line 895, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""/home/pdietl/.local/lib/python3.5/site-packages/click/core.py"", line 535, in invoke
+    return callback(*args, **kwargs)
+  File ""__main__.py"", line 249, in main
+    raise e
+  File ""__main__.py"", line 245, in main
+    interpreter.run()
+  File ""/home/pdietl/asciidots/dots/interpreter.py"", line 40, in run
+    dot.simulate_tick()
+  File ""/home/pdietl/asciidots/dots/dot.py"", line 79, in simulate_tick
+    self.state.run(char)
+  File ""/home/pdietl/asciidots/dots/states.py"", line 12, in _decorator
+    func(self, *args, **kwargs)
+  File ""/home/pdietl/asciidots/dots/states.py"", line 248, in run
+    self.parent.callbacks.on_output(data)
+  File ""__main__.py"", line 103, in on_output
+    curses.LINES - 1, curses.COLS - 1)
+_curses.error: prefresh() returned ERR
+
+
+"
+8,Change sample extentions since .fry doesn't exist anymore,2017-08-09T04:38:34Z,2017-08-09T05:51:27Z,,,,"Changing extensions since the .fry ones don't seem to exist anymore.
+Let me know if I'm missing something."
+7,Can't run example program,2017-08-09T04:01:12Z,2017-08-09T04:21:16Z,,ModuleNotFoundError,"ModuleNotFoundError: No module named 'click'","Hi,
+I'm getting a import error when trying to run `python __main__.py ./samples/counter.fry`
+
+`
+Traceback (most recent call last):
+  File ""__main__.py"", line 5, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+`
+
+Am I doing something wrong? Do I need to setup a venv?"
+6,"Online demo is just displaying ""Not Connected...""",2017-08-08T20:48:24Z,2017-10-02T22:45:05Z,"bug, demo, help wanted",,,Title says it all I think
+5,Add debug mode to online demo,2017-08-08T19:58:02Z,2017-08-10T01:40:51Z,"enhancement, help wanted",,,"It would be great to add the debug mode features available with the offline version (as seen in [the animated gif](https://raw.githubusercontent.com/aaronduino/asciidots/master/dots_debug.gif)) to the online interface.
+
+Right now, the static site source code is hosted at [aaronduino/asciidots-static-server](https://github.com/aaronduino/asciidots-static-server) and the backend source code is hosted at [aaronduino/asciidots-server](https://github.com/aaronduino/asciidots-server).
+
+It would probably make the most sense to add a debug mode for ANSI (that would also fix #4) and send the raw text to the client.
+The client could parse the ANSI and then render the colors.
+
+Another option would be to convert ANSI to html on the server side, but that opens up the client to injection attacks until the site uses SSL (see [backend issue #1](https://github.com/aaronduino/asciidots-server/issues/1))"
+4,Add ANSI debugging for compatibility with windows,2017-08-08T19:53:22Z,2017-08-08T23:59:21Z,"enhancement, help wanted",,,"Windows has a lot of trouble with Curses, so it would be great to add a debug mode that prints colors using ANSI."
+3,Where is quit_curses() defined?,2017-08-08T18:52:45Z,2017-08-08T19:32:57Z,,,,"flake8 testing of https://github.com/aaronduino/asciidots on Python 3.6.2
+
+$ __flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics__
+```
+./dots/states.py:24:9: F821 undefined name 'quit_curses'
+        quit_curses()
+        ^
+
+./dots/states.py:28:9: F821 undefined name 'quit_curses'
+        quit_curses()
+        ^
+```"
+2,import threading,2017-08-08T18:47:47Z,2017-08-08T19:34:37Z,,,,`threading` used on line 32
+1,Factor Does Not Return Self,2017-08-08T03:24:54Z,2017-08-08T03:55:10Z,,,,"The online factor example doesn't include the input number as a factor of itself, ex:
+
+```
+>> input 11
+---Starting---
+1
+---Stopped---
+```
+The expected output is:
+```
+>> input 11
+---Starting---
+1
+11
+---Stopped---
+```"

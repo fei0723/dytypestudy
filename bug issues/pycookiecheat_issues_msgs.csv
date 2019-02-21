@@ -1,0 +1,207 @@
+ID,Title,Created At,Closed At,Issues,Errors,Messages,Body
+18,UnicodeDecodeError: 'utf-8' codec can't decode byte in `clean` function,2017-08-22T03:19:13Z,2017-10-21T03:52:51Z,,UnicodeDecodeError,"UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 0: invalid start byte","Hi, @n8henrie , I found this error when I use `pycookiecheat` 
+
+**my machine version info:** 
+Linux version 4.9.43-1-MANJARO (builduser@manjaro) (gcc version 7.1.1 20170630 (GCC) ) #1 SMP PREEMPT Sun Aug 13 20:28:47 UTC 2017
+**google-chrome version:**
+60.0.3112.101 (Official Build) (64-bit)
+
+here's my test code:
+```python
+import requests
+from pycookiecheat import chrome_cookies
+
+
+if __name__ == '__main__':
+      url = 'https://www.google.com'
+      cookies = chrome_cookies(url)
+```
+hers's traceback:
+```
+➜  crawer git:(master) ✗ python pycookietest.py 
+Traceback (most recent call last):
+  File ""pycookietest.py"", line 7, in <module>
+    cookies = chrome_cookies(url)
+  File ""/usr/lib/python3.6/site-packages/pycookiecheat/pycookiecheat.py"", line 216, in chrome_cookies
+    init_vector=config['init_vector'])
+  File ""/usr/lib/python3.6/site-packages/pycookiecheat/pycookiecheat.py"", line 64, in chrome_decrypt
+    return clean(decrypted)
+  File ""/usr/lib/python3.6/site-packages/pycookiecheat/pycookiecheat.py"", line 41, in clean
+    return decrypted[:-last].decode('utf8')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 0: invalid start byte
+```
+And I also research the issue https://github.com/n8henrie/pycookiecheat/issues/12
+I was wondering if the value of `my_pass` is wrong, so I print every detail in decrypt process
+here's return:
+```
+encrypted_value:  b'v11\n?r\xec\xcb\x8f\x8f\x1c\x08\x05A 8\xec\x81N~7\xc1O\xa0\xc0\xdd\xbb\xfb\xaa=\xfb\x90\xbd\x1f$'
+unlocked_keyring:  []
+my_pass:  peanuts
+decrypted_value:  b's\t\xdd\xf6mp\x97\x12v\xcf\xd7\x9b\x1c\x83\xf5;\xdd\xa1\xf5\xf5\xe0!S\xb9\xa4\x85C\xbc\xb4\x8b\x93A'
+clean_decrypted_value:  
+```
+**unlocked_keyring was got from your code**
+**clean_decrypted_value is ues clean() function** got.
+Some clean_decrypted_value is None, some are runs faild, and got the same log `UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 0: invalid start byte`.
+
+Please help me figure this out. Thanks!
+
+BTW, forgive my poor English..."
+17,Syntax error on line 27,2017-08-03T09:49:18Z,2017-08-03T09:51:46Z,,SyntaxError,"SyntaxError: invalid syntax","Hi, I'm getting this error when trying to use pycookiecheat
+```
+[...]
+pycookiecheat.py"", line 27
+    def clean(decrypted: bytes) -> str:
+                       ^
+SyntaxError: invalid syntax
+```
+I'm using MacOS Sierra (10.12.6) with Python2.7 inside virtualenv and pycookiecheat installed with pip"
+16,Error while using lib,2017-07-30T02:09:02Z,2017-07-31T13:59:04Z,,SyntaxError,"SyntaxError: invalid syntax","I ran the same code 
+
+from pycookiecheat import chrome_cookies
+import requests
+
+url = 'http://example.com/fake.html'
+cookies = chrome_cookies(url)
+r = requests.get(url, cookies=cookies)  
+
+and keep getting following error, any idea? 
+
+File ""/Users/kelvin/anaconda/envs/gl-env/lib/python2.7/site-packages/pycookiecheat/pycookiecheat.py"", line 27
+    def clean(decrypted: bytes) -> str:
+                       ^
+SyntaxError: invalid syntax
+"
+15,Chromium stores keys in different places than Chrome,2017-06-26T16:16:50Z,2017-06-27T21:45:38Z,,,,"I found the Chromium on Ubuntu 16.04 stores keys in the keyring ""Chromium Safe Storage"", not ""Chrome Safe Storage"".  The profile directory is different for Chromium on OSX as well."
+14,default password isn't always set,2017-05-28T03:41:23Z,2017-06-13T15:12:11Z,,,,"So I don't store any passwords in chromium and have never set a master password. I don't use gnome-keyring for anything, but it's installed. pycookiecheat fails because no ""my_pass"" key gets set in the config dict. The default key only gets set if this try block fails:
+
+    try:
+        import gi
+        gi.require_version('Secret', '1')
+        from gi.repository import Secret
+    except ImportError:
+        config['my_pass'] = 'peanuts'
+
+In my case, the try block executes fine. However, there just isn't any ""Chrome Safe Storage"" in the keyring. In fact, there seems to be nothing in it (the outer loop iterates over one item, but there are no items for the inner loop to iterate in my case):
+
+    else:
+        flags = Secret.ServiceFlags.LOAD_COLLECTIONS
+        service = Secret.Service.get_sync(flags)
+
+        gnome_keyring = service.get_collections()
+        unlocked_keyrings = service.unlock_sync(gnome_keyring).unlocked
+
+        for unlocked_keyring in unlocked_keyrings:
+            for item in unlocked_keyring.get_items():
+                if item.get_label() == ""Chrome Safe Storage"":
+                    item.load_secret_sync()
+                    config['my_pass'] = item.get_secret().get_text()
+                    break
+            else:
+                # Inner loop didn't `break`, keep looking
+                continue
+
+            # Inner loop did `break`, so `break` outer loop
+            break
+
+I tried the following and now everything works great:
+
+    def get_linux_config() -> dict:
+        config = dict()  # type: Dict[str, Any]
+        config.update({
+            'my_pass': 'peanuts',
+            'iterations': 1,
+            'cookie_file': '~/.config/chromium/Default/Cookies',
+            })
+        return config
+
+So the problem seems to be that the default password is not set by... default.
+
+Thanks for your script!"
+13,chrome support on windows,2017-05-20T18:54:42Z,2017-06-13T14:49:58Z,,,,i found this and seems to work on windows for chrome decryption: https://gist.github.com/DakuTree/428e5b737306937628f2944fbfdc4ffc
+12,Chromium v53 (v11 cookies and libsecret backend on Ubuntu),2016-09-06T04:35:56Z,2017-04-21T23:06:07Z,,,,"The latest version of chromium has new cookies that start with 'v11' and wouldn't decrypt.
+"
+11,Use cryptography instead of pycrypto,2016-05-24T07:41:54Z,2016-06-01T00:57:12Z,,,,"In order to support pypy, I converted this library over to using the cryptography package. Let me know if you need anything else.
+"
+10,Malformed database schema,2016-05-20T22:38:03Z,2016-06-08T16:21:45Z,,sqlite3.DatabaseError,"sqlite3.DatabaseError: malformed database schema (is_transient) - near ""where"": syntax error`","When running the example, I get
+`Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+  File ""./pycookiecheat/pycookiecheat.py"", line 93, in chrome_cookies
+    for k, v, ev in conn.execute(sql, (host_key,)):
+sqlite3.DatabaseError: malformed database schema (is_transient) - near ""where"": syntax error`
+"
+9,Expedia post request to get hotel list,2016-02-15T08:11:51Z,2016-02-21T14:51:37Z,,,,"I am trying to get list of hotels for a particular location in expedia. But i get a 400 bad request. Although i am able to make request from Chromium console i am getting 400 bad request when a make it from scrapy.
+
+import scrapy
+import pdb
+from scrapy.http.cookies import CookieJar
+from pycookiecheat import chrome_cookies
+
+class ExpediaHotelSpider(scrapy.Spider):
+    """"""Expedia spider""""""
+    name = ""expediaspider""
+    allowed_domains = [""expedia.co.in""]
+    start_urls = [""https://www.expedia.co.in/Hotel-Search""]
+
+```
+def parse(self, response):
+    cookies = chrome_cookies('https://www.expedia.co.in/Hotel-Search')
+    request = scrapy.FormRequest(url='https://www.expedia.co.in/Hotel-Search?inpAjax=true&responsive=true&origin=HOT:SR:UpdateSearch',
+                cookies=cookies,
+                formdata={  'adults': '1',
+                            'destination': 'Bengaluru (and vicinity), India',
+                            'endDate': '16/02/2016',
+                            'startDate': '15/02/2016',
+                            'sort': 'recommended',
+                            'regionId':'6053307',
+                            'hashParam':'2035b06478adf2e9364eb7ce702f5d86ac136201'
+                            }, method='POST',
+                callback='parse_1')
+    return [request]
+
+def parse_1(self, response):
+    pdb.set_trace()
+```
+"
+8,Get AttributeError Only with crontab,2016-01-09T14:34:46Z,2016-02-20T13:46:41Z,,AttributeError,AttributeError: 'NoneType' object has no attribute 'encode',"I wrote a python program using pycookiecheat.  
+When I run it with the command `python myprogram.py`, it will run **successfully**.  
+However, I run it in crontab with the config below:
+
+```
+* * * * * /usr/bin/python  /Users/fatghosta/workspace/myprogram.py >> /Users/fatghosta/workspace/myprogram.log
+```
+
+I get some error below:
+
+```
+Traceback (most recent call last):
+  File ""/Users/fatghosta/workspace/myprogram.py"", line 33, in <module>
+    cookies = chrome_cookies(""http://xx.xxx.com"")
+  File ""/Library/Python/2.7/site-packages/pycookiecheat-0.2.0-py2.7.egg/pycookiecheat/pycookiecheat.py"", line 61, in chrome_cookies
+    my_pass = my_pass.encode('utf8')
+AttributeError: 'NoneType' object has no attribute 'encode'
+```
+
+My OS version is OS X 10.10.5.  
+I setup pycookiecheat by cloning pycookiecheat.git and then ""python setup.py install"".  
+"
+7,Correctly match all domains and wildcard domains,2015-07-14T02:13:48Z,2015-07-19T22:31:22Z,,,,"I was not able to log into a web site because it created cookies beneath the `example.com` level, putting several of them instead down at the `foo.example.com` level for the particular service it was trying to access. Furthermore, some of them were specified using the wildcard `.foo.example.com` so that they would be delivered to subdomains of `foo` as well — but a leading `.` was not previously allowed by this library, meaning that these cookies were left out of my requests.
+
+This patch descends through the possible domain name matches in the same order that a browser should, and allows my Python script to successfully authenticate to the service that I was previously locked out of!
+
+Also, this tweaks the code to avoid a possible encoding problem with hand-quoted domain names that include special characters — by relying on the sqlite3 ""?"" quoting character to get the quoting correct.
+"
+6,Update README.md,2015-06-24T09:10:16Z,2015-06-24T20:46:02Z,,,,"(updated clone url) need to clone py2 branch to get it working for python2. Otherwise, master would be cloned
+"
+5,Py2,2015-06-24T05:23:57Z,2015-06-24T20:40:11Z,,,,"Python2 compatibility
+"
+4,Fully Python2-Compatible,2015-06-23T14:45:25Z,2015-06-24T02:05:36Z,,,,"Updated all files to make it compatible with Python2. Working setup.py installation, missing pypi repo.
+"
+3,python2 compatible,2015-06-22T14:46:52Z,2015-06-24T20:43:11Z,,,,"Modified necessary imports and functions to make it compatible and
+ready-to-use (not need to modify by user)
+"
+2,Support also Chrome on Windows,2015-06-18T20:19:27Z,2016-06-01T03:27:14Z,"enhancement, help wanted",,,"Thank you for your very convenient utility.
+
+Would it be possible to decrypt cookies also on Window Chrome?
+"
+1,Make `cookie_file` fpath configurable.,2015-06-18T14:05:28Z,2015-06-18T20:14:26Z,,,,

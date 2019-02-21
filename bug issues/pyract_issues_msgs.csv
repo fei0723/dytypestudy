@@ -1,0 +1,8 @@
+ID,Title,Created At,Closed At,Issues,Errors,Messages,Body
+3,Set GtkComponent 'visible' prop before user defined props,2017-05-02T11:18:28Z,2017-05-02T11:33:28Z,,,,"Prevent 'visible' prop default value to override user defined one.
+""counter.py"" correctly hide ""reset"" button at startup."
+2,Installation,2017-02-06T04:23:55Z,2017-05-02T11:47:20Z,,,,"How do I install this on mac ? Is there any installation steps ? 
+
+Which libraries is it required for installation ? (libgirepository - how to install this on mac)
+I really need to see this in action."
+1,Missing setup.py,2017-02-05T19:19:05Z,,,,,It'd be nice if this was packaged and published to PyPI. BTW cool idea!

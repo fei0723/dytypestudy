@@ -1,0 +1,2606 @@
+ID,Title,Created At,Closed At,Issues,Errors,Messages,Body
+122,AppImage Ubuntu 17.04,2017-12-23T18:12:38Z,,,,,"Release `VidCutter-5.0.5-x64.AppImage` seg faults. Downloaded Dec 23.
+5.0.0 works.
+
+```
+$ ./VidCutter-5.0.5-x64.AppImage 
+gtk-update-icon-cache: symbol lookup error: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0: undefined symbol: g_option_group_unref
+Segmentation fault (core dumped)
+```
+
+`Ubuntu 17.04`
+"
+121,frame accurate cutting: critical error when executing,2017-12-14T22:53:00Z,,,,,"Hi,
+Cutting an mp4 file in parts with ""frame accurate cutting"" disabled works fine.
+Executing the same project file with ""frame accurate cutting"" enabled I get the following error:
+
+2017-12-14 23:00 - root - CRITICAL -   File ""vidcutter\videocutter.py"", line 1117, in saveMedia
+  File ""vidcutter\videocutter.py"", line 1167, in smartcutter
+  File ""vidcutter\libs\videoservice.py"", line 295, in smartcut
+  File ""vidcutter\libs\videoservice.py"", line 495, in getGOPbisections
+
+2017-12-14 23:00 - root - CRITICAL - <class 'TypeError'>: unorderable types: str() < float()
+2017-12-14 23:02 - vidcutter.libs.videoservice - INFO - SmartCut progress: {'start': True, 'middle': False, 'end': False}
+"
+120,VidCutter icon is wrong under KDE Plasma Wayland session,2017-12-11T15:25:04Z,,,,,"As you can see in my screenshot, VidCutter shows a generic Wayland icon instead its own icon.
+I use VidCutter 5.0.5 on Arch Linux, KDE Plasma 5.11.4, Wayland session.
+
+![screenshot_20171211_123143](https://user-images.githubusercontent.com/15967631/33838436-ac2aa73e-de76-11e7-86df-1fe5230d2429.png)
+"
+119,GoPro HEVC problem,2017-12-10T14:14:15Z,,,,,"Hi, 
+if i cut a GoPro HEVC/60Hz video, there is a still image with a few seconds in the resulting file.
+
+Best regards 
+odo"
+118,VidCutter can't open video,2017-12-08T06:57:17Z,,,json.decoder.JSONDecodeError,"json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)","I'm having difficulties opening some DVB recordings with VidCutter. The problem might be in parsing ffprobe output, but that's really just a guess. In any case, the screen remains black, and I can neither play nor cut the video:
+
+Log:
+
+`2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] mpv 0.27.0-349-gd46c9c2e62-dirty (C) 2000-2017 mpv/MPlayer/mplayer2 projects
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] built on Sat Nov  4 08:50:51 UTC 2017
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] ffmpeg library versions:
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libavutil       56.0.100
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libavcodec      58.2.100
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libavformat     58.0.102
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libswscale      5.0.101
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libavfilter     7.0.101
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] libswresample   3.0.101
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] ffmpeg version: git-2017-11-04-9d0b42bce
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] 
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Configuration: /home/shinchiro/mpv/build/build64/packages/mpv-prefix/src/mpv/waf configure --enable-static-build --enable-pdf-build --enable-encoding --disable-manpage-build --enable-libmpv-shared --enable-lua --enable-javascript --enable-libarchive --enable-libass --enable-libbluray --enable-dvdread --enable-dvdnav --enable-uchardet --enable-rubberband --enable-lcms2 --enable-openal --enable-egl-angle-lib --prefix=/home/shinchiro/mpv/build/build64/install/mingw
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] List of enabled features: asm atomics build-date cplayer crossc cuda-hwaccel d3d-hwaccel d3d11 d3d9-hwaccel debug-build direct3d dos-paths drmprime dvdnav dvdread dvdread-common egl-angle egl-angle-lib egl-angle-win32 egl-helpers encoding ffmpeg-mpv gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gnuc gpl iconv javascript jpeg lcms2 libaf libarchive libass libass-osd libav-any libavcodec libavdevice libbluray libm libmpv-shared lua luajit mingw noexecstack openal optimize plain-gl posix-or-mingw rubberband shaderc static-build stdatomic uchardet vulkan wasapi win32-desktop win32-internal-pthreads win32-pipes zlib
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [global] config path: '' -> '-'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [stats] Loading lua script @stats.lua...
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [stats] loading mp.defaults
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [stats] loading @stats.lua
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [stats] lua-settings/stats.conf not found.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] , default]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_stats, I script-binding stats/display-stats-toggle
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] i script-binding stats/display-stats
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] , default]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] I script-binding stats/display-stats-toggle
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] , default]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] I script-binding stats/display-stats-toggle
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] , default]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Done loading @stats.lua.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Setting option 'opengl-hwdec-interop' = ""auto"" (flags = 64) -> 0
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Setting option 'gpu-context' = ""angle"" (flags = 64) -> 0
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] GL_VERSION='4.6.0 NVIDIA 388.13'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Detected desktop OpenGL 4.6.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] GL_VENDOR='NVIDIA Corporation'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] GL_RENDERER='GeForce GTX 1070/PCIe/SSE2'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] GL_SHADING_LANGUAGE_VERSION='4.60 NVIDIA'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loaded extension WGL_EXT_swap_control.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] GL_*_swap_control extension missing.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Testing FBO format rgba16
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Resizing texture: 16x16
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Using FBO format rgba16.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] No advanced processing required. Enabling dumb mode.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'd3d11-egl'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading failed.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'd3d11-egl-rgb'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading failed.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'dxva2-egl'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading failed.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'd3d11va'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading failed.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'dxva2-dxinterop'
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading failed.
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] Loading hwdec driver 'cuda-nvdec'
+2017-12-08 07:49 - vidcutter.libs.videoservice - INFO - C:\Users\User\AppData\Local\Temp\_MEI16562\bin\ffprobe.exe -hide_banner -v error -show_streams -show_format -of json ""NEO Magazin Royale - S06E13.ts""
+2017-12-08 07:49 - vidcutter.libs.videoservice - INFO - cmd output: [h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 0000000000{
+
+    ""streams"": [
+
+        {
+
+            ""index"": 0,
+
+            ""codec_name"": ""h264"",
+
+            ""codec_long_name"": ""H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"",
+
+            ""profile"": ""High"",
+
+            ""codec_type"": ""video"",
+
+            ""codec_time_base"": ""1/100"",
+
+            ""codec_tag_string"": ""[27][0][0][0]"",
+
+            ""codec_tag"": ""0x001b"",
+
+            ""width"": 1280,
+
+            ""height"": 720,
+
+            ""coded_width"": 1280,
+
+            ""coded_height"": 720,
+
+            ""has_b_frames"": 2,
+
+            ""sample_aspect_ratio"": ""1:1"",
+
+            ""display_aspect_ratio"": ""16:9"",
+
+            ""pix_fmt"": ""yuv420p"",
+
+            ""level"": 40,
+
+            ""color_range"": ""tv"",
+
+            ""color_space"": ""bt709"",
+
+            ""color_transfer"": ""bt709"",
+
+            ""color_primaries"": ""bt709"",
+
+            ""chroma_location"": ""left"",
+
+            ""field_order"": ""progressive"",
+
+            ""refs"": 1,
+
+            ""is_avc"": ""false"",
+
+            ""nal_length_size"": ""0"",
+
+            ""id"": ""0x18a6"",
+
+            ""r_frame_rate"": ""50/1"",
+
+            ""avg_frame_rate"": ""50/1"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149353824,
+
+            ""start_time"": ""1659.486933"",
+
+            ""duration_ts"": 350922600,
+
+            ""duration"": ""3899.140000"",
+
+            ""bits_per_raw_sample"": ""8"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            }
+
+        },
+
+        {
+
+            ""index"": 1,
+
+            ""codec_name"": ""mp2"",
+
+            ""codec_long_name"": ""MP2 (MPEG audio layer 2)"",
+
+            ""codec_type"": ""audio"",
+
+            ""codec_time_base"": ""1/48000"",
+
+            ""codec_tag_string"": ""[3][0][0][0]"",
+
+            ""codec_tag"": ""0x0003"",
+
+            ""sample_fmt"": ""s16p"",
+
+            ""sample_rate"": ""48000"",
+
+            ""channels"": 2,
+
+            ""channel_layout"": ""stereo"",
+
+            ""bits_per_sample"": 0,
+
+            ""id"": ""0x18b0"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149309702,
+
+            ""start_time"": ""1658.996689"",
+
+            ""duration_ts"": 350904960,
+
+            ""duration"": ""3898.944000"",
+
+            ""bit_rate"": ""256000"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""deu""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 2,
+
+            ""codec_name"": ""mp2"",
+
+            ""codec_long_name"": ""MP2 (MPEG audio layer 2)"",
+
+            ""codec_type"": ""audio"",
+
+            ""codec_time_base"": ""1/48000"",
+
+            ""codec_tag_string"": ""[3][0][0][0]"",
+
+            ""codec_tag"": ""0x0003"",
+
+            ""sample_fmt"": ""s16p"",
+
+            ""sample_rate"": ""48000"",
+
+            ""channels"": 2,
+
+            ""channel_layout"": ""stereo"",
+
+            ""bits_per_sample"": 0,
+
+            ""id"": ""0x18b1"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149311502,
+
+            ""start_time"": ""1659.016689"",
+
+            ""duration_ts"": 350904960,
+
+            ""duration"": ""3898.944000"",
+
+            ""bit_rate"": ""192000"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""mis""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 3,
+
+            ""codec_name"": ""ac3"",
+
+            ""codec_long_name"": ""ATSC A/52A (AC-3)"",
+
+            ""codec_type"": ""audio"",
+
+            ""codec_time_base"": ""1/48000"",
+
+            ""codec_tag_string"": ""[6][0][0][0]"",
+
+            ""codec_tag"": ""0x0006"",
+
+            ""sample_fmt"": ""fltp"",
+
+            ""sample_rate"": ""48000"",
+
+            ""channels"": 2,
+
+            ""channel_layout"": ""stereo"",
+
+            ""bits_per_sample"": 0,
+
+            ""dmix_mode"": ""-1"",
+
+            ""ltrt_cmixlev"": ""-1.000000"",
+
+            ""ltrt_surmixlev"": ""-1.000000"",
+
+            ""loro_cmixlev"": ""-1.000000"",
+
+            ""loro_surmixlev"": ""-1.000000"",
+
+            ""id"": ""0x18b2"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149314795,
+
+            ""start_time"": ""1659.053278"",
+
+            ""duration_ts"": 350902080,
+
+            ""duration"": ""3898.912000"",
+
+            ""bit_rate"": ""448000"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""deu""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 4,
+
+            ""codec_name"": ""mp2"",
+
+            ""codec_long_name"": ""MP2 (MPEG audio layer 2)"",
+
+            ""codec_type"": ""audio"",
+
+            ""codec_time_base"": ""1/48000"",
+
+            ""codec_tag_string"": ""[3][0][0][0]"",
+
+            ""codec_tag"": ""0x0003"",
+
+            ""sample_fmt"": ""s16p"",
+
+            ""sample_rate"": ""48000"",
+
+            ""channels"": 2,
+
+            ""channel_layout"": ""stereo"",
+
+            ""bits_per_sample"": 0,
+
+            ""id"": ""0x18b3"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149319062,
+
+            ""start_time"": ""1659.100689"",
+
+            ""duration_ts"": 350904960,
+
+            ""duration"": ""3898.944000"",
+
+            ""bit_rate"": ""192000"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""mul""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 5,
+
+            ""codec_name"": ""dvb_teletext"",
+
+            ""codec_long_name"": ""DVB teletext"",
+
+            ""codec_type"": ""subtitle"",
+
+            ""codec_tag_string"": ""[6][0][0][0]"",
+
+            ""codec_tag"": ""0x0006"",
+
+            ""id"": ""0x18ba"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149312424,
+
+            ""start_time"": ""1659.026933"",
+
+            ""duration_ts"": 350910000,
+
+            ""duration"": ""3899.000000"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""deu""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 6,
+
+            ""codec_name"": ""dvb_subtitle"",
+
+            ""codec_long_name"": ""DVB subtitles"",
+
+            ""codec_type"": ""subtitle"",
+
+            ""codec_time_base"": ""0/1"",
+
+            ""codec_tag_string"": ""[6][0][0][0]"",
+
+            ""codec_tag"": ""0x0006"",
+
+            ""id"": ""0x18bb"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149309702,
+
+            ""start_time"": ""1658.996689"",
+
+            ""duration_ts"": 350966722,
+
+            ""duration"": ""3899.630244"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 1,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            },
+
+            ""tags"": {
+
+                ""language"": ""deu""
+
+            }
+
+        },
+
+        {
+
+            ""index"": 7,
+
+            ""codec_tag_string"": ""[5][0][0][0]"",
+
+            ""codec_tag"": ""0x0005"",
+
+            ""id"": ""0x181a"",
+
+            ""r_frame_rate"": ""0/0"",
+
+            ""avg_frame_rate"": ""0/0"",
+
+            ""time_base"": ""1/90000"",
+
+            ""start_pts"": 149309702,
+
+            ""start_time"": ""1658.996689"",
+
+            ""duration_ts"": 350966722,
+
+            ""duration"": ""3899.630244"",
+
+            ""disposition"": {
+
+                ""default"": 0,
+
+                ""dub"": 0,
+
+                ""original"": 0,
+
+                ""comment"": 0,
+
+                ""lyrics"": 0,
+
+                ""karaoke"": 0,
+
+                ""forced"": 0,
+
+                ""hearing_impaired"": 0,
+
+                ""visual_impaired"": 0,
+
+                ""clean_effects"": 0,
+
+                ""attached_pic"": 0,
+
+                ""timed_thumbnails"": 0
+
+            }
+
+        }
+
+    ],
+
+    ""format"": {
+
+        ""filename"": ""NEO Magazin Royale - S06E13.ts"",
+
+        ""nb_streams"": 8,
+
+        ""nb_programs"": 2,
+
+        ""format_name"": ""mpegts"",
+
+        ""format_long_name"": ""MPEG-TS (MPEG-2 Transport Stream)"",
+
+        ""start_time"": ""1658.996689"",
+
+        ""duration"": ""3899.630244"",
+
+        ""size"": ""7874895872"",
+
+        ""bit_rate"": ""16155164"",
+
+        ""probe_score"": 50
+
+    }
+
+}
+
+1ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] non-existing SPS 0 referenced in buffering period
+
+[h264 @ 00000000001ad640] SPS unavailable in decode_picture_timing
+
+[h264 @ 00000000001ad640] non-existing PPS 0 referenced
+
+[h264 @ 00000000001ad640] decode_slice_header error
+
+[h264 @ 00000000001ad640] no frame!
+2017-12-08 07:49 - vidcutter.libs.videoservice - ERROR - Error decoding ffprobe JSON output
+Traceback (most recent call last):
+  File ""vidcutter\libs\videoservice.py"", line 459, in probe
+  File ""json\__init__.py"", line 354, in loads
+  File ""json\decoder.py"", line 339, in decode
+  File ""json\decoder.py"", line 357, in raw_decode
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+2017-12-08 07:49 - root - CRITICAL -   File ""vidcutter\videocutter.py"", line 658, in openMedia
+  File ""vidcutter\videocutter.py"", line 799, in loadMedia
+  File ""vidcutter\libs\videoservice.py"", line 92, in setMedia
+  File ""vidcutter\libs\videoservice.py"", line 459, in probe
+  File ""json\__init__.py"", line 354, in loads
+  File ""json\decoder.py"", line 339, in decode
+  File ""json\decoder.py"", line 357, in raw_decode
+
+2017-12-08 07:49 - root - CRITICAL - <class 'json.decoder.JSONDecodeError'>: Expecting value: line 1 column 2 (char 1)
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Set property: pause=false -> 1
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Set property: pause=true -> 1
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [opengl-cb] flushing shader cache
+2017-12-08 07:49 - vidcutter.libs.mpvwidget - INFO - [cplayer] Run command: quit, flags=0, args=[0]
+`"
+117,"Please support ""type 2"" AppImage + support semi-automatic self-updates of `VidCutter.AppImage`",2017-12-06T00:13:55Z,,,,,"AppImages built with recent tooling from the AppImageKit projects build ""type 2"" AppImages. The older ""type 1"" version is deprecated.
+
+Type 2 AppImages have a few advantages and improvements:
+
+1. The most important one is that they (can) include a semi-automatic update mechanism. A user can easily trigger to let the AppImage be updated to the latest version.
+1. You can also (optionally) sign your packages with a GPG key.
+1. (For more new features look at the documents in the Wiki.)
+
+The update mechanism will not download the *entire new AppImage*, but *only the blocks for a binary delta to the existing AppImage*. It will use the existing AppImage and the downloaded binary diff to build the new AppImage (while defaulting to the option of keep also a copy of the older version). This is faster, less work for the user and will also use less bandwidth.
+
+To see how it works, download the AppImage [Subsurface diving log](https://github.com/Subsurface-divelog/subsurface) application [created and maintained by Linus Torvalds (*that* one, yes) and Dirk Hohndel](https://github.com/Subsurface-divelog/subsurface/graphs/contributors).
+
+Download a previous version initially! You can do it [from here](https://github.com/Subsurface-divelog/subsurface/releases). Download also the respective AppImageKit tools:
+
+<pre>
+  $  wget https://github.com/Subsurface-divelog/subsurface/releases/download/continuous-fixTravisNotFailing/Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage
+
+  $  wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/appimageupdatetool-179-30cb1ce-x86_64.AppImage
+  $  wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-179-30cb1ce-x86_64.AppImage
+
+  $  chmod +x Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage
+  $  chmod +x appimageupdatetool-179-30cb1ce-x86_64.AppImage
+  $  chmod +x AppImageUpdate-179-30cb1ce-x86_64.AppImage
+</pre>
+
+Note: *`appimageupdatetool`* is a CLI utility, where *`AppImageUpdate`* has a little GUI. Both do the same thing.
+
+Then:
+
+<pre>
+ $  ./Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage --appimage-help
+      AppImage options:
+
+      --appimage-extract              Extract content from embedded filesystem image
+      --appimage-help                 Print this help
+      --appimage-mount                Mount embedded filesystem image and print
+                                      mount point and wait for kill with Ctrl-C
+      [....]
+</pre>
+
+Last:
+
+<pre>
+  $  time ./appimageupdatetool-170-3c26cf5-x86_64.AppImage \
+                      ./Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage 
+    Checking for updates...
+    Fetching release information for tag ""continuous"" from GitHub API.
+    ... done!
+    Starting update...
+
+    Fetching release information for tag ""continuous"" from GitHub API.
+    0% done
+    Updating from GitHub Releases via ZSync
+    0% done
+    zsync2: Target file: /home/kp/AppImages/Subsurface-4.7.4-266-gd4cd4a96eae4-x86_64.AppImage
+    zsync2: Reading seed file: ./Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage
+    60.91% done (47.83 of 78.53 MiB)...
+    zsync2: Usable data from seed files: 64.128840%
+    zsync2: Renaming temp file
+    zsync2: Fetching remaining blocks
+    64.13% done (50.36 of 78.53 MiB)...
+    zsync2: Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2319498/402ec6ae-d9b3-11e7-87bc-41247e6687ba?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-
+Credential=AKIAIWNJYAX4CSVEH53A%2F20171205%2Fus-east-1%2Fs3%2Faws4_request&X-
+Amz-Date=20171205T233212Z&X-Amz-Expires=300&X-Amz-
+Signature=174dcb9391f7a9b6a43bb9a0610d1ec54d111ad138232abdd7c00d1d49a8ad03&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DSubsurface-4.7.4-266-gd4cd4a96eae4-x86_64.AppImage&response-content-type=application%2Foctet-stream
+    99.97% done (78.50 of 78.53 MiB)...
+    zsync2: Verifying downloaded file
+    100.00% done (78.53 of 78.53 MiB)...
+    zsync2: checksum matches OK
+    zsync2: used 52803584 local, fetched 29535928
+    100.00% done (78.53 of 78.53 MiB)...
+    Update successful. New file created: /home/kp/AppImages/Subsurface-4.7.4-266-
+    gd4cd4a96eae4-x86_64.AppImage
+
+    real    2m9.431s
+    user    0m2.660s
+    sys     0m0.944s
+</pre>
+
+As you can see, the user has not to remember where she fetched the initial version of her *`Subsurface`* app. This knowledge is already built into the AppImage.
+
+Results:
+
+1. In our case it discovered that *`""50.36 of 78.53 MiB""`* date blocks for the new AppImage were identical with the existing one and it had to fetch only 28.17 MiB from the update site. 
+
+1. Also it created a new AppImage, version *`Subsurface-4.7.4-266-gd4cd4a96eae4-x86_64.AppImage`*, but did not yet make it executable -- the old version is still there:
+
+       $  ls -l  Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage   Subsurface-4.7.4-266-gd4cd4a96eae4-x86_64.AppImage
+
+          -rwxr-xr-x 1 kp kp 82175672 Nov 25 01:55 Subsurface-4.7.4-87-g5ca8e506b7df-x86_64.AppImage
+          -rw------- 1 kp kp 82339512 Dec  5 19:55 Subsurface-4.7.4-266-gd4cd4a96eae4-x86_64.AppImage
+
+You can expect the algorithm used by zsync2 to figure out the delta binaries to become even more efficient in the future, so the saving of time and bandwidth for updating will become even more cost-saving for the user.
+
+This update mechanism will also be built into the (optional) *`appimaged`* (AppImage daemon), which already is on many desktops. Users will be able to invoke a sort of *""Look for all available updates of my AppImages""*-kind of feature. For AppImages which do not support this update mechanism this will trigger warnings. 
+
+I thought I better give you an early heads up, so you can avoid too many users in your neck demanding this feature for the VidCutter AppImage when everybody else has it already :-)
+
+Pretty sure here, that you can get a helping hand from the AppImageKit guys to get the tooling working, if you need this. Or drop by in the [#appimage IRC channel on Freenode](webchat.freenode.net/?channels=appimage).
+
+Also, your recent update pains with v5.0.0 -- v5.0.5 updates would have gone much smoother if you had this feature already in!
+
+----
+ 
+(If you look, the update info is sitting in the *`.zsync`*-suffixed files from the [Subsurface GitHub release page](https://github.com/Subsurface-divelog/subsurface/releases). The AppImageKit tools will automatically generate that file for you if you use ""type 2"").
+"
+116,v5.0.5 appimage,2017-12-05T02:33:41Z,,,,,"is a no go here on Ubuntu 16.04. v4 works fine, tho.
+"
+115,Core Dumped ,2017-12-03T16:40:15Z,,,,,"Using Ubuntu 16 Linux madhusona 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+python3: ../video/out/vo_opengl_cb.c:235: mpv_opengl_cb_draw: Assertion `ctx->renderer' failed.
+Aborted (core dumped)
+
+Am not able to start vidcutter.
+"
+114,Smart Cut Issues,2017-12-02T21:31:09Z,,,,,"I have noticed what I believe to be a few issues while trying out vidcutter. Mostly they are related to smart cuts. They are as follows:
+
+    1. As of November 5, the ffmpeg call (videoservice.py; line 266) moved the duration arg (-t) to before the input file causing the output clip to be the wrong length for some cases.
+
+    2. If, for example, a clip starts on a key frame causing the 'start' element to be None, the join and the cleanup fail due to an exception trying to use None as a file name. This also causes the overall process to fail silently.
+
+    3. There appears to be a frame gap that occurs between the 'start' and 'middle' elements after a join. This seems to be variable in size, but causes a slight pause when showing the result.
+
+Item 2 had me thinking that smart cut simply did not work, because it also created other discrepancies.
+
+Hope this is of use."
+113,Vidcutter no module named 'typing',2017-11-28T16:15:51Z,,,ImportError,ImportError: No module named 'typing',"I have this issue in opensuse leap 42.2 version 5 
+
+raceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==5.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3.4/site-packages/pkg_resources/__init__.py"", line 558, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3.4/site-packages/pkg_resources/__init__.py"", line 2682, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3.4/site-packages/pkg_resources/__init__.py"", line 2355, in load
+    return self.resolve()
+  File ""/usr/lib/python3.4/site-packages/pkg_resources/__init__.py"", line 2361, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib64/python3.4/site-packages/vidcutter/__main__.py"", line 40, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib64/python3.4/site-packages/vidcutter/videocutter.py"", line 30, in <module>
+    from typing import Union
+ImportError: No module named 'typing'"
+112,Don't lowercase full config path,2017-11-27T19:54:16Z,2017-12-13T19:54:07Z,,,,"Make sure all paths constructed for log/settings files have their case preserved, for users whose $HOME is mixed-case. Fixes #64 .
+
+This is a breaking change, as it means that on Linux and macOS when `QStandardPaths.writableLocation(QStandardPaths.AppConfigLocation)` is used (as it normally should be), the user's config dir will change from e.g. (for Linux) `$HOME/.config/vidcutter/` to `$HOME/.config/VidCutter/`, and settings will need to be manually migrated. But there's really no helping that, as lowercasing the entire path is _not_ a workable option. (Also, formerly on macOS if the `QStandardPaths` path was not used, the workaround generated would've been lowercased to `$HOME/library/preferences/vidcutter/` which is very wrong.)
+
+"
+111,vidcutter UI froze on failed clip export,2017-11-25T06:20:04Z,,,AttributeError,"AttributeError: 'NoneType' object has no attribute 'group'","I just tried to export a small (13-second) clip from an also relatively small (22-minute / 836MiB) MKV file (V_MPEG4/ISO/AVC + AAC content), off-keyframe using SmartCut. That failed, but the bigger issue is the fact that it failed _silently,_ and without the interface noticing. 
+
+Even though the attempted conversion long since failed, Vidcutter never informed me of that fact, or even _noticed_ it. The UI is stuck in ""export-in-progress"" mode, with all of the controls ghosted out and inactive. If I attempt to close the application window, I get a ""Video is currently being processed"" (false!) popup, but closing it appears to be my only option as it doesn't seem like it's planning on coming back from this state.
+
+This is vidcutter-5.0.0 installed on Fedora 26 x86_64 from the suspiria/VidCutter COPR repo, backed with rpmfusion media libraries.
+
+Here's the entire contents of `$HOME/.config/vidcutter/vidcutter.log`:
+```
+2017-11-25 00:40 - vidcutter.libs.videoservice - INFO - smartcut files are MPEG based so join via MPEG-TS
+2017-11-25 00:40 - vidcutter.libs.videoservice - ERROR - Exception during MPEG-TS join
+Traceback (most recent call last):
+  File ""/usr/lib64/python3.6/site-packages/vidcutter/libs/videoservice.py"", line 522, in mpegtsJoin
+    video_bsf, audio_bsf = self.getBSF(inputs[0])
+  File ""/usr/lib64/python3.6/site-packages/vidcutter/libs/videoservice.py"", line 436, in getBSF
+    vcodec, acodec = self.codecs(source)
+  File ""/usr/lib64/python3.6/site-packages/vidcutter/libs/videoservice.py"", line 253, in codecs
+    vcodec = re.search(r'Stream.*Video:\s(\w+)', result).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-11-25 00:40 - vidcutter.libs.videoservice - INFO - smartcut MPEG-TS join failed, retry with standard concat
+2017-11-25 00:40 - vidcutter.videocutter - ERROR - SmartCut failed for /tmp/vidcutter/Vidcutter-test-clip_00.mkv
+```"
+110,Please add some basic feature descriptions to the Readme,2017-11-24T14:43:03Z,,,,,"Hi, thank you very much for your software and especially for providing so many installation options, this is highly appreciated and should be done this way by many other projects, really great!
+
+However, you seem to have totally forgotten about the fact that a user that might come to this repo would like to understand _what this software does_. The name is interesting and gives some hints, however I would like to read at least one or two paragraphs about _what exactly this software does_ and maybe a nice feature list, so I can understand if I need your software or not.
+
+Currently the Readme Page (that is usually perceived as a frontpage to your project) does look more like a page in a wiki with the title ""Installation"". There is not one sentence explaining what this software actually does or does not.
+
+Thank you very much for your attention!"
+109,Linux Mint 18.2 Exception,2017-11-23T17:44:38Z,2017-11-30T19:24:40Z,"BUG - VALIDATED, BUG FIX IN PROGRESS, SUPPORT / CLARIFICATIONS",AttributeError,"AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'","Hi, I tried to run in Linux Mint 18.2 x64 (Mate), but got exception:
+```
+$ vidcutter
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==5.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 542, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2569, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2229, in load
+    return self.resolve()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 41, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 43, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 22, in <module>
+    formathandler.FormatHandler.loadAll()
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 28, in loadAll
+    cls.loadPlugin( entrypoint )
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 35, in loadPlugin
+    plugin_class = entrypoint.load()
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 14, in load
+    return importByName( self.import_path )
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 28, in importByName
+    module = __import__( ""."".join(moduleName), {}, {}, moduleName)
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/vbo.py"", line 430, in <module>
+    def mapVBO( vbo, access=GL.GL_READ_WRITE ):
+AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'
+```
+Any ideas?
+Thank.s"
+108,Fedora installation shouldn't suggest UnitedRPM,2017-11-23T06:05:40Z,2017-11-23T16:00:27Z,,,,"I'd rather see the developers suggesting rpmfusion repositories for the missing libraries.
+Not sure if you are affiliated with UnitedRPMs but if so this ticket could be handy for you guys to fix your github page written in fully broken/childish english (attacking other people work and with hard to understand sentences). Sorry for harsh words but those pages make the project look dodgy and not reliable (you can find some other similar comments on Interweb). I'd rather see your work appreciated and competitive with others rather than not considered because of some poor PR choices. Thanks a lot :)"
+107,I can not start up on Windows 8.1.,2017-11-21T04:55:34Z,,,,,"「* macOS and Windows fixes have been uploaded. Please download again if you encountered errors on app startup」
+
+VidCutter 5.0
+This application failed to start because it could not find or load the Qt platform plugin ""windows"" in """".
+Reinstalling the application may fix the problem.
+
+It does not change even when installed many times."
+106,Not end-cutting properly.. (Cuts are much more longer than expected),2017-11-20T20:23:37Z,,"BUG - UNVALIDATED, IN DISCUSSION, SUPPORT / CLARIFICATIONS",,,"Hi,
+
+I'm using vidcutter `5.0.0~201711151653~ubuntu16.04`. 
+When I cut a video the beginning is correctly extracted but the end is not.
+For example, a cut of 24seconds makes 171seconds once extracted.
+When I recut the previously extracted cut (to remove the exceeding part), it works OK.
+
+I'm using vidcutter on video files from a gopro session 5. Tried with several files.
+
+Thanks
+J."
+105,Flatpak(Appimage) edition failed to launch on KDE neon(based on Ubuntu 16.04),2017-11-20T18:48:53Z,,,ImportError,"ImportError: cannot import name '_remove_dead_weakref'","Traceback:
+
+```
+./VidCutter-5.0.0-x64.AppImage                                
+/bin/bash: /tmp/.mount_VidCutPWACDo/lib/x86_64-linux-gnu/libtinfo.so.5: no version information available (required by /bin/bash)                                  
+Failed to import the site module
+Traceback (most recent call last):
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/site.py"", line 587, in <module>
+    main()
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/site.py"", line 573, in main
+    known_paths = addusersitepackages(known_paths)
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/site.py"", line 287, in addusersitepackages
+    user_site = getusersitepackages()
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/site.py"", line 263, in getusersitepackages
+    user_base = getuserbase() # this will also set USER_BASE
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/site.py"", line 253, in getuserbase
+    USER_BASE = get_config_var('userbase')
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/sysconfig.py"", line 595, in get_config_var
+    return get_config_vars().get(name)
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/sysconfig.py"", line 538, in get_config_vars
+    _init_posix(_CONFIG_VARS)
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/sysconfig.py"", line 410, in _init_posix
+    from _sysconfigdata import build_time_vars
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/_sysconfigdata.py"", line 1, in <module>
+    import importlib
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/importlib/__init__.py"", line 57, in <module>
+    import types
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/types.py"", line 166, in <module>
+    import functools as _functools
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/functools.py"", line 23, in <module>
+    from weakref import WeakKeyDictionary
+  File ""/tmp/.mount_VidCutPWACDo/usr/lib/python3.5/weakref.py"", line 12, in <module>
+    from _weakref import (
+ImportError: cannot import name '_remove_dead_weakref'
+```"
+104,Vidcutter 5.0 won't start on Linux Mint Mate 18.2,2017-11-19T04:36:49Z,,,AttributeError,"AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'","Getting the already known issue in #73 #72 #86 #88 , here's the output:
+
+`$ vidcutter
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==5.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 542, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2569, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2229, in load
+    return self.resolve()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 41, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 43, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 22, in <module>
+    formathandler.FormatHandler.loadAll()
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 28, in loadAll
+    cls.loadPlugin( entrypoint )
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 35, in loadPlugin
+    plugin_class = entrypoint.load()
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 14, in load
+    return importByName( self.import_path )
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 28, in importByName
+    module = __import__( ""."".join(moduleName), {}, {}, moduleName)
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/vbo.py"", line 430, in <module>
+    def mapVBO( vbo, access=GL.GL_READ_WRITE ):
+AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'
+`
+
+Installed using
+`sudo add-apt-repository ppa:ozmartian/apps
+sudo apt update
+sudo apt install vidcutter`
+"
+103,Missing PyOpenGL 3.1,2017-11-18T08:51:39Z,,,,,"Hi.
+On Ubuntu 16.04 based distros (mine is Elementary OS Loki) Vidcutter cannot run unless PyOpenGL 3.1 is installed.
+Repo for Ubuntu Xenial Xerus has 3.0.2 as the latest version of PyOpenGL but one can download and install version 3.1 from Zesty Zapus repo."
+102,VidCutter-5.0.0-linux-x64.AppImage,2017-11-16T22:58:38Z,,,,,"Hello,
+
+Thanks for this amazing great software.
+Specified VidCutter-5.0.0-linux-x64.AppImage seems to be not available on release page.
+
+Where can I download it ?
+
+Kr,
+Moo
+"
+101,VidCutter doesn't launch on MacOSX 10.9.5 Mavericks.,2017-11-10T16:13:13Z,,,,,"Hello. I have tried **VidCutter** versions **2.5** ; **3.0** and **4.0** and none of them opened under **Mavericks (OS X 10.9.5)**. There wasn't even a bouncing icon.
+I double-click the application, it flashes and nothing happens.
+
+Since I am an absolute amateur regarding code, I don't know if I did this correctly but I hope so. By opening VidCutter using Terminal I managed to obtain a little bit of information of what may ocurr during launch. Here it is and I hope it helps.
+If what I did is not enough or it's the wrong way with wich to gather logs that would be useful to you, I'm open to any advice.
+
+This is what Terminal reported:
+
+```
+ /Applications/VidCutter.app/Contents/MacOS/VidCutter 
+Error loading Python lib '/Applications/VidCutter.app/Contents/MacOS/Python': dlopen(/Applications/VidCutter.app/Contents/MacOS/Python, 10): Symbol not found: _clock_getres
+  Referenced from: /Applications/VidCutter.app/Contents/MacOS/Python
+  Expected in: /usr/lib/libSystem.B.dylib
+ in /Applications/VidCutter.app/Contents/MacOS/Python
+```
+
+Another small bit of info: When I select to ""Get Info"" from the application (using Option + i), regardless of the version, it shows as ""version 0.0.0"".
+
+Thanks a lot for all your efforts, I hope something can be done about this because your application looks very interesting and  I am really curious to try it."
+100,feature request: displaying subtitles,2017-10-23T23:50:47Z,2017-11-25T06:15:29Z,,,,"I love the program. It's great at quick cuttings jobs. Is there a possibility to toggle subtitles on/off on videos that already have the embedded subtitle track, or via an external .srt file (that the user can load alongside the video file)?
+
+Thanks."
+99,Feature Request : Chapter Markers,2017-10-23T19:53:27Z,,,,,It would be great to have the option to add chapter markers at the beginning of each clip when the clips are combined into one video. There could be an option to label each clip to act as the chapter name or clip name.
+98,Cut does not start when I tell it to do,2017-10-17T08:27:44Z,,,,,"I selected ""start clip"" at 1:04:00 and ""end clip"" at 1:07:00 but what I got was a video of 7 seconds starting at 1:00:00, I don't know why it didn't start at the right place. 
+
+Any ideas? I use windows 7 x64. 
+
+Thanks!"
+97,Fail during start (Python Int too Large ...),2017-10-01T20:43:11Z,,,"AttributeError, OverflowError","AttributeError: 'NoneType' object has no attribute 'call', OverflowError: Python int too large to convert to C long","Using Lubuntu 16.04 Kernel 4.40-57-generic (32 bit)
+
+Starting produces the following error:
+
+> vidcutter
+Exception ignored in: 'mpv._c_callback'
+AttributeError: 'NoneType' object has no attribute 'call'
+Exception ignored in: 'mpv._c_getprocaddress'
+OverflowError: Python int too large to convert to C long
+python3: ../video/out/vo_opengl_cb.c:235: mpv_opengl_cb_draw: Assertion `ctx->renderer' failed.
+Aborted (core dumped)
+
+> 
+libmpv1 is installed. Python 3 is at 3.5.2
+Vidcutter was installed from the ppa ""sudo apt install qml-module-qtmultimedia vidcutter
+""
+PyOpenGL upgraded
+
+Help resolving this would be appreciated.
+"
+96,Need a way to select audio playback device,2017-09-24T02:57:38Z,,,,,I have a video with audio that works fine through vlc. However on vidcutter there is no audio comming through. For some reason its not playing throught the default audio system. Is there anyway to configure or force it to a audio device?
+95,Debian package depends on python3.6 but has a different name,2017-09-21T09:47:26Z,,,,,"```
+root@matxine:/tmp# apt-get install vidcutter
+S'està llegint la llista de paquets… Fet 
+S'està construint l'arbre de dependències       
+S'està llegint la informació de l'estat… Fet
+No s'han pogut instal·lar alguns paquets. Això pot ser degut a que heu
+demanat una situació impossible o que esteu emprant la distribució
+«unstable» i alguns paquets requerits encara no han estat creats o bé
+encara no els hi han introduït des d'«Incoming».
+La informació següent pot ajudar-vos a resoldre la situació:
+
+Els següents paquets tenen dependències sense satisfer:
+ vidcutter : Depèn: python3 (>= 3.6~) però s'instal·larà 3.5.3-1
+E: No es poden corregir els problemes, teniu paquets retinguts que estan trencats.
+```
+
+In Debian buster (testing), python3.6 is called python3.6 and not python3. Would it be possible to make vidcutter depend on either package ?"
+94,Anyway to disable Joining?,2017-09-08T03:51:03Z,,,,,"This is probably not a bug, but didn't know where else to ask this question.   Love VidCutter, but wish I could disable the Joining at the end of the ""Save Media"" button action.  Am I missing how to disable it, or is always Joining a hard-coded feature of VidCutter?  All I want to do is clip a really long vid into multiple clips, and don't join it. Thanks."
+93,Doesn´t get back from cutting ...,2017-09-02T17:13:17Z,,,,,"Hi,
+new version does get stuck with ""Joining media clips"" message when doing a cut with several parts from one large (3GB) video file.
+
+It cuts the single parts and writes them to disk - it even joins them to the resulting file (which seems to be OK as much as I can say) but the GUI never comes back but is stuck with the message ""Joining media clips"" in the center.
+Also the temporary single clip files never get deleted.
+
+Did not see that with the previous version - going back to that all is fine.
+
+Windows 10, 64 Bit ...
+
+Hope the glitches in V4 will be fixed.
+
+Regards - MacSass
+"
+92,Variables used in string formatting via locals() not being recognised by PyLint,2017-09-01T22:58:48Z,2017-09-01T23:00:07Z,,,,"A common technique when formatting strings is to use local variables directly by passing locals(). I've just started using it myself and Codacy is not detecting their use so reports them as unused variable issues. A quick example:
+
+  var1 = ""using""
+  var2 = ""local""
+  ""a string {var1} a few {var2} vars"".format(**locals())
+
+Obviously not a Codacy issue in itself, the issues were reporting from PyLint but thought you'd like to know.
+
+Below is the ""meat"" of the issue reported for reference.
+
+### [Codacy](https://www.codacy.com/app/ozmartian/vidcutter/commit?cid=126927864) detected an issue:
+#### Message: `Unused variable 'stream_map'`
+
+    
+#### Occurred on:
++ **Commit**:  718e4d6438690ecbee4cdd9d2299d0ba3d199a56
++ **File**:    [vidcutter/libs/videoservice.py](https://github.com/ozmartian/vidcutter/blob/718e4d6438690ecbee4cdd9d2299d0ba3d199a56/vidcutter/libs/videoservice.py)
++ **LineNum**: [243](https://github.com/ozmartian/vidcutter/blob/718e4d6438690ecbee4cdd9d2299d0ba3d199a56/vidcutter/libs/videoservice.py#L243)
++ **Code**:    `stream_map = '-map 0 ' if allstreams else ''`
+
+    
+#### Currently on:
++ **Commit**:  44a9044b9aab40d5fbf2dfce0b165da401e11d3a
++ **File**:    [vidcutter/libs/videoservice.py](https://github.com/ozmartian/vidcutter/blob/44a9044b9aab40d5fbf2dfce0b165da401e11d3a/vidcutter/libs/videoservice.py)
++ **LineNum**: [261](https://github.com/ozmartian/vidcutter/blob/44a9044b9aab40d5fbf2dfce0b165da401e11d3a/vidcutter/libs/videoservice.py#L261)
+    "
+91,XP issues ,2017-08-27T17:18:19Z,,,,,"I have XP Pro SP3.This is what I get with Vidcutter 4.0
+![image 001](https://user-images.githubusercontent.com/31389786/29752338-c2e478f4-8b21-11e7-8455-4c029822b655.jpg)
+![image 002](https://user-images.githubusercontent.com/31389786/29752342-c9c1a5ac-8b21-11e7-8645-51394ecb792c.jpg)
+
+"
+90,Does not working in Mint 18.2 Sonya,2017-08-26T23:43:27Z,,,AttributeError,"AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'","Installed via ppa
+`sudo add-apt-repository ppa:ozmartian/apps`
+So last version.
+
+Then got:
+ vidcutter 
+```
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==4.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 542, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2569, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2229, in load
+    return self.resolve()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 39, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 48, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 22, in <module>
+    formathandler.FormatHandler.loadAll()
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 28, in loadAll
+    cls.loadPlugin( entrypoint )
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 35, in loadPlugin
+    plugin_class = entrypoint.load()
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 14, in load
+    return importByName( self.import_path )
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 28, in importByName
+    module = __import__( ""."".join(moduleName), {}, {}, moduleName)
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/vbo.py"", line 430, in <module>
+    def mapVBO( vbo, access=GL.GL_READ_WRITE ):
+AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'
+
+P.S. Appimage also not working in Debian Sid. There is already issue like to topic
+```
+"
+89,Thank you!  (and an issue),2017-08-22T21:24:26Z,,,,,"I want to thank you guys for working on this.  I've been looking for an up to date, modern, video cutter for so long.  
+
+Now, my issue.  On Windows it seems that single stepping backward in a file only works sporadically.  Fast scrubbing works great with up/down and slow forward with right arrow works ok too.  Slow backward works *sometimes*.
+
+"
+88,vidcutter 4.0 not working ubuntu 16.04,2017-08-17T23:36:39Z,,,,,"i try install vidcutter new version 4.0 in ubuntu 16.04 not work ؟ 
+http://i.imgur.com/53mf0go.png
+
+please fix this probleme :( 
+"
+87,Doesn't launch on Debian 9 (stretch),2017-08-15T13:15:24Z,,,,,VidCutter 4.0.0 AppImage does not start with Debian 9 (stretch). No error messages.
+86,Doesn't launch on Ubuntu,2017-08-14T12:05:44Z,,,"TypeError, AttributeError","TypeError: __init__() takes at least 2 positional arguments (1 given), AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'","4.0.0 AppImage gives the below error(s) output. I'm running Ubuntu 16.04, fully up-to-date. 64-bit:
+
+```
+$ ./VidCutter-4.0.0-x64.AppImage 
+/bin/bash: /tmp/.mount_VidCut1zZDTL/lib/x86_64-linux-gnu/libtinfo.so.5: no version information available (required by /bin/bash)
+Traceback (most recent call last):
+  File ""/tmp/.mount_VidCut1zZDTL/usr/bin/vidcutter"", line 16, in <module>
+    sys.exit(load_entry_point('vidcutter', 'gui_scripts', 'vidcutter')())
+  File ""/tmp/.mount_VidCut1zZDTL/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 564, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/tmp/.mount_VidCut1zZDTL/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2652, in load_entry_point
+    return ep.load()
+  File ""/tmp/.mount_VidCut1zZDTL/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2306, in load
+    return self.resolve()
+  File ""/tmp/.mount_VidCut1zZDTL/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2312, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 39, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 48, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 19, in <module>
+    from OpenGL.arrays.arraydatatype import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/arraydatatype.py"", line 14, in <module>
+    from OpenGL_accelerate.arraydatatype import ArrayDatatype as ADT
+  File ""arraydatatype.pyx"", line 1, in init OpenGL_accelerate.arraydatatype (src/arraydatatype.c:10964)
+  File ""wrapper.pyx"", line 3, in init OpenGL_accelerate.wrapper (src/wrapper.c:11183)
+  File ""/usr/lib/python3/dist-packages/OpenGL/error.py"", line 224, in <module>
+    ErrorChecker = _ErrorChecker( platform )
+  File ""errorchecker.pyx"", line 17, in OpenGL_accelerate.errorchecker._ErrorChecker.__init__ (src/errorchecker.c:818)
+TypeError: __init__() takes at least 2 positional arguments (1 given)
+
+```
+I tried the PPA executable instead but got another error:
+```
+$ vidcutter --help
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==4.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 542, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2569, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2229, in load
+    return self.resolve()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 39, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 48, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 22, in <module>
+    formathandler.FormatHandler.loadAll()
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 28, in loadAll
+    cls.loadPlugin( entrypoint )
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 35, in loadPlugin
+    plugin_class = entrypoint.load()
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 14, in load
+    return importByName( self.import_path )
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 28, in importByName
+    module = __import__( ""."".join(moduleName), {}, {}, moduleName)
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/vbo.py"", line 430, in <module>
+    def mapVBO( vbo, access=GL.GL_READ_WRITE ):
+AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'
+
+```
+
+"
+85,Problem with OpenGL and Win7 64,2017-08-13T22:15:07Z,,,,,"I keep getting the following error message in Vidcutter, which I just installed on Win7 64 bit: `[vo/opengl-cb] OpenGL context not initialized` -- which means I can't open or play any videos. 
+
+Computer has dual graphics cards-- an Intel HD 3000 and an Nvidia NVS 4200M.
+
+Just to see what would happen I uninstalled the 64 bit version and installed the 32 bit version, but nothing changed, same error message.
+
+Any help or solution would be appreciated.
+
+Thanks!"
+84,Too many libraries bundled in AppImage,2017-08-11T21:18:48Z,,,,,"The following libraries can probably safely to be assumed to be part of all target systems in a recent enough version and hence not be bundled in the AppImage. In fact, some are known to cause issues on some systems if bundled.
+
+- libX11.so.6
+- libexpat.so.1
+- libp11-kit.so.0
+- libusb-1.0.so.0
+- libz.so.1
+
+Reference:
+https://github.com/AppImage/AppImages/blob/master/excludelist"
+83,stuck when trying to join videos,2017-08-11T20:01:11Z,,,,,on macOS 10.12.6 VidCutter 4.0 stuck when try to join cut off videos and nothing happened.
+82,Support png in VidCutter!,2017-08-11T19:53:58Z,,,,,"Hi ...thank the developer for this great program... I always support this projectI I wish it to continue
+I have a suggestion about supporting png images within the video that we need so much
+thank you very much.
+
+"
+81,Can't cut and join files in one session,2017-08-07T22:33:01Z,,,,,"I can't cut parts from multiple files and join them together. I can only cut clips from single video or join whole files into one output. But not both.
+When i cut clips from one file and then i try to open another file all these clips from clip index are deleted."
+80,canot build vidcutter on Fedora 26 as noarch package,2017-08-07T15:52:39Z,2017-08-18T06:47:21Z,,,,"packaging vidcutter in noarch rpm packaging format fails with:
+error: Arch dependent binaries in noarch package
+
+because the package contains this arch file:
+/usr/lib64/python3.6/site-packages/vidcutter/libs/mpv.cpython-36m-x86_64-linux-gnu.so
+
+removing this file `rm -f %{buildroot}%{python3_sitearch}/%{name}/libs/mpv.cpython-36m-x86_64-linux-gnu.so` the rpm package can be build. I do not know whether this file is needed by vidcutter."
+79,vidcutter-4.0.0 not launch on Fedora 26,2017-08-07T15:46:28Z,2017-08-18T06:46:28Z,,,,"error on launching: ModuleNotFoundError: No module named 'OpenGL'
+solution: install missing package with
+`# dnf install python3-pyopengl`
+
+"
+78,VidCutter AppImage not launching on Gentoo,2017-08-07T07:53:33Z,,,,,"```
+/tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter.wrapper: line 121: 27116 Aborted                 (core dumped) LD_LIBRARY_PATH="""" zenity --question --title=""$TITLE"" --text=""$TEXT"" 2> /dev/null
+/tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter.wrapper: line 121: 27123 Aborted                 (core dumped) LD_LIBRARY_PATH="""" zenity --question --title=""$TITLE"" --text=""$TEXT"" 2> /dev/null
+/tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter.wrapper: /tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter: /usr/bin/python3.5: bad interpreter: No such file or directory
+/tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter.wrapper: line 99: /tmp/.mount_VidCutOvhcTg/usr/bin/vidcutter: Success
+```"
+77,gcc: error: /usr/lib/rpm/redhat/redhat-hardened-cc1: No such file or directory,2017-08-07T06:36:53Z,,,,,is that particular cc1 really necessary for a python app?
+76,Result popup shouldn't interrupt program control,2017-08-06T16:28:47Z,2017-12-10T10:09:56Z,,,,"When you press Save media button in 4.0.0, it shows a popup on completion with a Play button. This popup moves VidCutter to the background and you can't do anything while it is showing (can't close the program, etc.).
+
+Windows 7 x64"
+75,Cutting from mpg file results in audio only,2017-08-06T16:26:51Z,2017-11-14T04:47:43Z,,,,"This is a minor issue as VidCutter usually works fine with various formats (4.0.0), but as i was testing i have tried one old mpg file and it only played sound after cutting it. I can attach this file, if you need (not sure if it will allow to attach here, but it is only 4,5 MB).
+
+Windows 7 x64, VLC, Media Player"
+74,vidcutter 4: No stepping with mouse wheel,2017-08-03T21:00:22Z,,,,,"Hi,
+on version 4 stepping forward / back with the mouse wheel does not work for me on Win 10.
+
+Regards - MacS"
+73,vidcutter 4.0 not launch,2017-08-02T14:39:58Z,,,,,"Just installed the 4.0 deb from the PPA:
+
+<a href=""https://launchpad.net/~ozmartian/+archive/ubuntu/apps"">https://launchpad.net/~ozmartian/+archive/ubuntu/apps</a>
+
+"
+72,AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE',2017-08-02T14:38:45Z,,,AttributeError,"AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'","Hi,
+
+Last stable `4.0.0~201708021339~ubuntu16.04.1` fails to start on `Ubuntu 16.04.3 LTS`.
+```
+$ vidcutter
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==4.0.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 542, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2569, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2229, in load
+    return self.resolve()
+  File ""/usr/lib/python3/dist-packages/pkg_resources/__init__.py"", line 2235, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 39, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 48, in <module>
+    from vidcutter.libs.mpvwidget import mpvWidget
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpvwidget.py"", line 12, in <module>
+    from OpenGL import GL
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/__init__.py"", line 3, in <module>
+    from OpenGL.GL.VERSION.GL_1_1 import *
+  File ""/usr/lib/python3/dist-packages/OpenGL/GL/VERSION/GL_1_1.py"", line 10, in <module>
+    from OpenGL import platform, constants, constant, arrays
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/__init__.py"", line 22, in <module>
+    formathandler.FormatHandler.loadAll()
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 28, in loadAll
+    cls.loadPlugin( entrypoint )
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/formathandler.py"", line 35, in loadPlugin
+    plugin_class = entrypoint.load()
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 14, in load
+    return importByName( self.import_path )
+  File ""/usr/lib/python3/dist-packages/OpenGL/plugins.py"", line 28, in importByName
+    module = __import__( ""."".join(moduleName), {}, {}, moduleName)
+  File ""/usr/lib/python3/dist-packages/OpenGL/arrays/vbo.py"", line 430, in <module>
+    def mapVBO( vbo, access=GL.GL_READ_WRITE ):
+AttributeError: module 'OpenGL.GL' has no attribute 'GL_READ_WRITE'
+```
+Thanks"
+71,Adding additional videos to clip index by drag & drop,2017-07-28T12:37:46Z,,,,,"As far as I can see I can only add more clips by clicking onto the ""ADD"" button, navigate through the (big) directory tree and add them manually.
+
+When I want to concatenate multiple clips this becomes tedious.
+
+I would appreciate if I could drag &drop additional videos onto the ""Clip index"" sub pane.
+
+Could you add this feature?
+
+Thank you"
+70,Missing hotkeys and control to jump one Key(!) frame back and forth,2017-07-28T12:26:42Z,,,,,"Assume I load an *.mp4 video into VidCutter.
+
+Now I want to jump 1 key frame (NOT: frame) forward (or backward).
+
+How can I do this?
+
+Pressing simply right arrow moves only one frame but not a to the next key frame.
+
+Adding two more control icons between of ""Play Media"" and ""Start Clip"" with ""jump back key frame"" and ""jump forth key frame"" would be fine. 
+
+Thank you"
+69,Missing function to delete marked clip in the mid of a video,2017-07-28T12:19:10Z,,,,,"Assume I load a *.mp4 video into VidCutter.
+I mark start and the end of a sub clip somewhere in the mid of the video.
+Now I want to delete it and save the remaining video (as lossless as possible) into a new video file.
+
+How can I do this?
+
+I expected that when I press the DEL key then this operation is performed but DEL hotkey seems to be unknown.
+
+On the other hand when I mark the just selected clip interval in the clip index on the right and select ""Remove selected"" then the clip still exists/is shown in the timeline afterwards.
+
+Peter"
+68,Allow timestamp to be preserved,2017-07-19T22:44:31Z,,,,,"When set of composite clips is created from the original video, it should inherit the stream creation date/timestamp from the original.
+
+It would also be nice to have the option of translating timestamps when multiple clips are created from the original. For example, if a short clip is created starting 5 seconds into the original video, then that exported clip should have a creation timestamp exactly 5 seconds later than the original."
+67,Add timestamp in video exports,2017-07-14T09:53:43Z,,,,,"Hi,
+
+For example, with gopro, creation time is embedded into the files metadata. So you can get it and then add timestamp (with opencv/ffmpeg) to every frame we want to export in vidcutter.
+
+Some inspiration: https://www.theeminentcodfish.com/gopro-timestamp
+
+Thanks
+J."
+66,"Proposal - accompaniment, simple transition, overlapping materials.",2017-07-06T09:36:13Z,,,,,"Will there be an option in the program to merge the background music added from the outside to cut out parts of the movie?
+Currently, the program allows you to edit either a movie or background, but you can not merge it into one file, because when you enter the video file program, the video list disappears (deleted). So the sound file is the same as the movie file.
+
+Will there ever be a simple fade-in?
+
+Does the program will receive the possibility of imposing one material to another?"
+65, timeline slider doesn't drag.,2017-07-04T02:04:03Z,,,,,"Confirm Lubuntu 16.04, Vidcutter 3.5.0 - timeline slider doesn't drag.
+I got a different effect when launched from terminal with filename and was able to complete the job OK."
+64,Vidcutter does not start if username contain a capital letter.,2017-07-02T11:18:56Z,2017-12-13T19:54:07Z,,PermissionError,"PermissionError: [Errno 13] Permission denied: '/home/abhinav'","I installed vidcutter using the copr mentioned in readme. When running it, It gives following error.
+
+```
+[Abhinav@fedora-25 ~] $ vidcutter 
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==3.5.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3.5/site-packages/vidcutter/__main__.py"", line 301, in main
+    win = MainWindow()
+  File ""/usr/lib/python3.5/site-packages/vidcutter/__main__.py"", line 51, in __init__
+    self.init_logger()
+  File ""/usr/lib/python3.5/site-packages/vidcutter/__main__.py"", line 102, in init_logger
+    os.makedirs(log_path, exist_ok=True)
+  File ""/usr/lib64/python3.5/os.py"", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File ""/usr/lib64/python3.5/os.py"", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File ""/usr/lib64/python3.5/os.py"", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/home/abhinav'
+Segmentation fault (core dumped)
+```
+
+Before this I tried using AppImage. But it was giving Python QT error."
+63,"Application window too big on HP Mini 5101, Lubuntu 16.10",2017-07-01T18:48:06Z,,,,,I wanted to reopen this thread https://github.com/ozmartian/vidcutter/issues/21 but I can't.
+62,Jump to start / end of clip,2017-06-19T20:55:30Z,,,,,"Hi,
+frequently I would like to jump to the start or end of a clip in order to ""attach"" a new clip right next to it.
+
+Unfortunately there is no keyboard shortcut to do so. Could you add shortcuts to jump through all clip starts / ends?
+
+Thanks - Mac"
+61,Wrong build date on Windows,2017-06-14T03:10:31Z,,,,,"The ""build date"" displays the current date on Windows
+
+![image](https://user-images.githubusercontent.com/551059/27113826-5f3192ac-508d-11e7-9a9d-8e30af8d0ad8.png)
+![2](https://user-images.githubusercontent.com/551059/27113832-64ec4b88-508d-11e7-8164-72601b475c79.JPG)
+"
+60,Add ability to join multiple files,2017-06-12T18:23:53Z,,"FEATURE REQUEST, FIXED / IN NEXT VERSION",,,"Certain cameras, like the SJCAM SJ4000, split video files at 4 GB, due to a size limitation in the FAT32 file system. It would make VidCutter very useful to me if multiple input files were supported (the concat option of ffmpeg)!
+
+Thank you for your attention!"
+59,Qt5 version compatibility,2017-06-09T18:26:13Z,,,AttributeError,"AttributeError: type object 'Qt' has no attribute 'AA_DontCheckOpenGLContextThreadAffinity'","Hi,
+I've just tried building the 4.0.0 release tagged yesterday, but I've noticed this error on launch
+```
+AttributeError: type object 'Qt' has no attribute 'AA_DontCheckOpenGLContextThreadAffinity'
+```
+
+From what I can see, that attribute was introduced in 5.8, but non bleeding-edge linux distributions are stuck with 5.7 or 5.6.2, like openSUSE Leap, the upcoming debian stretch, current ubuntu...
+
+Is it really necessary?
+"
+58,Timeline slider doesn't move,2017-06-07T09:59:25Z,2017-08-06T16:13:56Z,,,,"It was ok in 3.2.0, although slider tended to jump around often while dragged. But in 3.5.0 it doesn't move at all and i can't drag it (Windows 7 x64)."
+57,[Feature Request] Save/export frame?,2017-06-05T19:02:46Z,,,,,"Would be great if this software had the feature to export the current frame, saving it as a .jpg or .png, for example. Anyways, thanks for this great tool."
+56,Output file Zero Bytes (trying to make 3 second clip),2017-06-04T12:16:48Z,,,,,"The UI says that the file has been saved successfully with a size of zero bytes.
+VLC gives the following details about the input file:
+
+Stream 0:
+  Codec: MPEG-4 Video (mp4v)
+  Resolution: 1920x1080
+  Display Resolution:1920x1080
+  Frame Rate:25
+  Decoded Format: 
+Stream 1:
+  Type: Audio
+  Codec: MPEG Audio Layer 1/2 (mp4a)
+  Channels: Stereo
+  Sample rate: 48000 Hz
+  Bit Rate: 128kb/s
+
+The vidcutter --debug output shows the following:
+molly@molly:~$ vidcutter --debug
+minimum size set to: PyQt5.QtCore.QSize(900, 640) (NORMAL)
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - VideoService: backend = ""/usr/bin/ffmpeg""	mediainfo = ""/usr/bin/mediainfo""
+2017-06-04 12:52 - vidcutter.videocutter - INFO - MPV info - cplayer: Playing: /home/molly/Videos/00004.m4v
+2017-06-04 12:52 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Video --vid=1 (*) (mpeg4)
+2017-06-04 12:52 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Audio --aid=1 --alang=und (*) (mp3)
+2017-06-04 12:52 - vidcutter.videocutter - INFO - MPV info - cplayer: AO: [pulse] 48000Hz stereo 2ch s16
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - VideoService: backend = ""/usr/bin/ffmpeg""	mediainfo = ""/usr/bin/mediainfo""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:00.000 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/TJ5170.jpg""
+2017-06-04 12:52 - vidcutter.videocutter - CRITICAL - MPV error - ffmpeg/audio: mp3: Header missing
+MPV error - ffmpeg/audio: mp3: Header missing2017-06-04 12:52 - vidcutter.videocutter - CRITICAL - MPV error - ad: Error decoding audio.
+MPV error - ad: Error decoding audio.2017-06-04 12:52 - vidcutter.videocutter - INFO - MPV info - cplayer: VO: [opengl] 1920x1080 yuv420p
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:06.307 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/XM5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:12.614 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/Lh5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:18.921 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/nS5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:25.228 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/kn5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:31.535 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/Ti5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:37.842 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/wZ5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:44.149 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/TT5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:50.456 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/jd5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:56.763 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/BC5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:03.070 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/Hf5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:09.377 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/yJ5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:15.684 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/FW5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:21.991 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/wX5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:28.298 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/Zb5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:34.605 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/th5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:40.912 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/PE5170.jpg""
+2017-06-04 12:52 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:01:47.219 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 50x38 -y /tmp/ZK5170.jpg""
+cut start position: 2000
+2017-06-04 12:53 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -ss 00:00:02.640 -i ""/home/molly/Videos/00004.m4v"" -vframes 1 -s 100x70 -y /tmp/TJ5170.jpg""
+cut end position: 5000
+2017-06-04 12:53 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -i ""/home/molly/Videos/00004.m4v"" -ss 00:00:02.640 -t 00:00:03.000 -vcodec copy -acodec copy -scodec copy -map 0 -y ""/home/molly/Videos/00004_EDIT_01.m4v""""
+2017-06-04 12:53 - vidcutter.videocutter - INFO - cut resulted in 0 length file, trying again without all stream mapping
+2017-06-04 12:53 - vidcutter.libs.videoservice - INFO - 
+VideoService cmdExec: ""/usr/bin/ffmpeg -i ""/home/molly/Videos/00004.m4v"" -ss 00:00:02.640 -t 00:00:03.000 -vcodec copy -acodec copy -y ""/home/molly/Videos/00004_EDIT_01.m4v""""
+molly@molly:~$ 
+=============================================================================
+
+
+If I try both of these ffmpeg commands directly I get the following:
+
+molly@molly:~$ /usr/bin/ffmpeg -i ""/home/molly/Videos/00004.m4v"" -ss 00:00:02.640 -t 00:00:03.000 -vcodec copy -acodec copy -scodec copy -map 0 -y ""/home/molly/Videos/00004_EDIT_01.m4v""
+ffmpeg version 3.2.4-1build2 Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 6.3.0 (Ubuntu 6.3.0-8ubuntu1) 20170221
+  configuration: --prefix=/usr --extra-version=1build2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libebur128 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 34.101 / 55. 34.101
+  libavcodec     57. 64.101 / 57. 64.101
+  libavformat    57. 56.101 / 57. 56.101
+  libavdevice    57.  1.100 / 57.  1.100
+  libavfilter     6. 65.100 /  6. 65.100
+  libavresample   3.  1.  0 /  3.  1.  0
+  libswscale      4.  2.100 /  4.  2.100
+  libswresample   2.  3.100 /  2.  3.100
+  libpostproc    54.  1.100 / 54.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/molly/Videos/00004.m4v':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    creation_time   : 2010-08-07T12:24:19.000000Z
+    encoder         : HandBrake svn3472 2010080601
+  Duration: 00:01:50.93, start: 0.000000, bitrate: 18155 kb/s
+    Stream #0:0(und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p(bt709), 1920x1080 [SAR 1:1 DAR 16:9], 18018 kb/s, 25 fps, 25 tbr, 90k tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2010-08-07T12:24:19.000000Z
+    Stream #0:1(und): Audio: mp3 (mp4a / 0x6134706D), 48000 Hz, stereo, s16p, 154 kb/s (default)
+    Metadata:
+      creation_time   : 2010-08-07T12:24:19.000000Z
+[ipod @ 0x556bf1e07100] Tag mp4a/0x6134706d incompatible with output codec id '86017' ([0][0][0][0])
+Could not write header for output file #0 (incorrect codec parameters ?): Invalid data found when processing inputStream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+    Last message repeated 1 times
+molly@molly:~$ 
+molly@molly:~$ 
+
+
+
+
+molly@molly:~$ 
+molly@molly:~$ 
+molly@molly:~$ /usr/bin/ffmpeg -i ""/home/molly/Videos/00004.m4v"" -ss 00:00:02.640 -t 00:00:03.000 -vcodec copy -acodec copy -y ""/home/molly/Videos/00004_EDIT_01.m4v""
+ffmpeg version 3.2.4-1build2 Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 6.3.0 (Ubuntu 6.3.0-8ubuntu1) 20170221
+  configuration: --prefix=/usr --extra-version=1build2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libebur128 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 34.101 / 55. 34.101
+  libavcodec     57. 64.101 / 57. 64.101
+  libavformat    57. 56.101 / 57. 56.101
+  libavdevice    57.  1.100 / 57.  1.100
+  libavfilter     6. 65.100 /  6. 65.100
+  libavresample   3.  1.  0 /  3.  1.  0
+  libswscale      4.  2.100 /  4.  2.100
+  libswresample   2.  3.100 /  2.  3.100
+  libpostproc    54.  1.100 / 54.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/molly/Videos/00004.m4v':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    creation_time   : 2010-08-07T12:24:19.000000Z
+    encoder         : HandBrake svn3472 2010080601
+  Duration: 00:01:50.93, start: 0.000000, bitrate: 18155 kb/s
+    Stream #0:0(und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p(bt709), 1920x1080 [SAR 1:1 DAR 16:9], 18018 kb/s, 25 fps, 25 tbr, 90k tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2010-08-07T12:24:19.000000Z
+    Stream #0:1(und): Audio: mp3 (mp4a / 0x6134706D), 48000 Hz, stereo, s16p, 154 kb/s (default)
+    Metadata:
+      creation_time   : 2010-08-07T12:24:19.000000Z
+[ipod @ 0x55cfa3dbbc00] Tag mp4a/0x6134706d incompatible with output codec id '86017' ([0][0][0][0])
+Could not write header for output file #0 (incorrect codec parameters ?): Invalid data found when processing inputStream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+    Last message repeated 1 times
+molly@molly:~$ 
+
+
+
+
+"
+55,"Make ""continue"" optionally automatic",2017-06-01T08:10:33Z,,,,,"Thanks for the ""continue"" option after media are saved. Could there be made a setting that would make it default so one would not have to deal with the dialog at all? I pretty much always want to continue and t obe frank, that dialog just confuses me."
+54,"Pressing ""Delete"" with focus on individual clip should remove them.",2017-06-01T08:00:22Z,,,,,"When focusing the individual clips on the right, I can remove them by rightclicking them and selecting ""remove"" in the menu. I think a keyboard shortcut linked to ""Delete"" would be logical here."
+53,"Clips missing first few seconds of video, only audio plays",2017-05-29T19:31:16Z,,,,,"The issues described at the below links seem to be affecting this program too. I'm seeing this with clips less than 2s which are just audio
+
+[Sample clip](https://github.com/mifi/lossless-cut/files/781409/uhlvjd.mp4-00.32.16.547-00.33.04.956.mp4.zip) linked in the issue below can used to repro this 
+
+https://github.com/mifi/lossless-cut/issues/26
+
+The discussion below suggests some improvements that might work
+https://github.com/mifi/lossless-cut/pull/13
+"
+52,Add video screen rotate feature,2017-05-28T20:53:45Z,,,,,Besides cut - rotate also often used. Seems one of similar soft can do it - openshot or avidemus or else -  but overbloated.
+51,Change clip start,2017-05-26T14:07:56Z,,,,,"Once I click ""set clip start"", I no longer seem able to change it, nor by dragging, nor by clicking it again since it gets greyed out. But what if I make a mistake and want to chagne the clip start?"
+50,Can I output only Video (no audio)?,2017-05-26T04:09:18Z,,,,,Is it possible to only output Video and not audio? 
+49,Reset Crash.,2017-05-20T20:20:52Z,,,,,"After saving file and pressing reset to load another clip for cropping, Loading another file crashes the program. I does not do this if you dont save a file.
+It only does this on the windows version and has done this on previous versions of this program. OS is a fresh install less than 1 month.
+Lest me know if you need any more info"
+48,Lossless editing?,2017-05-17T11:28:28Z,,,,,"This project seems to be great by it's simplicity and the set of features it has nominates it to be great platform for lossless editing. There can be some optional lossless mode checkbox, that would result in the following:
+
+1.) Once you import first clip to project, the other clips will have to use exactly same format (resolution, codec, etc...)
+2.) You will be able to cut clips only on keyframes
+3.) Output format will have to match input format
+4.) There will be no re-encoding during output making everythig blazing fast and absolutely lossless.
+5.) As a bonus you can export to variety of containers as long as they will support the input formats
+
+This will enable us to do fast lossless edits in cases where no advanced effects are needed. Just join few clips together and cut out the bad parts. Something you might need to do fast processing of holyday footage before uploading to youtube. Given that you filmed everything on single camera without changing codec settings.
+
+Currently i am doing this using ffmpeg using ""copy"" mode and it's extremely fast. It usualy takes like 100x less time than is needed to play the video (faster than realtime). On the other hand when i am rendering/encoding the video doing advanced edits it takes much more time than is needed for the video to play (slower than realtime). But ffmpeg is commandline and having GUI for this would be super handy."
+47,"""Clear list"" breaks video time cursor",2017-05-14T16:33:56Z,,"BUG - VALIDATED, FIXED / IN NEXT VERSION",,,"Hi,
+Using `3.2.0~201705111415~ubuntu16.04.1`, doing ""Clear list"" breaks video time cursor.
+You can't move it anymore using mouse cursor.
+
+Screenshot:
+![screenshot_2017-05-14_18-30-23](https://cloud.githubusercontent.com/assets/1882534/26035840/9eb3997e-38d3-11e7-8cc5-e05b2c4f8be1.png)
+
+Thanks
+"
+46,segmentation fault,2017-05-14T15:48:58Z,2017-06-02T08:55:58Z,,,,"Hi,
+I'm using vidcutter `3.2.0~201705111415~ubuntu16.04.1` and I'm experiencing segmentation faults. Especially when browsing using multiple 5 seconds forwards (Alt + up).
+EDIT: It can also happen when saving media.
+
+Here is a sample video on which I'm able to reproduce it everytime: https://pub.jeekajoo.eu/sample.mp4
+So that you can try by yourself.
+
+Debug log:
+```
+minimum size set to: PyQt5.QtCore.QSize(900, 640) (NORMAL)
+2017-05-14 16:42 - vidcutter.libs.videoservice - INFO - VideoService: backend = ""/usr/bin/ffmpeg""	mediainfo = ""/usr/bin/mediainfo""
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - cplayer: Playing: /home/jeekajoo/gopro/sample.mp4
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Video --vid=1 (*) (h264)
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Audio --aid=1 --alang=eng (*) (aac)
+libva info: VA-API version 0.39.0
+libva info: va_getDriverName() returns 0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_0_39
+libva info: va_openDriver() returns 0
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - cplayer: AO: [pulse] 48000Hz stereo 2ch float
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - vd: Using hardware decoding (vaapi).
+2017-05-14 16:42 - vidcutter.videocutter - INFO - MPV info - cplayer: VO: [opengl] 1920x1080 vaapi
+[1]    1040 segmentation fault  vidcutter --debug
+```
+Thanks"
+45,can't run Appimage,2017-05-14T11:50:32Z,,,ImportError,"ImportError: No module named 'PyQt5.QtCore'","I was eager to try using Vidcutter, couldn't install it a few months ago due to dependency problems on 14.04, then tried it on 16.04 after I upgraded, still no luck. 
+When I try to run it in terminal, I get:
+
+`./VidCutter-3.2.0-linux-x64.AppImage 
+/bin/bash: /tmp/.mount_q7Hhui/lib/x86_64-linux-gnu/libtinfo.so.5: no version information available (required by /bin/bash)
+Traceback (most recent call last):
+  File ""/tmp/.mount_q7Hhui/usr/bin/vidcutter"", line 16, in <module>
+    sys.exit(load_entry_point('vidcutter', 'gui_scripts', 'vidcutter')())
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 351, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2363, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2088, in load
+    entry = __import__(self.module_name, globals(),globals(), ['__name__'])
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 33, in <module>
+    from PyQt5.QtCore import (QCommandLineOption, QCommandLineParser, QDir, QFileInfo, QProcess,
+ImportError: No module named 'PyQt5.QtCore'
+`"
+44,latest 3.2.0 don't start under Ubuntu wily 15.10,2017-05-12T22:55:41Z,,"ALREADY DONE, BUG - VALIDATED",,,"Hi,
+
+1st try, by the way it didn't start :
+
+```
+bigbob@bigbob-UX31A:~$ vidcutter --debug --dev
+minimum size set to: PyQt5.QtCore.QSize(900, 640) (NORMAL)
+2017-05-13 00:54 - vidcutter.libs.videoservice - INFO - VideoService: backend = ""/usr/bin/ffmpeg""	mediainfo = ""/usr/bin/mediainfo""
+2017-05-13 00:54 - root - CRITICAL -   File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==3.2.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 287, in main
+    win = MainWindow()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 54, in __init__
+    self.init_cutter()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 180, in init_cutter
+    self.cutter = VideoCutter(self)
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 171, in __init__
+    self.initMPV()
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 301, in initMPV
+    hwdec='auto' if self.hardwareDecodingAction.isChecked() else 'no')
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpv.py"", line 457, in __init__
+    _mpv_set_option_string(self.handle, k.replace('_', '-').encode('utf-8'), istr(v).encode('utf-8'))
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpv.py"", line 102, in raise_for_ec
+    raise ex(ec, *args)
+
+2017-05-13 00:54 - root - CRITICAL - <class 'AttributeError'>: ('mpv option does not exist', -5, (<MpvHandle object at 0x7f8c58981bf8>, b'rebase-start-time', b'yes'))
+bigbob@bigbob-UX31A:~$ lsb_release -a
+LSB Version:	core-2.0-amd64:core-2.0-noarch:core-3.0-amd64:core-3.0-noarch:core-3.1-amd64:core-3.1-noarch:core-3.2-amd64:core-3.2-noarch:core-4.0-amd64:core-4.0-noarch:core-4.1-amd64:core-4.1-noarch:security-4.0-amd64:security-4.0-noarch:security-4.1-amd64:security-4.1-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 15.10
+Release:	15.10
+Codename:	wily
+bigbob@bigbob-UX31A:~$
+```
+
+Any idea of a fix ?
+
+Regards"
+43,[opensuse] missing dependency,2017-05-12T09:29:47Z,,,,,"For running vidcutter also python3-sip is needed (spec file)
+"
+42,Latest Vidcutter Not opening at all libmpv.so.1: undefined symbol ,2017-05-11T17:25:40Z,,"INVALID / CANNOT FIX, NOT A BUG / ALREADY FIXED",AttributeError,"AttributeError: /usr/lib/i386-linux-gnu/libmpv.so.1: undefined symbol: mpv_create_client","@ BunsenLabs x86, Debian
+
+Installed latest version available n THIS date via adding ppa to Synaptic, everything installed fine
+Invoking application from terminal throws this error & application won't run
+
+```
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==3.2.0', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 356, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2476, in load_entry_point
+    return ep.load()
+  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2190, in load
+    ['__name__'])
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 38, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 55, in <module>
+    import vidcutter.libs.mpv as mpv
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpv.py"", line 333, in <module>
+    _handle_func('mpv_create_client', [c_char_p], MpvHandle, notnull_errcheck)
+  File ""/usr/lib/python3/dist-packages/vidcutter/libs/mpv.py"", line 286, in _handle_func
+    func = getattr(backend, name)
+  File ""/usr/lib/python3.4/ctypes/__init__.py"", line 364, in __getattr__
+    func = self.__getitem__(name)
+  File ""/usr/lib/python3.4/ctypes/__init__.py"", line 369, in __getitem__
+    func = self._FuncPtr((name_or_ordinal, self))
+AttributeError: /usr/lib/i386-linux-gnu/libmpv.so.1: undefined symbol: mpv_create_client
+```
+
+All prerequisites are installed, although it seems my mpv version & libs are old, but should this be a problem?
+http://imgur.com/P40k6UT"
+41,No PyQt5.QtCore for 3.2.0.,2017-05-10T01:21:28Z,,"BUG - UNVALIDATED, IN DISCUSSION",,,"But it installed by 
+pip3 install pyqt5
+System: Linux Debian Sid.
+VidCutter 3.0.0 worked fine."
+40,OS X Crashes on Video Action,2017-05-09T23:07:57Z,,,,,"Upon loading a clip, I can press play, but when I press pause the app crashes and presents the OS X `VidCutter quit unexpectedly` dialog.
+
+I don't have this problem with audio files, only video."
+39,Add a Codacy badge to README.md,2017-05-05T16:40:02Z,2017-05-06T03:06:25Z,,,,
+38,Repeat Clip,2017-04-16T13:15:56Z,,,,,"Having selected a clip it would be good if you could right click on it and choose ""Repeat once"" and the same clip would be added as the next clip in the index.
+"
+37,Remember user selections,2017-04-16T13:01:24Z,,,,,"
+When I set the volume level and the close and reopen the program my selection is not remembered :-(
+There are probably other user selections to store that I don't know about :-)"
+36,Alter Frame Rate,2017-04-16T12:49:38Z,,,(note,"(note: the start and end point have to be multiplied by the SpeedUp factor (here 2) to keep the same clip content)","ffmpeg can easily alter the frame rate of a clip to do slow-motion etc.
+
+ffmpeg -i source.avi -ss 00:30:49.640 -to 00:30:58.840 -q:v 0 -filter:v ""setpts=2.0*PTS"" -async 1 cut.avi
+(note: the start and end point have to be multiplied by the SpeedUp factor (here 2) to keep the same clip content)
+
+A slider bar (-4 - 0 - +4) could be added to vidcutter to control this."
+35,Side by Side Viewer,2017-04-16T12:42:13Z,,,,,"
+When cutting short clips if repetitive motion (e.g. for making GIFs) it is important to align the subject in the start scene with the subject in the end scene. (Imagine somebody bouncing on a trampoline)
+
+It would be useful if vidcutter had 2 frames showing the source video so that in one you could select Start and in the other select End point.
+"
+34,Show Clip duration in miliseconds,2017-04-16T12:34:45Z,,,,,The selected start position and end position are shown with milisecond accuracy but the duration is only show in seconds.
+33,Issues with mpeg-ts,2017-04-05T00:08:25Z,2017-05-19T08:10:34Z,,,,".ts containers don't seem to work correctly.
+
+Playing and seeking with the keyboard shortcuts work but when I use the seek bar or click a video clip, then the position jumps to the beginning of the video."
+32,"Output file successfully 'ready', but 0 bytes.",2017-03-19T13:22:21Z,2017-05-16T22:01:56Z,,,,"Ubuntu 16.10
+VidCutter 3.0.1
+
+Vidcutter runs `/usr/bin/ffmpeg -i ""file.mp4"" -ss 00:00:00.000 -t 02:04:29.995 -vcodec copy -acodec copy -map 0 -y ""file_EDIT.mp4""`
+
+Which in Vidcutter shows as successfully clipped, though the saved output file is empty.
+
+If I run that command manually, ffmpeg returns the following error:
+
+`Stream mapping:`
+`  Stream #0:0 -> #0:0 (copy)`
+`  Stream #0:1 -> #0:1 (copy)`
+` Stream #0:2 -> #0:2 (mov_text (native) -> ? (?))`
+`Encoder (codec none) not found for output stream #0:2`
+
+Workaround: I changed the map flag to only process the first two streams `-map 0:0 -map 0:1` 
+"
+31,'Clip Start' not quite accurate,2017-03-14T17:05:00Z,,,,,"If I select 'Clip Start' at the beginning of a video, the start point works fine.  If I click 'Clip Start' later in the video it is very close, but not immediate and after a couple seconds go by then it marks the start point.   
+
+'Clip End' button always works well, no problem with selecting the end point of the video.
+
+Also, the program doesn't remember the last opened file location. Which isn't a bug, more of a user preference."
+30,Don't close the tool after choosing to save a clip,2017-03-14T07:34:09Z,2017-05-16T22:04:01Z,,,,"Often, I would liketo change something in the way I cut the clip. I ahve to set everything from scratch now. I can manage closing the window myself."
+29,cutting large file fails in the middle,2017-03-14T07:32:47Z,,"BUG - VALIDATED, IN DISCUSSION",,,"I havea 9,3 GB 40 minutes mkv file that I want to cut into about 38 minutes file. The tool reports success but the resulting file is only about 10 minutes/2,3 gb long."
+28,Support for multiple output files,2017-03-13T18:45:36Z,,"ALREADY DONE, IN DISCUSSION",,,"As a Visual Artist I have often the problem that I want to split a clip into multiple parts. For example a music video into some loops which I can use as independent visuals then.
+
+It would be great if you would support a multi-video output button. This would save all the clips I've marked, into a new file."
+27,Native file chooser dialog on Ubuntu,2017-03-11T23:54:16Z,2017-05-19T03:33:23Z,NOT A BUG / ALREADY FIXED,,,"I think there is a Qt5 issue showing native dialogs on Ubuntu 16.04 as you can see here the Nautilus and File Chooser dialog don't match and it's hard to navigate to mounts:
+
+![selection_049](https://cloud.githubusercontent.com/assets/606038/23827850/ba84e41e-06b5-11e7-9176-baf2511df3cc.png)
+
+Possibly similar to this: https://github.com/evpo/EncryptPad/issues/46"
+26,Zero size output video: 'Data stream encoding not supported yet (only streamcopy)',2017-03-11T23:36:02Z,,"FEATURE REQUEST, IN DISCUSSION",,,"Vidcutter reports success when saving a clip from some gopro footage but the file size is zero and does not exist on the file system. 
+
+OS: Ubuntu 16.04
+
+```
+$ vidcutter -v
+VidCutter 3.0.1
+$ vidcutter -d
+2017-03-11 23:13 - vidcutter.videoservice - INFO - 
+VideoService.backend = /usr/bin/ffmpeg
+VideoService.mediainfo = /usr/bin/mediainfo
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - cplayer: Playing: GOPR0188.MP4
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Video --vid=1 (*) (h264)
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - cplayer:  (+) Audio --aid=1 --alang=eng (*) (aac)
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - cplayer: AO: [pulse] 48000Hz stereo 2ch float
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - vd: Using hardware decoding (vdpau).
+2017-03-11 23:13 - vidcutter.videocutter - INFO - MPV info - cplayer: VO: [opengl] 1920x1080 vdpau
+cut start position: 34200
+VideoService CMD: /usr/bin/ffmpeg -ss 00:00:34.200 -i ""GOPR0188.MP4"" -vframes 1 -s 100x70 -y /tmp/M32068.jpg
+cut end position: 74657
+VideoService CMD: /usr/bin/ffmpeg -i ""GOPR0188.MP4"" -ss 00:00:34.200 -t 00:00:40.457 -vcodec copy -acodec copy -map 0 -y ""GOPR0188_EDIT_01.MP4""
+```
+
+In debug mode there was no error but manually running ffmpeg indicated an issue:
+```
+$ /usr/bin/ffmpeg -i ""GOPR0188.MP4"" -ss 00:00:34.200 -t 00:00:40.457 -vcodec copy -acodec copy -map 0 -y ""GOPR0188_EDIT_01.MP4""
+ffmpeg version 2.8.11-0ubuntu0.16.04.1 Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 20160609
+  configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv --enable-version3 --disable-doc --disable-programs --disable-avdevice --disable-avfilter --disable-avformat --disable-avresample --disable-postproc --disable-swscale --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libvo_aacenc --enable-libvo_amrwbenc
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'GOPR0188.MP4':
+  Metadata:
+    major_brand     : mp41
+    minor_version   : 538120216
+    compatible_brands: mp41
+    creation_time   : 2015-01-11 01:27:32
+  Duration: 00:03:39.71, start: 0.000000, bitrate: 30127 kb/s
+    Stream #0:0(eng): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 29973 kb/s, 59.94 fps, 59.94 tbr, 60k tbn, 119.88 tbc (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AVC
+      encoder         : GoPro AVC encoder
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AAC
+    Stream #0:2(eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro TCD
+      timecode        : 01:27:37:31
+    Stream #0:3(eng): Data: none (fdsc / 0x63736466), 13 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro SOS
+Data stream encoding not supported yet (only streamcopy)
+```
+
+The only option that seemed suspect was `map` so I removed it so it used default options and seems to fix the issue:
+```
+$ /usr/bin/ffmpeg -i ""GOPR0188.MP4"" -ss 00:00:34.200 -t 00:00:40.457 -vcodec copy -acodec copy -y ""GOPR0188_EDIT_01.MP4""
+ffmpeg version 2.8.11-0ubuntu0.16.04.1 Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 20160609
+  configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv --enable-version3 --disable-doc --disable-programs --disable-avdevice --disable-avfilter --disable-avformat --disable-avresample --disable-postproc --disable-swscale --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libvo_aacenc --enable-libvo_amrwbenc
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'GOPR0188.MP4':
+  Metadata:
+    major_brand     : mp41
+    minor_version   : 538120216
+    compatible_brands: mp41
+    creation_time   : 2015-01-11 01:27:32
+  Duration: 00:03:39.71, start: 0.000000, bitrate: 30127 kb/s
+    Stream #0:0(eng): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 29973 kb/s, 59.94 fps, 59.94 tbr, 60k tbn, 119.88 tbc (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AVC
+      encoder         : GoPro AVC encoder
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AAC
+    Stream #0:2(eng): Data: none (tmcd / 0x64636D74) (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro TCD
+      timecode        : 01:27:37:31
+    Stream #0:3(eng): Data: none (fdsc / 0x63736466), 13 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro SOS
+[mp4 @ 0xd57a00] Codec for stream 0 does not use global headers but container format requires global headers
+[mp4 @ 0xd57a00] Codec for stream 1 does not use global headers but container format requires global headers
+Output #0, mp4, to 'GOPR0188_EDIT_01.MP4':
+  Metadata:
+    major_brand     : mp41
+    minor_version   : 538120216
+    compatible_brands: mp41
+    encoder         : Lavf56.40.101
+    Stream #0:0(eng): Video: h264 ([33][0][0][0] / 0x0021), yuvj420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 29973 kb/s, 59.94 fps, 59.94 tbr, 60k tbn, 60k tbc (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AVC
+      encoder         : GoPro AVC encoder
+    Stream #0:1(eng): Audio: aac ([64][0][0][0] / 0x0040), 48000 Hz, stereo, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-11 01:27:32
+      handler_name    : 	GoPro AAC
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame= 2375 fps=0.0 q=-1.0 Lsize=  145821kB time=00:00:40.46 bitrate=29519.8kbits/s    
+video:145145kB audio:632kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.030737%
+```"
+25,Support repeated cutting of a clip,2017-03-11T16:42:08Z,2017-05-19T03:23:04Z,"ALREADY DONE, IN DISCUSSION",,,"Use case: I need to cut a clip into five parts. Right now, I have to restart the app, reload the video, find where the end of the last clip was, set is as as start, then set the end and cut as many times as I need to cut it. I think this workflow could be improved (by not closign the app after cutting, but if there were an option that would allow me to set multiple points A and B and then would cut multiple files at once, that would be great!"
+24,More keyboard shortcuts,2017-03-11T16:39:34Z,2017-05-19T03:20:43Z,"FEATURE REQUEST, PLANNED FOR NEXT VERSION",,,"Ideally, the app would use the same shortcuts that mpv itself uses for playback (detailed here: https://github.com/mpv-player/mpv/blob/master/etc/input.conf ideally including user customization in ~.config/mpv/input.conf), but I am mainly missing something that would go roughly 10 frames and about 2,5 seconds. Ideally one could set the concrete times and shortcuts oneself."
+23,produces zero-length files with VOB container,2017-03-11T16:17:21Z,2017-05-19T03:18:55Z,,,,"I got some VOB files from a DVD rip and I wanted to cut them up. They loaded just fine but when I tried to save them, a file got created that was zero-length. When I losslessly ocnverted the VOBs to mp4, I had no problems cutting them up using vidcutter."
+22,Reduce minimum window size for low resolution screen,2017-03-11T10:59:19Z,2017-03-11T12:00:13Z,"FEATURE REQUEST, IN DISCUSSION",,,This fixes #21 
+21,Minimum application size for low resolution screens,2017-03-10T17:58:44Z,2017-05-16T21:28:33Z,"FEATURE REQUEST, IN DISCUSSION",,,"Opening vidcutter on my eeepc I found that the application minimum size is just too big for my screen (1024x600) and it cannot be resized smaller:
+
+![vidcut_offscreen](https://cloud.githubusercontent.com/assets/606038/23806818/1c06fc50-05bb-11e7-9580-b7a601276a6b.png)
+
+A smaller minimum size setting would be much appreciated, thanks :)"
+20,I can't access all locations to open a file,2017-03-07T10:35:01Z,,"BUG - UNVALIDATED, IN DISCUSSION",,,"vidcutter see only etc, home, lib, usr folders on root partition.
+I can't access additional partition that is mounted to /media folder"
+19,VidCutter-3.0.0-linux-x64.AppImage is downloaded as .bin,2017-03-07T10:29:29Z,2017-03-11T11:28:40Z,NOT A BUG / ALREADY FIXED,,,"It might be confusing for some users. 
+
+I just change extension from bin to AppImage and run it like this (just for the record):
+./VidCutter-3.0.0-linux-x64.AppImage"
+18,Wrong version in the produced egg directory,2017-03-07T10:07:35Z,2017-03-07T15:20:16Z,SUPPORT / CLARIFICATIONS,,,"Version in vidcutter/\_\_init\_\_.py is still stuck at 3.0.0
+"
+17,not able to install in Ubuntu 16.1,2017-03-06T15:13:30Z,2017-05-16T21:33:42Z,"IN DISCUSSION, NOT A BUG / ALREADY FIXED",,,"CLI:  LOG
+
+jsroyal@Hp:~$ sudo add-apt-repository ppa:ozmartian/apps
+ Various apps for public distribution
+ More info: https://launchpad.net/~ozmartian/+archive/ubuntu/apps
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keybox '/tmp/tmpymfcubdd/pubring.gpg' created
+^[[Agpg: /tmp/tmpymfcubdd/trustdb.gpg: trustdb created
+gpg: key 9BCA8B4F51A082C4: public key ""Launchpad PPA for ozmartian"" imported
+^[[Agpg: Total number processed: 1
+gpg:               imported: 1
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+OK
+jsroyal@Hp:~$ sudo apt-get update
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+E: Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock directory /var/lib/apt/lists/
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+jsroyal@Hp:~$ sudo apt-get install vidcutter
+N: Ignoring file '20auto-upgrades.ucf-dist' in directory '/etc/apt/apt.conf.d/' as it has an invalid filename extension
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+jsroyal@Hp:~$ 
+
+Help me to install :)
+"
+16,VidCutter hanging on OSX El Capitan,2017-03-06T02:17:39Z,,"BUG - VALIDATED, IN DISCUSSION",,,"Hello,
+
+I just downloaded **VidCutter** to give it a try on my Mac and it run, but there are a couple of flaws, first the app is not compatible with retina displays, it looks pixelated, the other is that when I drop a video or open using the load media button the app just hangs, there is not error on logs.
+
+Regards,"
+15,Vidcutter on 14.04 (Mint Kde 17.3) stop working recently,2017-03-06T00:14:37Z,2017-03-11T11:22:40Z,"IN DISCUSSION, SUPPORT / CLARIFICATIONS",AttributeError,"AttributeError: type object 'QStandardPaths' has no attribute 'AppConfigLocation'","I use it a while ago but when I saw the new release 3, I relaunch it and it does not start anymore. I tried to re-install it but same thing. Tx
+
+Error ;
+maurice@KDE4-MINT:~ > vidcutter
+Traceback (most recent call last):
+  File ""/usr/bin/vidcutter"", line 9, in <module>
+    load_entry_point('vidcutter==2.6.5', 'gui_scripts', 'vidcutter')()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 144, in main
+    win = MainWindow()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 23, in __init__
+    self.init_logging()
+  File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 49, in init_logging
+    log_path = QStandardPaths.writableLocation(QStandardPaths.AppConfigLocation).lower()
+AttributeError: type object 'QStandardPaths' has no attribute 'AppConfigLocation'
+"
+14,Multi audio streams ,2017-03-05T22:24:28Z,2017-03-06T10:18:47Z,"BUG - VALIDATED, IN DISCUSSION",,,"I've found problem with cutting videos with multi audio streams. During cutting process only first audio stream is leaving in a result file.
+
+App ver 3.0.0"
+13,AppImage does not run on older systems,2017-03-05T18:10:07Z,2017-03-06T07:12:48Z,NOT A BUG / ALREADY FIXED,,,"Please don't use xenial ingredients for the AppImage, xenial is too new which means that the resulting AppImage will only run on very new systems. Using precise or trusty ingredients would be much better.
+
+For more background on this, see [here](https://github.com/probonopd/AppImageKit/wiki/Creating-AppImages#creating-portable-appimages)."
+12,VidCutter 3.0.0 AppImage cannot find libmpv in the usual places,2017-03-05T18:07:14Z,2017-03-06T07:15:35Z,"BUG - VALIDATED, NOT A BUG / ALREADY FIXED",OSError,"OSError: Cannot find libmpv in the usual places.","Python fails to import mpv.
+
+```
+me@host:~$ '/home/me/Downloads/VidCutter-3.0.0-linux-x64.AppImage' 
+Traceback (most recent call last):
+  File ""/tmp/.mount_jgstZG/usr/lib/python3.5/runpy.py"", line 184, in _run_module_as_main
+    ""__main__"", mod_spec)
+  File ""/tmp/.mount_jgstZG/usr/lib/python3.5/runpy.py"", line 85, in _run_code
+    exec(code, run_globals)
+  File ""/tmp/.mount_jgstZG/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 37, in <module>
+    from vidcutter.videocutter import VideoCutter
+  File ""/tmp/.mount_jgstZG/usr/lib/python3/dist-packages/vidcutter/videocutter.py"", line 40, in <module>
+    import vidcutter.mpv as mpv
+  File ""/tmp/.mount_jgstZG/usr/lib/python3/dist-packages/vidcutter/mpv.py"", line 29, in <module>
+    raise OSError(""Cannot find libmpv in the usual places."")
+OSError: Cannot find libmpv in the usual places.
+```
+
+This is the offending code:
+https://github.com/ozmartian/vidcutter/blob/7ca6960638633958387bb7034cbabdd5dd9e25e9/vidcutter/mpv.py#L27
+
+According to https://docs.python.org/3/library/ctypes.html
+
+> On Linux, find_library() tries to run external programs (/sbin/ldconfig, gcc, objdump and ld) to find the library file. It returns the filename of the library file.
+>
+> Changed in version 3.6: On Linux, the value of the environment variable LD_LIBRARY_PATH is used when searching for libraries, if a library cannot be found by any other means.
+
+Since your AppImage bundles 3.5, it ignores `LD_LIBRARY_PATH`. So this falls down for relocatable bundles like AppImages.
+
+Can you change the Python code to load the library using a path relative to the file loading it?"
+11,vidcutter won't start after recent update,2017-03-04T14:09:13Z,2017-03-04T18:33:47Z,FEATURE REQUEST,,,"@ Debian 7.0 x32 ...via ppa
+THis issue occured after getting recent update ...before that running flawless
+
+> vidcutter
+> Traceback (most recent call last):
+>   File ""/usr/bin/vidcutter"", line 9, in <module>
+>     load_entry_point('vidcutter==2.6.5', 'gui_scripts', 'vidcutter')()
+>   File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 144, in main
+>     win = MainWindow()
+>   File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 23, in __init__
+>     self.init_logging()
+>   File ""/usr/lib/python3/dist-packages/vidcutter/__main__.py"", line 49, in init_logging
+>     log_path = QStandardPaths.writableLocation(QStandardPaths.AppConfigLocation).lower()
+> AttributeError: type object 'QStandardPaths' has no attribute 'AppConfigLocation'
+> "
+10,LICENSE and README.md are installed in /usr,2017-02-22T19:07:35Z,2017-02-23T18:46:59Z,,,,"As per subject, I couldn't find a switch to use with setuptools to correct this.
+
+Since every other path is hardcoded for linux, couldn't the same be done for this?
+(e.g. /usr/share/doc/packages/vidcutter)
+"
+9,vidcutter won't startup,2017-01-27T12:46:04Z,2017-03-06T10:20:49Z,"IN DISCUSSION, NOT A BUG / ALREADY FIXED, SUPPORT / CLARIFICATIONS",,,"Ubuntu 14.04.5 install using the PPA.
+
+```
+$ vidcutter 
+
+(python3:10440): GStreamer-CRITICAL **: gst_object_ref: assertion 'object != NULL' failed
+Segmentation fault
+
+```
+Looked for a manpage - doesn't exist.
+Tried adding more verbose output with -d and -vvv options. 
+```
+$ vidcutter -h
+
+(python3:12326): GStreamer-CRITICAL **: gst_object_ref: assertion 'object != NULL' failed
+Segmentation fault
+
+```
+Don't know where to begin."
+8,2.5.0: Silent close on Windows 10 Pro x64 when opening media,2017-01-26T05:42:14Z,2017-03-06T10:19:26Z,"IN DISCUSSION, SUPPORT / CLARIFICATIONS",,,"I've been trying to use v2.5.0 x64 on Windows 10 Pro x64  and every time I try to load a video file, the program will silently terminate without any error message.
+
+Does VidCutter creates some kind of log somewhere to help assist with what's going on?
+
+Thanks,
+m-p-3"
+7,Great but lacks TWO MUST-HAVE features,2017-01-19T15:41:28Z,2017-06-20T02:01:42Z,"FEATURE REQUEST, GENERAL Q&A",,,"@BunsenLabs x32
+When I first installed via PPA & ran it ..throwed some `Segmentation Fault `error & didn't launch ,,Fixed via installing `gstreamer0.10-plugins-good & gstreamer0.10-plugins-ugly`
+
+FEATURES:
+1] Need to zoom on time line to get accurate time slicing for small screens
+2] Ability to Save/Load clip_index in some sort of project file be it .XML or simple .TXT to resume work on big duration videos"
+6,Vidcutter pip3 install in Fedora 25 : Requirement error,2017-01-19T13:50:12Z,2017-02-04T13:38:05Z,BUG - UNVALIDATED,,,"Hi ! I'm trying the pip3 install, but I can't get very far since it returns this error :
+`Collecting PyQt5>=5.5 (from vidcutter)
+  Could not find a version that satisfies the requirement PyQt5>=5.5 (from vidcutter) (from versions: )
+No matching distribution found for PyQt5>=5.5 (from vidcutter)`
+As little as I understand this, something about PyQt5 should be included but it's not yet provided ?
+Thank you for your help !"
+5,Appimage or Flatpak bundle,2017-01-18T13:12:45Z,2017-01-27T05:36:13Z,FEATURE REQUEST,,,Please add for using on Debian or like else
+4,fixed a character in the readme,2017-01-18T08:20:49Z,2017-03-10T06:01:08Z,,,,changed vidGutter-git to vidCutter-git
+3,Select start/end points by frame,2017-01-15T15:50:22Z,2017-03-06T10:19:54Z,"GENERAL Q&A, IN DISCUSSION",,,"Can you add option for selecting start/end points by frame?
+I think this is better and more precisely than selecting by time."
+2,Doesnt work on ubuntu 16.04,2017-01-14T05:09:52Z,2017-01-27T05:21:26Z,,RuntimeError,"RuntimeError: wrapped C/C++ object of type QWidget has been deleted","gui loads, but opening a video just crashes.
+
+log  from command line:
+
+
+vidcutter
+defaultServiceProvider::requestService(): no service found for - ""org.qt-project.qt.mediaplayer""
+Traceback (most recent call last):
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 739, in handleError
+    self.startNew()
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 688, in startNew
+    self.initNoVideo()
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 208, in initNoVideo
+    self.novideoWidget.setBackgroundRole(QPalette.Dark)
+RuntimeError: wrapped C/C++ object of type QWidget has been deleted
+Traceback (most recent call last):
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 739, in handleError
+    self.startNew()
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 688, in startNew
+    self.initNoVideo()
+  File ""/usr/lib/python3/dist-packages/vidcutter/vidcutter.py"", line 208, in initNoVideo
+    self.novideoWidget.setBackgroundRole(QPalette.Dark)
+RuntimeError: wrapped C/C++ object of type QWidget has been deleted
+
+"
+1,Feature Request EDL Support,2017-01-14T02:24:14Z,2017-01-27T05:26:32Z,FEATURE REQUEST,,,"Please consider adding EDL support as produced by comskip and VideoReDo.
+Would be ideal if EDL markers could be manually tweaked, since comskip isn't always right.
+
+TIA"
